@@ -34,6 +34,10 @@ class GeminiError(Exception):
     pass
 
 
+MAX_DENEME = 5
+KOPMA_DENEME = 3
+
+
 BASE = os.path.dirname(os.path.abspath(__file__))
 CONTENT = os.path.join(BASE, "content")
 ARTICLES = os.path.join(CONTENT, "articles")
@@ -119,8 +123,8 @@ def call_gemini(prompt, key, model):
     }).encode("utf-8")
     req = urllib.request.Request(url, data=body, method="POST", headers={
         "Content-Type": "application/json", "x-goog-api-key": key})
-    kopma = 0
-    for attempt in range(7):
+    deneme, kopma = 1, 0
+    while True:
         try:
             with urllib.request.urlopen(req, timeout=120) as r:
                 data = json.loads(r.read().decode("utf-8"))
@@ -128,10 +132,16 @@ def call_gemini(prompt, key, model):
             return "".join(p.get("text", "") for p in parts).strip()
         except urllib.error.HTTPError as e:
             msg = e.read().decode("utf-8", "replace")[:300]
-            if e.code in (429, 500, 503) and attempt < 3:
-                wait = 20 * (attempt + 1)
-                print(f"  API {e.code}, {wait} sn bekleniyor…")
+            if e.code in (429, 500, 503):
+                if deneme >= MAX_DENEME:
+                    raise GeminiError(
+                        f"Gemini {e.code} hatası {MAX_DENEME} denemede geçmedi; üretim durduruldu. "
+                        f"Sunucu yoğun olabilir, birkaç dakika sonra tekrar dene. Yanıt: {msg}")
+                wait = 20 * 2 ** (deneme - 1)
+                print(f"  API {e.code} (sunucu yoğun), {wait} sn bekleniyor… "
+                      f"(deneme {deneme}/{MAX_DENEME - 1})")
                 time.sleep(wait)
+                deneme += 1
                 continue
             raise GeminiError(f"Gemini hatası {e.code}: {msg} (Model adı eskimiş olabilir: GEMINI_MODEL değerini AI Studio'dan kontrol et.)")
         except (http.client.RemoteDisconnected, urllib.error.URLError) as e:
@@ -140,11 +150,11 @@ def call_gemini(prompt, key, model):
                     or isinstance(getattr(e, "reason", None), http.client.RemoteDisconnected)):
                 raise
             kopma += 1
-            if kopma > 3:
-                raise GeminiError("Gemini bağlantıyı 3 kez üst üste kesti; tekrar deneyin.")
-            print(f"  Bağlantı koptu, 30 sn bekleniyor… ({kopma}/3)")
+            if kopma > KOPMA_DENEME:
+                raise GeminiError(
+                    f"Gemini bağlantısı {KOPMA_DENEME} kez üst üste koptu; üretim durduruldu.")
+            print(f"  Bağlantı koptu, 30 sn bekleniyor… ({kopma}/{KOPMA_DENEME})")
             time.sleep(30)
-    raise GeminiError("Gemini yanıt vermedi.")
 
 
 def validate(body, prods):
