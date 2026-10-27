@@ -1,0 +1,40 @@
+{% extends "base.html" %}
+{% block title %}{{ article.meta_title }}{% endblock %}
+{% block description %}{{ article.meta_description }}{% endblock %}
+{% block jsonld %}<script type="application/ld+json">{{ jsonld|safe }}</script>{% endblock %}
+{% block content %}
+<nav class="breadcrumb" aria-label="breadcrumb">
+  <a href="/">Ana Sayfa</a> <span>›</span>
+  <a href="/kategori/{{ article.category }}/">{{ article.category_name }}</a> <span>›</span>
+  <span class="current">{{ article.title }}</span>
+</nav>
+
+<article class="article">
+  <h1 class="article-title">{{ article.title }}</h1>
+  <p class="article-meta">📅 {{ article.date }} &nbsp;·&nbsp; 🏷️ {{ article.category_name }}</p>
+  <div class="article-disclosure article-disclosure-top">
+    <strong>ℹ️ Affiliate Açıklaması:</strong> {{ site.affiliate_disclosure }}
+  </div>
+  {% if article.image %}<img class="article-hero" onerror="this.remove()" src="{{ article.image }}" alt="{{ article.image_alt }}" width="760" height="320">
+  {% if article.image_credit %}<p class="img-credit">Fotoğraf: <a href="{{ article.image_credit_url }}" target="_blank" rel="noopener">{{ article.image_credit }}</a> / <a href="https://unsplash.com/?utm_source=hobibul&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></p>{% endif %}{% endif %}
+  <div class="article-body">
+    {{ article.body_html|safe }}
+  </div>
+  <a class="cat-cta" href="/kategori/{{ article.category }}/">{{ article.category_name }} kategorisindeki tüm ekipman önerileri →</a>
+</article>
+
+{% if related %}
+<section class="related">
+  <h2>Bunlar da ilgini çekebilir</h2>
+  <div class="article-grid">
+    {% for a in related %}
+    <a class="article-card" href="/makale/{{ a.slug }}/">
+      {% if a.image %}<img class="article-card-img" src="{{ a.image }}" alt="{{ a.image_alt }}" loading="lazy" width="600" height="160">{% endif %}
+      <h3>{{ a.title }}</h3>
+      <span class="read-more">Oku →</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+{% endblock %}

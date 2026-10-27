@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# OS / editör
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# geçici
+gh.zip
+
+# NOT: docs/ klasörü bilinçli olarak commit'lenir (GitHub Pages onu yayınlar).
+
+# gizli anahtarlar
+.env

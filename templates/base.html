@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="l-23yAEZ-R05ZbV6TM0HkL3iECB6zI1FgHFrHqKu_ek">
+  <title>{% block title %}{{ site.default_meta.title }}{% endblock %}</title>
+  <meta name="description" content="{% block description %}{{ site.default_meta.description }}{% endblock %}">
+  {% block canonical %}<link rel="canonical" href="{{ base_url }}{{ canonical_path }}">{% endblock %}
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ site.site_name }}">
+  <meta property="og:title" content="{{ self.title() }}">
+  <meta property="og:description" content="{{ self.description() }}">
+  <meta property="og:url" content="{{ base_url }}{{ canonical_path }}">
+  <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+  <link rel="stylesheet" href="/css/style.css">
+  {% block head %}{% endblock %}
+  {% block jsonld %}{% endblock %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="/" class="brand"><img src="/img/logo.svg" alt="{{ site.site_name }}" class="brand-logo"></a>
+      <nav class="main-nav" aria-label="Ana menü">
+        <a href="/">Ana Sayfa</a>
+        <div class="dropdown">
+          <button class="dropbtn" type="button">Kategoriler ▾</button>
+          <div class="dropdown-content">
+            {% for c in all_categories %}
+            <a href="/kategori/{{ c.slug }}/">{{ c.name }}</a>
+            {% endfor %}
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn" type="button">Rehberler ▾</button>
+          <div class="dropdown-content">
+            {% for a in articles %}
+            <a href="/makale/{{ a.slug }}/">{{ a.title }}</a>
+            {% endfor %}
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {% block content %}{% endblock %}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-cols">
+        <div class="footer-about">
+          <h3>🎯 {{ site.site_name }}</h3>
+          <p>{{ site.tagline }}</p>
+        </div>
+        <div class="footer-cats">
+          <h3>Kategoriler</h3>
+          <ul>
+            {% for c in all_categories %}
+            <li><a href="/kategori/{{ c.slug }}/">{{ c.name }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="footer-guides">
+          <h3>Rehberler</h3>
+          <ul>
+            {% for a in articles %}
+            <li><a href="/makale/{{ a.slug }}/">{{ a.title }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+      <div class="disclosure">
+        <strong>Affiliate (Ortaklık) Açıklaması:</strong> {{ site.affiliate_disclosure }}
+      </div>
+      <p class="copyright">© {{ year }} {{ site.site_name }} · {{ site.domain }} · Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <script src="/js/config.js"></script>
+  <script src="/js/tracker.js"></script>
+  {% block scripts %}{% endblock %}
+</body>
+</html>

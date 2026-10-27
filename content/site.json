@@ -1,0 +1,19 @@
+{
+  "site_name": "Hobi Bul",
+  "tagline": "Türkiye'nin En Kapsamlı Hobi Rehberi",
+  "domain": "hobibul.com.tr",
+  "base_url": "https://hobibul.com.tr",
+  "language": "tr",
+  "default_meta": {
+    "title": "Hobi Bul — Tüm Hobi Çeşitleri, Ekipman Rehberleri ve Öneriler",
+    "description": "Hobi Bul: Outdoor, el sanatları, müzik, teknoloji, koleksiyon, spor ve sanat hobileri için en iyi ekipman rehberleri, ürün karşılaştırmaları ve başlangıç kılavuzları."
+  },
+  "amazon_tag": "hobibulsite67-20",
+  "dashboard_password": "hobibul123",
+  "analytics": {
+    "provider": "supabase",
+    "supabase_url": "https://jwxnpzgggrteaztahwmb.supabase.co",
+    "supabase_anon_key": "sb_publishable_TtghSy2kAGXLzC2jinFVQQ_B1UG4e-o"
+  },
+  "affiliate_disclosure": "Bu sitedeki bazı bağlantılar affiliate (ortaklık) bağlantılarıdır. Bu bağlantılar üzerinden yapılan satın alımlarda size ek bir maliyet yansımaz; ancak Hobi Bul küçük bir komisyon kazanabilir. Önerdiğimiz ürünleri, komisyondan bağımsız olarak titizlikle seçiyoruz."
+}

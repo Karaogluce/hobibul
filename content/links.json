@@ -1,0 +1,43 @@
+{
+  "networks": {
+    "amazon": {
+      "name": "Amazon",
+      "type": "search",
+      "base_url": "https://www.amazon.com/s",
+      "query_param": "k",
+      "tag_param": "tag",
+      "tag": "hobibulsite67-20",
+      "active": false
+    },
+    "amazon_tr": {
+      "name": "Amazon Türkiye",
+      "type": "search",
+      "base_url": "https://www.amazon.com.tr/s",
+      "query_param": "k",
+      "tag_param": "tag",
+      "tag": "hobibulsite-21",
+      "active": true,
+      "note": "Amazon Türkiye affiliate tag'i aktif."
+    },
+    "trendyol": {
+      "name": "Trendyol",
+      "type": "search",
+      "base_url": "https://www.trendyol.com/sr",
+      "query_param": "q",
+      "tag_param": "",
+      "tag": "",
+      "active": false,
+      "note": "Trendyol Affiliate programına katıldığında affiliate link şablonunu buraya ekle."
+    },
+    "hepsiburada": {
+      "name": "Hepsiburada",
+      "type": "search",
+      "base_url": "https://www.hepsiburada.com/ara",
+      "query_param": "q",
+      "tag_param": "",
+      "tag": "",
+      "active": false,
+      "note": "Hepsiburada Affiliate (ws) link yapısını buraya ekle."
+    }
+  }
+}

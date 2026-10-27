@@ -1,0 +1,1342 @@
+[
+  {
+    "id": "outdoor",
+    "name": "Outdoor & Doğa",
+    "slug": "outdoor",
+    "description": "Kamp, dağcılık, balıkçılık ve bisiklet gibi doğa hobileri için en iyi ekipman seçimleri.",
+    "meta_title": "En İyi 5 Outdoor & Doğa Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+    "meta_description": "Doğada geçirilen zamanı daha keyifli ve güvenli kılan ekipmanları karşılaştırdık. Öne çıkanlar: Osprey Atmos AG 65, Garmin Instinct 2, MSR PocketRocket 2. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+    "subcategories": [
+      {
+        "id": "kampcilik",
+        "name": "Kampçılık",
+        "slug": "kampcilik",
+        "description": "Çadırdan ocağa, kamp için ihtiyacın olan tüm temel ekipmanlar.",
+        "meta_title": "En İyi 5 Kampçılık Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "İlk kamp deneyiminden deneyimli kampçıya kadar herkes için temel ekipmanları seçtik. Öne çıkanlar: Coleman Sundome, Therm-a-Rest Z Lite, MSR PocketRocket 2. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/d/d8/Bivvy_on_an_island_-_geograph.org.uk_-_139048.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Books_from_the_Library_of_Congress_%28IA_campingincanadia00wilc%29.pdf/page1-960px-Books_from_the_Library_of_Congress_%28IA_campingincanadia00wilc%29.pdf.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Camping-car_de_type_bus.JPG/960px-Camping-car_de_type_bus.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Camping_Equipment_%28542927498%29.jpg/960px-Camping_Equipment_%28542927498%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Caravans_in_Govik_Camping.jpg/960px-Caravans_in_Govik_Camping.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Dome_tent.JPG/960px-Dome_tent.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Bivvy_on_an_island_-_geograph.org.uk_-_139048.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      {
+        "id": "dagcilik-trekking",
+        "name": "Dağcılık & Trekking",
+        "slug": "dagcilik-trekking",
+        "description": "Zorlu parkurlar için bot, baton, GPS ve sırt çantası önerileri.",
+        "meta_title": "En İyi 5 Dağcılık & Trekking Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Dağ yürüyüşleri ve trekking için dayanıklılığı ön planda tutan ekipmanları derledik. Öne çıkanlar: Salomon X Ultra 4, Black Diamond Trail, Garmin eTrex 22x. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/80km_Karhunkierros_Hiking_Trail.jpg/960px-80km_Karhunkierros_Hiking_Trail.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Abbey_and_the_mountain.JPG/960px-Abbey_and_the_mountain.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3f/Austria_ridge_hike.jpg/960px-Austria_ridge_hike.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/3/30/Claife_Station.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Escursionismo_sulle_Alpi.jpg/960px-Escursionismo_sulle_Alpi.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Global_thinking.svg/960px-Global_thinking.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c4/80km_Karhunkierros_Hiking_Trail.jpg/960px-80km_Karhunkierros_Hiking_Trail.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "balikcilik",
+        "name": "Balıkçılık",
+        "slug": "balikcilik",
+        "description": "Olta, makine, takım kutusu ve misina rehberi.",
+        "meta_title": "En İyi 5 Balıkçılık Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Amatör balıkçılar için başlangıç seviyesinden profesyonele ekipman seçtik. Öne çıkanlar: Ugly Stik GX2, Shimano Sedona FI, Plano Edge. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/A_Brixham_trawler.jpg/960px-A_Brixham_trawler.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/12/Albatun_Dod.jpg/960px-Albatun_Dod.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/An_evening_fishing_-_by_Francis_Hannaway.jpg/960px-An_evening_fishing_-_by_Francis_Hannaway.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Angler_at_devizes_england_arp.jpg/960px-Angler_at_devizes_england_arp.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/3/3d/Antennarius_striatus.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Contribution_of_fish_to_animal_protein_supply%2C_average_2013-2015.svg/960px-Contribution_of_fish_to_animal_protein_supply%2C_average_2013-2015.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/A_Brixham_trawler.jpg/960px-A_Brixham_trawler.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "bisiklet",
+        "name": "Bisiklet",
+        "slug": "bisiklet",
+        "description": "Şehir ve yol bisikleti, kask, pompa ve aksesuar önerileri.",
+        "meta_title": "En İyi 5 Bisiklet Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Bisiklet sürmeyi hobiye dönüştürenler için bisiklet ve aksesuar seçtik. Öne çıkanlar: Schwinn Discover, Bell Formula, Topeak JoeBlow. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/1886_Starley_%27Rover%27_Safety_Cycle_British_Motor_Museum_09-2016_%2829928044262%29.jpg/960px-1886_Starley_%27Rover%27_Safety_Cycle_British_Motor_Museum_09-2016_%2829928044262%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5d/1886_Swift_Safety_Bicycle_Coventry_Transport_Museum.jpg/960px-1886_Swift_Safety_Bicycle_Coventry_Transport_Museum.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/2008-09-06_Solitary_bicycle_wheel_in_a_bike_rack.jpg/960px-2008-09-06_Solitary_bicycle_wheel_in_a_bike_rack.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/A_man_riding_an_electric_bicycle.jpg/960px-A_man_riding_an_electric_bicycle.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/9/96/A_wheel_within_a_wheel_page_56.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7f/Anatomic_bicycle_grips_made_of_leather.jpg/960px-Anatomic_bicycle_grips_made_of_leather.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/1886_Starley_%27Rover%27_Safety_Cycle_British_Motor_Museum_09-2016_%2829928044262%29.jpg/960px-1886_Starley_%27Rover%27_Safety_Cycle_British_Motor_Museum_09-2016_%2829928044262%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "kaya-tirmanis",
+        "name": "Kaya Tırmanışı",
+        "slug": "kaya-tirmanis",
+        "description": "Tırmanış ayakkabısı, kask, ip ve emniyet ekipmanları.",
+        "meta_title": "En İyi 5 Kaya Tırmanışı Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Kaya tırmanışına başlayanlar için güvenlik ve konfor odaklı ekipmanları seçtik. Öne çıkanlar: La Sportiva Tarantulace, Petzl Kask, Black Diamond Emniyet Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/2022-08-12_European_Championships_2022_%E2%80%93_Sport_Climbing_Women%27s_Boulder_by_Sandro_Halank%E2%80%93003.jpg/960px-2022-08-12_European_Championships_2022_%E2%80%93_Sport_Climbing_Women%27s_Boulder_by_Sandro_Halank%E2%80%93003.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/2024_Summer_Olympics_otin_41.jpg/960px-2024_Summer_Olympics_otin_41.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Action_Directe_%28Waldkopf%29.JPG/960px-Action_Directe_%28Waldkopf%29.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Adam_Ondra_climbing_Silence_9c_by_PAVEL_BLAZEK_2.jpg/960px-Adam_Ondra_climbing_Silence_9c_by_PAVEL_BLAZEK_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/43/Agamemnon_%2834031328463%29.jpg/960px-Agamemnon_%2834031328463%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Alex_Honnold_El_Capitan_Free_Solo_1.png/960px-Alex_Honnold_El_Capitan_Free_Solo_1.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/2022-08-12_European_Championships_2022_%E2%80%93_Sport_Climbing_Women%27s_Boulder_by_Sandro_Halank%E2%80%93003.jpg/960px-2022-08-12_European_Championships_2022_%E2%80%93_Sport_Climbing_Women%27s_Boulder_by_Sandro_Halank%E2%80%93003.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/d/d8/Bivvy_on_an_island_-_geograph.org.uk_-_139048.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Books_from_the_Library_of_Congress_%28IA_campingincanadia00wilc%29.pdf/page1-960px-Books_from_the_Library_of_Congress_%28IA_campingincanadia00wilc%29.pdf.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ad/Camping-car_de_type_bus.JPG/960px-Camping-car_de_type_bus.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Camping_Equipment_%28542927498%29.jpg/960px-Camping_Equipment_%28542927498%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Caravans_in_Govik_Camping.jpg/960px-Caravans_in_Govik_Camping.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Dome_tent.JPG/960px-Dome_tent.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ],
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/d/d8/Bivvy_on_an_island_-_geograph.org.uk_-_139048.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "card_image": "https://images.unsplash.com/photo-1478131143081-80f7f84ca84d?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "el-sanatlari",
+    "name": "El Sanatları & DIY",
+    "slug": "el-sanatlari",
+    "description": "Örgü, takı, ahşap ve resim gibi yaratıcı el işi hobileri için malzeme rehberleri.",
+    "meta_title": "En İyi 5 El Sanatları & DIY Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+    "meta_description": "Evde yaratıcılığınızı ortaya çıkaracak el sanatları malzemelerini karşılaştırdık. Öne çıkanlar: Clover Tığ Seti, Darice Takı Seti, Dremel 3000. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+    "subcategories": [
+      {
+        "id": "orgu-tig",
+        "name": "Örgü & Tığ İşi",
+        "slug": "orgu-tig",
+        "description": "Şiş, tığ, iplik ve aksesuarlarla örgüye başlangıç rehberi.",
+        "meta_title": "En İyi 5 Örgü & Tığ İşi Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Örgü ve tığ işine yeni başlayanlar için temel malzemeleri seçtik. Öne çıkanlar: Clover Amour Tığ, Boye Şiş Seti, Lion Brand İplik. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/9/9a/Alpackaull.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Cable_Needles.JPG/960px-Cable_Needles.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Circular_knitting_needles.JPG/960px-Circular_knitting_needles.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/7/7e/Detailed_close_up_of_multi-coloured_knitting_stitches.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Double_pointed_knitting_needles.JPG/960px-Double_pointed_knitting_needles.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Drawing_by_Marguerite_Martyn_of_two_women_and_a_child%2C_all_knitting_for_the_war_effort_in_St._Louis%2C_Missouri.jpg/960px-Drawing_by_Marguerite_Martyn_of_two_women_and_a_child%2C_all_knitting_for_the_war_effort_in_St._Louis%2C_Missouri.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://upload.wikimedia.org/wikipedia/commons/9/9a/Alpackaull.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      {
+        "id": "taki-yapimi",
+        "name": "Takı Yapımı",
+        "slug": "taki-yapimi",
+        "description": "Boncuk, tel, pense ve bulgu malzemeleriyle takı tasarımı.",
+        "meta_title": "En İyi 5 Takı Yapımı Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Kendi takını tasarlamak için gerekli temel malzeme ve aletleri derledik. Öne çıkanlar: Darice Takı Seti, Beadalon Tel, Jewelry Pense Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Olertis_Custom_Jewelry_Ring_Design_with_Hand-Drawn_Sketch_and_3D_CAD_Model.jpg/960px-Olertis_Custom_Jewelry_Ring_Design_with_Hand-Drawn_Sketch_and_3D_CAD_Model.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Olertis_Jewelry-Making_Tools%2C_Gemstones_and_Jewelry_Pieces.jpg/960px-Olertis_Jewelry-Making_Tools%2C_Gemstones_and_Jewelry_Pieces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Hand_Filing_a_Ring_at_Olertis.jpg/960px-Hand_Filing_a_Ring_at_Olertis.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/%EC%84%9C%EB%B4%89%EC%B4%9D_%EA%B8%88%EA%B4%80_%EA%B8%88%EC%A0%9C%EB%93%9C%EB%A6%AC%EA%B0%9C.jpg/960px-%EC%84%9C%EB%B4%89%EC%B4%9D_%EA%B8%88%EA%B4%80_%EA%B8%88%EC%A0%9C%EB%93%9C%EB%A6%AC%EA%B0%9C.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/80/Hindu_Bride%2C_Ahmedabad%2C_Gujarat.jpg/960px-Hindu_Bride%2C_Ahmedabad%2C_Gujarat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Olertis_Custom_Jewelry_Ring_Design_with_Hand-Drawn_Sketch_and_3D_CAD_Model.jpg/960px-Olertis_Custom_Jewelry_Ring_Design_with_Hand-Drawn_Sketch_and_3D_CAD_Model.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "ahsap-isleri",
+        "name": "Ahşap İşleri",
+        "slug": "ahsap-isleri",
+        "description": "El aletleri ve elektrikli aletlerle ahşap projeleri.",
+        "meta_title": "En İyi 5 Ahşap İşleri Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Ahşap işçiliğine başlayanlar için güvenli ve kullanışlı aletleri seçtik. Öne çıkanlar: Dremel 3000, Irwin Matkap Uçları, WORKPRO Alet Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Woodworking_Tools_at_the_Women%27s_Woodshop_in_Minneapolis%2C_MN.jpg/960px-Woodworking_Tools_at_the_Women%27s_Woodshop_in_Minneapolis%2C_MN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Woodworking_apron.webp/960px-Woodworking_apron.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Woodworking_with_Hand_Tools_at_the_North_House_Folk_School_in_Grand_Marais%2C_MN.jpg/960px-Woodworking_with_Hand_Tools_at_the_North_House_Folk_School_in_Grand_Marais%2C_MN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Students_Watching_a_Steam_Bending_Demo_from_Woodworker_David_Haig_at_Center_for_Furniture_Craftsmanship_in_Maine.jpg/960px-Students_Watching_a_Steam_Bending_Demo_from_Woodworker_David_Haig_at_Center_for_Furniture_Craftsmanship_in_Maine.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/A_Woodworker_Whittling_in_Front_of_a_Wood_Stove.jpg/960px-A_Woodworker_Whittling_in_Front_of_a_Wood_Stove.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0b/Woodworking_Tools_at_the_Women%27s_Woodshop_in_Minneapolis%2C_MN.jpg/960px-Woodworking_Tools_at_the_Women%27s_Woodshop_in_Minneapolis%2C_MN.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "resim-boyama",
+        "name": "Resim & Boyama",
+        "slug": "resim-boyama",
+        "description": "Akrilik, sulu boya ve fırça setleriyle resme başlangıç.",
+        "meta_title": "En İyi 5 Resim & Boyama Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Resim yapmaya başlamak isteyenler için boya ve fırça setlerini karşılaştırdık. Öne çıkanlar: Liquitex Akrilik Set, Winsor & Newton, Princeton Fırça Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/The_triumph_of_french_painting_The_apotheosis_of_Poussin%2C_Le_Sueur_and_Le_Brune_-_Louvre.jpg/960px-The_triumph_of_french_painting_The_apotheosis_of_Poussin%2C_Le_Sueur_and_Le_Brune_-_Louvre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Madonna_with_child_and_angels.jpg/960px-Madonna_with_child_and_angels.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Thure_de_Thulstrup_-_L._Prang_and_Co._-_Battle_of_Gettysburg_-_Restoration_by_Adam_Cuerden.jpg/960px-Thure_de_Thulstrup_-_L._Prang_and_Co._-_Battle_of_Gettysburg_-_Restoration_by_Adam_Cuerden.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/P.S._Kr%C3%B8yer%2C_Et_m%C3%B8de_i_Videnskabernes_Selskab%2C_1897%2C_Det_Kongelige_Danske_Videnskaberners_Selskab.jpg/960px-P.S._Kr%C3%B8yer%2C_Et_m%C3%B8de_i_Videnskabernes_Selskab%2C_1897%2C_Det_Kongelige_Danske_Videnskaberners_Selskab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "mum-sabun",
+        "name": "Mum & Sabun Yapımı",
+        "slug": "mum-sabun",
+        "description": "El yapımı mum ve sabun için kalıp, esans ve malzemeler.",
+        "meta_title": "En İyi 5 Mum & Sabun Yapımı Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Evde mum ve sabun yapmak için temel malzeme ve setleri derledik. Öne çıkanlar: Mum Kalıp Seti, Esansiyel Yağ, Sabun Bazı. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Candle_light_projected_through_a_glass_orb.jpg/960px-Candle_light_projected_through_a_glass_orb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/%D0%9C%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D1%80_%D0%9C%D0%BE%D1%88%D1%82%D0%B0%D0%BD%D0%B8%D1%86%D0%B0-%D0%BA%D0%B0%D0%BF%D0%B5%D0%BB%D0%B0_%D0%B7%D0%B0_%D0%BF%D0%B0%D1%99%D0%B5%D1%9A%D0%B5_%D1%81%D0%B2%D0%B5%D1%9B%D0%B0_%28Mo%C5%A1tanica_Monastery%2C_chapel_for_lighting_candles%29.jpg/960px-%D0%9C%D0%B0%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D1%80_%D0%9C%D0%BE%D1%88%D1%82%D0%B0%D0%BD%D0%B8%D1%86%D0%B0-%D0%BA%D0%B0%D0%BF%D0%B5%D0%BB%D0%B0_%D0%B7%D0%B0_%D0%BF%D0%B0%D1%99%D0%B5%D1%9A%D0%B5_%D1%81%D0%B2%D0%B5%D1%9B%D0%B0_%28Mo%C5%A1tanica_Monastery%2C_chapel_for_lighting_candles%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/Religi%C3%B3n_en_Isla_Margarita%2C_Valle_del_Esp%C3%ADritu_Santo.jpg/960px-Religi%C3%B3n_en_Isla_Margarita%2C_Valle_del_Esp%C3%ADritu_Santo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/Woman_lighting_the_candles_for_the_Festival_of_Lights_in_India_%28cropped%29.jpg/960px-Woman_lighting_the_candles_for_the_Festival_of_Lights_in_India_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Reception_lounge_at_Amantaka_luxury_Resort_%26_Hotel_at_blue_hour_in_Luang_Prabang_Laos.jpg/960px-Reception_lounge_at_Amantaka_luxury_Resort_%26_Hotel_at_blue_hour_in_Luang_Prabang_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Candle_light_projected_through_a_glass_orb.jpg/960px-Candle_light_projected_through_a_glass_orb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "deri-isleri",
+        "name": "Deri İşçiliği",
+        "slug": "deri-isleri",
+        "description": "Deri kesme, dikme ve işleme aletleri.",
+        "meta_title": "En İyi 5 Deri İşçiliği Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Deri işçiliğine başlayanlar için temel alet ve deri setlerini seçtik. Öne çıkanlar: Deri Alet Seti, Deri Parçası, Toka Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Leather_bags_craft_of_Shantiniketan%2C_West_Bengal.jpg/960px-Leather_bags_craft_of_Shantiniketan%2C_West_Bengal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1a/Custom_Leather_Craft_-_Tong_Road_-_geograph.org.uk_-_1826100.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/5/57/Cebu_Leather_and_rattan_crafts.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Nepal_Leather_Craft_in_Germany.jpg/960px-Nepal_Leather_Craft_in_Germany.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6d/Yoruba_Leather_crafter.jpg/960px-Yoruba_Leather_crafter.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d4/Leather_bags_craft_of_Shantiniketan%2C_West_Bengal.jpg/960px-Leather_bags_craft_of_Shantiniketan%2C_West_Bengal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ],
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Artesanato_Mineiro.jpg/960px-Artesanato_Mineiro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9c/Bat-Trang-Ceramic-Village6.jpg/960px-Bat-Trang-Ceramic-Village6.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Buell_Childrens_Museum_Art_Room_by_David_Shankbone.jpg/960px-Buell_Childrens_Museum_Art_Room_by_David_Shankbone.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/Cykel_gjord_av_en_enda_l%C3%A5ng_metalltr%C3%A5d_-_Ystad_2026.jpg/960px-Cykel_gjord_av_en_enda_l%C3%A5ng_metalltr%C3%A5d_-_Ystad_2026.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/e/e0/Hand_made_sofa_set.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://upload.wikimedia.org/wikipedia/commons/c/c7/Handcrafted_Shoes.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    ],
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b8/Artesanato_Mineiro.jpg/960px-Artesanato_Mineiro.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "card_image": "https://images.unsplash.com/photo-1452860606245-08befc0ff44b?w=600&q=80"
+  },
+  {
+    "id": "muzik",
+    "name": "Müzik",
+    "slug": "muzik",
+    "description": "Gitar, klavye, davul ve DJ ekipmanlarıyla müziğe başlangıç rehberleri.",
+    "meta_title": "En İyi 5 Müzik Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+    "meta_description": "Enstrüman çalmaya başlayanlar ve seviye atlamak isteyenler için ekipmanları karşılaştırdık. Öne çıkanlar: Fender Player Stratocaster, Yamaha P-45, Alesis Nitro Max. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+    "subcategories": [
+      {
+        "id": "gitar",
+        "name": "Gitar",
+        "slug": "gitar",
+        "description": "Akustik ve elektro gitarlar, amfi ve aksesuarlar.",
+        "meta_title": "En İyi 5 Gitar Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "İlk gitarını alacaklar için başlangıç seviyesinden orta seviyeye enstrümanları seçtik. Öne çıkanlar: Fender Player Stratocaster, Yamaha F310, Boss Katana 50. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Ashton_ABG.JPG/960px-Ashton_ABG.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a0/Bernd_Voss_-_Copito_Blues_guitar.ogv/330px--Bernd_Voss_-_Copito_Blues_guitar.ogv.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo",
+          "https://upload.wikimedia.org/wikipedia/commons/8/87/Chris_Squire%2C_2003_%281%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/4/49/Diagonal_shift_of_C-major_chord_in_major-thirds_tuning.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1f/Eric-Clapton_1975.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/a/aa/Fingandslide.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Ashton_ABG.JPG/960px-Ashton_ABG.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "klavye-piyano",
+        "name": "Klavye & Piyano",
+        "slug": "klavye-piyano",
+        "description": "Dijital piyano, klavye ve stand önerileri.",
+        "meta_title": "En İyi 5 Klavye & Piyano Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Piyanoya başlamak isteyenler için bütçe dostu ve kaliteli klavyeleri derledik. Öne çıkanlar: Yamaha P-45, Casio CT-S300, Roland FP-10. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Broadwood_grand_square_action.svg/960px-Broadwood_grand_square_action.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c6/CristoforiPiano1726LeipzigKeyboardView.jpg/960px-CristoforiPiano1726LeipzigKeyboardView.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/b/bd/D274.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/3/3a/DisklavierPlayer.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1b/DuplexScale.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Erard_double_pilot_action.svg/960px-Erard_double_pilot_action.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/26/Broadwood_grand_square_action.svg/960px-Broadwood_grand_square_action.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "davul-perkusyon",
+        "name": "Davul & Perküsyon",
+        "slug": "davul-perkusyon",
+        "description": "Elektronik davul, akustik davul ve perküsyon aletleri.",
+        "meta_title": "En İyi 5 Davul & Perküsyon Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Evde pratik yapmak için sessiz ve kompakt davul çözümlerini seçtik. Öne çıkanlar: Alesis Nitro Max, Vic Firth 5A, Roland TD-1DMK. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/2006-07-06_snare_14.jpg/960px-2006-07-06_snare_14.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/4-piece_drum_set_in_a_music_school.jpg/960px-4-piece_drum_set_in_a_music_school.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/c/cb/ARNO_DRUM_KEYS_COLLECTION_Custom_Drum_Key.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Aasizzler2.jpg/960px-Aasizzler2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Anders_Johansson_2.jpg/960px-Anders_Johansson_2.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://en.wikipedia.org/w/resources/assets/file-type-icons/fileicon-ogg.png"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/2006-07-06_snare_14.jpg/960px-2006-07-06_snare_14.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "dj-produksiyon",
+        "name": "DJ & Prodüksiyon",
+        "slug": "dj-produksiyon",
+        "description": "DJ kontrol cihazları, kulaklık ve prodüksiyon ekipmanları.",
+        "meta_title": "En İyi 5 DJ & Prodüksiyon Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Ev stüdyosu kuranlar için DJ kontrol ve prodüksiyon ekipmanlarını karşılaştırdık. Öne çıkanlar: Pioneer DDJ-FLX4, Audio-Technica ATH-M50x, Focusrite Scarlett. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/c/c3/45_record.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/DJ_Mixer.JPG/960px-DJ_Mixer.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/DJ_QBert_at_Rainbow_Warehouse%2C_Birmingham_UK.webm/500px--DJ_QBert_at_Rainbow_Warehouse%2C_Birmingham_UK.webm.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Grand_wizzard_theodore.JPG/960px-Grand_wizzard_theodore.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/5/5f/Jill_Wernstr%C3%B6m_1971.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Mixxx-1.11.0-Deere.png/960px-Mixxx-1.11.0-Deere.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://upload.wikimedia.org/wikipedia/commons/c/c3/45_record.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      {
+        "id": "keman-yayli",
+        "name": "Keman & Yaylı Çalgılar",
+        "slug": "keman-yayli",
+        "description": "Keman, viyola, yay ve aksesuarlar.",
+        "meta_title": "En İyi 5 Keman & Yaylı Çalgılar Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Yaylı çalgı çalmaya başlayanlar için enstrüman ve aksesuarları karşılaştırdık. Öne çıkanlar: Cremona Keman, Keman Yayı, Rosin. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Akella_Mallikarjuna_Sarma_playing_the_Violin_in_the_Indian_Carnatic_Style.jpg/960px-Akella_Mallikarjuna_Sarma_playing_the_Violin_in_the_Indian_Carnatic_Style.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/0/04/Anders_Zorn_-_Hins_Anders_%281904%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/D800_A4339_viool.jpg/960px-D800_A4339_viool.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Gaudenzio_Ferrari_002.jpg/960px-Gaudenzio_Ferrari_002.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Gnome-mime-sound-openclipart.svg/960px-Gnome-mime-sound-openclipart.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/LembeyeLembeyon.jpg/960px-LembeyeLembeyon.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Akella_Mallikarjuna_Sarma_playing_the_Violin_in_the_Indian_Carnatic_Style.jpg/960px-Akella_Mallikarjuna_Sarma_playing_the_Violin_in_the_Indian_Carnatic_Style.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ],
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Divje_Babe_flute_%28Late_Pleistocene_flute%29.jpg/960px-Divje_Babe_flute_%28Late_Pleistocene_flute%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Bortal_%28Musical_instrument%29of_Assam.jpg/960px-Bortal_%28Musical_instrument%29of_Assam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/Cherja%28Musical_instrument%29of_Assam.jpg/960px-Cherja%28Musical_instrument%29of_Assam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/Kortal%28Musical_instrument%29of_Assam.jpg/960px-Kortal%28Musical_instrument%29of_Assam.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Musical_instruments_of_Karbi_Tribe.jpg/960px-Musical_instruments_of_Karbi_Tribe.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ],
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Divje_Babe_flute_%28Late_Pleistocene_flute%29.jpg/960px-Divje_Babe_flute_%28Late_Pleistocene_flute%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "card_image": "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=600&q=80"
+  },
+  {
+    "id": "teknoloji",
+    "name": "Teknoloji",
+    "slug": "teknoloji",
+    "description": "Raspberry Pi, 3D yazıcı, drone ve PC modlama gibi teknoloji hobileri.",
+    "meta_title": "En İyi 5 Teknoloji Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+    "meta_description": "Teknoloji meraklıları için maker ve yapay zeka projelerine uygun ekipmanları seçtik. Öne çıkanlar: Raspberry Pi 5, Creality Ender 3 V3, DJI Mini 4K. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+    "subcategories": [
+      {
+        "id": "raspberry-pi-elektronik",
+        "name": "Raspberry Pi & Elektronik",
+        "slug": "raspberry-pi-elektronik",
+        "description": "Raspberry Pi kitleri, sensörler ve elektronik başlangıç setleri.",
+        "meta_title": "En İyi 5 Raspberry Pi & Elektronik Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Elektronik projelere başlayanlar için tek kart bilgisayar ve aksesuarları derledik. Öne çıkanlar: Raspberry Pi 5, Arduino Uno R3, Freenove Başlangıç Kiti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/b/b5/18713-Raspberry_Pi_Zero_2_W-04_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/1/14/CM_4_TOP_DOWN_ON_WHITE_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Drawing_of_Raspberry_Pi_model_A%2B_rev1.1_%28cropped%29.svg/960px-Drawing_of_Raspberry_Pi_model_A%2B_rev1.1_%28cropped%29.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Drawing_of_Raspberry_Pi_model_B_rev2.svg/960px-Drawing_of_Raspberry_Pi_model_B_rev2.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Front_of_Raspberry_Pi.jpg/960px-Front_of_Raspberry_Pi.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/8/8d/Nuvola_apps_ksim.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        ],
+        "hero": "https://upload.wikimedia.org/wikipedia/commons/b/b5/18713-Raspberry_Pi_Zero_2_W-04_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      {
+        "id": "3d-yazici",
+        "name": "3D Yazıcı",
+        "slug": "3d-yazici",
+        "description": "Başlangıç seviyesi 3D yazıcılar ve filamentler.",
+        "meta_title": "En İyi 5 3D Yazıcı Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "3D baskıya başlayanlar için güvenilir ve uygun fiyatlı yazıcıları karşılaştırdık. Öne çıkanlar: Creality Ender 3 V3, Bambu Lab A1 Mini, PLA Filament. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/7/7b/3DBenchy_created_using_color_mixing_on_an_FDM_printer.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/9/98/3D_Printed_Ancient_Egyptian_Figurine_1.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/3D_Printing-skylt.jpg/960px-3D_Printing-skylt.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/ba/3D_selfie_in_1_20_scale_in_my_palm_after_one_spray_of_clear_satin_acrylic_varnish_IMG_4751_FRD.jpg/960px-3D_selfie_in_1_20_scale_in_my_palm_after_one_spray_of_clear_satin_acrylic_varnish_IMG_4751_FRD.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/84530877_FillingSys_%289415669149%29.jpg/960px-84530877_FillingSys_%289415669149%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Die_Buchdruckerei_by_Daniel_Chodowiecki_%28150289207%29.jpg/960px-Die_Buchdruckerei_by_Daniel_Chodowiecki_%28150289207%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://upload.wikimedia.org/wikipedia/commons/7/7b/3DBenchy_created_using_color_mixing_on_an_FDM_printer.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      {
+        "id": "drone",
+        "name": "Drone",
+        "slug": "drone",
+        "description": "Başlangıç ve hobi amaçlı drone'lar ve aksesuarlar.",
+        "meta_title": "En İyi 5 Drone Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Hava fotoğrafçılığı ve eğlence için başlangıç seviyesi drone'ları seçtik. Öne çıkanlar: DJI Mini 4K, Holy Stone HS720, DJI Neo. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/2024-_Russian_drones_launched_against_Ukraine.svg/960px-2024-_Russian_drones_launched_against_Ukraine.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/AbuseMark_AfroFlight_Naze_32_Flight_Controller_rev5_white.jpg/960px-AbuseMark_AfroFlight_Naze_32_Flight_Controller_rev5_white.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Aviacionavion.png/960px-Aviacionavion.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Bayraktar_TB2_of_UAF%2C_2020%2C_09.jpg/960px-Bayraktar_TB2_of_UAF%2C_2020%2C_09.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Cannon_support_of_anti-drone_complex_%22Rat%60h%22_on_the_SBA-70K2_chassis_%28front_view%29.jpg/960px-Cannon_support_of_anti-drone_complex_%22Rat%60h%22_on_the_SBA-70K2_chassis_%28front_view%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Complex-adaptive-system.jpg/960px-Complex-adaptive-system.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/2024-_Russian_drones_launched_against_Ukraine.svg/960px-2024-_Russian_drones_launched_against_Ukraine.svg.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "oyun-pc-modlama",
+        "name": "Oyun & PC Modlama",
+        "slug": "oyun-pc-modlama",
+        "description": "Mekanik klavye, oyun ekipmanı ve PC modlama parçaları.",
+        "meta_title": "En İyi 5 Oyun & PC Modlama Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Oyun deneyimini kişiselleştirmek isteyenler için ekipmanları derledik. Öne çıkanlar: Keychron K2, Logitech G502, Corsair Kasa. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/ABS_PC_and_monitor_setup.jpg/960px-ABS_PC_and_monitor_setup.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9f/ASUS_ROG_Strix_G15_%28G513QY-HQ012T%29-front_oblique_PNr%C2%B00884.jpg/960px-ASUS_ROG_Strix_G15_%28G513QY-HQ012T%29-front_oblique_PNr%C2%B00884.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Alienware_M14x_%282%29.jpg/960px-Alienware_M14x_%282%29.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Das_Innenleben_eines_Gaming-PCs_aus_2021_20211126_HOF08249_RAW-Export_20220714004140.png/960px-Das_Innenleben_eines_Gaming-PCs_aus_2021_20211126_HOF08249_RAW-Export_20220714004140.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Gaming_Computer.png/960px-Gaming_Computer.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Gaming_PC-Setup_-_Astaroth-_The_Completed_System.jpg/960px-Gaming_PC-Setup_-_Astaroth-_The_Completed_System.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/ABS_PC_and_monitor_setup.jpg/960px-ABS_PC_and_monitor_setup.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "robotik",
+        "name": "Robotik & Kodlama",
+        "slug": "robotik",
+        "description": "Robot kitleri, sensörler ve kodlama setleri.",
+        "meta_title": "En İyi 5 Robotik & Kodlama Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Robotik projelere başlayanlar için eğitici kit ve bileşenleri derledik. Öne çıkanlar: LEGO Mindstorms, Arduino Robot Kit, Servo Motor Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/8/84/Toyota_Robot_at_Toyota_Kaikan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Curiosity_-_Robot_Geologist_and_Chemist_in_One%21.jpg/960px-Curiosity_-_Robot_Geologist_and_Chemist_in_One%21.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/d/d3/Robot_Bug.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Set_of_Robot_Images.png/960px-Set_of_Robot_Images.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Rocket_robot_bottom.png/960px-Rocket_robot_bottom.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://upload.wikimedia.org/wikipedia/commons/8/84/Toyota_Robot_at_Toyota_Kaikan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      }
+    ],
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Arduino_ftdi_chip-1.jpg/960px-Arduino_ftdi_chip-1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Audion_receiver.jpg/960px-Audion_receiver.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Componentes.JPG/960px-Componentes.JPG?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Logic-gates-circuits.png/960px-Logic-gates-circuits.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/MOS6581_chtaube061229.jpg/960px-MOS6581_chtaube061229.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/8/8d/Nuvola_apps_ksim.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    ],
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d9/Arduino_ftdi_chip-1.jpg/960px-Arduino_ftdi_chip-1.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "card_image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=600&q=80"
+  },
+  {
+    "id": "koleksiyon",
+    "name": "Koleksiyon",
+    "slug": "koleksiyon",
+    "description": "Pul, para, LEGO, kart oyunları ve vintage koleksiyon rehberleri.",
+    "meta_title": "En İyi 5 Koleksiyon Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+    "meta_description": "Koleksiyon yapmaya başlayanlar ve koleksiyonunu büyütenler için araçları seçtik. Öne çıkanlar: LEGO Creator, Ultra Pro Albüm, Numis Para Albümü. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+    "subcategories": [
+      {
+        "id": "pul-para",
+        "name": "Pul & Para",
+        "slug": "pul-para",
+        "description": "Albüm, büyüteç ve saklama malzemeleri.",
+        "meta_title": "En İyi 5 Pul & Para Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Pul ve para koleksiyonunu düzenli saklamak için gerekli malzemeleri derledik. Öne çıkanlar: Lighthouse Albüm, Bausch & Lomb Büyüteç, Numis Para Kapsülleri. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Coin_collection.jpg/960px-Coin_collection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Mynt_-_Ekonomiska_museet_-_Kungliga_myntkabinettet_-_DIG_61623.jpg/960px-Mynt_-_Ekonomiska_museet_-_Kungliga_myntkabinettet_-_DIG_61623.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Mynt_-_Ekonomiska_museet_-_Kungliga_myntkabinettet_-_DIG_61638.jpg/960px-Mynt_-_Ekonomiska_museet_-_Kungliga_myntkabinettet_-_DIG_61638.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0f/Mynt_-_Ekonomiska_museet_-_Kungliga_myntkabinettet_-_DIG_61639.jpg/960px-Mynt_-_Ekonomiska_museet_-_Kungliga_myntkabinettet_-_DIG_61639.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/India%2C_Chandragupta_II%2C_Gupta_Period_-_Coin_with_Figure_of_an_Archer_-_1977.62_-_Cleveland_Museum_of_Art.jpg/960px-India%2C_Chandragupta_II%2C_Gupta_Period_-_Coin_with_Figure_of_an_Archer_-_1977.62_-_Cleveland_Museum_of_Art.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Coin_collection.jpg/960px-Coin_collection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "lego-model",
+        "name": "LEGO & Model",
+        "slug": "lego-model",
+        "description": "LEGO setleri, maket ve model yapımı.",
+        "meta_title": "En İyi 5 LEGO & Model Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "LEGO ve maket modelciliğine başlayanlar için önerilen setleri seçtik. Öne çıkanlar: LEGO Creator Expert, Tamiya Maket Seti, Revell Model Boya. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Pile_of_light_gray_LEGO_bricks_at_a_LEGO_store.jpg/960px-Pile_of_light_gray_LEGO_bricks_at_a_LEGO_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/14-05-28-LEGO-by-RalfR-061.jpg/960px-14-05-28-LEGO-by-RalfR-061.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/46/14-05-28-LEGO-by-RalfR-053.jpg/960px-14-05-28-LEGO-by-RalfR-053.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Lego_bricks.jpg/960px-Lego_bricks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/90/Simple_lego_bike.jpg/960px-Simple_lego_bike.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Pile_of_light_gray_LEGO_bricks_at_a_LEGO_store.jpg/960px-Pile_of_light_gray_LEGO_bricks_at_a_LEGO_store.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "kart-oyunlari",
+        "name": "Kart Oyunları",
+        "slug": "kart-oyunlari",
+        "description": "Ticaret kartı oyunları, koruyucu ve saklama aksesuarları.",
+        "meta_title": "En İyi 5 Kart Oyunları Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Kart oyunu koleksiyoncuları için koruma ve saklama çözümlerini karşılaştırdık. Öne çıkanlar: Ultra Pro Kılıf, BCW Saklama Kutusu, Dragon Shield Kılıf. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Valentin_de_Boulogne_-_Soldiers_Playing_Cards_and_Dice_%28The_Cheats%29.jpg/960px-Valentin_de_Boulogne_-_Soldiers_Playing_Cards_and_Dice_%28The_Cheats%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Whot-cards_Nigerian_playing_rules_example1.jpg/960px-Whot-cards_Nigerian_playing_rules_example1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/UCB_Playing_Cards.png/960px-UCB_Playing_Cards.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Whot-Cards-Nigeria-2.jpg/960px-Whot-Cards-Nigeria-2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Original_Stag_playing_cards%2C_printed_by_the_Canadian_Playing_Card_Company.png/960px-Original_Stag_playing_cards%2C_printed_by_the_Canadian_Playing_Card_Company.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/87/Valentin_de_Boulogne_-_Soldiers_Playing_Cards_and_Dice_%28The_Cheats%29.jpg/960px-Valentin_de_Boulogne_-_Soldiers_Playing_Cards_and_Dice_%28The_Cheats%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "vintage-antika",
+        "name": "Vintage & Antika",
+        "slug": "vintage-antika",
+        "description": "Antika değerleme, temizlik ve sergileme araçları.",
+        "meta_title": "En İyi 5 Vintage & Antika Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Vintage eşyaları korumak ve sergilemek için gerekli araçları derledik. Öne çıkanlar: Weiman Gümüş Cilası, Vantuzlu Cam Tutucu, Antika Nem Ölçer. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Wooden_Antique_Table_Lamp.jpg/960px-Wooden_Antique_Table_Lamp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/MT._Madja-as_of_Antique.jpg/960px-MT._Madja-as_of_Antique.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/5/5e/%D0%9C%D0%B0%D0%B3%D0%B0%D0%B7%D0%B8%D0%BD_%D1%80%D0%B0%D1%80%D0%B8%D1%82%D0%B5%D1%82%D0%BD%D1%8B%D1%85_%D1%84%D0%BE%D1%82%D0%BE%D0%B0%D0%BF%D0%BF%D0%B0%D1%80%D0%B0%D1%82%D0%BE%D0%B2_%D0%B2_%D0%9F%D1%80%D0%B0%D0%B3%D0%B5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/13/Antique_Mall_8640.jpg/960px-Antique_Mall_8640.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/Antique_Mall_8639.jpg/960px-Antique_Mall_8639.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Wooden_Antique_Table_Lamp.jpg/960px-Wooden_Antique_Table_Lamp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "masaustu-oyun",
+        "name": "Masaüstü & Minyatür Oyunlar",
+        "slug": "masaustu-oyun",
+        "description": "Masaüstü oyunlar, minyatür boyama ve aksesuarlar.",
+        "meta_title": "En İyi 5 Masaüstü & Minyatür Oyunlar Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Masaüstü oyun ve minyatür boyama hobisi için temel setleri seçtik. Öne çıkanlar: Catan, Warhammer Boya Seti, Zar Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Board_game_pieces.jpg/960px-Board_game_pieces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/c/c6/Container_the_board_game.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/The_Balderdash_board_game_and_pieces_02.jpg/960px-The_Balderdash_board_game_and_pieces_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/The_Balderdash_board_game_and_pieces_01.jpg/960px-The_Balderdash_board_game_and_pieces_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Castles_of_Burgundy_%28Board_Game%29.jpg/960px-Castles_of_Burgundy_%28Board_Game%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Board_game_pieces.jpg/960px-Board_game_pieces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ],
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Bee_Collecting_Pollen_2004-08-14.jpg/960px-Bee_Collecting_Pollen_2004-08-14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Collecting_ideas_for_brainstorming.png/960px-Collecting_ideas_for_brainstorming.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/SPCA_collecting_box.jpg/960px-SPCA_collecting_box.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/4/4c/Beetle_collection.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/35/Collecting_boxes%2C_Museum_of_Methodism.jpg/960px-Collecting_boxes%2C_Museum_of_Methodism.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ],
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Bee_Collecting_Pollen_2004-08-14.jpg/960px-Bee_Collecting_Pollen_2004-08-14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "card_image": "https://images.unsplash.com/photo-1610375461246-83df859d849d?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "spor-fitness",
+    "name": "Spor & Fitness",
+    "slug": "spor-fitness",
+    "description": "Koşu, yoga, evde fitness ve yüzme hobileri için ekipman rehberleri.",
+    "meta_title": "En İyi 5 Spor & Fitness Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+    "meta_description": "Evde ve dışarıda formda kalmak için en etkili ekipmanları seçtik. Öne çıkanlar: Nike Pegasus, Liforme Yoga Matı, Bowflex Ayarlanabilir Dambıl. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+    "subcategories": [
+      {
+        "id": "kosu",
+        "name": "Koşu",
+        "slug": "kosu",
+        "description": "Koşu ayakkabısı, saat ve aksesuarlar.",
+        "meta_title": "En İyi 5 Koşu Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Koşuya başlayanlar için konforlu ve dayanıklı ekipmanları karşılaştırdık. Öne çıkanlar: Nike Pegasus, Garmin Forerunner 55, FlipBelt. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/039_Juvenile_blue_wildebeest_covered_in_mud_running_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/960px-039_Juvenile_blue_wildebeest_covered_in_mud_running_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/193_Herd_of_Reindeers_running_in_Southern_Iceland_Photo_by_Giles_Laurent.jpg/960px-193_Herd_of_Reindeers_running_in_Southern_Iceland_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/192_Herd_of_Reindeers_running_in_Southern_Iceland_Photo_by_Giles_Laurent.jpg/960px-192_Herd_of_Reindeers_running_in_Southern_Iceland_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cf/Great_Sand_Dunes_NP_1.jpg/960px-Great_Sand_Dunes_NP_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fc/Juvenile_Hippos_Running_Stream3_Lupande_Jul23_A7R_06414.jpg/960px-Juvenile_Hippos_Running_Stream3_Lupande_Jul23_A7R_06414.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/29/039_Juvenile_blue_wildebeest_covered_in_mud_running_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg/960px-039_Juvenile_blue_wildebeest_covered_in_mud_running_in_the_Serengeti_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "yoga-pilates",
+        "name": "Yoga & Pilates",
+        "slug": "yoga-pilates",
+        "description": "Yoga matı, blok ve aksesuarlar.",
+        "meta_title": "En İyi 5 Yoga & Pilates Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Evde yoga ve pilates pratiği için kaliteli mat ve aksesuarları derledik. Öne çıkanlar: Liforme Mat, Gaiam Yoga Blokları, Manduka PRO. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Ambigram_Body_Yoga%2C_mirror_symmetry.png/960px-Ambigram_Body_Yoga%2C_mirror_symmetry.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Yoga_%28IMO_9790921%29_Liverpool_2019.jpg/960px-Yoga_%28IMO_9790921%29_Liverpool_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Bharadwaja.jpg/960px-Bharadwaja.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/30/State_Yoga_Championship_05.jpg/960px-State_Yoga_Championship_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/6/67/State_Yoga_Championship_03.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Ambigram_Body_Yoga%2C_mirror_symmetry.png/960px-Ambigram_Body_Yoga%2C_mirror_symmetry.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "evde-fitness",
+        "name": "Evde Fitness",
+        "slug": "evde-fitness",
+        "description": "Dambıl, direnç bandı ve kompakt fitness ekipmanları.",
+        "meta_title": "En İyi 5 Evde Fitness Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Evde spor yapmak için alan tasarrufu sağlayan ekipmanları seçtik. Öne çıkanlar: Bowflex Dambıl, TRX Askı Kayışı, TheraBand Direnç Bantları. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/M27-Dumbbell_Nebula-29-07-2026.jpg/960px-M27-Dumbbell_Nebula-29-07-2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Young_man_lifting_dumbbell_weight_for_exercise_in_fitness_gym.jpg/960px-Young_man_lifting_dumbbell_weight_for_exercise_in_fitness_gym.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Aluminium_Dumbbell.jpg/960px-Aluminium_Dumbbell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/Colorful_dumbbells_of_various_sizes.jpg/960px-Colorful_dumbbells_of_various_sizes.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/Purple_dumbbells_on_a_pile.jpg/960px-Purple_dumbbells_on_a_pile.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7d/M27-Dumbbell_Nebula-29-07-2026.jpg/960px-M27-Dumbbell_Nebula-29-07-2026.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "yuzme",
+        "name": "Yüzme",
+        "slug": "yuzme",
+        "description": "Gözlük, bone ve antrenman ekipmanları.",
+        "meta_title": "En İyi 5 Yüzme Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Yüzmeyi geliştirmek için antrenman ekipmanlarını karşılaştırdık. Öne çıkanlar: Speedo Gözlük, Arena Bone, Speedo Palet. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/051_Chital_swimming_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg/960px-051_Chital_swimming_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9e/188_Jaguar_swimming_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/960px-188_Jaguar_swimming_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/df/055_Capybara_swimming_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg/960px-055_Capybara_swimming_in_Encontro_das_%C3%81guas_State_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1f/CrocoLoco-swimming-01.jpg/960px-CrocoLoco-swimming-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/African_common_toad_%28Amietophrynus_gutturalis%29_swimming.jpg/960px-African_common_toad_%28Amietophrynus_gutturalis%29_swimming.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e6/051_Chital_swimming_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg/960px-051_Chital_swimming_in_Keoladeo_National_Park_Photo_by_Giles_Laurent.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "vucut-gelistirme",
+        "name": "Vücut Geliştirme",
+        "slug": "vucut-gelistirme",
+        "description": "Ağırlık, bar, bench ve takviye ekipmanları.",
+        "meta_title": "En İyi 5 Vücut Geliştirme Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Vücut geliştirmeye başlayanlar için temel ağırlık ve ekipmanları karşılaştırdık. Öne çıkanlar: Olimpik Bar, Ayarlanabilir Dambıl, Bench Sehpası. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Inder_mohan_Singh_Bodybuilder.jpg/960px-Inder_mohan_Singh_Bodybuilder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/33/Image_of_Australian_Bodybuilder_Blair_Cottrell.jpg/960px-Image_of_Australian_Bodybuilder_Blair_Cottrell.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/8/87/Bakhtiyor_Khaydarov_Judge_World_Bodybuilding_and_Physique_Sports_Federation.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/b/ba/Bodybuilding_photo.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/Bodybuilding_images.jpg/960px-Bodybuilding_images.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/Inder_mohan_Singh_Bodybuilder.jpg/960px-Inder_mohan_Singh_Bodybuilder.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "dovus-sporlari",
+        "name": "Dövüş Sporları",
+        "slug": "dovus-sporlari",
+        "description": "Boks eldiveni, torba ve koruma ekipmanları.",
+        "meta_title": "En İyi 5 Dövüş Sporları Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Boks, kickboks ve dövüş sporları için temel ekipmanları seçtik. Öne çıkanlar: Boks Eldiveni, Kum Torbası, Bandaj Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Boxing080905_photoshop.jpg/960px-Boxing080905_photoshop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Heavyweight_Boxing_Champs_-_%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0.png/960px-Heavyweight_Boxing_Champs_-_%D1%83%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%B0_%D0%BC%D0%BE%D0%B2%D0%B0.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/5/5d/Boxing_Entertainment_Championship.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/Roomaif_best_boxing_fight.jpg/960px-Roomaif_best_boxing_fight.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Baby_Madison_-_Boxing.png/960px-Baby_Madison_-_Boxing.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Boxing080905_photoshop.jpg/960px-Boxing080905_photoshop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "raket-sporlari",
+        "name": "Raket Sporları",
+        "slug": "raket-sporlari",
+        "description": "Tenis, badminton ve masa tenisi ekipmanları.",
+        "meta_title": "En İyi 5 Raket Sporları Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Raket sporlarına başlayanlar için raket ve top setlerini derledik. Öne çıkanlar: Tenis Raketi, Badminton Seti, Masa Tenisi Raketi. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Rich%C3%A8l_Hogenkamp_-_Masters_de_Madrid_2015_-_11.jpg/960px-Rich%C3%A8l_Hogenkamp_-_Masters_de_Madrid_2015_-_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/2013_Australian_Open_-_Guillaume_Rufin.jpg/960px-2013_Australian_Open_-_Guillaume_Rufin.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Kei_Nishikori_1%2C_Wimbledon_2013_-_Diliff.jpg/960px-Kei_Nishikori_1%2C_Wimbledon_2013_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Petra_Martic_1%2C_Wimbledon_2013_-_Diliff.jpg/960px-Petra_Martic_1%2C_Wimbledon_2013_-_Diliff.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/2017_US_Open_Tennis_-_Qualifying_Rounds_-_Viktoriya_Tomova_%28BUL%29_def._Polona_Hercog_%28SLO%29_%2836916572131%29.jpg/960px-2017_US_Open_Tennis_-_Qualifying_Rounds_-_Viktoriya_Tomova_%28BUL%29_def._Polona_Hercog_%28SLO%29_%2836916572131%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Rich%C3%A8l_Hogenkamp_-_Masters_de_Madrid_2015_-_11.jpg/960px-Rich%C3%A8l_Hogenkamp_-_Masters_de_Madrid_2015_-_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/f7/Gym_fitness_centre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Attractive_man_lifting_dumbbell_weight_for_exercise_in_fitness_gym.jpg/960px-Attractive_man_lifting_dumbbell_weight_for_exercise_in_fitness_gym.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Young_man_lifting_dumbbell_weight_for_exercise_in_fitness_gym.jpg/960px-Young_man_lifting_dumbbell_weight_for_exercise_in_fitness_gym.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Gym_%5E_Fitness_Club_-_geograph.org.uk_-_7214886.jpg/960px-Gym_%5E_Fitness_Club_-_geograph.org.uk_-_7214886.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Total_Fitness_gym_%28geograph_6728158%29.jpg/960px-Total_Fitness_gym_%28geograph_6728158%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ],
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Gym_fitness_centre.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "card_image": "https://images.unsplash.com/photo-1518611012118-696072aa579a?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "sanat",
+    "name": "Sanat",
+    "slug": "sanat",
+    "description": "Fotoğrafçılık, çizim, seramik ve dikiş gibi sanatsal hobiler.",
+    "meta_title": "En İyi 5 Sanat Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+    "meta_description": "Sanatsal ifadenizi geliştirecek ekipman ve malzemeleri seçtik. Öne çıkanlar: Canon EOS R50, Faber-Castell Set, Sakura Seramik Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+    "subcategories": [
+      {
+        "id": "fotografcilik",
+        "name": "Fotoğrafçılık",
+        "slug": "fotografcilik",
+        "description": "Fotoğraf makinesi, lens ve aksesuar önerileri.",
+        "meta_title": "En İyi 5 Fotoğrafçılık Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Fotoğrafçılığa başlayanlar için aynasız makine ve temel aksesuarları derledik. Öne çıkanlar: Canon EOS R50, Sony A6400, Peak Design Askı. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/4/4b/Camera_1922_07.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a8/Panoramakopf_mit_Canon_EOS_700D_IMG_4886.jpg/960px-Panoramakopf_mit_Canon_EOS_700D_IMG_4886.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3d/The_built_in_flash_of_a_SLR_camera%2C_Pentax_MZ-30%2C_firing_1.jpg/960px-The_built_in_flash_of_a_SLR_camera%2C_Pentax_MZ-30%2C_firing_1.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/92/%28_a_bit_of_Photography_equipment_Tripods_Photo_Camera_Tripod%29_camera_tripod.jpg/960px-%28_a_bit_of_Photography_equipment_Tripods_Photo_Camera_Tripod%29_camera_tripod.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/Camera_zoom_burst_on_a_Microsoft_computer_keyboard_in_Tuntorp_8.jpg/960px-Camera_zoom_burst_on_a_Microsoft_computer_keyboard_in_Tuntorp_8.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://upload.wikimedia.org/wikipedia/commons/4/4b/Camera_1922_07.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      {
+        "id": "kaligrafi-cizim",
+        "name": "Kaligrafi & Çizim",
+        "slug": "kaligrafi-cizim",
+        "description": "Kalem, mürekkep ve çizim setleri.",
+        "meta_title": "En İyi 5 Kaligrafi & Çizim Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Kaligrafi ve çizime başlayanlar için kaliteli kalem setlerini seçtik. Öne çıkanlar: Faber-Castell Polychromos, Tombow Fudenosuke, Strathmore Defter. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg/960px-Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c7/Folio_from_a_Koran_%288th-9th_century%29.jpg/960px-Folio_from_a_Koran_%288th-9th_century%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Hamla-i_Haydari_Bazil_%281808%29_BNF_Gallica.jpg/960px-Hamla-i_Haydari_Bazil_%281808%29_BNF_Gallica.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Calligraphy_word.jpg/960px-Calligraphy_word.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Learning_Arabic_calligraphy.jpg/960px-Learning_Arabic_calligraphy.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg/960px-Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "seramik-comlek",
+        "name": "Seramik & Çömlek",
+        "slug": "seramik-comlek",
+        "description": "Kil, tornet ve seramik aletleri.",
+        "meta_title": "En İyi 5 Seramik & Çömlek Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Seramik sanatına başlayanlar için temel kil ve alet setlerini karşılaştırdık. Öne çıkanlar: Sculpey Kil, Amaco Kil, Seramik Alet Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Pottery_wares_at_Sidi_Bousaid_3.jpg/960px-Pottery_wares_at_Sidi_Bousaid_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/66/Play_with_a_wheel.jpg/960px-Play_with_a_wheel.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Tajines_in_a_pottery_shop_in_Morocco.jpg/960px-Tajines_in_a_pottery_shop_in_Morocco.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/Pottery_at_the_Chokhi_Dhani_Resort_Panchkula_24.jpg/960px-Pottery_at_the_Chokhi_Dhani_Resort_Panchkula_24.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/Pottery_at_the_Chokhi_Dhani_Resort_Panchkula_32.jpg/960px-Pottery_at_the_Chokhi_Dhani_Resort_Panchkula_32.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Pottery_wares_at_Sidi_Bousaid_3.jpg/960px-Pottery_wares_at_Sidi_Bousaid_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "dikis-nakis",
+        "name": "Dikiş & Nakış",
+        "slug": "dikis-nakis",
+        "description": "Dikiş makinesi, iplik ve nakış malzemeleri.",
+        "meta_title": "En İyi 5 Dikiş & Nakış Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Dikişe ve nakışa başlayanlar için güvenilir makineler ve malzemeler seçtik. Öne çıkanlar: Brother XM2701, Singer Start 1304, DMC Nakış İpliği. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Vesta_sewing_machine_IMGP0718.jpg/960px-Vesta_sewing_machine_IMGP0718.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Woman_sewing_a_face_mask_with_a_Singer_machine_09.jpg/960px-Woman_sewing_a_face_mask_with_a_Singer_machine_09.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Woman_sewing_a_face_mask_with_a_Singer_machine_08.jpg/960px-Woman_sewing_a_face_mask_with_a_Singer_machine_08.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Woman_sewing_a_face_mask_with_a_Singer_machine_14.jpg/960px-Woman_sewing_a_face_mask_with_a_Singer_machine_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Woman_sewing_a_face_mask_with_a_Singer_machine_05.jpg/960px-Woman_sewing_a_face_mask_with_a_Singer_machine_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bc/Vesta_sewing_machine_IMGP0718.jpg/960px-Vesta_sewing_machine_IMGP0718.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "heykel",
+        "name": "Heykel & Modelaj",
+        "slug": "heykel",
+        "description": "Kil, modelaj aletleri ve heykel malzemeleri.",
+        "meta_title": "En İyi 5 Heykel & Modelaj Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Heykel ve modelaj sanatına başlayanlar için temel malzemeleri seçtik. Öne çıkanlar: Monster Clay, Modelaj Alet Seti, Tel İskelet. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Passion_of_Jesus_%28sculpture_%22Crucifixion_of_Jesus%22_observing_%22Virgin_Mary_cradling_the_dead_body_of_Jesus%22%29.jpg/960px-Passion_of_Jesus_%28sculpture_%22Crucifixion_of_Jesus%22_observing_%22Virgin_Mary_cradling_the_dead_body_of_Jesus%22%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Dynamic_Mobile_Steel_Sculpture%2C_Victoria%2C_British_Columbia%2C_Canada_01.jpg/960px-Dynamic_Mobile_Steel_Sculpture%2C_Victoria%2C_British_Columbia%2C_Canada_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG/960px-Discobolus_in_National_Roman_Museum_Palazzo_Massimo_alle_Terme.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Kampen%2C_Sculpture_De_Kamper_koe._10-01-2022._%28actm.%29.jpg/960px-Kampen%2C_Sculpture_De_Kamper_koe._10-01-2022._%28actm.%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cd/Sur_En-Sent._Sculpture_Negativ_-_Positive._Artwork_by_Peter_Gredig._17-10-2024._%28actm.%29_01.jpg/960px-Sur_En-Sent._Sculpture_Negativ_-_Positive._Artwork_by_Peter_Gredig._17-10-2024._%28actm.%29_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/aa/Passion_of_Jesus_%28sculpture_%22Crucifixion_of_Jesus%22_observing_%22Virgin_Mary_cradling_the_dead_body_of_Jesus%22%29.jpg/960px-Passion_of_Jesus_%28sculpture_%22Crucifixion_of_Jesus%22_observing_%22Virgin_Mary_cradling_the_dead_body_of_Jesus%22%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ],
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Ernst_Ludwig_Kirchner_-_Czardas_dancers_-_Google_Art_Project.jpg/960px-Ernst_Ludwig_Kirchner_-_Czardas_dancers_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Madonna_with_child_and_angels.jpg/960px-Madonna_with_child_and_angels.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0c/Jean-L%C3%A9on_G%C3%A9r%C3%B4me_-_The_Carpet_Merchant_-_Google_Art_Project.jpg/960px-Jean-L%C3%A9on_G%C3%A9r%C3%B4me_-_The_Carpet_Merchant_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg/960px-Jan_Vermeer_-_The_Art_of_Painting_-_Google_Art_Project.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ],
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg/960px-Mona_Lisa%2C_by_Leonardo_da_Vinci%2C_from_C2RMF_retouched.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "card_image": "https://images.unsplash.com/photo-1513364776144-60967b0f800f?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "yemek-mutfak",
+    "name": "Yemek & Mutfak",
+    "slug": "yemek-mutfak",
+    "description": "Yemek pişirme, kahve, ekmek ve mangal gibi mutfak hobileri.",
+    "meta_title": "En İyi 5 Yemek & Mutfak Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+    "meta_description": "Mutfağı hobisine dönüştürenler için en iyi ekipmanları karşılaştırdık. Öne çıkanlar: Lodge Döküm Tava, Chemex, KitchenAid Mikser. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+    "subcategories": [
+      {
+        "id": "yemek-pisirme",
+        "name": "Yemek Pişirme",
+        "slug": "yemek-pisirme",
+        "description": "Bıçak, tava ve temel mutfak ekipmanları.",
+        "meta_title": "En İyi 5 Yemek Pişirme Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Evde yemek pişirmeyi keyfe dönüştüren ekipmanları seçtik. Öne çıkanlar: Zwilling Bıçak, Lodge Döküm Tava, Le Creuset. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Chef_cooking_fish_from_Lake_Malawi.jpg/960px-Chef_cooking_fish_from_Lake_Malawi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Kenwood_Cooking_Chef_and_accessories.jpg/960px-Kenwood_Cooking_Chef_and_accessories.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Chef_Jean_Pierre%27s_Cooking_School.jpg/960px-Chef_Jean_Pierre%27s_Cooking_School.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Failatu_Abdul_Razak_%28Chef_Faila%29.jpg/960px-Failatu_Abdul_Razak_%28Chef_Faila%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Kappabashi-dori_streetcorner_%28Kitchen_town_-_southern_end%29_a_sunny_morning_in_Tokyo_Japan.jpg/960px-Kappabashi-dori_streetcorner_%28Kitchen_town_-_southern_end%29_a_sunny_morning_in_Tokyo_Japan.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Chef_cooking_fish_from_Lake_Malawi.jpg/960px-Chef_cooking_fish_from_Lake_Malawi.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "kahve",
+        "name": "Kahve & Barista",
+        "slug": "kahve",
+        "description": "Kahve öğütücü, demleme ve barista ekipmanları.",
+        "meta_title": "En İyi 5 Kahve & Barista Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Evde kaliteli kahve demlemek için ekipmanları derledik. Öne çıkanlar: Chemex, Hario Öğütücü, French Press. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/960px-A_small_cup_of_coffee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c5/Roasted_coffee_beans.jpg/960px-Roasted_coffee_beans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/D%C3%BClmen%2C_Privatr%C3%B6sterei_Schr%C3%B6er%2C_Kaffeebeh%C3%A4lter_--_2018_--_0529.jpg/960px-D%C3%BClmen%2C_Privatr%C3%B6sterei_Schr%C3%B6er%2C_Kaffeebeh%C3%A4lter_--_2018_--_0529.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Palestinian_women_grinding_coffee_beans.jpg/960px-Palestinian_women_grinding_coffee_beans.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/56/Cup_of_coffee_%28Serbian_cuisine%2C_Grand_kava%29.jpg/960px-Cup_of_coffee_%28Serbian_cuisine%2C_Grand_kava%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/A_small_cup_of_coffee.JPG/960px-A_small_cup_of_coffee.JPG?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "ekmek-pasta",
+        "name": "Ekmek & Pasta",
+        "slug": "ekmek-pasta",
+        "description": "Mikser, kalıp ve fırın aksesuarları.",
+        "meta_title": "En İyi 5 Ekmek & Pasta Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Ekmek ve pasta yapımı için temel ekipmanları karşılaştırdık. Öne çıkanlar: KitchenAid Mikser, Pasta Kalıbı, Hamur Kazıyıcı. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/8/89/Baking_chocolate_wafers.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Baking_oatmeal_chocolate_chip_cookies_39.jpg/960px-Baking_oatmeal_chocolate_chip_cookies_39.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Mars_bar_traybake.jpg/960px-Mars_bar_traybake.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1e/Baking_-_IMG_6446.jpg/960px-Baking_-_IMG_6446.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/c/c7/Traditional_way_of_baking_bread.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        ],
+        "hero": "https://upload.wikimedia.org/wikipedia/commons/8/89/Baking_chocolate_wafers.gif?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      {
+        "id": "mangal-bbq",
+        "name": "Mangal & BBQ",
+        "slug": "mangal-bbq",
+        "description": "Mangal, ızgara ve barbekü aksesuarları.",
+        "meta_title": "En İyi 5 Mangal & BBQ Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Mangal ve barbekü tutkunları için ekipmanları seçtik. Öne çıkanlar: Weber Kettle, Izgara Termometresi, Maşa Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Huit_merguez_et_trois_saucisses_en_d%C3%A9but_de_cuisson_au_barbecue_en_mars_2020.jpg/960px-Huit_merguez_et_trois_saucisses_en_d%C3%A9but_de_cuisson_au_barbecue_en_mars_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Barbecue_kenya.jpg/960px-Barbecue_kenya.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Barbecue_car_in_Asahikawa.jpg/960px-Barbecue_car_in_Asahikawa.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Whole_hog_barbecue%2C_Big_Apple_Barbecue_Block_Party_2013.jpg/960px-Whole_hog_barbecue%2C_Big_Apple_Barbecue_Block_Party_2013.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Electric_Barbecue_grill.jpg/960px-Electric_Barbecue_grill.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Huit_merguez_et_trois_saucisses_en_d%C3%A9but_de_cuisson_au_barbecue_en_mars_2020.jpg/960px-Huit_merguez_et_trois_saucisses_en_d%C3%A9but_de_cuisson_au_barbecue_en_mars_2020.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ],
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Man_cooking_at_home_in_Laos.jpg/960px-Man_cooking_at_home_in_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/2276Home_cooking_in_the_Philippines_59.jpg/960px-2276Home_cooking_in_the_Philippines_59.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/f/f4/Cooking_food_in_farm.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/31/Cooking_rice.jpg/960px-Cooking_rice.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Cooking_laboratory%2C_Grubbs_Vocational_College_%2810004354%29.jpg/960px-Cooking_laboratory%2C_Grubbs_Vocational_College_%2810004354%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ],
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/77/Man_cooking_at_home_in_Laos.jpg/960px-Man_cooking_at_home_in_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "card_image": "https://images.unsplash.com/photo-1556910103-1c02745aae4d?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "bahce-bitki",
+    "name": "Bahçe & Bitki",
+    "slug": "bahce-bitki",
+    "description": "Bahçecilik, ev bitkileri, bonsai ve teraryum hobileri.",
+    "meta_title": "En İyi 5 Bahçe & Bitki Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+    "meta_description": "Yeşil bir yaşam için bahçe ve bitki bakım ekipmanlarını derledik. Öne çıkanlar: Fiskars Budama Makası, Saksı Seti, Bonsai Alet Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+    "subcategories": [
+      {
+        "id": "bahcecilik",
+        "name": "Bahçecilik",
+        "slug": "bahcecilik",
+        "description": "Budama, dikim ve bahçe aletleri.",
+        "meta_title": "En İyi 5 Bahçecilik Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Bahçe işlerine başlayanlar için temel aletleri seçtik. Öne çıkanlar: Fiskars Makas, Bahçe Eldiveni, Mala Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Tools_for_sale_at_Hmongtown_Markertplace_Saint_Paul_Minnesota.png/960px-Tools_for_sale_at_Hmongtown_Markertplace_Saint_Paul_Minnesota.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Rusty_Garden_Tools_Lay_Flat_%2850937465362%29.jpg/960px-Rusty_Garden_Tools_Lay_Flat_%2850937465362%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Garden_tools_rack_%28ii%29.jpg/960px-Garden_tools_rack_%28ii%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/Garden_tools_rack_%28iii%29.jpg/960px-Garden_tools_rack_%28iii%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Garden_tools_rack_%28i%29.jpg/960px-Garden_tools_rack_%28i%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dc/Tools_for_sale_at_Hmongtown_Markertplace_Saint_Paul_Minnesota.png/960px-Tools_for_sale_at_Hmongtown_Markertplace_Saint_Paul_Minnesota.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "ev-bitkileri",
+        "name": "Ev Bitkileri",
+        "slug": "ev-bitkileri",
+        "description": "Saksı, toprak ve bitki bakım aksesuarları.",
+        "meta_title": "En İyi 5 Ev Bitkileri Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Ev bitkisi yetiştirmek için gerekli malzemeleri karşılaştırdık. Öne çıkanlar: Saksı Seti, Saksı Toprağı, Nem Ölçer. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Amaryllis_%28Hippeastrum%29_18-01-2025._%28actm.%29_04.jpg/960px-Amaryllis_%28Hippeastrum%29_18-01-2025._%28actm.%29_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/42/Amaryllis_%28Hippeastrum%29_18-01-2025._%28actm.%29_07.jpg/960px-Amaryllis_%28Hippeastrum%29_18-01-2025._%28actm.%29_07.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Amaryllis_%28Hippeastrum%29_18-01-2025._%28actm.%29_02.jpg/960px-Amaryllis_%28Hippeastrum%29_18-01-2025._%28actm.%29_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/Amaryllis_%28Hippeastrum%29_18-01-2025._%28actm.%29_05.jpg/960px-Amaryllis_%28Hippeastrum%29_18-01-2025._%28actm.%29_05.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Moscow%2C_Aloe%2C_Indoor_plant%2C_House_plant%2C_Russia.jpg/960px-Moscow%2C_Aloe%2C_Indoor_plant%2C_House_plant%2C_Russia.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/Amaryllis_%28Hippeastrum%29_18-01-2025._%28actm.%29_04.jpg/960px-Amaryllis_%28Hippeastrum%29_18-01-2025._%28actm.%29_04.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "bonsai",
+        "name": "Bonsai",
+        "slug": "bonsai",
+        "description": "Bonsai aletleri, tel ve bakım malzemeleri.",
+        "meta_title": "En İyi 5 Bonsai Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Bonsai sanatına başlayanlar için alet ve malzemeleri derledik. Öne çıkanlar: Bonsai Alet Seti, Bonsai Teli, Budama Makası. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/BonsaiTridentMaple.jpg/960px-BonsaiTridentMaple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Bonsai_Adam_and_Eve_%28PPL2-Enhanced%29_julesvernex2.jpg/960px-Bonsai_Adam_and_Eve_%28PPL2-Enhanced%29_julesvernex2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/83/BBG_-_Carissa_macrocarpa_var._Horizontalis_-_Cascade_by_Frank_Okamura.jpg/960px-BBG_-_Carissa_macrocarpa_var._Horizontalis_-_Cascade_by_Frank_Okamura.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Shanghai_Jade_Buddha_Temple_Bonsai-20150517-RM-095000.jpg/960px-Shanghai_Jade_Buddha_Temple_Bonsai-20150517-RM-095000.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/de/Shanghai_Jade_Buddha_Temple_Bonsai-20150517-RM-094900.jpg/960px-Shanghai_Jade_Buddha_Temple_Bonsai-20150517-RM-094900.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/BonsaiTridentMaple.jpg/960px-BonsaiTridentMaple.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "teraryum",
+        "name": "Teraryum & Sukulent",
+        "slug": "teraryum",
+        "description": "Cam kap, sukulent ve teraryum malzemeleri.",
+        "meta_title": "En İyi 5 Teraryum & Sukulent Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Teraryum yapımı için cam kap ve malzemeleri seçtik. Öne çıkanlar: Cam Teraryum, Sukulent Seti, Dekoratif Kum. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Max_Richey_-_Terrarium_%282023%29_-_Closing_Title_Card.webp/960px-Max_Richey_-_Terrarium_%282023%29_-_Closing_Title_Card.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/Terrarium_small.jpg/960px-Terrarium_small.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cb/Empty_terrarium.jpg/960px-Empty_terrarium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f8/Goerlitz_Wilhelmsplatz_Terrarium.jpg/960px-Goerlitz_Wilhelmsplatz_Terrarium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a9/Terrarium_with_Cactus_and_Aloevera_by_RJ_Raawat.jpg/960px-Terrarium_with_Cactus_and_Aloevera_by_RJ_Raawat.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/85/Max_Richey_-_Terrarium_%282023%29_-_Closing_Title_Card.webp/960px-Max_Richey_-_Terrarium_%282023%29_-_Closing_Title_Card.webp?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ],
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Gardening_products_in_2004_France.jpg/960px-Gardening_products_in_2004_France.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/DCM_gardening_shop.jpg/960px-DCM_gardening_shop.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Matauk_i_kj%C3%B8kkenhagen.jpg/960px-Matauk_i_kj%C3%B8kkenhagen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b1/Wall_planting_in_Salem.jpg/960px-Wall_planting_in_Salem.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Nude_woman_gardening_seen_from_behind.jpg/960px-Nude_woman_gardening_seen_from_behind.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ],
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Gardening_products_in_2004_France.jpg/960px-Gardening_products_in_2004_France.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "card_image": "https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "evcil-hayvan",
+    "name": "Evcil Hayvan",
+    "slug": "evcil-hayvan",
+    "description": "Köpek, kedi, akvaryum ve kuş bakımı hobileri.",
+    "meta_title": "En İyi 5 Evcil Hayvan Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+    "meta_description": "Evcil hayvan sahipleri için bakım ve eğlence ekipmanlarını seçtik. Öne çıkanlar: KONG Oyuncak, Otomatik Mama Kabı, Akvaryum Filtresi. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+    "subcategories": [
+      {
+        "id": "kopek-bakimi",
+        "name": "Köpek Bakımı",
+        "slug": "kopek-bakimi",
+        "description": "Oyuncak, mama ve bakım ekipmanları.",
+        "meta_title": "En İyi 5 Köpek Bakımı Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Köpeğiniz için bakım ve eğitim ekipmanlarını derledik. Öne çıkanlar: KONG Oyuncak, Tasma Seti, Fırça. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Human%E2%80%93canine_friendship_-_girl_hugging_her_dog_tightly_at_golden_hour_in_Laos.jpg/960px-Human%E2%80%93canine_friendship_-_girl_hugging_her_dog_tightly_at_golden_hour_in_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Dhole%28Asiatic_wild_dog%29.jpg/960px-Dhole%28Asiatic_wild_dog%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/DSC09611a_Search_and_Rescue_Dog%2C_Austrian_Red_Cross_Perchtoldsdorf%2C_2024-10.jpg/960px-DSC09611a_Search_and_Rescue_Dog%2C_Austrian_Red_Cross_Perchtoldsdorf%2C_2024-10.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9d/White_dog_sleeping_on_the_floor_with_puppies_after_nursing_in_Don_Det_Laos.jpg/960px-White_dog_sleeping_on_the_floor_with_puppies_after_nursing_in_Don_Det_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Liver_yellow_dog_in_the_water_looking_at_viewer_at_golden_hour_in_Don_Det_Laos.jpg/960px-Liver_yellow_dog_in_the_water_looking_at_viewer_at_golden_hour_in_Don_Det_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/Human%E2%80%93canine_friendship_-_girl_hugging_her_dog_tightly_at_golden_hour_in_Laos.jpg/960px-Human%E2%80%93canine_friendship_-_girl_hugging_her_dog_tightly_at_golden_hour_in_Laos.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "kedi-bakimi",
+        "name": "Kedi Bakımı",
+        "slug": "kedi-bakimi",
+        "description": "Kedi oyuncakları, tırmalama ve bakım ürünleri.",
+        "meta_title": "En İyi 5 Kedi Bakımı Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Kediniz için oyuncak ve bakım ekipmanlarını seçtik. Öne çıkanlar: Tırmalama Tahtası, Lazer Oyuncak, Kedi Tüy Fırçası. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Felis_catus-cat_on_snow.jpg/960px-Felis_catus-cat_on_snow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Cat_playing_with_a_lizard.jpg/960px-Cat_playing_with_a_lizard.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4d/Cat_November_2010-1a.jpg/960px-Cat_November_2010-1a.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5e/Sleeping_cat_on_her_back.jpg/960px-Sleeping_cat_on_her_back.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/69/June_odd-eyed-cat_cropped.jpg/960px-June_odd-eyed-cat_cropped.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Felis_catus-cat_on_snow.jpg/960px-Felis_catus-cat_on_snow.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "akvaryum",
+        "name": "Akvaryum & Balık",
+        "slug": "akvaryum",
+        "description": "Akvaryum, filtre ve bakım ekipmanları.",
+        "meta_title": "En İyi 5 Akvaryum & Balık Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Akvaryum kurmak için temel ekipmanları karşılaştırdık. Öne çıkanlar: Akvaryum Seti, Filtre, Su Isıtıcı. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Male_whale_shark_at_Georgia_Aquarium.jpg/960px-Male_whale_shark_at_Georgia_Aquarium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7e/Georgia_Aquarium_-_Giant_Grouper.jpg/960px-Georgia_Aquarium_-_Giant_Grouper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/71/Tibur%C3%B3n_azul_%28Prionace_glauca%29%2C_canal_Fayal-Pico%2C_islas_Azores%2C_Portugal%2C_2020-07-27%2C_DD_14.jpg/960px-Tibur%C3%B3n_azul_%28Prionace_glauca%29%2C_canal_Fayal-Pico%2C_islas_Azores%2C_Portugal%2C_2020-07-27%2C_DD_14.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/Pristis_pristis_-_Georgia_Aquarium_Jan_2006.jpg/960px-Pristis_pristis_-_Georgia_Aquarium_Jan_2006.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Okinawa_Aquarium.jpg/960px-Okinawa_Aquarium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/Male_whale_shark_at_Georgia_Aquarium.jpg/960px-Male_whale_shark_at_Georgia_Aquarium.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "kus-bakimi",
+        "name": "Kuş Bakımı",
+        "slug": "kus-bakimi",
+        "description": "Kafes, yemlik ve kuş bakım aksesuarları.",
+        "meta_title": "En İyi 5 Kuş Bakımı Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Kuş besleyenler için kafes ve bakım ekipmanlarını derledik. Öne çıkanlar: Kuş Kafesi, Yemlik, Oyuncak Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Ara_ararauna_Luc_Viatour.jpg/960px-Ara_ararauna_Luc_Viatour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Orange-winged_parrots_%28Amazona_amazonica_tobagensis%29.jpg/960px-Orange-winged_parrots_%28Amazona_amazonica_tobagensis%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/57/Portrait_of_Yellow-headed_Amazon_Parrot.jpg/960px-Portrait_of_Yellow-headed_Amazon_Parrot.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fb/Rotkehlchenportrait_aus_ca._1_Meter_Entfernung.jpg/960px-Rotkehlchenportrait_aus_ca._1_Meter_Entfernung.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Parrot_crater_4101_h2.jpg/960px-Parrot_crater_4101_h2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Ara_ararauna_Luc_Viatour.jpg/960px-Ara_ararauna_Luc_Viatour.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ],
+    "images": [
+      "https://upload.wikimedia.org/wikipedia/commons/f/fd/Cat_and_dog_waiting_for_owner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://upload.wikimedia.org/wikipedia/commons/2/2f/Small_dog_and_cat_2020.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/Cat_and_Dog_in_Vertis_North.jpg/960px-Cat_and_Dog_in_Vertis_North.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/58/Cat_and_Dog_Game.jpg/960px-Cat_and_Dog_Game.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/0/08/Narrowboat_cat_and_dog_-_geograph.org.uk_-_1772505.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+    ],
+    "hero": "https://upload.wikimedia.org/wikipedia/commons/f/fd/Cat_and_dog_waiting_for_owner.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "card_image": "https://images.unsplash.com/photo-1543466835-00a7907e9de1?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "bilim-astronomi",
+    "name": "Bilim & Astronomi",
+    "slug": "bilim-astronomi",
+    "description": "Teleskop, mikroskop, deney setleri ve meteoroloji hobileri.",
+    "meta_title": "En İyi 5 Bilim & Astronomi Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+    "meta_description": "Bilim meraklıları için gözlem ve deney ekipmanlarını seçtik. Öne çıkanlar: Celestron Teleskop, AmScope Mikroskop, Deney Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+    "subcategories": [
+      {
+        "id": "teleskop-astronomi",
+        "name": "Teleskop & Astronomi",
+        "slug": "teleskop-astronomi",
+        "description": "Teleskop, dürbün ve gözlem aksesuarları.",
+        "meta_title": "En İyi 5 Teleskop & Astronomi Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Gökyüzünü keşfetmek için teleskop ve aksesuarları karşılaştırdık. Öne çıkanlar: Celestron Teleskop, Astronomi Dürbünü, Yıldız Haritası. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Kom%C3%A9ta_C-2020_F3_%28NEOWISE%29.jpg/960px-Kom%C3%A9ta_C-2020_F3_%28NEOWISE%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Paris%2C_Eiffelturm%2C_Teleskop_--_2014_--_1272.jpg/960px-Paris%2C_Eiffelturm%2C_Teleskop_--_2014_--_1272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Ritchey%E2%80%93Chr%C3%A9tien_at_Kickapoo_Valley_Reserve_2-b.jpg/960px-Ritchey%E2%80%93Chr%C3%A9tien_at_Kickapoo_Valley_Reserve_2-b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/James_Webb_Space_Telescope_Mirror37.jpg/960px-James_Webb_Space_Telescope_Mirror37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/A_member_of_the_ATS_%28Auxiliary_Territorial_Service%29_serving_with_a_3.7-inch_anti-aircraft_gun_battery%2C_December_1942._TR452.jpg/960px-A_member_of_the_ATS_%28Auxiliary_Territorial_Service%29_serving_with_a_3.7-inch_anti-aircraft_gun_battery%2C_December_1942._TR452.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Kom%C3%A9ta_C-2020_F3_%28NEOWISE%29.jpg/960px-Kom%C3%A9ta_C-2020_F3_%28NEOWISE%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "mikroskop",
+        "name": "Mikroskop",
+        "slug": "mikroskop",
+        "description": "Mikroskop, lam ve gözlem aksesuarları.",
+        "meta_title": "En İyi 5 Mikroskop Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Mikroskopla keşfe başlayanlar için ekipmanları derledik. Öne çıkanlar: AmScope Mikroskop, Lam Seti, Preparat Kiti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Binocular_compound_microscope%2C_Carl_Zeiss_Jena%2C_1914_%286779276516%29.jpg/960px-Binocular_compound_microscope%2C_Carl_Zeiss_Jena%2C_1914_%286779276516%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg/960px-Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/5/53/Fine_rotative_table_Microscope_5_%2812996283235%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Microscope-BHM_18384-P6141303-gradient.jpg/960px-Microscope-BHM_18384-P6141303-gradient.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/Microscope_MET_DP108688.jpg/960px-Microscope_MET_DP108688.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Binocular_compound_microscope%2C_Carl_Zeiss_Jena%2C_1914_%286779276516%29.jpg/960px-Binocular_compound_microscope%2C_Carl_Zeiss_Jena%2C_1914_%286779276516%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "kimya-deney",
+        "name": "Kimya & Deney",
+        "slug": "kimya-deney",
+        "description": "Deney setleri, güvenlik ve laboratuvar malzemeleri.",
+        "meta_title": "En İyi 5 Kimya & Deney Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Evde güvenli kimya deneyleri için setleri seçtik. Öne çıkanlar: Kimya Deney Seti, Güvenlik Gözlüğü, Beher Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg/960px-Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d0/Organic_chemistry_lab_Gdc_Khanabal.jpg/960px-Organic_chemistry_lab_Gdc_Khanabal.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e3/Moseley_Hall_Chemistry_Lab.jpg/960px-Moseley_Hall_Chemistry_Lab.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/9/95/-chemistry_lab_-conical_-droplet_-liquid_testing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f5/Chemistry_lab_%286146864098%29.jpg/960px-Chemistry_lab_%286146864098%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg/960px-Barbara_McClintock_%281902-1992%29_shown_in_her_laboratory_in_1947.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "meteoroloji",
+        "name": "Hava & Meteoroloji",
+        "slug": "meteoroloji",
+        "description": "Hava istasyonu, barometre ve ölçüm aletleri.",
+        "meta_title": "En İyi 5 Hava & Meteoroloji Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Hava gözlemi için ölçüm ve istasyon ekipmanlarını derledik. Öne çıkanlar: Hava İstasyonu, Barometre, Yağmur Ölçer. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/%D0%9F%D0%BE%D0%BB%D1%8F%D1%80%D0%BD%D0%BE%D0%B5_%D1%81%D0%B8%D1%8F%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0%D0%B4_%D0%B7%D0%B0%D0%B1%D1%80%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC_%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC_%D0%BC%D0%B5%D1%82%D0%B5%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B5%D0%B9.jpg/960px-%D0%9F%D0%BE%D0%BB%D1%8F%D1%80%D0%BD%D0%BE%D0%B5_%D1%81%D0%B8%D1%8F%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0%D0%B4_%D0%B7%D0%B0%D0%B1%D1%80%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC_%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC_%D0%BC%D0%B5%D1%82%D0%B5%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B5%D0%B9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/Bureau_of_Meteorology_weather_station_at_Mount_Bassett_lookout%2C_Mackay_Harbour%2C_2016_01.jpg/960px-Bureau_of_Meteorology_weather_station_at_Mount_Bassett_lookout%2C_Mackay_Harbour%2C_2016_01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/16/Weather_Station_USDA.jpg/960px-Weather_Station_USDA.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2a/Bureau_of_Meteorology_weather_station_at_Mount_Basset_lookout%2C_Mackay_Harbour%2C_2016_02.jpg/960px-Bureau_of_Meteorology_weather_station_at_Mount_Basset_lookout%2C_Mackay_Harbour%2C_2016_02.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Weather_Station_2015.jpg/960px-Weather_Station_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/%D0%9F%D0%BE%D0%BB%D1%8F%D1%80%D0%BD%D0%BE%D0%B5_%D1%81%D0%B8%D1%8F%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0%D0%B4_%D0%B7%D0%B0%D0%B1%D1%80%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC_%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC_%D0%BC%D0%B5%D1%82%D0%B5%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B5%D0%B9.jpg/960px-%D0%9F%D0%BE%D0%BB%D1%8F%D1%80%D0%BD%D0%BE%D0%B5_%D1%81%D0%B8%D1%8F%D0%BD%D0%B8%D0%B5_%D0%BD%D0%B0%D0%B4_%D0%B7%D0%B0%D0%B1%D1%80%D0%BE%D1%88%D0%B5%D0%BD%D0%BD%D1%8B%D0%BC_%D0%B7%D0%B4%D0%B0%D0%BD%D0%B8%D0%B5%D0%BC_%D0%BC%D0%B5%D1%82%D0%B5%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D0%B5%D0%B9.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ],
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Kom%C3%A9ta_C-2020_F3_%28NEOWISE%29.jpg/960px-Kom%C3%A9ta_C-2020_F3_%28NEOWISE%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Paris%2C_Eiffelturm%2C_Teleskop_--_2014_--_1272.jpg/960px-Paris%2C_Eiffelturm%2C_Teleskop_--_2014_--_1272.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/74/Ritchey%E2%80%93Chr%C3%A9tien_at_Kickapoo_Valley_Reserve_2-b.jpg/960px-Ritchey%E2%80%93Chr%C3%A9tien_at_Kickapoo_Valley_Reserve_2-b.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/99/James_Webb_Space_Telescope_Mirror37.jpg/960px-James_Webb_Space_Telescope_Mirror37.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/08/A_member_of_the_ATS_%28Auxiliary_Territorial_Service%29_serving_with_a_3.7-inch_anti-aircraft_gun_battery%2C_December_1942._TR452.jpg/960px-A_member_of_the_ATS_%28Auxiliary_Territorial_Service%29_serving_with_a_3.7-inch_anti-aircraft_gun_battery%2C_December_1942._TR452.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ],
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Kom%C3%A9ta_C-2020_F3_%28NEOWISE%29.jpg/960px-Kom%C3%A9ta_C-2020_F3_%28NEOWISE%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "card_image": "https://images.unsplash.com/photo-1506318137071-a8e063b4bec0?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "seyahat-gezi",
+    "name": "Seyahat & Gezi",
+    "slug": "seyahat-gezi",
+    "description": "Backpacking, seyahat fotoğrafçılığı, karavan ve vlog hobileri.",
+    "meta_title": "En İyi 5 Seyahat & Gezi Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+    "meta_description": "Gezginler için seyahat ekipmanlarını ve üretim araçlarını seçtik. Öne çıkanlar: Osprey Sırt Çantası, DJI Osmo, Karavan Alet Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+    "subcategories": [
+      {
+        "id": "backpacking",
+        "name": "Sırt Çantalı Seyahat",
+        "slug": "backpacking",
+        "description": "Hafif sırt çantası, organizer ve seyahat aksesuarları.",
+        "meta_title": "En İyi 5 Sırt Çantalı Seyahat Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Backpacking için hafif ve pratik ekipmanları derledik. Öne çıkanlar: Osprey Farpoint, Packing Cube, Seyahat Adaptörü. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Clothes-travel-voyage-backpack_%2824324553095%29.jpg/960px-Clothes-travel-voyage-backpack_%2824324553095%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/50/With_a_worn-out_backpack_and_a_notebook_%284%29.jpg/960px-With_a_worn-out_backpack_and_a_notebook_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Gap_year_travel_banner_Backpacks.jpg/960px-Gap_year_travel_banner_Backpacks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/59/With_a_worn-out_backpack_and_a_notebook_%281%29.jpg/960px-With_a_worn-out_backpack_and_a_notebook_%281%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/28/With_a_worn-out_backpack_and_a_notebook_%283%29.jpg/960px-With_a_worn-out_backpack_and_a_notebook_%283%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Clothes-travel-voyage-backpack_%2824324553095%29.jpg/960px-Clothes-travel-voyage-backpack_%2824324553095%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "seyahat-fotograf",
+        "name": "Seyahat Fotoğrafçılığı",
+        "slug": "seyahat-fotograf",
+        "description": "Kompakt kamera, gimbal ve fotoğraf aksesuarları.",
+        "meta_title": "En İyi 5 Seyahat Fotoğrafçılığı Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Seyahat fotoğrafçılığı için taşınabilir ekipmanları karşılaştırdık. Öne çıkanlar: Sony ZV-1, DJI Osmo, Kamera Askısı. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/a/a6/Mireia_Punt%C3%AD_%286927233050%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/La_volta_dels_Rodamons-Mireia_Punt%C3%AD_%286949637546%29.jpg/960px-La_volta_dels_Rodamons-Mireia_Punt%C3%AD_%286949637546%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Piazza_Del_Duomo_Lecce_Italy_Travel_Photography_%28171395721%29.jpeg/960px-Piazza_Del_Duomo_Lecce_Italy_Travel_Photography_%28171395721%29.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1b/Mireia_Punt%C3%AD_-_La_volta_dels_Rodamons_%286949637546%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b4/Svortuloft_lighthouse_-_Iceland_-_Travel_photography_%2834181488852%29.jpg/960px-Svortuloft_lighthouse_-_Iceland_-_Travel_photography_%2834181488852%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://upload.wikimedia.org/wikipedia/commons/a/a6/Mireia_Punt%C3%AD_%286927233050%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      {
+        "id": "karavan",
+        "name": "Karavan & Vanlife",
+        "slug": "karavan",
+        "description": "Karavan aksesuarları, güç ve kamp ekipmanları.",
+        "meta_title": "En İyi 5 Karavan & Vanlife Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Karavan ve vanlife için pratik ekipmanları seçtik. Öne çıkanlar: Güneş Paneli, Karavan Alet Seti, Katlanır Sandalye. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/d/d7/Camper_Van_Beethoven_%26_Cracker_%284289364172%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/2/29/Camper_Van_Beethoven_%26_Cracker_%284288622415%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/3/33/Camper_Van_Beethoven_%26_Cracker_%284288622653%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/3/3d/Camper_Van_Beethoven_%26_Cracker_%284289364022%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/7/7c/Camper_Van_Beethoven_%26_Cracker_%284289363814%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        ],
+        "hero": "https://upload.wikimedia.org/wikipedia/commons/d/d7/Camper_Van_Beethoven_%26_Cracker_%284289364172%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      {
+        "id": "vlog",
+        "name": "Vlog & İçerik Üretimi",
+        "slug": "vlog",
+        "description": "Mikrofon, ışık ve video ekipmanları.",
+        "meta_title": "En İyi 5 Vlog & İçerik Üretimi Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Vlog çekimi için ses, ışık ve video ekipmanlarını derledik. Öne çıkanlar: Rode Mikrofon, Ring Işık, Tripod. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Trump_supporter_live_vlogging_from_MLK_park._%2836887397875%29.jpg/960px-Trump_supporter_live_vlogging_from_MLK_park._%2836887397875%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/60/Sony_ZV-E1_with_Sony_FE_28-60mm_F4-5.6_-_by_Henry_S%C3%B6derlund_%2852854053098%29.jpg/960px-Sony_ZV-E1_with_Sony_FE_28-60mm_F4-5.6_-_by_Henry_S%C3%B6derlund_%2852854053098%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/0/04/Steve_Lyons.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bb/Sony_a5000_Isolated_on_White_Background_%2842409532595%29.jpg/960px-Sony_a5000_Isolated_on_White_Background_%2842409532595%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/23/The_Ride_of_Perseid_-_2016._%2828942686275%29.jpg/960px-The_Ride_of_Perseid_-_2016._%2828942686275%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6b/Trump_supporter_live_vlogging_from_MLK_park._%2836887397875%29.jpg/960px-Trump_supporter_live_vlogging_from_MLK_park._%2836887397875%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ],
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Backpacking_in_Grand_Teton_NP-NPS.jpg/960px-Backpacking_in_Grand_Teton_NP-NPS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/A_backpacking_travel_to_europe_R002-005.jpg/960px-A_backpacking_travel_to_europe_R002-005.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Gap_year_travel_banner_Backpacks.jpg/960px-Gap_year_travel_banner_Backpacks.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Clothes-travel-voyage-backpack_%2824324553095%29.jpg/960px-Clothes-travel-voyage-backpack_%2824324553095%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/49/Cyclist_approaching_former_bridge_location_on_Olympic_Hot_Springs_Road.jpg/960px-Cyclist_approaching_former_bridge_location_on_Olympic_Hot_Springs_Road.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ],
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Backpacking_in_Grand_Teton_NP-NPS.jpg/960px-Backpacking_in_Grand_Teton_NP-NPS.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "card_image": "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "yazilim-kodlama",
+    "name": "Yazılım & Kodlama",
+    "slug": "yazilim-kodlama",
+    "description": "Web geliştirme, oyun geliştirme, veri bilimi ve siber güvenlik hobileri.",
+    "meta_title": "En İyi 5 Yazılım & Kodlama Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+    "meta_description": "Kodlamayı hobi edinenler için ekipman ve kaynakları seçtik. Öne çıkanlar: Mekanik Klavye, Raspberry Pi, Harici Monitör. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+    "subcategories": [
+      {
+        "id": "web-gelistirme",
+        "name": "Web Geliştirme",
+        "slug": "web-gelistirme",
+        "description": "Klavye, monitör ve geliştirici ekipmanları.",
+        "meta_title": "En İyi 5 Web Geliştirme Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Web geliştirme için ergonomik ekipmanları derledik. Öne çıkanlar: Keychron Klavye, LG Monitör, Dikey Fare. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Wikipedia-blisk-devtools-iphone-12-and-ipad-pro-11-2021.png/960px-Wikipedia-blisk-devtools-iphone-12-and-ipad-pro-11-2021.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e4/Web_development_timeline.png/960px-Web_development_timeline.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/Firefox_dev_tools.jpg/960px-Firefox_dev_tools.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/1/1b/Web_design_in_HTML5.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/a/ab/Webdev_Teams_Diagram.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Wikipedia-blisk-devtools-iphone-12-and-ipad-pro-11-2021.png/960px-Wikipedia-blisk-devtools-iphone-12-and-ipad-pro-11-2021.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "oyun-gelistirme",
+        "name": "Oyun Geliştirme",
+        "slug": "oyun-gelistirme",
+        "description": "Oyun motoru, çizim tableti ve ekipmanlar.",
+        "meta_title": "En İyi 5 Oyun Geliştirme Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Oyun geliştirme için donanım ve aksesuarları karşılaştırdık. Öne çıkanlar: Wacom Tablet, Güçlü GPU, Kulaklık. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/e/ec/Game_dev.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/9/90/Andre_LaMothe_with_some_of_his_most_notable_works_on_Game_Development_and_Hardware.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/A_typical_game_development_company_in_India.jpg/960px-A_typical_game_development_company_in_India.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8c/Tileset_2D_Game_Development_-_Ground%2C_Water%2C_Dirt%2C_Path.png/960px-Tileset_2D_Game_Development_-_Ground%2C_Water%2C_Dirt%2C_Path.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/65/Content_Creation_in_Game_Development%2C_GDC_2026_11.jpg/960px-Content_Creation_in_Game_Development%2C_GDC_2026_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Game_dev.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      },
+      {
+        "id": "veri-bilimi",
+        "name": "Veri Bilimi & Yapay Zeka",
+        "slug": "veri-bilimi",
+        "description": "GPU, depolama ve geliştirme ekipmanları.",
+        "meta_title": "En İyi 5 Veri Bilimi & Yapay Zeka Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Veri bilimi çalışmaları için donanımı seçtik. Öne çıkanlar: NVIDIA GPU, SSD, RAM. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Data_Science.png/960px-Data_Science.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/47/Whole-game-of-data-science.png/960px-Whole-game-of-data-science.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/University_of_Virginia_School_of_Data_Science_LGBT_data_burst.png/960px-University_of_Virginia_School_of_Data_Science_LGBT_data_burst.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/School_of_Data_Science_-_University_of_Virginia_-_art_-_Data_Structure_-_3.jpg/960px-School_of_Data_Science_-_University_of_Virginia_-_art_-_Data_Structure_-_3.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/School_of_Data_Science_-_University_of_Virginia_-_art_-_Data_Structure_-_2.jpg/960px-School_of_Data_Science_-_University_of_Virginia_-_art_-_Data_Structure_-_2.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/38/Data_Science.png/960px-Data_Science.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "siber-guvenlik",
+        "name": "Siber Güvenlik",
+        "slug": "siber-guvenlik",
+        "description": "Raspberry Pi, ağ ve güvenlik araçları.",
+        "meta_title": "En İyi 5 Siber Güvenlik Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Siber güvenlik öğrenmek için donanım ve kitleri derledik. Öne çıkanlar: Raspberry Pi, USB WiFi Adaptör, Kali Kit. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://upload.wikimedia.org/wikipedia/commons/d/d3/Computer_locked.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/2/2b/Cybersecurity_Visuals_Challenge_2019_-_Rebecca_Wang.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://upload.wikimedia.org/wikipedia/commons/f/f7/Seguridadenso.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Cybersecurity_vs_information_security.png/960px-Cybersecurity_vs_information_security.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/fa/EU2024BE_240118_Brussels_Cybersecurity_Summit_Square_JNZT_0007.jpg/960px-EU2024BE_240118_Brussels_Cybersecurity_Summit_Square_JNZT_0007.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Computer_locked.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+      }
+    ],
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Computer_programming_class.jpg/960px-Computer_programming_class.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ef/Programming_code.jpg/960px-Programming_code.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f1/The_Art_of_Computer_Programming_%28vol._1-4B%29-2808.jpg/960px-The_Art_of_Computer_Programming_%28vol._1-4B%29-2808.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://upload.wikimedia.org/wikipedia/commons/3/39/C_Hello_World_Program.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Programowanie_ELWAT.jpg/960px-Programowanie_ELWAT.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ],
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f4/Computer_programming_class.jpg/960px-Computer_programming_class.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "card_image": "https://images.unsplash.com/photo-1555066931-4365d14bab8c?q=80&w=800&auto=format&fit=crop"
+  },
+  {
+    "id": "yazi-edebiyat",
+    "name": "Yazı & Edebiyat",
+    "slug": "yazi-edebiyat",
+    "description": "Yazarlık, blog yazarlığı, yaratıcı yazarlık ve okuma hobileri.",
+    "meta_title": "En İyi 5 Yazı & Edebiyat Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+    "meta_description": "Yazmayı ve okumayı hobi edinenler için araçları seçtik. Öne çıkanlar: Moleskine Defter, Mekanik Klavye, Kindle. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+    "subcategories": [
+      {
+        "id": "yazarlik",
+        "name": "Yazarlık",
+        "slug": "yazarlik",
+        "description": "Defter, kalem ve yazma araçları.",
+        "meta_title": "En İyi 5 Yazarlık Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Yazarlık için kaliteli defter ve kalemleri derledik. Öne çıkanlar: Moleskine Defter, Dolma Kalem, Kalem Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Notebook_writing.jpg/960px-Notebook_writing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/ce/Businesswoman_writing_in_a_notebook_closeup.jpg/960px-Businesswoman_writing_in_a_notebook_closeup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0a/Woman_writing_on_a_notebook_with_a_pen.jpg/960px-Woman_writing_on_a_notebook_with_a_pen.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/dd/Cursive_Writing_on_Notebook_paper.jpg/960px-Cursive_Writing_on_Notebook_paper.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Notebook-writing-man-book-person-blur-1176206.jpg/960px-Notebook-writing-man-book-person-blur-1176206.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f0/Notebook_writing.jpg/960px-Notebook_writing.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "blog-yazarligi",
+        "name": "Blog Yazarlığı",
+        "slug": "blog-yazarligi",
+        "description": "Klavye, mikrofon ve içerik araçları.",
+        "meta_title": "En İyi 5 Blog Yazarlığı Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Blog yazmak için ekipmanları karşılaştırdık. Öne çıkanlar: Mekanik Klavye, Mikrofon, Webcam. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/IBM_Thinkpad_R51.jpg/960px-IBM_Thinkpad_R51.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/Schenker_VIA14_Laptop_asv2021-01.jpg/960px-Schenker_VIA14_Laptop_asv2021-01.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/88/Notebook_computer.jpg/960px-Notebook_computer.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/db/Laptop_picture.jpg/960px-Laptop_picture.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Notebook_computer.jpeg/960px-Notebook_computer.jpeg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/IBM_Thinkpad_R51.jpg/960px-IBM_Thinkpad_R51.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "yaratici-yazarlik",
+        "name": "Yaratıcı Yazarlık",
+        "slug": "yaratici-yazarlik",
+        "description": "Defter, ilham ve yazma aksesuarları.",
+        "meta_title": "En İyi 5 Yaratıcı Yazarlık Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Yaratıcı yazarlık için ilham verici araçları seçtik. Öne çıkanlar: Çizgili Defter, Yazma Rehberi, Kalem Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Fountain_pen_writing_%28literacy%29.jpg/960px-Fountain_pen_writing_%28literacy%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/0/09/Mazie_Hirono_writing_speech.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Flickr_-_boellstiftung_-_Konferenzeindr%C3%BCcke_%2815%29.jpg/960px-Flickr_-_boellstiftung_-_Konferenzeindr%C3%BCcke_%2815%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/2/26/Writing_systems_comparison.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Schreibkunst_%28The_Art_of_Writing%29_MET_DP372395.jpg/960px-Schreibkunst_%28The_Art_of_Writing%29_MET_DP372395.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Fountain_pen_writing_%28literacy%29.jpg/960px-Fountain_pen_writing_%28literacy%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
+        "id": "okuma",
+        "name": "Okuma & Kitap Kulübü",
+        "slug": "okuma",
+        "description": "E-kitap okuyucu, kitap ayracı ve aksesuarlar.",
+        "meta_title": "En İyi 5 Okuma & Kitap Kulübü Ekipmanı 2026 — Alım Rehberi | Hobi Bul",
+        "meta_description": "Okuma keyfini artıran ekipmanları derledik. Öne çıkanlar: Kindle, Kitap Ayracı, Okuma Lambası. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Jean_Baptiste_Camille_Corot_-_Interrupted_Reading_-_1922.410_-_Art_Institute_of_Chicago.jpg/960px-Jean_Baptiste_Camille_Corot_-_Interrupted_Reading_-_1922.410_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/2/2f/Woman_Reading_a_Book.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2e/Example_Page_of_Franklin_First_Reader_-_Leigh%27s_Pronouncing_Edition.png/960px-Example_Page_of_Franklin_First_Reader_-_Leigh%27s_Pronouncing_Edition.png?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f6/Young_woman_reading_a_book_closeup.jpg/960px-Young_woman_reading_a_book_closeup.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+          "https://upload.wikimedia.org/wikipedia/commons/3/35/Me_reading_a_book_on_a_park.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Jean_Baptiste_Camille_Corot_-_Interrupted_Reading_-_1922.410_-_Art_Institute_of_Chicago.jpg/960px-Jean_Baptiste_Camille_Corot_-_Interrupted_Reading_-_1922.410_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      }
+    ],
+    "images": [
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Jean_Baptiste_Camille_Corot_-_Interrupted_Reading_-_1922.410_-_Art_Institute_of_Chicago.jpg/960px-Jean_Baptiste_Camille_Corot_-_Interrupted_Reading_-_1922.410_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/75/Woman_reading_the_Quran_during_Ramadan_in_Cairo%2C_Egypt.jpg/960px-Woman_reading_the_Quran_during_Ramadan_in_Cairo%2C_Egypt.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Reading_Books_by_a_teenage_girl.jpg/960px-Reading_Books_by_a_teenage_girl.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8d/Rammohun_Library_and_Free_Reading_Room_-_Rare_Books_Collection_%285%29.jpg/960px-Rammohun_Library_and_Free_Reading_Room_-_Rare_Books_Collection_%285%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+      "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Rammohun_Library_and_Free_Reading_Room_-_Rare_Books_Collection_%284%29.jpg/960px-Rammohun_Library_and_Free_Reading_Room_-_Rare_Books_Collection_%284%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+    ],
+    "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e1/Jean_Baptiste_Camille_Corot_-_Interrupted_Reading_-_1922.410_-_Art_Institute_of_Chicago.jpg/960px-Jean_Baptiste_Camille_Corot_-_Interrupted_Reading_-_1922.410_-_Art_Institute_of_Chicago.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "card_image": "https://images.unsplash.com/photo-1507842217343-583bb7270b66?q=80&w=800&auto=format&fit=crop"
+  }
+]

@@ -1,0 +1,1 @@
+window.HOBIBUL_CONFIG = {"supabaseUrl": "https://jwxnpzgggrteaztahwmb.supabase.co", "supabaseAnonKey": "sb_publishable_TtghSy2kAGXLzC2jinFVQQ_B1UG4e-o", "dashboardHash": "429c9b1bcf8040a14e2adec9a6b5c835005bed75d6c658226998eedf3db388ab"};

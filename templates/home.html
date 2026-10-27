@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+{% block jsonld %}<script type="application/ld+json">{{ jsonld|safe }}</script>{% endblock %}
+{% block content %}
+<section class="hero hero-welcome">
+  <h1>Hobinizi Keşfedin, En İyi Ekipmanı Bulun</h1>
+  <div class="search-bar">
+    <input type="search" id="cat-search" placeholder="Hobi veya ürün ara..." aria-label="Hobi veya ürün ara" autocomplete="off" />
+    <button type="button" class="search-btn" aria-label="Ara">Ara</button>
+  </div>
+  <nav class="quick-menu" aria-label="Hızlı kategoriler">
+    {% for c in all_categories %}
+    <a href="/kategori/{{ c.slug }}/"><span class="qm-icon">{{ cat_meta[c.id].emoji }}</span>{{ c.name.split(' & ')[0] }}</a>
+    {% endfor %}
+  </nav>
+</section>
+
+<section>
+  <h2 class="section-title">Tüm Hobi Kategorileri</h2>
+  <div class="cat-grid" id="cat-grid">
+    {% for c in all_categories %}
+    <div class="cat-card" data-search="{{ (c.name ~ ' ' ~ c.description ~ ' ' ~ c.subcategories|map(attribute='name')|join(' '))|lower }}">
+      <a class="cat-card-main" href="/kategori/{{ c.slug }}/">
+        {% if c.card_image %}<img class="cat-card-img" src="{{ c.card_image }}" alt="{{ c.name }}" loading="lazy" width="600" height="160">{% endif %}
+        <h3>{{ c.name }}</h3>
+        <p>{{ c.description }}</p>
+        <span class="cat-count">{{ c.subcategories|length }} alt kategori</span>
+      </a>
+      {% if first_article.get(c.id) %}
+      <a class="card-cta" href="/makale/{{ first_article[c.id].slug }}/">{{ first_article[c.id].title }} →</a>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  <p class="hide" id="no-result">Sonuç bulunamadı. Başka bir hobi adı deneyin.</p>
+</section>
+
+<section>
+  <h2 class="section-title">Öne Çıkan Rehberler</h2>
+  <div class="article-grid">
+    {% for a in articles %}
+    <a class="article-card" href="/makale/{{ a.slug }}/">
+      {% if a.image %}<img class="article-card-img" src="{{ a.image }}" alt="{{ a.image_alt }}" loading="lazy" width="600" height="160">{% endif %}
+      <h3>{{ a.title }}</h3>
+      <p>{{ a.excerpt }}</p>
+      <span class="read-more">Devamını Oku →</span>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endblock %}
+{% block scripts %}
+<script>
+(function () {
+  var input = document.getElementById('cat-search');
+  var cards = document.querySelectorAll('#cat-grid .cat-card');
+  var none = document.getElementById('no-result');
+  if (!input) return;
+  input.addEventListener('input', function () {
+    var q = input.value.trim().toLocaleLowerCase('tr');
+    var shown = 0;
+    cards.forEach(function (c) {
+      var ok = !q || c.getAttribute('data-search').indexOf(q) !== -1;
+      c.classList.toggle('hide', !ok);
+      if (ok) shown++;
+    });
+    none.classList.toggle('hide', shown !== 0);
+  });
+})();
+</script>
+{% endblock %}

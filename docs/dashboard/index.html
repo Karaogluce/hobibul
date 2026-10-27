@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="google-site-verification" content="l-23yAEZ-R05ZbV6TM0HkL3iECB6zI1FgHFrHqKu_ek">
+  <title>Analitik Paneli — Hobi Bul</title>
+  <meta name="description" content="Hobi Bul trafik ve affiliate tıklama analitiği yönetim paneli.">
+  <link rel="canonical" href="https://hobibul.com.tr/dashboard/">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Hobi Bul">
+  <meta property="og:title" content="Analitik Paneli — Hobi Bul">
+  <meta property="og:description" content="Hobi Bul trafik ve affiliate tıklama analitiği yönetim paneli.">
+  <meta property="og:url" content="https://hobibul.com.tr/dashboard/">
+  <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+  <link rel="stylesheet" href="/css/style.css">
+  
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<script>window.HOBIBUL_ARTICLES = [{"path": "/makale/evde-el-sanatlari-hobileri/", "title": "Evde Başlayabileceğin 8 Yaratıcı El Sanatı Hobisi ve Gerekli Malzemeler"}, {"path": "/makale/kampcilik-baslangic-rehberi/", "title": "Yeni Başlayanlar İçin Kampçılık Rehberi: İhtiyacın Olan Tüm Ekipmanlar (2026)"}, {"path": "/makale/sifirdan-gitar-ogrenmek/", "title": "Sıfırdan Gitar Öğrenmek: Doğru Ekipmanla Başla (2026)"}];</script>
+
+  
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a href="/" class="brand"><img src="/img/logo.svg" alt="Hobi Bul" class="brand-logo"></a>
+      <nav class="main-nav" aria-label="Ana menü">
+        <a href="/">Ana Sayfa</a>
+        <div class="dropdown">
+          <button class="dropbtn" type="button">Kategoriler ▾</button>
+          <div class="dropdown-content">
+            
+            <a href="/kategori/outdoor/">Outdoor &amp; Doğa</a>
+            
+            <a href="/kategori/el-sanatlari/">El Sanatları &amp; DIY</a>
+            
+            <a href="/kategori/muzik/">Müzik</a>
+            
+            <a href="/kategori/teknoloji/">Teknoloji</a>
+            
+            <a href="/kategori/koleksiyon/">Koleksiyon</a>
+            
+            <a href="/kategori/spor-fitness/">Spor &amp; Fitness</a>
+            
+            <a href="/kategori/sanat/">Sanat</a>
+            
+            <a href="/kategori/yemek-mutfak/">Yemek &amp; Mutfak</a>
+            
+            <a href="/kategori/bahce-bitki/">Bahçe &amp; Bitki</a>
+            
+            <a href="/kategori/evcil-hayvan/">Evcil Hayvan</a>
+            
+            <a href="/kategori/bilim-astronomi/">Bilim &amp; Astronomi</a>
+            
+            <a href="/kategori/seyahat-gezi/">Seyahat &amp; Gezi</a>
+            
+            <a href="/kategori/yazilim-kodlama/">Yazılım &amp; Kodlama</a>
+            
+            <a href="/kategori/yazi-edebiyat/">Yazı &amp; Edebiyat</a>
+            
+          </div>
+        </div>
+        <div class="dropdown">
+          <button class="dropbtn" type="button">Rehberler ▾</button>
+          <div class="dropdown-content">
+            
+            <a href="/makale/evde-el-sanatlari-hobileri/">Evde Başlayabileceğin 8 Yaratıcı El Sanatı Hobisi ve Gerekli Malzemeler</a>
+            
+            <a href="/makale/kampcilik-baslangic-rehberi/">Yeni Başlayanlar İçin Kampçılık Rehberi: İhtiyacın Olan Tüm Ekipmanlar (2026)</a>
+            
+            <a href="/makale/sifirdan-gitar-ogrenmek/">Sıfırdan Gitar Öğrenmek: Doğru Ekipmanla Başla (2026)</a>
+            
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    
+<h1 class="page-title">📊 Analitik Paneli</h1>
+
+<div id="dash-lock" class="dash-lock">
+  <p>Bu panel şifre korumalıdır. Devam etmek için şifreyi girin.</p>
+  <form id="dash-login" class="dash-login-form">
+    <input type="password" id="dash-pass" placeholder="Şifre" autocomplete="current-password" autocapitalize="off" autocorrect="off" spellcheck="false" aria-label="Panel şifresi">
+    <button type="submit" class="btn-aff">Giriş</button>
+  </form>
+  <p id="dash-err" class="dash-err"></p>
+</div>
+
+<div id="dash-content" style="display:none">
+  <p class="lead">Makale görüntülenmeleri, affiliate tıklamaları ve tıklama oranları (CTR).</p>
+  <div id="dash-banner" class="dash-banner"></div>
+  <div class="stat-cards" id="stat-cards"></div>
+  <section>
+    <h2 class="section-title">Makale Bazında Performans</h2>
+    <div id="dash-articles" class="dash-table-wrap"></div>
+  </section>
+  <section>
+    <h2 class="section-title">En Çok Tıklanan Ürünler</h2>
+    <div id="dash-products" class="dash-table-wrap"></div>
+  </section>
+</div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <div class="footer-cols">
+        <div class="footer-about">
+          <h3>🎯 Hobi Bul</h3>
+          <p>Türkiye&#39;nin En Kapsamlı Hobi Rehberi</p>
+        </div>
+        <div class="footer-cats">
+          <h3>Kategoriler</h3>
+          <ul>
+            
+            <li><a href="/kategori/outdoor/">Outdoor &amp; Doğa</a></li>
+            
+            <li><a href="/kategori/el-sanatlari/">El Sanatları &amp; DIY</a></li>
+            
+            <li><a href="/kategori/muzik/">Müzik</a></li>
+            
+            <li><a href="/kategori/teknoloji/">Teknoloji</a></li>
+            
+            <li><a href="/kategori/koleksiyon/">Koleksiyon</a></li>
+            
+            <li><a href="/kategori/spor-fitness/">Spor &amp; Fitness</a></li>
+            
+            <li><a href="/kategori/sanat/">Sanat</a></li>
+            
+            <li><a href="/kategori/yemek-mutfak/">Yemek &amp; Mutfak</a></li>
+            
+            <li><a href="/kategori/bahce-bitki/">Bahçe &amp; Bitki</a></li>
+            
+            <li><a href="/kategori/evcil-hayvan/">Evcil Hayvan</a></li>
+            
+            <li><a href="/kategori/bilim-astronomi/">Bilim &amp; Astronomi</a></li>
+            
+            <li><a href="/kategori/seyahat-gezi/">Seyahat &amp; Gezi</a></li>
+            
+            <li><a href="/kategori/yazilim-kodlama/">Yazılım &amp; Kodlama</a></li>
+            
+            <li><a href="/kategori/yazi-edebiyat/">Yazı &amp; Edebiyat</a></li>
+            
+          </ul>
+        </div>
+        <div class="footer-guides">
+          <h3>Rehberler</h3>
+          <ul>
+            
+            <li><a href="/makale/evde-el-sanatlari-hobileri/">Evde Başlayabileceğin 8 Yaratıcı El Sanatı Hobisi ve Gerekli Malzemeler</a></li>
+            
+            <li><a href="/makale/kampcilik-baslangic-rehberi/">Yeni Başlayanlar İçin Kampçılık Rehberi: İhtiyacın Olan Tüm Ekipmanlar (2026)</a></li>
+            
+            <li><a href="/makale/sifirdan-gitar-ogrenmek/">Sıfırdan Gitar Öğrenmek: Doğru Ekipmanla Başla (2026)</a></li>
+            
+          </ul>
+        </div>
+      </div>
+      <div class="disclosure">
+        <strong>Affiliate (Ortaklık) Açıklaması:</strong> Bu sitedeki bazı bağlantılar affiliate (ortaklık) bağlantılarıdır. Bu bağlantılar üzerinden yapılan satın alımlarda size ek bir maliyet yansımaz; ancak Hobi Bul küçük bir komisyon kazanabilir. Önerdiğimiz ürünleri, komisyondan bağımsız olarak titizlikle seçiyoruz.
+      </div>
+      <p class="copyright">© 2026 Hobi Bul · hobibul.com.tr · Tüm hakları saklıdır.</p>
+    </div>
+  </footer>
+
+  <script src="/js/config.js"></script>
+  <script src="/js/tracker.js"></script>
+  <script src="/js/dashboard.js?v=3"></script>
+</body>
+</html>

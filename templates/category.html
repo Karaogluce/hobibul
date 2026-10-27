@@ -1,0 +1,85 @@
+{% extends "base.html" %}
+{% block title %}{{ page.meta_title }}{% endblock %}
+{% block description %}{{ page.meta_description }}{% endblock %}
+{% block jsonld %}<script type="application/ld+json">{{ jsonld|safe }}</script>{% endblock %}
+{% block content %}
+<img class="cat-hero" src="{{ hero_img }}" alt="{{ page.name }}" loading="lazy">
+<nav class="breadcrumb" aria-label="breadcrumb">
+  <a href="/">Ana Sayfa</a> <span>›</span>
+  <a href="/kategori/{{ cat.slug }}/">{{ cat.name }}</a>
+  {% if sub %}<span>›</span> <span class="current">{{ sub.name }}</span>{% endif %}
+</nav>
+
+<h1 class="page-title">{{ page.heading }}</h1>
+<p class="lead">{{ page.description }}</p>
+
+{% if not sub %}
+<section class="subcats">
+  <h2 class="section-title">Alt Kategoriler</h2>
+  <div class="subcat-grid">
+    {% for s in cat.subcategories %}
+    <a class="subcat-card" href="/kategori/{{ cat.slug }}/{{ s.slug }}/">{{ s.name }}</a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
+<section class="compare">
+  <h2 class="section-title">Hızlı Karşılaştırma — {{ page.name }} Seçenekleri</h2>
+  <p class="compare-hint">Ürünleri yan yana karşılaştırın, size en uygun olanı seçin. (Yatay kaydırabilirsiniz.)</p>
+  <div class="compare-wrap">
+    <table class="compare-table">
+      <thead>
+        <tr>
+          <th class="corner">Özellik</th>
+          {% for p in top5 %}<th>{{ p.name }}</th>{% endfor %}
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td class="corner">Marka</td>{% for p in top5 %}<td>{{ p.brand }}</td>{% endfor %}</tr>
+        <tr><td class="corner">Ana Artı</td>{% for p in top5 %}<td>{{ p.pros[0] }}</td>{% endfor %}</tr>
+        <tr><td class="corner">Ana Eksi</td>{% for p in top5 %}<td>{{ p.cons[0] }}</td>{% endfor %}</tr>
+        <tr><td class="corner"></td>{% for p in top5 %}<td><a class="btn-aff aff-link" href="{{ p|affiliate }}" data-aff-link="{{ p.id }}" data-network="{{ p.network }}" target="_blank" rel="nofollow sponsored noopener">Satın Al</a></td>{% endfor %}</tr>
+      </tbody>
+    </table>
+  </div>
+</section>
+
+<section class="top5">
+  <h2 class="section-title">En İyi 5 {{ page.name }} Ekipmanı</h2>
+  {% for p in top5 %}
+  <div class="product-card" id="{{ p.id }}">
+    <div class="product-rank">{{ loop.index }}</div>
+    <div class="product-body">
+      <img class="product-img" src="{{ p|product_img }}" alt="{{ p.name }}" loading="lazy">
+      <h3>{{ p.name }}</h3>
+      <span class="brand">{{ p.brand }}</span>
+      <p class="desc">{{ p.desc }}</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>✅ Artılar</h4>
+          <ul>{% for x in p.pros %}<li>{{ x }}</li>{% endfor %}</ul>
+        </div>
+        <div class="cons">
+          <h4>⚠️ Eksiler</h4>
+          <ul>{% for x in p.cons %}<li>{{ x }}</li>{% endfor %}</ul>
+        </div>
+      </div>
+      <a class="btn-aff aff-link" href="{{ p|affiliate }}" data-aff-link="{{ p.id }}" data-network="{{ p.network }}"
+         target="_blank" rel="nofollow sponsored noopener">🛒 Satın Al / Fiyatı Gör</a>
+    </div>
+  </div>
+  {% endfor %}
+</section>
+
+{% if sub %}
+<section class="siblings">
+  <h2 class="section-title">{{ cat.name }} — Diğer Alt Kategoriler</h2>
+  <div class="subcat-grid">
+    {% for s in cat.subcategories %}
+    <a class="subcat-card {% if s.id == sub.id %}active{% endif %}" href="/kategori/{{ cat.slug }}/{{ s.slug }}/">{{ s.name }}</a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+{% endblock %}
