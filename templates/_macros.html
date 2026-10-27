@@ -1,0 +1,4 @@
+{% macro acc(id) -%}
+{%- set m = cat_meta.get(id, cat_meta['outdoor']) -%}
+style="--accent:{{ m.c1 }};--accent-dark:{{ m.c2 }}"
+{%- endmacro %}

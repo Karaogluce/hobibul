@@ -14,7 +14,13 @@
     supabaseKey.indexOf("SUPABASE_ANON_KEY") === -1;
   var articles = window.HOBIBUL_ARTICLES || [];
 
-  var banner = document.getElementById("dash-banner");
+  var ga4 = window.HOBIBUL_GA4 || null;
+
+  var banner = document.getElementById("site-banner");
+  var ga4Banner = document.getElementById("ga4-banner");
+  var heroCards = document.getElementById("hero-cards");
+  var chartEl = document.getElementById("visitors-chart");
+  var chanWrap = document.getElementById("dash-channels");
   var statCards = document.getElementById("stat-cards");
   var artWrap = document.getElementById("dash-articles");
   var prodWrap = document.getElementById("dash-products");
@@ -33,6 +39,62 @@
   function setBanner(type, html) { banner.className = "dash-banner " + type; banner.innerHTML = html; }
   function stat(label, value) {
     return '<div class="stat-card"><div class="label">' + esc(label) + '</div><div class="value">' + value + '</div></div>';
+  }
+
+  function hero(cls, label, value, sub) {
+    return '<div class="hero-card ' + cls + '"><div class="hc-label">' + esc(label) + '</div><div class="hc-value">' +
+      value + '</div><div class="hc-sub">' + esc(sub || "") + '</div></div>';
+  }
+
+  function renderGA4() {
+    if (!ga4 || !(ga4.visitors_daily || []).length) {
+      ga4Banner.className = "dash-banner demo";
+      ga4Banner.innerHTML = "⚠️ <strong>GA4 verisi henüz yok:</strong> Google Analytics kurulumu ve GitHub Actions'ta " +
+        "<code>GA4_PROPERTY_ID</code> / <code>GA4_SERVICE_ACCOUNT_JSON</code> ayarlandıktan sonra (günde bir kez) burada görünecek.";
+      chartEl.outerHTML = '<p class="chart-empty">Henüz veri yok.</p>';
+      chanWrap.innerHTML = '<p class="chart-empty">Henüz veri yok.</p>';
+      return { totalVisitors: 0, topChannel: null };
+    }
+    ga4Banner.className = "dash-banner live";
+    ga4Banner.innerHTML = "🟢 GA4 verisi — son güncelleme: " + esc(ga4.generated_at || "?") +
+      " (son " + (ga4.period_days || 30) + " gün)";
+
+    var days = ga4.visitors_daily || [];
+    var totalVisitors = days.reduce(function (s, d) { return s + (d.users || 0); }, 0);
+    drawChart(days);
+
+    var channels = (ga4.channels || []).slice().sort(function (a, b) { return b.sessions - a.sessions; });
+    var totalSess = channels.reduce(function (s, c) { return s + c.sessions; }, 0) || 1;
+    chanWrap.innerHTML = channels.length
+      ? '<table><thead><tr><th>Kaynak</th><th>Oturum</th><th>Pay</th></tr></thead><tbody>' +
+        channels.map(function (c) {
+          return '<tr><td>' + esc(c.name) + '</td><td>' + fmt(c.sessions) + '</td><td>' +
+            (c.sessions / totalSess * 100).toFixed(1) + '%</td></tr>';
+        }).join("") + '</tbody></table>'
+      : '<p class="chart-empty">Henüz veri yok.</p>';
+
+    return { totalVisitors: totalVisitors, topChannel: channels[0] || null, topPage: (ga4.top_pages || [])[0] || null };
+  }
+
+  function drawChart(days) {
+    if (!days.length) { chartEl.outerHTML = '<p class="chart-empty">Henüz veri yok.</p>'; return; }
+    var w = 760, h = 220, pad = 28;
+    var max = Math.max.apply(null, days.map(function (d) { return d.users; }).concat([1]));
+    var step = (w - pad * 2) / Math.max(1, days.length - 1);
+    var pts = days.map(function (d, i) {
+      var x = pad + i * step;
+      var y = h - pad - (d.users / max) * (h - pad * 2);
+      return [x, y];
+    });
+    var line = pts.map(function (p, i) { return (i ? "L" : "M") + p[0].toFixed(1) + "," + p[1].toFixed(1); }).join(" ");
+    var area = line + " L" + pts[pts.length - 1][0].toFixed(1) + "," + (h - pad) +
+      " L" + pts[0][0].toFixed(1) + "," + (h - pad) + " Z";
+    var grid = [0.25, 0.5, 0.75].map(function (f) {
+      var y = pad + f * (h - pad * 2);
+      return '<line class="cgrid" x1="' + pad + '" x2="' + (w - pad) + '" y1="' + y + '" y2="' + y + '"/>';
+    }).join("");
+    var dots = pts.map(function (p) { return '<circle class="cdot" cx="' + p[0].toFixed(1) + '" cy="' + p[1].toFixed(1) + '" r="2.5"/>'; }).join("");
+    chartEl.innerHTML = grid + '<path class="carea" d="' + area + '"/><path class="cline" d="' + line + '"/>' + dots;
   }
 
   function renderAll(events) {
@@ -62,11 +124,14 @@
       stat("Genel CTR", ctr.toFixed(2) + "%") +
       stat("İzlenen Sayfa", fmt(Object.keys(byPage).length));
 
-    var rows = articles.map(function (a) {
+    var artRows = articles.map(function (a) {
       var s = byPage[a.path] || { views: 0, clicks: 0 };
-      var c = s.views > 0 ? (s.clicks / s.views * 100) : 0;
-      return '<tr><td>' + esc(a.title) + '</td><td>' + fmt(s.views) + '</td><td>' +
-        fmt(s.clicks) + '</td><td><span class="ctr-badge">' + c.toFixed(2) + '%</span></td></tr>';
+      return { title: a.title, views: s.views, clicks: s.clicks };
+    }).sort(function (a, b) { return b.views - a.views; });
+    var rows = artRows.map(function (a) {
+      var c = a.views > 0 ? (a.clicks / a.views * 100) : 0;
+      return '<tr><td>' + esc(a.title) + '</td><td>' + fmt(a.views) + '</td><td>' +
+        fmt(a.clicks) + '</td><td><span class="ctr-badge">' + c.toFixed(2) + '%</span></td></tr>';
     }).join("");
     artWrap.innerHTML = '<table><thead><tr><th>Makale</th><th>Görüntülenme</th><th>Tıklama</th><th>CTR</th></tr></thead><tbody>' +
       rows + '</tbody></table>';
@@ -77,6 +142,21 @@
       return '<tr><td><code>' + esc(p.id) + '</code></td><td>' + fmt(p.clicks) + '</td></tr>';
     }).join("") : '<tr><td colspan="2">Henüz tıklama kaydı yok.</td></tr>';
     prodWrap.innerHTML = '<table><thead><tr><th>Ürün</th><th>Tıklama</th></tr></thead><tbody>' + prows + '</tbody></table>';
+
+    var ga4Info = renderGA4();
+    var topArticle = artRows[0] && artRows[0].views > 0 ? artRows[0] : null;
+    var topProduct = prods[0] || null;
+    heroCards.innerHTML =
+      hero("hc-visitors", "Tekil Ziyaretçi (30 gün)", fmt(ga4Info.totalVisitors), "GA4 verisi") +
+      hero("hc-article", "En Çok Okunan Makale",
+        topArticle ? esc(topArticle.title) : "Henüz veri yok",
+        topArticle ? fmt(topArticle.views) + " görüntülenme" : "") +
+      hero("hc-product", "En Çok Tıklanan Ürün",
+        topProduct ? esc(topProduct.id) : "Henüz veri yok",
+        topProduct ? fmt(topProduct.clicks) + " tıklama" : "") +
+      hero("hc-channel", "En Çok Trafik Getiren Kanal",
+        ga4Info.topChannel ? esc(ga4Info.topChannel.name) : "Henüz veri yok",
+        ga4Info.topChannel ? fmt(ga4Info.topChannel.sessions) + " oturum" : "");
   }
 
   function sha256js(ascii) {

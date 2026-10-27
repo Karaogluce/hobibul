@@ -1,11 +1,12 @@
 {% extends "base.html" %}
 {% block title %}Analitik Paneli — {{ site.site_name }}{% endblock %}
-{% block description %}Hobi Bul trafik ve affiliate tıklama analitiği yönetim paneli.{% endblock %}
+{% block description %}Hobi Bul trafik, ziyaretçi ve affiliate tıklama analitiği yönetim paneli.{% endblock %}
 {% block head %}
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
-<script>window.HOBIBUL_ARTICLES = {{ articles_json|safe }};</script>
+<meta name="robots" content="noindex, nofollow">
+<script>window.HOBIBUL_ARTICLES = {{ articles_json|safe }};window.HOBIBUL_GA4 = {{ ga4_json|safe }};</script>
 {% endblock %}
 {% block content %}
 <h1 class="page-title">📊 Analitik Paneli</h1>
@@ -20,11 +21,26 @@
 </div>
 
 <div id="dash-content" style="display:none">
-  <p class="lead">Makale görüntülenmeleri, affiliate tıklamaları ve tıklama oranları (CTR).</p>
-  <div id="dash-banner" class="dash-banner"></div>
-  <div class="stat-cards" id="stat-cards"></div>
+  <p class="lead">Ziyaretçi, trafik kaynağı, makale ve affiliate tıklama performansı.</p>
+
+  <div id="ga4-banner" class="dash-banner"></div>
+  <div class="hero-cards" id="hero-cards"></div>
+
   <section>
-    <h2 class="section-title">Makale Bazında Performans</h2>
+    <h2 class="section-title">Ziyaretçi Trendi (son 30 gün)</h2>
+    <div class="chart-card"><svg id="visitors-chart" viewBox="0 0 760 220" preserveAspectRatio="none" role="img" aria-label="Son 30 günde tekil ziyaretçi grafiği"></svg></div>
+  </section>
+
+  <section>
+    <h2 class="section-title">Trafik Kaynakları</h2>
+    <div id="dash-channels" class="dash-table-wrap"></div>
+  </section>
+
+  <div id="site-banner" class="dash-banner"></div>
+  <div class="stat-cards" id="stat-cards"></div>
+
+  <section>
+    <h2 class="section-title">Makale Bazında Performans (kendi takip sistemimiz)</h2>
     <div id="dash-articles" class="dash-table-wrap"></div>
   </section>
   <section>
@@ -33,4 +49,4 @@
   </section>
 </div>
 {% endblock %}
-{% block scripts %}<script src="/js/dashboard.js?v=3"></script>{% endblock %}
+{% block scripts %}<script src="/js/dashboard.js?v=4"></script>{% endblock %}

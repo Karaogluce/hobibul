@@ -1,9 +1,14 @@
-<!DOCTYPE html>
+{% from "_macros.html" import acc %}<!DOCTYPE html>
 <html lang="tr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0b0d1e">
   <meta name="google-site-verification" content="l-23yAEZ-R05ZbV6TM0HkL3iECB6zI1FgHFrHqKu_ek">
+  {% if site.ga4_id and 'XXXXXXX' not in site.ga4_id %}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4_id }}"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","{{ site.ga4_id }}");</script>
+  {% endif %}
   <title>{% block title %}{{ site.default_meta.title }}{% endblock %}</title>
   <meta name="description" content="{% block description %}{{ site.default_meta.description }}{% endblock %}">
   {% block canonical %}<link rel="canonical" href="{{ base_url }}{{ canonical_path }}">{% endblock %}
@@ -13,61 +18,60 @@
   <meta property="og:description" content="{{ self.description() }}">
   <meta property="og:url" content="{{ base_url }}{{ canonical_path }}">
   <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&display=swap">
   <link rel="stylesheet" href="/css/style.css">
   {% block head %}{% endblock %}
   {% block jsonld %}{% endblock %}
 </head>
-<body>
+<body class="{% block bodyclass %}{% endblock %}">
+  <a class="skip" href="#icerik">İçeriğe geç</a>
   <header class="site-header">
-    <div class="wrap header-inner">
-      <a href="/" class="brand"><img src="/img/logo.svg" alt="{{ site.site_name }}" class="brand-logo"></a>
-      <nav class="main-nav" aria-label="Ana menü">
+    <div class="pill">
+      <a href="/" class="site-brand" aria-label="{{ site.site_name }} ana sayfa"><img src="/img/logo.svg" alt="{{ site.site_name }}" class="brand-logo" width="120" height="34"></a>
+      <nav class="nav" aria-label="Ana menü">
         <a href="/">Ana Sayfa</a>
-        <div class="dropdown">
-          <button class="dropbtn" type="button">Kategoriler ▾</button>
-          <div class="dropdown-content">
-            {% for c in all_categories %}
-            <a href="/kategori/{{ c.slug }}/">{{ c.name }}</a>
-            {% endfor %}
+        <details class="dd">
+          <summary>Kategoriler</summary>
+          <div class="panel">
+            {% for c in all_categories %}<a href="/kategori/{{ c.slug }}/" {{ acc(c.id) }}><i></i>{{ c.name }}</a>{% endfor %}
           </div>
-        </div>
-        <div class="dropdown">
-          <button class="dropbtn" type="button">Rehberler ▾</button>
-          <div class="dropdown-content">
-            {% for a in articles %}
-            <a href="/makale/{{ a.slug }}/">{{ a.title }}</a>
-            {% endfor %}
+        </details>
+        <details class="dd">
+          <summary>Rehberler</summary>
+          <div class="panel list">
+            {% for a in (articles|sort(attribute='date', reverse=True))[:6] %}<a href="/makale/{{ a.slug }}/" {{ acc(a.category) }}><i></i>{{ a.title }}</a>{% endfor %}
+            <a class="all" href="/rehberler/">Tüm rehberler</a>
           </div>
-        </div>
+        </details>
       </nav>
     </div>
   </header>
 
-  <main class="wrap">
+  {% block hero %}{% endblock %}
+  <main class="wrap" id="icerik">
     {% block content %}{% endblock %}
   </main>
 
   <footer class="site-footer">
-    <div class="wrap footer-inner">
+    <div class="wrap">
       <div class="footer-cols">
-        <div class="footer-about">
-          <h3>🎯 {{ site.site_name }}</h3>
+        <div>
+          <h3>{{ site.site_name }}</h3>
           <p>{{ site.tagline }}</p>
         </div>
-        <div class="footer-cats">
+        <div>
           <h3>Kategoriler</h3>
-          <ul>
-            {% for c in all_categories %}
-            <li><a href="/kategori/{{ c.slug }}/">{{ c.name }}</a></li>
-            {% endfor %}
+          <ul class="footer-cats">
+            {% for c in all_categories %}<li {{ acc(c.id) }}><a href="/kategori/{{ c.slug }}/">{{ c.name }}</a></li>{% endfor %}
           </ul>
         </div>
-        <div class="footer-guides">
-          <h3>Rehberler</h3>
+        <div>
+          <h3>Son rehberler</h3>
           <ul>
-            {% for a in articles %}
-            <li><a href="/makale/{{ a.slug }}/">{{ a.title }}</a></li>
-            {% endfor %}
+            {% for a in (articles|sort(attribute='date', reverse=True))[:6] %}<li><a href="/makale/{{ a.slug }}/">{{ a.title }}</a></li>{% endfor %}
+            <li><a href="/rehberler/">Tüm rehberler</a></li>
           </ul>
         </div>
       </div>
@@ -80,6 +84,7 @@
 
   <script src="/js/config.js"></script>
   <script src="/js/tracker.js"></script>
+  <script src="/js/ui.js" defer></script>
   {% block scripts %}{% endblock %}
 </body>
 </html>

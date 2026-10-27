@@ -12,10 +12,14 @@ import re
 import shutil
 import html as html_mod
 import hashlib
+import sys
 from datetime import datetime
 from urllib.parse import urlencode, quote as urlquote
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
+
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
 
 BASE = os.path.dirname(os.path.abspath(__file__))
 CONTENT = os.path.join(BASE, "content")
@@ -318,6 +322,7 @@ env.filters["affiliate"] = _aff_filter
 env.filters["product_img"] = product_img
 
 
+
 def render(tpl, out_path, ctx):
     tmpl = env.get_template(tpl)
     html_out = tmpl.render(**ctx)
@@ -400,6 +405,11 @@ def main():
                 "jsonld": jsonld(itemlist_ld(sub["name"], top5, f"/kategori/{cat['slug']}/{sub['slug']}/")),
             })
 
+    # ---- rehberler (tüm makaleler) ----
+    render("guides.html", os.path.join(SITE, "rehberler", "index.html"), {
+        "canonical_path": "/rehberler/",
+    })
+
     # ---- makale sayfalari ----
     for a in articles:
         render("article.html", os.path.join(SITE, "makale", a["slug"], "index.html"), {
@@ -434,6 +444,8 @@ def main():
             [{"path": f"/makale/{a['slug']}/", "title": a["title"]} for a in articles],
             ensure_ascii=False,
         ),
+        "ga4_json": json.dumps(load_ga4(), ensure_ascii=False
+        ),
     })
 
     # ---- config.js (analitik) ----
@@ -448,7 +460,7 @@ def main():
           "window.HOBIBUL_CONFIG = " + json.dumps(cfg, ensure_ascii=False) + ";\n")
 
     # ---- sitemap + robots + CNAME + 404 ----
-    urls = ["/"]
+    urls = ["/", "/rehberler/"]
     for cat in categories:
         urls.append(f"/kategori/{cat['slug']}/")
         for sub in cat["subcategories"]:
@@ -486,6 +498,14 @@ def main():
 
 
 REDIRECTS = {"/outdoor/": "/kategori/outdoor/"}
+
+
+def load_ga4():
+    p = os.path.join(CONTENT, "analytics_ga4.json")
+    if os.path.exists(p):
+        with open(p, encoding="utf-8") as f:
+            return json.load(f)
+    return None
 
 
 def related_for(a, n=3):

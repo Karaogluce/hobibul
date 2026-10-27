@@ -1,0 +1,5654 @@
+[
+ {
+  "sorgu": "kampçılık belgesi nasıl alınır",
+  "kategori": "outdoor",
+  "alt": "kampcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kampçılık nasıl yapılır",
+  "kategori": "outdoor",
+  "alt": "kampcilik",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "kampçılık nasıl yazılır",
+  "kategori": "outdoor",
+  "alt": "kampcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "afad kampçılık eğitimi",
+  "kategori": "outdoor",
+  "alt": "kampcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "adana kampçılık fuarı",
+  "kategori": "outdoor",
+  "alt": "kampcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "aydoğan kampçılık adana",
+  "kategori": "outdoor",
+  "alt": "kampcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sarıçam aydoğan kampçılık",
+  "kategori": "outdoor",
+  "alt": "kampcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kampçılık ile ilgili bilgiler",
+  "kategori": "outdoor",
+  "alt": "kampcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kampçılık ne demek",
+  "kategori": "outdoor",
+  "alt": "kampcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "temel kampçılık eğitimi",
+  "kategori": "outdoor",
+  "alt": "kampcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "türkiye kampçılık federasyonu",
+  "kategori": "outdoor",
+  "alt": "kampcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kampçılık için gerekli malzemeler",
+  "kategori": "outdoor",
+  "alt": "kampcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "istanbul kampçılık kulüpleri",
+  "kategori": "outdoor",
+  "alt": "kampcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kampçılık spor mu",
+  "kategori": "outdoor",
+  "alt": "kampcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "doğa sporları kampçılık",
+  "kategori": "outdoor",
+  "alt": "kampcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dağcılık antrenörü nasıl olunur",
+  "kategori": "outdoor",
+  "alt": "dagcilik-trekking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "camp dağcılık malzemeleri",
+  "kategori": "outdoor",
+  "alt": "dagcilik-trekking",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "dağcılık eğitimi nasıl alınır",
+  "kategori": "outdoor",
+  "alt": "dagcilik-trekking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dağcılık iniş malzemeleri",
+  "kategori": "outdoor",
+  "alt": "dagcilik-trekking",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "dağcılık malzemeleri nelerdir",
+  "kategori": "outdoor",
+  "alt": "dagcilik-trekking",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "dağcılık malzemeleri isimleri",
+  "kategori": "outdoor",
+  "alt": "dagcilik-trekking",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "dağcılık malzemeleri listesi",
+  "kategori": "outdoor",
+  "alt": "dagcilik-trekking",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "dağcılık nasıl yapılır",
+  "kategori": "outdoor",
+  "alt": "dagcilik-trekking",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "dağcılık nasıl başlanır",
+  "kategori": "outdoor",
+  "alt": "dagcilik-trekking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dağcılık nasıl bir spordur",
+  "kategori": "outdoor",
+  "alt": "dagcilik-trekking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dağcılık nedir kısaca tanımı",
+  "kategori": "outdoor",
+  "alt": "dagcilik-trekking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dağcılık otu nedir",
+  "kategori": "outdoor",
+  "alt": "dagcilik-trekking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dağcılık tırmanış malzemeleri",
+  "kategori": "outdoor",
+  "alt": "dagcilik-trekking",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "dağcılık teknik malzemeleri",
+  "kategori": "outdoor",
+  "alt": "dagcilik-trekking",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "endüstriyel dağcılık nedir",
+  "kategori": "outdoor",
+  "alt": "dagcilik-trekking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "balıkçılık av malzemeleri",
+  "kategori": "outdoor",
+  "alt": "balikcilik",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "balıkçılık bölgesi nedir",
+  "kategori": "outdoor",
+  "alt": "balikcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "jig balıkçılık nedir",
+  "kategori": "outdoor",
+  "alt": "balikcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "balıkçılık lider nedir",
+  "kategori": "outdoor",
+  "alt": "balikcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "balıkçılık lisansı nasıl alınır",
+  "kategori": "outdoor",
+  "alt": "balikcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "balıkçılık lrf nedir",
+  "kategori": "outdoor",
+  "alt": "balikcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "balıkçılık malzemeleri satan yerler",
+  "kategori": "outdoor",
+  "alt": "balikcilik",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "balıkçılık nasıl yapılır",
+  "kategori": "outdoor",
+  "alt": "balikcilik",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "balıkçılık nedir kısaca",
+  "kategori": "outdoor",
+  "alt": "balikcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "balıkçılık nedir 4 sınıf",
+  "kategori": "outdoor",
+  "alt": "balikcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "balıkçılık ve su ürünleri genel müdürlüğü personel listesi",
+  "kategori": "outdoor",
+  "alt": "balikcilik",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "balıkçılık nasıl yazılır",
+  "kategori": "outdoor",
+  "alt": "balikcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "metin2 balıkçılık nasıl gelişir",
+  "kategori": "outdoor",
+  "alt": "balikcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "balıkçılık hecelerine nasıl ayrılır",
+  "kategori": "outdoor",
+  "alt": "balikcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dalyan balıkçılık nedir",
+  "kategori": "outdoor",
+  "alt": "balikcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bisiklet freni nasıl sıkılır",
+  "kategori": "outdoor",
+  "alt": "bisiklet",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bisiklet nasıl sürülür",
+  "kategori": "outdoor",
+  "alt": "bisiklet",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bisiklet nasıl çizilir",
+  "kategori": "outdoor",
+  "alt": "bisiklet",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bisiklet nasıl yazılır",
+  "kategori": "outdoor",
+  "alt": "bisiklet",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bisiklet nasıl basılır",
+  "kategori": "outdoor",
+  "alt": "bisiklet",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bisiklet nasıl boyanır",
+  "kategori": "outdoor",
+  "alt": "bisiklet",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bisiklet nasıl yapılır",
+  "kategori": "outdoor",
+  "alt": "bisiklet",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "bisiklet pedalı nasıl sökülür",
+  "kategori": "outdoor",
+  "alt": "bisiklet",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bisiklet watt nedir",
+  "kategori": "outdoor",
+  "alt": "bisiklet",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bisiklet zinciri nasıl takılır",
+  "kategori": "outdoor",
+  "alt": "bisiklet",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bisiklet nasıl öğretilir",
+  "kategori": "outdoor",
+  "alt": "bisiklet",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bisiklet nasıl öğrenilir",
+  "kategori": "outdoor",
+  "alt": "bisiklet",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bisiklet nasıl temizlenir",
+  "kategori": "outdoor",
+  "alt": "bisiklet",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bisiklet nasıl yıkanır",
+  "kategori": "outdoor",
+  "alt": "bisiklet",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bisiklet nedir kısaca",
+  "kategori": "outdoor",
+  "alt": "bisiklet",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaya tırmanışı malzemeleri",
+  "kategori": "outdoor",
+  "alt": "kaya-tirmanis",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "kaya tırmanışı nedir",
+  "kategori": "outdoor",
+  "alt": "kaya-tirmanis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaya tırmanışı nasıl yapılır",
+  "kategori": "outdoor",
+  "alt": "kaya-tirmanis",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "kaya tırmanışı ayakkabısı",
+  "kategori": "outdoor",
+  "alt": "kaya-tirmanis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaya tırmanışı ankara",
+  "kategori": "outdoor",
+  "alt": "kaya-tirmanis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaya tırmanışı antalya",
+  "kategori": "outdoor",
+  "alt": "kaya-tirmanis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "aladağlar kaya tırmanışı",
+  "kategori": "outdoor",
+  "alt": "kaya-tirmanis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "adana kaya tırmanışı",
+  "kategori": "outdoor",
+  "alt": "kaya-tirmanis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaya tırmanışı belgeseli",
+  "kategori": "outdoor",
+  "alt": "kaya-tirmanis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaya tırmanışı bolt",
+  "kategori": "outdoor",
+  "alt": "kaya-tirmanis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "deliktaş kaya tırmanışı bölgesi fotoğraflar",
+  "kategori": "outdoor",
+  "alt": "kaya-tirmanis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "deliktaş kaya tırmanışı bölgesi ivrindi resimleri",
+  "kategori": "outdoor",
+  "alt": "kaya-tirmanis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaya tırmanışı hakkında bilgi",
+  "kategori": "outdoor",
+  "alt": "kaya-tirmanis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mezitler kanyonu kaya tırmanışı bölgesi fotoğraflar",
+  "kategori": "outdoor",
+  "alt": "kaya-tirmanis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ballıkayalar kaya tırmanışı",
+  "kategori": "outdoor",
+  "alt": "kaya-tirmanis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "tığ işi örgü nasıl yapılır",
+  "kategori": "el-sanatlari",
+  "alt": "orgu-tig",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "tığ işi örgü nasıl bitirilir",
+  "kategori": "el-sanatlari",
+  "alt": "orgu-tig",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "tığ işi düz örgü modelleri",
+  "kategori": "el-sanatlari",
+  "alt": "orgu-tig",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yazlık örgü bluz tığ işi askılı bluz modelleri",
+  "kategori": "el-sanatlari",
+  "alt": "orgu-tig",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "örgü aşkım tığ işi bebek yeleği",
+  "kategori": "el-sanatlari",
+  "alt": "orgu-tig",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "anlatımlı örgü tığ işi bebek eteği yapımı",
+  "kategori": "el-sanatlari",
+  "alt": "orgu-tig",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "tığ işi v örgü",
+  "kategori": "el-sanatlari",
+  "alt": "orgu-tig",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "orgu tig isi bebek yelekleri",
+  "kategori": "el-sanatlari",
+  "alt": "orgu-tig",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "tığ işi örgü lale yapılışı",
+  "kategori": "el-sanatlari",
+  "alt": "orgu-tig",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "tığ işi ajurlu örgü tekniği",
+  "kategori": "el-sanatlari",
+  "alt": "orgu-tig",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "örgü tığ işi bebek battaniye modelleri",
+  "kategori": "el-sanatlari",
+  "alt": "orgu-tig",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "örgü yazlık tığ işi bluzlar",
+  "kategori": "el-sanatlari",
+  "alt": "orgu-tig",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "tig isi orgu canta",
+  "kategori": "el-sanatlari",
+  "alt": "orgu-tig",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "tığ işi örgü gül yapımı",
+  "kategori": "el-sanatlari",
+  "alt": "orgu-tig",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "örgü modelleri tığ işi runner yapımı",
+  "kategori": "el-sanatlari",
+  "alt": "orgu-tig",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "takı yapımı malzemeleri",
+  "kategori": "el-sanatlari",
+  "alt": "taki-yapimi",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "miyuki takı yapımı nedir",
+  "kategori": "el-sanatlari",
+  "alt": "taki-yapimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bebek takı yastiği yapimi malzemeleri",
+  "kategori": "el-sanatlari",
+  "alt": "taki-yapimi",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "taki yapimi anlatimli",
+  "kategori": "el-sanatlari",
+  "alt": "taki-yapimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "takı yapımı seti",
+  "kategori": "el-sanatlari",
+  "alt": "taki-yapimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "takı yapma aksesuarları",
+  "kategori": "el-sanatlari",
+  "alt": "taki-yapimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "takı yapma aletleri",
+  "kategori": "el-sanatlari",
+  "alt": "taki-yapimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "takı askısı yapımı",
+  "kategori": "el-sanatlari",
+  "alt": "taki-yapimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "takı asansör yapımı",
+  "kategori": "el-sanatlari",
+  "alt": "taki-yapimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "takı el yapımı",
+  "kategori": "el-sanatlari",
+  "alt": "taki-yapimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "boncukla takı yapımı anlatımlı",
+  "kategori": "el-sanatlari",
+  "alt": "taki-yapimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "el yapımı takı alan yerler",
+  "kategori": "el-sanatlari",
+  "alt": "taki-yapimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "takı yapımı boncuk",
+  "kategori": "el-sanatlari",
+  "alt": "taki-yapimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "takı yapımı bit",
+  "kategori": "el-sanatlari",
+  "alt": "taki-yapimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "takı bileklik yapımı",
+  "kategori": "el-sanatlari",
+  "alt": "taki-yapimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "orkun bakar ahşap işleri a ş",
+  "kategori": "el-sanatlari",
+  "alt": "ahsap-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "antalya ahşap işleri",
+  "kategori": "el-sanatlari",
+  "alt": "ahsap-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ankara ahşap işleri",
+  "kategori": "el-sanatlari",
+  "alt": "ahsap-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ahşap boyama işleri",
+  "kategori": "el-sanatlari",
+  "alt": "ahsap-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "basit ahşap işleri",
+  "kategori": "el-sanatlari",
+  "alt": "ahsap-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "balıkesir ahşap işleri",
+  "kategori": "el-sanatlari",
+  "alt": "ahsap-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ahşap cnc işleri",
+  "kategori": "el-sanatlari",
+  "alt": "ahsap-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "cami ahşap işleri",
+  "kategori": "el-sanatlari",
+  "alt": "ahsap-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ahşap el işleri",
+  "kategori": "el-sanatlari",
+  "alt": "ahsap-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evde ahşap işleri",
+  "kategori": "el-sanatlari",
+  "alt": "ahsap-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evde ahşap işleri için gerekli aletler",
+  "kategori": "el-sanatlari",
+  "alt": "ahsap-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ahşap işleri yapan firmalar",
+  "kategori": "el-sanatlari",
+  "alt": "ahsap-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "akyaka marangoz ve ahşap işleri fotoğraflar",
+  "kategori": "el-sanatlari",
+  "alt": "ahsap-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ahşap işleri teknik şartnamesi",
+  "kategori": "el-sanatlari",
+  "alt": "ahsap-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ahşap işleri için gerekli malzemeler",
+  "kategori": "el-sanatlari",
+  "alt": "ahsap-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "resim boyama malzemeleri",
+  "kategori": "el-sanatlari",
+  "alt": "resim-boyama",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "resim boyama nasıl",
+  "kategori": "el-sanatlari",
+  "alt": "resim-boyama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "resim boyama araba",
+  "kategori": "el-sanatlari",
+  "alt": "resim-boyama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "resim boyama at",
+  "kategori": "el-sanatlari",
+  "alt": "resim-boyama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "resim boyama a4",
+  "kategori": "el-sanatlari",
+  "alt": "resim-boyama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "resim boyama aslan",
+  "kategori": "el-sanatlari",
+  "alt": "resim-boyama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "resim boyama anaokulu",
+  "kategori": "el-sanatlari",
+  "alt": "resim-boyama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "resim boyama aç",
+  "kategori": "el-sanatlari",
+  "alt": "resim-boyama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "resim boyama anasınıfı",
+  "kategori": "el-sanatlari",
+  "alt": "resim-boyama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "resim boyama adı",
+  "kategori": "el-sanatlari",
+  "alt": "resim-boyama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "resim boyama ayıcık",
+  "kategori": "el-sanatlari",
+  "alt": "resim-boyama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "resim boyama barbie",
+  "kategori": "el-sanatlari",
+  "alt": "resim-boyama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "resim boyama bebek",
+  "kategori": "el-sanatlari",
+  "alt": "resim-boyama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "resim boyama brawl stars",
+  "kategori": "el-sanatlari",
+  "alt": "resim-boyama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "resim boyama balık",
+  "kategori": "el-sanatlari",
+  "alt": "resim-boyama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mum yapımı malzemeleri",
+  "kategori": "el-sanatlari",
+  "alt": "mum-sabun",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "mum yapımı nasıl olur",
+  "kategori": "el-sanatlari",
+  "alt": "mum-sabun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sabun yapımı malzemeleri",
+  "kategori": "el-sanatlari",
+  "alt": "mum-sabun",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "sabun yapımı nasıl yapılır",
+  "kategori": "el-sanatlari",
+  "alt": "mum-sabun",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "ev yapımı sabun nasıl kurutulur",
+  "kategori": "el-sanatlari",
+  "alt": "mum-sabun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evde sıvı sabun yapımı nasıl olur",
+  "kategori": "el-sanatlari",
+  "alt": "mum-sabun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mum sabun yapımı",
+  "kategori": "el-sanatlari",
+  "alt": "mum-sabun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mum yapımı atölyesi",
+  "kategori": "el-sanatlari",
+  "alt": "mum-sabun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mum yapımı ankara",
+  "kategori": "el-sanatlari",
+  "alt": "mum-sabun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mum yapımı atölye",
+  "kategori": "el-sanatlari",
+  "alt": "mum-sabun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mum yapımı aşamaları",
+  "kategori": "el-sanatlari",
+  "alt": "mum-sabun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mum yapımı antalya",
+  "kategori": "el-sanatlari",
+  "alt": "mum-sabun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mum altlığı yapımı",
+  "kategori": "el-sanatlari",
+  "alt": "mum-sabun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mum yapimi resimli anlatim",
+  "kategori": "el-sanatlari",
+  "alt": "mum-sabun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mum yapımı başlangıç",
+  "kategori": "el-sanatlari",
+  "alt": "mum-sabun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "deri işçiliği malzemeleri",
+  "kategori": "el-sanatlari",
+  "alt": "deri-isleri",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "deri işçiliği nedir",
+  "kategori": "el-sanatlari",
+  "alt": "deri-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "deri işçiliği atölyesi",
+  "kategori": "el-sanatlari",
+  "alt": "deri-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "deri işçiliği aletleri",
+  "kategori": "el-sanatlari",
+  "alt": "deri-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "deri el işçiliği",
+  "kategori": "el-sanatlari",
+  "alt": "deri-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "deri işçiliği seti",
+  "kategori": "el-sanatlari",
+  "alt": "deri-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "deri işçiliği eğitimi",
+  "kategori": "el-sanatlari",
+  "alt": "deri-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "deri işçiliği kursu",
+  "kategori": "el-sanatlari",
+  "alt": "deri-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "deri işçiliği sanatı",
+  "kategori": "el-sanatlari",
+  "alt": "deri-isleri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gitar nasıl çalınır",
+  "kategori": "muzik",
+  "alt": "gitar",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gitar nasıl tutulur",
+  "kategori": "muzik",
+  "alt": "gitar",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gitar nasıl öğrenilir",
+  "kategori": "muzik",
+  "alt": "gitar",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gitar riffi nedir",
+  "kategori": "muzik",
+  "alt": "gitar",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gitar riff nedir",
+  "kategori": "muzik",
+  "alt": "gitar",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gitar uçakta nasıl taşınır",
+  "kategori": "muzik",
+  "alt": "gitar",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gitar nasıl yazılır",
+  "kategori": "muzik",
+  "alt": "gitar",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gitar nasıl akort edilir",
+  "kategori": "muzik",
+  "alt": "gitar",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gitar nasıl yapılır",
+  "kategori": "muzik",
+  "alt": "gitar",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "gitar nasıl çizilir",
+  "kategori": "muzik",
+  "alt": "gitar",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gitar nasıl temizlenir",
+  "kategori": "muzik",
+  "alt": "gitar",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gitar nedir ve özellikleri",
+  "kategori": "muzik",
+  "alt": "gitar",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gitar nedir kısaca",
+  "kategori": "muzik",
+  "alt": "gitar",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gitar nedir ne işe yarar",
+  "kategori": "muzik",
+  "alt": "gitar",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gitar nedir uzunca",
+  "kategori": "muzik",
+  "alt": "gitar",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "klavye ile piyano",
+  "kategori": "muzik",
+  "alt": "klavye-piyano",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bilgisayar klavye piyano",
+  "kategori": "muzik",
+  "alt": "klavye-piyano",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "casio klavye piyano",
+  "kategori": "muzik",
+  "alt": "klavye-piyano",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dijital klavye piyano",
+  "kategori": "muzik",
+  "alt": "klavye-piyano",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "elektronik klavye piyano",
+  "kategori": "muzik",
+  "alt": "klavye-piyano",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "klavye piyano farkı",
+  "kategori": "muzik",
+  "alt": "klavye-piyano",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "piyano klavye görsel",
+  "kategori": "muzik",
+  "alt": "klavye-piyano",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "klavye ile piyano çalma",
+  "kategori": "muzik",
+  "alt": "klavye-piyano",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "midi klavye ile piyano öğrenilir mi",
+  "kategori": "muzik",
+  "alt": "klavye-piyano",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "piyano klavye kılıfı",
+  "kategori": "muzik",
+  "alt": "klavye-piyano",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "katlanabilir klavye piyano",
+  "kategori": "muzik",
+  "alt": "klavye-piyano",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mini klavye piyano",
+  "kategori": "muzik",
+  "alt": "klavye-piyano",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "midi klavye piyano",
+  "kategori": "muzik",
+  "alt": "klavye-piyano",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "klavye piyano notaları",
+  "kategori": "muzik",
+  "alt": "klavye-piyano",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "piyano klavye nota",
+  "kategori": "muzik",
+  "alt": "klavye-piyano",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "davul ingilizcede nasıl yazılır",
+  "kategori": "muzik",
+  "alt": "davul-perkusyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "davul ipi nasıl bağlanır",
+  "kategori": "muzik",
+  "alt": "davul-perkusyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "davul nasıl çalınır",
+  "kategori": "muzik",
+  "alt": "davul-perkusyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "davul nasıl yapılır",
+  "kategori": "muzik",
+  "alt": "davul-perkusyon",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "davul nasıl cisimdir",
+  "kategori": "muzik",
+  "alt": "davul-perkusyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "davul tozu nedir",
+  "kategori": "muzik",
+  "alt": "davul-perkusyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "davul yapımı malzemeleri",
+  "kategori": "muzik",
+  "alt": "davul-perkusyon",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "davul nasıl çizilir",
+  "kategori": "muzik",
+  "alt": "davul-perkusyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "davul nasıl tutulur",
+  "kategori": "muzik",
+  "alt": "davul-perkusyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "davul nasıl gerilir",
+  "kategori": "muzik",
+  "alt": "davul-perkusyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "davul nasıl takılır",
+  "kategori": "muzik",
+  "alt": "davul-perkusyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "davul nasıl cisimlerdir",
+  "kategori": "muzik",
+  "alt": "davul-perkusyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "davul nedir kısaca",
+  "kategori": "muzik",
+  "alt": "davul-perkusyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "davul nedir ve özellikleri",
+  "kategori": "muzik",
+  "alt": "davul-perkusyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "davul nedir tarih",
+  "kategori": "muzik",
+  "alt": "davul-perkusyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "müzik prodüksiyonu nedir",
+  "kategori": "muzik",
+  "alt": "dj-produksiyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dj seti nasıl kullanılır",
+  "kategori": "muzik",
+  "alt": "dj-produksiyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dj seti nedir",
+  "kategori": "muzik",
+  "alt": "dj-produksiyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dj prodüksiyon eğitimi",
+  "kategori": "muzik",
+  "alt": "dj-produksiyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "müzik prodüksiyonu bölümü",
+  "kategori": "muzik",
+  "alt": "dj-produksiyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bodrum müzik prodüksiyonu",
+  "kategori": "muzik",
+  "alt": "dj-produksiyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "müzik prodüksiyonu ne demek",
+  "kategori": "muzik",
+  "alt": "dj-produksiyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "müzik prodüksiyonu eğitimi",
+  "kategori": "muzik",
+  "alt": "dj-produksiyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "müzik prodüksiyonu ve ses tasarımı",
+  "kategori": "muzik",
+  "alt": "dj-produksiyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "elektronik müzik prodüksiyonu",
+  "kategori": "muzik",
+  "alt": "dj-produksiyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "müzik prodüksiyonu için laptop",
+  "kategori": "muzik",
+  "alt": "dj-produksiyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "müzik prodüksiyonu kursu",
+  "kategori": "muzik",
+  "alt": "dj-produksiyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "akai apckey25mk2 müzik prodüksiyonu klavye kontrol cihazı",
+  "kategori": "muzik",
+  "alt": "dj-produksiyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dj seti adı",
+  "kategori": "muzik",
+  "alt": "dj-produksiyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dj seti al",
+  "kategori": "muzik",
+  "alt": "dj-produksiyon",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "keman nasıl yapılır",
+  "kategori": "muzik",
+  "alt": "keman-yayli",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "keman nasıl çalınır",
+  "kategori": "muzik",
+  "alt": "keman-yayli",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "keman nasıl tutulur",
+  "kategori": "muzik",
+  "alt": "keman-yayli",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "keman reçinesi nasıl kullanılır",
+  "kategori": "muzik",
+  "alt": "keman-yayli",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "keman susturucusu nasıl takılır",
+  "kategori": "muzik",
+  "alt": "keman-yayli",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "keman nasıl öğrenilir",
+  "kategori": "muzik",
+  "alt": "keman-yayli",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "keman nasıl akort edilir",
+  "kategori": "muzik",
+  "alt": "keman-yayli",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "keman nasıl ses çıkarır",
+  "kategori": "muzik",
+  "alt": "keman-yayli",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "keman nasıl temizlenir",
+  "kategori": "muzik",
+  "alt": "keman-yayli",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "keman nasıl çizilir",
+  "kategori": "muzik",
+  "alt": "keman-yayli",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "keman nedir kısaca",
+  "kategori": "muzik",
+  "alt": "keman-yayli",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "keman nedir 1 sınıf",
+  "kategori": "muzik",
+  "alt": "keman-yayli",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "keman nedir ve özellikleri",
+  "kategori": "muzik",
+  "alt": "keman-yayli",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "keman nedir tdk",
+  "kategori": "muzik",
+  "alt": "keman-yayli",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "keman nedir tarihçesi",
+  "kategori": "muzik",
+  "alt": "keman-yayli",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "raspberry pi elektronik set",
+  "kategori": "teknoloji",
+  "alt": "raspberry-pi-elektronik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "elektronik set raspberry pi edition",
+  "kategori": "teknoloji",
+  "alt": "raspberry-pi-elektronik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "raspberry pi ile linux ve elektronik uygulamaları",
+  "kategori": "teknoloji",
+  "alt": "raspberry-pi-elektronik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "raspberry pi pico elektronik kompendium",
+  "kategori": "teknoloji",
+  "alt": "raspberry-pi-elektronik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "reichelt elektronik raspberry pi 5",
+  "kategori": "teknoloji",
+  "alt": "raspberry-pi-elektronik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "3d yazıcı nedir",
+  "kategori": "teknoloji",
+  "alt": "3d-yazici",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "3d yazıcı malzemeleri",
+  "kategori": "teknoloji",
+  "alt": "3d-yazici",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "3d yazıcı nasıl",
+  "kategori": "teknoloji",
+  "alt": "3d-yazici",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "3d yazıcı için en iyi program",
+  "kategori": "teknoloji",
+  "alt": "3d-yazici",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "3d yazıcı anahtarlık",
+  "kategori": "teknoloji",
+  "alt": "3d-yazici",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "3d yazıcı araba",
+  "kategori": "teknoloji",
+  "alt": "3d-yazici",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "3d yazıcı akakçe",
+  "kategori": "teknoloji",
+  "alt": "3d-yazici",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "3d yazıcı aksesuarları",
+  "kategori": "teknoloji",
+  "alt": "3d-yazici",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "3d yazıcı ayakkabı",
+  "kategori": "teknoloji",
+  "alt": "3d-yazici",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "3d yazıcı baskı",
+  "kategori": "teknoloji",
+  "alt": "3d-yazici",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "3d yazıcı bambu",
+  "kategori": "teknoloji",
+  "alt": "3d-yazici",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "3d yazıcı bambu lab a1 combo",
+  "kategori": "teknoloji",
+  "alt": "3d-yazici",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "3d yazıcı büyük boy",
+  "kategori": "teknoloji",
+  "alt": "3d-yazici",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "3d yazıcı creality",
+  "kategori": "teknoloji",
+  "alt": "3d-yazici",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "3d yazıcı cimri",
+  "kategori": "teknoloji",
+  "alt": "3d-yazici",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "drone izni nasıl alınır",
+  "kategori": "teknoloji",
+  "alt": "drone",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "drone jiroskop nedir",
+  "kategori": "teknoloji",
+  "alt": "drone",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "drone nasıl kullanılır",
+  "kategori": "teknoloji",
+  "alt": "drone",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "drone nasıl uçurulur",
+  "kategori": "teknoloji",
+  "alt": "drone",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "drone nasıl yazılır",
+  "kategori": "teknoloji",
+  "alt": "drone",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "drone nasıl yapılır",
+  "kategori": "teknoloji",
+  "alt": "drone",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "drone telefona nasıl bağlanır",
+  "kategori": "teknoloji",
+  "alt": "drone",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "drone nasıl çalışır",
+  "kategori": "teknoloji",
+  "alt": "drone",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "drone nasıl çalıştırılır",
+  "kategori": "teknoloji",
+  "alt": "drone",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "drone nasıl uçar",
+  "kategori": "teknoloji",
+  "alt": "drone",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "drone nasıl çizilir",
+  "kategori": "teknoloji",
+  "alt": "drone",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "drone nedir kısaca",
+  "kategori": "teknoloji",
+  "alt": "drone",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "drone nedir sunum",
+  "kategori": "teknoloji",
+  "alt": "drone",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "fpv drone nedir",
+  "kategori": "teknoloji",
+  "alt": "drone",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kamikaze drone nedir",
+  "kategori": "teknoloji",
+  "alt": "drone",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "apk modlama nasıl yapılır",
+  "kategori": "teknoloji",
+  "alt": "oyun-pc-modlama",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "saat modlama nedir",
+  "kategori": "teknoloji",
+  "alt": "oyun-pc-modlama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "android oyun modlama",
+  "kategori": "teknoloji",
+  "alt": "oyun-pc-modlama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "oyun modlama ihlali",
+  "kategori": "teknoloji",
+  "alt": "oyun-pc-modlama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "oyun modlama programı",
+  "kategori": "teknoloji",
+  "alt": "oyun-pc-modlama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "oyun modlama uygulaması",
+  "kategori": "teknoloji",
+  "alt": "oyun-pc-modlama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "apk modlama programı",
+  "kategori": "teknoloji",
+  "alt": "oyun-pc-modlama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "casio ae1200 modlama",
+  "kategori": "teknoloji",
+  "alt": "oyun-pc-modlama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "assetto corsa modlama",
+  "kategori": "teknoloji",
+  "alt": "oyun-pc-modlama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "lethal company modlama",
+  "kategori": "teknoloji",
+  "alt": "oyun-pc-modlama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "modlama ne demek",
+  "kategori": "teknoloji",
+  "alt": "oyun-pc-modlama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ekran kartı modlama",
+  "kategori": "teknoloji",
+  "alt": "oyun-pc-modlama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mekanik klavye modlama",
+  "kategori": "teknoloji",
+  "alt": "oyun-pc-modlama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "switch lite modlama",
+  "kategori": "teknoloji",
+  "alt": "oyun-pc-modlama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "skyrim modlama rehberi",
+  "kategori": "teknoloji",
+  "alt": "oyun-pc-modlama",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "robotik kodlama gelecekte insan hayatını nasıl etkiler",
+  "kategori": "teknoloji",
+  "alt": "robotik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "robotik kodlama malzemeleri",
+  "kategori": "teknoloji",
+  "alt": "robotik",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "robotik kodlama nedir",
+  "kategori": "teknoloji",
+  "alt": "robotik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "robotik kodlama nedir ne işe yarar",
+  "kategori": "teknoloji",
+  "alt": "robotik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "robotik kodlama nasıl bir",
+  "kategori": "teknoloji",
+  "alt": "robotik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "robotik kodlama nasıl bir şey",
+  "kategori": "teknoloji",
+  "alt": "robotik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "robotik kodlama zeka oyunu nasıl oynanır",
+  "kategori": "teknoloji",
+  "alt": "robotik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "robotik kodlama öğretmeni nasıl olunur",
+  "kategori": "teknoloji",
+  "alt": "robotik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evde robotik kodlama nasıl yapılır",
+  "kategori": "teknoloji",
+  "alt": "robotik",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "robotik kodlama anaokulu",
+  "kategori": "teknoloji",
+  "alt": "robotik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "robotik kodlama atölyesi",
+  "kategori": "teknoloji",
+  "alt": "robotik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "robotik kodlama arduino",
+  "kategori": "teknoloji",
+  "alt": "robotik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "robotik kodlama anasınıfı",
+  "kategori": "teknoloji",
+  "alt": "robotik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "robotik kodlama atölyesi açmak için gerekli belgeler",
+  "kategori": "teknoloji",
+  "alt": "robotik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "robotik kodlama araba",
+  "kategori": "teknoloji",
+  "alt": "robotik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "para pul nasıl yazılır",
+  "kategori": "koleksiyon",
+  "alt": "pul-para",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "para pul nedir",
+  "kategori": "koleksiyon",
+  "alt": "pul-para",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "para pul sezen aksu",
+  "kategori": "koleksiyon",
+  "alt": "pul-para",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "para pula ihtişama aldanıp kanma dostum",
+  "kategori": "koleksiyon",
+  "alt": "pul-para",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sizlere bıraktım para pul altını",
+  "kategori": "koleksiyon",
+  "alt": "pul-para",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "pul para birimi",
+  "kategori": "koleksiyon",
+  "alt": "pul-para",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "para pul ne demek",
+  "kategori": "koleksiyon",
+  "alt": "pul-para",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "para pul budalası deyim mi",
+  "kategori": "koleksiyon",
+  "alt": "pul-para",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "para pul boncuk",
+  "kategori": "koleksiyon",
+  "alt": "pul-para",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "barış manço para pula",
+  "kategori": "koleksiyon",
+  "alt": "pul-para",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kimi insan para pul budalası olur",
+  "kategori": "koleksiyon",
+  "alt": "pul-para",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "para bizde pul bizde",
+  "kategori": "koleksiyon",
+  "alt": "pul-para",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "pulpo para colorear",
+  "kategori": "koleksiyon",
+  "alt": "pul-para",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "para pul cikolata",
+  "kategori": "koleksiyon",
+  "alt": "pul-para",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "tela pul para que sirve",
+  "kategori": "koleksiyon",
+  "alt": "pul-para",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "lego model araba",
+  "kategori": "koleksiyon",
+  "alt": "lego-model",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "lego model ai",
+  "kategori": "koleksiyon",
+  "alt": "lego-model",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "lego model a",
+  "kategori": "koleksiyon",
+  "alt": "lego-model",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "model auto lego",
+  "kategori": "koleksiyon",
+  "alt": "lego-model",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "lego model airplane",
+  "kategori": "koleksiyon",
+  "alt": "lego-model",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "lego model airport",
+  "kategori": "koleksiyon",
+  "alt": "lego-model",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "lego model audi",
+  "kategori": "koleksiyon",
+  "alt": "lego-model",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "lego model builder",
+  "kategori": "koleksiyon",
+  "alt": "lego-model",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "lego model building",
+  "kategori": "koleksiyon",
+  "alt": "lego-model",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "lego model blender",
+  "kategori": "koleksiyon",
+  "alt": "lego-model",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "lego model bricks",
+  "kategori": "koleksiyon",
+  "alt": "lego-model",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "lego model b",
+  "kategori": "koleksiyon",
+  "alt": "lego-model",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "lego model brick",
+  "kategori": "koleksiyon",
+  "alt": "lego-model",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "lego model bmw",
+  "kategori": "koleksiyon",
+  "alt": "lego-model",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "lego model cars",
+  "kategori": "koleksiyon",
+  "alt": "lego-model",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kart oyunları nasıl oynanır",
+  "kategori": "koleksiyon",
+  "alt": "kart-oyunlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kart oyunları nedir",
+  "kategori": "koleksiyon",
+  "alt": "kart-oyunlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kart oyunları adları",
+  "kategori": "koleksiyon",
+  "alt": "kart-oyunlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kart oyunları aile",
+  "kategori": "koleksiyon",
+  "alt": "kart-oyunlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kart oyunları anime",
+  "kategori": "koleksiyon",
+  "alt": "kart-oyunlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kart oyunları aç",
+  "kategori": "koleksiyon",
+  "alt": "kart-oyunlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kart oyunları al",
+  "kategori": "koleksiyon",
+  "alt": "kart-oyunlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kart oyunları alışveriş",
+  "kategori": "koleksiyon",
+  "alt": "kart-oyunlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kart açma oyunları",
+  "kategori": "koleksiyon",
+  "alt": "kart-oyunlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kart oyunları bedava",
+  "kategori": "koleksiyon",
+  "alt": "kart-oyunlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kart oyunları bilgisayar",
+  "kategori": "koleksiyon",
+  "alt": "kart-oyunlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "batak kart oyunları",
+  "kategori": "koleksiyon",
+  "alt": "kart-oyunlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kart oyunları bilmece",
+  "kategori": "koleksiyon",
+  "alt": "kart-oyunlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kart oyunları blackjack",
+  "kategori": "koleksiyon",
+  "alt": "kart-oyunlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kart oyunları bulmaca",
+  "kategori": "koleksiyon",
+  "alt": "kart-oyunlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vintage antika ankara",
+  "kategori": "koleksiyon",
+  "alt": "vintage-antika",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vintage ile antika arasındaki fark",
+  "kategori": "koleksiyon",
+  "alt": "vintage-antika",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "aras vintage antika konya",
+  "kategori": "koleksiyon",
+  "alt": "vintage-antika",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vintage antika fotoğraflar",
+  "kategori": "koleksiyon",
+  "alt": "vintage-antika",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "antika vintage farkı",
+  "kategori": "koleksiyon",
+  "alt": "vintage-antika",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "işlev vintage antika",
+  "kategori": "koleksiyon",
+  "alt": "vintage-antika",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "antika vintage london",
+  "kategori": "koleksiyon",
+  "alt": "vintage-antika",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "antika vintage retro",
+  "kategori": "koleksiyon",
+  "alt": "vintage-antika",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "antika vintage style rug",
+  "kategori": "koleksiyon",
+  "alt": "vintage-antika",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vintage antika saat",
+  "kategori": "koleksiyon",
+  "alt": "vintage-antika",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vintage antika yorumlar",
+  "kategori": "koleksiyon",
+  "alt": "vintage-antika",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "masa oyunu nedir",
+  "kategori": "koleksiyon",
+  "alt": "masaustu-oyun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "masa oyunu nasıl",
+  "kategori": "koleksiyon",
+  "alt": "masaustu-oyun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "minyatür oyun nedir",
+  "kategori": "koleksiyon",
+  "alt": "masaustu-oyun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "masa oyunu ankara",
+  "kategori": "koleksiyon",
+  "alt": "masaustu-oyun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "almanca masa oyunu",
+  "kategori": "koleksiyon",
+  "alt": "masaustu-oyun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "masa oyunu al",
+  "kategori": "koleksiyon",
+  "alt": "masaustu-oyun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "masa oyunu adı",
+  "kategori": "koleksiyon",
+  "alt": "masaustu-oyun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "masa oyunu aç",
+  "kategori": "koleksiyon",
+  "alt": "masaustu-oyun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "masa oyunu avm",
+  "kategori": "koleksiyon",
+  "alt": "masaustu-oyun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "masa ayi oyunu",
+  "kategori": "koleksiyon",
+  "alt": "masaustu-oyun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "masa oyunu bulmaca",
+  "kategori": "koleksiyon",
+  "alt": "masaustu-oyun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "masa hokeyi oyunu",
+  "kategori": "koleksiyon",
+  "alt": "masaustu-oyun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "masa oyunu baskı",
+  "kategori": "koleksiyon",
+  "alt": "masaustu-oyun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "masa basketbol oyunu",
+  "kategori": "koleksiyon",
+  "alt": "masaustu-oyun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "masa başı oyunu",
+  "kategori": "koleksiyon",
+  "alt": "masaustu-oyun",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "koşu bandı nasıl yağlanır",
+  "kategori": "spor-fitness",
+  "alt": "kosu",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "koşu için en iyi saat",
+  "kategori": "spor-fitness",
+  "alt": "kosu",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "koşu jeli nedir",
+  "kategori": "spor-fitness",
+  "alt": "kosu",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "jog koşu nedir",
+  "kategori": "spor-fitness",
+  "alt": "kosu",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "koşu lisansı nasıl alınır",
+  "kategori": "spor-fitness",
+  "alt": "kosu",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "koşu laktat eşiği nedir",
+  "kategori": "spor-fitness",
+  "alt": "kosu",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "koşu nasıl yapılır",
+  "kategori": "spor-fitness",
+  "alt": "kosu",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "koşu nasıl yapılmalı",
+  "kategori": "spor-fitness",
+  "alt": "kosu",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "koşu pace nedir",
+  "kategori": "spor-fitness",
+  "alt": "kosu",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "koşu nasıl gelişir",
+  "kategori": "spor-fitness",
+  "alt": "kosu",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "koşu nasıl geliştirilir",
+  "kategori": "spor-fitness",
+  "alt": "kosu",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "koşu nasıl hızlandırılır",
+  "kategori": "spor-fitness",
+  "alt": "kosu",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "koşu nasıl yazılır",
+  "kategori": "spor-fitness",
+  "alt": "kosu",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "koşu nasıl bağlanır",
+  "kategori": "spor-fitness",
+  "alt": "kosu",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "koşu nasıl oynanır",
+  "kategori": "spor-fitness",
+  "alt": "kosu",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yoga pilates nedir",
+  "kategori": "spor-fitness",
+  "alt": "yoga-pilates",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "pilates yoga barı nasıl kullanılır",
+  "kategori": "spor-fitness",
+  "alt": "yoga-pilates",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yoga ve pilates nasıl yapılır",
+  "kategori": "spor-fitness",
+  "alt": "yoga-pilates",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "yoga pilates yoga",
+  "kategori": "spor-fitness",
+  "alt": "yoga-pilates",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yoga pilates app",
+  "kategori": "spor-fitness",
+  "alt": "yoga-pilates",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "pilates yoga accessories",
+  "kategori": "spor-fitness",
+  "alt": "yoga-pilates",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "pilates yoga at home",
+  "kategori": "spor-fitness",
+  "alt": "yoga-pilates",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yoga pilates and",
+  "kategori": "spor-fitness",
+  "alt": "yoga-pilates",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yoga pilates aerial",
+  "kategori": "spor-fitness",
+  "alt": "yoga-pilates",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yoga pilates alo",
+  "kategori": "spor-fitness",
+  "alt": "yoga-pilates",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yoga pilates barre",
+  "kategori": "spor-fitness",
+  "alt": "yoga-pilates",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yoga pilates ball",
+  "kategori": "spor-fitness",
+  "alt": "yoga-pilates",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yoga pilates block",
+  "kategori": "spor-fitness",
+  "alt": "yoga-pilates",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yoga pilates bar",
+  "kategori": "spor-fitness",
+  "alt": "yoga-pilates",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yoga pilates benefits",
+  "kategori": "spor-fitness",
+  "alt": "yoga-pilates",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evde fitness malzemeleri",
+  "kategori": "spor-fitness",
+  "alt": "evde-fitness",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "evde fitness aletleri",
+  "kategori": "spor-fitness",
+  "alt": "evde-fitness",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evde fitness programı",
+  "kategori": "spor-fitness",
+  "alt": "evde-fitness",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evde fitness antrenmanı",
+  "kategori": "spor-fitness",
+  "alt": "evde-fitness",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evde aletsiz fitness",
+  "kategori": "spor-fitness",
+  "alt": "evde-fitness",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evde fitness için gerekli aletler",
+  "kategori": "spor-fitness",
+  "alt": "evde-fitness",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ege fitness evde sırt",
+  "kategori": "spor-fitness",
+  "alt": "evde-fitness",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evde fitness bisiklet",
+  "kategori": "spor-fitness",
+  "alt": "evde-fitness",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "decathlon evde fitness",
+  "kategori": "spor-fitness",
+  "alt": "evde-fitness",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evde fitness ekipmanları",
+  "kategori": "spor-fitness",
+  "alt": "evde-fitness",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evde fitness ekşi",
+  "kategori": "spor-fitness",
+  "alt": "evde-fitness",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evde fitness ekipmanı",
+  "kategori": "spor-fitness",
+  "alt": "evde-fitness",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evde fitness erkek",
+  "kategori": "spor-fitness",
+  "alt": "evde-fitness",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evde fitness ekipmansız",
+  "kategori": "spor-fitness",
+  "alt": "evde-fitness",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evde fitness hareketleri",
+  "kategori": "spor-fitness",
+  "alt": "evde-fitness",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yüzme hocası nasıl olunur",
+  "kategori": "spor-fitness",
+  "alt": "yuzme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yüzme lisansı nasıl alınır",
+  "kategori": "spor-fitness",
+  "alt": "yuzme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yüzme malzemeleri satan mağazalar",
+  "kategori": "spor-fitness",
+  "alt": "yuzme",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "yüzme nasıl öğrenilir",
+  "kategori": "spor-fitness",
+  "alt": "yuzme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yüzme nasıl yapılır",
+  "kategori": "spor-fitness",
+  "alt": "yuzme",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "yüzme nasıl öğretilir",
+  "kategori": "spor-fitness",
+  "alt": "yuzme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yüzme nasıl yüzülür",
+  "kategori": "spor-fitness",
+  "alt": "yuzme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yüzme vücudu nasıl şekillendirir",
+  "kategori": "spor-fitness",
+  "alt": "yuzme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yüzme nasıl olur",
+  "kategori": "spor-fitness",
+  "alt": "yuzme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yüzme nasıl bir spordur",
+  "kategori": "spor-fitness",
+  "alt": "yuzme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yüzme nasıl bulundu",
+  "kategori": "spor-fitness",
+  "alt": "yuzme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yüzme nedir kısaca",
+  "kategori": "spor-fitness",
+  "alt": "yuzme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yüzme nedir nasıl oynanır",
+  "kategori": "spor-fitness",
+  "alt": "yuzme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "para yüzme nedir",
+  "kategori": "spor-fitness",
+  "alt": "yuzme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "paralimpik yüzme nedir",
+  "kategori": "spor-fitness",
+  "alt": "yuzme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vücut geliştirme diyet listesi",
+  "kategori": "spor-fitness",
+  "alt": "vucut-gelistirme",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "vücut geliştirme nedir",
+  "kategori": "spor-fitness",
+  "alt": "vucut-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vücut geliştirme hocası nasıl olunur",
+  "kategori": "spor-fitness",
+  "alt": "vucut-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vücut geliştirme yemek listesi",
+  "kategori": "spor-fitness",
+  "alt": "vucut-gelistirme",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "türkiye vücut geliştirme şampiyonları listesi",
+  "kategori": "spor-fitness",
+  "alt": "vucut-gelistirme",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "vücut geliştirme malzemeleri",
+  "kategori": "spor-fitness",
+  "alt": "vucut-gelistirme",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "vücut geliştirme nasıl yapılır",
+  "kategori": "spor-fitness",
+  "alt": "vucut-gelistirme",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "vücut geliştirme yumurta nasıl yenmeli",
+  "kategori": "spor-fitness",
+  "alt": "vucut-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vücut geliştirme yarışmasına nasıl katılabilirim",
+  "kategori": "spor-fitness",
+  "alt": "vucut-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vücut geliştirme sertifikası nasıl alınır",
+  "kategori": "spor-fitness",
+  "alt": "vucut-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vücut geliştirme için en iyi boy",
+  "kategori": "spor-fitness",
+  "alt": "vucut-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vücut geliştirme aletleri",
+  "kategori": "spor-fitness",
+  "alt": "vucut-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vücut geliştirme kursu",
+  "kategori": "spor-fitness",
+  "alt": "vucut-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vücut geliştirme seti",
+  "kategori": "spor-fitness",
+  "alt": "vucut-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vücut geliştirme boyası",
+  "kategori": "spor-fitness",
+  "alt": "vucut-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dövüş sporları listesi",
+  "kategori": "spor-fitness",
+  "alt": "dovus-sporlari",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "dövüş sporları malzemeleri",
+  "kategori": "spor-fitness",
+  "alt": "dovus-sporlari",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "dövüş sporları nedir",
+  "kategori": "spor-fitness",
+  "alt": "dovus-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dövüş sporları adları",
+  "kategori": "spor-fitness",
+  "alt": "dovus-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dövüş sporları ankara",
+  "kategori": "spor-fitness",
+  "alt": "dovus-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dövüş sporları antalya",
+  "kategori": "spor-fitness",
+  "alt": "dovus-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dövüş sporları arasındaki farklar",
+  "kategori": "spor-fitness",
+  "alt": "dovus-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dövüş sporları ayak bilekliği",
+  "kategori": "spor-fitness",
+  "alt": "dovus-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dövüş sporları testosteron artırır mı",
+  "kategori": "spor-fitness",
+  "alt": "dovus-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "alanya dövüş sporları",
+  "kategori": "spor-fitness",
+  "alt": "dovus-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "arnavutköy dövüş sporları",
+  "kategori": "spor-fitness",
+  "alt": "dovus-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ataşehir dövüş sporları",
+  "kategori": "spor-fitness",
+  "alt": "dovus-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ayvalık dövüş sporları",
+  "kategori": "spor-fitness",
+  "alt": "dovus-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dövüş sporları bilet",
+  "kategori": "spor-fitness",
+  "alt": "dovus-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dövüş sporları başlama yaşı",
+  "kategori": "spor-fitness",
+  "alt": "dovus-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "file raket sporları",
+  "kategori": "spor-fitness",
+  "alt": "raket-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "raket sporları isimleri",
+  "kategori": "spor-fitness",
+  "alt": "raket-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "raket sporları ömrü uzatır mı",
+  "kategori": "spor-fitness",
+  "alt": "raket-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sports center - raket sporları mağazası",
+  "kategori": "spor-fitness",
+  "alt": "raket-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "raket sporları nelerdir",
+  "kategori": "spor-fitness",
+  "alt": "raket-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ılıca raket sporları tesisi",
+  "kategori": "spor-fitness",
+  "alt": "raket-sporlari",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "fotoğrafçılık diyafram nedir",
+  "kategori": "sanat",
+  "alt": "fotografcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "fotoğrafçılık eğitimi nasıl alınır",
+  "kategori": "sanat",
+  "alt": "fotografcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "fotoğrafçılık nasıl yapılır",
+  "kategori": "sanat",
+  "alt": "fotografcilik",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "fotoğrafçılık nasıl olunur",
+  "kategori": "sanat",
+  "alt": "fotografcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "fotoğrafçılık nedir kısaca",
+  "kategori": "sanat",
+  "alt": "fotografcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "fotoğrafçılık nasıl bir meslek",
+  "kategori": "sanat",
+  "alt": "fotografcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "fotoğrafçılık nasıl yazılır",
+  "kategori": "sanat",
+  "alt": "fotografcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "fotoğrafçılık sanatı nedir",
+  "kategori": "sanat",
+  "alt": "fotografcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "fotoğrafçılık nasıl okunur",
+  "kategori": "sanat",
+  "alt": "fotografcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "fotoğrafçılık nedir ne yapar",
+  "kategori": "sanat",
+  "alt": "fotografcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dijital fotoğrafçılık nedir",
+  "kategori": "sanat",
+  "alt": "fotografcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "makro fotoğrafçılık nedir",
+  "kategori": "sanat",
+  "alt": "fotografcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mobil fotoğrafçılık nedir",
+  "kategori": "sanat",
+  "alt": "fotografcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mimari fotoğrafçılık nedir",
+  "kategori": "sanat",
+  "alt": "fotografcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dental fotoğrafçılık nedir",
+  "kategori": "sanat",
+  "alt": "fotografcilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaligrafi böceği nedir",
+  "kategori": "sanat",
+  "alt": "kaligrafi-cizim",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaligrafi dersi nedir",
+  "kategori": "sanat",
+  "alt": "kaligrafi-cizim",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaligrafi kalemi nedir",
+  "kategori": "sanat",
+  "alt": "kaligrafi-cizim",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaligrafi kursu nedir",
+  "kategori": "sanat",
+  "alt": "kaligrafi-cizim",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaligrafi nasıl yazılır",
+  "kategori": "sanat",
+  "alt": "kaligrafi-cizim",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaligrafi nasıl yapılır",
+  "kategori": "sanat",
+  "alt": "kaligrafi-cizim",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "kaligrafi nasil öğrenilir",
+  "kategori": "sanat",
+  "alt": "kaligrafi-cizim",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaligrafi nedir kısaca",
+  "kategori": "sanat",
+  "alt": "kaligrafi-cizim",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaligrafi sanatı nedir",
+  "kategori": "sanat",
+  "alt": "kaligrafi-cizim",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaligrafi kalemi nasıl tutulur",
+  "kategori": "sanat",
+  "alt": "kaligrafi-cizim",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaligrafi kağıdı nasıl olmalı",
+  "kategori": "sanat",
+  "alt": "kaligrafi-cizim",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaligrafi nedir dans",
+  "kategori": "sanat",
+  "alt": "kaligrafi-cizim",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kaligrafi yazı nedir",
+  "kategori": "sanat",
+  "alt": "kaligrafi-cizim",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "çizim için en iyi ai",
+  "kategori": "sanat",
+  "alt": "kaligrafi-cizim",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "çizim için en iyi yapay zeka",
+  "kategori": "sanat",
+  "alt": "kaligrafi-cizim",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "seramik çömlek nedir",
+  "kategori": "sanat",
+  "alt": "seramik-comlek",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "seramik çömlek nasıl yapılır",
+  "kategori": "sanat",
+  "alt": "seramik-comlek",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "seramik çömlek atölyesi",
+  "kategori": "sanat",
+  "alt": "seramik-comlek",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "seramik ve çömlek aynı şey mi",
+  "kategori": "sanat",
+  "alt": "seramik-comlek",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "çömlek seramik çini atölyesi ve sanat evi",
+  "kategori": "sanat",
+  "alt": "seramik-comlek",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "seramik çömlek farkı",
+  "kategori": "sanat",
+  "alt": "seramik-comlek",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "çömlek ile seramik arasındaki fark",
+  "kategori": "sanat",
+  "alt": "seramik-comlek",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "seramik çömlek kursu",
+  "kategori": "sanat",
+  "alt": "seramik-comlek",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "seramik çömlek makinesi",
+  "kategori": "sanat",
+  "alt": "seramik-comlek",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "seramik çömlek sanatı",
+  "kategori": "sanat",
+  "alt": "seramik-comlek",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "seramik ve çömlek",
+  "kategori": "sanat",
+  "alt": "seramik-comlek",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "seramik çömlekçi tornası",
+  "kategori": "sanat",
+  "alt": "seramik-comlek",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "seramik çömlek workshop",
+  "kategori": "sanat",
+  "alt": "seramik-comlek",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "seramik çömlek yapımı",
+  "kategori": "sanat",
+  "alt": "seramik-comlek",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dikiş nakış kursuna nasıl başvurulur",
+  "kategori": "sanat",
+  "alt": "dikis-nakis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dikiş nakış kursu hocası nasıl olunur",
+  "kategori": "sanat",
+  "alt": "dikis-nakis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dikiş nakış malzemeleri",
+  "kategori": "sanat",
+  "alt": "dikis-nakis",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "dikiş nakış nasıl yapılır",
+  "kategori": "sanat",
+  "alt": "dikis-nakis",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "dikiş nakış öğretmeni nasıl olunur",
+  "kategori": "sanat",
+  "alt": "dikis-nakis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dikiş nakış nedir",
+  "kategori": "sanat",
+  "alt": "dikis-nakis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dikiş nakış atölyesi",
+  "kategori": "sanat",
+  "alt": "dikis-nakis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dikiş nakış a word",
+  "kategori": "sanat",
+  "alt": "dikis-nakis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dikis nakis almanca",
+  "kategori": "sanat",
+  "alt": "dikis-nakis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dikiş nakış kursu",
+  "kategori": "sanat",
+  "alt": "dikis-nakis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dikiş nakış makinesi",
+  "kategori": "sanat",
+  "alt": "dikis-nakis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dikiş ve nakış",
+  "kategori": "sanat",
+  "alt": "dikis-nakis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dikiş nakış kursu açma şartları",
+  "kategori": "sanat",
+  "alt": "dikis-nakis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sevilaydan dikiş nakış adres",
+  "kategori": "sanat",
+  "alt": "dikis-nakis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "dikiş nakış seti",
+  "kategori": "sanat",
+  "alt": "dikis-nakis",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "heykel yapımı malzemeleri",
+  "kategori": "sanat",
+  "alt": "heykel",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "heykel yapımı nedir",
+  "kategori": "sanat",
+  "alt": "heykel",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "heykel nasıl yazılır",
+  "kategori": "sanat",
+  "alt": "heykel",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "heykel nasıl yapılır",
+  "kategori": "sanat",
+  "alt": "heykel",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "heykel nedir kısaca",
+  "kategori": "sanat",
+  "alt": "heykel",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "heykel nasıl çizilir",
+  "kategori": "sanat",
+  "alt": "heykel",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "heykel oyunu nasıl oynanır",
+  "kategori": "sanat",
+  "alt": "heykel",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "heykel plus nedir",
+  "kategori": "sanat",
+  "alt": "heykel",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "heykel sanatı nedir",
+  "kategori": "sanat",
+  "alt": "heykel",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "heykel workshop nedir",
+  "kategori": "sanat",
+  "alt": "heykel",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "heykel nasıl gidilir",
+  "kategori": "sanat",
+  "alt": "heykel",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "heykel nasıl boyanır",
+  "kategori": "sanat",
+  "alt": "heykel",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "heykel nasıl olur",
+  "kategori": "sanat",
+  "alt": "heykel",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "heykel nasıl yazılır büyük harfle mi yazılır",
+  "kategori": "sanat",
+  "alt": "heykel",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "heykel nedir tanımı",
+  "kategori": "sanat",
+  "alt": "heykel",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "rüyada yemek pişirme nedir",
+  "kategori": "yemek-mutfak",
+  "alt": "yemek-pisirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "asitle yemek pişirme nedir",
+  "kategori": "yemek-mutfak",
+  "alt": "yemek-pisirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yemek pişirme aleti",
+  "kategori": "yemek-mutfak",
+  "alt": "yemek-pisirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yemek pişirme alarmı",
+  "kategori": "yemek-mutfak",
+  "alt": "yemek-pisirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yemek pişirme araçları",
+  "kategori": "yemek-mutfak",
+  "alt": "yemek-pisirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yemek pişirme aparatı",
+  "kategori": "yemek-mutfak",
+  "alt": "yemek-pisirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yemek pişirme airfryer",
+  "kategori": "yemek-mutfak",
+  "alt": "yemek-pisirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yemek pişirme atölyesi",
+  "kategori": "yemek-mutfak",
+  "alt": "yemek-pisirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yemek pişirme arabası",
+  "kategori": "yemek-mutfak",
+  "alt": "yemek-pisirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yemek pişirme animeleri",
+  "kategori": "yemek-mutfak",
+  "alt": "yemek-pisirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yemek pişirme ağırlığı",
+  "kategori": "yemek-mutfak",
+  "alt": "yemek-pisirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yemek pişirme kabı",
+  "kategori": "yemek-mutfak",
+  "alt": "yemek-pisirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yemek pişirme makinesi",
+  "kategori": "yemek-mutfak",
+  "alt": "yemek-pisirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yemek pişirme bölümü olan soba",
+  "kategori": "yemek-mutfak",
+  "alt": "yemek-pisirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yemek pişirme bohçası",
+  "kategori": "yemek-mutfak",
+  "alt": "yemek-pisirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "barista kahve nedir",
+  "kategori": "yemek-mutfak",
+  "alt": "kahve",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kahve barista malzemeleri",
+  "kategori": "yemek-mutfak",
+  "alt": "kahve",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "barista kahve nasıl",
+  "kategori": "yemek-mutfak",
+  "alt": "kahve",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "karaca kahve makinesi barista nasıl kullanılır",
+  "kategori": "yemek-mutfak",
+  "alt": "kahve",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "barista kahve aksesuarları",
+  "kategori": "yemek-mutfak",
+  "alt": "kahve",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kahve barista makinesi",
+  "kategori": "yemek-mutfak",
+  "alt": "kahve",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kahve barista eğitimi",
+  "kategori": "yemek-mutfak",
+  "alt": "kahve",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "barista kahve köşesi çok amaçlı dolap",
+  "kategori": "yemek-mutfak",
+  "alt": "kahve",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "arçelik kahve barista",
+  "kategori": "yemek-mutfak",
+  "alt": "kahve",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "barista kahve bardağı",
+  "kategori": "yemek-mutfak",
+  "alt": "kahve",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "barista kahve boykot mu",
+  "kategori": "yemek-mutfak",
+  "alt": "kahve",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kahve dünyası barista",
+  "kategori": "yemek-mutfak",
+  "alt": "kahve",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "philips kahve barista",
+  "kategori": "yemek-mutfak",
+  "alt": "kahve",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "barista kahve cekirdegi",
+  "kategori": "yemek-mutfak",
+  "alt": "kahve",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "barista kahve cesitleri",
+  "kategori": "yemek-mutfak",
+  "alt": "kahve",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ekmek arası pasta",
+  "kategori": "yemek-mutfak",
+  "alt": "ekmek-pasta",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ekmek pasta tatli ari firin",
+  "kategori": "yemek-mutfak",
+  "alt": "ekmek-pasta",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "varollar ekmek pasta aydıntepe",
+  "kategori": "yemek-mutfak",
+  "alt": "ekmek-pasta",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "rüyada ekmek pasta almak",
+  "kategori": "yemek-mutfak",
+  "alt": "ekmek-pasta",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "tüylüoğlu ekmek & pasta ataşehir istanbul",
+  "kategori": "yemek-mutfak",
+  "alt": "ekmek-pasta",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "şimşek fırın ekmek & pasta ataşehir istanbul",
+  "kategori": "yemek-mutfak",
+  "alt": "ekmek-pasta",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "edemoğlu pasta ekmek avcılar yorumları",
+  "kategori": "yemek-mutfak",
+  "alt": "ekmek-pasta",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "hasanoğlu ekmek pasta",
+  "kategori": "yemek-mutfak",
+  "alt": "ekmek-pasta",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "albayrak ekmek pasta",
+  "kategori": "yemek-mutfak",
+  "alt": "ekmek-pasta",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ekmek yoksa pasta yesinler",
+  "kategori": "yemek-mutfak",
+  "alt": "ekmek-pasta",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ekmek değil de pasta",
+  "kategori": "yemek-mutfak",
+  "alt": "ekmek-pasta",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ekmek bulamıyorlarsa pasta yesinler sözü kime ait",
+  "kategori": "yemek-mutfak",
+  "alt": "ekmek-pasta",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ekmek bulamıyorlarsa pasta yesinler diyen türk siyasetçi",
+  "kategori": "yemek-mutfak",
+  "alt": "ekmek-pasta",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ekmek bulamazsan pasta ye",
+  "kategori": "yemek-mutfak",
+  "alt": "ekmek-pasta",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ekmek pasta cafe",
+  "kategori": "yemek-mutfak",
+  "alt": "ekmek-pasta",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mangal bbq grill",
+  "kategori": "yemek-mutfak",
+  "alt": "mangal-bbq",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mangal meze bbq",
+  "kategori": "yemek-mutfak",
+  "alt": "mangal-bbq",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mangal bbq asecs",
+  "kategori": "yemek-mutfak",
+  "alt": "mangal-bbq",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mangal bbq a6",
+  "kategori": "yemek-mutfak",
+  "alt": "mangal-bbq",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mangal bbq kebab and pizza",
+  "kategori": "yemek-mutfak",
+  "alt": "mangal-bbq",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "armenian mangal bbq",
+  "kategori": "yemek-mutfak",
+  "alt": "mangal-bbq",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mangal bbq bedford",
+  "kategori": "yemek-mutfak",
+  "alt": "mangal-bbq",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mangal bbq birmingham",
+  "kategori": "yemek-mutfak",
+  "alt": "mangal-bbq",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mangal bbq buy",
+  "kategori": "yemek-mutfak",
+  "alt": "mangal-bbq",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "är mangal bbq halal",
+  "kategori": "yemek-mutfak",
+  "alt": "mangal-bbq",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mangal bbq 🔥 kebab wrap burger chips 🔥",
+  "kategori": "yemek-mutfak",
+  "alt": "mangal-bbq",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bahçe mangal bbq",
+  "kategori": "yemek-mutfak",
+  "alt": "mangal-bbq",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mangal bbq centralstation",
+  "kategori": "yemek-mutfak",
+  "alt": "mangal-bbq",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mangal bbq charcoal",
+  "kategori": "yemek-mutfak",
+  "alt": "mangal-bbq",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mangal bbq centralen",
+  "kategori": "yemek-mutfak",
+  "alt": "mangal-bbq",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ankara bahçecilik kursu",
+  "kategori": "bahce-bitki",
+  "alt": "bahcecilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "meslek lisesi bahçecilik bölümü",
+  "kategori": "bahce-bitki",
+  "alt": "bahcecilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "carrizo bahçecilik ürünleri",
+  "kategori": "bahce-bitki",
+  "alt": "bahcecilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bahçecilik ne demek",
+  "kategori": "bahce-bitki",
+  "alt": "bahcecilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bahçecilik için dizlik",
+  "kategori": "bahce-bitki",
+  "alt": "bahcecilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "eren bahçecilik yorumları",
+  "kategori": "bahce-bitki",
+  "alt": "bahcecilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "halk eğitim bahçecilik kursu",
+  "kategori": "bahce-bitki",
+  "alt": "bahcecilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "denizli fidancılık bahçecilik",
+  "kategori": "bahce-bitki",
+  "alt": "bahcecilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sims 4 bahçecilik hilesi",
+  "kategori": "bahce-bitki",
+  "alt": "bahcecilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bahçecilik ile ilgili kitaplar",
+  "kategori": "bahce-bitki",
+  "alt": "bahcecilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ismek bahçecilik kursları",
+  "kategori": "bahce-bitki",
+  "alt": "bahcecilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ibb bahçecilik kursu",
+  "kategori": "bahce-bitki",
+  "alt": "bahcecilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bahçecilik kursu istanbul",
+  "kategori": "bahce-bitki",
+  "alt": "bahcecilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "megep bahçecilik modülleri",
+  "kategori": "bahce-bitki",
+  "alt": "bahcecilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "tarım ve bahçecilik sertifikası",
+  "kategori": "bahce-bitki",
+  "alt": "bahcecilik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ev bitkileri nasıl bakılır",
+  "kategori": "bahce-bitki",
+  "alt": "ev-bitkileri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ev bitkileri ağaç",
+  "kategori": "bahce-bitki",
+  "alt": "ev-bitkileri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ev bitkileri alerji yaparmı",
+  "kategori": "bahce-bitki",
+  "alt": "ev-bitkileri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ev bitkileri ansiklopedisi",
+  "kategori": "bahce-bitki",
+  "alt": "ev-bitkileri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ev saksı bitkileri",
+  "kategori": "bahce-bitki",
+  "alt": "ev-bitkileri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ev bitkileri ve isimleri",
+  "kategori": "bahce-bitki",
+  "alt": "ev-bitkileri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ankara ev bitkileri",
+  "kategori": "bahce-bitki",
+  "alt": "ev-bitkileri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "akvaryumda ev bitkileri",
+  "kategori": "bahce-bitki",
+  "alt": "ev-bitkileri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ağaçlı ev bitkileri",
+  "kategori": "bahce-bitki",
+  "alt": "ev-bitkileri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ağaçsı ev bitkileri",
+  "kategori": "bahce-bitki",
+  "alt": "ev-bitkileri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ev bitkileri büyük",
+  "kategori": "bahce-bitki",
+  "alt": "ev-bitkileri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ev bitkileri bakımı",
+  "kategori": "bahce-bitki",
+  "alt": "ev-bitkileri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ev bitkileri beyaz çiçekli",
+  "kategori": "bahce-bitki",
+  "alt": "ev-bitkileri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ev bitkileri için böcek ilacı",
+  "kategori": "bahce-bitki",
+  "alt": "ev-bitkileri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ev bitkileri kaç günde bir sulanır",
+  "kategori": "bahce-bitki",
+  "alt": "ev-bitkileri",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bonsai ağacı nedir",
+  "kategori": "bahce-bitki",
+  "alt": "bonsai",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bonsai bitkisi nedir",
+  "kategori": "bahce-bitki",
+  "alt": "bonsai",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bonsai nedir nasıl yapılır",
+  "kategori": "bahce-bitki",
+  "alt": "bonsai",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "bonsai bitkisi nasıl çoğalır",
+  "kategori": "bahce-bitki",
+  "alt": "bonsai",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bonsai nasıl bakılır",
+  "kategori": "bahce-bitki",
+  "alt": "bonsai",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bonsai nasıl budanır",
+  "kategori": "bahce-bitki",
+  "alt": "bonsai",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bonsai nasıl yetiştirilir",
+  "kategori": "bahce-bitki",
+  "alt": "bonsai",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bonsai nasıl sulanır",
+  "kategori": "bahce-bitki",
+  "alt": "bonsai",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bonsai sanatı nedir",
+  "kategori": "bahce-bitki",
+  "alt": "bonsai",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bonsai saksısı nasıl olmalı",
+  "kategori": "bahce-bitki",
+  "alt": "bonsai",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bonsai nasıl çoğaltılır",
+  "kategori": "bahce-bitki",
+  "alt": "bonsai",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bonsai nasıl canlandırılır",
+  "kategori": "bahce-bitki",
+  "alt": "bonsai",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bonsai nasıl ekilir",
+  "kategori": "bahce-bitki",
+  "alt": "bonsai",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bonsai nasıl okunur",
+  "kategori": "bahce-bitki",
+  "alt": "bonsai",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bonsai nasıl toprak sever",
+  "kategori": "bahce-bitki",
+  "alt": "bonsai",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "teraryum sukulent bahçesi",
+  "kategori": "bahce-bitki",
+  "alt": "teraryum",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "teraryum sukulent bakımı",
+  "kategori": "bahce-bitki",
+  "alt": "teraryum",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sukulent kaktüs teraryum",
+  "kategori": "bahce-bitki",
+  "alt": "teraryum",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "teraryum ve sukulent",
+  "kategori": "bahce-bitki",
+  "alt": "teraryum",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sukulent teraryum yapımı",
+  "kategori": "bahce-bitki",
+  "alt": "teraryum",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "köpek bakımı nasıl olur",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yavru köpek bakımı nasıl olmalı",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "köpek bakımı aylık masrafı",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "köpek ağız bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "köpek ayak bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "akita köpek bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "antalya köpek bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "askerde köpek bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "armut köpek bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "köpek yavru bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "apartmanda köpek bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "köpek balığı bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "köpek bakımı ile ilgili bilgiler",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bahçede köpek bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bebek köpek bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kedi bakımı nasıl olur",
+  "kategori": "evcil-hayvan",
+  "alt": "kedi-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kedi tüyü bakımı nasıl yapılır",
+  "kategori": "evcil-hayvan",
+  "alt": "kedi-bakimi",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "kedi bakımı aylık masrafı",
+  "kategori": "evcil-hayvan",
+  "alt": "kedi-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kedi bakımı armut",
+  "kategori": "evcil-hayvan",
+  "alt": "kedi-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kedi bakımı ankara",
+  "kategori": "evcil-hayvan",
+  "alt": "kedi-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kedi ağız bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kedi-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kedi ağız bakımı için ödül maması",
+  "kategori": "evcil-hayvan",
+  "alt": "kedi-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kedi ayak bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kedi-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kedi balığı bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kedi-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kedi bakımı hakkında bilinmesi gerekenler",
+  "kategori": "evcil-hayvan",
+  "alt": "kedi-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kedi bakımı hakkında bilgiler",
+  "kategori": "evcil-hayvan",
+  "alt": "kedi-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "british kedi bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kedi-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kedi tırnağı bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kedi-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bebek kedi bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kedi-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yavru kedi bakimi ve beslenmesi",
+  "kategori": "evcil-hayvan",
+  "alt": "kedi-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "akvaryum balık av malzemeleri ula yorumları",
+  "kategori": "evcil-hayvan",
+  "alt": "akvaryum",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "akvaryum balık kokusu nasıl giderilir",
+  "kategori": "evcil-hayvan",
+  "alt": "akvaryum",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "akvaryum balık malzemeleri",
+  "kategori": "evcil-hayvan",
+  "alt": "akvaryum",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "akvaryum balık nasıl bakılır",
+  "kategori": "evcil-hayvan",
+  "alt": "akvaryum",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "akvaryum balık suyu nasıl olmalı",
+  "kategori": "evcil-hayvan",
+  "alt": "akvaryum",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "akvaryum balık pisliği nasıl temizlenir",
+  "kategori": "evcil-hayvan",
+  "alt": "akvaryum",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "akvaryum balık avm",
+  "kategori": "evcil-hayvan",
+  "alt": "akvaryum",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "akvaryum balık al",
+  "kategori": "evcil-hayvan",
+  "alt": "akvaryum",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "akvaryum balık ağı",
+  "kategori": "evcil-hayvan",
+  "alt": "akvaryum",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "akvaryum balık adam",
+  "kategori": "evcil-hayvan",
+  "alt": "akvaryum",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "akvaryum balık aydın",
+  "kategori": "evcil-hayvan",
+  "alt": "akvaryum",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "akvaryum balık ayırıcı",
+  "kategori": "evcil-hayvan",
+  "alt": "akvaryum",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "akvaryum balık alıştırma",
+  "kategori": "evcil-hayvan",
+  "alt": "akvaryum",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "akvaryum balık aşılama",
+  "kategori": "evcil-hayvan",
+  "alt": "akvaryum",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "akvaryum balık antalya",
+  "kategori": "evcil-hayvan",
+  "alt": "akvaryum",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kuş bakımı nasıl olur",
+  "kategori": "evcil-hayvan",
+  "alt": "kus-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yavru kuş bakımı nasıl olur",
+  "kategori": "evcil-hayvan",
+  "alt": "kus-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kuş konmaz cicegi bakimi",
+  "kategori": "evcil-hayvan",
+  "alt": "kus-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evde kuş bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kus-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evcil kuş bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kus-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kuş kafesi bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kus-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kanarya kuş bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kus-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bakımı kolay kuş",
+  "kategori": "evcil-hayvan",
+  "alt": "kus-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kuş bakımı zor mu",
+  "kategori": "evcil-hayvan",
+  "alt": "kus-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "muhabbet kuş bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kus-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kuş yavru bakımı yapar mı",
+  "kategori": "evcil-hayvan",
+  "alt": "kus-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kuş yavru bakımı var mıdır",
+  "kategori": "evcil-hayvan",
+  "alt": "kus-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kuş tüy bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kus-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kuş yoğun bakımı",
+  "kategori": "evcil-hayvan",
+  "alt": "kus-bakimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "teleskop astronomi harga",
+  "kategori": "bilim-astronomi",
+  "alt": "teleskop-astronomi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "teleskop astronomi fizik",
+  "kategori": "bilim-astronomi",
+  "alt": "teleskop-astronomi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "fungsi teleskop astronomi",
+  "kategori": "bilim-astronomi",
+  "alt": "teleskop-astronomi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "teleskop astronomi f36050",
+  "kategori": "bilim-astronomi",
+  "alt": "teleskop-astronomi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "foto teleskop astronomi",
+  "kategori": "bilim-astronomi",
+  "alt": "teleskop-astronomi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gambar teleskop astronomi",
+  "kategori": "bilim-astronomi",
+  "alt": "teleskop-astronomi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "teleskop astronomi itb",
+  "kategori": "bilim-astronomi",
+  "alt": "teleskop-astronomi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "jual teleskop astronomi",
+  "kategori": "bilim-astronomi",
+  "alt": "teleskop-astronomi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kanta teleskop astronomi",
+  "kategori": "bilim-astronomi",
+  "alt": "teleskop-astronomi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kegunaan teleskop astronomi",
+  "kategori": "bilim-astronomi",
+  "alt": "teleskop-astronomi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "teleskop astronomi murah",
+  "kategori": "bilim-astronomi",
+  "alt": "teleskop-astronomi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "materi teleskop astronomi",
+  "kategori": "bilim-astronomi",
+  "alt": "teleskop-astronomi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "teleskop astronomi pemula",
+  "kategori": "bilim-astronomi",
+  "alt": "teleskop-astronomi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "teleskop astronomi pertama",
+  "kategori": "bilim-astronomi",
+  "alt": "teleskop-astronomi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "penemu teleskop astronomi",
+  "kategori": "bilim-astronomi",
+  "alt": "teleskop-astronomi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mikroskop camı nedir",
+  "kategori": "bilim-astronomi",
+  "alt": "mikroskop",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mikroskop diyafram nedir",
+  "kategori": "bilim-astronomi",
+  "alt": "mikroskop",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mikroskop hesabı nasıl açılır",
+  "kategori": "bilim-astronomi",
+  "alt": "mikroskop",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mikroskop nasıl keşfedildi",
+  "kategori": "bilim-astronomi",
+  "alt": "mikroskop",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mikroskop nasıl kullanılır",
+  "kategori": "bilim-astronomi",
+  "alt": "mikroskop",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mikroskop nasıl çalışır",
+  "kategori": "bilim-astronomi",
+  "alt": "mikroskop",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mikroskop nasıl icat edildi",
+  "kategori": "bilim-astronomi",
+  "alt": "mikroskop",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mikroskop nedir kısaca",
+  "kategori": "bilim-astronomi",
+  "alt": "mikroskop",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mikroskop oküler nedir",
+  "kategori": "bilim-astronomi",
+  "alt": "mikroskop",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mikroskop nasıl keşfedilmiştir",
+  "kategori": "bilim-astronomi",
+  "alt": "mikroskop",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mikroskop nasıl yapılır",
+  "kategori": "bilim-astronomi",
+  "alt": "mikroskop",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "mikroskop nasıl çizilir",
+  "kategori": "bilim-astronomi",
+  "alt": "mikroskop",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mikroskop nasıl ortaya çıktı",
+  "kategori": "bilim-astronomi",
+  "alt": "mikroskop",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mikroskop nasıl yapıldı",
+  "kategori": "bilim-astronomi",
+  "alt": "mikroskop",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mikroskop nasıl bulunmuştur",
+  "kategori": "bilim-astronomi",
+  "alt": "mikroskop",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kimya deney malzemeleri",
+  "kategori": "bilim-astronomi",
+  "alt": "kimya-deney",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "kimya deney raporu nasıl yazılır",
+  "kategori": "bilim-astronomi",
+  "alt": "kimya-deney",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kimya deney aletleri",
+  "kategori": "bilim-astronomi",
+  "alt": "kimya-deney",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kimya deney föyü",
+  "kategori": "bilim-astronomi",
+  "alt": "kimya-deney",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ytü kimya deney",
+  "kategori": "bilim-astronomi",
+  "alt": "kimya-deney",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kimya deney videoları",
+  "kategori": "bilim-astronomi",
+  "alt": "kimya-deney",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kimya deney defteri",
+  "kategori": "bilim-astronomi",
+  "alt": "kimya-deney",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kimya deney ve gözleme dayanır mı",
+  "kategori": "bilim-astronomi",
+  "alt": "kimya-deney",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kimya deney föyleri",
+  "kategori": "bilim-astronomi",
+  "alt": "kimya-deney",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kimya deney gözlüğü",
+  "kategori": "bilim-astronomi",
+  "alt": "kimya-deney",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kimya deney görselleri",
+  "kategori": "bilim-astronomi",
+  "alt": "kimya-deney",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kimya deney raporu",
+  "kategori": "bilim-astronomi",
+  "alt": "kimya-deney",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kimya lab çözelti hazırlama deney raporu",
+  "kategori": "bilim-astronomi",
+  "alt": "kimya-deney",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "deney kimya izmir",
+  "kategori": "bilim-astronomi",
+  "alt": "kimya-deney",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kimya deney tüpleri isimleri",
+  "kategori": "bilim-astronomi",
+  "alt": "kimya-deney",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "meteoroloji hava durumunu nasıl tahmin eder",
+  "kategori": "bilim-astronomi",
+  "alt": "meteoroloji",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "meteoroloji hava durumunu nasıl ölçer",
+  "kategori": "bilim-astronomi",
+  "alt": "meteoroloji",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "meteoroloji hava tahminini nasıl yapar",
+  "kategori": "bilim-astronomi",
+  "alt": "meteoroloji",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "meteoroloji hava ankara",
+  "kategori": "bilim-astronomi",
+  "alt": "meteoroloji",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "meteoroloji hava durumu",
+  "kategori": "bilim-astronomi",
+  "alt": "meteoroloji",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "hava durumu meteoroloji ankara 45 günlük",
+  "kategori": "bilim-astronomi",
+  "alt": "meteoroloji",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "meteoroloji hava durumu aksu antalya",
+  "kategori": "bilim-astronomi",
+  "alt": "meteoroloji",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "meteoroloji hava balonu",
+  "kategori": "bilim-astronomi",
+  "alt": "meteoroloji",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "meteoroloji hava basıncı",
+  "kategori": "bilim-astronomi",
+  "alt": "meteoroloji",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "meteoroloji hava durumu bakırköy yakınında",
+  "kategori": "bilim-astronomi",
+  "alt": "meteoroloji",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "meteoroloji hava radarı",
+  "kategori": "bilim-astronomi",
+  "alt": "meteoroloji",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "meteoroloji hava ölçüm uçağı",
+  "kategori": "bilim-astronomi",
+  "alt": "meteoroloji",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "hava meteoroloji radar",
+  "kategori": "bilim-astronomi",
+  "alt": "meteoroloji",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "hava durumu lüleburgaz celaliye meteoroloji",
+  "kategori": "bilim-astronomi",
+  "alt": "meteoroloji",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "hava durumu 7 günlük meteoroloji cumalıkızık yıldırım bursa yakınında",
+  "kategori": "bilim-astronomi",
+  "alt": "meteoroloji",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sırt çantası nasıl örülür",
+  "kategori": "seyahat-gezi",
+  "alt": "backpacking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sırt çantası nasıl yıkanır",
+  "kategori": "seyahat-gezi",
+  "alt": "backpacking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sırt çantası nedir",
+  "kategori": "seyahat-gezi",
+  "alt": "backpacking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sırt çantası adidas",
+  "kategori": "seyahat-gezi",
+  "alt": "backpacking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sırt çantası askı aparatı",
+  "kategori": "seyahat-gezi",
+  "alt": "backpacking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sırt çantası askısı",
+  "kategori": "seyahat-gezi",
+  "alt": "backpacking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sırt çantası askeri",
+  "kategori": "seyahat-gezi",
+  "alt": "backpacking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sırt çantası aksesuarları",
+  "kategori": "seyahat-gezi",
+  "alt": "backpacking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sırt çantası tokası",
+  "kategori": "seyahat-gezi",
+  "alt": "backpacking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sırt çantası akakçe",
+  "kategori": "seyahat-gezi",
+  "alt": "backpacking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sırt çantası almanca",
+  "kategori": "seyahat-gezi",
+  "alt": "backpacking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sırt çantası büyük",
+  "kategori": "seyahat-gezi",
+  "alt": "backpacking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sırt çantası bayan",
+  "kategori": "seyahat-gezi",
+  "alt": "backpacking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sırt çantası boyner",
+  "kategori": "seyahat-gezi",
+  "alt": "backpacking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "sırt çantası bilgisayar",
+  "kategori": "seyahat-gezi",
+  "alt": "backpacking",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "seyahat için en iyi fotoğraf makinesi",
+  "kategori": "seyahat-gezi",
+  "alt": "seyahat-fotograf",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "seyahat fotoğraf albümü",
+  "kategori": "seyahat-gezi",
+  "alt": "seyahat-fotograf",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "seyahat fotoğraf makinesi",
+  "kategori": "seyahat-gezi",
+  "alt": "seyahat-fotograf",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "seyahat fotoğraf kitabı",
+  "kategori": "seyahat-gezi",
+  "alt": "seyahat-fotograf",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "mardin seyahat fotoğraf",
+  "kategori": "seyahat-gezi",
+  "alt": "seyahat-fotograf",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "tarihin merkezine seyahat fotoğraf ve osmanlı köklerinin yeniden keşfi",
+  "kategori": "seyahat-gezi",
+  "alt": "seyahat-fotograf",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gezi fotoğraf albümü",
+  "kategori": "seyahat-gezi",
+  "alt": "seyahat-fotograf",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "fotoğraf gezi grupları",
+  "kategori": "seyahat-gezi",
+  "alt": "seyahat-fotograf",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gezi fotoğraf makinesi",
+  "kategori": "seyahat-gezi",
+  "alt": "seyahat-fotograf",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gezi fotoğraf kitabı",
+  "kategori": "seyahat-gezi",
+  "alt": "seyahat-fotograf",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gezi yazısında fotoğraf olur mu",
+  "kategori": "seyahat-gezi",
+  "alt": "seyahat-fotograf",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gezi parkı fotoğraf",
+  "kategori": "seyahat-gezi",
+  "alt": "seyahat-fotograf",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "karavan ehliyeti nedir",
+  "kategori": "seyahat-gezi",
+  "alt": "karavan",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "karavan nasıl yapılır",
+  "kategori": "seyahat-gezi",
+  "alt": "karavan",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "karavan nasıl çizilir",
+  "kategori": "seyahat-gezi",
+  "alt": "karavan",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "karavan nasıl alınır",
+  "kategori": "seyahat-gezi",
+  "alt": "karavan",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "karavan ruhsatı nedir",
+  "kategori": "seyahat-gezi",
+  "alt": "karavan",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "karavan zemini nasıl olmalı",
+  "kategori": "seyahat-gezi",
+  "alt": "karavan",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "karavan nasıl bir şey",
+  "kategori": "seyahat-gezi",
+  "alt": "karavan",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "karavan nasıl kullanılır",
+  "kategori": "seyahat-gezi",
+  "alt": "karavan",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "karavan nasıl ısıtılır",
+  "kategori": "seyahat-gezi",
+  "alt": "karavan",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "karavan nasıl yazılır",
+  "kategori": "seyahat-gezi",
+  "alt": "karavan",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "karavan nasıl çekilir",
+  "kategori": "seyahat-gezi",
+  "alt": "karavan",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "karavan nedir sözlük anlamı",
+  "kategori": "seyahat-gezi",
+  "alt": "karavan",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "karavan nedir kısaca",
+  "kategori": "seyahat-gezi",
+  "alt": "karavan",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "karavan nedir tdk",
+  "kategori": "seyahat-gezi",
+  "alt": "karavan",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "monoblok karavan nedir",
+  "kategori": "seyahat-gezi",
+  "alt": "karavan",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vlog çekimi nedir",
+  "kategori": "seyahat-gezi",
+  "alt": "vlog",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vlog çekimi nasıl yapılır",
+  "kategori": "seyahat-gezi",
+  "alt": "vlog",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "vlog kamerası nasıl kullanılır",
+  "kategori": "seyahat-gezi",
+  "alt": "vlog",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vlog kamerası nedir",
+  "kategori": "seyahat-gezi",
+  "alt": "vlog",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "içerik üretimi nedir",
+  "kategori": "seyahat-gezi",
+  "alt": "vlog",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "içerik üretimi nasıl yapılır",
+  "kategori": "seyahat-gezi",
+  "alt": "vlog",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "yapay zeka ile içerik üretimi nedir",
+  "kategori": "seyahat-gezi",
+  "alt": "vlog",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vlog çekimi ne demek",
+  "kategori": "seyahat-gezi",
+  "alt": "vlog",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "günlük vlog çekimi",
+  "kategori": "seyahat-gezi",
+  "alt": "vlog",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vlog çekimi için kamera",
+  "kategori": "seyahat-gezi",
+  "alt": "vlog",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vlog kamerası akakçe",
+  "kategori": "seyahat-gezi",
+  "alt": "vlog",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vlog kamerası adı",
+  "kategori": "seyahat-gezi",
+  "alt": "vlog",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vlog kamerası almanya",
+  "kategori": "seyahat-gezi",
+  "alt": "vlog",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vlog kamerası al",
+  "kategori": "seyahat-gezi",
+  "alt": "vlog",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "vlog aksiyon kamerası",
+  "kategori": "seyahat-gezi",
+  "alt": "vlog",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "web geliştirme nedir",
+  "kategori": "yazilim-kodlama",
+  "alt": "web-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "web geliştirme nasıl yapılır",
+  "kategori": "yazilim-kodlama",
+  "alt": "web-gelistirme",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "web geliştirme araçları",
+  "kategori": "yazilim-kodlama",
+  "alt": "web-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "web sitesi geliştirme",
+  "kategori": "yazilim-kodlama",
+  "alt": "web-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "web tabanlı yazılım geliştirme",
+  "kategori": "yazilim-kodlama",
+  "alt": "web-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "web geliştirme dilleri",
+  "kategori": "yazilim-kodlama",
+  "alt": "web-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "web geliştirme dersleri",
+  "kategori": "yazilim-kodlama",
+  "alt": "web-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "web geliştirme ne demek",
+  "kategori": "yazilim-kodlama",
+  "alt": "web-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "web tabanlı geliştirme",
+  "kategori": "yazilim-kodlama",
+  "alt": "web-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "web uygulama geliştirme",
+  "kategori": "yazilim-kodlama",
+  "alt": "web-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "web geliştirme eğitimi",
+  "kategori": "yazilim-kodlama",
+  "alt": "web-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "web geliştirme ekşi",
+  "kategori": "yazilim-kodlama",
+  "alt": "web-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "komple uygulamalı web geliştirme eğitimi 2026",
+  "kategori": "yazilim-kodlama",
+  "alt": "web-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "freelance web geliştirme",
+  "kategori": "yazilim-kodlama",
+  "alt": "web-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "web geliştirme hizmeti",
+  "kategori": "yazilim-kodlama",
+  "alt": "web-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "oyun geliştirme nasıl yapılır",
+  "kategori": "yazilim-kodlama",
+  "alt": "oyun-gelistirme",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "oyun geliştirme nedir",
+  "kategori": "yazilim-kodlama",
+  "alt": "oyun-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "oyun geliştirme ve programlama bölümü nasıl",
+  "kategori": "yazilim-kodlama",
+  "alt": "oyun-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "oyun geliştirme aşamaları",
+  "kategori": "yazilim-kodlama",
+  "alt": "oyun-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "oyun geliştirme ai",
+  "kategori": "yazilim-kodlama",
+  "alt": "oyun-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "oyun geliştirme akademisi",
+  "kategori": "yazilim-kodlama",
+  "alt": "oyun-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "oyun geliştirme araçları",
+  "kategori": "yazilim-kodlama",
+  "alt": "oyun-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "oyun geliştirme atölyesi",
+  "kategori": "yazilim-kodlama",
+  "alt": "oyun-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "oyun geliştirme alanları",
+  "kategori": "yazilim-kodlama",
+  "alt": "oyun-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "oyun geliştirme yök atlas",
+  "kategori": "yazilim-kodlama",
+  "alt": "oyun-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "oyun geliştirme programlama",
+  "kategori": "yazilim-kodlama",
+  "alt": "oyun-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "oyun geliştirme ve programlama atama puanları",
+  "kategori": "yazilim-kodlama",
+  "alt": "oyun-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "oyun geliştirme bölümü",
+  "kategori": "yazilim-kodlama",
+  "alt": "oyun-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "oyun geliştirme bootcamp",
+  "kategori": "yazilim-kodlama",
+  "alt": "oyun-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "oyun geliştirme bölümleri",
+  "kategori": "yazilim-kodlama",
+  "alt": "oyun-gelistirme",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "veri bilimi ve yapay zeka",
+  "kategori": "yazilim-kodlama",
+  "alt": "veri-bilimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yapay zeka ile veri bilimi",
+  "kategori": "yazilim-kodlama",
+  "alt": "veri-bilimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "coderspace veri bilimi ve yapay zeka yaz okulu",
+  "kategori": "yazilim-kodlama",
+  "alt": "veri-bilimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yapay zeka ve veri bilimi dgs taban puanları",
+  "kategori": "yazilim-kodlama",
+  "alt": "veri-bilimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "veri bilimi yapay zeka yüksek lisans",
+  "kategori": "yazilim-kodlama",
+  "alt": "veri-bilimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yapay zeka ve veri bilimi hangi üniversitelerde var",
+  "kategori": "yazilim-kodlama",
+  "alt": "veri-bilimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "python ile veri bilimi ve yapay zeka temelleri sertifika programı",
+  "kategori": "yazilim-kodlama",
+  "alt": "veri-bilimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yapay zeka ve veri bilimi ne iş yapar",
+  "kategori": "yazilim-kodlama",
+  "alt": "veri-bilimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "python yapay zeka ve veri bilimi için python programlama",
+  "kategori": "yazilim-kodlama",
+  "alt": "veri-bilimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "veri bilimi makine öğrenmesi yapay zeka",
+  "kategori": "yazilim-kodlama",
+  "alt": "veri-bilimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yapay zeka ve veri bilimi sıralama 2 yıllık",
+  "kategori": "yazilim-kodlama",
+  "alt": "veri-bilimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yapay zeka ve veri bilimi uygulama ve araştırma merkezi",
+  "kategori": "yazilim-kodlama",
+  "alt": "veri-bilimi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "siber güvenlik nedir",
+  "kategori": "yazilim-kodlama",
+  "alt": "siber-guvenlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "siber güvenlik nedir ne iş yapar",
+  "kategori": "yazilim-kodlama",
+  "alt": "siber-guvenlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "siber güvenlik nasıl",
+  "kategori": "yazilim-kodlama",
+  "alt": "siber-guvenlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "siber güvenlik nasıl bir meslek",
+  "kategori": "yazilim-kodlama",
+  "alt": "siber-guvenlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "siber güvenlik nedir ne işe yarar",
+  "kategori": "yazilim-kodlama",
+  "alt": "siber-guvenlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "siber güvenlik için en iyi laptop",
+  "kategori": "yazilim-kodlama",
+  "alt": "siber-guvenlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "siber güvenlik analistliği",
+  "kategori": "yazilim-kodlama",
+  "alt": "siber-guvenlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "siber güvenlik puanları",
+  "kategori": "yazilim-kodlama",
+  "alt": "siber-guvenlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "siber güvenlik alımı",
+  "kategori": "yazilim-kodlama",
+  "alt": "siber-guvenlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "siber güvenlik analistliği ve operatörlüğü kpss atama puanları",
+  "kategori": "yazilim-kodlama",
+  "alt": "siber-guvenlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "siber güvenlik başkanlığı",
+  "kategori": "yazilim-kodlama",
+  "alt": "siber-guvenlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "siber güvenlik bölümü",
+  "kategori": "yazilim-kodlama",
+  "alt": "siber-guvenlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "siber güvenlik başkanı",
+  "kategori": "yazilim-kodlama",
+  "alt": "siber-guvenlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "siber güvenlik bakanlığı",
+  "kategori": "yazilim-kodlama",
+  "alt": "siber-guvenlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "siber güvenlik cihazları",
+  "kategori": "yazilim-kodlama",
+  "alt": "siber-guvenlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yazarlık atölyesi nedir",
+  "kategori": "yazi-edebiyat",
+  "alt": "yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yazarlık dersi nedir",
+  "kategori": "yazi-edebiyat",
+  "alt": "yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "freelance yazarlık nedir",
+  "kategori": "yazi-edebiyat",
+  "alt": "yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yazarlık nasıl yapılır",
+  "kategori": "yazi-edebiyat",
+  "alt": "yazarlik",
+  "tip_onerisi": "nasil_yapilir"
+ },
+ {
+  "sorgu": "fahri yazarlık nedir",
+  "kategori": "yazi-edebiyat",
+  "alt": "yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "gölge yazarlık nedir",
+  "kategori": "yazi-edebiyat",
+  "alt": "yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yazarlık nasıl geliştirilir",
+  "kategori": "yazi-edebiyat",
+  "alt": "yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "haksız yazarlık nedir",
+  "kategori": "yazi-edebiyat",
+  "alt": "yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yazarlık nasıl olunur",
+  "kategori": "yazi-edebiyat",
+  "alt": "yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yazarlık nasıl bir meslektir",
+  "kategori": "yazi-edebiyat",
+  "alt": "yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yazarlık nasıl yazılır",
+  "kategori": "yazi-edebiyat",
+  "alt": "yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "teknik yazarlık nedir",
+  "kategori": "yazi-edebiyat",
+  "alt": "yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "tembel yazarlık nedir",
+  "kategori": "yazi-edebiyat",
+  "alt": "yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "okuryazarlık nasıl yazılır",
+  "kategori": "yazi-edebiyat",
+  "alt": "yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "başyazarlık nasıl yazılır",
+  "kategori": "yazi-edebiyat",
+  "alt": "yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "blog yazarlığı nedir",
+  "kategori": "yazi-edebiyat",
+  "alt": "blog-yazarligi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "blog yazarlığı nasıl olunur",
+  "kategori": "yazi-edebiyat",
+  "alt": "blog-yazarligi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "blog yazarlığı ne demek",
+  "kategori": "yazi-edebiyat",
+  "alt": "blog-yazarligi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "blog yazarlığı eğitimi",
+  "kategori": "yazi-edebiyat",
+  "alt": "blog-yazarligi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "evden blog yazarlığı",
+  "kategori": "yazi-edebiyat",
+  "alt": "blog-yazarligi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "freelance blog yazarlığı",
+  "kategori": "yazi-edebiyat",
+  "alt": "blog-yazarligi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "blog yazarlığı iş ilanları",
+  "kategori": "yazi-edebiyat",
+  "alt": "blog-yazarligi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "blog yazarlığı para kazandırır mi",
+  "kategori": "yazi-edebiyat",
+  "alt": "blog-yazarligi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "blog yazarlığı ne kadar kazandırır",
+  "kategori": "yazi-edebiyat",
+  "alt": "blog-yazarligi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "blog yazarlığı yaparak para kazanmak",
+  "kategori": "yazi-edebiyat",
+  "alt": "blog-yazarligi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "blog yazarlığı maaş",
+  "kategori": "yazi-edebiyat",
+  "alt": "blog-yazarligi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "psikoloji blog yazarlığı",
+  "kategori": "yazi-edebiyat",
+  "alt": "blog-yazarligi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "blog yazarlığı siteleri",
+  "kategori": "yazi-edebiyat",
+  "alt": "blog-yazarligi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "blog yazarlığı yapmak",
+  "kategori": "yazi-edebiyat",
+  "alt": "blog-yazarligi",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yaratıcı yazarlık nedir",
+  "kategori": "yazi-edebiyat",
+  "alt": "yaratici-yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yaratıcı yazarlık atölyesi",
+  "kategori": "yazi-edebiyat",
+  "alt": "yaratici-yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yaratıcı yazarlık atölyeleri",
+  "kategori": "yazi-edebiyat",
+  "alt": "yaratici-yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yaratıcı yazarlık bölümü",
+  "kategori": "yazi-edebiyat",
+  "alt": "yaratici-yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yaratıcı yazarlık kursu",
+  "kategori": "yazi-edebiyat",
+  "alt": "yaratici-yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yaratıcı yazarlık ray bradbury",
+  "kategori": "yazi-edebiyat",
+  "alt": "yaratici-yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yaratıcı yazarlık ve yazma becerileri",
+  "kategori": "yazi-edebiyat",
+  "alt": "yaratici-yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "büyübozumu yaratıcı yazarlık",
+  "kategori": "yazi-edebiyat",
+  "alt": "yaratici-yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "bursa yaratıcı yazarlık kursu",
+  "kategori": "yazi-edebiyat",
+  "alt": "yaratici-yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "craft yaratıcı yazarlık",
+  "kategori": "yazi-edebiyat",
+  "alt": "yaratici-yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yaratıcı yazarlık defteri",
+  "kategori": "yazi-edebiyat",
+  "alt": "yaratici-yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yaratıcı yazarlık egzersiz",
+  "kategori": "yazi-edebiyat",
+  "alt": "yaratici-yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yaratıcı yazarlık dersi",
+  "kategori": "yazi-edebiyat",
+  "alt": "yaratici-yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yaratıcı yazarlık dersleri",
+  "kategori": "yazi-edebiyat",
+  "alt": "yaratici-yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "yaratici yazarlik ders notları",
+  "kategori": "yazi-edebiyat",
+  "alt": "yaratici-yazarlik",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kitap okuma nasıl",
+  "kategori": "yazi-edebiyat",
+  "alt": "okuma",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kitap okuma hızı nasıl arttırılır",
+  "kategori": "yazi-edebiyat",
+  "alt": "okuma",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kitap okuma listesi",
+  "kategori": "yazi-edebiyat",
+  "alt": "okuma",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "kitap okuma nasıl olmalı",
+  "kategori": "yazi-edebiyat",
+  "alt": "okuma",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kitap okuma nedir",
+  "kategori": "yazi-edebiyat",
+  "alt": "okuma",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kitap okuma yarışmasında nasıl sorular sorulur",
+  "kategori": "yazi-edebiyat",
+  "alt": "okuma",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "ios için en iyi kitap okuma programı",
+  "kategori": "yazi-edebiyat",
+  "alt": "okuma",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "android için en iyi kitap okuma uygulamaları",
+  "kategori": "yazi-edebiyat",
+  "alt": "okuma",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kitap okuma alışkanlığı metnin ana fikri nedir",
+  "kategori": "yazi-edebiyat",
+  "alt": "okuma",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "okuma alışkanlığı nasıl kazanılır",
+  "kategori": "yazi-edebiyat",
+  "alt": "okuma",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kitap okuma alışkanlığı nasıl geri kazanılır",
+  "kategori": "yazi-edebiyat",
+  "alt": "okuma",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "okuma alışkanlığı ile ilgili 10 maddelik soru listesi",
+  "kategori": "yazi-edebiyat",
+  "alt": "okuma",
+  "tip_onerisi": "kontrol_listesi"
+ },
+ {
+  "sorgu": "okuma alışkanlığı nedir",
+  "kategori": "yazi-edebiyat",
+  "alt": "okuma",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "çocuklara okuma alışkanlığı nasıl kazandırılır",
+  "kategori": "yazi-edebiyat",
+  "alt": "okuma",
+  "tip_onerisi": null
+ },
+ {
+  "sorgu": "kitap okuma alışkanlığı",
+  "kategori": "yazi-edebiyat",
+  "alt": "okuma",
+  "tip_onerisi": null
+ }
+]

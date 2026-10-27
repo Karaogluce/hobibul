@@ -1,0 +1,42 @@
+name: GA4 analitik güncelle
+
+on:
+  schedule:
+    - cron: "0 4 * * *"      # her gün 07:00 (Türkiye saati)
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: ga4-analitik
+  cancel-in-progress: false
+
+jobs:
+  cek:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install jinja2 google-analytics-data
+
+      - name: GA4 verisini çek
+        env:
+          GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
+          GA4_SERVICE_ACCOUNT_JSON: ${{ secrets.GA4_SERVICE_ACCOUNT_JSON }}
+        run: python fetch_analytics.py
+
+      - name: Siteyi üret
+        run: python build.py
+
+      - name: Commit ve yayınla
+        run: |
+          git config user.name "hobibul-bot"
+          git config user.email "hobibul-bot@users.noreply.github.com"
+          git add -A
+          if git diff --cached --quiet; then echo "Değişiklik yok"; exit 0; fi
+          git commit -m "GA4 analitik güncelleme $(date -u +%F)"
+          git pull --rebase
+          git push

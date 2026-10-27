@@ -152,3 +152,17 @@ H2 sayısı, SSS bölümü, tüm ürünlerin linki, fiyat/abartı yasağı, mevc
 Sıradaki konuları görmek için: `python otomatik.py --konu-listesi`
 
 - Yazım kuralları ve yasaklı kalıplar: `content/yazim_rehberi.md` (düzenlenebilir). Çalışma planı: `PLAN.md`.
+
+## GA4 analitik paneli
+
+`fetch_analytics.py` + `.github/workflows/analytics.yml`, GA4'ten günlük veriyi **sunucu
+tarafında** (GitHub Actions) çekip `content/analytics_ga4.json`'a yazar; panel bu dosyayı okur.
+Servis hesabı anahtarı hiçbir zaman tarayıcıya/koda konmaz. Kurulum adımları aşağıda —
+`/dashboard/` sayfasındaki "GA4 kurulumu" notuna da bakabilirsin.
+
+Secrets (GitHub → Settings → Secrets and variables → Actions):
+- `GA4_PROPERTY_ID` — GA4 mülk numarası (örn. 123456789)
+- `GA4_SERVICE_ACCOUNT_JSON` — servis hesabı JSON anahtarının tüm içeriği
+
+`content/site.json` → `ga4_id` alanına gerçek `G-XXXXXXXXXX` ölçüm kodunu yaz (ziyaretçi
+takibini [gtag.js] başlatır; panel verisiyle aynı şey değildir, ikisi de gerekli).

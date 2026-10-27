@@ -16,3 +16,6 @@ gh.zip
 
 # gizli anahtarlar
 .env
+
+# autocomplete önbelleği (kişisel/büyük, commit edilmez)
+content/.autocomplete_cache.json

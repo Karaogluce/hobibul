@@ -25,8 +25,12 @@ from datetime import date
 
 import yeni_makale as ym
 
+if hasattr(sys.stdout, "reconfigure"):
+    sys.stdout.reconfigure(encoding="utf-8")
+
 CONTENT, ARTICLES = ym.CONTENT, ym.ARTICLES
 LOG_PATH = os.path.join(CONTENT, "uretim_log.json")
+POOL_PATH = os.path.join(CONTENT, "konu_havuzu.json")
 YEAR = date.today().year
 UA = {"User-Agent": "Mozilla/5.0 (HobiBul-bot)"}
 
@@ -65,7 +69,24 @@ TIPLER = {
         yapi="Kısa giriş → 8-10 soru, her biri ### başlık olarak (aşağıdaki gerçek arama sorgularından seç) ve 2-4 cümlelik net cevap → "
              "uygun cevaplarda 2-3 üründen doğal biçimde link ver → '## Sık Sorulan Sorular' başlığını da kullan (ör. 'Hâlâ Aklında Soru Var mı?') → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
+    "kontrol_listesi": dict(
+        min=700, hepsi=False,
+        baslik=lambda s: f"{s} Kontrol Listesi: Eksiksiz Hazırlık",
+        yapi="Kısa giriş (hedef sorguya ilk paragrafta cevap) → '## Neye İhtiyacın Var?' (hangi durumda hangi ekipman, "
+             "ürün verisine dayalı genel gerekçeler) → '## Kontrol Listesi' altında madde madde liste; her maddede o şeyin neden "
+             "gerektiğini tek cümleyle açıkla → '## Listeyi Kendine Göre Uyarlama' (kısa/uzun hazırlık, mevsim, deneyim farkı) → "
+             "'## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma). Listede geçen en az 2 üründen doğal biçimde link ver.",
+    ),
+    "nasil_yapilir": dict(
+        min=750, hepsi=False,
+        baslik=lambda s: f"{s} Nasıl Yapılır? Adım Adım Rehber",
+        yapi="Kısa giriş (hedef sorguya ilk iki cümlede cevap) → '## Gerekli Malzemeler ve Hazırlık' (kısa liste) → "
+             "'## Adım Adım Uygulama' altında her adımı ### başlık yaparak sırayla anlat → '## Yeni Başlayanların Sık Yaptığı Hatalar' → "
+             "'## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma). Uygun adımlarda en az 2 üründen doğal biçimde link ver.",
+    ),
 }
+ESKI_TIPLER = ("rehber", "yeni_baslayan", "hatalar", "sss")
+YENI_TIPLER = ("kontrol_listesi", "nasil_yapilir")
 HYPE = ["mükemmel", "piyasa lideri", "kesinlikle", "garanti", "%100", "en iyisi budur", "rakipsiz", "kusursuz"]
 
 
@@ -98,13 +119,58 @@ def save_log(log):
 
 
 # ------------------------------------------------------------------ konu kuyruğu
+def load_pool():
+    if not os.path.exists(POOL_PATH):
+        return []
+    try:
+        with open(POOL_PATH, encoding="utf-8") as f:
+            data = json.load(f)
+    except (OSError, ValueError):
+        return []
+    return data if isinstance(data, list) else []
+
+
+def dogal_baslik(sorgu):
+    s = re.sub(r"\s+", " ", str(sorgu)).strip().strip("?.!").strip()
+    if not s:
+        return ""
+    s = {"i": "İ", "ı": "I"}.get(s[0], s[0].upper()) + s[1:]
+    s = re.sub(r"\b(nedir)\s+(nasıl)\b", r"\1, \2", s, flags=re.I)
+    if re.search(r"\b(nasıl|nedir|hangi|mi|mı|mu|mü)\b", s, re.I) and not s.endswith("?"):
+        s += "?"
+    return s
+
+
+def yeni_tip_konulari(products, c, pool, used):
+    items = []
+    subs = {s["id"]: s["name"] for s in c["subcategories"]}
+    for e in pool:
+        tip, sub = e.get("tip_onerisi"), e.get("alt")
+        sorgu = re.sub(r"\s+", " ", str(e.get("sorgu", ""))).strip()
+        plist = products.get(c["id"], {}).get(sub, [])
+        if tip not in YENI_TIPLER or e.get("kategori") != c["id"] or sub not in subs or not sorgu:
+            continue
+        if len(plist) < 3:
+            continue
+        sslug = ym.slugify(sorgu)
+        if not sslug or sslug in used:
+            continue
+        used.add(sslug)
+        items.append(dict(
+            key=f"{tip}:{c['id']}:{sub}:{sslug}", tip=tip, cat=c["id"], cat_name=c["name"],
+            sub=sub, sub_name=subs[sub], ids=[p["id"] for p in plist],
+            title=dogal_baslik(sorgu), sorgu=sorgu, sorgu_slug=sslug))
+    return items
+
+
 def topic_queue(products, cats):
-    """Kategoriler arası dönüşümlü: her kategoride önce tüm alt kategorilerin 'rehber'i, sonra 'yeni_baslayan'ı…"""
+    """Kategoriler arası dönüşümlü: önce mevcut tipler eski sırayla, sonra konu havuzundan yeni tipler."""
+    pool, used = load_pool(), set()
     per_cat = []
     for c in cats:
         items = []
         subs = [("_main", c["name"])] + [(s["id"], s["name"]) for s in c["subcategories"]]
-        for tip in TIPLER:
+        for tip in ESKI_TIPLER:
             for sid, sname in subs:
                 plist = products.get(c["id"], {}).get(sid, [])
                 if len(plist) < 3:
@@ -113,6 +179,7 @@ def topic_queue(products, cats):
                     key=f"{tip}:{c['id']}:{sid}", tip=tip, cat=c["id"], cat_name=c["name"],
                     sub=sid, sub_name=sname, ids=[p["id"] for p in plist],
                     title=TIPLER[tip]["baslik"](sname)))
+        items += yeni_tip_konulari(products, c, pool, used)
         per_cat.append(items)
     out, i = [], 0
     while any(per_cat):
@@ -352,6 +419,8 @@ def uret(t, products, key, model, ukey, log, draft):
     pool = {p["id"]: p for s in products.values() for items in s.values() for p in items}
     prods = [pool[i] for i in t["ids"]]
     sugg = suggestions(t["sub_name"])
+    if t.get("sorgu"):
+        sugg = [t["sorgu"]] + [s for s in sugg if s.lower() != t["sorgu"].lower()]
     others = existing_shingles()
     guide, banned = load_guide()
     why = "bilinmiyor"
@@ -398,8 +467,10 @@ def main():
     fails = {}
     for x in log["atlanan"]:
         fails[x["anahtar"]] = fails.get(x["anahtar"], 0) + 1
+    done_sorgu = {k.rsplit(":", 1)[-1] for k in log["done"] if k.split(":", 1)[0] in YENI_TIPLER}
     queue = [t for t in topic_queue(products, cats)
-             if t["key"] not in log["done"] and ym.slugify(t["title"]) not in have and fails.get(t["key"], 0) < 2]
+             if t["key"] not in log["done"] and ym.slugify(t["title"]) not in have
+             and t.get("sorgu_slug") not in done_sorgu and fails.get(t["key"], 0) < 2]
 
     if a.konu_listesi:
         print(f"Kuyrukta {len(queue)} konu. Sıradakiler:")

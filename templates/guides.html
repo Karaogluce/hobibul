@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% from "_macros.html" import acc %}
+{% block title %}Tüm Rehberler | {{ site.site_name }}{% endblock %}
+{% block description %}Hobi kategorilerine göre ekipman rehberleri, alım kılavuzları ve karşılaştırmalar.{% endblock %}
+{% block content %}
+<nav class="breadcrumb" aria-label="breadcrumb"><a href="/">Ana Sayfa</a> <span>›</span> <span class="current">Rehberler</span></nav>
+<h1 class="page-title">Tüm rehberler</h1>
+<p class="lead">Hobi kategorilerine göre ekipman rehberleri ve alım kılavuzları.</p>
+{% for c in all_categories %}
+{% set items = articles|selectattr('category', 'equalto', c.id)|sort(attribute='date', reverse=True)|list %}
+{% if items %}
+<section class="sec" {{ acc(c.id) }}>
+  <div class="sec-head"><h2 class="dot-title"><i></i>{{ c.name }}</h2><a href="/kategori/{{ c.slug }}/">Kategoriye git</a></div>
+  <div class="art-grid">
+    {% for a in items %}
+    <a class="art" href="/makale/{{ a.slug }}/">
+      <div class="art-media">{% if a.image %}<img src="{{ a.image }}" alt="{{ a.image_alt }}" loading="lazy" width="640" height="400">{% endif %}</div>
+      <h3>{{ a.title }}</h3>
+      <p>{{ a.excerpt }}</p>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+{% endfor %}
+{% endblock %}

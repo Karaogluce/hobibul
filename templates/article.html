@@ -1,4 +1,5 @@
 {% extends "base.html" %}
+{% from "_macros.html" import acc %}
 {% block title %}{{ article.meta_title }}{% endblock %}
 {% block description %}{{ article.meta_description }}{% endblock %}
 {% block jsonld %}<script type="application/ld+json">{{ jsonld|safe }}</script>{% endblock %}
@@ -9,9 +10,10 @@
   <span class="current">{{ article.title }}</span>
 </nav>
 
-<article class="article">
+<article class="article" {{ acc(article.category) }}>
+  <a class="kicker" href="/kategori/{{ article.category }}/">{{ article.category_name }}</a>
   <h1 class="article-title">{{ article.title }}</h1>
-  <p class="article-meta">📅 {{ article.date }} &nbsp;·&nbsp; 🏷️ {{ article.category_name }}</p>
+  <p class="article-meta">{{ article.date }}</p>
   <div class="article-disclosure article-disclosure-top">
     <strong>ℹ️ Affiliate Açıklaması:</strong> {{ site.affiliate_disclosure }}
   </div>
@@ -26,12 +28,11 @@
 {% if related %}
 <section class="related">
   <h2>Bunlar da ilgini çekebilir</h2>
-  <div class="article-grid">
+  <div class="art-grid">
     {% for a in related %}
-    <a class="article-card" href="/makale/{{ a.slug }}/">
-      {% if a.image %}<img class="article-card-img" src="{{ a.image }}" alt="{{ a.image_alt }}" loading="lazy" width="600" height="160">{% endif %}
+    <a class="art" href="/makale/{{ a.slug }}/" {{ acc(a.category) }}>
+      <div class="art-media">{% if a.image %}<img src="{{ a.image }}" alt="{{ a.image_alt }}" loading="lazy" width="640" height="400">{% endif %}<span class="tag">{{ a.category_name }}</span></div>
       <h3>{{ a.title }}</h3>
-      <span class="read-more">Oku →</span>
     </a>
     {% endfor %}
   </div>
