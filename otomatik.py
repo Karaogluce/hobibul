@@ -201,7 +201,7 @@ def suggestions(sub_name):
         url = "https://suggestqueries.google.com/complete/search?client=firefox&hl=tr&gl=tr&q=" + urllib.parse.quote(q)
         try:
             req = urllib.request.Request(url, headers=UA)
-            with urllib.request.urlopen(req, timeout=15) as r:
+            with urllib.request.urlopen(req, timeout=50) as r:
                 data = json.loads(r.read().decode("utf-8", "replace"))
             for s in data[1]:
                 if s not in out and len(s) > len(base) + 3 and not re.search(r"\d+\s*(tl|₺)|fiyat|ucuz|indirim", s):
