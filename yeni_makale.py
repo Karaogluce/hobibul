@@ -19,6 +19,7 @@ teknik özellik uydurması yasaklanır. Linkler aff://ürün-id olarak yazılır
 build.py bunları Amazon TR linkine (hobibulsite-21 tag'i) çevirir.
 """
 import argparse
+import http.client
 import json
 import os
 import re
@@ -118,7 +119,8 @@ def call_gemini(prompt, key, model):
     }).encode("utf-8")
     req = urllib.request.Request(url, data=body, method="POST", headers={
         "Content-Type": "application/json", "x-goog-api-key": key})
-    for attempt in range(4):
+    kopma = 0
+    for attempt in range(7):
         try:
             with urllib.request.urlopen(req, timeout=120) as r:
                 data = json.loads(r.read().decode("utf-8"))
@@ -132,6 +134,16 @@ def call_gemini(prompt, key, model):
                 time.sleep(wait)
                 continue
             raise GeminiError(f"Gemini hatası {e.code}: {msg} (Model adı eskimiş olabilir: GEMINI_MODEL değerini AI Studio'dan kontrol et.)")
+        except (http.client.RemoteDisconnected, urllib.error.URLError) as e:
+            # urllib bazı sürümlerde bağlantı kopmasını URLError içine sarar
+            if not (isinstance(e, http.client.RemoteDisconnected)
+                    or isinstance(getattr(e, "reason", None), http.client.RemoteDisconnected)):
+                raise
+            kopma += 1
+            if kopma > 3:
+                raise GeminiError("Gemini bağlantıyı 3 kez üst üste kesti; tekrar deneyin.")
+            print(f"  Bağlantı koptu, 30 sn bekleniyor… ({kopma}/3)")
+            time.sleep(30)
     raise GeminiError("Gemini yanıt vermedi.")
 
 
