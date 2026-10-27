@@ -120,7 +120,7 @@ def call_gemini(prompt, key, model):
         "Content-Type": "application/json", "x-goog-api-key": key})
     for attempt in range(4):
         try:
-            with urllib.request.urlopen(req, timeout=120) as r:
+            with urllib.request.urlopen(req, timeout=600) as r:
                 data = json.loads(r.read().decode("utf-8"))
             parts = data["candidates"][0]["content"]["parts"]
             return "".join(p.get("text", "") for p in parts).strip()
