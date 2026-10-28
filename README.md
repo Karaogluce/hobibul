@@ -137,8 +137,8 @@ düzenleme; değişiklikleri `templates/`, `static/` ve `content/` altında yap.
 
 ## Günlük otomatik makale (GitHub Actions)
 
-`.github/workflows/gunluk-makale.yml` her gün 08:00'de (TR) `otomatik.py` ile 2 makale üretir, siteyi
-yeniden oluşturur ve commit eder.
+`.github/workflows/gunluk-makale.yml` her gün 11:00'de (TR) `otomatik.py` ile 2 makale üretir, siteyi
+yeniden oluşturur ve commit eder. (Saat, Gemini günlük kotasının Pasifik gece yarısı sıfırlanmasına göre seçildi.)
 
 Kurulum (bir kerelik): GitHub → Settings → Secrets and variables → Actions
 - **Secrets:** `GEMINI_API_KEY`, `UNSPLASH_ACCESS_KEY` (unsplash.com/developers → New Application → Access Key)

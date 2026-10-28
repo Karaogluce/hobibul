@@ -2,7 +2,7 @@ name: Günlük makale
 
 on:
   schedule:
-    - cron: "0 5 * * *"        # her gün 08:00 (Türkiye saati)
+    - cron: "0 8 * * *"        # her gün 11:00 (Türkiye saati) — Gemini günlük kotası Pasifik gece yarısı sıfırlanır
   workflow_dispatch:
     inputs:
       adet:
