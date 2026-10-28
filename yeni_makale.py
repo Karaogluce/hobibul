@@ -11,7 +11,7 @@ Kullanım örnekleri (Windows / Python 3.11, ek paket gerekmez):
 
 Kurulum: aynı klasöre .env dosyası oluştur ve içine şunu yaz:
   GEMINI_API_KEY=anahtarin
-  GEMINI_MODEL=gemini-flash-latest      (isteğe bağlı; model adı değişirse AI Studio'dan kopyala)
+  GEMINI_MODEL=gemini-3.1-flash-lite      (isteğe bağlı; model adı değişirse AI Studio'dan kopyala)
 
 Mantık: Ürünleri SEN seçersin (content/products.json). Model yalnızca bu ürün
 verilerini (ad, açıklama, artı/eksi) kullanarak metni yazar; ürün, fiyat veya
@@ -217,7 +217,7 @@ def main():
     key = os.environ.get("GEMINI_API_KEY")
     if not key:
         sys.exit("GEMINI_API_KEY yok. .env dosyasına ekle (aistudio.google.com).")
-    model = os.environ.get("GEMINI_MODEL") or "gemini-flash-latest"
+    model = os.environ.get("GEMINI_MODEL") or "gemini-3.1-flash-lite"
 
     ids = [x.strip() for x in a.urunler.split(",") if x.strip()]
     prods = pick_products(products, a.kategori, a.alt, ids)

@@ -485,7 +485,7 @@ def main():
         sys.exit("GEMINI_API_KEY yok.")
     if not ukey:
         print("! UNSPLASH_ACCESS_KEY yok: makaleler kategori görseliyle çıkacak.")
-    model = os.environ.get("GEMINI_MODEL") or "gemini-flash-latest"
+    model = os.environ.get("GEMINI_MODEL") or "gemini-3.1-flash-lite"
 
     made, tried = 0, 0
     for t in queue:
