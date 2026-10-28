@@ -344,6 +344,10 @@ def jsonld(obj):
 
 # ---------------------------------------------------------------- build
 def main():
+    gid = site.get("ga4_id", "")
+    if not gid.startswith("G-") or "XXX" in gid:
+        print(f"! GA4 ölçüm kimliği ayarlı değil (content/site.json → ga4_id = {gid!r}). "
+              "Gerçek G-... kodu yazılmadığı sürece Analytics'e veri gitmez ve panel boş kalır.")
     if os.path.isdir(SITE):
         shutil.rmtree(SITE)
     os.makedirs(SITE)

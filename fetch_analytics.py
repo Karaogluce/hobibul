@@ -70,6 +70,7 @@ def main():
         info, scopes=["https://www.googleapis.com/auth/analytics.readonly"])
     client = BetaAnalyticsDataClient(credentials=creds)
     date_range = [DateRange(start_date=f"{DAYS}daysAgo", end_date="today")]
+    hata = 0
 
     # ---- 1) günlük tekil kullanıcı ----
     visitors = []
@@ -85,6 +86,7 @@ def main():
             d = row.dimension_values[0].value  # YYYYMMDD
             visitors.append({"date": f"{d[:4]}-{d[4:6]}-{d[6:]}", "users": int(row.metric_values[0].value)})
     except Exception as e:
+        hata += 1
         print(f"! Ziyaretçi verisi çekilemedi: {e}")
 
     # ---- 2) trafik kaynakları ----
@@ -101,6 +103,7 @@ def main():
         for row in r.rows:
             channels.append({"name": row.dimension_values[0].value, "sessions": int(row.metric_values[0].value)})
     except Exception as e:
+        hata += 1
         print(f"! Trafik kaynağı verisi çekilemedi: {e}")
 
     # ---- 3) en çok okunan sayfalar (yalnızca makale sayfaları) ----
@@ -128,7 +131,26 @@ def main():
             })
         pages = pages[:10]
     except Exception as e:
+        hata += 1
         print(f"! Sayfa verisi çekilemedi: {e}")
+
+    if hata == 3:
+        sys.exit("GA4 Data API üç raporu da döndüremedi; mevcut veri korunuyor, boş dosya yazılmadı. "
+                 "GA4_PROPERTY_ID'nin sayısal mülk numarası olduğunu ve servis hesabı e-postasının "
+                 "o mülkte 'Görüntüleyen' yetkisine sahip olduğunu kontrol et.")
+    if not visitors and not channels and not pages:
+        print("! GA4 üç rapor için de 0 satır döndürdü. Olası nedenler:")
+        print("  - siteye gerçek GA4 ölçüm kodu ekli değil (aşağıdaki kontrol)")
+        print("  - GA4 mülkünde henüz trafik yok (yeni kurulumda veri 24-48 saati bulabilir)")
+        print("  - yanlış GA4_PROPERTY_ID")
+        try:
+            with open(os.path.join(CONTENT, "site.json"), encoding="utf-8") as f:
+                gid = json.load(f).get("ga4_id", "")
+            if not gid.startswith("G-") or "XXX" in gid:
+                print(f"  ! content/site.json ga4_id = {gid!r} (placeholder). "
+                      "GA4 → Yönetici → Veri akışları → Ölçüm kimliği (G-...) buraya yazılmalı.")
+        except Exception:
+            pass
 
     out = {
         "generated_at": date.today().isoformat(),
