@@ -8,6 +8,7 @@ kapsayan SEO uyumlu statik site + trafik/affiliate tıklama analitiği paneli.
 - **Geniş kategori ağacı:** 7 ana kategori, 28 alt kategori (35 kategori sayfası).
 - **Her kategori/alt kategori için "En İyi 5" ürün rehberi:** 175 ürün, artı/eksi listeleri ve satın alma bağlantıları.
 - **SEO:** her sayfa için özgün meta title/description, kanonik URL, breadcrumb, JSON-LD, `sitemap.xml`, `robots.txt`.
+- **IndexNow:** yeni/değişen sayfalar Bing, Yandex, Seznam ve Naver'a sitemap beklemeden anında bildirilir.
 - **Çoklu affiliate ağı desteği:** Amazon (aktif), Amazon TR / Trendyol / Hepsiburada (ID eklemeye hazır).
 - **Analitik paneli:** `/dashboard/` — makale görüntülenme, affiliate tıklama ve CTR (Supabase ile).
 - **3 detaylı başlangıç makalesi** (1200+ kelime, H2/H3, gömülü affiliate linkleri).
@@ -169,3 +170,27 @@ Secrets (GitHub → Settings → Secrets and variables → Actions):
 
 `content/site.json` → `ga4_id` alanına gerçek `G-XXXXXXXXXX` ölçüm kodunu yaz (ziyaretçi
 takibini [gtag.js] başlatır; panel verisiyle aynı şey değildir, ikisi de gerekli).
+
+## IndexNow (Bing / Yandex anında bildirim)
+
+`indexnow.py`, sitemap'in taranmasını beklemeden yeni ve değişen sayfaları IndexNow
+API'sine bildirir. Google bu protokolü kullanmaz; Google tarafı Search Console +
+sitemap ile yürür. Bing, Yandex, Seznam ve Naver kullanır.
+
+Kurulum gerekmez, hazır:
+- `content/site.json` → `indexnow_key` anahtarı tutar (gizli değildir, protokol gereği
+  sitenin kökünde herkese açık yayınlanır).
+- `build.py` bu anahtarı `docs/<anahtar>.txt` olarak üretir; doğrulama bu dosya üzerinden yapılır.
+- `.github/workflows/gunluk-makale.yml` son adımda yalnızca **o çalıştırmada değişen**
+  sayfaları bildirir (`docs/sitemap.xml` veya anahtar dosyası değiştiyse tüm siteyi).
+
+Elle kullanım:
+```bash
+python build.py
+python indexnow.py                 # sitemap'teki tüm URL'ler
+python indexnow.py --kuru          # göndermeden listele
+python indexnow.py --degisen liste.txt
+```
+
+Anahtarı değiştirmek istersen `content/site.json` → `indexnow_key` alanına yeni bir
+8–128 karakterlik hex değer yaz, `build.py` yeni doğrulama dosyasını üretir (eskisini sil).

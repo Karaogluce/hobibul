@@ -483,6 +483,11 @@ def main():
           "User-agent: *\nAllow: /\nDisallow: /dashboard/\n\n"
           f"Sitemap: {BASE_URL}/sitemap.xml\n")
 
+    # IndexNow doğrulama dosyası: kökte yayınlanır, indexnow.py bunu bildirir
+    inkey = (site.get("indexnow_key") or "").strip()
+    if inkey:
+        write(os.path.join(SITE, inkey + ".txt"), inkey + "\n")
+
     write(os.path.join(SITE, "CNAME"), site["domain"] + "\n")
 
     write(os.path.join(SITE, "404.html"),
@@ -497,7 +502,8 @@ def main():
     n_cat = len(categories) + sum(len(c["subcategories"]) for c in categories)
     print(f"✓ {n_cat} kategori sayfası")
     print(f"✓ {len(articles)} makale sayfası")
-    print(f"✓ 1 ana sayfa + 1 dashboard + sitemap + robots + CNAME + 404")
+    print(f"✓ 1 ana sayfa + 1 dashboard + sitemap + robots + CNAME + 404"
+          + (" + IndexNow anahtarı" if inkey else ""))
     print(f"✓ Çıktı: {SITE}")
 
 
