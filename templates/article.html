@@ -17,6 +17,13 @@
   <div class="article-disclosure article-disclosure-top">
     <strong>ℹ️ Affiliate Açıklaması:</strong> {{ site.affiliate_disclosure }}
   </div>
+  {% if article.starter_url %}
+  <aside class="starter-cta">
+    <p class="starter-kicker">Başlangıç seti</p>
+    {% if article.starter_text %}<p>{{ article.starter_text }}</p>{% endif %}
+    <a class="aff-link" href="{{ article.starter_url }}" data-aff-link="{{ article.starter_product }}" data-network="{{ article.starter_network }}" target="_blank" rel="nofollow sponsored noopener">{{ article.starter_label or "Başlangıç setine bak" }}</a>
+  </aside>
+  {% endif %}
   {% if article.image %}<img class="article-hero" onerror="this.remove()" src="{{ article.image }}" alt="{{ article.image_alt }}" width="760" height="320">
   {% if article.image_credit %}<p class="img-credit">Fotoğraf: <a href="{{ article.image_credit_url }}" target="_blank" rel="noopener">{{ article.image_credit }}</a> / <a href="https://unsplash.com/?utm_source=hobibul&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></p>{% endif %}{% endif %}
   <div class="article-body">

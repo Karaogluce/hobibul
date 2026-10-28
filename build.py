@@ -58,11 +58,26 @@ def cat_name(cat_id):
 
 
 # ---------------------------------------------------------------- affiliate
+def _with_tag(url, tag):
+    if not tag or re.search(r"[?&]tag=", url):
+        return url
+    return url + ("&" if "?" in url else "?") + "tag=" + urlquote(tag)
+
+
 def affiliate_url(prod):
-    if prod.get("url"):
-        return prod["url"]
     net_key = prod.get("network", "amazon_tr")
     net = links["networks"].get(net_key, {})
+    tag = (net.get("tag") or "").strip()
+    amazon_url = str(prod.get("amazon_url") or "").strip()
+    # Doğrulanmış ürün sayfası, arama linkinden önce gelir.
+    if amazon_url.startswith("http") and "/dp/" in amazon_url and net_key in ("amazon_tr", "amazon"):
+        return _with_tag(amazon_url, tag)
+    asin = re.sub(r"[^A-Za-z0-9]", "", str(prod.get("asin") or "")).upper()
+    if len(asin) == 10 and tag and net_key in ("amazon_tr", "amazon"):
+        host = "www.amazon.com.tr" if net_key == "amazon_tr" else "www.amazon.com"
+        return f"https://{host}/dp/{asin}?tag={urlquote(tag)}"
+    if prod.get("url"):
+        return prod["url"]
     if net.get("type") == "search" and net.get("base_url"):
         # Amazon TR'de Türkçe ürün adıyla ara; diğer ağlarda query alanını kullan.
         term = prod["name"] if net_key == "amazon_tr" else prod.get("query", prod["name"])
@@ -194,11 +209,25 @@ def _inline(text):
     return text
 
 
+def _is_table_sep(s):
+    return bool(re.match(r"^\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)+\|?$", s))
+
+
+def _split_row(s):
+    s = s.strip()
+    if s.startswith("|"):
+        s = s[1:]
+    if s.endswith("|"):
+        s = s[:-1]
+    return [c.strip() for c in s.split("|")]
+
+
 def render_markdown(text):
     lines = text.split("\n")
     out = []
     in_ul = False
     in_ol = False
+    i = 0
 
     def close_lists():
         nonlocal in_ul, in_ol
@@ -209,11 +238,29 @@ def render_markdown(text):
             out.append("</ol>")
             in_ol = False
 
-    for raw in lines:
-        line = raw.rstrip()
+    while i < len(lines):
+        line = lines[i].rstrip()
         s = line.strip()
+        if s.startswith("|") and i + 1 < len(lines) and _is_table_sep(lines[i + 1].strip()):
+            close_lists()
+            header = _split_row(s)
+            i += 2
+            rows = []
+            while i < len(lines) and lines[i].strip().startswith("|"):
+                rows.append(_split_row(lines[i].strip()))
+                i += 1
+            width = len(header)
+            out.append('<table class="pkg-table">')
+            out.append("<thead><tr>" + "".join(f"<th>{_inline(c)}</th>" for c in header) + "</tr></thead>")
+            out.append("<tbody>")
+            for row in rows:
+                cells = (row + [""] * width)[:width]
+                out.append("<tr>" + "".join(f"<td>{_inline(c)}</td>" for c in cells) + "</tr>")
+            out.append("</tbody></table>")
+            continue
         if not s:
             close_lists()
+            i += 1
             continue
         if s.startswith("### "):
             close_lists()
@@ -240,6 +287,7 @@ def render_markdown(text):
         else:
             close_lists()
             out.append(f"<p>{_inline(s)}</p>")
+        i += 1
     close_lists()
     return "\n".join(out)
 
@@ -275,10 +323,13 @@ def load_articles():
             if str(meta.get("draft", "")).lower() in ("true", "1", "evet"):
                 continue  # taslak: onaylanana kadar yayınlanmaz
             slug = meta.get("slug") or fn[:-3]
+            starter_pid = meta.get("starter_product", "")
+            starter_prod = product_map.get(starter_pid) if starter_pid else None
             articles.append({
                 "slug": slug,
                 "title": meta.get("title", slug),
                 "category": meta.get("category", ""),
+                "subcategory": meta.get("subcategory", ""),
                 "category_name": cat_name(meta.get("category", "")),
                 "meta_title": meta.get("meta_title", meta.get("title", slug)),
                 "meta_description": meta.get("meta_description", ""),
@@ -288,6 +339,11 @@ def load_articles():
                 "image_alt": meta.get("image_alt", meta.get("title", slug)),
                 "image_credit": meta.get("image_credit", ""),
                 "image_credit_url": meta.get("image_credit_url", ""),
+                "starter_text": meta.get("starter_text", ""),
+                "starter_label": meta.get("starter_label", ""),
+                "starter_product": starter_pid,
+                "starter_url": affiliate_url(starter_prod) if starter_prod else "",
+                "starter_network": (starter_prod or {}).get("network", "amazon_tr"),
                 "body_html": render_markdown(body.strip()),
                 "word_count": len(body.split()),
             })
@@ -380,6 +436,7 @@ def main():
             "canonical_path": f"/kategori/{cat['slug']}/",
             "cat": cat,
             "sub": None,
+            "cat_articles": articles_for(cat["id"]),
             "hero_img": cat_hero_img(cat),
             "page": {
                 "name": cat["name"],
@@ -397,6 +454,7 @@ def main():
                 "canonical_path": f"/kategori/{cat['slug']}/{sub['slug']}/",
                 "cat": cat,
                 "sub": sub,
+                "cat_articles": articles_for(cat["id"], sub["id"]),
                 "hero_img": cat_hero_img(cat, sub),
                 "page": {
                     "name": sub["name"],
@@ -516,6 +574,20 @@ def load_ga4():
         with open(p, encoding="utf-8") as f:
             return json.load(f)
     return None
+
+
+def articles_for(cat_id, sub_id=None):
+    """Ana kategoride o kategorinin rehberleri; alt kategoride yalnızca eşleşenler."""
+    out = []
+    for a in articles:
+        if a.get("category") != cat_id:
+            continue
+        sub = a.get("subcategory") or ""
+        if sub_id and sub != sub_id:
+            continue
+        out.append(a)
+    out.sort(key=lambda a: a.get("date") or "", reverse=True)
+    return out
 
 
 def related_for(a, n=3):

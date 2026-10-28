@@ -5650,5 +5650,134 @@
   "kategori": "yazi-edebiyat",
   "alt": "okuma",
   "tip_onerisi": null
+ },
+ {
+  "sorgu": "En İyi Kamp Çadırı Seçimi 2026: 2 ve 4 Kişilik Karşılaştırma",
+  "kategori": "outdoor",
+  "alt": "kampcilik",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "andoutdoor-monodome-a",
+   "coleman-sundome-4",
+   "thermarest-z-lite",
+   "etekcity-lantern"
+  ]
+ },
+ {
+  "sorgu": "Evde Filtre Kahve Başlangıç Seti: Öğütücü, V60 ve Tartı",
+  "kategori": "yemek-mutfak",
+  "alt": "kahve",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "baratza-encore-ogutucu",
+   "hario-v60-dripper",
+   "zamanlayicili-kahve-tartisi",
+   "aeropress-kahve-demleyici",
+   "bodum-chambord-french-press",
+   "bialetti-moka-express"
+  ]
+ },
+ {
+  "sorgu": "Mangal Başlangıç Seti: Weber Kettle ve Olmazsa Olmaz Aksesuarlar",
+  "kategori": "yemek-mutfak",
+  "alt": "mangal-bbq",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "weber-original-kettle-57cm",
+   "weber-rapidfire-baca",
+   "thermopro-tp20-et-termometresi",
+   "oxo-good-grips-mangal-masasi",
+   "weber-mangal-fircasi"
+  ]
+ },
+ {
+  "sorgu": "Elektro Gitar Başlangıç Seti: Gitar, Amfi ve İlk Pedal",
+  "kategori": "muzik",
+  "alt": "gitar",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "fender-player-strat",
+   "boss-katana-50",
+   "boss-ds-1",
+   "daddario-exl110",
+   "snark-st8"
+  ]
+ },
+ {
+  "sorgu": "Evde Fitness İçin Ayarlanabilir Dambıl Rehberi",
+  "kategori": "spor-fitness",
+  "alt": "evde-fitness",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "bowflex-552",
+   "powerblock-dumbbells",
+   "yes4all-dumbbells",
+   "theraband-bands",
+   "exercise-mat"
+  ]
+ },
+ {
+  "sorgu": "3D Yazıcı Alırken Nelere Bakmalı: Ender 3 V3 vs Bambu Lab A1 Mini",
+  "kategori": "teknoloji",
+  "alt": "3d-yazici",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "creality-ender-3-v3",
+   "bambu-lab-a1-mini",
+   "sunlu-pla-filament",
+   "anycubic-kobra-2",
+   "3d-tool-kit"
+  ]
+ },
+ {
+  "sorgu": "Köpek Yürüyüş ve Eğitim Seti",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "ruffwear-front-range-kosum-takimi",
+   "flexi-new-classic-otomatik-tasma",
+   "outward-hound-zeka-oyuncagi",
+   "benebone-wishbone-cigneme-oyuncagi",
+   "hertzko-kendi-kendini-temizleyen-tarak"
+  ]
+ },
+ {
+  "sorgu": "Trekking Bot Seçimi: Gore-Tex Başlangıç Botları",
+  "kategori": "outdoor",
+  "alt": "dagcilik-trekking",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "salomon-x-ultra-4",
+   "bd-trail-poles",
+   "osprey-daylite-plus",
+   "petzl-actik-core"
+  ]
+ },
+ {
+  "sorgu": "Akvaryum Kurulumu Başlangıç Seti",
+  "kategori": "evcil-hayvan",
+  "alt": "akvaryum",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "aqueon-akvaryum-tanki",
+   "fluval-307-dis-filtre",
+   "eheim-jager-akvaryum-isiticisi",
+   "tetra-whisper-hava-pompasi",
+   "fluval-plant-led-aydinlatma"
+  ]
+ },
+ {
+  "sorgu": "Raspberry Pi 5 Başlangıç Kiti",
+  "kategori": "teknoloji",
+  "alt": "raspberry-pi-elektronik",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "raspberry-pi-5",
+   "rpi-power-supply",
+   "geeekpi-pi5-baslangic-kiti",
+   "freenove-starter-kit",
+   "arduino-uno-r3"
+  ]
  }
 ]

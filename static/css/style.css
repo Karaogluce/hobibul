@@ -144,6 +144,13 @@ h1,h2,h3,h4{font-family:var(--display);line-height:1.12;letter-spacing:-.02em;ma
 .article-title{font-size:clamp(2rem,6.4vw,3.3rem);font-weight:800;letter-spacing:-.035em;margin:12px 0 8px}
 .article-meta{color:var(--muted);font-size:.92rem;margin:0}
 .article-disclosure{margin:16px 0;padding:10px 14px;border-radius:var(--r-md);background:var(--surface);border:1px solid var(--line);border-left:4px solid var(--accent);font-size:.84rem;line-height:1.5;color:var(--muted)}
+.starter-cta{margin:0 0 18px;padding:16px 16px 14px;border-radius:var(--r-md);background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow)}
+.starter-cta .starter-kicker{margin:0 0 6px;font:800 .78rem var(--display);letter-spacing:.04em;text-transform:uppercase;color:var(--accent-dark)}
+.starter-cta p{margin:0 0 12px}
+.article-body table.pkg-table{width:100%;border-collapse:collapse;margin:0 0 1.2em;font-size:.95rem}
+.article-body table.pkg-table th,.article-body table.pkg-table td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+.article-body table.pkg-table th{background:var(--surface)}
+.article-body table.pkg-table a.aff-link{padding:6px 10px;font-size:.85rem}
 .article-hero{width:100%;aspect-ratio:16/8;object-fit:cover;border-radius:var(--r-lg);margin:8px 0 6px}
 .img-credit{font-size:.78rem;color:var(--muted);margin:6px 0 20px}
 .img-credit a{color:var(--muted)}

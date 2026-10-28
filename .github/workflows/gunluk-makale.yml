@@ -2,11 +2,12 @@ name: Günlük makale
 
 on:
   schedule:
-    - cron: "0 8 * * *"        # her gün 11:00 (Türkiye saati) — Gemini günlük kotası Pasifik gece yarısı sıfırlanır
+    # Her gün tam 2 makale. 11:00 TR — Gemini günlük kotası Pasifik gece yarısı sıfırlanır.
+    - cron: "0 8 * * *"
   workflow_dispatch:
     inputs:
       adet:
-        description: "Üretilecek makale sayısı"
+        description: "Üretilecek makale sayısı (otomatik.py 2'den fazlasını 2'ye çeker)"
         default: "2"
   push:                         # taslağı onaylayıp (draft: "false") kaydedince siteyi yeniden üretir
     branches: [main]
@@ -37,6 +38,7 @@ jobs:
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
           GEMINI_MODEL_YEDEK: ${{ vars.GEMINI_MODEL_YEDEK }}
           TASLAK_MODU: ${{ vars.TASLAK_MODU || 'false' }}
+        # Zamanlanmış çalıştırma girdi almaz; varsayılan tam 2. Elle tetikte de üst sınır 2'dir.
         run: python otomatik.py --adet ${{ github.event.inputs.adet || '2' }}
 
       - name: Siteyi üret
