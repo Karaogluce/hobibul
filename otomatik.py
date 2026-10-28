@@ -560,14 +560,24 @@ def write_article(t, meta, body, img, draft):
     return slug, len(body.split())
 
 
+# GEMINI_MODEL_YEDEK boşsa günlük kotada denenecek yerleşik yedek.
+# AI Studio adı değişirse variable ile ezilir; uydurma ek model eklenmez.
+YERLESIK_YEDEK = "gemini-flash-lite-latest"
+
+
 def _modeller():
-    ana = (os.environ.get("GEMINI_MODEL") or "gemini-flash-latest").strip()
-    yedek = [m.strip() for m in (os.environ.get("GEMINI_MODEL_YEDEK") or "").split(",") if m.strip()]
+    """(model listesi, yedek variable açıkça tanımlı mı)."""
+    ana = (os.environ.get("GEMINI_MODEL") or "gemini-flash-latest").strip() or "gemini-flash-latest"
+    yedek_raw = (os.environ.get("GEMINI_MODEL_YEDEK") or "").strip()
+    yedek = [m.strip() for m in yedek_raw.split(",") if m.strip()]
+    acik = bool(yedek)
+    if not yedek and YERLESIK_YEDEK != ana:
+        yedek = [YERLESIK_YEDEK]
     out = []
     for m in [ana] + yedek:
         if m not in out:
             out.append(m)
-    return out
+    return out, acik
 
 
 def _gemini(prompt, key, models, idx):
@@ -578,9 +588,12 @@ def _gemini(prompt, key, models, idx):
         try:
             return ym.call_gemini(prompt, key, model)
         except ym.GeminiQuotaError as e:
-            print(f"  günlük kota: {model} — yedek modele geçiliyor")
             last = e
             idx[0] += 1
+            if idx[0] < len(models):
+                print(f"  günlük kota: {model} — yedek modele geçiliyor ({models[idx[0]]})")
+            else:
+                print(f"  günlük kota: {model} — denenecek model kalmadı")
     raise last or ym.GeminiError("Kullanılabilir Gemini modeli kalmadı.")
 
 
@@ -660,7 +673,13 @@ def main():
         sys.exit("GEMINI_API_KEY yok.")
     if not ukey:
         print("! UNSPLASH_ACCESS_KEY yok: makaleler kategori görseliyle çıkacak.")
-    models, model_idx = _modeller(), [0]
+    models, yedek_acik = _modeller()
+    model_idx = [0]
+    if not yedek_acik:
+        ekstra = ", ".join(models[1:]) or "yok (ana modelle aynı)"
+        print("GEMINI_MODEL_YEDEK tanımlı değil. Günlük kotada yerleşik yedek: " + ekstra)
+        print("Kalıcı ayar: GitHub variable GEMINI_MODEL_YEDEK=gemini-flash-lite-latest")
+        print("Ana model zaten buysa AI Studio'daki güncel flash adını yedek olarak yaz.")
 
     made, tried = 0, 0
     # Kalite kapısı eleyen taslakları atlayıp günde 2 yayın çıkarmak için konu payı.
@@ -671,6 +690,19 @@ def main():
         print(f"→ {t['title']}")
         try:
             res, why = uret(t, products, key, models, model_idx, ukey, log, draft)
+        except ym.GeminiQuotaError as e:
+            save_log(log)
+            print("Günlük Gemini kotası doldu. Kalan konular bugün yazılmadı.")
+            print(e)
+            if not yedek_acik:
+                print("GEMINI_MODEL_YEDEK yok. Öneri: gemini-flash-lite-latest veya AI Studio'daki güncel flash.")
+            else:
+                print("Tanımlı modellerin günlük kotası doldu. Kota Pasifik gece yarısında sıfırlanır.")
+            print("Eksik API anahtarı bu yol değildir; anahtar yoksa iş kırmızı biter.")
+            print("Schedule kırmızı görünmesin diye çıkış kodu 0.")
+            if made:
+                print(f"Kota dolmadan {made} makale yazıldı; site üretimi devam edebilir.")
+            return
         except ym.GeminiError as e:
             save_log(log)
             sys.exit(f"API hatası, durduruldu: {e}")

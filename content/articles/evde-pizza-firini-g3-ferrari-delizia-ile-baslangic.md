@@ -73,7 +73,7 @@ Nordic Ware ve Silpat, kek ve tepsi işi. Pizza taşının yerine koyma. Silpat 
 - İkisi de pizza fırını değildir. Ayrım net.
 
 **Eksileri:**
-- İkisinin de `/dp/` sayfası yok.
+- Le Creuset hâlâ arama linki. Artisan'ın stand mikser sayfası açıldı (4,8 L).
 - İkisi de ağır ve pahalı kayıtta.
 
 [Satın Al: Le Creuset Döküm Tencere](aff://le-creuset-dokum-tencere)
@@ -142,7 +142,7 @@ Değil. Pizza, lahmacun ve pide başlıkta. 400°C ve üç taş. Ekmek programı
 
 ### Neden ekmek makinesi önermiyorsun?
 
-Temiz bir ürün sayfası doğrulanmadı. Yedek parça ilanını makine diye yazmam. Ekmek için döküm tencere kaydı duruyor. O da arama linki.
+Ekmek makinesinin temiz ürün sayfası doğrulanmadı. Yedek parça ilanını makine diye yazmam. Döküm tencere hâlâ arama linki. Artisan sayfası stand mikser; ekmek makinesi değil.
 
 ### Üç taş, üç pizza mı?
 

@@ -36,7 +36,9 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
-          GEMINI_MODEL_YEDEK: ${{ vars.GEMINI_MODEL_YEDEK }}
+          # Variable boşsa yerleşik yedek. Günlük kota (429) otomatik.py içinde exit 0 ile biter;
+          # eksik GEMINI_API_KEY hâlâ kırmızı fail. Secret değeri buraya yazılmaz.
+          GEMINI_MODEL_YEDEK: ${{ vars.GEMINI_MODEL_YEDEK || 'gemini-flash-lite-latest' }}
           TASLAK_MODU: ${{ vars.TASLAK_MODU || 'false' }}
         # Zamanlanmış çalıştırma girdi almaz; varsayılan tam 2. Elle tetikte de üst sınır 2'dir.
         run: python otomatik.py --adet ${{ github.event.inputs.adet || '2' }}

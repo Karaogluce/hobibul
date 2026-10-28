@@ -192,9 +192,13 @@ Kurulum (bir kerelik): GitHub → Settings → Secrets and variables → Actions
   `draft: "true"` ile taslak yazılır; beğendiğin makalenin `content/articles/…md` dosyasında `draft: "true"` → `"false"`
   yapıp kaydedince site otomatik güncellenir. (Değişkeni hiç tanımlamazsan da yayın modu geçerli.)
 - Opsiyonel `GEMINI_MODEL`: model adı eskirse AI Studio'dan güncel adı yaz. Tanımsızsa `gemini-flash-latest`.
-- Opsiyonel `GEMINI_MODEL_YEDEK` (variable): ana model 503/429 verdiğinde sırayla denenecek yedek
-  model(ler), virgülle. Örn. `gemini-flash-lite-latest`. Günlük kota (429 per-day) algılanırsa
-  beklenmeden doğrudan yedek modele geçilir; kota her gece Pasifik saatiyle 00:00'da sıfırlanır.
+- Opsiyonel `GEMINI_MODEL_YEDEK` (variable): ana model günlük kota (429) verince sırayla denenecek
+  yedek model(ler), virgülle. **Tanımlı değilse** workflow `gemini-flash-lite-latest` kullanır;
+  AI Studio'daki ad değiştiyse güncel flash adını bu variable'a yaz. Ana model zaten
+  `gemini-flash-lite-latest` ise yedeği ondan farklı bir güncel flash yap.
+  Günlük kota algılanınca beklenmeden yedek modele geçilir. Tüm modellerin kotası doluysa
+  iş **exit 0** ile biter (schedule kırmızı görünmez). Eksik `GEMINI_API_KEY` hâlâ kırmızı fail.
+  Kota her gece Pasifik saatiyle 00:00'da sıfırlanır. Dakikalık 429 yine bekleyip yeniden dener.
 
 Kalite kapıları (geçemeyen makale yayınlanmaz, `content/uretim_log.json` → `atlanan`): minimum kelime,
 H2 sayısı, SSS bölümü, ürün linki, ticari konuda paket tablosu, fiyat/abartı yasağı, yazım ritmi,
@@ -216,6 +220,9 @@ Secrets (GitHub → Settings → Secrets and variables → Actions):
 
 `content/site.json` → `ga4_id` alanına gerçek `G-XXXXXXXXXX` ölçüm kodunu yaz (ziyaretçi
 takibini [gtag.js] başlatır; panel verisiyle aynı şey değildir, ikisi de gerekli).
+
+Search Console meta kodu `google_site_verification`. Boşsa şablona meta basılmaz.
+HTML dosyası yöntemi için `google_site_verification_file` dosya adını yaz; boşsa dosya üretilmez.
 
 ## IndexNow (Bing / Yandex anında bildirim)
 

@@ -34,7 +34,7 @@ G502 HERO başlığı kablolu, LIGHTSYNC, 25.600 DPI, 11 programlanabilir tuş v
 
 Keychron K2 katalogda kablosuz, hot-swap ve kompakt diyor. Pil ister. Orta-üst fiyat. Türkçe Q bu katalog cümlesinde yok. Yoksa "Türkçe" deme. `/dp/` de yok. Arama açar.
 
-Kategori [oyun ve PC](/kategori/teknoloji/oyun-pc-modlama/).
+Kategori [oyun ve PC](/kategori/teknoloji/oyun-pc-modlama/). Kart bilgisayar başka masa. [Raspberry Pi 5 kiti](/makale/raspberry-pi-5-baslangic-kiti/) orada. Üst liste [teknoloji](/kategori/teknoloji/).
 
 ## Kumara: Mekanik, TKL, Türkçe
 

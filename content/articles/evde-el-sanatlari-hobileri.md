@@ -11,7 +11,7 @@ excerpt: "Örgüden sulu boyaya, ahşap oymacılığından takı tasarımına ev
 
 El sanatları, günümüzün yoğun temposundan uzaklaşmanın en keyifli yollarından biri. Telefon ekranından, e-postalardan ve bitmeyen bildirimlerden bir süreliğine kopup ellerinizle somut bir şey üretmek, hem zihni dinlendiriyor hem de özgüveni besliyor. Üstelik bunun için atölye kiralamanıza ya da pahalı kurslara yazılmanıza gerek yok; doğru malzemelerle evinizin bir köşesini küçük bir yaratıcılık alanına dönüştürebilirsiniz.
 
-Bu rehberde, evde kolayca başlayabileceğiniz 8 yaratıcı el sanatı hobisini tanıyacak, her biri için gereken temel malzemeleri öğrenecek ve işinizi gerçekten kolaylaştıracak ürün önerilerine göz atacaksınız. İster el işine tamamen yeni olun ister eski bir hobinize geri dönmek isteyin, burada size uygun bir başlangıç noktası bulacaksınız.
+Bu rehberde, evde kolayca başlayabileceğiniz 8 yaratıcı el sanatı hobisini tanıyacak, her biri için gereken temel malzemeleri öğrenecek ve işinizi gerçekten kolaylaştıracak ürün önerilerine göz atacaksınız. İster el işine tamamen yeni olun ister eski bir hobinize geri dönmek isteyin, burada size uygun bir başlangıç noktası bulacaksınız. Örgü [örgü ve tığ](/kategori/el-sanatlari/orgu-tig/), boya [resim ve boyama](/kategori/el-sanatlari/resim-boyama/), takı [takı yapımı](/kategori/el-sanatlari/taki-yapimi/) alt sayfalarında. Hepsi [el sanatları](/kategori/el-sanatlari/) kategorisinde. Bu yazı sekiz hobiyi birden anlattığı için tek bir alt kategoriye kilitlenmedi.
 
 ## 1. Örgü ve Tığ İşi
 

@@ -18,7 +18,7 @@ draft: "false"
 
 İkisi de filament istiyor. Kutu çoğu zaman boş gelir. PLA makara ve bir alet seti, yazıcıdan bir gün sonra değil, aynı sepette olmalı. İlk baskı, spatulasız tabladan sökülmez. Tırnakla sökmek hem parçayı hem eli bozar.
 
-Karşılaştırma [3D yazıcı ekipmanları](/kategori/teknoloji/3d-yazici/) sayfasındaki diğer modellerle de yan yana duruyor. Anycubic Kobra 2, üçüncü bir kapı. Onu da aşağıya bıraktım.
+Karşılaştırma [3D yazıcı ekipmanları](/kategori/teknoloji/3d-yazici/) sayfasındaki diğer modellerle de yan yana duruyor. Anycubic Kobra 2, üçüncü bir kapı. Onu da aşağıya bıraktım. Kart bilgisayar başka bir masa. [Raspberry Pi 5 başlangıç kiti](/makale/raspberry-pi-5-baslangic-kiti/) orada. İkisinin üst listesi [teknoloji](/kategori/teknoloji/).
 
 ## Almadan Önce Üç Soru
 

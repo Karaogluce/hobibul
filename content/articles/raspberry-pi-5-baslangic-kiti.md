@@ -18,7 +18,7 @@ Raspberry Pi 5 8GB güçlü bir tek kart bilgisayar. Kart tek başına masaüst�
 
 GeeekPi seti, Amazon.com.tr kaydında Pi 5 8GB, metal kasa, aktif soğutucu, 64GB SD kart, HDMI kablosu, NVMe kartı ve 27W USB-C adaptör ile geçiyor. Adaptör resmi Raspberry Pi adaptörü değil. NVMe disk yok. Diski ayrıca alırsın. Kartı ve resmi adaptörü ayrı tutmak isteyen kişi için ikinci yol da aşağıda.
 
-Elektronik tarafı [Raspberry Pi ekipmanları](/kategori/teknoloji/raspberry-pi-elektronik/) sayfasında. Arduino Uno başka bir iş. Onu Pi'nin ucuz hali sanma.
+Elektronik tarafı [Raspberry Pi ekipmanları](/kategori/teknoloji/raspberry-pi-elektronik/) sayfasında. Arduino Uno başka bir iş. Onu Pi'nin ucuz hali sanma. Plastik parça basmak da başka alet. [3D yazıcı karşılaştırması](/makale/3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini/) orada. Üst liste [teknoloji](/kategori/teknoloji/).
 
 ## Kart: Raspberry Pi 5 8GB
 

@@ -29,12 +29,17 @@
   <div class="article-body">
     {{ article.body_html|safe }}
   </div>
-  <a class="cat-cta" href="/kategori/{{ article.category }}/">{{ article.category_name }} kategorisindeki tüm ekipman önerileri →</a>
+  <p class="guide-links">
+    <a class="cat-cta" href="/kategori/{{ article.category }}/">{{ article.category_name }} ekipmanları →</a>
+    {% if article.subcategory %}
+    <a class="cat-cta" href="/kategori/{{ article.category }}/{{ article.subcategory }}/">{{ article.subcategory_name }} →</a>
+    {% endif %}
+  </p>
 </article>
 
 {% if related %}
 <section class="related">
-  <h2>Bunlar da ilgini çekebilir</h2>
+  <h2>İlgili rehberler</h2>
   <div class="art-grid">
     {% for a in related %}
     <a class="art" href="/makale/{{ a.slug }}/" {{ acc(a.category) }}>

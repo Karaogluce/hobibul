@@ -32,7 +32,7 @@ Catit Senses 2.0 pist, modüler. Toplar zamanla kaybolur. Bazı kediler ilgilenm
 
 Petstages Tower of Tracks üç katlı. Kaymaz taban. Gözetimsiz kullanıma uygun denmiş. Toplar aşınır. Çok aktif kedi devirmeye çalışabilir. Kaymaz, devrilmez demek değildir.
 
-Köpek seti ayrı. [Köpek yürüyüş seti](/makale/kopek-yuruyus-ve-egitim-seti/) orada. Kategori [kedi bakımı](/kategori/evcil-hayvan/kedi-bakimi/).
+Köpek seti ayrı. [Köpek yürüyüş seti](/makale/kopek-yuruyus-ve-egitim-seti/) orada. Kategori [kedi bakımı](/kategori/evcil-hayvan/kedi-bakimi/). İkisinin üst listesi [evcil hayvan](/kategori/evcil-hayvan/).
 
 ## SmartCat: 80 cm ve Sisal
 

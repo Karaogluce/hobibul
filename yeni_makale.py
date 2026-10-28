@@ -120,6 +120,16 @@ _last_call = [0.0]
 _MIN_GAP = 13  # saniye — ücretsiz katmanda dakikada 5 istek sınırını aşmamak için
 
 
+def _gunluk_kota(msg):
+    """Günlük kota. Dakikalık 429 (retry / per minute) bu sınıfa girmez."""
+    if re.search(r"retry in|rate[- ]limit|per minute|PerMinute|requests per min", msg, re.I):
+        return False
+    return bool(re.search(
+        r"PerDay|per[_ ]day|daily quota|quota exceeded|exceeded your current quota|"
+        r"GenerateContent.*PerDay|free_tier",
+        msg, re.I))
+
+
 def call_gemini(prompt, key, model):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     body = json.dumps({
@@ -142,7 +152,7 @@ def call_gemini(prompt, key, model):
             return "".join(p.get("text", "") for p in parts).strip()
         except urllib.error.HTTPError as e:
             msg = e.read().decode("utf-8", "replace")[:300]
-            if e.code == 429 and re.search(r"PerDay|per[_ ]day|daily quota|quota exceeded", msg, re.I):
+            if e.code == 429 and _gunluk_kota(msg):
                 raise GeminiQuotaError(f"Gemini günlük kotası doldu ({model}): {msg}")
             if e.code == 429 and attempt < 2:
                 print(f"  API 429 (dakikalık sınır), 65 sn bekleniyor…")
