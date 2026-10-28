@@ -78,6 +78,21 @@
   {% endfor %}
 </section>
 
+{% if cat_articles %}
+<section class="cat-guides">
+  <h2 class="section-title">Bu kategorideki rehberler</h2>
+  <div class="art-grid">
+    {% for a in cat_articles %}
+    <a class="art" href="/makale/{{ a.slug }}/" {{ acc(a.category) }}>
+      <div class="art-media">{% if a.image %}<img src="{{ a.image }}" alt="{{ a.image_alt }}" loading="lazy" width="640" height="400">{% endif %}<span class="tag">{{ a.category_name }}</span></div>
+      <h3>{{ a.title }}</h3>
+      {% if a.excerpt %}<p>{{ a.excerpt }}</p>{% endif %}
+    </a>
+    {% endfor %}
+  </div>
+</section>
+{% endif %}
+
 {% if sub %}
 <section class="siblings">
   <h2 class="section-title">{{ cat.name }}: diğer alt kategoriler</h2>

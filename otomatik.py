@@ -43,34 +43,43 @@ CAT_EN = {
 }
 
 TIPLER = {
+    "ticari": dict(
+        min=1550, hepsi=False,
+        baslik=lambda s: f"{s} Başlangıç Seti: İlk Alınacaklar ({YEAR})",
+        yapi="İlk iki cümlede alım sorusuna cevap ver. Hemen ardından bir başlangıç ürününe aff:// linki koy. "
+             "Sonra '## Satın Almadan Önce Nelere Bakmalı?' → '## Ürün Ürün Set' altında her önerilen ürün için ### başlık "
+             "ve 'kime uymaz' cümlesi → '## Bütçe, Orta ve Üst Paket' altında fiyat yazmadan üç satırlık markdown tablo "
+             "(Paket | İçinde ne var | Kime uyar) → '## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye "
+             "('Sonuç' başlığı kullanma).",
+    ),
     "rehber": dict(
-        min=800, hepsi=True,
+        min=1500, hepsi=True,
         baslik=lambda s: f"En İyi {s} Ekipmanları ({YEAR}): Alım Rehberi",
         yapi="Kısa giriş (odak anahtar kelime ilk paragrafta geçsin) → '## Satın Almadan Önce Nelere Bakmalı?' (genel, "
              "doğrulanabilir bilgiler; sayı/ölçü uydurma) → '## En İyi Seçenekler' altında her ürün için ### başlık → "
              "'## Hangisini Seçmeli?' (kullanım senaryosuna göre kısa eşleştirme) → '## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
     "yeni_baslayan": dict(
-        min=750, hepsi=True,
+        min=1500, hepsi=True,
         baslik=lambda s: f"{s} İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
         yapi="Giriş (başlangıç kaygıları) → '## Başlamadan Önce Bilmen Gerekenler' → '## İlk Alışverişte Öncelik Sırası' altında "
              "ürünleri neden bu sırayla alınacağıyla ### başlıklar halinde anlat → '## Yeni Başlayanların Sık Yaptığı Hatalar' → "
              "'## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
     "hatalar": dict(
-        min=700, hepsi=False,
+        min=1500, hepsi=False,
         baslik=lambda s: f"{s} Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
         yapi="Giriş → 7 numaralı hata, her biri ### başlık + 'neden sorun' + 'ne yapmalı' → hataların 2-3'üne uygun ürünlerden "
              "doğal biçimde link ver → '## Sık Sorulan Sorular' (3 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
     "sss": dict(
-        min=700, hepsi=False,
+        min=1500, hepsi=False,
         baslik=lambda s: f"{s} Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
         yapi="Kısa giriş → 8-10 soru, her biri ### başlık olarak (aşağıdaki gerçek arama sorgularından seç) ve 2-4 cümlelik net cevap → "
              "uygun cevaplarda 2-3 üründen doğal biçimde link ver → '## Sık Sorulan Sorular' başlığını da kullan (ör. 'Hâlâ Aklında Soru Var mı?') → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
     "kontrol_listesi": dict(
-        min=700, hepsi=False,
+        min=1500, hepsi=False,
         baslik=lambda s: f"{s} Kontrol Listesi: Eksiksiz Hazırlık",
         yapi="Kısa giriş (hedef sorguya ilk paragrafta cevap) → '## Neye İhtiyacın Var?' (hangi durumda hangi ekipman, "
              "ürün verisine dayalı genel gerekçeler) → '## Kontrol Listesi' altında madde madde liste; her maddede o şeyin neden "
@@ -78,7 +87,7 @@ TIPLER = {
              "'## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma). Listede geçen en az 2 üründen doğal biçimde link ver.",
     ),
     "nasil_yapilir": dict(
-        min=750, hepsi=False,
+        min=1500, hepsi=False,
         baslik=lambda s: f"{s} Nasıl Yapılır? Adım Adım Rehber",
         yapi="Kısa giriş (hedef sorguya ilk iki cümlede cevap) → '## Gerekli Malzemeler ve Hazırlık' (kısa liste) → "
              "'## Adım Adım Uygulama' altında her adımı ### başlık yaparak sırayla anlat → '## Yeni Başlayanların Sık Yaptığı Hatalar' → "
@@ -87,6 +96,62 @@ TIPLER = {
 }
 ESKI_TIPLER = ("rehber", "yeni_baslayan", "hatalar", "sss")
 YENI_TIPLER = ("kontrol_listesi", "nasil_yapilir")
+TICARI_TIP = "ticari"
+
+# Havuzdan ve otomatik tamamlama önerilerinden elenen sorgular.
+_JUNK_RE = re.compile(
+    r"(nasıl\s+yazılır|nasil\s+yazilir|\bnedir\b|\bne demek\b|\bne anlama gelir\b|\bnasıl okunur\b|\bnasil okunur\b)",
+    re.I,
+)
+_CITIES = (
+    "istanbul ankara izmir adana bursa antalya konya gaziantep mersin diyarbakir diyarbakır "
+    "kayseri eskisehir eskişehir samsun denizli urfa malatya erzurum van batman elazig elazığ "
+    "sivas manisa balikesir balıkesir trabzon sakarya kocaeli aydin aydın mugla muğla hatay "
+    "tekirdag tekirdağ ordu rize canakkale çanakkale edirne bolu zonguldak afyon isparta "
+    "nigde niğde nevsehir nevşehir kirsehir kırşehir kirikkale kırıkkale osmaniye sirnak şırnak "
+    "hakkari igdir iğdır agri ağrı mus muş bitlis siirt sanliurfa şanlıurfa kahramanmaras "
+    "kahramanmaraş yalova duzce düzce karabuk karabük bartin bartın kastamonu amasya tokat "
+    "corum çorum gumushane gümüşhane giresun artvin bingol bingöl tunceli kilis karaman "
+    "usak uşak kutahya kütahya bilecik burdur sariçam sarıçam"
+).split()
+_TR_HINTS = {
+    "ve", "ile", "icin", "için", "nasil", "nasıl", "en", "iyi", "bir", "bu", "su", "şu", "ne",
+    "mi", "mı", "mu", "mü", "rehber", "secim", "seçim", "secimi", "seçimi", "baslangic",
+    "başlangıç", "seti", "set", "alirken", "alırken", "evde", "yapilir", "yapılır", "hangi",
+    "kadar", "neler", "nelere", "uygun", "malzeme", "malzemeleri", "ekipman", "kamp", "cadir",
+    "çadır", "bot", "gitar", "kahve", "icin", "ilk", "alınacaklar", "alinacaklar", "karsilastirma",
+    "karşılaştırma", "paket",
+}
+_EN_STOP = {
+    "the", "how", "what", "why", "best", "for", "with", "your", "guide", "review", "versus",
+    "buy", "tutorial", "beginner", "beginners",
+}
+
+
+def cop_mu(sorgu):
+    """nedir / nasıl yazılır, il adı ve yabancı dil sorgularını ele."""
+    s = re.sub(r"\s+", " ", str(sorgu or "")).strip()
+    if not s or _JUNK_RE.search(s):
+        return True
+    if re.search(r"[\u0400-\u04FF\u0600-\u06FF\u4E00-\u9FFF\u3040-\u30FF]", s):
+        return True
+    low = s.lower()
+    for city in _CITIES:
+        if re.search(rf"(^|[\s,./]){re.escape(city)}($|[\s,./])", low):
+            return True
+    # Alfabe dökümü: "lego model a" gibi sonda tek harf kalan otomatik tamamlama.
+    if re.search(r"(?:^|\s)[a-zçğıöşü]$", low):
+        return True
+    words = re.findall(r"[A-Za-zçğıöşüÇĞİÖŞÜâîûÂÎÛ]+", low)
+    if not words:
+        return True
+    if any(ch in s for ch in "çğıöşüÇĞİÖŞÜ"):
+        return False
+    tr_hits = sum(1 for w in words if w in _TR_HINTS)
+    en_hits = sum(1 for w in words if w in _EN_STOP)
+    if tr_hits == 0 and en_hits >= 1:
+        return True
+    return False
 HYPE = ["mükemmel", "piyasa lideri", "kesinlikle", "garanti", "%100", "en iyisi budur", "rakipsiz", "kusursuz"]
 
 
@@ -150,7 +215,7 @@ def yeni_tip_konulari(products, c, pool, used):
         plist = products.get(c["id"], {}).get(sub, [])
         if tip not in YENI_TIPLER or e.get("kategori") != c["id"] or sub not in subs or not sorgu:
             continue
-        if len(plist) < 3:
+        if cop_mu(sorgu) or len(plist) < 3:
             continue
         sslug = ym.slugify(sorgu)
         if not sslug or sslug in used:
@@ -163,11 +228,76 @@ def yeni_tip_konulari(products, c, pool, used):
     return items
 
 
+def _urun_bul(products, ids):
+    by_id = {}
+    for subs in products.values():
+        for items in subs.values():
+            for p in items:
+                by_id.setdefault(p["id"], p)
+    found = [by_id[i] for i in ids if i in by_id]
+    return found
+
+
+def ticari_konulari(products, c, pool, used):
+    """Havuzdaki ticari niyetli konular, sonra her alt kategori için başlangıç seti."""
+    items = []
+    subs = {s["id"]: s["name"] for s in c["subcategories"]}
+
+    def ekle(tip_key, sub, sub_name, plist, title, sorgu):
+        sslug = ym.slugify(sorgu or title)
+        if not sslug or sslug in used or cop_mu(sorgu or title):
+            return
+        if len(plist) < 3:
+            return
+        used.add(sslug)
+        items.append(dict(
+            key=tip_key, tip=TICARI_TIP, cat=c["id"], cat_name=c["name"],
+            sub=sub, sub_name=sub_name, ids=[p["id"] for p in plist],
+            title=title, sorgu=sorgu, sorgu_slug=sslug))
+
+    for e in pool:
+        if e.get("tip_onerisi") != TICARI_TIP or e.get("kategori") != c["id"]:
+            continue
+        sub = e.get("alt")
+        if sub not in subs:
+            continue
+        sorgu = re.sub(r"\s+", " ", str(e.get("sorgu", ""))).strip()
+        if not sorgu:
+            continue
+        wanted = [str(x).strip() for x in (e.get("urunler") or []) if str(x).strip()]
+        if wanted:
+            plist = _urun_bul(products, wanted)
+        else:
+            plist = list(products.get(c["id"], {}).get(sub, []))
+            for p in products.get(c["id"], {}).get("_ek", []):
+                if p.get("alt") == sub:
+                    plist.append(p)
+        ekle(f"ticari:{c['id']}:{sub}:{ym.slugify(sorgu)}", sub, subs[sub], plist, dogal_baslik(sorgu), sorgu)
+    for s in c["subcategories"]:
+        plist = products.get(c["id"], {}).get(s["id"], [])
+        title = TIPLER[TICARI_TIP]["baslik"](s["name"])
+        ekle(f"ticari:{c['id']}:{s['id']}:baslangic", s["id"], s["name"], plist, title, title)
+    return items
+
+
+def _donustur(per_cat):
+    out, i = [], 0
+    while any(per_cat):
+        for items in per_cat:
+            if i < len(items):
+                out.append(items[i])
+        i += 1
+        if i > 400:
+            break
+    return out
+
+
 def topic_queue(products, cats):
-    """Kategoriler arası dönüşümlü: önce mevcut tipler eski sırayla, sonra konu havuzundan yeni tipler."""
+    """Önce ticari niyet (havuz, sonra başlangıç seti), sonra diğer tipler. Kategoriler dönüşümlü."""
     pool, used = load_pool(), set()
-    per_cat = []
+    ticari_per, per_cat = [], []
     for c in cats:
+        ticari_per.append(ticari_konulari(products, c, pool, used))
         items = []
         subs = [("_main", c["name"])] + [(s["id"], s["name"]) for s in c["subcategories"]]
         for tip in ESKI_TIPLER:
@@ -181,15 +311,7 @@ def topic_queue(products, cats):
                     title=TIPLER[tip]["baslik"](sname)))
         items += yeni_tip_konulari(products, c, pool, used)
         per_cat.append(items)
-    out, i = [], 0
-    while any(per_cat):
-        for items in per_cat:
-            if i < len(items):
-                out.append(items[i])
-        i += 1
-        if i > 400:
-            break
-    return out
+    return _donustur(ticari_per) + _donustur(per_cat)
 
 
 # ------------------------------------------------------------------ arama sorguları
@@ -204,7 +326,7 @@ def suggestions(sub_name):
             with urllib.request.urlopen(req, timeout=50) as r:
                 data = json.loads(r.read().decode("utf-8", "replace"))
             for s in data[1]:
-                if s not in out and len(s) > len(base) + 3 and not re.search(r"\d+\s*(tl|₺)|fiyat|ucuz|indirim", s):
+                if s not in out and len(s) > len(base) + 3 and not re.search(r"\d+\s*(tl|₺)|fiyat|ucuz|indirim", s) and not cop_mu(s):
                     out.append(s)
         except Exception:
             continue
@@ -220,6 +342,21 @@ def build_prompt(t, prods, sugg, guide=""):
         + (f"\n  yazarın notu: {p['not']}" if p.get('not') else "") for p in prods)
     sq = "\n".join(f"- {s}" for s in sugg) or "- (sorgu bulunamadı; konuyla ilgili doğal sorular kullan)"
     zorunlu = ("HER ÜRÜN için en az bir kez" if cfg["hepsi"] else "en az 2 ürün için")
+    tablo_kurali = "Paket bölümündeki markdown tablo serbest; başka tablo yok." if t["tip"] == TICARI_TIP else "Tablo kullanma."
+    alt_yol = f"/kategori/{t['cat']}/{t['sub']}/" if t.get("sub") and t["sub"] != "_main" else f"/kategori/{t['cat']}/"
+    ticari_ek = ""
+    if t["tip"] == TICARI_TIP:
+        ticari_ek = f"""
+TİCARİ NİYET (bu kurallar da kesin):
+- İlk 80 kelimede alım sorusuna cevap ver ve bir başlangıç ürününe aff:// linki koy.
+- Her ürün bölümünde ürünün kime uymadığını yaz. Eksiyi saklama.
+- '## Bütçe, Orta ve Üst Paket' bölümünde şu markdown tabloyu doldur. Fiyat, TL veya ₺ yazma.
+  | Paket | İçinde ne var | Kime uyar |
+  | --- | --- | --- |
+- Tabloda bütçe, orta ve üst satırı olsun. Hücrelerde ürün varsa aff:// linki kullan.
+- Metinde bir kez şu iç linki doğal bir cümlede kullan: [{t['sub_name']}]({alt_yol})
+- Ansiklopedi maddesi yazma. Okuyucu ne alacağına karar versin.
+"""
     return f"""Sen Türkiye'deki hobi meraklıları için yazan deneyimli bir blog editörüsün. Aşağıdaki konuda özgün, işe yarar, Türkçe bir makale yaz.
 
 BAŞLIK: {t['title']}
@@ -227,9 +364,9 @@ KATEGORİ: {t['cat_name']} › {t['sub_name']}
 MAKALE TİPİ: {t['tip']}
 BEKLENEN YAPI: {cfg['yapi']}
 UZUNLUK VE YAPI BÜTÇESİ (uymayan taslak reddedilir):
-- Toplam metin en az {cfg['min'] + 150} kelime olsun.
-- En az 6 adet "## " bölümü yaz; her bölüm en az 120 kelime olsun.
-- Her bölümü somut bilgiyle doldur: örnek, gerekçe ve kontrol maddesi ver. Kısa kesip geçme; dolgu cümle de yazma.
+- Toplam metin en az {max(cfg['min'] + 150, 1650)} kelime olsun. 2000 kelimeyi geçme.
+- En az 6 adet "## " bölümü yaz.
+- Her bölümü somut durumla aç: örnek, gerekçe ve kontrol maddesi ver. Kısa kesip geçme; dolgu cümle de yazma.
 
 İNSANLARIN GERÇEKTEN ARADIĞI SORGULAR (uygun olanları başlıklara ve SSS bölümüne doğal biçimde yedir; zorlama ya da tekrar yapma):
 {sq}
@@ -241,10 +378,11 @@ KESİN KURALLAR:
 1. Ürün verilerinde olmayan teknik özellik, ağırlık, ölçü, fiyat, puan, test sonucu veya "denedik" iddiası UYDURMA. Emin olmadığın bilgiyi yazma.
 2. Fiyat yazma. Gerekirse "güncel fiyatı Amazon'da kontrol et" de.
 3. Ürün linkini şu biçimde ver ({zorunlu}): [Satın Al: ÜRÜN ADI](aff://ÜRÜN_ID)
-4. Yalnızca Markdown. En üstte H1 yok. Tablo kullanma. ## ve ### başlıkları, kısa paragraflar, madde listeleri kullan.
+4. Yalnızca Markdown. En üstte H1 yok. {tablo_kurali} ## ve ### başlıkları, kısa paragraflar, madde listeleri kullan.
 5. Doğal, samimi, abartısız Türkçe. "Mükemmel", "piyasa lideri", "kesinlikle", "garanti" gibi kanıtsız iddialar yok. Her paragraf bilgi taşısın, dolgu cümle yazma.
 6. Başka sitelerden metin alma; kalıp cümleleri tekrarlama.
-
+7. Yabancı dilde paragraf yazma. İl adı, "nedir" tanımı veya "nasıl yazılır" konusu açma.
+{ticari_ek}
 YAZIM REHBERİ (bunu sıkı uygula; okuyucuya bir insanın yazdığı gibi gelmeli, ama kimseyi yanıltma):
 {guide}
 
@@ -266,7 +404,7 @@ YAPILACAKLAR:
 2. Cümle ritmini çeşitlendir: kısa ve orta cümleleri karıştır, 28 kelimeyi geçen cümleyi böl, art arda aynı kelimeyle başlayan cümleleri değiştir.
 3. Ürün verisinde bulunmayan her bilgiyi (ölçü, ağırlık, süre, puan, fiyat, "denedik/kullandım" iddiası) sil.
 4. Tüm aff:// linklerini aynen koru. ## ve ### başlık sayısını koru (başlık metinlerini doğallaştırabilirsin).
-5. Kelime sayısını %10'dan fazla azaltma. Yeni bilgi ekleme.
+5. Kelime sayısını %10'dan fazla azaltma. Yeni bilgi ekleme. Markdown tablo satırlarını silme.
 Sadece düzeltilmiş Markdown metnini döndür; açıklama yazma.
 
 ÜRÜN VERİSİ:
@@ -318,7 +456,7 @@ def stil_kontrol(body, banned):
     if sum(low.count(b) for b in banned) > 1:
         return f"yapay kalıplar: {', '.join(hits[:4])}"
     text = re.sub(r"\[Satın Al:[^\]]*\]\([^)]*\)", " ", body)
-    lines = [l for l in text.splitlines() if l.strip() and not l.lstrip().startswith("#")]
+    lines = [l for l in text.splitlines() if l.strip() and not l.lstrip().startswith("#") and not l.strip().startswith("|")]
     text = re.sub(r"[*_>`]|^\s*[-\d.]+\s+", "", "\n".join(lines), flags=re.M)
     sents = [x for x in re.split(r"(?<=[.!?])\s+", text) if len(x.split()) >= 2]
     if len(sents) < 20:
@@ -351,6 +489,8 @@ def gate(body, tip, prods, others, banned=()):
         return f"linksiz ürün: {', '.join(sorted(ids - used))}"
     if not cfg["hepsi"] and len(used & ids) < 2:
         return "en az 2 ürün linki yok"
+    if tip == TICARI_TIP and not re.search(r"^\|.*\|$", body, re.M):
+        return "paket tablosu yok"
     if re.search(r"\d[\d.,]*\s*(?:₺|TL)\b", body):
         return "metinde fiyat var"
     if sum(body.lower().count(h) for h in HYPE) > 2:
@@ -410,6 +550,8 @@ def write_article(t, meta, body, img, draft):
     if img:
         lines += [f'image: "{img["url"]}"', f'image_alt: "{q(img["alt"])}"',
                   f'image_credit: "{q(img["credit"])}"', f'image_credit_url: "{img["credit_url"]}"']
+    if t.get("sub") and t["sub"] != "_main":
+        lines.append(f'subcategory: "{t["sub"]}"')
     lines += [f'draft: "{"true" if draft else "false"}"', "---", ""]
     path = os.path.join(ARTICLES, slug + ".md")
     os.makedirs(ARTICLES, exist_ok=True)
@@ -418,7 +560,31 @@ def write_article(t, meta, body, img, draft):
     return slug, len(body.split())
 
 
-def uret(t, products, key, model, ukey, log, draft):
+def _modeller():
+    ana = (os.environ.get("GEMINI_MODEL") or "gemini-flash-latest").strip()
+    yedek = [m.strip() for m in (os.environ.get("GEMINI_MODEL_YEDEK") or "").split(",") if m.strip()]
+    out = []
+    for m in [ana] + yedek:
+        if m not in out:
+            out.append(m)
+    return out
+
+
+def _gemini(prompt, key, models, idx):
+    """Kotası biten modeli atla. idx, sıradaki kullanılabilir modeli tutar."""
+    last = None
+    while idx[0] < len(models):
+        model = models[idx[0]]
+        try:
+            return ym.call_gemini(prompt, key, model)
+        except ym.GeminiQuotaError as e:
+            print(f"  günlük kota: {model} — yedek modele geçiliyor")
+            last = e
+            idx[0] += 1
+    raise last or ym.GeminiError("Kullanılabilir Gemini modeli kalmadı.")
+
+
+def uret(t, products, key, models, model_idx, ukey, log, draft):
     pool = {p["id"]: p for s in products.values() for items in s.values() for p in items}
     prods = [pool[i] for i in t["ids"]]
     sugg = suggestions(t["sub_name"])
@@ -428,14 +594,15 @@ def uret(t, products, key, model, ukey, log, draft):
     guide, banned = load_guide()
     why = "bilinmiyor"
     for attempt in range(2):
-        raw = ym.call_gemini(build_prompt(t, prods, sugg, guide), key, model)
+        raw = _gemini(build_prompt(t, prods, sugg, guide), key, models, model_idx)
         parsed = parse(raw)
         if not parsed:
             why = "çıktı biçimi bozuk"
             continue
         meta, body = parsed
         body = ym.validate(body, prods)
-        edited = ym.validate(re.sub(r"^```(?:markdown)?\s*|\s*```$", "", ym.call_gemini(edit_prompt(body, prods, guide), key, model).strip()), prods)
+        edited_raw = _gemini(edit_prompt(body, prods, guide), key, models, model_idx)
+        edited = ym.validate(re.sub(r"^```(?:markdown)?\s*|\s*```$", "", edited_raw.strip()), prods)
         if len(edited.split()) >= 0.85 * len(body.split()):
             why = gate(edited, t["tip"], prods, others, banned)
             if not why:
@@ -481,6 +648,11 @@ def main():
             print(f"  [{t['tip']}] {t['title']}")
         return
 
+    if a.adet > 2:
+        print("Günlük sınır 2 makale; adet 2'ye çekildi.")
+        a.adet = 2
+    if a.adet < 1:
+        a.adet = 2
     draft_env = os.environ.get("TASLAK_MODU", "false").strip().lower() not in ("false", "0", "hayir", "hayır")
     draft = False if a.yayinla else (True if a.taslak else draft_env)
     key, ukey = os.environ.get("GEMINI_API_KEY"), os.environ.get("UNSPLASH_ACCESS_KEY")
@@ -488,16 +660,17 @@ def main():
         sys.exit("GEMINI_API_KEY yok.")
     if not ukey:
         print("! UNSPLASH_ACCESS_KEY yok: makaleler kategori görseliyle çıkacak.")
-    model = os.environ.get("GEMINI_MODEL") or "gemini-flash-latest"
+    models, model_idx = _modeller(), [0]
 
     made, tried = 0, 0
+    # Kalite kapısı eleyen taslakları atlayıp günde 2 yayın çıkarmak için konu payı.
     for t in queue:
-        if made >= a.adet or tried >= a.adet * 3:
+        if made >= a.adet or tried >= max(8, a.adet * 4):
             break
         tried += 1
         print(f"→ {t['title']}")
         try:
-            res, why = uret(t, products, key, model, ukey, log, draft)
+            res, why = uret(t, products, key, models, model_idx, ukey, log, draft)
         except ym.GeminiError as e:
             save_log(log)
             sys.exit(f"API hatası, durduruldu: {e}")

@@ -34,6 +34,10 @@ class GeminiError(Exception):
     pass
 
 
+class GeminiQuotaError(GeminiError):
+    """Günlük kota doldu. Dakikalık 429 bu sınıf değildir."""
+
+
 BASE = os.path.dirname(os.path.abspath(__file__))
 CONTENT = os.path.join(BASE, "content")
 ARTICLES = os.path.join(CONTENT, "articles")
@@ -120,7 +124,7 @@ def call_gemini(prompt, key, model):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     body = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.6, "maxOutputTokens": 8192},
+        "generationConfig": {"temperature": 0.6, "maxOutputTokens": 16384},
     }).encode("utf-8")
     req = urllib.request.Request(url, data=body, method="POST", headers={
         "Content-Type": "application/json", "x-goog-api-key": key})
@@ -138,7 +142,9 @@ def call_gemini(prompt, key, model):
             return "".join(p.get("text", "") for p in parts).strip()
         except urllib.error.HTTPError as e:
             msg = e.read().decode("utf-8", "replace")[:300]
-            if e.code == 429 and attempt < 4:
+            if e.code == 429 and re.search(r"PerDay|per[_ ]day|daily quota|quota exceeded", msg, re.I):
+                raise GeminiQuotaError(f"Gemini günlük kotası doldu ({model}): {msg}")
+            if e.code == 429 and attempt < 2:
                 print(f"  API 429 (dakikalık sınır), 65 sn bekleniyor…")
                 time.sleep(65)
                 continue

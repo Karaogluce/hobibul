@@ -521,6 +521,27 @@
         "query": "chalk bag climbing",
         "network": "amazon_tr"
       }
+    ],
+    "_ek": [
+      {
+        "id": "andoutdoor-monodome-a",
+        "name": "Andoutdoor Monodome A 2 Kişilik Çadır",
+        "brand": "Andoutdoor",
+        "alt": "kampcilik",
+        "desc": "Amazon.com.tr kaydında 2 kişilik, 2 mevsim kubbe kamp çadırı olarak geçen koyu yeşil model.",
+        "pros": [
+          "İki kişilik kapasite",
+          "Kubbe form",
+          "Koyu yeşil renk"
+        ],
+        "cons": [
+          "2 mevsim; soğuk kamp için sınırlı",
+          "Ekipmanı içeri almak isteyen iki kişiye dar"
+        ],
+        "query": "Andoutdoor Monodome A 2 kisilik cadir",
+        "network": "amazon_tr",
+        "asin": "B09MQGNKHP"
+      }
     ]
   },
   "el-sanatlari": {
@@ -1151,7 +1172,8 @@
           "Amfi ayrı"
         ],
         "query": "Fender Player Stratocaster",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B07CTV5YVZ"
       },
       {
         "id": "yamaha-p45",
@@ -1238,7 +1260,8 @@
           "Amfi ayrı"
         ],
         "query": "Fender Player Stratocaster",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B07CTV5YVZ"
       },
       {
         "id": "yamaha-f310",
@@ -1272,7 +1295,8 @@
           "Ayarları karmaşık olabilir"
         ],
         "query": "Boss Katana 50 amp",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0D1Z6VHD8"
       },
       {
         "id": "daddario-exl110",
@@ -1656,6 +1680,26 @@
         "query": "violin rosin",
         "network": "amazon_tr"
       }
+    ],
+    "_ek": [
+      {
+        "id": "boss-ds-1",
+        "name": "Boss DS-1 Distortion Pedalı",
+        "brand": "Boss",
+        "alt": "gitar",
+        "desc": "Tek distortion sesi için sade düğmeli kompakt gitar pedalı.",
+        "pros": [
+          "Sade kontrol",
+          "Tek işi distortion",
+          "Kompakt gövde"
+        ],
+        "cons": [
+          "Başka efekt içermez",
+          "Katana gibi çok efektli amfide ilk gün şart değil"
+        ],
+        "query": "Boss DS-1 Distortion pedal",
+        "network": "amazon_tr"
+      }
     ]
   },
   "teknoloji": {
@@ -1675,7 +1719,8 @@
           "Aksesuarlar ayrı"
         ],
         "query": "Raspberry Pi 5 8GB",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0CK2FCG1K"
       },
       {
         "id": "creality-ender-3-v3",
@@ -1692,7 +1737,8 @@
           "Filament ayrı"
         ],
         "query": "Creality Ender 3 V3",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0D3VCLX5N"
       },
       {
         "id": "dji-mini-4k",
@@ -1762,7 +1808,8 @@
           "Aksesuar ayrı"
         ],
         "query": "Raspberry Pi 5 8GB",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0CK2FCG1K"
       },
       {
         "id": "arduino-uno-r3",
@@ -1849,7 +1896,8 @@
           "Filament ayrı"
         ],
         "query": "Creality Ender 3 V3",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0D3VCLX5N"
       },
       {
         "id": "bambu-lab-a1-mini",
@@ -2179,6 +2227,27 @@
         ],
         "query": "Arduino starter kit",
         "network": "amazon_tr"
+      }
+    ],
+    "_ek": [
+      {
+        "id": "geeekpi-pi5-baslangic-kiti",
+        "name": "GeeekPi Raspberry Pi 5 8GB Başlangıç Kiti",
+        "brand": "GeeekPi",
+        "alt": "raspberry-pi-elektronik",
+        "desc": "Amazon.com.tr kaydında Pi 5 8GB, metal kasa, aktif soğutucu, 64GB SD kart, HDMI kablosu, NVMe kartı ve 27W USB-C adaptör geçen set.",
+        "pros": [
+          "Kart, soğutucu ve kasa bir arada",
+          "Güç adaptörü sette",
+          "SD kart ve HDMI kablosu var"
+        ],
+        "cons": [
+          "Adaptör resmi Raspberry Pi adaptörü değil",
+          "NVMe disk ayrıca alınır"
+        ],
+        "query": "GeeekPi Raspberry Pi 5 8GB baslangic kiti",
+        "network": "amazon_tr",
+        "asin": "B0D1QQ174C"
       }
     ]
   },
@@ -6181,7 +6250,8 @@
           "Aksesuarlar ayrı satılır"
         ],
         "query": "Raspberry Pi 5 8GB",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0CK2FCG1K"
       },
       {
         "id": "anker-7-in-1-hub",
@@ -6741,7 +6811,8 @@
           "Espresso için sınırlı"
         ],
         "query": "baratza encore coffee grinder",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0CTTSGS65"
       },
       {
         "id": "hario-v60-dripper",
@@ -6758,7 +6829,8 @@
           "Tekniğe duyarlı"
         ],
         "query": "hario v60 dripper",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B000P4D5HG"
       },
       {
         "id": "bialetti-moka-express",
@@ -6984,6 +7056,27 @@
         ],
         "query": "weber grill brush",
         "network": "amazon_tr"
+      }
+    ],
+    "_ek": [
+      {
+        "id": "zamanlayicili-kahve-tartisi",
+        "name": "Zamanlayıcılı Kahve Tartısı 0.1 g",
+        "brand": "",
+        "alt": "kahve",
+        "desc": "Amazon.com.tr kaydında 0,1 g hassasiyet, dara, zamanlayıcı ve USB-C şarj geçen dijital kahve tartısı.",
+        "pros": [
+          "0,1 g hassasiyet",
+          "Dara ve zamanlayıcı",
+          "Şarj edilebilir"
+        ],
+        "cons": [
+          "Marka adı listede yok",
+          "Mutfak tartısı; yalnızca kahveye kilitli değil"
+        ],
+        "query": "kahve tartisi 0.1g zamanlayicili",
+        "network": "amazon_tr",
+        "asin": "B0CJK4ZJ65"
       }
     ]
   }

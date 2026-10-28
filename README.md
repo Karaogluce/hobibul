@@ -86,7 +86,46 @@ düzenleyin, `python build.py` çalıştırın. Her şey otomatik üretilir.
      adreslerine A kaydı ekleyin — GitHub'ın güncel IP'lerini GitHub Docs'tan kontrol edin.)
 3. GitHub repo ayarları → **Pages** → **Custom domain** alanına `hobibul.com.tr` yazın.
    (Bu, `docs/CNAME` dosyasına da yazılır — build.py zaten `docs/CNAME` üretir.)
-4. "Enforce HTTPS" seçeneğini açın (sertifika otomatik oluşturulur).
+4. **Enforce HTTPS** kutusunu işaretleyin. Sertifika onaylı olsa bile kutu kapalıysa
+   `https://karaogluce.github.io/hobibul/` ziyaretçiyi `http://hobibul.com.tr/` adresine yollar.
+   Kutu açıkken aynı adres `https://hobibul.com.tr/` adresine gider ve düz HTTP de oraya döner.
+
+### HTTPS zinciri (28 Ekim 2026 ölçümü)
+
+Repo bunu tek başına çeviremez. `docs/CNAME` zaten `hobibul.com.tr`. Kanonik adres `https://hobibul.com.tr`.
+GitHub, `*.github.io` isteğine 301'i dosyalara bakmadan kendisi yazar. Bu çalıştırmada Pages API şunu döndü:
+
+- `https_enforced`: **false**
+- `html_url`: `http://hobibul.com.tr/`
+- sertifika: **approved**, yalnızca `hobibul.com.tr` (www yok), bitiş 2027-01-23
+- `https://karaogluce.github.io/hobibul/` → `301 Location: http://hobibul.com.tr/`
+- `https://hobibul.com.tr/` → 200
+- `http://hobibul.com.tr/` bu ortamda 200 (site şifresiz açılıyor). 500 görürsen sebep aynı anahtar:
+  Enforce HTTPS kapalıyken HTTP kenarı kararsız kalabiliyor. Anahtar açılınca HTTP, 301 ile HTTPS'e döner.
+- `https://www.hobibul.com.tr/` sertifika hatası: sunucu `*.github.io` sertifikası veriyor, www adıda yok.
+  DNS'te `www`, `hobibul.com.tr` adresine CNAME. GitHub'ın istediği hedef `karaogluce.github.io`.
+
+Ayar değiştirme denemesi `403 Resource not accessible by integration` ile durdu. Kutuyu Emre açar:
+
+1. Aç: `https://github.com/Karaogluce/hobibul/settings/pages`
+2. **Build and deployment** → Source: Deploy from a branch, Branch: `main`, Folder: `/docs`.
+3. **Custom domain** kutusunda `hobibul.com.tr` yazsın. Değilse yaz, **Save**.
+4. "DNS check successful" görününce **Enforce HTTPS** kutusunu işaretle.
+5. Kutu griyse: domain'i sil, Save, bir dakika bekle, `hobibul.com.tr` yaz, Save, sertifika "approved" olunca kutuyu işaretle.
+6. Kontrol:
+   - `curl -sI https://karaogluce.github.io/hobibul/` → `location: https://hobibul.com.tr/`
+   - `curl -sI http://hobibul.com.tr/` → `301` ve `location: https://hobibul.com.tr/`
+
+DNS (Turkticaret, NS: `ns1/ns2/ns3.turkticaret.net`). Apex A kayıtları doğru, silme:
+
+- `185.199.108.153`
+- `185.199.109.153`
+- `185.199.110.153`
+- `185.199.111.153`
+
+`www` kaydını değiştir: tür CNAME, hedef `karaogluce.github.io` (şu an `hobibul.com.tr`).
+Panelde ayrı bir "HTTP yönlendir / 301" kuralı varsa kapat; o kural `http://` üretirse zinciri bozar.
+İsteğe bağlı AAAA (GitHub'ın yayımladığı adresler): `2606:50c0:8000::153`, `2606:50c0:8001::153`, `2606:50c0:8002::153`, `2606:50c0:8003::153`.
 
 ## Analitik paneli kurulumu (Supabase — ücretsiz)
 
@@ -138,21 +177,28 @@ düzenleme; değişiklikleri `templates/`, `static/` ve `content/` altında yap.
 
 ## Günlük otomatik makale (GitHub Actions)
 
-`.github/workflows/gunluk-makale.yml` her gün 11:00'de (TR) `otomatik.py` ile 2 makale üretir, siteyi
+`.github/workflows/gunluk-makale.yml` her gün 11:00'de (TR) `otomatik.py` ile **tam 2** makale üretir, siteyi
 yeniden oluşturur ve commit eder. (Saat, Gemini günlük kotasının Pasifik gece yarısı sıfırlanmasına göre seçildi.)
+Elle tetikte de sayı 2'nin üstüne çıkmaz.
+
+Sıra ticari niyettedir: önce `content/konu_havuzu.json` içinde `tip_onerisi: "ticari"` olan konular, sonra her alt
+kategori için bir başlangıç seti. `nedir`, `nasıl yazılır`, il adı ve yabancı dil sorguları havuzdan ve Google
+önerilerinden elenir. Kapıdan geçen metin en az yaklaşık 1500 kelimedir (ticari konularda 1550); hedef 1650–2000.
 
 Kurulum (bir kerelik): GitHub → Settings → Secrets and variables → Actions
-- **Secrets:** `GEMINI_API_KEY`, `UNSPLASH_ACCESS_KEY` (unsplash.com/developers → New Application → Access Key)
+- **Secrets (zorunlu):** `GEMINI_API_KEY` — [Google AI Studio](https://aistudio.google.com) anahtarı. Yoksa iş makale üretmeden durur.
+- **Secrets (görsel için):** `UNSPLASH_ACCESS_KEY` — unsplash.com/developers → New Application → Access Key. Yoksa makale kategori görseliyle çıkar, iş durmaz.
 - **Variables:** `TASLAK_MODU` — varsayılan `false`: makaleler doğrudan yayınlanır. `true` yaparsan makaleler
   `draft: "true"` ile taslak yazılır; beğendiğin makalenin `content/articles/…md` dosyasında `draft: "true"` → `"false"`
   yapıp kaydedince site otomatik güncellenir. (Değişkeni hiç tanımlamazsan da yayın modu geçerli.)
-- Opsiyonel `GEMINI_MODEL`: model adı eskirse AI Studio'dan güncel adı yaz.
+- Opsiyonel `GEMINI_MODEL`: model adı eskirse AI Studio'dan güncel adı yaz. Tanımsızsa `gemini-flash-latest`.
 - Opsiyonel `GEMINI_MODEL_YEDEK` (variable): ana model 503/429 verdiğinde sırayla denenecek yedek
   model(ler), virgülle. Örn. `gemini-flash-lite-latest`. Günlük kota (429 per-day) algılanırsa
   beklenmeden doğrudan yedek modele geçilir; kota her gece Pasifik saatiyle 00:00'da sıfırlanır.
 
 Kalite kapıları (geçemeyen makale yayınlanmaz, `content/uretim_log.json` → `atlanan`): minimum kelime,
-H2 sayısı, SSS bölümü, tüm ürünlerin linki, fiyat/abartı yasağı, mevcut makalelerle benzerlik kontrolü.
+H2 sayısı, SSS bölümü, ürün linki, ticari konuda paket tablosu, fiyat/abartı yasağı, yazım ritmi,
+mevcut makalelerle benzerlik kontrolü.
 Sıradaki konuları görmek için: `python otomatik.py --konu-listesi`
 
 - Yazım kuralları ve yasaklı kalıplar: `content/yazim_rehberi.md` (düzenlenebilir). Çalışma planı: `PLAN.md`.
