@@ -14,21 +14,19 @@ starter_text: "Yürüyüş setinin ortası Ruffwear Front Range koşum. Eğitimd
 draft: "false"
 ---
 
-Köpek yürüyüşü bir koşum ve bir tasma ile başlar. Eğitim, aynı yürüyüşte "çekme"yi ödüllendirmeyen bir hat ister. Ruffwear Front Range koşum, göğüs ve sırt klipsi ile bu işin yürüme parçası. Evde zihin için Outward Hound zeka oyuncağı, çiğneme için Benebone duruyor.
+Köpek yürüyüşü bir koşum ve bir tasma ile başlar, eğitim ise aynı yürüyüşte "çekme"yi ödüllendirmeyen bir hat ister. Ruffwear Front Range, göğüs ve sırt klipsiyle bu işin yürüme parçası; evde zihin için Outward Hound zeka oyuncağı, çiğneme için Benebone duruyor. Otomatik flexi tasma parkta boş gezdirmek için yazılmış bir alet, eğitim seansının parçası değil, çünkü ip uzadıkça köpek çekmeyi öğrenir. Bu ayrımı aşağıda kurdum: önce koşum, sonra hangi tasmanın hangi işe yaradığı.
 
-Otomatik flexi tasma, parkta boş gezdirmek için yazılmış. Eğitim seansının aleti değil. İp uzadıkça köpek çekmeyi öğrenir. Bunu aşağıda ayırdım. Önce koşum, sonra hangi tasmanın hangi işe yaradığı.
-
-Bakımın tamamı [köpek ekipmanları](/kategori/evcil-hayvan/kopek-bakimi/) sayfasında. Tüy tarağı yürüyüş setinin parçası değil. Tüy dökümü ayrı bir akşam. Kedi evi başka düzen. [Kedi bakım seti](/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/) orada. İkisi [evcil hayvan](/kategori/evcil-hayvan/) kategorisinde.
+Bakımın tamamı [köpek ekipmanları](/kategori/evcil-hayvan/kopek-bakimi/) sayfasında. Tüy tarağı yürüyüş setinin parçası değil, tüy dökümü ayrı bir akşamın işi. Kedi evi başka bir düzen; [kedi bakım seti](/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/) orada, ikisi de [evcil hayvan](/kategori/evcil-hayvan/) kategorisinde.
 
 ## Yürüyüş: Ruffwear Front Range
 
-Ruffwear Front Range, göğüs ve sırt klipsli bir koşum. Yansıtıcı detay, yumuşak astar ve kolay giydirme notları var. Ölçü seçimi dikkat ister. Fiyatı uygun fiyatlı koşumların üstünde.
+Ruffwear Front Range, göğüs ve sırt klipsli bir koşum. Ürün notunda yansıtıcı detay, yumuşak astar ve kolay giydirme var; ölçü seçimi dikkat ister, fiyatı da uygun fiyatlı koşumların üstünde durur.
 
-Göğüs klipsi, çekmeyi çevirmeye yardım eden bir bağlama noktası. Sırt klipsi, daha sakin bir yürüyüşte klasik bağlama. İkisi aynı koşumda. Tek bir tasma halkasına yıllarca yüklenen boyun tasması, çekişen köpekte boğaza biner. Koşum, o yükü göğse yayar.
+Göğüs klipsi çekmeyi çevirmeye yardım eden bağlama noktası, sırt klipsi ise daha sakin bir yürüyüşte klasik bağlama ve ikisi aynı koşumda. Tek bir tasma halkasına yıllarca yüklenen boyun tasması, çekişen köpekte boğaza biner. Koşum o yükü göğse yayar.
 
-Kime uymaz? Ölçüsü alınmadan "bir büyük olsun" diye alınan koşuma uymaz. Ürün notu ölçüye dikkat diyor. Dar koşum koltuğun altını keser. Bol koşum, köpek geri çıkınca yerde kalır. Göğüs çevresini mezura ile al, beden tablosuna bak. Tahmin etme.
+Kime uymaz? Ölçüsü alınmadan "bir büyük olsun" diye alınan koşuma uymaz. Ürün notu ölçüye dikkat diyor: dar koşum koltuğun altını keser, bol koşum da köpek geri çıkınca yerde kalır. Göğüs çevresini mezura ile al, beden tablosuna bak, tahmin etme.
 
-Küçük, koşumu tolere etmeyen bir köpek de ilk gün yadırgar. Evin içinde beş dakika giydir, ödül ver, çıkar. Sokağa ilk kez koşumla çıkarma.
+Küçük ve koşumu henüz tolere etmeyen bir köpek ilk gün yadırgar. Evin içinde beş dakika giydir, ödül ver, sonra çıkar; sokağa ilk kez koşumla çıkarma.
 
 **Artıları:**
 - Göğüs ve sırt klipsi, iki farklı yürüyüş bağlar.
@@ -43,11 +41,11 @@ Küçük, koşumu tolere etmeyen bir köpek de ilk gün yadırgar. Evin içinde 
 
 ## Tasma: Flexi Ne Zaman, Ne Zaman Değil
 
-flexi New Classic, kademeli fren ve geri saran bir otomatik tasma. Tek elle frenlenir. Farklı boylar var. Köpek güçlü çekerse ip aşınır. Küçük boyların ağırlık limiti düşüktür.
+flexi New Classic, kademeli frenli ve geri saran bir otomatik tasma. Tek elle frenlenir, farklı boyları vardır. Köpek güçlü çekerse ip aşınır, küçük boyların ağırlık limiti de düşüktür.
 
-Park, boş alan ve zaten yanınızda yürüyen bir köpek için ipin uzaması rahatlatır. Köpek kokuyu takip eder, sen frenlersin. Eğitimde aynı ip, "ne kadar çekersem o kadar uzağa" dersi olur. Çekmeyi düzeltirken sabit, kısa bir hat kullan. Flexi'yi o dersten çıkar.
+Parkta, boş alanda ve zaten yanında yürüyen bir köpekle ipin uzaması rahatlatır: köpek kokuyu takip eder, sen frenlersin. Eğitimde aynı ip "ne kadar çekersem o kadar uzağa" dersine döner. Çekmeyi düzeltirken sabit ve kısa bir hat kullan, Flexi'yi o dersten çıkar.
 
-Kime uymaz? Çekmeyi yeni öğrenen köpeğe uymaz. Kalabalık kaldırımda da uymaz. İp bisiklet tekerine, başka köpeğin ayağına dolanır. Fren tek elle olsa da ipin kendisi uzundur. Ağırlık limiti küçük boyda düşük. Büyük köpeğe küçük flexi takma. Ürün bunu eksi diye yazıyor.
+Kime uymaz? Çekmeyi yeni öğrenen köpeğe uymaz, kalabalık kaldırımda da uymaz, çünkü ip bisiklet tekerine ve başka köpeğin ayağına dolanır. Fren tek elle olsa da ipin kendisi uzundur. Ağırlık limiti küçük boyda düşük, büyük köpeğe küçük flexi takma. Ürün bunu eksi diye yazıyor.
 
 **Artıları:**
 - Fren tek elle kapanır.
@@ -63,11 +61,11 @@ Kime uymaz? Çekmeyi yeni öğrenen köpeğe uymaz. Kalabalık kaldırımda da u
 
 ## Ev Eğitimi: Zeka Oyuncağı
 
-Outward Hound Nina Ottosson, ödül mamasını bölmelere saklayan bir puzzle. Zihinsel uyarım var. BPA içermeyen malzeme notu düşülmüş. Zorluk seviyeleri değişiyor. Gözetimsiz bırakılırsa parçalanabilir. Güçlü çiğneyiciye uygun değil.
+Outward Hound Nina Ottosson, ödül mamasını bölmelere saklayan bir puzzle. Zihinsel uyarım var, malzeme notunda BPA olmadığı düşülmüş, zorluk seviyeleri de değişiyor. Gözetimsiz bırakılırsa parçalanabilir ve güçlü çiğneyiciye uygun değil.
 
-Yürüyüş yağmurdan iptal olunca enerji evde kalır. On dakika mama avı, amaçsız havlamayı kesmeye yardım eder. Kolay seviyeden başla. Kapağı ilk günden kilitleme. Köpek başaramazsa oyuncağı bırakır. Bir kez açınca ödül gelsin, sonra kapağı zorlaştır.
+Yürüyüş yağmurdan iptal olunca enerji evde kalır. On dakika mama avı, amaçsız havlamayı kesmeye yardım eder. Kolay seviyeden başla ve kapağı ilk günden kilitleme; köpek başaramazsa oyuncağı bırakır. Bir kez açınca ödül gelsin, sonra kapağı zorlaştır.
 
-Kime uymaz? Parçayı koparıp yutan köpeğe uymaz. Ürün notu güçlü çiğneyici demiyor, tam tersi. Onlar için Benebone daha doğru bir ağız işi. Puzzle'ı yalnız bırakma. Gözün odada olsun.
+Kime uymaz? Parçayı koparıp yutan köpeğe uymaz. Ürün notu güçlü çiğneyici demiyor, tam tersini söylüyor, onlar için Benebone daha doğru bir ağız işi. Puzzle'ı yalnız bırakma, gözün odada olsun.
 
 **Artıları:**
 - Mama aramak, yürüyüş iptalinde zihni meşgul eder.
@@ -82,11 +80,11 @@ Kime uymaz? Parçayı koparıp yutan köpeğe uymaz. Ürün notu güçlü çiğn
 
 ## Ağız Meşgul: Benebone
 
-Benebone Wishbone, gerçek tavuk aromalı, dayanıklı naylon bir çiğneme. Ergonomik kavrama. Agresif çiğneyene dayanıklı diye yazılmış. Yenilebilir değil. Boy seçimi şart.
+Benebone Wishbone, gerçek tavuk aromalı ve dayanıklı naylon bir çiğneme. Ergonomik kavraması var, agresif çiğneyene dayanıklı diye yazılmış. Yenilebilir değil, boy seçimi de şart.
 
-Puzzle'ın tersi. Burada amaç parçayı dağıtmak değil, çiğnemek. Yavru diş çıkarırken ve yetişkin can sıkıntısında ağız meşgul kalır. Kopan parça yutulursa naylon mideye gider. O yüzden yenilebilir kemik gibi düşünme. Aşındıkça küçülen ucu at.
+Puzzle'ın tersi bu, çünkü burada amaç parçayı dağıtmak değil, çiğnemek. Yavru diş çıkarırken ve yetişkin can sıkıntısında ağız meşgul kalır. Kopan parça yutulursa naylon mideye gider, o yüzden yenilebilir kemik gibi düşünme ve aşındıkça küçülen ucu at.
 
-Kime uymaz? Yanlış boy alan kişiye uymaz. Küçük köpeğe büyük wishbone, çene açısını bozar. Büyük köpeğe küçük parça, yutma riski büyür. Ayrıca mama saklama oyunu arayan kişiye de uymaz. O iş Outward Hound.
+Kime uymaz? Yanlış boy alan kişiye uymaz. Küçük köpeğe büyük wishbone çene açısını bozar, büyük köpeğe küçük parça yutma riskini büyütür. Mama saklama oyunu arayan kişiye de uymaz, o iş Outward Hound'da.
 
 **Artıları:**
 - Tavuk aroması, sade naylondan daha çok ilgi görür.
@@ -101,11 +99,11 @@ Kime uymaz? Yanlış boy alan kişiye uymaz. Küçük köpeğe büyük wishbone,
 
 ## Tüy: Yürüyüşten Sonra
 
-Hertzko tarak, tek tuşla tüyleri bırakır. Düğüm çözer. İnce uçlar hassas cilde uygun. Çok kalın tüylerde tek başına yetmeyebilir. Uzun tüylü ırkta sabır ister.
+Hertzko tarak tek tuşla tüyleri bırakır ve düğüm çözer. İnce uçlar hassas cilde uygun. Çok kalın tüylerde tek başına yetmeyebilir, uzun tüylü ırkta da sabır ister.
 
-Yürüyüş setinin çekirdeği değil. Çamur ve tohum eve yapışınca lazım olur. Banyodan sonra ıslak tüyde zorlama. Kuru veya hafif nemli tara. Tek tuş, tarağı temizler. Tüyü yerde bırakıp köpeğin tekrar yuvarlanmasına izin verme.
+Yürüyüş setinin çekirdeği değil; çamur ve tohum eve yapışınca lazım olur. Banyodan sonra ıslak tüyde zorlama, kuru veya hafif nemli tara, tek tuş da tarağı temizler. Tüyü yerde bırakıp köpeğin tekrar yuvarlanmasına izin verme.
 
-Kime uymaz? Çok kalın astar tüyü olan köpekte tek alet olarak uymaz. İkinci bir tarak gerekebilir. Ürün bunu söylüyor.
+Kime uymaz? Çok kalın astar tüyü olan köpekte tek alet olarak uymaz. İkinci bir tarak gerekebilir, ürün de bunu söylüyor.
 
 **Artıları:**
 - Tek tuş, dolan tüyü taraktan söker.
@@ -120,59 +118,57 @@ Kime uymaz? Çok kalın astar tüyü olan köpekte tek alet olarak uymaz. İkinc
 
 ## İlk Yürüyüş Nasıl Bölünür?
 
-Kapıdan çıkmadan koşumu evde giydir. Beş dakika. Ödül. Çıkar. Ertesi gün aynı. Üçüncü gün sokağın yarısı. Tüm park turunu ilk güne sıkıştırma. Koşum o gün "kötü haber" olur.
+Kapıdan çıkmadan koşumu evde giydir. Beş dakika yeter: ödül ver, çıkar, ertesi gün aynı işi tekrarla ve üçüncü gün sokağın yarısına çık. Tüm park turunu ilk güne sıkıştırma, yoksa koşum o gün "kötü haber" olur.
 
-Çekme çalışması kısa olsun. Bir sokak, sabit hat, göğüs klipsi. Flexi o turda çantada kalır. Parkta, eğitim bitince, alan boşsa flexi çıkar. İki aleti aynı dakikada karıştırma. Köpek hangisinin kural olduğunu ayırt eder.
+Çekme çalışması kısa kalsın. Bir sokak, sabit hat ve göğüs klipsi yeter, Flexi o turda çantada kalır. Parkta eğitim bitince ve alan boşsa Flexi çıkar. İki aleti aynı dakikada karıştırma, köpek hangisinin kural olduğunu ancak böyle ayırt eder.
 
-Eve gelince patiyi sil. Tüy çamurluysa Hertzko. Enerji hâlâ yüksekse puzzle'a bir kaç mama koy. Benebone'u gözünün önünde bırak. Kopan parçayı aynı akşam çöpe at.
-
-Boyun tasmasını çöpe at demiyorum. Kimlik künyesi orada durabilir. Çekiş yükünü koşuma ver.
+Eve gelince patiyi sil. Tüy çamurluysa Hertzko'ya geç, enerji hâlâ yüksekse puzzle'a birkaç mama koy, Benebone'u da gözünün önünde bırak ve kopan parçayı aynı akşam çöpe at. Boyun tasmasını çöpe at demiyorum; kimlik künyesi orada durabilir, çekiş yükünü koşuma ver.
 
 ## Kapı, Ödül ve Yağmur
 
-Koşumu kapıda, aceleyle ilk kez giydirme. Evde beş dakika, ödül, çıkar. Ertesi gün aynı. Üçüncü gün sokağın yarısı. Park turunu ilk güne sıkıştırmak, koşumu "kötü haber" yapar. Ruffwear'ın bedeni o gün kaçarsa veya keserse yürüyüşü uzatma. Mezura ile göğsü yeniden al.
+Koşumu kapıda, aceleyle ilk kez giydirme. Evde beş dakika giydir, ödül ver, çıkar; ertesi gün aynı sıra, üçüncü gün sokağın yarısı. Park turunu ilk güne sıkıştırmak koşumu "kötü haber" yapar. Ruffwear'ın bedeni o gün kaçarsa veya keserse yürüyüşü uzatma, mezura ile göğsü yeniden al.
 
-Çekme çalışması bir sokak sürsün. Göğüs klipsi, sabit hat. Flexi çantada kalsın. Parkta, ders bitince, alan boşsa flexi çıkar. İkisini aynı dakikada karıştırma. Köpek hangi ipin serbest, hangisinin kısa olduğunu ayırt etsin. Güçlü çekiş flexi ipini aşındırır. Aşınan ipi "idare eder" diye kullanma.
+Çekme çalışması bir sokak sürsün. Göğüs klipsi ve sabit hat kalsın, Flexi çantada dursun; parkta ders bitince ve alan boşsa Flexi çıkar. İkisini aynı dakikada karıştırma ki köpek hangi ipin serbest, hangisinin kısa olduğunu ayırt etsin. Güçlü çekiş flexi ipini aşındırır, aşınan ipi "idare eder" diye kullanma.
 
-Yağmur turu iptal olursa enerji evde kalır. Outward Hound'a birkaç mama koy. Kolay seviyeden başla. Kapağı ilk gün kilitleme. Benebone'u puzzle'ın yerine koyma. Biri arar, biri çiğner. Kopan naylon ucu aynı akşam at. Gözün odada olsun. Güçlü çiğneyene puzzle'ı yalnız bırakma.
+Yağmur turu iptal olursa enerji evde kalır. Outward Hound'a birkaç mama koy, kolay seviyeden başla, kapağı ilk gün kilitleme. Benebone'u puzzle'ın yerine koyma: biri arar, biri çiğner. Kopan naylon ucu aynı akşam at, gözün odada olsun ve güçlü çiğneyene puzzle'ı yalnız bırakma.
 
-Eve gelince pati ve Hertzko. Islak tüyde tarağı zorlama. Çamur kurusun ya da hafif nemli tara. Tüyü yerde bırakıp köpeğin tekrar yuvarlanmasına izin verme. Boyun tasması kimlik için durabilir. Çekiş yükü koşumda kalsın.
+Eve gelince sıra patide ve Hertzko'da. Islak tüyde tarağı zorlama; çamur kurusun ya da tüyü hafif nemli tara, tüyü de yerde bırakıp köpeğin tekrar yuvarlanmasına izin verme. Boyun tasması kimlik için durabilir, çekiş yükü koşumda kalsın.
 
 ## Sık Sorulan Sorular
 
 ### Yürüyüşe tasma mı, koşum mu?
 
-Çeken köpekte yük koşumda olsun. Ruffwear'ın göğüs klipsi bu iş için. Sakin yürüyüşte sırt klipsi yeter. Flexi, çekme dersinin aleti değil.
+Çeken köpekte yük koşumda olsun. Ruffwear'ın göğüs klipsi bu iş için duruyor, sakin yürüyüşte sırt klipsi yeter, Flexi ise çekme dersinin aleti değil.
 
 ### Flexi eğitimde kullanılır mı?
 
-Kullanma. İp uzadıkça çekmek işe yarar. Eğitimde sabit hat. Flexi, kuralları oturmuş köpekle boş alanda durur.
+Kullanma. İp uzadıkça çekmek işe yarar, eğitimde sabit hat gerekir. Flexi, kuralları oturmuş köpekle boş alanda durur.
 
 ### Hangi oyuncak?
 
-Zihin için Outward Hound. Ağız için Benebone. Güçlü çiğneyene puzzle bırakma. Yutulacak kadar küçülen Benebone'u at.
+Zihin için Outward Hound, ağız için Benebone. Güçlü çiğneyene puzzle bırakma, yutulacak kadar küçülen Benebone'u da at.
 
 ### Tarak sette şart mı?
 
-Yürüyüşü o kurmaz. Çamur ve düğüm varsa Hertzko işe yarar. Kalın astar tüyünde tek başına yetmeyebilir.
+Yürüyüşü tarak kurmaz. Çamur ve düğüm varsa Hertzko işe yarar, kalın astar tüyünde tek başına yetmeyebilir.
 
 ## İki Tur, İki Alet
 
-Sabah turu kısa ve eğitim olsun. Ruffwear göğüs klipsinde, hat sabit. Flexi evde kalır. Bir sokak yeter. Çekmeden yürüyen on adımı ödülle bitir. Parkın tamamını bu tura sıkıştırma. Köpek yorulunca çekiş artar. Ders bozulur.
+Sabah turu kısa ve eğitim olsun. Ruffwear göğüs klipsinde hat sabit kalır, Flexi evde durur. Bir sokak yeter; çekmeden yürüyen on adımı ödülle bitir, parkın tamamını bu tura sıkıştırma. Köpek yorulunca çekiş artar, ders de bozulur.
 
-Akşam turu, ders bittiyse ve alan boşsa flexi ile uzayabilir. Kalabalık kaldırımda ip bisiklete dolanır. Küçük boy flexi, ağır köpeğe takılmaz. Ürün notu limitin düşük olduğunu söylüyor. İp aşındıysa değiştir. "Bir tur daha" deme.
+Akşam turu, ders bittiyse ve alan boşsa, flexi ile uzayabilir. Kalabalık kaldırımda ip bisiklete dolanır. Küçük boy flexi ağır köpeğe takılmaz, ürün notu da limitin düşük olduğunu söylüyor. İp aşındıysa değiştir, "bir tur daha" deme.
 
-Eve gelince enerji kaldıysa puzzle. Kolay seviye, birkaç mama, gözün odada. Güçlü çiğneyene Outward Hound'u yalnız bırakma. Ağız meşgulse Benebone. Boy ağza göre. Kopan naylon aynı akşam çöpe. Yenilir kemik gibi düşünme.
+Eve gelince enerji kaldıysa puzzle'a dön: kolay seviye, birkaç mama, gözün odada. Güçlü çiğneyene Outward Hound'u yalnız bırakma. Ağız meşgulse Benebone, boy da ağza göre olsun. Kopan naylon aynı akşam çöpe gider, yenilebilir kemik gibi düşünme.
 
-Yağmurda pati ve Hertzko. Islak tüyde zorlama. Kalın astar tüyünde bu tarak yetmeyebilir. İkinci bir tarak o zaman bakılır. Yürüyüşü tarak kurmaz. Koşum kurar. Ölçü kaçtıysa sokağı uzatma. Mezura ile göğsü yeniden al.
+Yağmurda iş patiye ve Hertzko'ya düşer, ıslak tüyde zorlama. Kalın astar tüyünde bu tarak yetmeyebilir, ikinci bir tarak o zaman bakılır. Yürüyüşü tarak kurmaz, koşum kurar. Ölçü kaçtıysa sokağı uzatma, mezura ile göğsü yeniden al.
 
-Kapıdan çıkmadan su ve bir poşet. Koşum tek başına yürüyüş değil. Sıcak kaldırımda pati yanar. O gün turu kısalt. Flexi'yi asfalta sürme. İp aşınır. Ruffwear ıslanınca evde kurusun. Islak astarla ertesi sabah giydirme. Koltuk altı pişer.
+Kapıdan çıkmadan su ve bir poşet al, çünkü koşum tek başına yürüyüş değil. Sıcak kaldırımda pati yanar, o gün turu kısalt ve Flexi'yi asfalta sürme, ip aşınır. Ruffwear ıslanınca evde kurusun; ıslak astarla ertesi sabah giydirme, koltuk altı pişer.
 
-Ödülü yürüyüş cebine koy, evde bırakma. On adım düzgün yürüyüş, bir ödül. Puzzle'ın maması ayrı bir kapakta dursun. Aynı ödülü iki işe bölmek, köpeğin hangisinin yürüyüş ödülü olduğunu karıştırır.
+Ödülü yürüyüş cebine koy, evde bırakma. On adım düzgün yürüyüş, bir ödül. Puzzle'ın maması ayrı bir kapakta dursun, çünkü aynı ödülü iki işe bölmek köpeğin hangisinin yürüyüş ödülü olduğunu karıştırır.
 
-Künye boyun tasmasında kalabilir. Yük orada kalmasın. Çekiş, Ruffwear'ın göğsünde bitsin. Bu ayrım, sete ikinci bir tasma almaktan daha çok işe yarar.
+Künye boyun tasmasında kalabilir, yük orada kalmasın. Çekiş Ruffwear'ın göğsünde bitsin. Bu ayrım, sete ikinci bir tasma almaktan daha çok işe yarar.
 
-Yavru pati, uzun asfalta çıkmasın. Kısa tur, yumuşak zemin. Ruffwear o gün de giyilir. Mesafe, koşum oturdukça uzar.
+Yavru pati uzun asfalta çıkmasın. Kısa tur ve yumuşak zemin yeter, Ruffwear o gün de giyilir. Mesafe, koşum oturdukça uzar.
 
 ## Bütçe, Orta ve Üst Paket
 
@@ -182,4 +178,4 @@ Yavru pati, uzun asfalta çıkmasın. Kısa tur, yumuşak zemin. Ruffwear o gün
 | Orta | Koşum, [Outward Hound](aff://outward-hound-zeka-oyuncagi) ve [Benebone](aff://benebone-wishbone-cigneme-oyuncagi) | Yürüyüş artı evde meşgale isteyen ev |
 | Üst | Orta paket artı [flexi](aff://flexi-new-classic-otomatik-tasma) ve [Hertzko](aff://hertzko-kendi-kendini-temizleyen-tarak) | Park gezisi ve tüy işini de aynı çekmeceye koyan kişi |
 
-Yürüyüşü Ruffwear koşumla kur. Çekme bitene kadar flexi'yi eğitim turundan çıkar. Evde zeka oyuncağı ile Benebone'u karıştırma. İkisi ayrı iş.
+Yürüyüşü Ruffwear koşumla kur. Çekme bitene kadar flexi'yi eğitim turundan çıkar, evde de zeka oyuncağı ile Benebone'u karıştırma, ikisi ayrı iş.

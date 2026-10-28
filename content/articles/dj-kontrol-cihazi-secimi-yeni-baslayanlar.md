@@ -14,33 +14,33 @@ starter_text: "İlk ciddi kontrol cihazı Pioneer DDJ-FLX4. Kutuda rekordbox var
 draft: "false"
 ---
 
-İlk DJ kontrol cihazını iki kanalla al. Dört kanal, ilk ayda boş fader demektir.
+İlk DJ kontrol cihazını iki kanalla al, dört kanal ilk ayda boş fader demektir.
 
-Yazılım kutuda mı, yoksa "uyumlu ama ayrı" mı, ikinci soru. Bunu atlayan kişi doğru gövdeyi alır, akşam lisansa takılır. Laptop da ayrı bir şart. Telefon vaadi, başlıkta Bluetooth yazan modelde bile sayfayı okumadan kurulmaz.
+Yazılım kutuda mı, yoksa "uyumlu ama ayrı" mı, ikinci soru bu. Bunu atlayan kişi doğru gövdeyi alır, akşam lisansa takılır. Laptop da ayrı bir şart. Telefon vaadi, başlıkta Bluetooth yazan modelde bile sayfayı okumadan kurulmaz.
 
 ## Kutudaki Yazılımı Ayır
 
-DDJ-FLX4 sayfası rekordbox DJ'yi dahil diyor. Serato DJ Pro ve Serato DJ Lite aynı maddede "dahil değil" diye duruyor. Uyumlu olmak, bedava olmak değildir. Serato ile büyümek istiyorsan FLX4'ü ilk gün o yüzden açma. Numark tarafında Serato DJ Lite kutuda olan modeller var.
+DDJ-FLX4 sayfası rekordbox DJ'yi dahil diyor, Serato DJ Pro ve Serato DJ Lite ise aynı maddede "dahil değil" diye duruyor. Uyumlu olmak bedava olmak değildir, Serato ile büyümek istiyorsan FLX4'ü ilk gün o yüzden açma. Numark tarafında Serato DJ Lite'ın kutuda olduğu modeller var.
 
-Party Mix III başlığı Serato DJ Lite ve Algoriddim djay diyor. MixTrack Go başlığı da aynı ikiliyi taşıyor. Mixtrack Pro FX maddesi Serato DJ Lite'ın dahil olduğunu yazıyor. Üç Numark, Serato çizgisinde. FLX4, rekordbox çizgisinde. İkisini aynı akşam kurup karşılaştırma. Birini seç, diğerinin kısayolu kasta kalır.
+Party Mix III başlığı Serato DJ Lite ve Algoriddim djay diyor, MixTrack Go başlığı da aynı ikiliyi taşıyor. Mixtrack Pro FX maddesi Serato DJ Lite'ın dahil olduğunu yazıyor. Üç Numark Serato çizgisinde, FLX4 ise rekordbox çizgisinde. İkisini aynı akşam kurup karşılaştırma, birini seçersen diğerinin kısayolu kasta kalır.
 
-Bilgisayar şartı FLX4 kaydında Windows 10-11 ve macOS 10.15-11.2 olarak geçiyor. Daha yeni bir sistemde çalışır mı, sayfa susuyor. Susuyorsa "çalışır" deme. Sürümü açıp bak.
+Bilgisayar şartı FLX4 kaydında Windows 10-11 ve macOS 10.15-11.2 olarak geçiyor. Daha yeni bir sistemde çalışır mı, sayfa susuyor, susuyorsa "çalışır" deme ve sürümü açıp bak.
 
-Kulaklık ayrı. Katalogdaki Audio-Technica ATH-M50x kapalı, katlanır ve dengeli ses diyor. Baskı hissi var. Kablo özel. Bu kulaklığın ürün sayfasını bu turda doğrulamadım. Link arama açar. Kontrol cihazının `/dp/` linkiyle karıştırma.
+Kulaklık ayrı satılıyor. Katalogdaki Audio-Technica ATH-M50x kapalı, katlanır ve dengeli ses diyor, baskı hissi var ve kablo da özel. Bu kulaklığın ürün sayfasını bu turda doğrulamadım, link arama açar ve kontrol cihazının `/dp/` linkiyle karıştırma.
 
-Kategori [DJ ve prodüksiyon](/kategori/muzik/dj-produksiyon/). Gitar ayrı bir alet. Onu [elektro gitar seti](/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/) yazısında bırak.
+Kategori [DJ ve prodüksiyon](/kategori/muzik/dj-produksiyon/). Gitar ayrı bir alet, onu [elektro gitar seti](/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/) yazısında bırak.
 
 ## DDJ-FLX4: Rekordbox Kutuda
 
-Pioneer DDJ-FLX4, iki stereo kanal ve bir mikrofon kanalı yazıyor. Fader tarafında iki kanal seviyesi, bir crossfader ve iki pitch var. EQ üç bant. Yüksek, orta ve düşük için aralık -26 ile +6 dB. Örnekleme 48 kHz. Dönüşüm 24-bit.
+Pioneer DDJ-FLX4 iki stereo kanal ve bir mikrofon kanalı yazıyor. Fader tarafında iki kanal seviyesi, bir crossfader ve iki pitch var, EQ de üç bant. Yüksek, orta ve düşük için aralık -26 ile +6 dB, örnekleme 48 kHz ve dönüşüm 24-bit.
 
-Girişte 6,3 mm mikrofon. Çıkışta 3,5 mm kulaklık ve RCA ana çıkış. USB-C iki tane. Dosya listesi AAC, AIFF, ALAC, FLAC, MP3 ve WAV. Frekans yanıtı 20 Hz-20 kHz. Liste 2,2 kg yazıyor. Ölçü 48,3 x 27,2 x 5,8 cm.
+Girişte 6,3 mm mikrofon var, çıkışta 3,5 mm kulaklık ve RCA ana çıkış, USB-C ise iki tane. Dosya listesi AAC, AIFF, ALAC, FLAC, MP3 ve WAV, frekans yanıtı da 20 Hz-20 kHz. Liste 2,2 kg yazıyor, ölçü 48,3 x 27,2 x 5,8 cm.
 
-Bu sayıların hepsi o sayfanın maddelerinden. Başka bir hız, jog çapı veya ped sayısı uydurmam. Sayfa ped adedini bu maddelerde vermiyor. Vermiyorsa "8 ped" demem.
+Bu sayıların hepsi o sayfanın maddelerinden, başka bir hız, jog çapı veya ped sayısı uydurmam. Sayfa ped adedini bu maddelerde vermiyor, vermiyorsa "8 ped" demem.
 
-2,2 kg, çantanın yan cebi değildir. MixTrack Go o iddiayı taşıyor. FLX4 taşınabilir kayıtlarda geçiyor ama ölçü ortada. Masada duran bir öğrenme aleti olarak daha dürüst.
+2,2 kg çantanın yan cebi değildir, o iddiayı MixTrack Go taşıyor. FLX4 taşınabilir kayıtlarda geçiyor ama ölçü ortada, masada duran bir öğrenme aleti olarak daha dürüst.
 
-Kime uymaz? Serato lisansı kutuda isteyen kişiye uymaz. Dahil değil. Telefonla kulüpsüz kurulum isteyen de FLX4 maddesinde telefon görmez. macOS sürümün 11.2'nin çok ötesindeyse sayfayı satıcıya sor.
+Kime uymaz? Serato lisansını kutuda isteyen kişiye uymaz, çünkü Serato dahil değil. Telefonla kulüpsüz kurulum isteyen de FLX4 maddesinde telefon görmez. macOS sürümün 11.2'nin çok ötesindeyse sayfayı satıcıya sor.
 
 **Artıları:**
 - Rekordbox DJ dahil.
@@ -55,13 +55,13 @@ Kime uymaz? Serato lisansı kutuda isteyen kişiye uymaz. Dahil değil. Telefonl
 
 ## Party Mix III: Işık ve Beat Assist
 
-Numark Party Mix III, iki deck. Her deck'te 8 pad, toplam 16. Padler hot cue, auto loop, sampler ve efekt için. Stems maddesi vokal ve enstrüman katmanını ayırıyor. Beat Assist, beat eşlemeyi adım adım gösteriyor. Smart Fader tek dokunuşla geçiş yapıyor.
+Numark Party Mix III iki deck. Her deck'te 8 pad var, toplam 16 ve bu padler hot cue, auto loop, sampler ve efekt için. Stems maddesi vokal ve enstrüman katmanını ayırıyor. Beat Assist beat eşlemeyi adım adım gösteriyor, Smart Fader ise tek dokunuşla geçiş yapıyor.
 
-Üç bant EQ, filtre düğmesi ve crossfader var. Fade FX, crossfader'a bağlı. Dahili LED, vuruşa göre yanıyor. Başlıkta Bluetooth, USB-C, Serato DJ Lite ve Algoriddim djay geçiyor.
+Üç bant EQ, filtre düğmesi ve crossfader var, Fade FX de crossfader'a bağlı. Dahili LED vuruşa göre yanıyor ve başlıkta Bluetooth, USB-C, Serato DJ Lite ile Algoriddim djay geçiyor.
 
-Işık, evde her gece istenmez. Komşu duvarı inceyse gösteriyi kapatacak bir yol ara. Sayfa, ışığın kapanıp kapanmadığını tek cümlede söylemiyor. Kapanmıyorsa bu model ev için gürültülü bir lamba olur.
+Işık evde her gece istenmez, komşu duvarı inceyse gösteriyi kapatacak bir yol ara. Sayfa ışığın kapanıp kapanmadığını tek cümlede söylemiyor, kapanmıyorsa bu model ev için gürültülü bir lamba olur.
 
-Kime uymaz? Işıksız, sade bir öğrenme masası isteyen kişiye uymaz. O kişi FLX4'e veya Mixtrack Pro FX'e baksın. Beat Assist'i kapalı tutup yine de ışık isteyen de buraya gelir.
+Kime uymaz? Işıksız, sade bir öğrenme masası isteyen kişiye uymaz, o kişi FLX4'e veya Mixtrack Pro FX'e baksın. Beat Assist'i kapalı tutup yine de ışık isteyen de buraya gelir.
 
 **Artıları:**
 - 16 pad ve stems.
@@ -76,20 +76,20 @@ Kime uymaz? Işıksız, sade bir öğrenme masası isteyen kişiye uymaz. O kiş
 
 ## MixTrack Go ve Mixtrack Pro FX
 
-MixTrack Go, 0,6 kg ve 324 mm gövde diyor. Çantanın yan cebi iddiası sayfada. İki kapasitif jog, scratch ve pitch bend için. Toplam 8 pad. Deck başına 4. Stems tarafında vokal, enstrüman, bas ve davul ayrılıyor. Smart Fader ve Fade FX var. Bluetooth ve USB-C başlıkta.
+MixTrack Go, 0,6 kg ve 324 mm gövde diyor, çantanın yan cebi iddiası da sayfada. İki kapasitif jog scratch ve pitch bend için duruyor, toplam 8 pad var, deck başına da 4. Stems tarafında vokal, enstrüman, bas ve davul ayrılıyor. Smart Fader ve Fade FX var, Bluetooth ile USB-C de başlıkta.
 
-0,6 kg, FLX4'ün 2,2 kg kaydının yanında başka bir eşya. Küçük jog, büyük deck hissi vermez. İlk ayında jog'u büyütmek isteyen kişi Go'da sıkılır. Otobüste taşıyacaksan sıkılmaz.
+0,6 kg, FLX4'ün 2,2 kg kaydının yanında başka bir eşya ve küçük jog büyük deck hissi vermez. İlk ayında jog'u büyütmek isteyen kişi Go'da sıkılır, otobüste taşıyacaksan sıkılmaz.
 
-Kime uymaz? 16 pad ve ışık gösterisi isteyen kişiye uymaz. O kişi Party Mix III. Geniş jog isteyen de Pro FX'e baksın.
+Kime uymaz? 16 pad ve ışık gösterisi isteyen kişiye uymaz, o kişi Party Mix III. Geniş jog isteyen de Pro FX'e baksın.
 
-Mixtrack Pro FX, Serato DJ Lite dahil diyor. İki deck, 24-bit ses kartı, Mac ve PC için tak-çalıştır USB. Jog 6 inç ve kapasitif. Çift paddle ile efekt. Anında loop. Her deck'te sekiz pad. SoundCloud ve TIDAL yayını maddede geçiyor. Yayın hesabın yoksa o cümle boş kalır.
+Mixtrack Pro FX, Serato DJ Lite dahil diyor. İki deck, 24-bit ses kartı ve Mac ile PC için tak-çalıştır USB var. Jog 6 inç ve kapasitif, çift paddle ile efekt, anında loop ve her deck'te sekiz pad var. SoundCloud ve TIDAL yayını maddede geçiyor, yayın hesabın yoksa o cümle boş kalır.
 
-Kime uymaz? 0,6 kg arayan kişiye uymaz. Pro FX'in kilo ve milimetresi bu maddelerde yok. Işık gösterisi de yok. Sade Serato masası isteyen için bu bir artı.
+Kime uymaz? 0,6 kg arayan kişiye uymaz. Pro FX'in kilo ve milimetresi bu maddelerde yok, ışık gösterisi de yok. Sade Serato masası isteyen için bu bir artı.
 
 **Artıları:**
-- Go çantaya girer. 0,6 kg.
+- Go çantaya girer, 0,6 kg.
 - Pro FX'te 6 inç jog ve Serato Lite.
-- İkisi de pad taşıyor. Adetleri farklı.
+- İkisi de pad taşıyor, adetleri farklı.
 
 **Eksileri:**
 - Go'da pad az.
@@ -101,11 +101,11 @@ Kime uymaz? 0,6 kg arayan kişiye uymaz. Pro FX'in kilo ve milimetresi bu maddel
 
 ## DDJ-FLX2 İnce Bir Sayfa
 
-DDJ-FLX2 sayfası adı ve AlphaTheta markasını yazıyor. Kanal, ped, kilo ve yazılım listesi bu kontrolde çıkmadı. İnce sayfaya kalın hikaye eklemem.
+DDJ-FLX2 sayfası adı ve AlphaTheta markasını yazıyor. Kanal, ped, kilo ve yazılım listesi bu kontrolde çıkmadı, ince sayfaya kalın hikaye eklemem.
 
-FLX4 ile aynı ailenin küçüğü gibi duruyor. "Gibi" bir ölçü değildir. Özellik maddesi yoksa FLX4'ün 2,2 kg ve rekordbox cümlesini FLX2'ye yapıştırma. Yapıştırırsan yanlış kutu gelir.
+FLX4 ile aynı ailenin küçüğü gibi duruyor ama "gibi" bir ölçü değildir. Özellik maddesi yoksa FLX4'ün 2,2 kg ve rekordbox cümlesini FLX2'ye yapıştırma, yapıştırırsan yanlış kutu gelir.
 
-Kime uymaz? Kâğıtta kanal ve yazılım görmek isteyen kişiye uymaz. O kişi FLX4 sayfasını okusun. İnce sayfa, ucuz diye alınmaz. Ucuz olup olmadığını ben yazmam. Fiyat değişir.
+Kime uymaz? Kâğıtta kanal ve yazılım görmek isteyen kişiye uymaz, o kişi FLX4 sayfasını okusun. İnce sayfa ucuz diye alınmaz, ucuz olup olmadığını ben yazmam ve fiyat değişir.
 
 **Artıları:**
 - FLX adını taşıyor.
@@ -119,55 +119,55 @@ Kime uymaz? Kâğıtta kanal ve yazılım görmek isteyen kişiye uymaz. O kişi
 
 ## İlk Ay Masayı Nasıl Kurarsın?
 
-Laptop fanı kapalı bir yastığın üstünde çalışmasın. FLX4 48,3 cm genişlik istiyor. Mutfak tezgahı darsa Go'nun 324 mm gövdesi sığar. Genişlik yetmiyorsa cihazı suçlama.
+Laptop fanı kapalı bir yastığın üstünde çalışmasın. FLX4 48,3 cm genişlik istiyor, mutfak tezgahı darsa Go'nun 324 mm gövdesi sığar ve genişlik yetmiyorsa cihazı suçlama.
 
-Kulaklığı 3,5 mm çıkışa FLX4'te takarsın. Başka modellerde jak yazmıyorsa uydurma. ATH-M50x katalogda baskı hissi diyor. Yarım saatte kulak acıyorsa beden değil, kafa bandıdır. Onu arama linkinden aç, kontrol cihazının yerine koyma.
+Kulaklığı 3,5 mm çıkışa FLX4'te takarsın, başka modellerde jak yazmıyorsa uydurma. ATH-M50x katalogda baskı hissi diyor, yarım saatte kulak acıyorsa beden değil, kafa bandıdır. Onu arama linkinden aç, kontrol cihazının yerine koyma.
 
-Serato kurulu bir akşam rekordbox kısayolu ezberleme. Bir yazılım, bir ay. Party Mix'te Beat Assist açıksa eşlemeyi ona bırak. Kapalıysa kulakla dene. İkisi birden, ilk hafta gürültüdür.
+Serato kurulu bir akşam rekordbox kısayolu ezberleme, bir yazılım bir ay yeter. Party Mix'te Beat Assist açıksa eşlemeyi ona bırak, kapalıysa kulakla dene. İkisi birden ilk hafta gürültüdür.
 
-Smart Fader geçişi tek başına öğrenmek değildir. Elle crossfader'ı da sür. Fade FX açıkken her geçiş süslenir. Süsü kapat, geçiş kötüyse fader'ı öğrenmemişsindir. FX bunu saklar.
+Smart Fader geçişi tek başına öğrenmek değildir, elle crossfader'ı da sür. Fade FX açıkken her geçiş süslenir. Süsü kapat, geçiş kötüyse fader'ı öğrenmemişsindir, FX bunu saklar.
 
-Hoparlörün yoksa laptop hoparlörü ilk üç gün idare eder. Dördüncü gün komşu duvarı konuşur. Katalogdaki KRK gibi monitörler bu yazının doğrulanmış listesinde değil. Onları kategori sayfasından ayrı düşün. Önce iki kanal otursun.
+Hoparlörün yoksa laptop hoparlörü ilk üç gün idare eder, dördüncü gün komşu duvarı konuşur. Katalogdaki KRK gibi monitörler bu yazının doğrulanmış listesinde değil, onları kategori sayfasından ayrı düşün ve önce iki kanal otursun.
 
-USB-C kablosu kutuda mı, sayfa her modelde söylemiyor. FLX4 iki USB-C diyor, kablonun hediye olduğunu söylemiyor. Go ve Party Mix de USB-C başlığında. Kabloyu ayrıca kontrol et. Eksik kablo, bozuk cihaz değildir.
+USB-C kablosu kutuda mı, sayfa her modelde söylemiyor. FLX4 iki USB-C diyor ama kablonun hediye olduğunu söylemiyor. Go ve Party Mix de USB-C başlığında, kabloyu ayrıca kontrol et, eksik kablo bozuk cihaz değildir.
 
 ## İlk Set: İki Şarkı, Bir Geçiş
 
-İlk akşam dört efekt açma. İki şarkı seç. Biri bitsin, diğeri girsin. FLX4'te EQ üç bant. -26 ile +6 dB yazıyor. O aralığın dışına bir hikaye ekleme. Bası sonuna kadar kesmek, geçişi saklar. Orta bandı az aç, vokal çarpışıyorsa indir.
+İlk akşam dört efekt açma, iki şarkı seç, biri bitsin ve diğeri girsin. FLX4'te EQ üç bant ve aralık -26 ile +6 dB yazıyor, o aralığın dışına bir hikaye ekleme. Bası sonuna kadar kesmek geçişi saklar, orta bandı az aç ve vokal çarpışıyorsa indir.
 
-Party Mix'te Beat Assist açıksa ona bak. Kapalı kurulumda kulakla vuruşu say. Smart Fader'ı ilk geçişte kullan, ikinci geçişte kapat. İkisi de düzgünse fader'ı öğrenmişsindir. Yalnızca akıllı geçiş düzgünse cihaz seni taşımıştır.
+Party Mix'te Beat Assist açıksa ona bak, kapalı kurulumda kulakla vuruşu say. Smart Fader'ı ilk geçişte kullan ve ikinci geçişte kapat. İkisi de düzgünse fader'ı öğrenmişsindir, yalnızca akıllı geçiş düzgünse cihaz seni taşımıştır.
 
-Go'da jog küçük. Scratch denemesi ilk hafta şart değil. Pitch bend yeter. 8 pad, hot cue için duruyor. 16 pad isteği o gün doğarsa Party Mix III'e bak. Go'yu iade edip aynı akşam büyütme. Önce 0,6 kg senin için küçük mü, onu anla.
+Go'da jog küçük, scratch denemesi ilk hafta şart değil ve pitch bend yeter. 8 pad hot cue için duruyor. 16 pad isteği o gün doğarsa Party Mix III'e bak. Go'yu iade edip aynı akşam büyütme, önce 0,6 kg senin için küçük mü onu anla.
 
-Pro FX'in 6 inç jog'u scratch isteyen ele daha yakın. Paddle efektleri açıkken her hareket süslenir. Süsü kapat. Loop düğmesi, paddle'dan daha dürüst bir ilk derstir. TIDAL veya SoundCloud hesabın yoksa yayın cümlesi seni ilgilendirmez. Kendi dosyan MP3 ise FLX4'ün dosya listesi onu kapsıyor. Pro FX sayfası aynı dosya listesini bu maddelerde vermiyor. Vermiyorsa FLX4 listesini ona yapıştırma.
+Pro FX'in 6 inç jog'u scratch isteyen ele daha yakın. Paddle efektleri açıkken her hareket süslenir, süsü kapat, loop düğmesi ise paddle'dan daha dürüst bir ilk derstir. TIDAL veya SoundCloud hesabın yoksa yayın cümlesi seni ilgilendirmez. Kendi dosyan MP3 ise FLX4'ün dosya listesi onu kapsıyor. Pro FX sayfası aynı dosya listesini bu maddelerde vermiyor, vermiyorsa FLX4 listesini ona yapıştırma.
 
-Kulaklık baskısı yarım saatte artıyorsa sesi yükseltme. ATH-M50x katalogda baskı diyor. Doğrulanmış bir `/dp/` değil. Arama linki başka bir satıcıya düşebilir. Düşerse modeli başlıkta gör.
+Kulaklık baskısı yarım saatte artıyorsa sesi yükseltme. ATH-M50x katalogda baskı diyor ve doğrulanmış bir `/dp/` değil, arama linki başka bir satıcıya düşebilir. Düşerse modeli başlıkta gör.
 
-Komşu şikayeti hoparlörden gelir, kulaklıktan değil. İlk ay kulaklıkla kal. RCA çıkışı FLX4'te var. Diğer modellerde ana çıkış yazmıyorsa hoparlör kablosunu uydurma.
+Komşu şikayeti hoparlörden gelir, kulaklıktan değil, ilk ay kulaklıkla kal. RCA çıkışı FLX4'te var, diğer modellerde ana çıkış yazmıyorsa hoparlör kablosunu uydurma.
 
-Yazılımı bir kez kur, kısayolu bir kâğıda yaz. İkinci yazılımı aynı hafta kurma. Kurarsan hangi düğmenin hangi programda boş kaldığını ayıramazsın. Boş düğme, bozuk cihaz değildir.
+Yazılımı bir kez kur ve kısayolu bir kâğıda yaz, ikinci yazılımı aynı hafta kurma. Kurarsan hangi düğmenin hangi programda boş kaldığını ayıramazsın, boş düğme bozuk cihaz değildir.
 
 ## Sık Sorulan Sorular
 
 ### Serato ile rekordbox aynı kutuda mı?
 
-FLX4'te rekordbox var, Serato yok. Pro FX'te Serato DJ Lite var. Party Mix III ve Go başlıklarında Serato DJ Lite ve djay geçiyor. İkisini bir kutuda bedava sanma.
+FLX4'te rekordbox var, Serato yok. Pro FX'te Serato DJ Lite var, Party Mix III ve Go başlıklarında ise Serato DJ Lite ile djay geçiyor. İkisini bir kutuda bedava sanma.
 
 ### Dört kanal şart mı?
 
-İlk ay değil. Buradaki modeller iki deck. Üçüncü şarkıyı aynı anda sürmek bu setin işi değil.
+İlk ay değil, buradaki modeller iki deck ve üçüncü şarkıyı aynı anda sürmek bu setin işi değil.
 
 ### Işıklı cihaz evde olur mu?
 
-Party Mix III vuruşa göre yanıyor. İstiyorsan al. İstemiyorsan FLX4 veya Pro FX. Işığın kapanma düğmesi bu maddelerde net değil.
+Party Mix III vuruşa göre yanıyor. İstiyorsan al, istemiyorsan FLX4 veya Pro FX'e bak, ışığın kapanma düğmesi bu maddelerde net değil.
 
 ### FLX2, FLX4'ün yarısı mı?
 
-Sayfa bunu yazmıyor. Özellik listesi ince. Yarı fiyat olsa bile yarı özellik diyemem.
+Sayfa bunu yazmıyor ve özellik listesi ince. Yarı fiyat olsa bile yarı özellik diyemem.
 
 ## Bütçe, Orta ve Üst Paket
 
-Fiyatı ben kilitlemem. Stok değişir.
+Fiyatı ben kilitlemem, stok değişir.
 
 | Paket | İçinde ne var | Kime uyar |
 | --- | --- | --- |
@@ -175,4 +175,4 @@ Fiyatı ben kilitlemem. Stok değişir.
 | Orta | [DDJ-FLX4](aff://pioneer-ddj-flx4) | Rekordbox ile masada öğrenecek kişi |
 | Üst | [Party Mix III](aff://numark-party-mix-iii) veya [Pro FX](aff://numark-mixtrack-pro-fx) | 16 pad, ışık veya 6 inç jog isteyen kişi |
 
-İlk kutuyu yazılımına göre seç. Rekordbox ise FLX4. Serato Lite ve küçük gövde ise Go. Işık ve 16 pad ise Party Mix III.
+İlk kutuyu yazılımına göre seç. Rekordbox ise FLX4, Serato Lite ve küçük gövde ise Go. Işık ve 16 pad ise Party Mix III.

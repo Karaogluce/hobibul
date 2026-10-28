@@ -14,33 +14,31 @@ starter_text: "İlk set Canon EOS R100 travel kit. Sayfa APS-C, 24,1 MP, kit len
 draft: "false"
 ---
 
-İlk fotoğraf makineni lensi kutuda olan bir kitle al. Gövde tek başına, akşam çekmecede kalır.
-
-APS-C ile tam kareyi aynı hafta karıştırma. Biri başlangıç gövdesi, diğeri lens isteyen ayrı bir kapı. Kapıyı fiyatla değil, kutuda ne yazdığıyla seç.
+İlk fotoğraf makineni lensi kutuda olan bir kitle al, çünkü gövde tek başına akşam çekmecede kalır. APS-C ile tam kareyi aynı hafta karıştırma. Biri başlangıç gövdesi, diğeri lens isteyen ayrı bir kapı; kapıyı fiyatla değil, kutuda ne yazdığıyla seç.
 
 ## Kit Sayfası ile Gövde Sayfasını Ayır
 
-Canon EOS R100 RF-S 18-45mm kit, başlıkta lensi söylüyor. Aynasız. Aynı sayfanın madde listesi başlığı tekrarlıyor. Megapiksel orada yok. Yoksa travel kitin sayısından ödünç alma.
+Canon EOS R100 RF-S 18-45mm kit başlıkta lensi söylüyor; gövde aynasız. Aynı sayfanın madde listesi başlığı tekrarlıyor. Megapiksel orada yok; yoksa travel kitin sayısından ödünç alma.
 
-Travel kit ayrı bir ASIN. Orada gövde ve RF-S 18-45mm, APS-C CMOS, 24,1 megapiksel yazıyor. Video maddesi 4K UHD ve Full HD. 4K için 24p, Full HD için 60p geçiyor. Kart yuvası SD. Mikrofon 3,5 mm. ISO 100-25600. Bluetooth ve 2,4 GHz Wi-Fi var. Sette omuz çantası ve 64 GB kart yazıyor.
+Travel kit ayrı bir ASIN. Orada gövde ve RF-S 18-45mm, APS-C CMOS, 24,1 megapiksel yazıyor. Video maddesinde 4K UHD ve Full HD var; 4K için 24p, Full HD için 60p geçiyor. Kart yuvası SD, mikrofon 3,5 mm, ISO aralığı 100-25600. Bluetooth ve 2,4 GHz Wi-Fi da yazıyor. Sette omuz çantası ve 64 GB kart geçiyor.
 
-İki sayfa iki ürün. 24,1 sayısını lensli sade kitin maddesine yapıştırma. Sade kit, lensi başlıkta veriyor. Ölçüyü travel sayfası veriyor. İkisini de aç. Hangisinin çantası olduğunu gör.
+İki sayfa iki ürün. 24,1 sayısını lensli sade kitin maddesine yapıştırma. Sade kit lensi başlıkta veriyor, ölçüyü travel sayfası veriyor. İkisini de aç ve hangisinin çantası olduğunu gör.
 
-Sony Alpha 7 III gövde sayfası 24,2 MP, 4K, beş yönlü sabitleme ve 0,02 saniye odak diyor. Eurasia garanti ibaresi başlıkta. Lens yok. Su dayanımı madde listesinde geçiyor. Bu kontrolde sepete düğmesi net ayrışmadı. Stok yoksa zorlama.
+Sony Alpha 7 III gövde sayfası 24,2 MP, 4K, beş yönlü sabitleme ve 0,02 saniye odak diyor. Eurasia garanti ibaresi başlıkta, lens yok, su dayanımı ise madde listesinde geçiyor. Bu kontrolde sepete düğmesi net ayrışmadı; stok yoksa zorlama.
 
-Katalogdaki Canon EOS R50 ve Sony A6400 ayrı kayıtlar. Onların `/dp/` sayfası bu turda yok. Link arama açar. R100 sayfalarıyla karıştırma.
+Katalogdaki Canon EOS R50 ve Sony A6400 ayrı kayıtlar. Onların `/dp/` sayfası bu turda yok, link arama açar. R100 sayfalarıyla karıştırma.
 
-Havadan kare başka alet. [Drone seçimi](/makale/drone-secimi-yeni-baslayanlar-icin/) orada. Kategori [fotoğrafçılık](/kategori/sanat/fotografcilik/).
+Havadan kare başka bir alet; [Drone seçimi](/makale/drone-secimi-yeni-baslayanlar-icin/) orada, kategori de [fotoğrafçılık](/kategori/sanat/fotografcilik/).
 
 ## R100 Travel Kit: Sayılar Bu Sayfada
 
-Travel kit, başlangıç için en dolu doğrulanmış kayıt. 24,1 MP APS-C. Kit lens RF-S 18-45mm. 4K var ama madde 24 kare diyor. Hızlı hareket, 4K 24p ile akıcı yavaş çekim olmaz. Full HD 60p o maddede duruyor. Hızlı oyun günü için oraya bak.
+Travel kit, başlangıç için en dolu doğrulanmış kayıt. 24,1 MP APS-C, kit lens de RF-S 18-45mm. 4K var, ama madde 24 kare diyor. Hızlı hareket, 4K 24p ile akıcı bir yavaş çekim olmaz. Full HD 60p aynı maddede duruyor; hızlı bir oyun günü için oraya bak.
 
-64 GB kart sette yazıyor. İkinci kartı ilk gün alma. Dolar, çekimi büyütür. Çanta da sette. Ayrı bir sırt çantası, bu kaydın vaadi değil.
+64 GB kart sette yazıyor; ikinci kartı ilk gün alma. Kart dolar, çekim de büyür. Çanta da sette; ayrı bir sırt çantası bu kaydın vaadi değil.
 
-ISO 100-25600 yazıyor. Genişletilmiş bir üst sınır bu maddede yok. Yoksa ekleme. Wi-Fi 2,4 GHz. 5 GHz yazmıyor. Ev ağın yalnızca 5 GHz ise sayfayı buna göre oku.
+ISO 100-25600 yazıyor. Genişletilmiş bir üst sınır bu maddede yok; yoksa ekleme. Wi-Fi 2,4 GHz, 5 GHz yazmıyor. Ev ağın yalnızca 5 GHz ise sayfayı buna göre oku.
 
-Kime uymaz? Tam kare ve gövde içi sabitleme romanı isteyen kişiye uymaz. O kişi A7 III başlığına baksın. Lenssiz sinema gövdesi arayan da travel kitin çantasını boşuna taşımasın.
+Tam kare ve gövde içi sabitleme romanı isteyen kişiye uymaz; o kişi A7 III başlığına baksın. Lenssiz bir sinema gövdesi arayan da travel kitin çantasını boşuna taşımasın.
 
 **Artıları:**
 - 24,1 MP APS-C ve kit lens.
@@ -55,11 +53,11 @@ Kime uymaz? Tam kare ve gövde içi sabitleme romanı isteyen kişiye uymaz. O k
 
 ## Sade R100 Kit: Lens Var, Sayı Yok
 
-Sade kitin başlığı RF-S 18-45mm ve aynasız diyor. Sepete ekle bu kontrolde görüldü. Megapiksel, ISO ve kart maddesi yok. Travel kitin 24,1 sayısını buraya kopyalama. Kopyalarsan yanlış kutunun özelliğini anlatmış olursun.
+Sade kitin başlığı RF-S 18-45mm ve aynasız diyor. Sepete ekle bu kontrolde görüldü. Megapiksel, ISO ve kart maddesi yok; travel kitin 24,1 sayısını buraya kopyalama, kopyalarsan yanlış kutunun özelliğini anlatmış olursun.
 
-Çanta ve 64 GB bu başlıkta yok. Kartın varsa sade kit yeter. Kartın yoksa travel kit daha az eksik çıkarır. İkinci bir kutu aramak, ilk haftayı yer.
+Çanta ve 64 GB bu başlıkta yok. Kartın varsa sade kit yeter; kartın yoksa travel kit daha az eksik çıkarır, çünkü ikinci bir kutu aramak ilk haftayı yer.
 
-Kime uymaz? Kutuda kart ve çanta görmek isteyen kişiye uymaz. Sayıyı madde madde okumak isteyen de travel sayfasında kalsın.
+Kutuda kart ve çanta görmek isteyen kişiye uymaz. Sayıyı madde madde okumak isteyen de travel sayfasında kalsın.
 
 **Artıları:**
 - Lens başlıkta.
@@ -74,11 +72,11 @@ Kime uymaz? Kutuda kart ve çanta görmek isteyen kişiye uymaz. Sayıyı madde 
 
 ## Sony A7 III: Lens Ayrı
 
-A7 III gövde, tam kare 24,2 MP. 4K başlıkta. Beş yönlü sabitleme başlıkta. 0,02 saniye odak başlıkta. Su dayanımı maddede. Lens maddede yok.
+A7 III gövde, tam kare 24,2 MP. 4K, beş yönlü sabitleme ve 0,02 saniye odak başlıkta. Su dayanımı maddede. Lens maddede yok.
 
-Lens yoksa ilk akşam çekim de yok. E-mount bir lens ayrıca alınır. O lensin sayfasını bu turda doğrulamadım. Gövde linki lens getirmez.
+Lens yoksa ilk akşam çekim de yok. E-mount bir lens ayrıca alınır; o lensin sayfasını bu turda doğrulamadım ve gövde linki lens getirmez.
 
-Kime uymaz? İlk makinesi olan ve tek kutu isteyen kişiye uymaz. R100 travel kit o kişi için duruyor. Stok düğmesi bu kontrolde net değil. Aç, düğme yoksa bekleme listesine girme.
+İlk makinesi olan ve tek kutu isteyen kişiye uymaz; R100 travel kit o kişi için duruyor. Stok düğmesi bu kontrolde net değil. Sayfayı aç, düğme yoksa bekleme listesine girme.
 
 **Artıları:**
 - Tam kare 24,2 MP başlıkta.
@@ -93,17 +91,17 @@ Kime uymaz? İlk makinesi olan ve tek kutu isteyen kişiye uymaz. R100 travel ki
 
 ## Katalogdaki R50, A6400 ve Kart
 
-EOS R50 katalogda kompakt, otomatik odak ve 4K video diyor. Lens kiti ayrı. Pil küçük. Bu bir arama linki. R100 ile aynı kutu değildir.
+EOS R50 katalogda kompakt, otomatik odak ve 4K video diyor. Lens kiti ayrı, pil küçük. Bu bir arama linki; R100 ile aynı kutu değildir.
 
-A6400 katalogda hızlı otomatik odak, video ve kompakt diyor. Menü karmaşık. Pil küçük. Arama linki. Menü karmaşıksa ilk hafta R100 travel kit daha sakin bir kapı olabilir. Bunu bir test diye yazmıyorum. Katalog notu karmaşık diyor.
+A6400 katalogda hızlı otomatik odak, video ve kompakt diyor. Menü karmaşık, pil küçük. O da arama linki. Menü karmaşıksa ilk hafta R100 travel kit daha sakin bir kapı olabilir. Bunu bir test diye yazmıyorum; katalog notu karmaşık diyor.
 
-SanDisk Extreme Pro katalogda yüksek hız, 4K uyum ve dayanıklılık diyor. Kapasite seçimi eksi. Travel kit zaten 64 GB yazıyor. İkinci kart arayana bu kayıt duruyor. Sayfası doğrulanmadı.
+SanDisk Extreme Pro katalogda yüksek hız, 4K uyum ve dayanıklılık diyor. Eksi tarafı kapasite seçimi. Travel kit zaten 64 GB yazıyor; ikinci kart arayana bu kayıt duruyor, ama sayfası doğrulanmadı.
 
-Peak Design askı katalogda hızlı bağlantı ve konfor diyor. Pahalı. Metal parça var. Askı şart değil. Travel kitte omuz çantası yazıyor. Çanta, askının yerine geçmez. Boyun askısı ayrı düşünülür.
+Peak Design askı katalogda hızlı bağlantı ve konfor diyor. Pahalı, metal parça da var ve askı şart değil. Travel kitte omuz çantası yazıyor; çanta askının yerine geçmez, boyun askısı ayrı düşünülür.
 
-Manfrotto kompakt tripod katalogda hafif ve sağlam diyor. Yük kapasitesi sınırlı. R100 hafif bir başlangıç gövdesi. Ağır bir tam kare ve uzun lens, sınırlı kapasiteye uymaz. A7 III'e tripod alacaksan kapasite notunu oku. Sayı yok. Yoksa kilo uydurma.
+Manfrotto kompakt tripod katalogda hafif ve sağlam diyor. Yük kapasitesi sınırlı. R100 hafif bir başlangıç gövdesi. Ağır bir tam kare ve uzun bir lens, sınırlı kapasiteye uymaz. A7 III'e tripod alacaksan kapasite notunu oku. Sayı yok; yoksa kilo uydurma.
 
-Kime uymaz? Tek kutu isteyen kişi bu katalog parçalarını ilk gün almasın. Önce travel kit otursun.
+Tek kutu isteyen kişi bu katalog parçalarını ilk gün almasın; önce travel kit otursun.
 
 **Artıları:**
 - R50 ve A6400 katalogda kompakt.
@@ -118,55 +116,55 @@ Kime uymaz? Tek kutu isteyen kişi bu katalog parçalarını ilk gün almasın. 
 
 ## İlk Hafta Kart, Çanta ve Işık
 
-Travel kitteki 64 GB dolmadan ikinci kart açma. Dolar, yedek sandığın dosyayı siler. Silmeden önce bilgisayara al. Bunu bir yazılım dersi sanma. Kopyala, sonra format at.
+Travel kitteki 64 GB dolmadan ikinci kart açma. Kart dolar ve yedek sandığın dosyayı silersin; silmeden önce bilgisayara al. Bunu bir yazılım dersi sanma: kopyala, sonra format at.
 
-4K 24p, akan suyu ipek yapmaz. Full HD 60p maddede var. Hızlı çocuk ve sokak için oradan başla. 4K'yı manzara ve sabit karede dene. İkisini aynı saniyede bekleme.
+4K 24p akan suyu ipek yapmaz. Full HD 60p maddede duruyor; hızlı çocuk ve sokak için oradan başla, 4K'yı ise manzara ve sabit karede dene. İkisini aynı saniyede bekleme.
 
-ISO 25600 tavan diye her gece oraya çıkma. Tavan, kumlanma demektir. Madde bunu anlatmıyor. Anlatmayınca temiz gece vaadi de yok. Işık varsa ISO'yu tabanda tut. 100 yazıyor. Oradan başla.
+ISO 25600 tavan diye her gece oraya çıkma. Tavan kumlanma demektir. Madde bunu anlatmıyor; anlatmayınca temiz bir gece vaadi de yok. Işık varsa ISO'yu tabanda tut. 100 yazıyor, oradan başla.
 
-Wi-Fi 2,4 GHz. Telefonuna aktarım vaadi, evdeki 5 GHz ağda susabilir. Kablo duruyorsa kablo daha az sürpriz çıkarır. 3,5 mm mikrofon, video için ayrı bir kapı. İlk hafta şart değil. Görüntü otursun, ses ikinci hafta.
+Wi-Fi 2,4 GHz olduğu için telefonuna aktarım vaadi evdeki 5 GHz ağda susabilir. Kablo duruyorsa kablo daha az sürpriz çıkarır. 3,5 mm mikrofon video için ayrı bir kapı; ilk hafta şart değil. Görüntü otursun, ses ikinci haftaya kalsın.
 
-A7 III aldıysan lens gelmeden gövdeyi şarja koy. Şarj, çekim değildir. Eurasia ibaresi başlıkta. Garanti kapsamını başlıktan hukuk diye üretme. Kutudaki kağıdı oku.
+A7 III aldıysan lens gelmeden gövdeyi şarja koy. Şarj çekim değildir. Eurasia ibaresi başlıkta; garanti kapsamını başlıktan hukuk diye üretme, kutudaki kağıdı oku.
 
-R50 aramasını R100 diye kaydetme. Başlık saparsa geri dön. Aynı marka, aynı kutu demek değildir. A6400 da Sony diye A7 III'ün küçüğü sayılmaz. Katalog pilin küçük olduğunu söylüyor. İki küçük pil, bir tam kare gövde etmez.
+R50 aramasını R100 diye kaydetme; başlık saparsa geri dön. Aynı marka aynı kutu demek değildir. A6400 da Sony diye A7 III'ün küçüğü sayılmaz. Katalog pilin küçük olduğunu söylüyor; iki küçük pil bir tam kare gövde etmez.
 
-Çantayı travel kitten çıkarıp A7 III'e takma hayali kurma. Çanta o setin parçası. Gövde değişince askı ve kapasite de değişir. Manfrotto kaydı yükü sınırlı diyor. Sınırın kilosu yok. Ağır gelirse indir.
+Çantayı travel kitten çıkarıp A7 III'e takma hayali kurma, çünkü çanta o setin parçası. Gövde değişince askı ve kapasite de değişir. Manfrotto kaydı yükü sınırlı diyor; sınırın kilosu yok, ağır gelirse indir.
 
 ## Kart, Boyun ve İlk Yüz Çekim
 
-64 GB dolmadan silme. Önce bilgisayara kopyala. Kopya yoksa format, çekimi bitirir. Travel kit bu kartı sette sayıyor. Sade kit saymıyor. Hangi kutuyu açtığını karıştırırsan kart yok sanırsın. Kutu kapağını oku.
+64 GB dolmadan silme; önce bilgisayara kopyala, çünkü kopya yoksa format çekimi bitirir. Travel kit bu kartı sette sayıyor, sade kit saymıyor. Hangi kutuyu açtığını karıştırırsan kart yok sanırsın, o yüzden kutu kapağını oku.
 
-Boyun askısı yoksa çanta kayışı idare eder. Kayış, yürüyüş askısı değildir. Peak Design araması o iş için duruyor. Pahalı notu katalogda. İlk hafta çanta yeter. Metal parça, ceket yakasını çizer. Çizerse askıyı ikinci aya bırak.
+Boyun askısı yoksa çanta kayışı idare eder, ama kayış yürüyüş askısı değildir. Peak Design araması o iş için duruyor ve pahalı notu katalogda; ilk hafta çanta yeter. Metal parça ceket yakasını çizer, çizerse askıyı ikinci aya bırak.
 
-İlk yüz çekiminde 4K 24p açma. Full HD 60p daha az yer tutar. Madde ikisini de yazıyor. Yüz, hareket eder. 24 kare, her gülüşü tek kare gibi bölebilir. Bunu bir sinema övgüsü sanma. Kayıt yalnızca kare sayısını veriyor.
+İlk yüz çekiminde 4K 24p açma. Full HD 60p daha az yer tutar ve madde ikisini de yazıyor. Yüz hareket ettiği için 24 kare her gülüşü tek kare gibi bölebilir. Bunu bir sinema övgüsü sanma; kayıt yalnızca kare sayısını veriyor.
 
-ISO'yu 25600'e kilitleme. Tavan, gece izni değildir. Lamba yak, ISO'yu 100 civarında tut. "Civarında" bir katalog sayısı değil. Taban 100 yazıyor. Oradan ayrılman gerekirse az ayrıl.
+ISO'yu 25600'e kilitleme, çünkü tavan gece izni değildir. Lambayı yak ve ISO'yu 100 civarında tut. "Civarında" bir katalog sayısı değil; taban 100 yazıyor, oradan ayrılman gerekirse az ayrıl.
 
-Wi-Fi aktarımı 2,4 GHz. Telefonun bu bandı kapalıysa kablo kullan. Kablo tipi sayfada tek bir zorunlu model değil. 3,5 mm mikrofon da ilk gün değil. Görüntü dosyası düzgün kopyalanıyorsa sesi sonra eklersin.
+Wi-Fi aktarımı 2,4 GHz; telefonun bu bandı kapalıysa kablo kullan. Kablo tipi sayfada tek bir zorunlu model değil. 3,5 mm mikrofon da ilk gün değil, görüntü dosyası düzgün kopyalanıyorsa sesi sonra eklersin.
 
-A7 III gövdesini lensesiz çantaya koyma. Toz, açık yuvaya girer. Kapak kutuda mı, bu kontrolde madde demiyor. Demiyorsa kapak var sanma. Açık yuva ile seyahat etme.
+A7 III gövdesini lensesiz çantaya koyma, çünkü toz açık yuvaya girer. Kapak kutuda mı, bu kontrolde madde demiyor; demiyorsa kapak var sanma ve açık yuvayla seyahat etme.
 
-R50 aramasında "lens kiti ayrı" katalogda. Ayrı yazıyorsa travel kitteki 18-45 hazırlığı onda yok demektir. Başlığı R100 sandıysan geri dön. A6400 menü notu karmaşık. İlk hafta menüyle kavga etmek istemiyorsan o aramayı ertele.
+R50 aramasında "lens kiti ayrı" katalogda. Ayrı yazıyorsa travel kitteki 18-45 hazırlığı onda yoktur; başlığı R100 sandıysan geri dön. A6400 menü notu karmaşık, ilk hafta menüyle kavga etmek istemiyorsan o aramayı ertele.
 
-Pil küçük notu R50 ve A6400 katalogunda. R100 travel sayfası pil boyu yazmıyor. Yazmıyorsa küçük deme. Yedek pil uydurma. Bir pil biterse çekim biter. Bunu yaşamadan ikinci pil arama. Arama linki başka kapasite getirir. İlk yüz çekimini pili doluyken yap. Boş pil, 24,1 megapikseli rafta bırakır.
+Pil küçük notu R50 ve A6400 katalogunda. R100 travel sayfası pil boyu yazmıyor; yazmıyorsa küçük deme. Yedek pil uydurma. Bir pil biterse çekim biter, bunu yaşamadan ikinci pil arama. Arama linki başka bir kapasite getirir. İlk yüz çekimini pili doluyken yap; boş pil 24,1 megapikseli rafta bırakır.
 
 ## Sık Sorulan Sorular
 
 ### Sade kit ile travel kit aynı sayı mı?
 
-Başlıklar benziyor. 24,1 MP, ISO ve 64 GB kart travel sayfasında. Sade kitin maddesi başlığı tekrarlıyor. Sayıyı oradan okuma.
+Başlıklar benziyor, ama 24,1 MP, ISO ve 64 GB kart travel sayfasında. Sade kitin maddesi başlığı tekrarlıyor; sayıyı oradan okuma.
 
 ### A7 III ilk makine olur mu?
 
-Gövde olur, set olmaz. Lens ayrı. Stok düğmesi bu kontrolde net değil. Tek kutu istiyorsan R100 travel kit.
+Gövde olur, set olmaz, çünkü lens ayrı. Stok düğmesi bu kontrolde net değil. Tek kutu istiyorsan R100 travel kit duruyor.
 
 ### 4K şart mı?
 
-Travel kitte var ve 24p diye yazılmış. Full HD 60p aynı maddede. Hızlı hareket için 60p daha dürüst bir ilk ay.
+Travel kitte var ve 24p diye yazılmış. Full HD 60p aynı maddede duruyor; hızlı hareket için 60p daha dürüst bir ilk ay.
 
 ### İkinci kart ne zaman?
 
-64 GB dolunca. Extreme Pro araması o zaman. İlk gün değil.
+64 GB dolunca Extreme Pro aramasına bakarsın, ilk gün değil.
 
 ## Bütçe, Orta ve Üst Paket
 
@@ -178,4 +176,4 @@ Rakam sayfada değişir. Stok da değişir.
 | Orta | [R100 travel kit](aff://canon-eos-r100-travel) | 24,1 MP, lens, çanta ve 64 GB isteyen kişi |
 | Üst | [A7 III gövde](aff://sony-a7-iii-body) | Tam kare isteyen, lensi ayrıca alacak kişi |
 
-İlk kutun travel kit olsun. Tam kareyi lenssiz gövde diye ayrıca düşün. Kartı dolmadan silme.
+İlk kutun travel kit olsun. Tam kareyi lenssiz gövde diye ayrıca düşün ve kartı dolmadan silme.
