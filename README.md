@@ -146,6 +146,9 @@ Kurulum (bir kerelik): GitHub → Settings → Secrets and variables → Actions
   Beğendiğin makalenin `content/articles/…md` dosyasında `draft: "true"` → `"false"` yapıp kaydedince site otomatik güncellenir.
   Güvendiğinde `TASLAK_MODU` = `false` yap, makaleler doğrudan yayınlanır.
 - Opsiyonel `GEMINI_MODEL`: model adı eskirse AI Studio'dan güncel adı yaz.
+- Opsiyonel `GEMINI_MODEL_YEDEK` (variable): ana model 503/429 verdiğinde sırayla denenecek yedek
+  model(ler), virgülle. Örn. `gemini-flash-lite-latest`. Günlük kota (429 per-day) algılanırsa
+  beklenmeden doğrudan yedek modele geçilir; kota her gece Pasifik saatiyle 00:00'da sıfırlanır.
 
 Kalite kapıları (geçemeyen makale yayınlanmaz, `content/uretim_log.json` → `atlanan`): minimum kelime,
 H2 sayısı, SSS bölümü, tüm ürünlerin linki, fiyat/abartı yasağı, mevcut makalelerle benzerlik kontrolü.

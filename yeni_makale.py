@@ -12,6 +12,7 @@ Kullanım örnekleri (Windows / Python 3.11, ek paket gerekmez):
 Kurulum: aynı klasöre .env dosyası oluştur ve içine şunu yaz:
   GEMINI_API_KEY=anahtarin
   GEMINI_MODEL=gemini-flash-latest      (isteğe bağlı; model adı değişirse AI Studio'dan kopyala)
+  GEMINI_MODEL_YEDEK=gemini-flash-lite-latest   (isteğe bağlı; kota/yoğunlukta yedek model)
 
 Mantık: Ürünleri SEN seçersin (content/products.json). Model yalnızca bu ürün
 verilerini (ad, açıklama, artı/eksi) kullanarak metni yazar; ürün, fiyat veya
@@ -115,46 +116,62 @@ KESİN KURALLAR:
 """
 
 
+GUNLUK_KOTA = re.compile(r"per_?day|daily|günlük", re.I)
+
+
 def call_gemini(prompt, key, model):
-    url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
+    """GEMINI_MODEL_YEDEK (virgüllü) tanımlıysa kota/yoğunlukta sırayla yedek modelleri dener."""
+    modeller = [model] + [m.strip() for m in os.environ.get("GEMINI_MODEL_YEDEK", "").split(",") if m.strip()]
     body = json.dumps({
         "contents": [{"parts": [{"text": prompt}]}],
         "generationConfig": {"temperature": 0.6, "maxOutputTokens": 8192},
     }).encode("utf-8")
-    req = urllib.request.Request(url, data=body, method="POST", headers={
-        "Content-Type": "application/json", "x-goog-api-key": key})
-    deneme, kopma = 1, 0
-    while True:
-        try:
-            with urllib.request.urlopen(req, timeout=600) as r:
-                data = json.loads(r.read().decode("utf-8"))
-            parts = data["candidates"][0]["content"]["parts"]
-            return "".join(p.get("text", "") for p in parts).strip()
-        except urllib.error.HTTPError as e:
-            msg = e.read().decode("utf-8", "replace")[:300]
-            if e.code in (429, 500, 503):
+    nedenler = []
+    for mi, aktif in enumerate(modeller):
+        if mi:
+            print(f"  → Yedek modele geçiliyor: {aktif}")
+        url = f"https://generativelanguage.googleapis.com/v1beta/models/{aktif}:generateContent"
+        req = urllib.request.Request(url, data=body, method="POST", headers={
+            "Content-Type": "application/json", "x-goog-api-key": key})
+        deneme, kopma = 1, 0
+        while True:
+            try:
+                with urllib.request.urlopen(req, timeout=600) as r:
+                    data = json.loads(r.read().decode("utf-8"))
+                parts = data["candidates"][0]["content"]["parts"]
+                return "".join(p.get("text", "") for p in parts).strip()
+            except urllib.error.HTTPError as e:
+                raw = e.read().decode("utf-8", "replace")
+                msg = raw[:300]
+                if e.code not in (429, 500, 503):
+                    raise GeminiError(f"Gemini hatası {e.code}: {msg} (Model adı eskimiş olabilir: GEMINI_MODEL değerini AI Studio'dan kontrol et.)")
+                if e.code == 429 and GUNLUK_KOTA.search(raw):
+                    nedenler.append(f"{aktif}: günlük kota doldu")
+                    print(f"  ! {aktif}: günlük kota doldu; beklemek çözmez, kota gece yarısı sıfırlanır.")
+                    break
                 if deneme >= MAX_DENEME:
-                    raise GeminiError(
-                        f"Gemini {e.code} hatası {MAX_DENEME} denemede geçmedi; üretim durduruldu. "
-                        f"Sunucu yoğun olabilir, birkaç dakika sonra tekrar dene. Yanıt: {msg}")
+                    nedenler.append(f"{aktif}: {e.code}, {MAX_DENEME} deneme ({msg[:120]})")
+                    break
                 wait = 20 * 2 ** (deneme - 1)
                 print(f"  API {e.code} (sunucu yoğun), {wait} sn bekleniyor… "
                       f"(deneme {deneme}/{MAX_DENEME - 1})")
                 time.sleep(wait)
                 deneme += 1
-                continue
-            raise GeminiError(f"Gemini hatası {e.code}: {msg} (Model adı eskimiş olabilir: GEMINI_MODEL değerini AI Studio'dan kontrol et.)")
-        except (http.client.RemoteDisconnected, urllib.error.URLError) as e:
-            # urllib bazı sürümlerde bağlantı kopmasını URLError içine sarar
-            if not (isinstance(e, http.client.RemoteDisconnected)
-                    or isinstance(getattr(e, "reason", None), http.client.RemoteDisconnected)):
-                raise
-            kopma += 1
-            if kopma > KOPMA_DENEME:
-                raise GeminiError(
-                    f"Gemini bağlantısı {KOPMA_DENEME} kez üst üste koptu; üretim durduruldu.")
-            print(f"  Bağlantı koptu, 30 sn bekleniyor… ({kopma}/{KOPMA_DENEME})")
-            time.sleep(30)
+            except (http.client.RemoteDisconnected, urllib.error.URLError) as e:
+                # urllib bazı sürümlerde bağlantı kopmasını URLError içine sarar
+                if not (isinstance(e, http.client.RemoteDisconnected)
+                        or isinstance(getattr(e, "reason", None), http.client.RemoteDisconnected)):
+                    raise
+                kopma += 1
+                if kopma > KOPMA_DENEME:
+                    nedenler.append(f"{aktif}: bağlantı {KOPMA_DENEME} kez koptu")
+                    break
+                print(f"  Bağlantı koptu, 30 sn bekleniyor… ({kopma}/{KOPMA_DENEME})")
+                time.sleep(30)
+    raise GeminiError(
+        "Gemini'den yanıt alınamadı; üretim durduruldu. " + " | ".join(nedenler) +
+        ". Günlük kota dolduysa yarın (kota Pasifik gece yarısı sıfırlanır) tekrar dene; "
+        "istersen GEMINI_MODEL_YEDEK ile başka bir model tanımla.")
 
 
 def validate(body, prods):

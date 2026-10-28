@@ -35,6 +35,7 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_MODEL_YEDEK: ${{ vars.GEMINI_MODEL_YEDEK }}
           TASLAK_MODU: ${{ vars.TASLAK_MODU || 'true' }}
         run: python otomatik.py --adet ${{ github.event.inputs.adet || '2' }}
 

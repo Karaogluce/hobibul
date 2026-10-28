@@ -9,7 +9,7 @@ Akış: konu seç → Google Autocomplete'ten gerçek Türkçe sorguları çek �
 (yalnızca products.json verisiyle) → kalite kapıları → Unsplash'tan görsel → .md yaz.
 Kapıdan geçemeyen makale YAYINLANMAZ, content/uretim_log.json'a işlenir.
 
-Ortam değişkenleri: GEMINI_API_KEY, UNSPLASH_ACCESS_KEY, GEMINI_MODEL (ops.), TASLAK_MODU (true/false)
+Ortam değişkenleri: GEMINI_API_KEY, UNSPLASH_ACCESS_KEY, GEMINI_MODEL (ops.), GEMINI_MODEL_YEDEK (ops.), TASLAK_MODU (true/false)
 """
 import argparse
 import json
