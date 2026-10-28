@@ -30,57 +30,9 @@
 </section>
 {% endif %}
 
-<section class="compare">
-  <h2 class="section-title">Hızlı karşılaştırma: {{ page.name }}</h2>
-  <p class="compare-hint">Ürünleri yan yana karşılaştırın, size en uygun olanı seçin. (Yatay kaydırabilirsiniz.)</p>
-  <div class="compare-wrap">
-    <table class="compare-table">
-      <thead>
-        <tr>
-          <th class="corner">Özellik</th>
-          {% for p in top5 %}<th>{{ p.name }}</th>{% endfor %}
-        </tr>
-      </thead>
-      <tbody>
-        <tr><td class="corner">Marka</td>{% for p in top5 %}<td>{{ p.brand }}</td>{% endfor %}</tr>
-        <tr><td class="corner">Ana Artı</td>{% for p in top5 %}<td>{{ p.pros[0] }}</td>{% endfor %}</tr>
-        <tr><td class="corner">Ana Eksi</td>{% for p in top5 %}<td>{{ p.cons[0] }}</td>{% endfor %}</tr>
-        <tr><td class="corner"></td>{% for p in top5 %}<td><a class="btn-aff aff-link" href="{{ p|affiliate }}" data-aff-link="{{ p.id }}" data-network="{{ p.network }}" target="_blank" rel="nofollow sponsored noopener">Satın Al</a></td>{% endfor %}</tr>
-      </tbody>
-    </table>
-  </div>
-</section>
-
-<section class="top5">
-  <h2 class="section-title">En iyi 5 {{ page.name }} ekipmanı</h2>
-  {% for p in top5 %}
-  <div class="product-card" id="{{ p.id }}">
-    <div class="product-rank">{{ loop.index }}</div>
-    <div class="product-body">
-      <img class="product-img" src="{{ p|product_img }}" alt="{{ p.name }}" loading="lazy">
-      <h3>{{ p.name }}</h3>
-      <span class="pbrand">{{ p.brand }}</span>
-      <p class="desc">{{ p.desc }}</p>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>✅ Artılar</h4>
-          <ul>{% for x in p.pros %}<li>{{ x }}</li>{% endfor %}</ul>
-        </div>
-        <div class="cons">
-          <h4>⚠️ Eksiler</h4>
-          <ul>{% for x in p.cons %}<li>{{ x }}</li>{% endfor %}</ul>
-        </div>
-      </div>
-      <a class="btn-aff aff-link" href="{{ p|affiliate }}" data-aff-link="{{ p.id }}" data-network="{{ p.network }}"
-         target="_blank" rel="nofollow sponsored noopener">🛒 Satın Al / Fiyatı Gör</a>
-    </div>
-  </div>
-  {% endfor %}
-</section>
-
-{% if cat_articles %}
 <section class="cat-guides">
-  <h2 class="section-title">Bu kategorideki rehberler</h2>
+  <h2 class="section-title">{% if sub %}Bu alt kategorideki rehberler{% else %}Bu kategorideki rehberler{% endif %}</h2>
+  {% if cat_articles %}
   <div class="art-grid">
     {% for a in cat_articles %}
     <a class="art" href="/makale/{{ a.slug }}/" {{ acc(a.category) }}>
@@ -90,8 +42,10 @@
     </a>
     {% endfor %}
   </div>
+  {% else %}
+  <p class="lead guide-empty">{% if sub %}Bu alt kategori için rehber yakında.{% else %}Bu kategori için rehber yakında.{% endif %}</p>
+  {% endif %}
 </section>
-{% endif %}
 
 {% if sub %}
 <section class="siblings">

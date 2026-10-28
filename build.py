@@ -438,43 +438,42 @@ def main():
         }),
     })
 
-    # ---- kategori sayfalari ----
+    # ---- kategori sayfalari (ürün listesi yok; yayınlanmış rehberler) ----
     for cat in categories:
-        # ana kategori
-        top5 = products.get(cat["id"], {}).get("_main", [])
+        cat_path = f"/kategori/{cat['slug']}/"
+        cat_guides = articles_for(cat["id"])
         render("category.html", os.path.join(SITE, "kategori", cat["slug"], "index.html"), {
-            "canonical_path": f"/kategori/{cat['slug']}/",
+            "canonical_path": cat_path,
             "cat": cat,
             "sub": None,
-            "cat_articles": articles_for(cat["id"]),
+            "cat_articles": cat_guides,
             "hero_img": cat_hero_img(cat),
             "page": {
                 "name": cat["name"],
-                "heading": f"En İyi 5 {cat['name']} Ekipmanı ({YEAR})",
+                "heading": cat["name"],
                 "description": cat["description"],
                 "meta_title": cat["meta_title"],
                 "meta_description": cat["meta_description"],
             },
-            "top5": top5,
-            "jsonld": jsonld(itemlist_ld(cat["name"], top5, f"/kategori/{cat['slug']}/")),
+            "jsonld": jsonld(guides_ld(cat["name"], cat_guides, cat_path, cat.get("description", ""))),
         })
         for sub in cat["subcategories"]:
-            top5 = products.get(cat["id"], {}).get(sub["id"], [])
+            sub_path = f"/kategori/{cat['slug']}/{sub['slug']}/"
+            sub_guides = articles_for(cat["id"], sub["id"])
             render("category.html", os.path.join(SITE, "kategori", cat["slug"], sub["slug"], "index.html"), {
-                "canonical_path": f"/kategori/{cat['slug']}/{sub['slug']}/",
+                "canonical_path": sub_path,
                 "cat": cat,
                 "sub": sub,
-                "cat_articles": articles_for(cat["id"], sub["id"]),
+                "cat_articles": sub_guides,
                 "hero_img": cat_hero_img(cat, sub),
                 "page": {
                     "name": sub["name"],
-                    "heading": f"En İyi 5 {sub['name']} Ekipmanı ({YEAR})",
+                    "heading": sub["name"],
                     "description": sub["description"],
                     "meta_title": sub["meta_title"],
                     "meta_description": sub["meta_description"],
                 },
-                "top5": top5,
-                "jsonld": jsonld(itemlist_ld(sub["name"], top5, f"/kategori/{cat['slug']}/{sub['slug']}/")),
+                "jsonld": jsonld(guides_ld(sub["name"], sub_guides, sub_path, sub.get("description", ""))),
             })
 
     # ---- rehberler (tüm makaleler) ----
@@ -628,20 +627,33 @@ def related_for(a, n=3):
     return (same_sub + same_cat + rest)[:n]
 
 
-def itemlist_ld(name, top5, page_url):
+def guides_ld(name, guides, page_url, description=""):
+    """Kategori sayfası şeması: rehberler varsa ItemList, yoksa boş koleksiyon."""
+    page = BASE_URL + page_url
+    if not guides:
+        data = {
+            "@context": "https://schema.org",
+            "@type": "CollectionPage",
+            "name": name,
+            "url": page,
+        }
+        if description:
+            data["description"] = description
+        return data
     return {
         "@context": "https://schema.org",
         "@type": "ItemList",
-        "name": f"En İyi 5 {name} Ekipmanı",
-        "url": BASE_URL + page_url,
+        "name": f"{name} rehberleri",
+        "url": page,
+        "numberOfItems": len(guides),
         "itemListElement": [
             {
                 "@type": "ListItem",
                 "position": i + 1,
-                "name": p["name"],
-                "url": affiliate_url(p),
+                "name": a["title"],
+                "url": f"{BASE_URL}/makale/{a['slug']}/",
             }
-            for i, p in enumerate(top5)
+            for i, a in enumerate(guides)
         ],
     }
 
