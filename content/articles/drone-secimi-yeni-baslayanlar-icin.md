@@ -5,12 +5,12 @@ category: "teknoloji"
 subcategory: "drone"
 date: "2026-10-28"
 meta_title: "Drone Seçimi: Yeni Başlayanlar İçin Rehber | Hobi Bul"
-meta_description: "Drone seçimi: MOBEE E88 oyuncak sınıfı, DJI Mini 4K, DJI Neo ve Ryze Tello. Doğrulanmayan sayfa arama açar."
+meta_description: "Drone seçimi: MOBEE E88, DJI Mini 4K ve DJI Neo ürün sayfaları. Ryze Tello arama linkinde kalır."
 excerpt: "İlk drone'u rüzgar notuna göre seç. Oyuncak sınıfı ile kamera drone aynı kutu değildir."
 focus_keyword: "drone seçimi"
 starter_product: "dji-mini-4k"
-starter_label: "DJI Mini 4K aramasına bak"
-starter_text: "Kamera drone istiyorsan katalogdaki DJI Mini 4K ile başla. Bu modelin Amazon TR ürün sayfası bu turda doğrulanmadı. Link arama açar. Güncel ilanı başlıktan kontrol et."
+starter_label: "DJI Mini 4K ürün sayfasına bak"
+starter_text: "Kamera drone istiyorsan DJI Mini 4K ile başla. Amazon.com.tr sayfası açıldı: 4K/30, gri, 249 gram altı. Başlıkta Mini 4 Pro yazıyorsa geri dön."
 draft: "false"
 ---
 
@@ -22,9 +22,9 @@ draft: "false"
 
 MOBEE E88, bu turda açılan bir ürün sayfası. Katlanabilir. Başlıkta 4K, çift kamera, WiFi, uygulama, FPV ve iki batarya var. Madde, engel kaçınma da diyor. Bu cümleler satıcı metni. Rüzgar, yedek pervane ve menzil o maddelerde yok. Yoksa ekleme.
 
-DJI Mini 4K katalogda 4K, 249 gram altı ve kararlı uçuş diyor. Rüzgarda hassas. Pil sınırlı. Bu kaydın Amazon.com.tr `/dp/` sayfasını bu turda doğrulamadım. Link, arama açar. Arama, başka bir satıcının başka modeline düşebilir. Başlıkta Mini 4K yazmıyorsa tıklama.
+DJI Mini 4K katalogda 4K, 249 gram altı ve kararlı uçuş diyor. Rüzgarda hassas. Pil sınırlı. Amazon.com.tr ürün sayfası açıldı: başlık "DJI Mini 4K - 4K 30 Fps, Drone, Gri", model Mini 4K. Link bu sayfaya gider. Başlıkta Mini 4 Pro veya Neo yazıyorsa yanlış kutudasın.
 
-DJI Neo katalogda avuç içinden kalkan, kolay uçuş ve yapay zeka takip diyor. Kamera sınırlı. Pil kısa. Sayfası da doğrulanmadı. Avuç içi kalkış, parkta rüzgar yok demek değildir.
+DJI Neo katalogda avuç içinden kalkan, kolay uçuş ve yapay zeka takip diyor. Kamera sınırlı. Pil kısa. Ürün sayfası açıldı: "DJI Neo", 135 g, 12 MP, 18 dakika. Aynı başlıkta "4K 100 fps" de geçiyor; sayfanın gövdesi 4K/30 ve avuç içi kalkış diyor. İkisi çelişirse siparişi Neo 2 sanma. Avuç içi kalkış, parkta rüzgar yok demek değildir.
 
 Holy Stone HS720 katalogda 4K, GPS dönüş ve katlanır diyor. Ağırlık 249 gramın üstü. Uygulama sınırlı. 249 gram notu, bazı ülkelerde kayıt eşiği diye anlatılır. Türkiye'de güncel kuralı ben uydurmam. Katalogdaki gram notunu eşik sanıp uçurma.
 
@@ -42,7 +42,7 @@ Engel kaçınma, ağacı görür demek değildir. Madde bunu kanıtlamıyor. İl
 
 İki batarya, süreyi ikiye katlar diye yazmıyor. Sadece iki batarya diyor. Dakika uydurma. Bir batarya bitince ikinciyi tak, süreyi kendin gör.
 
-Kime uymaz? Rüzgarlı parkta sabit kare isteyen kişiye uymaz. Yedek parça ve servis notu da yok. Mini 4K araması o kişi için daha dürüst bir kapı. Kapı arama linkidir. Bunu bilerek aç.
+Kime uymaz? Rüzgarlı parkta sabit kare isteyen kişiye uymaz. Yedek parça ve servis notu da yok. O kişi Mini 4K ürün sayfasına baksın. O sayfa arama değil.
 
 **Artıları:**
 - Ürün sayfası doğrulandı.
@@ -55,11 +55,11 @@ Kime uymaz? Rüzgarlı parkta sabit kare isteyen kişiye uymaz. Yedek parça ve 
 
 [Satın Al: MOBEE E88](aff://mobee-e88-drone)
 
-## DJI Mini 4K: Katalog Kaydı, Arama Linki
+## DJI Mini 4K: Doğrulanmış Ürün Sayfası
 
 Mini 4K katalogda kompakt ve 4K. 249 gram altı. Kararlı uçuş. Eksi, rüzgar ve pil. Lisans notu katalogda parantez içinde geçiyor. Güncel mevzuatı katalog cümlesinden çıkarma. Uçuş bölgesini resmi kaynaktan bak.
 
-Arama linki, doğru ilanı garanti etmez. Başlık, renk ve satıcı adı saparsa geri dön. Başka bir Mini modeli, aynı gramı taşımayabilir. Taşıyorsa bile bu sayfa onu doğrulamadı.
+Ürün sayfası gri Mini 4K, 4K/30. Başlık Mini 4 Pro'ya dönerse geri dön. Başka bir Mini, aynı gramı taşımayabilir.
 
 Kime uymaz? Avuç içinden kumandasız kare isteyen kişiye uymaz. O kayıt Neo'da. Bütçenin en altındaki oyuncak kutu da bu değil. O kutu E88.
 
@@ -70,7 +70,7 @@ Kime uymaz? Avuç içinden kumandasız kare isteyen kişiye uymaz. O kayıt Neo'
 
 **Eksileri:**
 - Rüzgarda hassas.
-- Pil sınırlı. `/dp/` doğrulanmadı.
+- Pil sınırlı.
 
 [Satın Al: DJI Mini 4K](aff://dji-mini-4k)
 
@@ -82,7 +82,7 @@ Kime uymaz? Uzun menzil ve geniş sensör isteyen kişiye uymaz. Katalog bunu va
 
 Tello, program yazarak uçmak isteyen için. Kararlı denmiş. Kamera sınırlı. Rüzgar yine eksi. Çocukla masada denenecek bir kutu. Parkta rüzgarlı günde değil.
 
-Kime uymaz? 4K manzara isteyen kişiye uymaz. O kişi Mini 4K aramasına veya E88'in satıcı cümlesine bakıp ikisini karıştırmasın. E88'in 4K'si satıcı metni. Tello'nun kamerası katalogda sınırlı.
+Kime uymaz? 4K manzara isteyen kişiye uymaz. O kişi Mini 4K ürün sayfasına veya E88'in satıcı cümlesine bakıp ikisini karıştırmasın. E88'in 4K'si satıcı metni. Tello'nun kamerası katalogda sınırlı.
 
 HS720, GPS ile geri dönüş yazıyor. Katlanır. 249 gramın üstünde. Uygulama sınırlı. GPS, her bahçede kilitlenir demek değildir. Katalog sadece GPS dönüş diyor.
 
@@ -94,7 +94,7 @@ Kime uymaz? Gram eşiğinin altında kalmak isteyen kişiye uymaz. Katalog üst�
 - HS720 GPS dönüş diyor.
 
 **Eksileri:**
-- Üçünün de `/dp/` sayfası bu turda yok.
+- Neo'nun ürün sayfası var. Tello ve HS720 hâlâ arama linki.
 - Kamera veya rüzgar notları sınırlı.
 
 [Satın Al: DJI Neo](aff://dji-neo)
@@ -151,7 +151,7 @@ Kayıp drone için menzil uydurma. Hiçbir maddede kilometre yazmadım çünkü 
 
 ### E88, Mini 4K yerine geçer mi?
 
-Geçmez. E88 doğrulanmış bir oyuncak sınıfı sayfa. Mini 4K katalogda 249 gram altı ve kararlı diyor. Sayfası arama linki. İkisini aynı kare sanma.
+Geçmez. E88 doğrulanmış bir oyuncak sınıfı sayfa. Mini 4K'nın kendi ürün sayfası da açıldı: 4K/30, 249 gram altı. İkisini aynı kare sanma.
 
 ### 249 gram ne işe yarar?
 
@@ -159,7 +159,7 @@ Katalog bazı modellerde bu eşiği yazıyor. HS720 üstünde, Mini 4K altında.
 
 ### Neo mu, Tello mu?
 
-Takip istiyorsan Neo kaydı. Program istiyorsan Tello. İkisi de kamera sınırlı. İkisi de doğrulanmamış arama linki.
+Takip istiyorsan Neo kaydı. Ürün sayfası 135 g Neo. Program istiyorsan Tello. Tello hâlâ arama linki. İkisi de kamera sınırlı.
 
 ### İlk uçuş nerede?
 
@@ -172,10 +172,10 @@ Fiyatı sayfa söyler. Doğrulanmayan modelde fiyat da arama sonucuna kalır.
 | Paket | İçinde ne var | Kime uyar |
 | --- | --- | --- |
 | Bütçe | [MOBEE E88](aff://mobee-e88-drone) | Katlanır oyuncak sınıfı, iki batarya yazan sayfa isteyen kişi |
-| Orta | [DJI Mini 4K](aff://dji-mini-4k) | 4K ve 249 gram altı katalog kaydını arama linkiyle açacak kişi |
+| Orta | [DJI Mini 4K](aff://dji-mini-4k) | 4K/30 ve 249 gram altı ürün sayfasını açacak kişi |
 | Üst | [DJI Neo](aff://dji-neo) ve yedek zaman | Takip isteyen, kısa pili kabul eden kişi |
 
-İlk ciddi kare için Mini 4K aramasını aç, başlığı doğrula. E88'i ancak oyuncak sınıfını bilerek al. Rüzgarlı günde ikisini de zorlama. Pervane çatlaksa tur bitmiştir. Gece ve kalabalık yok. Gram notunu ruhsat sanma.
+İlk ciddi kare için Mini 4K ürün sayfasını aç, başlıkta Mini 4K yazsın. E88'i ancak oyuncak sınıfını bilerek al. Rüzgarlı günde ikisini de zorlama. Pervane çatlaksa tur bitmiştir. Gece ve kalabalık yok. Gram notunu ruhsat sanma.
 Salon turu bitmeden parka çıkma. Avize ve perde, engel kaçınma cümlesinden daha gerçek bir listedir. İki batarya, iki kat süre demek değildir. Dakikayı sen tut. Tutmadan ikinci modeli sipariş etme.
 
-Arama linkinde başlık saparsa geri dön. Sapmış başlık, doğru gramı taşımaz. E88 sayfası oyuncak sınıfıdır. Onu Mini 4K sandığın gün, pervane de yanlış gelir.
+Tello arama linkinde başlık saparsa geri dön. Sapmış başlık, doğru gramı taşımaz. E88 sayfası oyuncak sınıfıdır. Onu Mini 4K sandığın gün, pervane de yanlış gelir.

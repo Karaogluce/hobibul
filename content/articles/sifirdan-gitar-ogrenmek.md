@@ -2,6 +2,7 @@
 title: "Sıfırdan Gitar Öğrenmek: Doğru Ekipmanla Başla (2026)"
 slug: "sifirdan-gitar-ogrenmek"
 category: "muzik"
+subcategory: "gitar"
 meta_title: "Sıfırdan Gitar Öğrenmek: Doğru Ekipman Rehberi 2026 | Hobi Bul"
 meta_description: "Gitar öğrenmeye başlayanlar için rehber: akustik ve elektro gitar, amfi, tel ve tuner önerileri, artılar/eksiler ve satın alma bağlantıları."
 excerpt: "Sıfırdan gitar öğrenmek istiyor ama nereden başlayacağınızı bilmiyor musunuz? Doğru gitar, amfi, tel ve tuner seçimiyle ilk akorlarınızı haftalar içinde çalmaya başlayın. İşte yeni başlayanlar için eksiksiz ekipman rehberi."
@@ -11,7 +12,7 @@ excerpt: "Sıfırdan gitar öğrenmek istiyor ama nereden başlayacağınızı b
 
 Gitar, dünyada en çok öğrenilen enstrümanların başında gelir. Bunun iyi bir nedeni var: Birkaç temel akoru öğrendiğiniz anda yüzlerce şarkıyı çalabilecek seviyeye gelirsiniz, gitarı neredeyse her yere taşıyabilirsiniz ve öğrenme yolculuğunuzun her aşamasında kendinizi geliştirecek yeni bir teknik keşfedersiniz. Piyano gibi büyük ve pahalı enstrümanların aksine gitar, hem fiyat hem de taşınabilirlik açısından çok daha ulaşılabilir bir seçenektir.
 
-Birçok insan gitar öğrenmek ister ama "acaba yeteneğim var mı?" diye düşünerek başlamayı erteler. Gerçek şu ki gitar çalmak, yetenekten çok düzenli pratik ve doğru ekipmanla ilgilidir. Doğru bir başlangıç setiyle ilk günlerden itibaren keyif alarak ilerlemek, motivasyonunuzu korumanın en garantili yoludur. Bu rehberde sıfırdan başlayan birinin ihtiyaç duyduğu her şeyi adım adım ele alacağız.
+Birçok insan gitar öğrenmek ister ama "acaba yeteneğim var mı?" diye düşünerek başlamayı erteler. Gerçek şu ki gitar çalmak, yetenekten çok düzenli pratik ve doğru ekipmanla ilgilidir. Doğru bir başlangıç setiyle ilk günlerden itibaren keyif alarak ilerlemek, motivasyonunuzu korumanın en garantili yoludur. Bu rehberde sıfırdan başlayan birinin ihtiyaç duyduğu her şeyi adım adım ele alacağız. Elektroya geçeceksen [elektro gitar başlangıç seti](/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/) ayrı duruyor. Modeller [gitar ekipmanları](/kategori/muzik/gitar/) sayfasında. Üst liste [müzik](/kategori/muzik/).
 
 ## Başlamak İçin Neye İhtiyacınız Var?
 

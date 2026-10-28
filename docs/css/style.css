@@ -161,7 +161,8 @@ h1,h2,h3,h4{font-family:var(--display);line-height:1.12;letter-spacing:-.02em;ma
 .article-body li{margin-bottom:.35em}
 .article-body a.aff-link{display:inline-block;padding:9px 16px;border-radius:12px;background:var(--accent-dark);color:#fff;font:700 .95rem var(--display);text-decoration:none}
 .article-body a.aff-link:hover{filter:brightness(.92)}
-.cat-cta{display:inline-block;margin:10px 0 8px;font-weight:700}
+.cat-cta{display:inline-block;margin:10px 14px 8px 0;font-weight:700}
+.guide-links{margin:18px 0 4px}
 .related{max-width:1120px;margin:56px auto 0}
 .related h2{font-size:1.6rem}
 

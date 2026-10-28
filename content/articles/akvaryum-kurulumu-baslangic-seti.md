@@ -18,7 +18,7 @@ draft: "false"
 
 On galon, büyük bir vatoz veya sürü için küçük kalır. Ürün notu da bunu söylüyor. İlk canlı, bu hacme sığan bir tür olsun. Tür adı ve litre hesabını burada uydurmayacağım. Pet shop'taki yetişkin boya bak. "Yavru küçük" diye alınan balık, büyüyünce aynı tankta boğulur.
 
-Kurulumun parçaları [akvaryum ekipmanları](/kategori/evcil-hayvan/akvaryum/) sayfasında. Filtre olarak Fluval 307 güçlü. On galon için fazla gelebilir. Bunu saklamadan yazacağım.
+Kurulumun parçaları [akvaryum ekipmanları](/kategori/evcil-hayvan/akvaryum/) sayfasında. Filtre olarak Fluval 307 güçlü. On galon için fazla gelebilir. Bunu saklamadan yazacağım. Kedi evi bu tankın işi değil. [Kedi bakım seti](/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/) ayrı. İkisi [evcil hayvan](/kategori/evcil-hayvan/) kategorisinde.
 
 ## Tank: Aqueon 10 Galon
 

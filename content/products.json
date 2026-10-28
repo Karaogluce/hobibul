@@ -1832,7 +1832,8 @@
           "Pil ömrü sınırlı"
         ],
         "query": "DJI Mini 4K drone",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0CXJDDJ9X"
       },
       {
         "id": "keychron-k2",
@@ -2061,7 +2062,8 @@
           "Pil sınırlı"
         ],
         "query": "DJI Mini 4K drone",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0CXJDDJ9X"
       },
       {
         "id": "holy-stone-hs720",
@@ -2095,7 +2097,8 @@
           "Pil kısa"
         ],
         "query": "DJI Neo drone",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B07FTPX71F"
       },
       {
         "id": "ryze-tello",
@@ -7323,7 +7326,8 @@
           "Ağır"
         ],
         "query": "kitchenaid artisan stand mixer",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0DRLCZWWQ"
       },
       {
         "id": "nordic-ware-bundt-kalibi",
@@ -7410,7 +7414,8 @@
           "Montaj gerekir"
         ],
         "query": "weber original kettle 57cm",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B07KT9FY31"
       },
       {
         "id": "weber-rapidfire-baca",

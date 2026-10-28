@@ -18,7 +18,7 @@ Islak patikada ilk botun Gore-Tex olsun. Salomon X Ultra 4, su geçirmez ve hafi
 
 Gore-Tex her yürüyüşün kumaşı değil. Sıcak, kuru, tozlu bir yaz sırtında membran teri içeride tutabilir. Serin, çamurlu, dere geçen bir günde ise aynı membran çorabı kurtarır. Botu mevsime göre seç. Tek bir çift, yılın her hafta sonunu taşımak zorunda değil.
 
-Botun yanına inecek diz ve akşam inişte el feneri de lazım. Onlar bot değil. Aşağıda baton, günlük çanta ve kafa lambası olarak duruyor. Hepsi [dağcılık ve trekking](/kategori/outdoor/dagcilik-trekking/) sayfasında.
+Botun yanına inecek diz ve akşam inişte el feneri de lazım. Onlar bot değil. Aşağıda baton, günlük çanta ve kafa lambası olarak duruyor. Hepsi [dağcılık ve trekking](/kategori/outdoor/dagcilik-trekking/) sayfasında. Geceyi çadırda geçireceksen [kamp çadırı seçimi](/makale/en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma/) ve [kampçılık başlangıç rehberi](/makale/kampcilik-baslangic-rehberi/) botun işini yapmaz.
 
 ## Botu Ayağında Nasıl Denersin?
 

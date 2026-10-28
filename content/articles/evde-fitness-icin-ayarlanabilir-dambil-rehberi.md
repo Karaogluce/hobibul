@@ -26,7 +26,7 @@ Küçük bir oda ve hızlı set değişimi istiyorsan kadranlı ya da plakalı s
 
 Kime uymaz? Dambılı yere sert bırakan kişiye pahalı mekanizma uymaz. Bowflex notu düşürmeye dayanıklı olmadığını ayrı bir modelde de söylüyor. 552'nin eksi listesinde pahalı ve ağır var. Düşürmek, dişliyi bozar. Altına mat sermek, halıyı kurtarır, mekanizmayı kurtarmaz.
 
-Ayrıntılı liste [evde fitness ekipmanları](/kategori/spor-fitness/evde-fitness/) sayfasında. Vücut geliştirme köşesindeki plaka ve bar da ayrı bir yol. Oda bar kaldırmaya yetmiyorsa dambılda kal.
+Ayrıntılı liste [evde fitness ekipmanları](/kategori/spor-fitness/evde-fitness/) sayfasında. Vücut geliştirme köşesindeki plaka ve bar da ayrı bir yol. Oda bar kaldırmaya yetmiyorsa dambılda kal. Dışarı koşacaksan [koşu ayakkabısı](/makale/kosu-ayakkabisi-secimi-yeni-baslayanlar-icin/) ayrı. Yerde mat istiyorsan [yoga matı](/makale/yoga-mati-secimi-yeni-baslayanlar-icin/) dambılın altına girmez.
 
 ## Bowflex 552
 

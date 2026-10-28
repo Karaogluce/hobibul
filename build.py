@@ -57,6 +57,15 @@ def cat_name(cat_id):
     return cat_by_id.get(cat_id, {}).get("name", cat_id)
 
 
+def sub_name(cat_id, sub_id):
+    if not sub_id:
+        return ""
+    for s in (cat_by_id.get(cat_id) or {}).get("subcategories") or []:
+        if s.get("id") == sub_id:
+            return s.get("name", sub_id)
+    return sub_id
+
+
 # ---------------------------------------------------------------- affiliate
 def _with_tag(url, tag):
     if not tag or re.search(r"[?&]tag=", url):
@@ -331,6 +340,7 @@ def load_articles():
                 "category": meta.get("category", ""),
                 "subcategory": meta.get("subcategory", ""),
                 "category_name": cat_name(meta.get("category", "")),
+                "subcategory_name": sub_name(meta.get("category", ""), meta.get("subcategory", "")),
                 "meta_title": meta.get("meta_title", meta.get("title", slug)),
                 "meta_description": meta.get("meta_description", ""),
                 "excerpt": meta.get("excerpt", ""),
@@ -546,6 +556,14 @@ def main():
     if inkey:
         write(os.path.join(SITE, inkey + ".txt"), inkey + "\n")
 
+    # Search Console HTML dosyası. Alan boşsa dosya üretilmez.
+    gfile = (site.get("google_site_verification_file") or "").strip()
+    if gfile and "/" not in gfile and "\\" not in gfile and ".." not in gfile:
+        body = (site.get("google_site_verification_file_content") or "").strip()
+        if not body:
+            body = "google-site-verification: " + gfile
+        write(os.path.join(SITE, gfile), body + "\n")
+
     write(os.path.join(SITE, "CNAME"), site["domain"] + "\n")
 
     write(os.path.join(SITE, "404.html"),
@@ -591,9 +609,23 @@ def articles_for(cat_id, sub_id=None):
 
 
 def related_for(a, n=3):
-    same = [x for x in articles if x["slug"] != a["slug"] and x["category"] == a["category"]]
-    other = [x for x in articles if x["slug"] != a["slug"] and x["category"] != a["category"]]
-    return (same + other)[:n]
+    """Önce aynı alt kategori, sonra aynı kategori, sonra diğer rehberler."""
+    others = [x for x in articles if x["slug"] != a["slug"]]
+
+    def newest(rows):
+        return sorted(rows, key=lambda x: x.get("date") or "", reverse=True)
+
+    sub = a.get("subcategory") or ""
+    same_sub = newest([
+        x for x in others
+        if sub and x.get("category") == a.get("category") and (x.get("subcategory") or "") == sub
+    ])
+    same_cat = newest([
+        x for x in others
+        if x.get("category") == a.get("category") and x not in same_sub
+    ])
+    rest = newest([x for x in others if x.get("category") != a.get("category")])
+    return (same_sub + same_cat + rest)[:n]
 
 
 def itemlist_ld(name, top5, page_url):

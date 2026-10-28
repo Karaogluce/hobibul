@@ -18,7 +18,7 @@ Köpek yürüyüşü bir koşum ve bir tasma ile başlar. Eğitim, aynı yürüy
 
 Otomatik flexi tasma, parkta boş gezdirmek için yazılmış. Eğitim seansının aleti değil. İp uzadıkça köpek çekmeyi öğrenir. Bunu aşağıda ayırdım. Önce koşum, sonra hangi tasmanın hangi işe yaradığı.
 
-Bakımın tamamı [köpek ekipmanları](/kategori/evcil-hayvan/kopek-bakimi/) sayfasında. Tüy tarağı yürüyüş setinin parçası değil. Tüy dökümü ayrı bir akşam.
+Bakımın tamamı [köpek ekipmanları](/kategori/evcil-hayvan/kopek-bakimi/) sayfasında. Tüy tarağı yürüyüş setinin parçası değil. Tüy dökümü ayrı bir akşam. Kedi evi başka düzen. [Kedi bakım seti](/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/) orada. İkisi [evcil hayvan](/kategori/evcil-hayvan/) kategorisinde.
 
 ## Yürüyüş: Ruffwear Front Range
 

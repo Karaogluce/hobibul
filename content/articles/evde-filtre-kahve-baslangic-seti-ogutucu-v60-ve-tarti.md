@@ -24,7 +24,7 @@ Sabah tek fincan içiyorsan üç parça yeter: konik dişli bir öğütücü, V6
 
 Öğütücü bütçenin büyük parçası olsun. Ucuz bir bıçaklı doğrayıcı, V60'ın spiral kanalını boşa çıkarır. Çünkü iri parçayla toz aynı kaşıktadır. Su, tozu hemen acılaştırır, iri parçayı da ıslatmadan geçer.
 
-Daha geniş mutfak listesi [kahve ekipmanları](/kategori/yemek-mutfak/kahve/) sayfasında. Filtre dışında ocak üstü bir fincan da istiyorsan moka potu ayrı bir yol. Onu filtre setinin yerine koyma.
+Daha geniş mutfak listesi [kahve ekipmanları](/kategori/yemek-mutfak/kahve/) sayfasında. Filtre dışında ocak üstü bir fincan da istiyorsan moka potu ayrı bir yol. Onu filtre setinin yerine koyma. Pizza ve ekmek başka tezgah. [Evde pizza fırını](/makale/evde-pizza-firini-g3-ferrari-delizia-ile-baslangic/) orada. Mutfağın tamamı [yemek ve mutfak](/kategori/yemek-mutfak/).
 
 ## Baratza Encore: Öğütümü Sabitle
 

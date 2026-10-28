@@ -2,6 +2,7 @@
 title: "Yeni Başlayanlar İçin Kampçılık Rehberi: İhtiyacın Olan Tüm Ekipmanlar (2026)"
 slug: "kampcilik-baslangic-rehberi"
 category: "outdoor"
+subcategory: "kampcilik"
 meta_title: "Yeni Başlayanlar İçin Kampçılık Rehberi 2026 | Hobi Bul"
 meta_description: "Kampçılığa yeni başlayanlar için kapsamlı rehber: çadır, uyku matı, ocak, fener ve su filtresi önerileri, artılar/eksiler ve satın alma bağlantıları."
 excerpt: "Kampçılığa yeni mi başlıyorsun? Çadırdan ocağa, uyku matından su filtresine kadar ilk kampın için ihtiyacın olan tüm ekipmanları, artıları ve eksileriyle bu rehberde topladık."
@@ -28,7 +29,7 @@ Temel bir kamp için şu ana başlıkları düşünebilirsin:
 - **Su:** İçme suyunu güvenli hale getiren bir su filtresi.
 - **Taşıma:** Her şeyi rahatça taşıyacağın bir sırt çantası.
 
-Bu liste elbette ihtiyaca göre değişir. Arabayla gideceğin bir kampta ağırlık çok önemli değilken, sırtında taşıyacağın bir yürüyüşte her gram önem kazanır. Bu yüzden aşağıdaki önerileri okurken, kendi kamp tarzını aklında tutmanı öneririz.
+Bu liste elbette ihtiyaca göre değişir. Arabayla gideceğin bir kampta ağırlık çok önemli değilken, sırtında taşıyacağın bir yürüyüşte her gram önem kazanır. Bu yüzden aşağıdaki önerileri okurken, kendi kamp tarzını aklında tutmanı öneririz. İki ve dört kişilik çadır kararını [kamp çadırı seçimi](/makale/en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma/) ayrı tutuyor. Ürünler [kampçılık ekipmanları](/kategori/outdoor/kampcilik/) sayfasında. Patika ayakkabısı [trekking bot rehberi](/makale/trekking-bot-secimi-gore-tex-baslangic-botlari/).
 
 ## Ekipman Önerileri
 
