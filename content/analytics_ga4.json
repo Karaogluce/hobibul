@@ -1,7 +1,25 @@
 {
- "generated_at": "2026-10-27",
+ "generated_at": "2026-10-28",
  "period_days": 30,
- "visitors_daily": [],
- "channels": [],
+ "visitors_daily": [
+  {
+   "date": "2026-10-28",
+   "users": 5
+  }
+ ],
+ "channels": [
+  {
+   "name": "Direct",
+   "sessions": 5
+  },
+  {
+   "name": "Organic Search",
+   "sessions": 1
+  },
+  {
+   "name": "Unassigned",
+   "sessions": 1
+  }
+ ],
  "top_pages": []
 }
