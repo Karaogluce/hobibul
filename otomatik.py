@@ -478,7 +478,7 @@ def main():
             print(f"  [{t['tip']}] {t['title']}")
         return
 
-    draft_env = os.environ.get("TASLAK_MODU", "true").strip().lower() not in ("false", "0", "hayir", "hayır")
+    draft_env = os.environ.get("TASLAK_MODU", "false").strip().lower() not in ("false", "0", "hayir", "hayır")
     draft = False if a.yayinla else (True if a.taslak else draft_env)
     key, ukey = os.environ.get("GEMINI_API_KEY"), os.environ.get("UNSPLASH_ACCESS_KEY")
     if not key:

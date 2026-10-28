@@ -142,9 +142,9 @@ yeniden oluşturur ve commit eder. (Saat, Gemini günlük kotasının Pasifik ge
 
 Kurulum (bir kerelik): GitHub → Settings → Secrets and variables → Actions
 - **Secrets:** `GEMINI_API_KEY`, `UNSPLASH_ACCESS_KEY` (unsplash.com/developers → New Application → Access Key)
-- **Variables:** `TASLAK_MODU` = `true` (ilk 2 hafta öneri) → makaleler `draft: "true"` ile yazılır, yayınlanmaz.
-  Beğendiğin makalenin `content/articles/…md` dosyasında `draft: "true"` → `"false"` yapıp kaydedince site otomatik güncellenir.
-  Güvendiğinde `TASLAK_MODU` = `false` yap, makaleler doğrudan yayınlanır.
+- **Variables:** `TASLAK_MODU` — varsayılan `false`: makaleler doğrudan yayınlanır. `true` yaparsan makaleler
+  `draft: "true"` ile taslak yazılır; beğendiğin makalenin `content/articles/…md` dosyasında `draft: "true"` → `"false"`
+  yapıp kaydedince site otomatik güncellenir. (Değişkeni hiç tanımlamazsan da yayın modu geçerli.)
 - Opsiyonel `GEMINI_MODEL`: model adı eskirse AI Studio'dan güncel adı yaz.
 - Opsiyonel `GEMINI_MODEL_YEDEK` (variable): ana model 503/429 verdiğinde sırayla denenecek yedek
   model(ler), virgülle. Örn. `gemini-flash-lite-latest`. Günlük kota (429 per-day) algılanırsa
