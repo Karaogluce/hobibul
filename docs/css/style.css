@@ -116,6 +116,7 @@ h1,h2,h3,h4{font-family:var(--display);line-height:1.12;letter-spacing:-.02em;ma
 .subcat-card::before{content:"";width:9px;height:9px;border-radius:50%;background:var(--accent)}
 .subcat-card:hover{border-color:var(--accent)}
 .subcat-card.active{background:var(--accent-dark);color:#fff;border-color:transparent}
+.guide-empty{margin-top:4px}
 .subcat-card.active::before{background:#fff}
 .compare-hint{color:var(--muted);font-size:.92rem;margin:0 0 10px}
 .compare-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:var(--r-md);background:var(--surface)}
