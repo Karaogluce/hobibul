@@ -5779,5 +5779,137 @@
    "freenove-starter-kit",
    "arduino-uno-r3"
   ]
+ },
+ {
+  "sorgu": "Koşu Ayakkabısı Seçimi: Yeni Başlayanlar İçin Yastıklı ve Destekli Modeller",
+  "kategori": "spor-fitness",
+  "alt": "kosu",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "adidas-duramo-speed-2",
+   "nike-pegasus-41",
+   "asics-gel-kayano",
+   "garmin-forerunner-55",
+   "flipbelt",
+   "nathan-hydration"
+  ]
+ },
+ {
+  "sorgu": "Yoga Matı Seçimi: Yeni Başlayanlar İçin Kalınlık, Kaymaz Taban ve Kayış",
+  "kategori": "spor-fitness",
+  "alt": "yoga-pilates",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "yoga-mat-6mm-kaymaz",
+   "buffer-yoga-mati-140",
+   "yoga-kemeri-pamuk-200",
+   "liforme-yoga-mat",
+   "manduka-pro",
+   "gaiam-yoga-blocks"
+  ]
+ },
+ {
+  "sorgu": "DJ Kontrol Cihazı Seçimi: Yeni Başlayanlar İçin DDJ-FLX4 ve Numark",
+  "kategori": "muzik",
+  "alt": "dj-produksiyon",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "pioneer-ddj-flx4",
+   "numark-party-mix-iii",
+   "numark-mixtrack-go",
+   "numark-mixtrack-pro-fx",
+   "pioneer-ddj-flx2",
+   "ath-m50x"
+  ]
+ },
+ {
+  "sorgu": "En İyi LEGO Setleri: Yetişkin İçin Bonsai, Sukulent ve Speed Champions",
+  "kategori": "koleksiyon",
+  "alt": "lego-model",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "lego-bonsai-10281",
+   "lego-mini-bonsai-10373",
+   "lego-sukulent-10309",
+   "lego-supra-77260",
+   "lego-zaman-makinesi-77256",
+   "lego-kiraz-40725"
+  ]
+ },
+ {
+  "sorgu": "Drone Seçimi: Yeni Başlayanlar İçin Oyuncak Sınıfı ve DJI Ayrımı",
+  "kategori": "teknoloji",
+  "alt": "drone",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "dji-mini-4k",
+   "mobee-e88-drone",
+   "dji-neo",
+   "ryze-tello",
+   "holy-stone-hs720"
+  ]
+ },
+ {
+  "sorgu": "Fotoğraf Makinesi Seçimi: Yeni Başlayanlar İçin Canon EOS R100",
+  "kategori": "sanat",
+  "alt": "fotografcilik",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "canon-eos-r100-travel",
+   "canon-eos-r100-kit",
+   "sony-a7-iii-body",
+   "canon-eos-r50",
+   "sony-a6400"
+  ]
+ },
+ {
+  "sorgu": "Evde Pizza Fırını: G3 Ferrari Delizia ile Başlangıç ve Ekmek Yolu",
+  "kategori": "yemek-mutfak",
+  "alt": "ekmek-pasta",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "g3ferrari-delizia",
+   "le-creuset-dokum-tencere",
+   "kitchenaid-artisan-mikser"
+  ]
+ },
+ {
+  "sorgu": "Bonsai Başlangıç Seti: Makas, Tel, Toprak ve Gübre",
+  "kategori": "bahce-bitki",
+  "alt": "bonsai",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "bonsai-alet-seti-10-parca",
+   "bonsai-aluminyum-teli",
+   "bonsai-jack-toprak-karisimi",
+   "bonsai-budama-makasi",
+   "biogold-bonsai-gubresi"
+  ]
+ },
+ {
+  "sorgu": "Kedi Bakım Seti: Tırmalama, Fırça, Oyuncak ve Tuvalet Düzeni",
+  "kategori": "evcil-hayvan",
+  "alt": "kedi-bakimi",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "smartcat-tirmalama-diregi",
+   "kong-zoomgroom-kedi-fircasi",
+   "gocat-da-bird-kedi-oyuncagi",
+   "catit-senses-oyun-pisti",
+   "petstages-kule-top-oyuncagi"
+  ]
+ },
+ {
+  "sorgu": "Oyuncu Mouse ve Klavye Seti: Redragon Kumara ve Logitech G213",
+  "kategori": "teknoloji",
+  "alt": "oyun-pc-modlama",
+  "tip_onerisi": "ticari",
+  "urunler": [
+   "redragon-k552-kumara",
+   "logitech-g213",
+   "logitech-g102",
+   "logitech-g502-hero",
+   "keychron-k2"
+  ]
  }
 ]

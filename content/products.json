@@ -1224,7 +1224,9 @@
           "Laptop gerekir"
         ],
         "query": "Pioneer DDJ-FLX4 controller",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0BK25SY9G",
+        "not": "Amazon.com.tr sayfası: 2 kanal, rekordbox DJ dahil, Serato dahil değil, 24-bit, 2 USB-C, listede 2,2 kg."
       },
       {
         "id": "ath-m50x",
@@ -1699,6 +1701,81 @@
         ],
         "query": "Boss DS-1 Distortion pedal",
         "network": "amazon_tr"
+      },
+      {
+        "id": "numark-party-mix-iii",
+        "name": "Numark Party Mix III DJ Kontrol",
+        "brand": "Numark",
+        "alt": "dj-produksiyon",
+        "desc": "Amazon.com.tr kaydında 2 deck, 16 pad, Beat Assist, Smart Fader, stems, dahili ışık, Bluetooth, USB-C, Serato DJ Lite ve Algoriddim djay geçen başlangıç kontrol cihazı.",
+        "pros": [
+          "Beat Assist beat eşlemeyi gösterir",
+          "16 pad ve stems",
+          "Dahili ışık gösterisi"
+        ],
+        "cons": [
+          "Işık gösterisi her evde istenmez",
+          "Laptop veya uyumlu uygulama ister"
+        ],
+        "query": "Numark Party Mix III",
+        "network": "amazon_tr",
+        "asin": "B0GYYZHD3T"
+      },
+      {
+        "id": "numark-mixtrack-go",
+        "name": "Numark MixTrack Go DJ Kontrol",
+        "brand": "Numark",
+        "alt": "dj-produksiyon",
+        "desc": "Amazon.com.tr kaydında 0,6 kg, 324 mm gövde, 2 deck, kapasitif jog, 8 pad, stems, Smart Fader, Bluetooth ve USB-C geçen kompakt kontrol cihazı.",
+        "pros": [
+          "Çantaya sığan gövde",
+          "Stems ve Smart Fader",
+          "Kapasitif jog"
+        ],
+        "cons": [
+          "Pad sayısı Party Mix III'ten az",
+          "Küçük jog büyük deck hissi vermez"
+        ],
+        "query": "Numark MixTrack Go",
+        "network": "amazon_tr",
+        "asin": "B0GYYS6B5X"
+      },
+      {
+        "id": "numark-mixtrack-pro-fx",
+        "name": "Numark Mixtrack Pro FX DJ Kontrol",
+        "brand": "Numark",
+        "alt": "dj-produksiyon",
+        "desc": "Amazon.com.tr kaydında Serato DJ Lite dahil, 2 deck, 24-bit ses kartı, 6 inç kapasitif jog, deck başına 8 pad ve SoundCloud ile TIDAL yayını geçen kontrol cihazı.",
+        "pros": [
+          "Serato DJ Lite kutuda",
+          "6 inç jog",
+          "Deck başına 8 pad"
+        ],
+        "cons": [
+          "Party Mix'teki dahili ışık yok",
+          "Taşınabilirlik iddiası listede yok"
+        ],
+        "query": "Numark Mixtrack Pro FX",
+        "network": "amazon_tr",
+        "asin": "B087S28ZRM"
+      },
+      {
+        "id": "pioneer-ddj-flx2",
+        "name": "Pioneer DJ DDJ-FLX2",
+        "brand": "AlphaTheta",
+        "alt": "dj-produksiyon",
+        "desc": "Amazon.com.tr kaydı DDJ-FLX2 adını ve marka olarak AlphaTheta yazıyor. Ayrıntılı kanal listesi bu sayfada yok.",
+        "pros": [
+          "FLX ailesinin küçük modeli",
+          "Sayfa açılıyor"
+        ],
+        "cons": [
+          "Özellik listesi ince",
+          "FLX4'teki ölçü ve yazılım notu burada yok"
+        ],
+        "query": "Pioneer DDJ-FLX2",
+        "network": "amazon_tr",
+        "asin": "B0DK49GW7M"
       }
     ]
   },
@@ -2248,6 +2325,101 @@
         "query": "GeeekPi Raspberry Pi 5 8GB baslangic kiti",
         "network": "amazon_tr",
         "asin": "B0D1QQ174C"
+      },
+      {
+        "id": "mobee-e88-drone",
+        "name": "MOBEE E88 Katlanabilir Drone",
+        "brand": "MOBEE",
+        "alt": "drone",
+        "desc": "Amazon.com.tr kaydında katlanabilir, 4K ifadesi, WiFi uygulama, FPV, 2 batarya ve engel kaçınma iddiası geçen E88 tipi drone.",
+        "pros": [
+          "Katlanır",
+          "2 batarya listede",
+          "Uygulama kontrolü yazıyor"
+        ],
+        "cons": [
+          "4K ve engel kaçınma satıcı metni",
+          "Yedek parça ve rüzgar notu yok"
+        ],
+        "query": "MOBEE E88 drone",
+        "network": "amazon_tr",
+        "asin": "B0HKNQX9G8"
+      },
+      {
+        "id": "redragon-k552-kumara",
+        "name": "Redragon K552-KR Kumara Mekanik Klavye",
+        "brand": "Redragon",
+        "alt": "oyun-pc-modlama",
+        "desc": "Amazon.com.tr başlığı kırmızı switch, gökkuşağı aydınlatma, TKL, Türkçe Q, kablolu mekanik siyah oyuncu klavyesi diyor.",
+        "pros": [
+          "Mekanik kırmızı switch",
+          "Türkçe Q",
+          "TKL kablolu"
+        ],
+        "cons": [
+          "Özellik maddesi neredeyse yalnızca adı tekrarlıyor",
+          "Kablosuz değil"
+        ],
+        "query": "Redragon K552 Kumara Türkçe",
+        "network": "amazon_tr",
+        "asin": "B09JZBSKS7"
+      },
+      {
+        "id": "logitech-g213",
+        "name": "Logitech G213 Oyuncu Klavyesi",
+        "brand": "Logitech",
+        "alt": "oyun-pc-modlama",
+        "desc": "Amazon.com.tr kaydında Mech-Dome tuş, 4 mm hareket, 50 g kuvvet, 5 aydınlatma bölgesi, 60 ml dökülme testi, avuç desteği, medya tuşları ve Türkçe Q geçen kablolu klavye.",
+        "pros": [
+          "Türkçe Q ve medya tuşları",
+          "Avuç desteği",
+          "Dökülme testi 60 ml"
+        ],
+        "cons": [
+          "Mekanik switch değil",
+          "Kablolu"
+        ],
+        "query": "Logitech G213 Türkçe Q",
+        "network": "amazon_tr",
+        "asin": "B01MXJVMGX"
+      },
+      {
+        "id": "logitech-g102",
+        "name": "Logitech G102 Oyuncu Mouse",
+        "brand": "Logitech",
+        "alt": "oyun-pc-modlama",
+        "desc": "Amazon.com.tr kaydında 200-8.000 DPI, 6 programlanabilir tuş, LIGHTSYNC ve G HUB geçen kablolu oyuncu mouse.",
+        "pros": [
+          "6 programlanabilir tuş",
+          "8.000 DPI'a kadar",
+          "G HUB"
+        ],
+        "cons": [
+          "Kablolu",
+          "Ağırlık ayarı listede yok"
+        ],
+        "query": "Logitech G102 mouse",
+        "network": "amazon_tr",
+        "asin": "B07W4DH8JW"
+      },
+      {
+        "id": "logitech-g502-hero",
+        "name": "Logitech G502 HERO Oyuncu Mouse",
+        "brand": "Logitech",
+        "alt": "oyun-pc-modlama",
+        "desc": "Amazon.com.tr başlığı kablolu G502 HERO, LIGHTSYNC, 25.600 DPI, 11 programlanabilir tuş ve 121 g diyor. Bu kontrolde sepete ekle görünmedi.",
+        "pros": [
+          "25.600 DPI başlıkta",
+          "11 programlanabilir tuş",
+          "121 g başlıkta"
+        ],
+        "cons": [
+          "Bu kontrolde stok yok göründü",
+          "Sağ el ergonomisi katalogdaki G502 ile aynı çizgide"
+        ],
+        "query": "Logitech G502 HERO",
+        "network": "amazon_tr",
+        "asin": "B07GS6ZB7T"
       }
     ]
   },
@@ -2772,6 +2944,122 @@
         ],
         "query": "Vallejo model color",
         "network": "amazon_tr"
+      }
+    ],
+    "_ek": [
+      {
+        "id": "lego-bonsai-10281",
+        "name": "LEGO Botanicals Bonsai Ağacı 10281",
+        "brand": "LEGO",
+        "alt": "lego-model",
+        "desc": "Amazon.com.tr kaydı yetişkinlere özel bonsai modeli, dikdörtgen saksı ve ahşap efektli stand diyor. Yapraklar yeşil ya da pembe kiraz çiçeği olarak değiştiriliyor.",
+        "pros": [
+          "İki yaprak seti",
+          "Saksı ve stand dahil",
+          "Canlı ağaç bakımı yok"
+        ],
+        "cons": [
+          "Canlı bonsai değil",
+          "Parça küçük"
+        ],
+        "query": "LEGO Bonsai 10281",
+        "network": "amazon_tr",
+        "asin": "B08G4PCG8F"
+      },
+      {
+        "id": "lego-mini-bonsai-10373",
+        "name": "LEGO Botanicals Mini Bonsai Ağaçları 10373",
+        "brand": "LEGO",
+        "alt": "lego-model",
+        "desc": "Amazon.com.tr kaydı 3 minyatür ağaç diyor: sarı yapraklı mabet ağacı, karaçam ve mor salkım. Yapraklar karışıyor. 2 stand var.",
+        "pros": [
+          "Üç ağaç bir sette",
+          "Yapraklar değişiyor",
+          "İki stand"
+        ],
+        "cons": [
+          "Tek büyük bonsai değil",
+          "Canlı bitki değil"
+        ],
+        "query": "LEGO Mini Bonsai 10373",
+        "network": "amazon_tr",
+        "asin": "B0DWDDNK1J"
+      },
+      {
+        "id": "lego-sukulent-10309",
+        "name": "LEGO Botanicals Sukulentler 10309",
+        "brand": "LEGO",
+        "alt": "lego-model",
+        "desc": "Amazon.com.tr kaydı 9 sukulent, birlikte veya ayrı sergileme ve 3 yapım kitapçığı diyor.",
+        "pros": [
+          "9 bitki",
+          "Ayrı sergilenebilir",
+          "3 kitapçık"
+        ],
+        "cons": [
+          "Su istemez, canlı sukulent de değil",
+          "Parça sayısı bu maddelerde yok"
+        ],
+        "query": "LEGO Sukulentler 10309",
+        "network": "amazon_tr",
+        "asin": "B09BNV7VS1"
+      },
+      {
+        "id": "lego-supra-77260",
+        "name": "LEGO Speed Champions Toyota Supra MK4 77260",
+        "brand": "LEGO",
+        "alt": "lego-model",
+        "desc": "Amazon.com.tr kaydı 10 yaş ve üzeri, Brian O'Conner minifigürü, Nuclear Gladiator grafiği, arka kanat ve 4 krom görünümlü jant diyor.",
+        "pros": [
+          "Film arabası ve minifigür",
+          "Sergilemeye uygun",
+          "Arka kanat"
+        ],
+        "cons": [
+          "10 yaş altı için değil",
+          "Sürülür oyuncak araba değil"
+        ],
+        "query": "LEGO Speed Champions Supra 77260",
+        "network": "amazon_tr",
+        "asin": "B0FPXF65PH"
+      },
+      {
+        "id": "lego-zaman-makinesi-77256",
+        "name": "LEGO Speed Champions Zaman Makinesi 77256",
+        "brand": "LEGO",
+        "alt": "lego-model",
+        "desc": "Amazon.com.tr kaydı 9 yaş ve üzeri, Doc Brown ve Marty McFly, yıldırım kancası ve uçan düzene dönüşen DeLorean diyor.",
+        "pros": [
+          "İki minifigür",
+          "İki film düzeni",
+          "Zaman devreleri listede"
+        ],
+        "cons": [
+          "9 yaş altı için değil",
+          "Tek bir sabit vitrin pozu değil"
+        ],
+        "query": "LEGO Zaman Makinesi 77256",
+        "network": "amazon_tr",
+        "asin": "B0FPXDXXYR"
+      },
+      {
+        "id": "lego-kiraz-40725",
+        "name": "LEGO Kiraz Çiçekleri 40725",
+        "brand": "LEGO",
+        "alt": "lego-model",
+        "desc": "Amazon.com.tr kaydı 8 yaş ve üzeri, pastel pembe ve beyaz 2 dal, 430 parça ve dal başına 35 cm diyor.",
+        "pros": [
+          "430 parça, daha kısa akşam",
+          "35 cm dal",
+          "Tomurcuk renkleri karışıyor"
+        ],
+        "cons": [
+          "Bonsai gövdesi yok",
+          "İki dal, buket değil"
+        ],
+        "query": "LEGO Kiraz Çiçekleri 40725",
+        "network": "amazon_tr",
+        "asin": "B0CFW1NHPC"
       }
     ]
   },
@@ -3471,6 +3759,82 @@
         "query": "tennis balls",
         "network": "amazon_tr"
       }
+    ],
+    "_ek": [
+      {
+        "id": "adidas-duramo-speed-2",
+        "name": "adidas Duramo Speed 2 Erkek Koşu Ayakkabısı",
+        "brand": "adidas",
+        "alt": "kosu",
+        "desc": "Amazon.com.tr ürün başlığı erkek koşu ayakkabısı diyor. Yastık yüksekliği ve drop bu sayfada yazmıyor.",
+        "pros": [
+          "Başlık yol koşusu için",
+          "Erkek kalıbı olarak listelenmiş"
+        ],
+        "cons": [
+          "Yastık ölçüsü yok",
+          "Stok satırında hem al butonu hem mevcut değil ibaresi görüldü"
+        ],
+        "query": "adidas Duramo Speed 2 erkek koşu",
+        "network": "amazon_tr",
+        "asin": "B0CYTDW332"
+      },
+      {
+        "id": "yoga-mat-6mm-kaymaz",
+        "name": "6 mm Kaymaz Yoga ve Pilates Matı",
+        "brand": "",
+        "alt": "yoga-pilates",
+        "desc": "Amazon.com.tr kaydında 6 mm yoğun sünger, kaymaz taban ve üst yüzey, rulo halinde taşınan siyah mat. Boy ve en yazmıyor.",
+        "pros": [
+          "6 mm sünger",
+          "Kaymaz taban ve üst",
+          "Rulo olup taşınıyor"
+        ],
+        "cons": [
+          "Boy-en listede yok",
+          "Marka adı yok"
+        ],
+        "query": "6 mm kaymaz yoga matı",
+        "network": "amazon_tr",
+        "asin": "B0GWJSL8P2"
+      },
+      {
+        "id": "buffer-yoga-mati-140",
+        "name": "Buffer Yoga Matı 140x50 cm 6 mm",
+        "brand": "Buffer",
+        "alt": "yoga-pilates",
+        "desc": "Amazon.com.tr kaydında 140x50 cm ve 6 mm ölçüsü geçen mor pilates ve yoga matı.",
+        "pros": [
+          "Ölçü yazıyor",
+          "6 mm"
+        ],
+        "cons": [
+          "140 cm boy uzun uzanma için kısa",
+          "50 cm en dar"
+        ],
+        "query": "Buffer yoga matı 140x50 6mm",
+        "network": "amazon_tr",
+        "asin": "B0GNZW293G"
+      },
+      {
+        "id": "yoga-kemeri-pamuk-200",
+        "name": "Pamuk Yoga Kemeri 200 cm",
+        "brand": "",
+        "alt": "yoga-pilates",
+        "desc": "Amazon.com.tr kaydında 200 cm uzunluk, 5 cm en ve organik pamuk geçen ekru yoga ve pilates kemeri.",
+        "pros": [
+          "200 cm",
+          "5 cm en",
+          "Pamuk"
+        ],
+        "cons": [
+          "Elastik değil",
+          "Marka adı ince"
+        ],
+        "query": "pamuk yoga kemeri 200 cm",
+        "network": "amazon_tr",
+        "asin": "B0H4RPNFBV"
+      }
     ]
   },
   "sanat": {
@@ -3994,6 +4358,65 @@
         ],
         "query": "sculpting tools",
         "network": "amazon_tr"
+      }
+    ],
+    "_ek": [
+      {
+        "id": "canon-eos-r100-kit",
+        "name": "Canon EOS R100 RF-S 18-45mm Kit",
+        "brand": "Canon",
+        "alt": "fotografcilik",
+        "desc": "Amazon.com.tr başlığı RF-S 18-45mm lensli aynasız kit diyor. Aynı sayfanın madde listesi başlığı tekrarlıyor, megapiksel yazmıyor.",
+        "pros": [
+          "Lens başlıkta var",
+          "Aynasız kit",
+          "Sepete ekle görüldü"
+        ],
+        "cons": [
+          "Megapiksel bu sayfada yok",
+          "Çanta ve kart ayrı"
+        ],
+        "query": "Canon EOS R100 18-45mm",
+        "network": "amazon_tr",
+        "asin": "B0C65KQ5CH"
+      },
+      {
+        "id": "canon-eos-r100-travel",
+        "name": "Canon EOS R100 Travel Kit",
+        "brand": "Canon",
+        "alt": "fotografcilik",
+        "desc": "Amazon.com.tr kaydı: gövde ve RF-S 18-45mm, APS-C CMOS 24,1 MP, 4K UHD ve Full HD, SD kart yuvası, 3,5 mm mikrofon, ISO 100-25600, Bluetooth ve 2,4 GHz Wi-Fi. Sette omuz çantası ve 64 GB SD yazıyor.",
+        "pros": [
+          "24,1 MP APS-C ve kit lens",
+          "4K ve Full HD",
+          "Çanta ve 64 GB kart sette"
+        ],
+        "cons": [
+          "Video maddesi 4K 24p diyor",
+          "Tam kare değil"
+        ],
+        "query": "Canon EOS R100 travel kit",
+        "network": "amazon_tr",
+        "asin": "B0GP7BJ5M7"
+      },
+      {
+        "id": "sony-a7-iii-body",
+        "name": "Sony Alpha 7 III Gövde",
+        "brand": "Sony",
+        "alt": "fotografcilik",
+        "desc": "Amazon.com.tr başlığı 24,2 MP, 4K, 5 yönlü sabitleme ve 0,02 sn odak diyor. Eurasia garanti ibaresi başlıkta. Lens bu gövde kaydında yok.",
+        "pros": [
+          "Tam kare 24,2 MP",
+          "5 yönlü sabitleme başlıkta",
+          "4K başlıkta"
+        ],
+        "cons": [
+          "Lens ayrı",
+          "Bu kontrolde sepete düğmesi ayrışmadı"
+        ],
+        "query": "Sony Alpha 7 III body",
+        "network": "amazon_tr",
+        "asin": "B07B4L1PQ8"
       }
     ]
   },
@@ -7077,6 +7500,25 @@
         "query": "kahve tartisi 0.1g zamanlayicili",
         "network": "amazon_tr",
         "asin": "B0CJK4ZJ65"
+      },
+      {
+        "id": "g3ferrari-delizia",
+        "name": "G3 Ferrari Delizia Pizza Fırını",
+        "brand": "G3 Ferrari",
+        "alt": "ekmek-pasta",
+        "desc": "Amazon.com.tr başlığı 3 taş taban ve 400°C diyor. Lahmacun ve pide de başlıkta. Maddeler taş yüzey, kapalı kompakt gövde ve ince hamurda çıtır taban yazıyor.",
+        "pros": [
+          "Başlıkta 400°C ve 3 taş",
+          "Kapalı gövde",
+          "İnce hamur için taş"
+        ],
+        "cons": [
+          "Pişirme süresi sayı olarak yok",
+          "Ev fırınının büyük tepsisi değil"
+        ],
+        "query": "G3 Ferrari Delizia pizza",
+        "network": "amazon_tr",
+        "asin": "B0H1RP55VC"
       }
     ]
   }
