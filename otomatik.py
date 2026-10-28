@@ -226,7 +226,10 @@ BAŞLIK: {t['title']}
 KATEGORİ: {t['cat_name']} › {t['sub_name']}
 MAKALE TİPİ: {t['tip']}
 BEKLENEN YAPI: {cfg['yapi']}
-HEDEF UZUNLUK: en az {cfg['min']} kelime
+UZUNLUK VE YAPI BÜTÇESİ (uymayan taslak reddedilir):
+- Toplam metin en az {cfg['min'] + 150} kelime olsun.
+- En az 6 adet "## " bölümü yaz; her bölüm en az 120 kelime olsun.
+- Her bölümü somut bilgiyle doldur: örnek, gerekçe ve kontrol maddesi ver. Kısa kesip geçme; dolgu cümle de yazma.
 
 İNSANLARIN GERÇEKTEN ARADIĞI SORGULAR (uygun olanları başlıklara ve SSS bölümüne doğal biçimde yedir; zorlama ya da tekrar yapma):
 {sq}
@@ -485,7 +488,7 @@ def main():
         sys.exit("GEMINI_API_KEY yok.")
     if not ukey:
         print("! UNSPLASH_ACCESS_KEY yok: makaleler kategori görseliyle çıkacak.")
-    model = os.environ.get("GEMINI_MODEL") or "gemini-3.1-flash-lite"
+    model = os.environ.get("GEMINI_MODEL") or "gemini-flash-latest"
 
     made, tried = 0, 0
     for t in queue:
