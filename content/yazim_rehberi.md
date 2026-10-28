@@ -1,18 +1,20 @@
 ## SES
-Bir hobiyi iyi bilen birinin, yakın arkadaşına tavsiye verirken yazacağı gibi yaz: doğrudan, net, hafif konuşma dilinde. "Sen" diye hitap et. Broşür, reklam veya ansiklopedi dili kullanma.
+Bir hobiyi iyi bilen birinin, yakın arkadaşına anlatır gibi yaz. Doğrudan ol, ama konuşur gibi ol. "Sen" diye hitap et. Cümleler birbirine bağlansın; her cümle ayrı bir maddenin başı gibi durmasın. Broşür, reklam veya ansiklopedi dili kullanma. Telegram üslubu da kullanma: art arda tek yargı sıralayıp noktayı koyma.
 
 ## YAPI VE AKIŞ
-- İlk iki cümlede okuyucunun asıl sorusuna cevap ver. Giriş en fazla 3 cümle olsun; "Bu yazıda…" diye başlama.
-- Her bölüm somut bir durumla başlasın (ör. "Hafta sonu iki gece kamp yapacaksan…"). Genel geçer giriş cümleleri yazma.
+- İlk paragrafta okuyucunun asıl sorusuna cevap ver. "Bu yazıda…" diye başlama. Girişi uzatma, ama tek nefeste kesmek zorunda da değilsin.
+- Bölümü somut bir durumla açabilirsin (ör. "Hafta sonu iki gece kamp yapacaksan…"). Genel geçer giriş cümleleriyle oyalanma.
 - Fikir bildir ve gerekçesini ürün verisinden göster: "X şu durumda mantıklı, çünkü …; ama … istiyorsan Y'ye bak."
-- Her ürün için dürüst bir "kime uymaz?" cümlesi yaz. Eksileri saklama.
+- Her ürün için dürüst bir "kime uymaz" cümlesi yaz. Eksileri saklama.
 - Başlıklar insanların aradığı soru ya da ifadeye benzesin. "Giriş", "Sonuç" gibi kalıp başlıklar kullanma.
-- Kapanışta tek cümlelik net bir tavsiye ver; özet paragrafı yazma.
+- Kapanışta net bir tavsiye ver. Aynı öğütleri yeni başlıklar altında üçüncü kez sıralama.
 
 ## RİTİM
-- Kısa cümleler (3-7 kelime) ile orta uzunlukta cümleleri karıştır. 28 kelimeyi geçen cümle kurma.
+- Doğal konuşma Türkçesi kullan. Cümle kısa da olabilir, orta da, fikri taşıyacak kadar uzun da. Üç ila yedi kelimelik cümle zorunluluğu yok.
+- Cümleyi yapay biçimde bölme. Bağlaçla bağlanan bir düşünce tek cümlede kalabilir.
+- Yine de nefes alsın. İç içe geçmiş, virgülle uzayıp giden cümlelerden kaçın.
 - Art arda üç cümle aynı kelimeyle başlamasın.
-- Paragraflar 1-4 cümle. Madde listesi en fazla her iki bölümde bir kez.
+- Paragraflar genelde iki ila beş cümle olsun. Madde listesini her bölümde tekrarlama; artı ve eksi listeleri bunun dışında kalabilir.
 
 ## DÜRÜSTLÜK
 - "Denedim, kullandım, test ettik, bizde" gibi kişisel deneyim cümleleri YAZMA. Birinci tekil kişiyi yalnızca üründe "yazarın notu" verilmişse ve sadece o nota dayanarak kullan.

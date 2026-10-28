@@ -14,27 +14,27 @@ starter_text: "Asfaltta ilk çift için adidas Duramo Speed 2 erkek koşu ayakka
 draft: "false"
 ---
 
-İlk koşu ayakkabını asfalt için al. Patika botuyla park turu, park ayakkabısıyla da taşlı yokuş olmaz.
+İlk koşu ayakkabını asfalt için al. Patika botuyla park turu olmaz, park ayakkabısıyla da taşlı yokuş olmaz.
 
-Haftada üç kısa tur atacaksan tek bir çift yeter. İkinci çifti, saat ve kemeri o ayakkabı oturunca düşün. Sıra ters olursa çekmecede akıllı saat, ayakta eski spor ayakkabı kalır.
+Haftada üç kısa tur atacaksan tek bir çift yeter. İkinci çifti, saati ve kemeri o ayakkabı oturunca düşün. Sıra ters giderse çekmecede akıllı saat durur, ayakta eski spor ayakkabı kalır.
 
 ## Asfalt Turu ile Patikayı Ayır
 
-Mahallede düz yolda koşuyorsan yol ayakkabısı ara. Kayıtlardaki üç model de bu iş için duruyor. Taş, çamur ve uzun iniş başka ayakkabı ister. Onu [trekking bot rehberi](/makale/trekking-bot-secimi-gore-tex-baslangic-botlari/) ayrı tutuyor.
+Mahallede düz yolda koşuyorsan yol ayakkabısı ara. Kayıtlardaki üç model de bu iş için duruyor. Taş, çamur ve uzun iniş başka ayakkabı ister; onu [trekking bot rehberi](/makale/trekking-bot-secimi-gore-tex-baslangic-botlari/) ayrı tutuyor.
 
-Drop, yani topuk ile burun arasındaki yükseklik farkı, bu üç sayfanın hiçbirinde sayı olarak yok. Bilmediğin sayıyı ezberleme. Ayak tabanın yanıyorsa bunu bir milimetre iddiasıyla çözme. Önce bedeni ve bağcığı düzelt.
+Drop, yani topuk ile burun arasındaki yükseklik farkı, bu üç sayfanın hiçbirinde sayı olarak yok. Bilmediğin sayıyı ezberleme. Ayak tabanın yanıyorsa bunu bir milimetre iddiasıyla çözme; önce bedeni ve bağcığı düzelt.
 
-Geniş ayak ile dar kalıp aynı rafta durmaz. Nike Pegasus 41 kaydı dar kalıp diyor. O cümle, numaran tutsa bile parmakların sıkışabileceği anlamına gelir. Akşam deneme, şiş ayakta yapılır. Sabah alınan beden akşamı yalan söyleyebilir.
+Geniş ayak ile dar kalıp aynı rafta durmaz. Nike Pegasus 41 kaydı dar kalıp diyor ve o cümle, numaran tutsa bile parmakların sıkışabileceği anlamına gelir. Denemeyi akşam yap, şiş ayakta, çünkü sabah alınan beden akşamı yalan söyleyebilir.
 
 Daha geniş koşu listesi [koşu kategorisinde](/kategori/spor-fitness/kosu/). Evde kalıp ağırlık çalışacaksan ayakkabı yerine [ayarlanabilir dambıl rehberine](/makale/evde-fitness-icin-ayarlanabilir-dambil-rehberi/) bak.
 
 ## adidas Duramo Speed 2: Başlık Ne Diyor?
 
-adidas Duramo Speed 2, Amazon.com.tr başlığında erkek koşu ayakkabısı. Bu kadar. Yastık yüksekliği, taban sertliği ve drop o sayfada yazmıyor. Yazılmayan ölçüyü ben de yazmam.
+adidas Duramo Speed 2, Amazon.com.tr başlığında erkek koşu ayakkabısı, bu kadar. Yastık yüksekliği, taban sertliği ve drop o sayfada yazmıyor, yazılmayan ölçüyü ben de yazmam.
 
-Erkek kalıbı arayan ve asfaltta başlayan biri için bu, doğrulanmış bir ürün sayfası. Kadın kalıbı arayan kişi aynı linki beden çevirerek kullanmasın. Başlık erkek diyor.
+Erkek kalıbı arayan ve asfaltta başlayan biri için bu, doğrulanmış bir ürün sayfası. Kadın kalıbı arayan kişi aynı linki beden çevirerek kullanmasın, başlık erkek diyor.
 
-Stok satırı bu kontrolde karışıktı. Hem alma düğmesi hem de mevcut değil ibaresi göründü. Linki aç, beden seç, düğme yoksa zorlama. Arama kutusuna aynı adı yazmak, başka bir satıcının başka kalıbına düşürebilir. Doğru sayfa `/dp/` linkidir.
+Stok satırı bu kontrolde karışıktı: hem alma düğmesi hem de mevcut değil ibaresi göründü. Linki aç, beden seç, düğme yoksa zorlama. Arama kutusuna aynı adı yazmak başka bir satıcının başka kalıbına düşürebilir, doğru sayfa `/dp/` linkidir.
 
 Kime uymaz? Patika, salon ayakkabısı veya geniş kalıp garantisi isteyen kişiye uymaz. Liste bu üçünü de vermiyor.
 
@@ -51,13 +51,13 @@ Kime uymaz? Patika, salon ayakkabısı veya geniş kalıp garantisi isteyen kiş
 
 ## Nike Pegasus 41: Dar Kalıbı Baştan Bil
 
-Nike Pegasus 41 kaydı günlük koşu için çok yönlü ve konforlu diyor. Dayanıklı da denmiş. Fiyat notu orta-üst. Dar kalıp eksi olarak yazılmış.
+Nike Pegasus 41 kaydı günlük koşu için çok yönlü ve konforlu diyor, dayanıklı da denmiş. Fiyat notu orta-üst, dar kalıp da eksi olarak yazılmış.
 
-Çok yönlü, burada hem kısa tur hem de biraz daha uzun bir park turu demek. Yarış ayakkabısı iddiası yok. Kayıt da yarış demiyor. İlk çiftin işi, seni her gün dışarı çıkarmak. Pegasus bu cümleye uyuyor. Dar kalıp uymuyorsa uymuyor.
+Çok yönlü, burada hem kısa tur hem biraz daha uzun bir park turu demek. Yarış ayakkabısı iddiası yok, kayıt da yarış demiyor. İlk çiftin işi seni her gün dışarı çıkarmak ve Pegasus bu cümleye uyuyor. Dar kalıp uymuyorsa uymuyor.
 
-Bağcığı son delikten geçirmek, bir beden büyütmekten daha temiz bir deneme olabilir. Yine de parmak ucun buruna değiyorsa numarayı büyüt. Dar kalıp notu, "alışırsın" diye kapanmaz.
+Bağcığı son delikten geçirmek, bir beden büyütmekten daha temiz bir deneme olabilir. Yine de parmak ucun buruna değiyorsa numarayı büyüt. Dar kalıp notu "alışırsın" diye kapanmaz.
 
-Kime uymaz? Geniş ön ayağı olan kişiye uymaz. Bütçenin en altını arıyorsan orta-üst notu da seni keser. O zaman Duramo sayfasına dön. Ölçü orada da yok. En azından fiyat bandı kaydı daha sade.
+Kime uymaz? Geniş ön ayağı olan kişiye uymaz. Bütçenin en altını arıyorsan orta-üst notu da seni keser, o zaman Duramo sayfasına dön. Ölçü orada da yok, en azından fiyat bandı kaydı daha sade.
 
 **Artıları:**
 - Günlük koşuya ayrılmış.
@@ -72,11 +72,11 @@ Kime uymaz? Geniş ön ayağı olan kişiye uymaz. Bütçenin en altını arıyo
 
 ## ASICS Gel-Kayano 30: Destek Ağır Gelir
 
-ASICS Gel-Kayano 30 kaydı stabilite ve destek diyor. Konfor ve dayanıklılık da listede. Eksi taraf ağır olması ve yüksek fiyat.
+ASICS Gel-Kayano 30 kaydı stabilite ve destek diyor. Konfor ve dayanıklılık da listede, eksi taraf ise ağır olması ve yüksek fiyat.
 
-Dizinin içeri kaçtığını hissediyorsan destekli bir model mantıklı olabilir. Bunu bir doktor cümlesi sanma. Kayıt, ayakkabının işini destek diye yazmış. Ağır olması da aynı kaydın bedeli.
+Dizinin içeri kaçtığını hissediyorsan destekli bir model mantıklı olabilir. Bunu bir doktor cümlesi sanma. Kayıt ayakkabının işini destek diye yazmış, ağır olması da aynı kaydın bedeli.
 
-Hafif bir tempo ayakkabısı arıyorsan Kayano'yu ilk çift yapma. Ağır taban, kısa ve hızlı turda ayak bileğini yorar. Uzun ve yavaş turda aynı ağırlık, yorgunluğu başka yere taşır. Hangisi olduğunu ilk iki hafta anlarsın. Anlamadan ikinci çifti alma.
+Hafif bir tempo ayakkabısı arıyorsan Kayano'yu ilk çift yapma. Ağır taban kısa ve hızlı turda ayak bileğini yorar, uzun ve yavaş turda aynı ağırlık yorgunluğu başka yere taşır. Hangisi olduğunu ilk iki hafta anlarsın, anlamadan ikinci çifti alma.
 
 Kime uymaz? Hafif ayakkabı isteyen kişiye uymaz. Bütçesi tek bir orta çift olan kişi de yüksek fiyat notunu görmeden tıklamasın.
 
@@ -93,19 +93,19 @@ Kime uymaz? Hafif ayakkabı isteyen kişiye uymaz. Bütçesi tek bir orta çift 
 
 ## Saat ve Kemer Ayakkabının Yerine Geçmez
 
-Ayakkabı oturmadan Garmin Forerunner 55 almak, turu güzelleştirmez. Saat, kayda göre doğru GPS ve koşu metrikleri verir. Pil uzun denmiş. Dokunmatik ekran yok. Müzik depolama da yok.
+Ayakkabı oturmadan Garmin Forerunner 55 almak turu güzelleştirmez. Saat kayda göre doğru GPS ve koşu metrikleri verir, pil de uzun denmiş. Dokunmatik ekran yok, müzik depolama da yok.
 
-Kulaklığın telefonunda kalır. Saate şarkı yüklemeyi bekleme. Düğmelerle idare edersin. Parmakla kaydırmayı seven kişi ilk günden sıkılır.
+Kulaklığın telefonunda kalır, saate şarkı yüklemeyi bekleme. Düğmelerle idare edersin; parmakla kaydırmayı seven kişi ilk günden sıkılır.
 
 Kime uymaz? Müzik isteyen ve dokunmatik arayan kişiye uymaz. Koşu metriklerini okumayacaksan saat, pahalı bir kronometre olur.
 
-Telefon ve anahtar cebinde zıplıyorsa FlipBelt'e bak. Kayıt zıplamaz diyor. Gizli cepler var. Tek beden. Sıkı olabilir. Belin inceyse kemer boş döner. Belin genişse sıkar. Tek beden, her iki uçta da küser.
+Telefon ve anahtar cebinde zıplıyorsa FlipBelt'e bak. Kayıt zıplamaz diyor, gizli cepler var, beden ise tek. Sıkı olabilir: belin inceyse kemer boş döner, belin genişse sıkar, tek beden her iki uçta da küser.
 
-Kime uymaz? Cep kapağı arayan kişiye uymaz. Bu bir bel çantası değil.
+Kime uymaz? Cep kapağı arayan kişiye uymaz, bu bir bel çantası değil.
 
-Nathan su kemeri ayrı bir parça. Hafif, erişimi kolay ve sızdırmaz denmiş. Kapasite sınırlı. Temizlik ister. Yarım saatlik park turunda su kemeri şart değil. Bir saati geçen turda ağzın kuruyorsa o zaman bak. Şişeyi elde taşımak, omzu asimetrik yorar.
+Nathan su kemeri ayrı bir parça. Hafif, erişimi kolay ve sızdırmaz denmiş, kapasite ise sınırlı ve temizlik ister. Yarım saatlik park turunda su kemeri şart değil. Bir saati geçen turda ağzın kuruyorsa o zaman bak, çünkü şişeyi elde taşımak omzu asimetrik yorar.
 
-Kime uymaz? Büyük su deposu isteyen kişiye uymaz. Kapasite notu sınırlı.
+Kime uymaz? Büyük su deposu isteyen kişiye uymaz, kapasite notu sınırlı.
 
 **Artıları:**
 - Forerunner koşu metriği tutar.
@@ -123,61 +123,61 @@ Kime uymaz? Büyük su deposu isteyen kişiye uymaz. Kapasite notu sınırlı.
 
 ## İlk İki Hafta Ne Değişir?
 
-İlk turu eski ayakkabıyla bitirip yenisini akşam yarış gibi giyme. Yeni çiftte ilk gün yirmi dakika yeter. Topuk mu, ön ayak mı, yan taraf mı acıyor, onu ayır.
+İlk turu eski ayakkabıyla bitirip yenisini akşam yarış gibi giyme. Yeni çiftte ilk gün yirmi dakika yeter. Topuk mu acıyor, ön ayak mı, yan taraf mı, onu ayır.
 
-Pegasus'ta acı parmak kökündeyse dar kalıp notu çalışıyor demektir. Kayano'da bilek yoruluyorsa ağırlık notu çalışıyor demektir. Duramo'da bir ölçü yok. Acıyı bir sayıya bağlayamazsın. O zaman sayfadaki beden tablosuna bak, yoksa mağazada dene.
+Pegasus'ta acı parmak kökündeyse dar kalıp notu çalışıyor demektir. Kayano'da bilek yoruluyorsa ağırlık notu çalışıyor demektir. Duramo'da bir ölçü yok, acıyı bir sayıya bağlayamazsın. O zaman sayfadaki beden tablosuna bak, yoksa mağazada dene.
 
-Çorap değişince kalıp değişir. Kalın koşu çorabı, dar Pegasus'ta bedeni bir adım küçültür. İnce çorapla alınan numara, kışın kalın çorapta sıkar. Çorabı ayakkabıyla birlikte götür.
+Çorap değişince kalıp da değişir. Kalın koşu çorabı dar Pegasus'ta bedeni bir adım küçültür, ince çorapla alınan numara da kışın kalın çorapta sıkar. Çorabı ayakkabıyla birlikte götür.
 
-Bağcık sıkı, dil kaymışsa sorunu tabana yıkma. Dili ortaya al, üstten bir delik boş bırak, bir tur daha dene. Bu, yeni bir çift almaktan ucuzdur.
+Bağcık sıkı ve dil kaymışsa sorunu tabana yıkma. Dili ortaya al, üstten bir delik boş bırak, bir tur daha dene. Bu, yeni bir çift almaktan ucuzdur.
 
-Yağmurda kaydı "su geçirmez" sanma. Üç modelin kaydında da su geçirmezlik yok. Islak asfaltta adımı kısalt. Bot arıyorsan yine trekking yazısına dön.
+Yağmurda kaydı "su geçirmez" sanma. Üç modelin kaydında da su geçirmezlik yok, ıslak asfaltta adımı kısalt. Bot arıyorsan yine trekking yazısına dön.
 
 ## Numara, Çorap ve Eski Çift
 
-Akşam şişen ayak, sabah alınan numarayı küçük çıkarır. Denemeyi günün sonunda yap. Parmak ucu ile burun arasında bir parmak boşluk bırak. Bu bir milimetre tablosu değil. Sıkışan tırnak, üçüncü turda kendini belli eder.
+Akşam şişen ayak sabah alınan numarayı küçük çıkarır, denemeyi günün sonunda yap. Parmak ucu ile burun arasında bir parmak boşluk bırak. Bu bir milimetre tablosu değil, sıkışan tırnak üçüncü turda kendini belli eder.
 
-Çorap, kalıbın parçasıdır. Kalın çorapla denediğin Pegasus, ince çorapla boşalır. İnce çorapla aldığın numara, kışın kalın çorapta daralır. Dar kalıp notu zaten Pegasus'ta duruyor. Çorabı değiştirerek o notu silmeye çalışma.
+Çorap kalıbın parçasıdır. Kalın çorapla denediğin Pegasus ince çorapla boşalır, ince çorapla aldığın numara kışın kalın çorapta daralır. Dar kalıp notu zaten Pegasus'ta duruyor, çorabı değiştirerek o notu silmeye çalışma.
 
-Eski çiftin tabanı bir yana yattıysa yenisi de aynı yöne yatar. Ayakkabı bunu düzeltmez. Kısa tur, düz zemin ve bağcık, ilk ayın işi. Destek için Kayano'ya atlamak, yıpranmış bir yürüyüşü saklar. Ağrı dizde ve iki haftadır aynıysa ayakkabı linkinden önce bir uzmana sor. Bu sayfa tıbbi ölçü vermez.
+Eski çiftin tabanı bir yana yattıysa yenisi de aynı yöne yatar, ayakkabı bunu düzeltmez. Kısa tur, düz zemin ve bağcık ilk ayın işi. Destek için Kayano'ya atlamak yıpranmış bir yürüyüşü saklar. Ağrı dizdeyse ve iki haftadır aynıysa ayakkabı linkinden önce bir uzmana sor, bu sayfa tıbbi ölçü vermez.
 
-İki çift birden çevirmek, yıpratmayı böler. İlk ayda bunu yapma. Hangi çiftin acıttığını ayıramazsın. Bir çift otursun. Taban deseni düzleşince ikinciye bak. Düzleşmeyi gözün görür. Kilometre sayacı şart değil. Forerunner bunu tutar, tutmasa da taban yalan söylemez.
+İki çift birden çevirmek yıpratmayı böler. İlk ayda bunu yapma, hangi çiftin acıttığını ayıramazsın. Bir çift otursun, taban deseni düzleşince ikinciye bak. Düzleşmeyi gözün görür, kilometre sayacı şart değil. Forerunner bunu tutar, tutmasa da taban yalan söylemez.
 
-Kayano ağır diye her turda onu giymek zorunda değilsin. Kısa tempo gününde Pegasus duruyorsa onu giy. İkisi de sende yoksa tek çifti yorma, turu kısalt. Yeni bir model, yorgun tabanın ilacı değildir.
+Kayano ağır diye her turda onu giymek zorunda değilsin. Kısa tempo gününde Pegasus duruyorsa onu giy. İkisi de sende yoksa tek çifti yorma, turu kısalt. Yeni bir model yorgun tabanın ilacı değildir.
 
-Duramo sayfasında beden tablosu varsa ona bak. Yoksa komşu numara alma. İade penceresi satıcıya göre değişir. Bedeni uymayan kutuyu "alışırım" diye açıp parkta ezme. İlk tur yirmi dakika kalsın. Acı yoksa ertesi gün uzat.
+Duramo sayfasında beden tablosu varsa ona bak, yoksa komşu numara alma. İade penceresi satıcıya göre değişir. Bedeni uymayan kutuyu "alışırım" diye açıp parkta ezme. İlk tur yirmi dakika kalsın, acı yoksa ertesi gün uzat.
 
 Kadın kalıbı arayan kişi erkek başlıklı Duramo'yu numara çevirerek çözmesin. Pegasus kaydı dar diyor, kadın ya da erkek ayrımı o maddede yok. Geniş ön ayak her iki başlıkta da aynı sıkışmayı yaşar.
 
-Nathan'ı kısa tura ekleme. FlipBelt'i su şişesi sanma. Saat ekranına bakarak kaldırımdan inme. Sıra böyle. Ayakkabı, sonra cep, sonra kayıt.
+Nathan'ı kısa tura ekleme, FlipBelt'i su şişesi sanma, saat ekranına bakarak kaldırımdan inme. Sıra böyle: ayakkabı, sonra cep, sonra kayıt.
 
-Bağcık düğümü her turda aynı yere gelsin. Bir gün gevşek, bir gün sıkı bağlanan ayakkabı, kalıp şikayeti üretir. Pegasus'ta bu daha belirgin. Dar kalıp, gevşek bağcıkla genişlemez. Sadece topuk kayar. Topuk kabarcığı, dar parmakla aynı problem değildir. Kabarcık varsa bağcığı üstten kilitle. Parmak ağrısı varsa numara veya model değişir.
+Bağcık düğümü her turda aynı yere gelsin. Bir gün gevşek, bir gün sıkı bağlanan ayakkabı kalıp şikayeti üretir, Pegasus'ta bu daha belirgin. Dar kalıp gevşek bağcıkla genişlemez, sadece topuk kayar. Topuk kabarcığı dar parmakla aynı problem değildir: kabarcık varsa bağcığı üstten kilitle, parmak ağrısı varsa numara veya model değişir.
 
-Kayano'nun ağırlığı ilk turda "kalite" gibi gelir. İkinci haftada baldır yorgunluğu olarak döner. O zaman turu kısalt. Daha hafif bir çift arayacaksan Pegasus kaydına dön. Duramo'ya dönersen ölçüsüz bir sayfa açtığını bil. Üçü de asfalt içindir. Yokuşta tempo yarışı bu rehberin işi değil.
+Kayano'nun ağırlığı ilk turda "kalite" gibi gelir, ikinci haftada baldır yorgunluğu olarak döner, o zaman turu kısalt. Daha hafif bir çift arayacaksan Pegasus kaydına dön. Duramo'ya dönersen ölçüsüz bir sayfa açtığını bil. Üçü de asfalt içindir, yokuşta tempo yarışı bu rehberin işi değil.
 
-Eski yürüyüş ayakkabısını koşuya çevirme. Taban deseni yürüyüş için dizilmişse koşu kaydı aramazsın. Elindeki model Pegasus, Kayano veya Duramo değilse buradaki artı ve eksi ona uymaz. Komşu modele "aynı his" deme.
+Eski yürüyüş ayakkabısını koşuya çevirme. Taban deseni yürüyüş için dizilmişse koşu kaydı aramazsın. Elindeki model Pegasus, Kayano veya Duramo değilse buradaki artı ve eksi ona uymaz, komşu modele "aynı his" deme.
 
 ## Sık Sorulan Sorular
 
 ### Kadın bir Duramo alabilir mi?
 
-Başlık erkek diyor. Aynı adı kadın kalıbında aramak başka bir sayfa açar. O sayfayı doğrulamadan link verme. Dar kalıp derdi Pegasus kaydında. Duramo'da kalıp genişliği yazmıyor.
+Başlık erkek diyor. Aynı adı kadın kalıbında aramak başka bir sayfa açar, o sayfayı doğrulamadan link verme. Dar kalıp derdi Pegasus kaydında, Duramo'da ise kalıp genişliği yazmıyor.
 
 ### İki çift birden alınır mı?
 
-Alınmaz. Önce bir yol ayakkabısı. İkinci çift, birincisi yıpranınca veya zemin değişince gelir. Kayano ile Pegasus'u aynı hafta almak, hangisinin acıttığını gizler.
+Alınmaz. Önce bir yol ayakkabısı, ikinci çift birincisi yıpranınca veya zemin değişince gelir. Kayano ile Pegasus'u aynı hafta almak, hangisinin acıttığını gizler.
 
 ### Saat şart mı?
 
-Değil. Turu kapıdan çıkmak bitirir. Forerunner, mesafeyi ve metriği tutmak isteyene. Müzik ve dokunmatik isteyene değil.
+Değil, turu kapıdan çıkmak bitirir. Forerunner mesafeyi ve metriği tutmak isteyene yarar, müzik ve dokunmatik isteyene değil.
 
 ### Su kemeri ilk günden mi?
 
-Hayır. Kısa turda şart değil. Kapasite zaten sınırlı. Tur uzayınca Nathan'a bak. FlipBelt telefon içindir, su için değil.
+Hayır. Kısa turda şart değil, kapasite zaten sınırlı. Tur uzayınca Nathan'a bak, FlipBelt ise telefon içindir, su için değil.
 
 ## Bütçe, Orta ve Üst Paket
 
-Fiyat yazmıyorum. Rakam sayfada değişir. Stok da değişir.
+Fiyat yazmıyorum, çünkü rakam sayfada değişir, stok da değişir.
 
 | Paket | İçinde ne var | Kime uyar |
 | --- | --- | --- |

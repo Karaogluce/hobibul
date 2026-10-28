@@ -366,7 +366,7 @@ BEKLENEN YAPI: {cfg['yapi']}
 UZUNLUK VE YAPI BÜTÇESİ (uymayan taslak reddedilir):
 - Toplam metin en az {max(cfg['min'] + 150, 1650)} kelime olsun. 2000 kelimeyi geçme.
 - En az 6 adet "## " bölümü yaz.
-- Her bölümü somut durumla aç: örnek, gerekçe ve kontrol maddesi ver. Kısa kesip geçme; dolgu cümle de yazma.
+- Her bölümü somut bir durumdan aç. Gerekçeyi ürün verisine bağla. Kısa kesip geçme; aynı öğüdü üç kez de söyleme.
 
 İNSANLARIN GERÇEKTEN ARADIĞI SORGULAR (uygun olanları başlıklara ve SSS bölümüne doğal biçimde yedir; zorlama ya da tekrar yapma):
 {sq}
@@ -378,12 +378,12 @@ KESİN KURALLAR:
 1. Ürün verilerinde olmayan teknik özellik, ağırlık, ölçü, fiyat, puan, test sonucu veya "denedik" iddiası UYDURMA. Emin olmadığın bilgiyi yazma.
 2. Fiyat yazma. Gerekirse "güncel fiyatı Amazon'da kontrol et" de.
 3. Ürün linkini şu biçimde ver ({zorunlu}): [Satın Al: ÜRÜN ADI](aff://ÜRÜN_ID)
-4. Yalnızca Markdown. En üstte H1 yok. {tablo_kurali} ## ve ### başlıkları, kısa paragraflar, madde listeleri kullan.
-5. Doğal, samimi, abartısız Türkçe. "Mükemmel", "piyasa lideri", "kesinlikle", "garanti" gibi kanıtsız iddialar yok. Her paragraf bilgi taşısın, dolgu cümle yazma.
+4. Yalnızca Markdown. En üstte H1 yok. {tablo_kurali} ## ve ### başlıkları, nefes alan paragraflar ve gerektiğinde madde listesi kullan.
+5. Doğal, samimi, abartısız Türkçe. Konuşur gibi yaz: cümleler birbirine bağlansın. Cümleyi yapay biçimde kısaltma; 3-7 kelime zorunluluğu yok. "Mükemmel", "piyasa lideri", "kesinlikle", "garanti" gibi kanıtsız iddialar yok. Her paragraf bilgi taşısın, dolgu cümle yazma.
 6. Başka sitelerden metin alma; kalıp cümleleri tekrarlama.
 7. Yabancı dilde paragraf yazma. İl adı, "nedir" tanımı veya "nasıl yazılır" konusu açma.
 {ticari_ek}
-YAZIM REHBERİ (bunu sıkı uygula; okuyucuya bir insanın yazdığı gibi gelmeli, ama kimseyi yanıltma):
+YAZIM REHBERİ (bunu uygula; okuyucuya bir insanın konuşur gibi yazdığı gelsin, ama kimseyi yanıltma):
 {guide}
 
 ÇIKTI BİÇİMİ (tam olarak böyle):
@@ -401,7 +401,7 @@ def edit_prompt(body, prods, guide):
 
 YAPILACAKLAR:
 1. Yasaklı kalıpları, klişe girişleri ve dolgu cümleleri kaldır ya da somut ifadeyle değiştir.
-2. Cümle ritmini çeşitlendir: kısa ve orta cümleleri karıştır, 28 kelimeyi geçen cümleyi böl, art arda aynı kelimeyle başlayan cümleleri değiştir.
+2. Cümleleri doğal konuşma Türkçesine çek. Kesik kesik, telegram gibi dizilmiş yargıları birleştir. Cümleyi salt kısa olsun diye bölme; 3-7 kelime zorunluluğu yok. Art arda aynı kelimeyle başlayan cümleleri değiştir. İç içe geçmiş, nefes aldırmayan cümleleri sadeleştir.
 3. Ürün verisinde bulunmayan her bilgiyi (ölçü, ağırlık, süre, puan, fiyat, "denedik/kullandım" iddiası) sil.
 4. Tüm aff:// linklerini aynen koru. ## ve ### başlık sayısını koru (başlık metinlerini doğallaştırabilirsin).
 5. Kelime sayısını %10'dan fazla azaltma. Yeni bilgi ekleme. Markdown tablo satırlarını silme.
@@ -462,12 +462,14 @@ def stil_kontrol(body, banned):
     if len(sents) < 20:
         return "çok az cümle"
     lens = [len(x.split()) for x in sents]
-    if statistics.pstdev(lens) < 5:
+    if statistics.pstdev(lens) < 3.5:
         return "cümle ritmi monoton"
-    if sum(1 for n in lens if n > 28) / len(lens) > 0.2:
-        return "çok uzun cümle fazla"
-    if sum(1 for n in lens if n <= 7) / len(lens) < 0.1:
-        return "kısa cümle yok"
+    # Telegram üslubu: cümlelerin çoğu tek yargı.
+    if sum(1 for n in lens if n <= 6) / len(lens) > 0.45:
+        return "cümleler aşırı kesik"
+    # İç içe geçmiş cümle. Orta uzunluk serbest; 28 kelime sınırı yok.
+    if sum(1 for n in lens if n > 45) / len(lens) > 0.12:
+        return "cümleler çok uzun"
     top = Counter(x.split()[0].lower() for x in sents).most_common(1)[0][1] / len(sents)
     if top > 0.18:
         return "aynı kelimeyle başlayan cümle çok"

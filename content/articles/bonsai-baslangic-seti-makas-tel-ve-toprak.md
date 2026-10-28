@@ -14,77 +14,77 @@ starter_text: "İlk canlı bonsai çantası TianBonsai 10 parça set. Paslanmaz 
 draft: "false"
 ---
 
-Canlı bonsai alacaksan önce makas ve süzülen toprak. Ağacı, alet çantasından önce de alabilirsin. Çanta yoksa dalı mutfak makasıyla kesersin. O kesik, gövdeyi ezer.
+Canlı bonsai alacaksan önce makas ve süzülen toprak olsun. Ağacı alet çantasından önce de alabilirsin, çanta yoksa dalı mutfak makasıyla kesersin ve o kesik gövdeyi ezer.
 
-LEGO bonsai başka kutu. Su yok, tel yok. Onu [yetişkin LEGO setleri](/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/) anlatıyor. Burada yaprak değişmez. Yaprak dökülür.
+LEGO bonsai başka kutu, su yok, tel yok. Onu [yetişkin LEGO setleri](/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/) anlatıyor. Burada yaprak değişmez, yaprak dökülür.
 
 ## Alet Sayfaları Bu Turda Arama
 
-Bu listedeki beş ürün katalogda duruyor. Amazon.com.tr `/dp/` sayfalarını bu turda doğrulayamadım. Linkler arama açar. Açılınca başlık, marka ve parça adedini sen oku. Başka bir set gelirse geri dön.
+Bu listedeki beş ürün katalogda duruyor. Amazon.com.tr `/dp/` sayfalarını bu turda doğrulayamadım, linkler arama açar. Açılınca başlık, marka ve parça adedini sen oku, başka bir set gelirse geri dön.
 
-TianBonsai 10 parça set, budama ve şekil için paslanmaz çelik diyor. Taşıma çantası var. Profesyonel sete göre basit. Bıçaklar bileme ister. On parça, on ayrı uzmanlık değildir. İnce makas ile kalın dal testeresi aynı elde ilk gün gerekmez.
+TianBonsai 10 parça set, budama ve şekil için paslanmaz çelik diyor. Taşıma çantası var, profesyonel sete göre basit ve bıçaklar bileme ister. On parça, on ayrı uzmanlık değildir ve ince makas ile kalın dal testeresi aynı elde ilk gün gerekmez.
 
-Alüminyum tel, Mudder kaydında yumuşak ve çeşitli kalınlık diyor. Ağaca zarar vermez denmiş. Kalın dal için yetersiz. Renk seçeneği sınırlı. Tel, dalı bir gecede heykel yapmaz. Kalınlık yetmiyorsa ikinci tur tel sar. Zorla sıkma.
+Alüminyum tel, Mudder kaydında yumuşak ve çeşitli kalınlık diyor. Ağaca zarar vermez denmiş, kalın dal için yetersiz ve renk seçeneği sınırlı. Tel dalı bir gecede heykel yapmaz, kalınlık yetmiyorsa ikinci tur tel sar ve zorla sıkma.
 
-Bonsai Jack toprak, drenaj ve hazır karışım diyor. Kök çürümesini önler denmiş. Besin yok. Gübre ayrıca. Fiyatı yüksek. Besinsiz toprak, "eksik ürün" değildir. Kayıt bunu söylüyor. Gübreyi aynı gün düşün.
+Bonsai Jack toprak drenaj ve hazır karışım diyor, kök çürümesini önler denmiş. Besin yok, gübre ayrıca ve fiyatı yüksek. Besinsiz toprak "eksik ürün" değildir, kayıt bunu söylüyor, gübreyi aynı gün düşün.
 
-BonsaiOutlet makası ince uç ve keskin çelik diyor. Küçük dala uygun. Kalın dala değil. Pas için bakım ister. Kalın dalı bu uçla zorlarsan ağız bükülür.
+BonsaiOutlet makası ince uç ve keskin çelik diyor. Küçük dala uygun, kalın dala değil ve pas için bakım ister. Kalın dalı bu uçla zorlarsan ağız bükülür.
 
-Biogold, yavaş salınımlı organik gübre diyor. Japon kaydı. Uzun süre etkili. Fiyatı yüksek. Koku olabilir. Toprak besinsiz olduğu için gübre boş bir süs değildir. Koku notunu kapalı odada unutma.
+Biogold yavaş salınımlı organik gübre diyor. Japon kaydı, uzun süre etkili, fiyatı yüksek ve koku olabilir. Toprak besinsiz olduğu için gübre boş bir süs değildir. Koku notunu kapalı odada unutma.
 
 Kategori [bonsai](/kategori/bahce-bitki/bonsai/).
 
 ## On Parça Set: Çanta Var, Usta Yok
 
-On parça, başlangıç çantası. Basit kayıt, bunu saklamıyor. Bileme ister. Bilemeden kullanılan ağız, dalı kesmez, ezer. Ezik uç, bir hafta kuru bir sap olarak kalır.
+On parça bir başlangıç çantası. Basit kayıt bunu saklamıyor ve bileme ister, bilemeden kullanılan ağız dalı kesmez, ezer ve ezik uç bir hafta kuru bir sap olarak kalır.
 
-Çanta, parçaları bir arada tutar. Çantayı ıslak balkonda bırakma. Pas notu makas kaydında da var. Çelik paslanmaz denmiş. Paslanmaz, bakımsız sonsuz demek değildir. Makas kaydı bakım ister diyor. Set de bileme ister diyor. İkisini birlikte oku.
+Çanta parçaları bir arada tutar ama çantayı ıslak balkonda bırakma. Pas notu makas kaydında da var. Çelik paslanmaz denmiş ama paslanmaz, bakımsız sonsuz demek değildir. Makas kaydı bakım ister diyor, set de bileme ister diyor, ikisini birlikte oku.
 
-Kime uymaz? Kalın gövdeyi tek ağızla kesecek kişiye uymaz. Kayıt, profesyonel sete göre basit diyor. O iş için ayrı bir testere ararsın. Onu bu linkin içine yazmam. Arama başka ürüne düşer.
+Kime uymaz? Kalın gövdeyi tek ağızla kesecek kişiye uymaz, kayıt profesyonel sete göre basit diyor ve o iş için ayrı bir testere ararsın. Onu bu linkin içine yazmam, arama başka ürüne düşer.
 
 **Artıları:**
-- On parça bir arada.
-- Paslanmaz kayıt.
-- Çanta var.
+- On parça aynı çantada duruyor.
+- Kayıt paslanmaz çelik diyor.
+- Taşıma çantası parçaları bir arada tutuyor.
 
 **Eksileri:**
-- Basit sete göre. Bileme şart.
+- Basit bir set, bileme şart.
 - `/dp/` doğrulanmadı.
 
 [Satın Al: TianBonsai 10 Parça Set](aff://bonsai-alet-seti-10-parca)
 
 ## Tel: Kalın Dalı Zorlama
 
-Tel, ince dalı yönlendirir. Kayıt yumuşak diyor. Çeşitli kalınlık var. Kalın dal için yetersiz. Yetersiz teli iki kat sarıp "tutar" deme. Kabuk izi, fazla sıkının izidir. Kayıt zarar vermez diyor. O cümle, zorlanan kalın dal için yazılmamış.
+Tel ince dalı yönlendirir. Kayıt yumuşak diyor, çeşitli kalınlık var ve kalın dal için yetersiz. Yetersiz teli iki kat sarıp "tutar" deme, kabuk izi fazla sıkının izidir. Kayıt zarar vermez diyor, o cümle zorlanan kalın dal için yazılmamış.
 
-Renk sınırlı. Görünmez tel arıyorsan bu kayıt yetmeyebilir. Görünsün, işi görsün. Estetik ikinci ay.
+Renk sınırlı olduğu için görünmez tel arıyorsan bu kayıt yetmeyebilir. Görünsün ve işi görsün, estetik ikinci aya kalsın.
 
-Kime uymaz? Kalın gövde bükecek kişiye uymaz. Tel orada yetersiz. Makas da kalın dala değil. İkisi birden o işi çözmez.
+Kime uymaz? Kalın gövde bükecek kişiye uymaz, tel orada yetersiz. Makas da kalın dala değil, ikisi birden o işi çözmez.
 
 **Artıları:**
 - Yumuşak, bükülür.
-- Birden fazla kalınlık.
+- Birden fazla kalınlık var.
 - İnce dal için yazılmış.
 
 **Eksileri:**
 - Kalın dala yetmez.
-- Renk az. Sayfa doğrulanmadı.
+- Renk az ve sayfa doğrulanmadı.
 
 [Satın Al: Bonsai Alüminyum Teli](aff://bonsai-aluminyum-teli)
 
 ## Toprak, Makas ve Gübre
 
-Bonsai Jack süzülür. Kök çürümesi notu bu yüzden var. Besin yoktur. Saksı tabağında su bekletme. Süzülen karışım, tabakta göl olursa kayıt boşa çıkar. Ne kadar günde bir su, sayfa yazmıyor. Yazmıyorsa takvim uydurma. Toprak yüzeyi kuruyunca bak. Çok ıslaksa bekle.
+Bonsai Jack süzülür, kök çürümesi notu bu yüzden var ve besin yoktur. Saksı tabağında su bekletme, süzülen karışım tabakta göl olursa kayıt boşa çıkar. Ne kadar günde bir su, sayfa yazmıyor. Yazmıyorsa takvim uydurma, toprak yüzeyi kuruyunca bak ve çok ıslaksa bekle.
 
-Kime uymaz? İçinde gübre olan tek torba isteyen kişiye uymaz. Besin yok. Biogold ayrı.
+Kime uymaz? İçinde gübre olan tek torba isteyen kişiye uymaz, besin yok ve Biogold ayrı.
 
-İnce makas, küçük dal içindir. Kalın dalda ağız zorlanır. Pas için kurulayarak kaldır. Islak ağız, bakım notunu hızlandırır.
+İnce makas küçük dal içindir, kalın dalda ağız zorlanır. Pas için kurulayarak kaldır, ıslak ağız bakım notunu hızlandırır.
 
-Kime uymaz? Tek aletle hem kök hem kalın gövde isteyen kişiye uymaz. On parça set daha geniş. Yine de basit.
+Kime uymaz? Tek aletle hem kök hem kalın gövde isteyen kişiye uymaz. On parça set daha geniş, yine de basit.
 
-Biogold yavaş salınır. Her sulamada kaşık gübre bekleme. Kayıt uzun süre diyor. Süre gün olarak yok. Yoksa hafta sayısı yazmam. Koku olabilir. Kapalı rafın içine açık paket koyma.
+Biogold yavaş salınır, her sulamada kaşık gübre bekleme. Kayıt uzun süre diyor, süre gün olarak yok. Yoksa hafta sayısı yazmam. Koku olabilir, kapalı rafın içine açık paket koyma.
 
-Kime uymaz? Kokusuz ve ucuz bir sıvı gübre arayan kişiye uymaz. Fiyat yüksek. Koku notu açık.
+Kime uymaz? Kokusuz ve ucuz bir sıvı gübre arayan kişiye uymaz, fiyat yüksek ve koku notu açık.
 
 **Artıları:**
 - Toprak süzülür.
@@ -102,67 +102,67 @@ Kime uymaz? Kokusuz ve ucuz bir sıvı gübre arayan kişiye uymaz. Fiyat yükse
 
 ## İlk Ay Ağacı Değil, Suyu İzle
 
-Ağacı aldığın gün teli dolama. Önce bir hafta aynı yerde dursun. Yer değişimi ile tel aynı güne denk gelirse yaprak neden döküldü, ayıramazsın. Dökülme olursa suyu, yeri ve teli tek tek ele.
+Ağacı aldığın gün teli dolama, önce bir hafta aynı yerde dursun. Yer değişimi ile tel aynı güne denk gelirse yaprağın neden döküldüğünü ayıramazsın. Dökülme olursa suyu, yeri ve teli tek tek ele.
 
-Toprak Jack ise tabakta su bırakma. Başka bir torba kullandıysan bu cümle ona ait değildir. Başka torbanın drenajını bu kayıttan üretme.
+Toprak Jack ise tabakta su bırakma. Başka bir torba kullandıysan bu cümle ona ait değildir ve başka torbanın drenajını bu kayıttan üretme.
 
-İnce makasla yalnızca kuru uç ve bariz taşan küçük dal. Kalın kesim yok. Set basit diyor. İlk ay o sınırı zorlama. Zorlarsan ağız bükülür, dal ezilir.
+İnce makasla yalnızca kuru uç ve bariz taşan küçük dal, kalın kesim yok. Set basit diyor, ilk ay o sınırı zorlama, zorlarsan ağız bükülür ve dal ezilir.
 
-Gübreyi ilk gün boca etme. Toprak zaten besinsiz diye tüm paketi dökme. Yavaş salınım, az ve seyrek demeye yakındır. Gün sayısı yok. Paketin kendi tarifini oku. Tarif yoksa az koy, yaprağı izle. Yaprak ucu yanıyorsa fazla gitmişsindir. Bunu bir laboratuvar sonucu sanma. Gözlemdir.
+Gübreyi ilk gün boca etme, toprak zaten besinsiz diye tüm paketi dökme. Yavaş salınım az ve seyrek demeye yakındır, gün sayısı da yok, paketin kendi tarifini oku. Tarif yoksa az koy ve yaprağı izle. Yaprak ucu yanıyorsa fazla gitmişsindir, bunu bir laboratuvar sonucu sanma, gözlemdir.
 
-Tel rengi görünüyorsa sorun değil. Kabuğu kestiyse sorun. Sıkı turu gevşet. Kalın dal yetersiz notundaysa teli çıkar. Zorlama.
+Tel rengi görünüyorsa sorun değil, kabuğu kestiyse sıkı turu gevşet. Kalın dal yetersiz notundaysa teli çıkar, zorlama.
 
-Kışın içeri alınan ağaç ile balkondaki ağaç aynı suyu istemez. Sayfa mevsim takvimi vermiyor. Odayı çok sıcak tutup her gün suyu aynı tutma. Toprak yüzeyine bak.
+Kışın içeri alınan ağaç ile balkondaki ağaç aynı suyu istemez. Sayfa mevsim takvimi vermiyor, odayı çok sıcak tutup her gün suyu aynı tutma ve toprak yüzeyine bak.
 
-LEGO 10281'i bu saksının yanına koyabilirsin. Sulama kabını plastik yaprağa değdirme. Canlı yaprak ile takılan yaprak aynı yeşil değildir. Karışırsa ikisini de bozarsın.
+LEGO 10281'i bu saksının yanına koyabilirsin ama sulama kabını plastik yaprağa değdirme. Canlı yaprak ile takılan yaprak aynı yeşil değildir, karışırsa ikisini de bozarsın.
 
-Saksı deliği yoksa Jack toprak da çürümeyi tek başına çözmez. Kayıt drenaj diyor. Deliksiz kap, drenajı keser. Delik açmak bu listenin aleti değil. Deliksiz kabı başlangıç sanma.
+Saksı deliği yoksa Jack toprak da çürümeyi tek başına çözmez, kayıt drenaj diyor ve deliksiz kap drenajı keser. Delik açmak bu listenin aleti değil, deliksiz kabı başlangıç sanma.
 
 ## Saksı, Işık ve İkinci Ay
 
-Ağacı camın dibine yapıştırma. Yaprak camda yanarsa suyu artırmak çare değildir. Bir karış içeri al. Bunu bir lüks ölçüsü sanma. Göz, yanık ucu sudan ayırır. Yanık uçta gübreyi de kes. Biogold yavaş diye her gün eklenmez.
+Ağacı camın dibine yapıştırma, yaprak camda yanarsa suyu artırmak çare değildir ve bir karış içeri al. Bunu bir lüks ölçüsü sanma, göz yanık ucu sudan ayırır. Yanık uçta gübreyi de kes, Biogold yavaş diye her gün eklenmez.
 
-Rüzgarlı balkon, ince dalı tel varken büker. Tel, rüzgarın yerine geçmez. Kayıt teli yön için yazmış. Fırtına için yazmamış. Fırtınada içeri al. İçeri alınca suyu azalt. Oda, balkon kadar kurutmaz. Takvim yok. Toprak yüzeyi yeter.
+Rüzgarlı balkon ince dalı tel varken büker, tel ise rüzgarın yerine geçmez. Kayıt teli yön için yazmış, fırtına için yazmamış. Fırtınada içeri al ve içeri alınca suyu azalt, çünkü oda balkon kadar kurutmaz. Takvim yok, toprak yüzeyi yeter.
 
-Kök delikten çıkıyorsa saksı küçük kalmış olabilir. Jack toprağı yenilemek, aynı gün teli sarmaktan daha acil. İkisini birden yapma. Kök işi bitsin, bir hafta bekle, sonra ince dala tel. Kalın dala yine tel yok.
+Kök delikten çıkıyorsa saksı küçük kalmış olabilir. Jack toprağı yenilemek aynı gün teli sarmaktan daha acil, ikisini birden yapma. Kök işi bitsin, bir hafta bekle, sonra ince dala tel geç, kalın dala yine tel yok.
 
-On parça çantayı ıslak elle kapatma. Bıçak bileme ister. Islak ağız, bilemeden önce paslanır. Makas kaydı da bakım diyor. İkisini aynı kutuda kuru tut. Çantayı toprak torbasının üstüne koyma. Torba toz döker.
+On parça çantayı ıslak elle kapatma, bıçak bileme ister ve ıslak ağız bilemeden önce paslanır. Makas kaydı da bakım diyor, ikisini aynı kutuda kuru tut. Çantayı toprak torbasının üstüne koyma, torba toz döker.
 
-Gübre kokusu kapalı çekmecede birikir. Paketi mutfak kavanozunun yanına koyma. Koku notu bu yüzden yazılı. Kokuyu "bozuk" sanıp dökmeyebilirsin. Açık havada bir kez kokla. Sonra kapağı kapat.
+Gübre kokusu kapalı çekmecede birikir, paketi mutfak kavanozunun yanına koyma. Koku notu bu yüzden yazılı. Kokuyu bozuk sanıp dökmeyebilirsin, açık havada bir kez kokla ve sonra kapağı kapat.
 
-İkinci ay hâlâ alçak bir karton kapta ise Jack'in drenajı eksik kalır. Delik açmadan toprak değiştirmek, aynı gölü yeni torbayla kurar. Delik, bu listenin satın alınan parçası değil. Saksı seçimi senin. Deliksiz saksıyı "Japon kabı" diye kutsama.
+İkinci ay hâlâ alçak bir karton kapta ise Jack'in drenajı eksik kalır. Delik açmadan toprak değiştirmek aynı gölü yeni torbayla kurar. Delik bu listenin satın alınan parçası değil, saksı seçimi senin. Deliksiz saksıyı "Japon kabı" diye kutsama.
 
-Yaprak parlıyorsa gübreyi artırma. Parlaklık, fazla besinin reklamı değildir. Soluk yaprakta da hemen tüm paketi dökme. Az koy, kısa bir aralık bak. Hafta sayısı kayıtta yok. Yaprak daha hızlı bozulursa süreyi kısalt.
+Yaprak parlıyorsa gübreyi artırma, parlaklık fazla besinin reklamı değildir. Soluk yaprakta da hemen tüm paketi dökme, az koy ve kısa bir aralık bak. Hafta sayısı kayıtta yok, yaprak daha hızlı bozulursa süreyi kısalt.
 
-LEGO saksısını canlı saksının içine koyma. Plastik yaprak, Jack toprakta çamur olur. İki hobi aynı rafta durur. Aynı delikte durmaz.
+LEGO saksısını canlı saksının içine koyma, plastik yaprak Jack toprakta çamur olur. İki hobi aynı rafta durur, aynı delikte durmaz.
 
-Komşu bitkinin toprağını bonsaiye doldurma. Ev bitkisi torbası, Jack kaydı değildir. Süzülme vaadi o torbada yoksa çürüme notu da yok demektir. Karıştırma.
+Komşu bitkinin toprağını bonsaiye doldurma, ev bitkisi torbası Jack kaydı değildir. Süzülme vaadi o torbada yoksa çürüme notu da yok demektir, karıştırma.
 
-Yeni ağacı aynı gün budama. Yer değişimi yeter. Makas ikinci hafta, tel üçüncü. Sıra bozulursa yaprak neden gitti bilinmez. İnce uç, kuru dalı alır. Yeşil ve sağlıklı dal ilk ay dursun. Kalın kesim yok. Set basit diyor. Basit set, acele ustalık istemez.
+Yeni ağacı aynı gün budama, yer değişimi yeter, makas ikinci hafta ve tel üçüncü gelir. Sıra bozulursa yaprak neden gitti bilinmez. İnce uç kuru dalı alır, yeşil ve sağlıklı dal ilk ay dursun ve kalın kesim yok. Set basit diyor, basit set acele ustalık istemez.
 
-Gübre paketini toprak torbasının içine boşaltma. İkisi ayrı iş. Boşaltırsan yavaş salınım bir anda hızlı olur. Yaprak ucu kararırsa suyu artırıp gübreyi kes. Artırmak, tabağı göl yapmak değildir. Jack süzülür. Göl, süzülmeyi iptal eder.
+Gübre paketini toprak torbasının içine boşaltma, ikisi ayrı iş ve boşaltırsan yavaş salınım bir anda hızlı olur. Yaprak ucu kararırsa suyu artırıp gübreyi kes, artırmak ise tabağı göl yapmak değildir. Jack süzülür, göl ise süzülmeyi iptal eder.
 
 ## Sık Sorulan Sorular
 
 ### LEGO bonsai bu sete dahil mi?
 
-Hayır. O model su istemez. Canlı ağaç makas, tel ve toprak ister. İki hobi yan yana durabilir. Aynı kutu değildir.
+Hayır, o model su istemez, canlı ağaç ise makas, tel ve toprak ister. İki hobi yan yana durabilir, aynı kutu değildir.
 
 ### On parça yetmez mi?
 
-Başlangıç için kayıt öyle. Basit diyor. Kalın gövde ve profesyonel ağız başka sete kalır. O setin sayfasını doğrulamadım.
+Başlangıç için kayıt öyle diyor ve basit diye de yazıyor. Kalın gövde ile profesyonel ağız başka sete kalır, o setin sayfasını doğrulamadım.
 
 ### Toprak neden gübresiz?
 
-Jack kaydı besin yok diyor. Çürümemesi için süzülür. Besini Biogold tarafı konuşur. İkisini tek torba sanma.
+Jack kaydı besin yok diyor, çürümemesi için süzülür ve besini Biogold tarafı konuşur. İkisini tek torba sanma.
 
 ### Teli ilk gün sarılır mı?
 
-Sarılmasın. Yer değişimi otursun. Kalın dala zaten yetmez. İnce dalda bile kabuğu kesene kadar sıkma.
+Sarılmasın, yer değişimi otursun. Kalın dala zaten yetmez, ince dalda bile kabuğu kesene kadar sıkma.
 
 ## Bütçe, Orta ve Üst Paket
 
-Fiyat yazılmıyor. Arama sayfası fiyatı değiştirir.
+Fiyat yazılmıyor, arama sayfası fiyatı değiştirir.
 
 | Paket | İçinde ne var | Kime uyar |
 | --- | --- | --- |
@@ -170,9 +170,10 @@ Fiyat yazılmıyor. Arama sayfası fiyatı değiştirir.
 | Orta | [10 parça set](aff://bonsai-alet-seti-10-parca) ve [Jack toprak](aff://bonsai-jack-toprak-karisimi) | Çanta isteyen, süzülen toprak arayan kişi |
 | Üst | Orta paket ve [Biogold](aff://biogold-bonsai-gubresi) | Besinsiz toprağa yavaş gübre ekleyen kişi |
 
-İlk canlı ağaçta makas ile süzülen toprağı aynı haftaya koy. Teli ikinci hafta düşün. LEGO kutusunu sulama. Deliksiz saksıya Jack doldurma. Gübreyi torbanın içine boşaltma. Kalın dal bu sette kesilmez. Kuru uç yeter.
-Çantayı ıslak balkonda bırakma. Bıçak bileme ister. Tel rengi görünebilir, kabuğu kesmesin. Kesiyorsa turu gevşet. Biogold kokuyorsa mutfak kavanozunun yanına koyma. Koku notu bu yüzden duruyor.
+İlk canlı ağaçta makas ile süzülen toprağı aynı haftaya koy, teli ikinci hafta düşün. LEGO kutusunu sulama, deliksiz saksıya Jack doldurma ve gübreyi torbanın içine boşaltma. Kalın dal bu sette kesilmez, kuru uç yeter.
 
-İlk hafta yalnızca yeri ve suyu izle. Tel ve kalın kesim yok. İnce makas kuru ucu alır. Jack tabağında göl bırakma. Gübreyi az koy. Çok parlak yaprak, davet değildir. LEGO yaprağı aynı deliğe girmez.
+Çantayı ıslak balkonda bırakma, bıçak bileme ister. Tel rengi görünebilir, kabuğu kesmesin. Kesiyorsa turu gevşet. Biogold kokuyorsa mutfak kavanozunun yanına koyma, koku notu bu yüzden duruyor.
 
-Pas notunu kuru saklama ile karşıla. Islak ağız, bilemeden önce işi bırakır.
+İlk hafta yalnızca yeri ve suyu izle, tel ve kalın kesim yok, ince makas kuru ucu alır. Jack tabağında göl bırakma ve gübreyi az koy. Çok parlak yaprak davet değildir, LEGO yaprağı da aynı deliğe girmez.
+
+Pas notunu kuru saklama ile karşıla, ıslak ağız bilemeden önce işi bırakır.

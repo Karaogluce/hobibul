@@ -14,33 +14,31 @@ starter_text: "İlk pizza fırını G3 Ferrari Delizia. Başlık 3 taş ve 400°
 draft: "false"
 ---
 
-İnce pizza istiyorsan ev fırınının kapağını zorlama. Taş tabanlı, kapalı bir pizza fırını başka bir ısıdır.
-
-Ekmek aynı tezgahta durabilir. Aynı kutu değildir. Bu turda tam bir ekmek makinesi ürün sayfası doğrulanmadı. Ekmek için eldeki dürüst yol, döküm tencere kaydı. Onu pizza fırınının yerine koyma.
+İnce pizza istiyorsan ev fırınının kapağını zorlaman gerekmez, çünkü taş tabanlı ve kapalı bir pizza fırını başka bir ısı verir. Ekmek aynı tezgahta durabilir, yine de aynı kutu değildir. Bu turda tam bir ekmek makinesi ürün sayfası doğrulanmadı. Ekmek için eldeki dürüst yol döküm tencere kaydı; onu pizza fırınının yerine koyma.
 
 ## Taş, Kapak ve Ev Fırını
 
-G3 Ferrari Delizia başlığı üç taş taban ve 400°C diyor. Lahmacun ve pide de başlıkta. Maddeler, yüksek ısının ev fırınının vermediği seviyeye yaklaştığını söylüyor. Süre olarak dakika yok. Yoksa "doksan saniye" yazmam.
+G3 Ferrari Delizia'nın başlığı üç taş taban ve 400°C diyor, lahmacun ve pide de başlıkta. Maddeler, yüksek ısının ev fırınının vermediği seviyeye yaklaştığını söylüyor. Süre olarak dakika yok; yoksa "doksan saniye" yazmam.
 
-Taş, ince hamurda daha çıtır taban diye geçiyor. Kalın, veryerli bir dilim için aynı cümle yok. Kalın hamur istiyorsan bu vaadi ona yapıştırma.
+Taş, ince hamurda daha çıtır bir taban diye geçiyor; kalın bir dilim için aynı cümle yok, o yüzden kalın hamur istiyorsan bu vaadi ona yapıştırma.
 
-Kapalı ve kompakt gövde, ısıyı içeride tutuyor. Bahçede odun ateşi isteyen kişi burada durmasın. Gövde kapalı. Yer kaplamayan bir mutfak aleti diye de yazılmış. Büyük aile tepsisi değil.
+Kapalı ve kompakt gövde ısıyı içeride tutuyor. Bahçede odun ateşi isteyen kişi burada durmasın; gövde kapalı. Yer kaplamayan bir mutfak aleti diye de yazılmış, büyük bir aile tepsisi değil.
 
-Ekmek makinesi ararken yedek karıştırıcıya düşme. Tefal hazne parçası gibi ilanlar makine değildir. Başlıkta hazne, karıştırıcı veya yedek yazıyorsa kutuyu makine sanma. Bu turda o ayrımı ancak böyle kurabiliyorum. Tam makinenin `/dp/` sayfası elime geçmedi.
+Ekmek makinesi ararken yedek karıştırıcıya düşme. Tefal hazne parçası gibi ilanlar makine değildir. Başlıkta hazne, karıştırıcı veya yedek yazıyorsa kutuyu makine sanma. Bu turda o ayrımı ancak böyle kurabiliyorum, çünkü tam makinenin `/dp/` sayfası elime geçmedi.
 
-Döküm yol için Le Creuset kaydı duruyor. Eşit ısı, emaye, ekmek ve güveç. Çok pahalı. Çok ağır. Arama linki. Sayfası doğrulanmadı. Ağırlığı mutfak dolabına sor. Raf inceyse başka kapı.
+Döküm yol için Le Creuset kaydı duruyor: eşit ısı, emaye, ekmek ve güveç. Çok pahalı ve çok ağır, üstelik arama linki; sayfası da doğrulanmadı. Ağırlığı mutfak dolabına sor, raf inceyse başka kapı.
 
-Kahve ayrı bir tezgah. [Filtre kahve seti](/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/) orada. Izgara eti [mangal seti](/makale/mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar/) tutuyor. Kategori [ekmek ve pasta](/kategori/yemek-mutfak/ekmek-pasta/).
+Kahve ayrı bir tezgah ve [Filtre kahve seti](/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/) orada duruyor. Izgara eti [mangal seti](/makale/mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar/) tutuyor; kategori ise [ekmek ve pasta](/kategori/yemek-mutfak/ekmek-pasta/).
 
 ## Delizia: 400°C Başlıkta
 
-Üç taş, başlığın parçası. Madde, taşın ısıyı dağıttığını ve ince hamurda çıtır taban desteklediğini söylüyor. Desteklemek, garanti etmek değildir. Hamur suluysa taş da kurtarmaz.
+Üç taş başlığın parçası; madde de taşın ısıyı dağıttığını ve ince hamurda çıtır tabanı desteklediğini söylüyor. Desteklemek garanti etmek değildir; hamur suluysa taş da kurtarmaz.
 
-Kapalı gövde kontrollü pişirme diyor. Kontrol, düğme adedi demek değil. Madde düğme sayısı vermiyor. Vermiyorsa uydurma. Isı içeride kalıyor. Kapağı her on saniyede açarsan o cümle boşa çıkar.
+Kapalı gövde kontrollü pişirme diyor, ama kontrol düğme adedi demek değil. Madde düğme sayısı vermiyor; vermiyorsa uydurmam. Isı içeride kalıyor; kapağı her on saniyede açarsan o cümle boşa çıkar.
 
-Dışı kızarmış, içi yumuşak sonuç hedefleniyor. Bu bir vaat cümlesi. Kalınlık ve dakika yok. İnce yuvarlak için oku. Tepsi böreği için okuma.
+Dışı kızarmış, içi yumuşak bir sonuç hedefleniyor. Bu bir vaat cümlesi; kalınlık ve dakika yok. İnce yuvarlak için oku, tepsi böreği için okuma.
 
-Kime uymaz? Büyük tepsi, odun ateşi veya ekmek programı isteyen kişiye uymaz. Ekmek programı bu sayfada yok. 400°C ekmek kabuğunu yakabilir. Ekmeği bu kutuya zorlama.
+Büyük tepsi, odun ateşi veya ekmek programı isteyen kişiye uymaz. Ekmek programı bu sayfada yok. 400°C ekmek kabuğunu yakabilir, o yüzden ekmeği bu kutuya zorlama.
 
 **Artıları:**
 - Başlıkta 400°C ve üç taş.
@@ -55,17 +53,17 @@ Kime uymaz? Büyük tepsi, odun ateşi veya ekmek programı isteyen kişiye uyma
 
 ## Ekmek Neden Ayrı Kapı?
 
-Ekmek makinesi, program ve hazne ister. O ikisini taşıyan temiz bir sayfa bu turda doğrulanmadı. Doğrulanmayan ASIN yazmam. Yedek pala da makine değildir.
+Ekmek makinesi program ve hazne ister. O ikisini taşıyan temiz bir sayfa bu turda doğrulanmadı. Doğrulanmayan ASIN yazmam; yedek pala da makine değildir.
 
-Le Creuset döküm tencere, ekmek ve güveç için eşit ısı diyor. Emaye yüzey. Ömürlük denmiş. Çok pahalı. Çok ağır. Kapakla birlikte fırına giren bir kap. Delizia'nın taş tepsisi değil.
+Le Creuset döküm tencere, ekmek ve güveç için eşit ısı diyor. Emaye yüzey var ve ömürlük denmiş, buna karşılık çok pahalı ve çok ağır. Kapakla birlikte fırına giren bir kap; Delizia'nın taş tepsisi değil.
 
-Kime uymaz? Hafif bir kap arayan kişiye uymaz. Ağır kayıt açık. Pizza taşı arayan da buraya gelmesin. İş ekmek ve güveç.
+Hafif bir kap arayan kişiye uymaz, çünkü ağır kayıt açık. Pizza taşı arayan da buraya gelmesin; iş ekmek ve güveç.
 
-KitchenAid Artisan mikser, hamur yoğurmak için güçlü motor diyor. Çok aksesuar. Ağır ve pahalı. Ekmek makinesinin yerine geçmez. Yoğurur. Pişirmez. Pişirme Delizia'da pizza içindir, mikserde hiç yoktur.
+KitchenAid Artisan mikser, hamur yoğurmak için güçlü bir motor diyor. Çok aksesuarı var, bir de ağır ve pahalı; ekmek makinesinin yerine geçmez, çünkü yoğurur ama pişirmez. Pişirme Delizia'da pizza içindir, mikserde hiç yoktur.
 
-Kime uymaz? Yalnızca pizza ısıtacak kişiye uymaz. Mikser, hamur gününün aletidir. Tezgahın dar ise ağır kutu yer kaplar.
+Yalnızca pizza ısıtacak kişiye uymaz, çünkü mikser hamur gününün aletidir. Tezgahın darsa o ağır kutu yer kaplar.
 
-Nordic Ware ve Silpat, kek ve tepsi işi. Pizza taşının yerine koyma. Silpat yapışmayı keser. Taşın çıtır taban cümlesi başka bir yüzeydir.
+Nordic Ware ve Silpat kek ve tepsi işidir, pizza taşının yerine koyma. Silpat yapışmayı keser; taşın çıtır taban cümlesi başka bir yüzeydir.
 
 **Artıları:**
 - Döküm kap ekmek kaydı taşıyor.
@@ -82,75 +80,75 @@ Nordic Ware ve Silpat, kek ve tepsi işi. Pizza taşının yerine koyma. Silpat 
 
 ## İlk Pizzayı Nasıl Bölersin?
 
-Hamuru aynı gün hem kalın hem ince açma. Delizia maddesi ince hamurda çıtır taban diyor. İlk deneme ince olsun. Kalın dilim sulu kalırsa taşı suçlama. Kayıt onu vaat etmemiş.
+Hamuru aynı gün hem kalın hem ince açma. Delizia maddesi ince hamurda çıtır taban diyor, o yüzden ilk deneme ince olsun. Kalın dilim sulu kalırsa taşı suçlama; kayıt onu vaat etmemiş.
 
-Üç taş, üç pizzayı aynı anda vaat etmiyor. Taş sayısı, tepsi adedi değildir. Bir taşta bir yuvarlak dene. İkincisini acele koyma. Kapak her açılışta ısıyı bırakır. Madde, kapalı gövdenin ısıyı tuttuğunu söylüyor. Açık kapak bu cümleyi yer.
+Üç taş üç pizzayı aynı anda vaat etmiyor, taş sayısı da tepsi adedi değildir. Bir taşta bir yuvarlak dene, ikincisini acele koyma. Kapak her açılışta ısıyı bırakır. Madde, kapalı gövdenin ısıyı tuttuğunu söylüyor; açık kapak bu cümleyi yer.
 
-Süre yok. İlk turda saate bak, bir sayı uydurup ezberleme. Rengi dışarıdan görüyorsan not al. Ertesi tur aynı renge bak. Dakikayı benden bekleme.
+Süre yok, o yüzden ilk turda saate bak ama bir sayı uydurup ezberleme. Rengi dışarıdan görüyorsan not al ve ertesi tur aynı renge bak; dakikayı benden bekleme.
 
-Un, taşta yanık leke bırakır. Fırçayı ıslak süngerle karıştırma. Taş birden soğuk su görmesin. Bunu sayfa yazmıyor. Yazmıyorsa kesin kural diye de satma. Yine de sıcak taşa soğuk su dökmek, çatlak isteyen bir denemedir. Deneme.
+Un, taşta yanık leke bırakır. Fırçayı ıslak süngerle karıştırma ve taş birden soğuk su görmesin. Bunu sayfa yazmıyor; yazmıyorsa kesin kural diye de satmam. Yine de sıcak taşa soğuk su dökmek, çatlak isteyen bir denemedir. O denemeyi yapma.
 
-Lahmacun ve pide başlıkta. Hamurları pizza ile aynı incelikte olmayabilir. Başlık izin veriyor diye üçünü aynı akşam yarıştırma. Bir hamur, bir akşam.
+Lahmacun ve pide başlıkta, ama hamurları pizza ile aynı incelikte olmayabilir. Başlık izin veriyor diye üçünü aynı akşam yarıştırma; bir hamur, bir akşam yeter.
 
-Ekmek günü ayrı olsun. Döküm kap ağır. Fırından çıkarırken kuru bir bez yetmeyebilir. İkinci bir bez hazırla. Mikser hamuru toplamışsa kabı yağlamayı unutma. Yapışan ekmek, emaye kaydını test eder. Test, çizik olarak kalır.
+Ekmek günü ayrı olsun. Döküm kap ağırdır; fırından çıkarırken kuru bir bez yetmeyebilir, ikinci bir bez hazırla. Mikser hamuru toplamışsa kabı yağlamayı unutma. Yapışan ekmek emaye kaydını test eder ve o test çizik olarak kalır.
 
-Delizia'yı ekmek kabı gibi önceden ısıtıp içine hamur koyma. 400°C başlıkta. Ekmek için yazılmış bir program yok. Kabuk yanar, iç çiğ kalır. Bunu bir tarif diye ekleme. Ayrım bu.
+Delizia'yı ekmek kabı gibi önceden ısıtıp içine hamur koyma. 400°C başlıkta ve ekmek için yazılmış bir program yok. Kabuk yanar, iç çiğ kalır. Bunu bir tarif diye ekleme; ayrım bu.
 
-Misafir varsa iki ince yuvarlak planla. Üç taş, üç kişilik servis demek değildir. İkinci yuvarlak, birincinin notuna göre gelir. Not yoksa ikinci daha rastgele olur.
+Misafir varsa iki ince yuvarlak planla; üç taş, üç kişilik servis demek değildir. İkinci yuvarlak birincinin notuna göre gelir, not yoksa ikinci daha rastgele olur.
 
 ## Tezgah ve Komşu Aletler
 
-Mikser ile Delizia aynı prize aynı anda yüklenmesin diye bir watt sayısı yazamam. Sayı yok. Priz ısınıyorsa birini beklet. Bu bir elektrik projesi değil. Mutfak sağduyusu.
+Mikser ile Delizia'nın aynı prize aynı anda yüklenmemesi için bir watt sayısı yazamam, çünkü sayı yok. Priz ısınıyorsa birini beklet. Bu bir elektrik projesi değil, mutfak sağduyusu.
 
-Silpat'i taşın üstüne sermeyi deneme. Taşın işi çıtır taban. Matın işi yapışmayı kesmek. İkisi üst üste, ikisinin de kaydını bozar.
+Silpat'i taşın üstüne sermeyi deneme. Taşın işi çıtır taban, matın işi yapışmayı kesmek. İkisi üst üste binerse ikisinin de kaydı bozulur.
 
-Güveç ile pizza aynı akşam, iki farklı ısı demektir. Döküm kap fırında kalır. Delizia kendi ısısındadır. İkisinin derecesini bir tabloda birleştirme. Le Creuset kaydı derece vermiyor. Delizia başlığı 400°C. Ev fırınının düğmesi üçüncü bir sayı. Üçünü aynı satırda okuma.
+Güveç ile pizza aynı akşam, iki farklı ısı demektir. Döküm kap fırında kalır, Delizia kendi ısısındadır. İkisinin derecesini bir tabloda birleştirme. Le Creuset kaydı derece vermiyor, Delizia başlığı 400°C, ev fırınının düğmesi ise üçüncü bir sayı. Üçünü aynı satırda okuma.
 
-Hamur kabını mikserde unutma. Artisan çok aksesuar diyor. Aksesuarın hepsi ilk günde gerekmez. Çırpıcı ile hamur kancası ayrıdır. Yanlış uç, hamuru döver, yoğurmaz. Kutu şemasına bak. Şema yoksa uçların şekline bak. İnce tel, hamur kancası değildir.
+Hamur kabını mikserde unutma. Artisan çok aksesuar diyor; aksesuarın hepsi ilk günde gerekmez. Çırpıcı ile hamur kancası ayrıdır ve yanlış uç hamuru döver, yoğurmaz. Kutu şemasına bak; şema yoksa uçların şekline bak, çünkü ince tel hamur kancası değildir.
 
-Taş soğumadan kutusuna koyma. Kompakt gövde yer kazandırır. Sıcak gövde, rafı yakar. Madde yer kaplamıyor diyor. Soğuma süresi demiyor. Elin dayanmıyorsa kutu erken demektir.
+Taş soğumadan kutusuna koyma. Kompakt gövde yer kazandırır, sıcak gövde ise rafı yakar. Madde yer kaplamadığını söylüyor ama soğuma süresi demiyor; elin dayanmıyorsa kutu için erkendir.
 
 ## Hamur, Un ve İkinci Tur
 
-İlk hamuru tuz ve un oranıyla bir tabloya kilitleme. Oran bu sayfada yok. Yoksa yüzde yazmam. İnce aç, taşın üstüne koy, kapağı kapat. Rengi dönünce çıkart. Ertesi gün aynı rengi ara. Süre ancak o zaman senin sayın olur.
+İlk hamuru tuz ve un oranıyla bir tabloya kilitleme. Oran bu sayfada yok; yoksa yüzde yazmam. İnce aç, taşın üstüne koy ve kapağı kapat, rengi dönünce çıkar, ertesi gün de aynı rengi ara. Süre ancak o zaman senin sayın olur.
 
-Unu taşın üstünde biriktirme. Biriken un yanar, taban acılaşır. Fırçayı kuru kullan. Islak bez, sıcak taşa şok verir. Sayfa bunu yazmıyor. Yazmayan şoku tarif diye sunmam. Yine de sıcak taşa su dökme.
+Unu taşın üstünde biriktirme, çünkü biriken un yanar ve taban acılaşır. Fırçayı kuru kullan; ıslak bez sıcak taşa şok verir. Sayfa bunu yazmıyor, yazmayan şoku tarif diye sunmam, yine de sıcak taşa su dökme.
 
-Peynir suyu, ince hamuru kalınlaştırır. Madde çıtır tabanı ince hamura bağlamış. Sulu malzeme, o bağı koparır. İlk turda malzeme az olsun. İkinci turda artır. Artış, bir ölçü kaşığı değildir. Gözün yeter.
+Peynir suyu ince hamuru kalınlaştırır. Madde çıtır tabanı ince hamura bağlamış; sulu malzeme o bağı koparır. İlk turda malzeme az olsun, ikinci turda artır. Artış bir ölçü kaşığı değildir, gözün yeter.
 
-Lahmacun başlıkta. İncecik açmak, pizza ile aynı el olmayabilir. Aynı akşam ikisini birden yarıştırma. Bir hamur öğrenilsin. Pide de başlıkta. Üçü birden, üç ayrı deneme demektir. Üçünü bir pazar gününe sıkıştırma.
+Lahmacun başlıkta ve incecik açmak pizza ile aynı el olmayabilir, o yüzden aynı akşam ikisini birden yarıştırma; önce bir hamur öğrenilsin. Pide de başlıkta. Üçü birden üç ayrı deneme demektir, üçünü bir pazar gününe sıkıştırma.
 
-Ekmek günü mikser veya el. Artisan kancası hamur içindir. Çırpıcı değil. Yanlış uç, hamuru sıçratır. Sıçrayan hamur Delizia'nın taşına yapışırsa iki alet birden kirlenir. Tezgahı ayır.
+Ekmek günü mikser veya el. Artisan kancası hamur içindir, çırpıcı değil; yanlış uç hamuru sıçratır. Sıçrayan hamur Delizia'nın taşına yapışırsa iki alet birden kirlenir, o yüzden tezgahı ayır.
 
-Döküm kapta ekmek deneyeceksen kapağı fırının içinde kalsın. Delizia'nın kapağı başka bir ısı. İkisini aynı anda açıp "hangisi daha ekmek" diye bakma. Biri 400°C başlıklı pizza kutusu. Diğeri eşit ısı diyen ağır kap. Derece, ikinci kayıtta yok.
+Döküm kapta ekmek deneyeceksen kapağı fırının içinde kalsın, çünkü Delizia'nın kapağı başka bir ısı. İkisini aynı anda açıp hangisi daha ekmek diye bakma. Biri 400°C başlıklı bir pizza kutusu, diğeri eşit ısı diyen ağır bir kap. Derece, ikinci kayıtta yok.
 
-Soğuyan taşı hemen yıkama. Ilık bez, ertesi gün yeter. Aynı gün ikinci parti varsa taşı ıslatma. Islak taş, buhar verir. Çıtır cümle buharda gevşer.
+Soğuyan taşı hemen yıkama; ılık bir bez ertesi gün yeter. Aynı gün ikinci parti varsa taşı ıslatma, çünkü ıslak taş buhar verir ve çıtır cümle buharda gevşer.
 
-Kompakt gövdeyi dolabın dibine itme. Kablo ve kapak payı ister. Pay ölçüsü sayfada yok. Elin kapağa rahat gidiyorsa pay vardır. Gitmiyorsa tezgah dardır. Dar tezgah, 400°C için kötü bir köşedir.
+Kompakt gövdeyi dolabın dibine itme, çünkü kablo ve kapak payı ister. Pay ölçüsü sayfada yok. Elin kapağa rahat gidiyorsa pay vardır, gitmiyorsa tezgah dardır ve dar bir tezgah 400°C için kötü bir köşedir.
 
-Misafir sayısını taş sayısına eşitleme. Üç taş, üç kişi demek değil. Bir yuvarlak, bir tur. İkinci tur, notuna göre. Not tutmayan ikinci tur, birinciyi tekrar etmez.
+Misafir sayısını taş sayısına eşitleme; üç taş üç kişi demek değil. Bir yuvarlak bir turdur, ikinci tur notuna göre gelir. Not tutmayan ikinci tur birinciyi tekrar etmez.
 
-Hamuru buzdolabından çıkarıp hemen taşa koyma. Soğuk hamur, sıcak taşta altı yakar, içini çiğ bırakabilir. Bir süre tezgahta beklet. Süre sayısı yok. Hamur ele yapışmadan açılıyorsa yeter. Yapışıyorsa un ser. Unu taşta biriktirme. Bu iki cümle aynı akşamda çarpışır. Tezgah unlu, taş temiz olsun.
+Hamuru buzdolabından çıkarıp hemen taşa koyma. Soğuk hamur sıcak taşta altı yakıp içini çiğ bırakabilir, o yüzden bir süre tezgahta beklet; süre sayısı yok. Hamur ele yapışmadan açılıyorsa yeter, yapışıyorsa un ser, ama unu taşta biriktirme. Bu iki cümle aynı akşamda çarpışır: tezgah unlu kalsın, taş temiz olsun.
 
-Kabuğu çok koyuysa kapağı daha az açmışsındır. Isı içeride kalmış, renk kaçmıştır. Bir sonraki turda bir kez bak, sonra kapat. Her bakış ısıyı düşürür. Denge, sayfanın dakika vermediği yerdir. Gözün orada durur.
+Kabuğu çok koyuysa kapağı daha az açmışsındır; ısı içeride kalmış, renk kaçmıştır. Bir sonraki turda bir kez bakıp kapağı kapat, çünkü her bakış ısıyı düşürür. Denge, sayfanın dakika vermediği yerdir; gözün orada durur.
 
 ## Sık Sorulan Sorular
 
 ### Delizia ekmek makinesi mi?
 
-Değil. Pizza, lahmacun ve pide başlıkta. 400°C ve üç taş. Ekmek programı yok.
+Değil; başlıkta pizza, lahmacun ve pide var, yanında 400°C ve üç taş, ekmek programı ise yok.
 
 ### Neden ekmek makinesi önermiyorsun?
 
-Ekmek makinesinin temiz ürün sayfası doğrulanmadı. Yedek parça ilanını makine diye yazmam. Döküm tencere hâlâ arama linki. Artisan sayfası stand mikser; ekmek makinesi değil.
+Ekmek makinesinin temiz ürün sayfası doğrulanmadı, yedek parça ilanını da makine diye yazmam. Döküm tencere hâlâ arama linki. Artisan sayfası stand mikser; ekmek makinesi değil.
 
 ### Üç taş, üç pizza mı?
 
-Madde bunu söylemiyor. Taş, çıtır taban için. Aynı anda üç servis vaadi yok.
+Madde bunu söylemiyor; taş çıtır taban için duruyor, aynı anda üç servis vaadi yok.
 
 ### Mikser şart mı?
 
-Değil. Hamuru elle de yoğurursun. Artisan, çok hamur ve aksesuar isteyene. Ağır kayıt açık.
+Değil, hamuru elle de yoğurursun. Artisan çok hamur ve aksesuar isteyene duruyor; ağır kayıt açık.
 
 ## Bütçe, Orta ve Üst Paket
 
@@ -162,7 +160,6 @@ Fiyatı sayfa değiştirir. Ben sabitlemem.
 | Orta | Delizia ve [Artisan mikser](aff://kitchenaid-artisan-mikser) | Hamuru makinede toplayıp pizzayı taşta pişiren kişi |
 | Üst | Delizia ve [Le Creuset](aff://le-creuset-dokum-tencere) | Pizza ile ekmeği iki ayrı kapta tutan kişi |
 
-İlk kutun Delizia olsun. Ekmeği aynı 400°C kapağın içine koyma. Döküm kap ayrı gün, ayrı ısıdır. Mikser yalnızca yoğurur. Taş soğumadan dolaba itme.
-İkinci yuvarlağı birincinin rengine göre zamanla. Dakika uydurma. Kapağı sık açarsan 400°C başlığı masada kalır, taşta değil. Unu tezgahta tut, taşta biriktirme. Sulu malzeme ilk turda az olsun.
+İlk kutun Delizia olsun ve ekmeği aynı 400°C kapağın içine koyma. Döküm kap ayrı gün, ayrı ısıdır; mikser yalnızca yoğurur. Taş soğumadan dolaba itme. İkinci yuvarlağı birincinin rengine göre zamanla, dakika uydurma. Kapağı sık açarsan 400°C başlığı masada kalır, taşta değil. Unu tezgahta tut, taşta biriktirme; sulu malzeme de ilk turda az olsun.
 
-Ekmek programı bu kutuda yok. Yedek karıştırıcı da makine değildir.
+Ekmek programı bu kutuda yok, yedek karıştırıcı da makine değildir.
