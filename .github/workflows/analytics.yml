@@ -9,7 +9,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: ga4-analitik
+  group: site-yayin
   cancel-in-progress: false
 
 jobs:
@@ -22,21 +22,33 @@ jobs:
           python-version: "3.11"
       - run: pip install jinja2 google-analytics-data
 
-      - name: GA4 verisini çek
+      - name: Commit ve yayınla
         env:
           GA4_PROPERTY_ID: ${{ secrets.GA4_PROPERTY_ID }}
           GA4_SERVICE_ACCOUNT_JSON: ${{ secrets.GA4_SERVICE_ACCOUNT_JSON }}
-        run: python fetch_analytics.py
-
-      - name: Siteyi üret
-        run: python build.py
-
-      - name: Commit ve yayınla
         run: |
           git config user.name "hobibul-bot"
           git config user.email "hobibul-bot@users.noreply.github.com"
-          git add -A
-          if git diff --cached --quiet; then echo "Değişiklik yok"; exit 0; fi
-          git commit -m "GA4 analitik güncelleme $(date -u +%F)"
-          git pull --rebase
-          git push
+          deneme=1
+          while [ "$deneme" -le 3 ]; do
+            git fetch origin main
+            git reset --hard origin/main
+            python fetch_analytics.py
+            python build.py
+            git add -A
+            if git diff --cached --quiet; then
+              echo "Değişiklik yok"
+              exit 0
+            fi
+            git commit -m "GA4 analitik güncelleme $(date -u +%F)"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            echo "Push başarısız (deneme ${deneme}/3)."
+            if [ "$deneme" -eq 3 ]; then
+              echo "Push 3 denemede olmadı."
+              exit 1
+            fi
+            deneme=$((deneme + 1))
+            sleep $((deneme * 5))
+          done

@@ -2,8 +2,11 @@ name: Günlük makale
 
 on:
   schedule:
-    # Her 30 dakikada bir. İstanbul gününde 3 makale dolana kadar otomatik.py kalanı üretir.
-    - cron: "*/30 * * * *"
+    # Her 30 dakikada bir, İstanbul gününde 3 makale dolana kadar otomatik.py kalanı üretir.
+    # */30 dakika :00 ve :30'a denk gelir; GitHub Actions bu dilimleri yük altında
+    # geciktirir veya hiç başlatmaz. Aynı tempo, kalabalığın dışında iki ayrı zamanlama.
+    - cron: "7 * * * *"
+    - cron: "37 * * * *"
   workflow_dispatch:
     inputs:
       adet:
@@ -17,7 +20,7 @@ permissions:
   contents: write
 
 concurrency:
-  group: gunluk-makale
+  group: site-yayin
   cancel-in-progress: false
 
 jobs:
@@ -33,8 +36,7 @@ jobs:
           python-version: "3.11"
       - run: pip install jinja2
 
-      - name: Makale üret
-        if: github.event_name != 'push'
+      - name: Commit ve yayınla
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
@@ -45,25 +47,26 @@ jobs:
           GEMINI_MODEL_YEDEK: ${{ vars.GEMINI_MODEL_YEDEK || 'gemini-flash-lite-latest' }}
           TASLAK_MODU: ${{ vars.TASLAK_MODU || 'false' }}
         # Zamanlanmış çalıştırma girdi almaz; varsayılan 3. Gün doluysa betik hemen çıkar.
-        run: python otomatik.py --adet ${{ github.event.inputs.adet || '3' }}
-
-      - name: Siteyi üret
-        run: python build.py
-
-      - name: Commit ve yayınla
+        # fetch/reset üretimi siler; bu yüzden makale ve site üretimi döngünün içindedir.
         run: |
           git config user.name "hobibul-bot"
           git config user.email "hobibul-bot@users.noreply.github.com"
-          dal="${GITHUB_REF_NAME:-main}"
-          git checkout -B "$dal"
-          git add -A
-          git diff --cached --name-only > "$RUNNER_TEMP/degisen.txt"
-          if git diff --cached --quiet; then echo "Değişiklik yok"; exit 0; fi
-          git commit -m "Otomatik güncelleme $(date -u +%F)"
-          git pull --rebase origin "$dal"
           deneme=1
           while [ "$deneme" -le 3 ]; do
-            if git push origin "HEAD:${dal}"; then
+            git fetch origin main
+            git reset --hard origin/main
+            if [ "${{ github.event_name }}" != "push" ]; then
+              python otomatik.py --adet "${{ github.event.inputs.adet || '3' }}"
+            fi
+            python build.py
+            git add -A
+            git diff --cached --name-only > "$RUNNER_TEMP/degisen.txt"
+            if git diff --cached --quiet; then
+              echo "Değişiklik yok"
+              exit 0
+            fi
+            git commit -m "Otomatik güncelleme $(date -u +%F)"
+            if git push origin HEAD:main; then
               exit 0
             fi
             echo "Push başarısız (deneme ${deneme}/3)."
@@ -73,7 +76,6 @@ jobs:
             fi
             deneme=$((deneme + 1))
             sleep $((deneme * 5))
-            git pull --rebase origin "$dal"
           done
 
       - name: IndexNow bildirimi
