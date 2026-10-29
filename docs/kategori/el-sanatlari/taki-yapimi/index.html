@@ -7,9 +7,36 @@
   <meta name="theme-color" content="#0b0d1e">
   <meta name="mitgo-verification" content="a8bf91a3-0aec-47c7-af70-90a7e24065e1" />
   <meta name="google-site-verification" content="l-23yAEZ-R05ZbV6TM0HkL3iECB6zI1FgHFrHqKu_ek">
+  <script>
+  window.dataLayer=window.dataLayer||[];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("consent","default",{
+    analytics_storage:"denied",
+    ad_storage:"denied",
+    ad_user_data:"denied",
+    ad_personalization:"denied",
+    wait_for_update:500
+  });
+  window.HOBIBUL_CONSENT={analytics:false,ads:false,decided:false};
+  try{
+    var stored=localStorage.getItem("hobibul_consent_v1");
+    if(stored){
+      var choice=JSON.parse(stored);
+      var analytics=!!choice.analytics;
+      var ads=!!choice.ads;
+      window.HOBIBUL_CONSENT={analytics:analytics,ads:ads,decided:true};
+      gtag("consent","update",{
+        analytics_storage:analytics?"granted":"denied",
+        ad_storage:ads?"granted":"denied",
+        ad_user_data:ads?"granted":"denied",
+        ad_personalization:ads?"granted":"denied"
+      });
+    }
+  }catch(e){}
+  </script>
   
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-236Z73L27S"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","G-236Z73L27S");</script>
+  <script>gtag("js",new Date());gtag("config","G-236Z73L27S");</script>
   
   <title>En İyi 5 Takı Yapımı Ekipmanı 2026 — Alım Rehberi | Hobi Bul</title>
   <meta name="description" content="Kendi takını tasarlamak için gerekli temel malzeme ve aletleri derledik. Öne çıkanlar: Darice Takı Seti, Beadalon Tel, Jewelry Pense Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.">
@@ -19,6 +46,7 @@
   <meta property="og:title" content="En İyi 5 Takı Yapımı Ekipmanı 2026 — Alım Rehberi | Hobi Bul">
   <meta property="og:description" content="Kendi takını tasarlamak için gerekli temel malzeme ve aletleri derledik. Öne çıkanlar: Darice Takı Seti, Beadalon Tel, Jewelry Pense Seti. Artıları, eksileri ve doğrudan satın alma bağlantılarıyla kapsamlı rehber.">
   <meta property="og:url" content="https://hobibul.com.tr/kategori/el-sanatlari/taki-yapimi/">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -130,13 +158,38 @@
       </div>
       <div class="disclosure">
         <strong>Affiliate (Ortaklık) Açıklaması:</strong> Bu sitedeki bazı bağlantılar affiliate (ortaklık) bağlantılarıdır. Bu bağlantılar üzerinden yapılan satın alımlarda size ek bir maliyet yansımaz; ancak Hobi Bul küçük bir komisyon kazanabilir. Önerdiğimiz ürünleri, komisyondan bağımsız olarak titizlikle seçiyoruz.
+        <a href="/affiliate-aciklamasi/">Ayrıntılı açıklama</a>
       </div>
+      <nav class="footer-legal" aria-label="Site ve yasal">
+        <a href="/hakkimizda/">Hakkımızda</a><a href="/yazar/hobi-bul-editor/">Editör ekibi</a><a href="/iletisim/">İletişim</a><a href="/gizlilik-politikasi/">Gizlilik Politikası</a><a href="/cerez-politikasi/">Çerez Politikası</a><a href="/kvkk/">KVKK</a><a href="/kullanim-sartlari/">Kullanım Şartları</a><a href="/affiliate-aciklamasi/">Affiliate Açıklaması</a>
+        <button type="button" data-consent-open>Çerez tercihlerini değiştir</button>
+      </nav>
       <p class="copyright">© 2026 Hobi Bul · hobibul.com.tr · Tüm hakları saklıdır.</p>
     </div>
   </footer>
 
+  <div id="consent-banner" class="consent" hidden role="dialog" aria-modal="false" aria-labelledby="consent-title" aria-describedby="consent-desc">
+    <div class="consent-inner">
+      <div class="consent-copy">
+        <p id="consent-title">Çerez ve ölçüm tercihi</p>
+        <p id="consent-desc">Ziyaret ölçümü ve reklam depolaması kapalı başlar. Kabul edersen Google Analytics çerez yazabilir. Reddet dersen bu depolama kapalı kalır. Seçimin yalnızca bu tarayıcıda saklanır. <a href="/cerez-politikasi/">Çerez politikası</a></p>
+      </div>
+      <div class="consent-actions">
+        <button type="button" id="consent-accept" class="consent-btn consent-btn-yes">Kabul et</button>
+        <button type="button" id="consent-reject" class="consent-btn">Reddet</button>
+        <button type="button" id="consent-settings-btn" class="consent-btn" aria-expanded="false" aria-controls="consent-settings">Ayarlar</button>
+      </div>
+      <div id="consent-settings" class="consent-settings" hidden>
+        <label class="consent-check"><input type="checkbox" id="consent-analytics"> Ziyaret ölçümü (Google Analytics ve sayfa istatistiği)</label>
+        <label class="consent-check"><input type="checkbox" id="consent-ads"> Reklam ölçümü ve kişiselleştirme</label>
+        <button type="button" id="consent-save" class="consent-btn consent-btn-yes">Seçimi kaydet</button>
+      </div>
+    </div>
+  </div>
+
   <script src="/js/config.js"></script>
   <script src="/js/tracker.js"></script>
+  <script src="/js/consent.js"></script>
   <script src="/js/ui.js" defer></script>
   
 </body>

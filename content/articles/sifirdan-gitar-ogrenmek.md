@@ -6,6 +6,8 @@ subcategory: "gitar"
 meta_title: "Sıfırdan Gitar Öğrenmek: Doğru Ekipman Rehberi 2026 | Hobi Bul"
 meta_description: "Gitar öğrenmeye başlayanlar için rehber: akustik ve elektro gitar, amfi, tel ve tuner önerileri, artılar/eksiler ve satın alma bağlantıları."
 excerpt: "Sıfırdan gitar öğrenmek istiyor ama nereden başlayacağınızı bilmiyor musunuz? Doğru gitar, amfi, tel ve tuner seçimiyle ilk akorlarınızı haftalar içinde çalmaya başlayın. İşte yeni başlayanlar için eksiksiz ekipman rehberi."
+date: "2026-10-27"
+updated: "2026-10-29"
 ---
 
 ## Neden Herkes İlk Enstrüman Olarak Gitarı Seçiyor?

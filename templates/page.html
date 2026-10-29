@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block title %}{{ page.meta_title }}{% endblock %}
+{% block description %}{{ page.meta_description }}{% endblock %}
+{% block head %}{% if page.noindex %}<meta name="robots" content="noindex, follow">{% endif %}{% endblock %}
+{% block jsonld %}{% if jsonld %}<script type="application/ld+json">{{ jsonld|safe }}</script>{% endif %}{% endblock %}
+{% block content %}
+<nav class="breadcrumb" aria-label="breadcrumb">
+  <a href="/">Ana Sayfa</a> <span>›</span>
+  <span class="current">{{ page.title }}</span>
+</nav>
+<article class="article">
+  <h1 class="article-title">{{ page.title }}</h1>
+  {% if page.updated_label %}<p class="article-meta">Güncellendi: <time datetime="{{ page.updated }}">{{ page.updated_label }}</time></p>{% endif %}
+  <div class="article-body">
+    {{ page.body_html|safe }}
+  </div>
+</article>
+{% endblock %}

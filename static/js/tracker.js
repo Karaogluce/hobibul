@@ -36,12 +36,25 @@
     else document.addEventListener("DOMContentLoaded", fn);
   }
 
-  ready(function () {
-    // sayfa görüntülenmesi
+  function analyticsOn() {
+    return !!(window.HOBIBUL_CONSENT && window.HOBIBUL_CONSENT.analytics);
+  }
+
+  var pageviewSent = false;
+  function sendPageview() {
+    if (pageviewSent || !analyticsOn()) return;
+    pageviewSent = true;
     track("pageview", { referrer: document.referrer });
+  }
+
+  ready(function () {
+    // Sayfa görüntülemesi yalnızca analitik izni açıksa gider.
+    sendPageview();
+    document.addEventListener("hobibul:consent", sendPageview);
 
     // affiliate tıklaması (event delegation)
     document.addEventListener("click", function (e) {
+      if (!analyticsOn()) return;
       var el = e.target && e.target.closest ? e.target.closest("a[data-aff-link]") : null;
       if (!el) return;
       track("click", {

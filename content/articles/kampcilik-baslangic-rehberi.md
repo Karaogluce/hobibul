@@ -6,6 +6,8 @@ subcategory: "kampcilik"
 meta_title: "Yeni Başlayanlar İçin Kampçılık Rehberi 2026 | Hobi Bul"
 meta_description: "Kampçılığa yeni başlayanlar için kapsamlı rehber: çadır, uyku matı, ocak, fener ve su filtresi önerileri, artılar/eksiler ve satın alma bağlantıları."
 excerpt: "Kampçılığa yeni mi başlıyorsun? Çadırdan ocağa, uyku matından su filtresine kadar ilk kampın için ihtiyacın olan tüm ekipmanları, artıları ve eksileriyle bu rehberde topladık."
+date: "2026-10-27"
+updated: "2026-10-29"
 ---
 
 ## İlk kampın için devasa bir hazırlığa ihtiyacın yok

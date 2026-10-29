@@ -9,9 +9,36 @@
   {%- if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}">
   {% endif -%}
+  <script>
+  window.dataLayer=window.dataLayer||[];
+  function gtag(){dataLayer.push(arguments);}
+  gtag("consent","default",{
+    analytics_storage:"denied",
+    ad_storage:"denied",
+    ad_user_data:"denied",
+    ad_personalization:"denied",
+    wait_for_update:500
+  });
+  window.HOBIBUL_CONSENT={analytics:false,ads:false,decided:false};
+  try{
+    var stored=localStorage.getItem("hobibul_consent_v1");
+    if(stored){
+      var choice=JSON.parse(stored);
+      var analytics=!!choice.analytics;
+      var ads=!!choice.ads;
+      window.HOBIBUL_CONSENT={analytics:analytics,ads:ads,decided:true};
+      gtag("consent","update",{
+        analytics_storage:analytics?"granted":"denied",
+        ad_storage:ads?"granted":"denied",
+        ad_user_data:ads?"granted":"denied",
+        ad_personalization:ads?"granted":"denied"
+      });
+    }
+  }catch(e){}
+  </script>
   {% if site.ga4_id and 'XXXXXXX' not in site.ga4_id %}
   <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga4_id }}"></script>
-  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag("js",new Date());gtag("config","{{ site.ga4_id }}");</script>
+  <script>gtag("js",new Date());gtag("config","{{ site.ga4_id }}");</script>
   {% endif %}
   <title>{% block title %}{{ site.default_meta.title }}{% endblock %}</title>
   <meta name="description" content="{% block description %}{{ site.default_meta.description }}{% endblock %}">
@@ -21,6 +48,7 @@
   <meta property="og:title" content="{{ self.title() }}">
   <meta property="og:description" content="{{ self.description() }}">
   <meta property="og:url" content="{{ base_url }}{{ canonical_path }}">
+  <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -81,13 +109,38 @@
       </div>
       <div class="disclosure">
         <strong>Affiliate (Ortaklık) Açıklaması:</strong> {{ site.affiliate_disclosure }}
+        <a href="/affiliate-aciklamasi/">Ayrıntılı açıklama</a>
       </div>
+      <nav class="footer-legal" aria-label="Site ve yasal">
+        {% for p in info_pages if p.in_footer %}<a href="{{ p.path }}">{{ p.nav }}</a>{% endfor %}
+        <button type="button" data-consent-open>Çerez tercihlerini değiştir</button>
+      </nav>
       <p class="copyright">© {{ year }} {{ site.site_name }} · {{ site.domain }} · Tüm hakları saklıdır.</p>
     </div>
   </footer>
 
+  <div id="consent-banner" class="consent" hidden role="dialog" aria-modal="false" aria-labelledby="consent-title" aria-describedby="consent-desc">
+    <div class="consent-inner">
+      <div class="consent-copy">
+        <p id="consent-title">Çerez ve ölçüm tercihi</p>
+        <p id="consent-desc">Ziyaret ölçümü ve reklam depolaması kapalı başlar. Kabul edersen Google Analytics çerez yazabilir. Reddet dersen bu depolama kapalı kalır. Seçimin yalnızca bu tarayıcıda saklanır. <a href="/cerez-politikasi/">Çerez politikası</a></p>
+      </div>
+      <div class="consent-actions">
+        <button type="button" id="consent-accept" class="consent-btn consent-btn-yes">Kabul et</button>
+        <button type="button" id="consent-reject" class="consent-btn">Reddet</button>
+        <button type="button" id="consent-settings-btn" class="consent-btn" aria-expanded="false" aria-controls="consent-settings">Ayarlar</button>
+      </div>
+      <div id="consent-settings" class="consent-settings" hidden>
+        <label class="consent-check"><input type="checkbox" id="consent-analytics"> Ziyaret ölçümü (Google Analytics ve sayfa istatistiği)</label>
+        <label class="consent-check"><input type="checkbox" id="consent-ads"> Reklam ölçümü ve kişiselleştirme</label>
+        <button type="button" id="consent-save" class="consent-btn consent-btn-yes">Seçimi kaydet</button>
+      </div>
+    </div>
+  </div>
+
   <script src="/js/config.js"></script>
   <script src="/js/tracker.js"></script>
+  <script src="/js/consent.js"></script>
   <script src="/js/ui.js" defer></script>
   {% block scripts %}{% endblock %}
 </body>

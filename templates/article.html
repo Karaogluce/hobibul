@@ -13,9 +13,14 @@
 <article class="article" {{ acc(article.category) }}>
   <a class="kicker" href="/kategori/{{ article.category }}/">{{ article.category_name }}</a>
   <h1 class="article-title">{{ article.title }}</h1>
-  <p class="article-meta">{{ article.date }}</p>
+  <p class="article-byline">
+    <a rel="author" href="{{ article.author_url }}">{{ article.author_name }}</a>
+    {% if article.date_label %}<span class="sep" aria-hidden="true">·</span> <span>Yayın: <time datetime="{{ article.date }}">{{ article.date_label }}</time></span>{% endif %}
+    {% if article.updated_label %}<span class="sep" aria-hidden="true">·</span> <span>Güncellendi: <time datetime="{{ article.updated }}">{{ article.updated_label }}</time></span>{% endif %}
+  </p>
   <div class="article-disclosure article-disclosure-top">
     <strong>ℹ️ Affiliate Açıklaması:</strong> {{ site.affiliate_disclosure }}
+    <a href="/affiliate-aciklamasi/">Ayrıntılı açıklama</a>
   </div>
   {% if article.starter_url %}
   <aside class="starter-cta">

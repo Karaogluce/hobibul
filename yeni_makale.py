@@ -349,6 +349,7 @@ def main():
         f'slug: "{slug}"',
         f'category: "{a.kategori}"',
         f'date: "{date.today().isoformat()}"',
+        f'updated: "{date.today().isoformat()}"',
         f'meta_title: "{meta_title[:70]}"',
         f'meta_description: "{excerpt[:155].replace(chr(34), chr(39))}"',
         f'excerpt: "{excerpt.replace(chr(34), chr(39))}"',
