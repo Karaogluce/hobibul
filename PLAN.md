@@ -4,7 +4,7 @@ Hedef: kategorilere uygun, aranan konulara cevap veren, okuyucuya doğal gelen m
 
 ## Faz 0 — Altyapı ✅
 - [x] Üretici (`build.py`) şablonlara taşındı, makale sayfası site düzeniyle açılıyor
-- [x] `otomatik.py` + GitHub Actions (günde 2 makale, taslak modu)
+- [x] `otomatik.py` + GitHub Actions: İstanbul gününde 8 makale; her 30 dk eksik kalanı tamamlar
 - [x] Unsplash görselleri ve fotoğrafçı kredisi
 
 ## Faz 1 — Yazım kalitesi ✅ (bu sürüm)
@@ -37,4 +37,5 @@ Hedef: kategorilere uygun, aranan konulara cevap veren, okuyucuya doğal gelen m
 
 ## Kurallar
 - Fiyat, ölçü, puan, test iddiası uydurma yok. Taslak modunda ilk 2 hafta elle onay.
+- Günde 8 yayın (Europe/Istanbul). Eksikse Actions yarım saatte bir yeniden dener. Geçici Gemini hataları işi düşürmez; biten makale hemen diske yazılır.
 - Gizli anahtarlar yalnızca GitHub Secrets'ta.

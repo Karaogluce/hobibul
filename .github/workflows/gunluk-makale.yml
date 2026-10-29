@@ -2,13 +2,13 @@ name: Günlük makale
 
 on:
   schedule:
-    # Her gün 7 makale. 11:00 TR — Gemini günlük kotası Pasifik gece yarısı sıfırlanır.
-    - cron: "0 8 * * *"
+    # Her 30 dakikada bir. İstanbul gününde 8 makale dolana kadar otomatik.py kalanı üretir.
+    - cron: "*/30 * * * *"
   workflow_dispatch:
     inputs:
       adet:
-        description: "Üretilecek makale sayısı (otomatik.py 7'den fazlasını 7'ye çeker)"
-        default: "7"
+        description: "Bu çalışmada denenecek makale sayısı (varsayılan 8). Günlük tavan 8; bugün yazılanlar düşülür."
+        default: "8"
   push:                         # taslağı onaylayıp (draft: "false") kaydedince siteyi yeniden üretir
     branches: [main]
     paths: ["content/**", "templates/**", "static/**", "build.py"]
@@ -23,8 +23,11 @@ concurrency:
 jobs:
   uret:
     runs-on: ubuntu-latest
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
@@ -36,12 +39,13 @@ jobs:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           UNSPLASH_ACCESS_KEY: ${{ secrets.UNSPLASH_ACCESS_KEY }}
           GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
-          # Variable boşsa yerleşik yedek. Günlük kota (429) otomatik.py içinde exit 0 ile biter;
-          # eksik GEMINI_API_KEY hâlâ kırmızı fail. Secret değeri buraya yazılmaz.
+          # Variable boşsa yerleşik yedek. Günlük kota (429), 503/UNAVAILABLE, zaman aşımı
+          # ve bağlantı hatası otomatik.py içinde exit 0 ile biter; biten makaleler kalır.
+          # Eksik GEMINI_API_KEY hâlâ kırmızı fail. Secret değeri buraya yazılmaz.
           GEMINI_MODEL_YEDEK: ${{ vars.GEMINI_MODEL_YEDEK || 'gemini-flash-lite-latest' }}
           TASLAK_MODU: ${{ vars.TASLAK_MODU || 'false' }}
-        # Zamanlanmış çalıştırma girdi almaz; varsayılan 7. Elle tetikte de üst sınır 7'dir.
-        run: python otomatik.py --adet ${{ github.event.inputs.adet || '7' }}
+        # Zamanlanmış çalıştırma girdi almaz; varsayılan 8. Gün doluysa betik hemen çıkar.
+        run: python otomatik.py --adet ${{ github.event.inputs.adet || '8' }}
 
       - name: Siteyi üret
         run: python build.py
@@ -50,12 +54,27 @@ jobs:
         run: |
           git config user.name "hobibul-bot"
           git config user.email "hobibul-bot@users.noreply.github.com"
+          dal="${GITHUB_REF_NAME:-main}"
+          git checkout -B "$dal"
           git add -A
           git diff --cached --name-only > "$RUNNER_TEMP/degisen.txt"
           if git diff --cached --quiet; then echo "Değişiklik yok"; exit 0; fi
           git commit -m "Otomatik güncelleme $(date -u +%F)"
-          git pull --rebase
-          git push
+          git pull --rebase origin "$dal"
+          deneme=1
+          while [ "$deneme" -le 3 ]; do
+            if git push origin "HEAD:${dal}"; then
+              exit 0
+            fi
+            echo "Push başarısız (deneme ${deneme}/3)."
+            if [ "$deneme" -eq 3 ]; then
+              echo "Push 3 denemede olmadı."
+              exit 1
+            fi
+            deneme=$((deneme + 1))
+            sleep $((deneme * 5))
+            git pull --rebase origin "$dal"
+          done
 
       - name: IndexNow bildirimi
         run: python indexnow.py --degisen "$RUNNER_TEMP/degisen.txt"

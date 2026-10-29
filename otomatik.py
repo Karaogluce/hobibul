@@ -1,13 +1,18 @@
 #!/usr/bin/env python3
 """Hobi Bul — günlük otomatik makale hattı.
 
-  python otomatik.py --adet 2            # sıradaki 2 konuyu üret (varsayılan: TASLAK modu)
-  python otomatik.py --adet 2 --yayinla  # taslak değil, doğrudan yayına hazır yaz
-  python otomatik.py --konu-listesi      # sıradaki konuları göster (API çağırmaz)
+  python otomatik.py                  # bugünün kalanını üret (hedef 8, Europe/Istanbul)
+  python otomatik.py --adet 2         # en fazla 2; günlük kalan daha azsa o kadar
+  python otomatik.py --adet 2 --yayinla
+  python otomatik.py --konu-listesi   # sıradaki konuları göster (API çağırmaz)
 
 Akış: konu seç → Google Autocomplete'ten gerçek Türkçe sorguları çek → Gemini ile yaz
 (yalnızca products.json verisiyle) → kalite kapıları → Unsplash'tan görsel → .md yaz.
 Kapıdan geçemeyen makale YAYINLANMAZ, content/uretim_log.json'a işlenir.
+
+Günlük hedef: İstanbul takvim gününde 8 makale. Sayı logdaki tarih kayıtlarından gelir.
+Hedef doluysa Gemini çağrılmaz. 503/UNAVAILABLE, zaman aşımı, bağlantı hatası ve 429
+kotasında biten makaleler diskte kalır, çıkış kodu 0 olur; sonraki çalışma kalanı dener.
 
 Ortam değişkenleri: GEMINI_API_KEY, UNSPLASH_ACCESS_KEY, GEMINI_MODEL (ops.), GEMINI_MODEL_YEDEK (ops.), TASLAK_MODU (true/false)
 """
@@ -18,10 +23,10 @@ import re
 import statistics
 import sys
 from collections import Counter
+from datetime import datetime, timedelta, timezone
 import urllib.error
 import urllib.parse
 import urllib.request
-from datetime import date
 
 import yeni_makale as ym
 
@@ -31,8 +36,30 @@ if hasattr(sys.stdout, "reconfigure"):
 CONTENT, ARTICLES = ym.CONTENT, ym.ARTICLES
 LOG_PATH = os.path.join(CONTENT, "uretim_log.json")
 POOL_PATH = os.path.join(CONTENT, "konu_havuzu.json")
-YEAR = date.today().year
+GUNLUK_HEDEF = 8
+TAMAM_MESAJI = "Bugünün 8 makalesi tamam"
 UA = {"User-Agent": "Mozilla/5.0 (HobiBul-bot)"}
+
+
+def _istanbul_tz():
+    """Europe/Istanbul. Yaz saati 2016'da kalktı; tz verisi yoksa UTC+3."""
+    try:
+        from zoneinfo import ZoneInfo
+        return ZoneInfo("Europe/Istanbul")
+    except Exception:
+        return timezone(timedelta(hours=3))
+
+
+def istanbul_bugun(an=None):
+    """Europe/Istanbul takvim günü. an verilirse o an (test için)."""
+    if an is None:
+        an = datetime.now(timezone.utc)
+    elif an.tzinfo is None:
+        an = an.replace(tzinfo=timezone.utc)
+    return an.astimezone(_istanbul_tz()).date()
+
+
+YEAR = istanbul_bugun().year
 
 CAT_EN = {
     "outdoor": "camping outdoor nature", "el-sanatlari": "handmade crafts", "muzik": "music instruments",
@@ -181,6 +208,87 @@ def load_log():
 def save_log(log):
     with open(LOG_PATH, "w", encoding="utf-8", newline="\n") as f:
         json.dump(log, f, ensure_ascii=False, indent=1)
+        f.flush()
+        os.fsync(f.fileno())
+
+
+def done_anahtarlari(log):
+    """Kuyruktan düşülecek konu anahtarları. done hem düz metin hem kayıt tutabilir."""
+    out = []
+    for item in log.get("done") or []:
+        if isinstance(item, str) and item.strip():
+            out.append(item.strip())
+        elif isinstance(item, dict):
+            anahtar = str(item.get("anahtar") or "").strip()
+            if anahtar:
+                out.append(anahtar)
+    return out
+
+
+def _tarihli_kayitlar(log):
+    """Üretilen makalenin tarihli kaydı. Tarih yoksa bugüne sayılmaz."""
+    kayitlar = []
+    for kaynak in (log.get("makaleler"), log.get("done")):
+        for item in kaynak or []:
+            if isinstance(item, dict):
+                kayitlar.append(item)
+    return kayitlar
+
+
+def bugun_uretilen_say(log, bugun):
+    """İstanbul gününde üretilmiş makale sayısı. Aynı anahtar bir kez sayılır."""
+    if not isinstance(bugun, str):
+        bugun = bugun.isoformat()
+    seen = set()
+    n = 0
+    for item in _tarihli_kayitlar(log):
+        tarih = str(item.get("tarih") or "").strip()
+        if tarih != bugun:
+            continue
+        anahtar = str(item.get("anahtar") or item.get("slug") or "").strip()
+        if not anahtar or anahtar in seen:
+            continue
+        seen.add(anahtar)
+        n += 1
+    return n
+
+
+def makale_kaydi_ekle(log, anahtar, slug, tarih):
+    """Makaleyi done listesine ve tarihli kayda yazar. Tarih yoksa ekler, olanı değiştirmez."""
+    done = log.setdefault("done", [])
+    if anahtar not in set(done_anahtarlari(log)):
+        done.append(anahtar)
+    kayitlar = log.setdefault("makaleler", [])
+    for item in kayitlar:
+        if isinstance(item, dict) and item.get("anahtar") == anahtar:
+            if not item.get("tarih"):
+                item["tarih"] = tarih
+            if slug and not item.get("slug"):
+                item["slug"] = slug
+            return item
+    item = {"anahtar": anahtar, "tarih": tarih, "slug": slug}
+    kayitlar.append(item)
+    return item
+
+
+def kosu_plani(adet, log, bugun, hedef=GUNLUK_HEDEF):
+    """Bu çalışmada üretilecek adet ve log satırları. 0 ise günün hedefi dolu."""
+    mesajlar = []
+    if adet > hedef:
+        mesajlar.append(f"Günlük sınır {hedef} makale; adet {hedef}'e çekildi.")
+        adet = hedef
+    elif adet < 1:
+        adet = hedef
+    yapilan = bugun_uretilen_say(log, bugun)
+    kalan = hedef - yapilan
+    if kalan <= 0:
+        mesajlar.append(TAMAM_MESAJI)
+        return 0, mesajlar
+    if adet > kalan:
+        mesajlar.append(f"Bugün {yapilan} makale yazılmış; {kalan} makale daha üretilecek.")
+        return kalan, mesajlar
+    mesajlar.append(f"Bugün {yapilan}/{hedef} makale var; bu çalışmada {adet} üretilecek.")
+    return adet, mesajlar
 
 
 # ------------------------------------------------------------------ konu kuyruğu
@@ -541,12 +649,13 @@ def q(s):
     return str(s).replace('"', "'").replace("\n", " ").strip()
 
 
-def write_article(t, meta, body, img, draft):
+def write_article(t, meta, body, img, draft, tarih=None):
     slug = ym.slugify(t["title"])
     title = t["title"]
     mt = title if len(title) > 58 else f"{title} | Hobi Bul"
+    tarih = tarih or istanbul_bugun().isoformat()
     lines = ["---", f'title: "{q(title)}"', f'slug: "{slug}"', f'category: "{t["cat"]}"',
-             f'date: "{date.today().isoformat()}"', f'meta_title: "{q(mt)}"',
+             f'date: "{tarih}"', f'meta_title: "{q(mt)}"',
              f'meta_description: "{q(meta["ACIKLAMA"])[:158]}"', f'excerpt: "{q(meta["ACIKLAMA"])}"',
              f'focus_keyword: "{q(meta["ANAHTAR"])}"']
     if img:
@@ -559,7 +668,9 @@ def write_article(t, meta, body, img, draft):
     os.makedirs(ARTICLES, exist_ok=True)
     with open(path, "w", encoding="utf-8", newline="\n") as f:
         f.write("\n".join(lines) + "\n" + body.strip() + "\n")
-    return slug, len(body.split())
+        f.flush()
+        os.fsync(f.fileno())
+    return slug, len(body.split()), tarih
 
 
 # GEMINI_MODEL_YEDEK boşsa günlük kotada denenecek yerleşik yedek.
@@ -582,6 +693,26 @@ def _modeller():
     return out, acik
 
 
+_GECICI_IZ = (
+    "unavailable", "timeout", "timed out", "zaman aşımı", "zaman asimi",
+    "bağlantı", "baglanti", "connection", "temporarily unavailable",
+    "try again", "reset by peer", "name or service not known",
+)
+
+
+def gecici_api_hatasi(exc):
+    """503/UNAVAILABLE, zaman aşımı, bağlantı ve 429. Kalıcı 4xx bu sınıfa girmez."""
+    if isinstance(exc, ym.GeminiQuotaError):
+        return True
+    if not isinstance(exc, ym.GeminiError):
+        return False
+    msg = str(exc)
+    low = msg.lower()
+    if re.search(r"\b(429|500|502|503|504)\b", msg):
+        return True
+    return any(s in low for s in _GECICI_IZ)
+
+
 def _gemini(prompt, key, models, idx):
     """Kotası biten modeli atla. idx, sıradaki kullanılabilir modeli tutar."""
     last = None
@@ -599,7 +730,7 @@ def _gemini(prompt, key, models, idx):
     raise last or ym.GeminiError("Kullanılabilir Gemini modeli kalmadı.")
 
 
-def uret(t, products, key, models, model_idx, ukey, log, draft):
+def uret(t, products, key, models, model_idx, ukey, log, draft, tarih):
     pool = {p["id"]: p for s in products.values() for items in s.values() for p in items}
     prods = [pool[i] for i in t["ids"]]
     sugg = suggestions(t["sub_name"])
@@ -633,28 +764,62 @@ def uret(t, products, key, models, model_idx, ukey, log, draft):
         log["photos"].append(img["id"])
     elif ukey:
         print("  ! Görsel bulunamadı; kategori görseli kullanılacak.")
-    slug, n = write_article(t, meta, body, img, draft)
-    return (slug, n, bool(img)), None
+    slug, n, tarih = write_article(t, meta, body, img, draft, tarih)
+    # Makale diske yazıldığı anda log da yazılır; sonraki madde düşse de bu kayıt kalır.
+    makale_kaydi_ekle(log, t["key"], slug, tarih)
+    save_log(log)
+    return (slug, n, bool(img), tarih), None
+
+
+def _kota_mesaji(exc, yedek_acik, made):
+    print("Günlük Gemini kotası doldu. Kalan konular bugün yazılmadı.")
+    print(exc)
+    if not yedek_acik:
+        print("GEMINI_MODEL_YEDEK yok. Öneri: gemini-flash-lite-latest veya AI Studio'daki güncel flash.")
+    else:
+        print("Tanımlı modellerin günlük kotası doldu. Kota Pasifik gece yarısında sıfırlanır.")
+    print("Eksik API anahtarı bu yol değildir; anahtar yoksa iş kırmızı biter.")
+    print("Schedule kırmızı görünmesin diye çıkış kodu 0.")
+    if made:
+        print(f"Kota dolmadan {made} makale yazıldı; site üretimi devam edebilir.")
+
+
+def _gecici_mesaji(exc, made):
+    print("Gemini geçici olarak yanıt vermedi (503/UNAVAILABLE, zaman aşımı, bağlantı veya 429).")
+    print(exc)
+    print("Bitmiş makaleler diskte ve logda. Sonraki zamanlanmış çalışma kalanı dener.")
+    print("Geçici API sorunu; çıkış kodu 0.")
+    if made:
+        print(f"Hata öncesinde {made} makale yazıldı.")
 
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--adet", type=int, default=7)
+    ap.add_argument("--adet", type=int, default=GUNLUK_HEDEF)
     ap.add_argument("--yayinla", action="store_true", help="taslak yerine yayına hazır yaz")
     ap.add_argument("--taslak", action="store_true")
     ap.add_argument("--konu-listesi", action="store_true")
     a = ap.parse_args()
 
     ym.load_env()
-    products, cats = ym.load("products.json"), ym.load("categories.json")
     log = load_log()
+    bugun = istanbul_bugun().isoformat()
+    if not a.konu_listesi:
+        a.adet, plan_mesaj = kosu_plani(a.adet, log, bugun)
+        for satir in plan_mesaj:
+            print(satir)
+        if a.adet <= 0:
+            return
+
+    products, cats = ym.load("products.json"), ym.load("categories.json")
     have = {fn[:-3] for fn in os.listdir(ARTICLES)} if os.path.isdir(ARTICLES) else set()
     fails = {}
     for x in log["atlanan"]:
         fails[x["anahtar"]] = fails.get(x["anahtar"], 0) + 1
-    done_sorgu = {k.rsplit(":", 1)[-1] for k in log["done"] if k.split(":", 1)[0] in YENI_TIPLER}
+    done_keys = set(done_anahtarlari(log))
+    done_sorgu = {k.rsplit(":", 1)[-1] for k in done_keys if k.split(":", 1)[0] in YENI_TIPLER}
     queue = [t for t in topic_queue(products, cats)
-             if t["key"] not in log["done"] and ym.slugify(t["title"]) not in have
+             if t["key"] not in done_keys and ym.slugify(t["title"]) not in have
              and t.get("sorgu_slug") not in done_sorgu and fails.get(t["key"], 0) < 2]
 
     if a.konu_listesi:
@@ -663,11 +828,6 @@ def main():
             print(f"  [{t['tip']}] {t['title']}")
         return
 
-    if a.adet > 7:
-        print("Günlük sınır 7 makale; adet 7'ye çekildi.")
-        a.adet = 7
-    if a.adet < 1:
-        a.adet = 7
     draft_env = os.environ.get("TASLAK_MODU", "false").strip().lower() not in ("false", "0", "hayir", "hayır")
     draft = False if a.yayinla else (True if a.taslak else draft_env)
     key, ukey = os.environ.get("GEMINI_API_KEY"), os.environ.get("UNSPLASH_ACCESS_KEY")
@@ -684,37 +844,32 @@ def main():
         print("Ana model zaten buysa AI Studio'daki güncel flash adını yedek olarak yaz.")
 
     made, tried = 0, 0
-    # Kalite kapısı eleyen taslakları atlayıp günde 7 yayın çıkarmak için konu payı.
+    # Kalite kapısı eleyen taslakları atlayıp günlük hedefi tutturmak için konu payı.
     for t in queue:
-        if made >= a.adet or tried >= max(8, a.adet * 4):
+        if made >= a.adet or tried >= max(GUNLUK_HEDEF, a.adet * 4):
             break
         tried += 1
         print(f"→ {t['title']}")
         try:
-            res, why = uret(t, products, key, models, model_idx, ukey, log, draft)
-        except ym.GeminiQuotaError as e:
-            save_log(log)
-            print("Günlük Gemini kotası doldu. Kalan konular bugün yazılmadı.")
-            print(e)
-            if not yedek_acik:
-                print("GEMINI_MODEL_YEDEK yok. Öneri: gemini-flash-lite-latest veya AI Studio'daki güncel flash.")
-            else:
-                print("Tanımlı modellerin günlük kotası doldu. Kota Pasifik gece yarısında sıfırlanır.")
-            print("Eksik API anahtarı bu yol değildir; anahtar yoksa iş kırmızı biter.")
-            print("Schedule kırmızı görünmesin diye çıkış kodu 0.")
-            if made:
-                print(f"Kota dolmadan {made} makale yazıldı; site üretimi devam edebilir.")
-            return
+            res, why = uret(t, products, key, models, model_idx, ukey, log, draft, bugun)
         except ym.GeminiError as e:
             save_log(log)
+            if isinstance(e, ym.GeminiQuotaError):
+                _kota_mesaji(e, yedek_acik, made)
+                return
+            if gecici_api_hatasi(e):
+                _gecici_mesaji(e, made)
+                return
             sys.exit(f"API hatası, durduruldu: {e}")
         if res:
-            slug, n, has_img = res
-            log["done"].append(t["key"])
+            slug, n, has_img, tarih = res
+            makale_kaydi_ekle(log, t["key"], slug, tarih)
             made += 1
+            save_log(log)
             print(f"  ✓ {slug}  ({n} kelime, {'taslak' if draft else 'yayın'}, görsel: {'Unsplash' if has_img else 'kategori'})")
         else:
-            log["atlanan"].append({"anahtar": t["key"], "neden": why, "tarih": date.today().isoformat()})
+            log["atlanan"].append({"anahtar": t["key"], "neden": why, "tarih": bugun})
+            save_log(log)
             print(f"  ✗ atlandı: {why}")
     save_log(log)
     print(f"Bitti: {made} makale ({'TASLAK — onay bekliyor' if draft else 'yayına hazır'}).")
