@@ -2,9 +2,12 @@
  "done": [
   "ticari:el-sanatlari:orgu-tig:baslangic",
   "ticari:koleksiyon:lego-model:en-iyi-lego-setleri-yetiskin-icin-bonsai-sukulent-ve-speed-champions",
-  "ticari:sanat:fotografcilik:fotograf-makinesi-secimi-yeni-baslayanlar-icin-canon-eos-r100"
+  "ticari:sanat:fotografcilik:fotograf-makinesi-secimi-yeni-baslayanlar-icin-canon-eos-r100",
+  "ticari:bahce-bitki:bonsai:bonsai-baslangic-seti-makas-tel-toprak-ve-gubre"
  ],
- "photos": [],
+ "photos": [
+  "Q_7lgvvDLbQ"
+ ],
  "atlanan": [
   {
    "anahtar": "rehber:outdoor:_main",
@@ -95,6 +98,68 @@
    "anahtar": "ticari:bilim-astronomi:mikroskop:baslangic",
    "neden": "kısa (675 kelime)",
    "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:bilim-astronomi:teleskop-astronomi:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:seyahat-gezi:backpacking:baslangic",
+   "neden": "kısa (1230 kelime, alt sınır 1550)",
+   "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:yazilim-kodlama:web-gelistirme:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:yazi-edebiyat:yazarlik:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:el-sanatlari:taki-yapimi:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:muzik:dj-produksiyon:dj-kontrol-cihazi-secimi-yeni-baslayanlar-icin-ddj-flx4-ve-numark",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:pul-para:baslangic",
+   "neden": "kısa (1047 kelime, alt sınır 1550)",
+   "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:spor-fitness:kosu:kosu-ayakkabisi-secimi-yeni-baslayanlar-icin-yastikli-ve-destekli-modeller",
+   "neden": "kısa (1330 kelime, alt sınır 1550)",
+   "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:sanat:fotografcilik:baslangic",
+   "neden": "kısa (764 kelime, alt sınır 1550)",
+   "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:bahce-bitki:bahcecilik:baslangic",
+   "neden": "kısa (1456 kelime, alt sınır 1550)",
+   "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:bilim-astronomi:mikroskop:baslangic",
+   "neden": "kısa (1225 kelime, alt sınır 1550)",
+   "tarih": "2026-10-29"
+  }
+ ],
+ "makaleler": [
+  {
+   "anahtar": "ticari:bahce-bitki:bonsai:bonsai-baslangic-seti-makas-tel-toprak-ve-gubre",
+   "tarih": "2026-10-29",
+   "slug": "bonsai-baslangic-seti-makas-tel-toprak-ve-gubre"
   }
  ]
 }
