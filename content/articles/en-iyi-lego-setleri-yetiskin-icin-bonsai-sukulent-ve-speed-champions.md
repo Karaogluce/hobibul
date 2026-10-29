@@ -3,6 +3,7 @@ title: "En İyi LEGO Setleri: Yetişkin İçin Bonsai, Sukulent ve Speed Champio
 slug: "en-iyi-lego-setleri-yetiskin-icin-bonsai-sukulent-ve-speed-champions"
 category: "koleksiyon"
 date: "2026-10-29"
+updated: "2026-10-29"
 meta_title: "En İyi LEGO Setleri: Yetişkin İçin Bonsai, Sukulent ve Speed Champions"
 meta_description: "Yetişkinler için lego en iyi setler listesinde bonsai, sukulent ve ikonik araba modellerini inceledik; masan ve vitrinin için doğru seti hemen bul."
 excerpt: "Yetişkinler için lego en iyi setler listesinde bonsai, sukulent ve ikonik araba modellerini inceledik; masan ve vitrinin için doğru seti hemen bul."

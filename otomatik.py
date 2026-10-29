@@ -668,7 +668,7 @@ def write_article(t, meta, body, img, draft, tarih=None):
     mt = title if len(title) > 58 else f"{title} | Hobi Bul"
     tarih = tarih or istanbul_bugun().isoformat()
     lines = ["---", f'title: "{q(title)}"', f'slug: "{slug}"', f'category: "{t["cat"]}"',
-             f'date: "{tarih}"', f'meta_title: "{q(mt)}"',
+             f'date: "{tarih}"', f'updated: "{tarih}"', f'meta_title: "{q(mt)}"',
              f'meta_description: "{q(meta["ACIKLAMA"])[:158]}"', f'excerpt: "{q(meta["ACIKLAMA"])}"',
              f'focus_keyword: "{q(meta["ANAHTAR"])}"']
     if img:

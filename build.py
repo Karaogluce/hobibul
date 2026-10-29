@@ -12,7 +12,9 @@ import re
 import shutil
 import html as html_mod
 import hashlib
+import struct
 import sys
+import zlib
 from datetime import datetime
 from urllib.parse import urlencode, quote as urlquote
 
@@ -304,6 +306,24 @@ def render_markdown(text):
 
 
 # ---------------------------------------------------------------- articles
+_TR_MONTHS = (
+    "", "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran",
+    "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık",
+)
+
+
+def format_tr_date(value):
+    """2026-10-29 -> 29 Ekim 2026. Biçim uymuyorsa metni olduğu gibi bırak."""
+    value = (value or "").strip()
+    m = re.match(r"^(\d{4})-(\d{2})-(\d{2})$", value)
+    if not m:
+        return value
+    year, month, day = int(m.group(1)), int(m.group(2)), int(m.group(3))
+    if not 1 <= month <= 12 or not 1 <= day <= 31:
+        return value
+    return f"{day} {_TR_MONTHS[month]} {year}"
+
+
 def parse_article(path):
     with open(path, encoding="utf-8") as f:
         text = f.read()
@@ -336,6 +356,11 @@ def load_articles():
             slug = meta.get("slug") or fn[:-3]
             starter_pid = meta.get("starter_product", "")
             starter_prod = product_map.get(starter_pid) if starter_pid else None
+            author_meta = site.get("author") or {}
+            author_name = meta.get("author") or author_meta.get("name") or "Hobi Bul Editör Ekibi"
+            author_slug = meta.get("author_slug") or author_meta.get("slug") or "hobi-bul-editor"
+            published = meta.get("date") or ""
+            updated = meta.get("updated") or published
             articles.append({
                 "slug": slug,
                 "title": meta.get("title", slug),
@@ -346,7 +371,12 @@ def load_articles():
                 "meta_title": meta.get("meta_title", meta.get("title", slug)),
                 "meta_description": meta.get("meta_description", ""),
                 "excerpt": meta.get("excerpt", ""),
-                "date": meta.get("date", f"{YEAR}"),
+                "date": published,
+                "date_label": format_tr_date(published),
+                "updated": updated,
+                "updated_label": format_tr_date(updated),
+                "author_name": author_name,
+                "author_url": f"/yazar/{author_slug}/",
                 "image": meta.get("image") or CAT_CARD_IMG.get(meta.get("category", ""), ""),
                 "image_alt": meta.get("image_alt", meta.get("title", slug)),
                 "image_credit": meta.get("image_credit", ""),
@@ -365,6 +395,82 @@ def load_articles():
 articles = load_articles()
 
 
+def load_info_pages():
+    """content/pages/*.md -> footer ve sitemap'e giren sabit sayfalar."""
+    pdir = os.path.join(CONTENT, "pages")
+    pages = []
+    email = site.get("contact_email") or ""
+    if not os.path.isdir(pdir):
+        return pages
+    for fn in sorted(os.listdir(pdir)):
+        if not fn.endswith(".md"):
+            continue
+        meta, body = parse_article(os.path.join(pdir, fn))
+        body = body.replace("{{contact_email}}", email)
+        path = meta.get("path") or ("/" + fn[:-3] + "/")
+        if not path.startswith("/"):
+            path = "/" + path
+        if not path.endswith("/"):
+            path += "/"
+        updated = meta.get("updated", "")
+        footer_flag = str(meta.get("footer", "true")).lower()
+        pages.append({
+            "path": path,
+            "title": meta.get("title", fn[:-3]),
+            "nav": meta.get("nav", meta.get("title", fn[:-3])),
+            "order": int(meta.get("order") or 100),
+            "in_footer": footer_flag not in ("false", "0", "hayir", "hayır"),
+            "meta_title": meta.get("meta_title", meta.get("title", "") + " | " + site["site_name"]),
+            "meta_description": meta.get("meta_description", ""),
+            "updated": updated,
+            "updated_label": format_tr_date(updated),
+            "body_html": render_markdown(body.strip()),
+            "noindex": False,
+        })
+    pages.sort(key=lambda p: (p["order"], p["path"]))
+    return pages
+
+
+info_pages = load_info_pages()
+
+
+def info_page_ld(page):
+    path = page["path"]
+    data = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": page["title"],
+        "url": BASE_URL + path,
+        "description": page.get("meta_description") or "",
+        "inLanguage": "tr",
+        "isPartOf": {"@type": "WebSite", "name": site["site_name"], "url": BASE_URL + "/"},
+    }
+    if page.get("updated"):
+        data["dateModified"] = page["updated"]
+    email = site.get("contact_email") or ""
+    if path == "/hakkimizda/":
+        data["@type"] = "AboutPage"
+    elif path == "/iletisim/":
+        data["@type"] = "ContactPage"
+        if email:
+            data["mainEntity"] = {
+                "@type": "ContactPoint",
+                "contactType": "customer support",
+                "email": email,
+                "availableLanguage": ["Turkish"],
+            }
+    elif path.startswith("/yazar/"):
+        author = site.get("author") or {}
+        data["@type"] = "ProfilePage"
+        data["mainEntity"] = {
+            "@type": "Organization",
+            "name": author.get("name") or "Hobi Bul Editör Ekibi",
+            "url": BASE_URL + path,
+            "description": page.get("meta_description") or "",
+        }
+    return data
+
+
 # ---------------------------------------------------------------- jinja
 env = Environment(
     loader=FileSystemLoader(TEMPLATES),
@@ -377,6 +483,7 @@ env.globals.update(
     all_categories=categories,
     cat_meta=CATEGORY_META,
     articles=articles,
+    info_pages=info_pages,
     year=YEAR,
     base_url=BASE_URL,
     shop_ctas_for=shop_ctas_for,
@@ -411,6 +518,67 @@ def jsonld(obj):
     return json.dumps(obj, ensure_ascii=False)
 
 
+def _png_rgba(size, pixel):
+    """Saf Python PNG (8-bit RGBA). pixel(x, y, size) -> (r, g, b, a)."""
+    raw = bytearray()
+    for y in range(size):
+        raw.append(0)
+        for x in range(size):
+            raw.extend(pixel(x, y, size))
+
+    def chunk(tag, data):
+        return struct.pack(">I", len(data)) + tag + data + struct.pack(">I", zlib.crc32(tag + data) & 0xFFFFFFFF)
+
+    ihdr = struct.pack(">IIBBBBB", size, size, 8, 6, 0, 0, 0)
+    return b"\x89PNG\r\n\x1a\n" + chunk(b"IHDR", ihdr) + chunk(b"IDAT", zlib.compress(bytes(raw), 9)) + chunk(b"IEND", b"")
+
+
+def _favicon_pixel(x, y, n):
+    """favicon.svg ile aynı yeşil hedef işareti. Köşeler saydam."""
+    px, py = x + 0.5, y + 0.5
+    radius = n * 0.25
+    half = n / 2
+    qx = abs(px - half) - (half - radius)
+    qy = abs(py - half) - (half - radius)
+    dist = (max(qx, 0) ** 2 + max(qy, 0) ** 2) ** 0.5 + min(max(qx, qy), 0)
+    if dist > 0.8:
+        return (0, 0, 0, 0)
+    alpha = 255 if dist <= 0 else int(255 * (1 - dist / 0.8))
+    t = (px + py) / (2 * n)
+    r = int(22 + (15 - 22) * t)
+    g = int(163 + (118 - 163) * t)
+    b = int(74 + (110 - 74) * t)
+    scale = n / 48.0
+    center = ((px - half) ** 2 + (py - half) ** 2) ** 0.5
+    stroke = max(1.2, 2.5 * scale)
+    white = center <= 2.6 * scale
+    for ring in (13.0, 6.5):
+        if abs(center - ring * scale) <= stroke / 2:
+            white = True
+            break
+    if white:
+        return (255, 255, 255, alpha)
+    return (r, g, b, alpha)
+
+
+def write_favicon(path):
+    """Kök /favicon.ico. PNG gömülü ICO; dış kütüphane yok."""
+    sizes = (16, 32, 48)
+    blobs = [_png_rgba(s, _favicon_pixel) for s in sizes]
+    count = len(blobs)
+    header = struct.pack("<HHH", 0, 1, count)
+    entries = b""
+    payload = b""
+    offset = 6 + 16 * count
+    for size, blob in zip(sizes, blobs):
+        entries += struct.pack("<BBBBHHII", size, size, 0, 0, 1, 32, len(blob), offset)
+        payload += blob
+        offset += len(blob)
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    with open(path, "wb") as f:
+        f.write(header + entries + payload)
+
+
 # ---------------------------------------------------------------- build
 def main():
     gid = site.get("ga4_id", "")
@@ -424,6 +592,7 @@ def main():
     # statik dosyalar
     if os.path.isdir(STATIC):
         shutil.copytree(STATIC, SITE, dirs_exist_ok=True)
+    write_favicon(os.path.join(SITE, "favicon.ico"))
 
     # ---- home ----
     first_article = {}
@@ -484,6 +653,14 @@ def main():
         "canonical_path": "/rehberler/",
     })
 
+    # ---- hakkımızda, iletişim, yasal sayfalar, editör ----
+    for page in info_pages:
+        render("page.html", os.path.join(SITE, page["path"].strip("/"), "index.html"), {
+            "canonical_path": page["path"],
+            "page": page,
+            "jsonld": jsonld(info_page_ld(page)),
+        })
+
     # ---- makale sayfalari ----
     for a in articles:
         render("article.html", os.path.join(SITE, "makale", a["slug"], "index.html"), {
@@ -496,9 +673,20 @@ def main():
                 "headline": a["title"],
                 "image": a["image"],
                 "datePublished": str(a["date"]),
+                "dateModified": str(a.get("updated") or a["date"]),
                 "description": a["meta_description"],
                 "inLanguage": "tr",
-                "publisher": {"@type": "Organization", "name": site["site_name"]},
+                "author": {
+                    "@type": "Organization",
+                    "name": a["author_name"],
+                    "url": BASE_URL + a["author_url"],
+                },
+                "publisher": {
+                    "@type": "Organization",
+                    "name": site["site_name"],
+                    "url": BASE_URL + "/",
+                },
+                "mainEntityOfPage": BASE_URL + f"/makale/{a['slug']}/",
             }),
         })
 
@@ -535,6 +723,8 @@ def main():
 
     # ---- sitemap + robots + CNAME + 404 ----
     urls = ["/", "/rehberler/"]
+    for page in info_pages:
+        urls.append(page["path"])
     for cat in categories:
         urls.append(f"/kategori/{cat['slug']}/")
         for sub in cat["subcategories"]:
@@ -568,18 +758,28 @@ def main():
 
     write(os.path.join(SITE, "CNAME"), site["domain"] + "\n")
 
-    write(os.path.join(SITE, "404.html"),
-          "<!DOCTYPE html><html lang=\"tr\"><head><meta charset=\"utf-8\">"
-          "<title>Sayfa Bulunamadı | " + site["site_name"] + "</title>"
-          "<meta http-equiv=\"refresh\" content=\"5;url=/\"></head>"
-          "<body style=\"font-family:sans-serif;text-align:center;padding:4rem\">"
-          "<h1>404 — Sayfa Bulunamadı</h1><p>Ana sayfaya yönlendiriliyorsunuz…</p>"
-          "<a href=\"/\">Ana Sayfa</a></body></html>")
+    render("page.html", os.path.join(SITE, "404.html"), {
+        "canonical_path": "/404.html",
+        "page": {
+            "title": "Sayfa bulunamadı",
+            "meta_title": "Sayfa bulunamadı | " + site["site_name"],
+            "meta_description": "Aradığın sayfa hobibul.com.tr üzerinde yok.",
+            "updated": "",
+            "updated_label": "",
+            "noindex": True,
+            "body_html": (
+                "<p>Aradığın adres burada yok. Bağlantı eski olabilir ya da yazım hatası vardır.</p>"
+                '<p><a href="/">Ana sayfaya dön</a></p>'
+            ),
+        },
+        "jsonld": "",
+    })
 
     # özet
     n_cat = len(categories) + sum(len(c["subcategories"]) for c in categories)
     print(f"✓ {n_cat} kategori sayfası")
     print(f"✓ {len(articles)} makale sayfası")
+    print(f"✓ {len(info_pages)} bilgi sayfası")
     print(f"✓ 1 ana sayfa + 1 dashboard + sitemap + robots + CNAME + 404"
           + (" + IndexNow anahtarı" if inkey else ""))
     print(f"✓ Çıktı: {SITE}")
