@@ -38,6 +38,21 @@ class GeminiQuotaError(GeminiError):
     """Günlük kota doldu. Dakikalık 429 bu sınıf değildir."""
 
 
+class GeminiYazi(str):
+    """Üretilen metin. finish_reason ve usage ayrı durur; strip() düz str döndürebilir."""
+
+    def __new__(cls, text, finish_reason="", usage=None):
+        obj = str.__new__(cls, "" if text is None else text)
+        obj.finish_reason = finish_reason or ""
+        obj.usage = usage if isinstance(usage, dict) else {}
+        return obj
+
+
+# Güncel Flash / Flash-Lite çıktı tavanı 65536. Düşünce tokenleri de bu tavana yazılır;
+# 16384, yedek modelde kesik veya kısa gövde bırakıyordu. Model reddederse basamak inilir.
+CIKTI_TOKEN_BASAMAKLARI = (65536, 32768, 16384, 8192)
+
+
 BASE = os.path.dirname(os.path.abspath(__file__))
 CONTENT = os.path.join(BASE, "content")
 ARTICLES = os.path.join(CONTENT, "articles")
@@ -135,16 +150,66 @@ def _gunluk_kota(msg):
         msg, re.I))
 
 
+def generation_config(max_tokens):
+    return {"temperature": 0.6, "maxOutputTokens": int(max_tokens)}
+
+
+def dusunce_notu(usage):
+    """Log satırı. Yalnızca düşünce token sayısı; anahtar veya gövde yok."""
+    if not isinstance(usage, dict):
+        return ""
+    raw = usage.get("thoughtsTokenCount")
+    if isinstance(raw, int) and raw > 0:
+        return f", düşünce token={raw}"
+    return ""
+
+
+def cikti_token_reddi(msg):
+    """400, istenen maxOutputTokens model tavanını aşıyor."""
+    low = (msg or "").lower()
+    sik = low.replace("_", "")
+    if "maxoutputtokens" in sik:
+        return True
+    return "output token" in low and any(
+        s in low for s in ("exceed", "maximum", "too large", "too many", "invalid", "less than or equal"))
+
+
+def gemini_yaniti(data):
+    """Aday metnini ayıkla. Düşünce parçaları makaleye karışmasın."""
+    if not isinstance(data, dict):
+        raise GeminiError("Gemini yanıtı okunamadı.")
+    cands = data.get("candidates") or []
+    if not cands or not isinstance(cands[0], dict):
+        feedback = data.get("promptFeedback") if isinstance(data.get("promptFeedback"), dict) else {}
+        neden = feedback.get("blockReason") or "aday yok"
+        raise GeminiError(f"Gemini metin döndürmedi ({neden}).")
+    cand = cands[0]
+    finish = str(cand.get("finishReason") or cand.get("finish_reason") or "")
+    parts = (cand.get("content") or {}).get("parts") if isinstance(cand.get("content"), dict) else None
+    texts = []
+    for p in parts or []:
+        if not isinstance(p, dict) or p.get("thought") or p.get("type") == "thought":
+            continue
+        text = p.get("text")
+        if text:
+            texts.append(text)
+    usage = data.get("usageMetadata") if isinstance(data.get("usageMetadata"), dict) else {}
+    return GeminiYazi("".join(texts).strip(), finish, usage)
+
+
 def call_gemini(prompt, key, model):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
-    body = json.dumps({
-        "contents": [{"parts": [{"text": prompt}]}],
-        "generationConfig": {"temperature": 0.6, "maxOutputTokens": 16384},
-    }).encode("utf-8")
-    req = urllib.request.Request(url, data=body, method="POST", headers={
-        "Content-Type": "application/json", "x-goog-api-key": key})
+    basamak = 0
+    attempt = 0
     last_err = ""
-    for attempt in range(5):
+    while attempt < 5:
+        max_tok = CIKTI_TOKEN_BASAMAKLARI[min(basamak, len(CIKTI_TOKEN_BASAMAKLARI) - 1)]
+        body = json.dumps({
+            "contents": [{"parts": [{"text": prompt}]}],
+            "generationConfig": generation_config(max_tok),
+        }).encode("utf-8")
+        req = urllib.request.Request(url, data=body, method="POST", headers={
+            "Content-Type": "application/json", "x-goog-api-key": key})
         with _gemini_lock:
             wait_needed = _MIN_GAP - (time.time() - _last_call[0])
             if wait_needed > 0:
@@ -153,29 +218,44 @@ def call_gemini(prompt, key, model):
         try:
             with urllib.request.urlopen(req, timeout=180) as r:
                 data = json.loads(r.read().decode("utf-8"))
-            parts = data["candidates"][0]["content"]["parts"]
-            return "".join(p.get("text", "") for p in parts).strip()
+            yanit = gemini_yaniti(data)
+            if yanit.finish_reason == "MAX_TOKENS":
+                metin_token = yanit.usage.get("candidatesTokenCount")
+                metin_ek = f", metin token={metin_token}" if isinstance(metin_token, int) else ""
+                print(
+                    f"  Gemini çıktısı kesildi (MAX_TOKENS, model={model}, maxOutputTokens={max_tok}"
+                    f"{metin_ek}{dusunce_notu(yanit.usage)})")
+            return yanit
         except urllib.error.HTTPError as e:
             msg = e.read().decode("utf-8", "replace")[:300]
+            if e.code == 400 and cikti_token_reddi(msg) and basamak < len(CIKTI_TOKEN_BASAMAKLARI) - 1:
+                basamak += 1
+                print(f"  maxOutputTokens={max_tok} bu modelde yüksek; {CIKTI_TOKEN_BASAMAKLARI[basamak]} deneniyor")
+                continue
             if e.code == 429 and _gunluk_kota(msg):
                 raise GeminiQuotaError(f"Gemini günlük kotası doldu ({model}): {msg}")
             if e.code == 429 and attempt < 2:
-                print(f"  API 429 (dakikalık sınır), 65 sn bekleniyor…")
+                print("  API 429 (dakikalık sınır), 65 sn bekleniyor…")
                 time.sleep(65)
+                attempt += 1
                 continue
             if e.code in (500, 503) and attempt < 4:
                 wait = 20 * (attempt + 1)
                 print(f"  API {e.code}, {wait} sn bekleniyor…")
                 time.sleep(wait)
+                attempt += 1
                 continue
-            raise GeminiError(f"Gemini hatası {e.code}: {msg} (Model adı eskimiş olabilir: GEMINI_MODEL değerini AI Studio'dan kontrol et.)")
+            raise GeminiError(
+                f"Gemini hatası {e.code}: {msg} (Model adı eskimiş olabilir: GEMINI_MODEL değerini AI Studio'dan kontrol et.)")
         except (TimeoutError, urllib.error.URLError, ConnectionError, OSError) as e:
             last_err = str(e)
             if attempt < 4:
                 wait = 15 * (attempt + 1)
                 print(f"  Bağlantı sorunu ({type(e).__name__}: {last_err}), {wait} sn bekleniyor…")
                 time.sleep(wait)
+                attempt += 1
                 continue
+            attempt += 1
     raise GeminiError(f"Gemini yanıt vermedi (bağlantı sorunu: {last_err or 'bilinmiyor'}).")
 
 
