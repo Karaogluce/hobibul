@@ -639,7 +639,7 @@ def uret(t, products, key, models, model_idx, ukey, log, draft):
 
 def main():
     ap = argparse.ArgumentParser()
-    ap.add_argument("--adet", type=int, default=2)
+    ap.add_argument("--adet", type=int, default=7)
     ap.add_argument("--yayinla", action="store_true", help="taslak yerine yayına hazır yaz")
     ap.add_argument("--taslak", action="store_true")
     ap.add_argument("--konu-listesi", action="store_true")
@@ -663,11 +663,11 @@ def main():
             print(f"  [{t['tip']}] {t['title']}")
         return
 
-    if a.adet > 2:
-        print("Günlük sınır 2 makale; adet 2'ye çekildi.")
-        a.adet = 2
+    if a.adet > 7:
+        print("Günlük sınır 7 makale; adet 7'ye çekildi.")
+        a.adet = 7
     if a.adet < 1:
-        a.adet = 2
+        a.adet = 7
     draft_env = os.environ.get("TASLAK_MODU", "false").strip().lower() not in ("false", "0", "hayir", "hayır")
     draft = False if a.yayinla else (True if a.taslak else draft_env)
     key, ukey = os.environ.get("GEMINI_API_KEY"), os.environ.get("UNSPLASH_ACCESS_KEY")
@@ -684,7 +684,7 @@ def main():
         print("Ana model zaten buysa AI Studio'daki güncel flash adını yedek olarak yaz.")
 
     made, tried = 0, 0
-    # Kalite kapısı eleyen taslakları atlayıp günde 2 yayın çıkarmak için konu payı.
+    # Kalite kapısı eleyen taslakları atlayıp günde 7 yayın çıkarmak için konu payı.
     for t in queue:
         if made >= a.adet or tried >= max(8, a.adet * 4):
             break
