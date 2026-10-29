@@ -46,11 +46,12 @@ Gereksinim: Python 3 + Jinja2 (`pip install jinja2`).
 
 ## Affiliate link yöneticisi
 
-Tüm ürün linkleri `content/products.json` içindeki `query` alanından otomatik üretilir ve
-`content/links.json` içindeki ağ yapılandırmasıyla birleştirilir. Amazon ID şu anda
-`hobibulsite67-20` (Amazon.com). Diğer ağları aktifleştirmek için `content/links.json`'da
-ilgili ağın `tag`/`base_url` alanını doldurup `"active": true` yapın, sonra `python build.py`
-ile yeniden üretin.
+Tüm ürün linkleri `content/products.json` içindeki `asin` (varsa `/dp/ASIN`) veya
+`query` alanından üretilir ve `content/links.json` ile birleştirilir. Canlı Amazon.com.tr
+ortaklık etiketi `hobibulsite-21` (`links.json` → `amazon_tr` ve `site.json` → `amazon_tag`).
+`hobibulsite67-20` yalnızca kapalı duran Amazon.com (ABD) ağı içindir; `-20` ABD sonekidir.
+Diğer ağları aktifleştirmek için `content/links.json`'da ilgili ağın `tag`/`base_url`
+alanını doldurup `"active": true` yapın, sonra `python build.py` ile yeniden üretin.
 
 > Amazon.com.tr, Trendyol ve Hepsiburada affiliate programlarına katıldığınızda ilgili
 > ID/link şablonunu aynı dosyaya ekleyin — yapı buna hazır.
@@ -149,10 +150,9 @@ Panelde ayrı bir "HTTP yönlendir / 301" kuralı varsa kapat; o kural `http://`
 
 ## Amazon bölgesi notu
 
-`hobibulsite67-20` bir Amazon.com (ABD) Associates tag'idir. Türk ziyaretçilerinize
-Amazon.com.tr üzerinden satın alma önermek isterseniz Amazon.com.tr Associates programına
-katılıp tag'inizi `content/links.json` → `amazon_tr` bölümüne ekleyin ve ürünlerin
-`network` alanını `amazon_tr` yapın.
+Canlı etiket Amazon.com.tr için `hobibulsite-21` (sonek `-21`). `hobibulsite67-20`
+Amazon.com (ABD, sonek `-20`) etiketidir ve `links.json` içinde kapalı `amazon` ağında durur.
+Ürünlerin `network` alanı `amazon_tr` olduğu sürece linkler `hobibulsite-21` ile üretilir.
 
 ## Yasal
 
