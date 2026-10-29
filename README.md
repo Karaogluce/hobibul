@@ -195,6 +195,7 @@ Eksik `GEMINI_API_KEY` hâlâ kırmızı fail. Üretilen dosyalar her çalışma
 Sıra ticari niyettedir: önce `content/konu_havuzu.json` içinde `tip_onerisi: "ticari"` olan konular, sonra her alt
 kategori için bir başlangıç seti. `nedir`, `nasıl yazılır`, il adı ve yabancı dil sorguları havuzdan ve Google
 önerilerinden elenir. Kapıdan geçen metin en az yaklaşık 1500 kelimedir (ticari konularda 1550); hedef 1650–2000.
+Kısa kalan veya `finishReason: MAX_TOKENS` ile kesilen taslak, reddedilmeden önce eksik bölümleri tamamlayan bir devam çağrısından geçer. Alt sınır düşürülmez.
 
 Kurulum (bir kerelik): GitHub → Settings → Secrets and variables → Actions
 - **Secrets (zorunlu):** `GEMINI_API_KEY` — [Google AI Studio](https://aistudio.google.com) anahtarı. Yoksa iş makale üretmeden durur.

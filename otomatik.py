@@ -7,7 +7,8 @@
   python otomatik.py --konu-listesi   # sıradaki konuları göster (API çağırmaz)
 
 Akış: konu seç → Google Autocomplete'ten gerçek Türkçe sorguları çek → Gemini ile yaz
-(yalnızca products.json verisiyle) → kalite kapıları → Unsplash'tan görsel → .md yaz.
+(yalnızca products.json verisiyle) → kısa veya MAX_TOKENS ile kesik taslakta eksik
+bölümleri tamamlayan devam çağrısı → kalite kapıları → Unsplash'tan görsel → .md yaz.
 Kapıdan geçemeyen makale YAYINLANMAZ, content/uretim_log.json'a işlenir.
 
 Günlük hedef: İstanbul takvim gününde 3 makale. Sayı logdaki tarih kayıtlarından gelir.
@@ -82,7 +83,7 @@ TIPLER = {
     "rehber": dict(
         min=1500, hepsi=True,
         baslik=lambda s: f"En İyi {s} Ekipmanları ({YEAR}): Alım Rehberi",
-        yapi="Kısa giriş (odak anahtar kelime ilk paragrafta geçsin) → '## Satın Almadan Önce Nelere Bakmalı?' (genel, "
+        yapi="Giriş (odak anahtar kelime ilk paragrafta geçsin) → '## Satın Almadan Önce Nelere Bakmalı?' (genel, "
              "doğrulanabilir bilgiler; sayı/ölçü uydurma) → '## En İyi Seçenekler' altında her ürün için ### başlık → "
              "'## Hangisini Seçmeli?' (kullanım senaryosuna göre kısa eşleştirme) → '## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
@@ -102,13 +103,13 @@ TIPLER = {
     "sss": dict(
         min=1500, hepsi=False,
         baslik=lambda s: f"{s} Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
-        yapi="Kısa giriş → 8-10 soru, her biri ### başlık olarak (aşağıdaki gerçek arama sorgularından seç) ve 2-4 cümlelik net cevap → "
+        yapi="Giriş → 8-10 soru, her biri ### başlık olarak (aşağıdaki gerçek arama sorgularından seç) ve 2-4 cümlelik net cevap → "
              "uygun cevaplarda 2-3 üründen doğal biçimde link ver → '## Sık Sorulan Sorular' başlığını da kullan (ör. 'Hâlâ Aklında Soru Var mı?') → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
     "kontrol_listesi": dict(
         min=1500, hepsi=False,
         baslik=lambda s: f"{s} Kontrol Listesi: Eksiksiz Hazırlık",
-        yapi="Kısa giriş (hedef sorguya ilk paragrafta cevap) → '## Neye İhtiyacın Var?' (hangi durumda hangi ekipman, "
+        yapi="Giriş (hedef sorguya ilk paragrafta cevap) → '## Neye İhtiyacın Var?' (hangi durumda hangi ekipman, "
              "ürün verisine dayalı genel gerekçeler) → '## Kontrol Listesi' altında madde madde liste; her maddede o şeyin neden "
              "gerektiğini tek cümleyle açıkla → '## Listeyi Kendine Göre Uyarlama' (kısa/uzun hazırlık, mevsim, deneyim farkı) → "
              "'## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma). Listede geçen en az 2 üründen doğal biçimde link ver.",
@@ -116,7 +117,7 @@ TIPLER = {
     "nasil_yapilir": dict(
         min=1500, hepsi=False,
         baslik=lambda s: f"{s} Nasıl Yapılır? Adım Adım Rehber",
-        yapi="Kısa giriş (hedef sorguya ilk iki cümlede cevap) → '## Gerekli Malzemeler ve Hazırlık' (kısa liste) → "
+        yapi="Giriş (hedef sorguya ilk iki cümlede cevap) → '## Gerekli Malzemeler ve Hazırlık' (kısa liste) → "
              "'## Adım Adım Uygulama' altında her adımı ### başlık yaparak sırayla anlat → '## Yeni Başlayanların Sık Yaptığı Hatalar' → "
              "'## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma). Uygun adımlarda en az 2 üründen doğal biçimde link ver.",
     ),
@@ -442,12 +443,22 @@ def suggestions(sub_name):
 
 
 # ------------------------------------------------------------------ prompt / parse
-def build_prompt(t, prods, sugg, guide=""):
-    cfg = TIPLER[t["tip"]]
-    plist = "\n".join(
+def kelime_hedef(tip):
+    """Kapı eşiğinin üstünde, ilk taslağın hedeflemesi gereken alt uzunluk."""
+    return max(TIPLER[tip]["min"] + 150, 1650)
+
+
+def _urun_bloku(prods):
+    return "\n".join(
         f"- id: {p['id']}\n  ad: {p['name']}\n  marka: {p.get('brand','')}\n  açıklama: {p.get('desc','')}\n"
         f"  artılar: {'; '.join(p.get('pros', []))}\n  eksiler: {'; '.join(p.get('cons', []))}"
         + (f"\n  yazarın notu: {p['not']}" if p.get('not') else "") for p in prods)
+
+
+def build_prompt(t, prods, sugg, guide=""):
+    cfg = TIPLER[t["tip"]]
+    plist = _urun_bloku(prods)
+    hedef = kelime_hedef(t["tip"])
     sq = "\n".join(f"- {s}" for s in sugg) or "- (sorgu bulunamadı; konuyla ilgili doğal sorular kullan)"
     zorunlu = ("HER ÜRÜN için en az bir kez" if cfg["hepsi"] else "en az 2 ürün için")
     tablo_kurali = "Paket bölümündeki markdown tablo serbest; başka tablo yok." if t["tip"] == TICARI_TIP else "Tablo kullanma."
@@ -472,9 +483,9 @@ KATEGORİ: {t['cat_name']} › {t['sub_name']}
 MAKALE TİPİ: {t['tip']}
 BEKLENEN YAPI: {cfg['yapi']}
 UZUNLUK VE YAPI BÜTÇESİ (uymayan taslak reddedilir):
-- Toplam metin en az {max(cfg['min'] + 150, 1650)} kelime olsun. 2000 kelimeyi geçme.
-- En az 6 adet "## " bölümü yaz.
-- Her bölümü somut bir durumdan aç. Gerekçeyi ürün verisine bağla. Kısa kesip geçme; aynı öğüdü üç kez de söyleme.
+- Toplam metin {hedef}–2000 kelime olsun. {cfg['min']} kelimenin altı eksik sayılır ve yayınlanmaz.
+- Erken bitirme. En az 6 adet "## " bölümü yaz; her ## bölümünde en az iki paragraf olsun.
+- Her bölümü somut bir durumdan aç. Gerekçeyi ürün verisine bağla. Kısa kesip geçme; aynı öğüdü tekrarlayarak uzatma.
 
 İNSANLARIN GERÇEKTEN ARADIĞI SORGULAR (uygun olanları başlıklara ve SSS bölümüne doğal biçimde yedir; zorlama ya da tekrar yapma):
 {sq}
@@ -503,7 +514,7 @@ ACIKLAMA: <140-155 karakterlik Türkçe meta açıklama, odak anahtar kelimeyi i
 """
 
 
-def edit_prompt(body, prods, guide):
+def edit_prompt(body, prods, guide, alt_sinir=1500):
     veri = "\n".join(f"- {p['id']}: {p['name']} | {p.get('desc','')} | artı: {'; '.join(p.get('pros', []))} | eksi: {'; '.join(p.get('cons', []))}" for p in prods)
     return f"""Sen titiz bir Türkçe blog editörüsün. Aşağıdaki taslağı, YAZIM REHBERİ'ne göre elden geçir.
 
@@ -512,7 +523,7 @@ YAPILACAKLAR:
 2. Cümleleri doğal konuşma Türkçesine çek. Kesik kesik, telegram gibi dizilmiş yargıları birleştir. Cümleyi salt kısa olsun diye bölme; 3-7 kelime zorunluluğu yok. Art arda aynı kelimeyle başlayan cümleleri değiştir. İç içe geçmiş, nefes aldırmayan cümleleri sadeleştir.
 3. Ürün verisinde bulunmayan her bilgiyi (ölçü, ağırlık, süre, puan, fiyat, "denedik/kullandım" iddiası) sil.
 4. Tüm aff:// linklerini aynen koru. ## ve ### başlık sayısını koru (başlık metinlerini doğallaştırabilirsin).
-5. Kelime sayısını %10'dan fazla azaltma. Yeni bilgi ekleme. Markdown tablo satırlarını silme.
+5. Kelime sayısını %10'dan fazla azaltma ve {alt_sinir} kelimenin altına düşürme. Yeni bilgi ekleme. Markdown tablo satırlarını silme.
 Sadece düzeltilmiş Markdown metnini döndür; açıklama yazma.
 
 ÜRÜN VERİSİ:
@@ -588,7 +599,7 @@ def gate(body, tip, prods, others, banned=()):
     cfg = TIPLER[tip]
     words = len(body.split())
     if words < cfg["min"]:
-        return f"kısa ({words} kelime)"
+        return f"kısa ({words} kelime, alt sınır {cfg['min']})"
     if len(re.findall(r"^## ", body, re.M)) < 4:
         return "yetersiz H2 bölümü"
     if not re.search(r"sık sorulan|sorular|\bsss\b", body, re.I):
@@ -730,6 +741,141 @@ def _gemini(prompt, key, models, idx):
     raise last or ym.GeminiError("Kullanılabilir Gemini modeli kalmadı.")
 
 
+DEVAM_HAKKI = 2
+
+
+def genisletme_gerekli(body, tip, finish_reason):
+    """Alt sınırın altı ya da token kesmesi devam ister. Uzun ve tamamlanmış taslak istemez."""
+    if len((body or "").split()) < TIPLER[tip]["min"]:
+        return True
+    return (finish_reason or "") == "MAX_TOKENS"
+
+
+def _cumleler(text):
+    text = re.sub(r"(?m)^#+\s*", "", text or "")
+    return [p.strip() for p in re.split(r"(?<=[.!?])\s+", text) if len(p.split()) >= 6]
+
+
+def birlestir_taslak(eski, yeni):
+    """Tam yeniden yazımı olduğu gibi al; yalnızca ek bölüm geldiyse sona ekle."""
+    eski = (eski or "").strip()
+    yeni = (yeni or "").strip()
+    if not yeni:
+        return eski
+    if not eski or yeni in eski:
+        return eski or yeni
+    eski_c = set(_cumleler(eski))
+    yeni_c = _cumleler(yeni)
+    if yeni_c and eski_c:
+        tekrar = sum(1 for c in yeni_c if c in eski_c) / len(yeni_c)
+        if tekrar >= 0.35:
+            return yeni if len(yeni.split()) > len(eski.split()) else eski
+    eski_baslik = set(re.findall(r"(?m)^## .+$", eski))
+    yeni_baslik = set(re.findall(r"(?m)^## .+$", yeni))
+    ortak = eski_baslik & yeni_baslik
+    if eski_baslik and len(ortak) >= min(2, len(eski_baslik)):
+        return yeni
+    ilk = " ".join(eski.split()[:12])
+    if len(ilk.split()) >= 8 and ilk in " ".join(yeni.split()):
+        return yeni
+    return eski + "\n\n" + yeni
+
+
+def govde_ayikla(raw):
+    text = str(raw or "").strip()
+    text = re.sub(r"^```(?:markdown|md)?\s*", "", text)
+    text = re.sub(r"\s*```$", "", text).strip()
+    parsed = parse(text)
+    if parsed:
+        return parsed[1]
+    if "\n---" in text and re.search(r"(?m)^(GORSEL|ANAHTAR|ACIKLAMA)\s*:", text):
+        _, _, body = text.partition("\n---")
+        return body.lstrip("-").strip()
+    return text
+
+
+def devam_prompt(taslak, t, prods, guide, finish_reason, tam_bicim=False):
+    """Kısa veya kesik taslağı dolguya kaçmadan eksik bölümlerle tamamlat."""
+    cfg = TIPLER[t["tip"]]
+    hedef = kelime_hedef(t["tip"])
+    simdi = len((taslak or "").split())
+    if finish_reason == "MAX_TOKENS":
+        durum = (
+            "Taslak token sınırında kesildi; cümle yarım kalmış olabilir. "
+            "Kaldığın yerden tamamla, sonra eksik bölümleri yaz."
+        )
+    else:
+        durum = (
+            f"Taslak {simdi} kelime ve alt sınır {cfg['min']}. Erken durmuş. "
+            "Eksik bölümleri ve ince kalan bölümleri işle."
+        )
+    if tam_bicim:
+        cikti = """ÇIKTI BİÇİMİ (tam olarak böyle, kod bloğu yok):
+GORSEL: <2-4 kelimelik İngilizce Unsplash sorgusu; marka adı yok>
+ANAHTAR: <Türkçe odak kelime, 2-4 kelime>
+ACIKLAMA: <140-155 karakter>
+---
+<baştan sona makale metni>"""
+    else:
+        cikti = (
+            "Çıktı, baştan sona tam makale gövdesi olsun. Yalnızca eklenti döndürme. "
+            "GORSEL, ANAHTAR, ACIKLAMA satırı ve kod bloğu yazma."
+        )
+    return f"""Sen aynı makaleyi tamamlayan Türkçe blog editörüsün. Taslağı yayın eşiğine çıkar. Dolgu yazma.
+
+BAŞLIK: {t['title']}
+MAKALE TİPİ: {t['tip']}
+BEKLENEN YAPI: {cfg['yapi']}
+DURUM: {durum}
+
+UZUNLUK:
+- Şu an yaklaşık {simdi} kelime. Bitmiş metin en az {hedef} kelime olsun. {cfg['min']} altı reddedilir.
+- 2100 kelimeyi geçme.
+- Eş anlamlı tekrar, boş övgü ve aynı öğüdün yeni başlık altında yeniden sıralanması yasak. Her eklenen paragraf yeni bir durum, ayrım veya gerekçe taşısın.
+
+YAPILACAKLAR:
+1. Beklenen yapıdaki eksik ## ve ### bölümlerini yaz. Her ## bölümünde en az iki paragraf olsun. SSS cevapları kısa kalabilir; uzunluk karar gerekçesinden gelsin.
+2. İnce kalan bölümü derinleştir: somut kullanım durumu, kime uyar, kime uymaz, ürün verisindeki artı ve eksi. Veride olmayan ölçü, fiyat, puan, süre veya "denedim" iddiası ekleme.
+3. Yarım kalmış cümleyi tamamla. Var olan ## başlık satırlarını koru. Mevcut aff:// linklerini ve ürün id'lerini koru. Eksik ürün linkini [Satın Al: ÜRÜN ADI](aff://ÜRÜN_ID) biçiminde, yalnızca listedeki id ile ekle.
+4. Yeni ürün veya marka ekleme. Fiyat, TL veya ₺ yazma.
+5. Doğal konuşma Türkçesi. Dolgu cümle yazma.
+6. {cikti}
+
+KULLANABİLECEĞİN ÜRÜNLER:
+{_urun_bloku(prods)}
+
+YAZIM REHBERİ:
+{guide}
+
+<<<TASLAK
+{taslak}
+TASLAK>>>
+"""
+
+
+def uzat_taslak(body, t, prods, guide, key, models, model_idx, finish_reason, hak=DEVAM_HAKKI):
+    """Alt sınırın altında veya MAX_TOKENS ise en fazla hak kadar devam çağrısı."""
+    reason = finish_reason or ""
+    kalan = hak
+    while kalan > 0 and genisletme_gerekli(body, t["tip"], reason):
+        kalan -= 1
+        once = len((body or "").split())
+        etiket = "kesik" if reason == "MAX_TOKENS" else "kısa"
+        print(f"  {etiket} ({once} kelime, alt sınır {TIPLER[t['tip']]['min']}); eksik bölümler tamamlanıyor")
+        raw = _gemini(devam_prompt(body, t, prods, guide, reason), key, models, model_idx)
+        reason = getattr(raw, "finish_reason", "") or ""
+        ek = ym.validate(govde_ayikla(raw), prods)
+        birlesik = birlestir_taslak(body, ek)
+        if len(birlesik.split()) <= once:
+            print("  devam metni uzamadı")
+            break
+        body = birlesik
+        print(
+            f"  devam sonrası {len(body.split())} kelime, finish={reason or 'STOP'}"
+            f"{ym.dusunce_notu(getattr(raw, 'usage', None))}")
+    return body
+
+
 def uret(t, products, key, models, model_idx, ukey, log, draft, tarih):
     pool = {p["id"]: p for s in products.values() for items in s.values() for p in items}
     prods = [pool[i] for i in t["ids"]]
@@ -739,15 +885,35 @@ def uret(t, products, key, models, model_idx, ukey, log, draft, tarih):
     others = existing_shingles()
     guide, banned = load_guide()
     why = "bilinmiyor"
+    alt_sinir = TIPLER[t["tip"]]["min"]
     for attempt in range(2):
         raw = _gemini(build_prompt(t, prods, sugg, guide), key, models, model_idx)
+        reason = getattr(raw, "finish_reason", "") or ""
+        if not str(raw).strip():
+            why = "boş çıktı" + (" (MAX_TOKENS)" if reason == "MAX_TOKENS" else "")
+            continue
         parsed = parse(raw)
+        if not parsed and reason == "MAX_TOKENS":
+            print("  kesik çıktı (MAX_TOKENS); üst bilgiyle birlikte tamamlanıyor")
+            raw = _gemini(
+                devam_prompt(str(raw), t, prods, guide, reason, tam_bicim=True),
+                key, models, model_idx)
+            reason = getattr(raw, "finish_reason", "") or ""
+            parsed = parse(raw)
         if not parsed:
-            why = "çıktı biçimi bozuk"
+            why = "çıktı biçimi bozuk" + (" (MAX_TOKENS)" if reason == "MAX_TOKENS" else "")
             continue
         meta, body = parsed
         body = ym.validate(body, prods)
-        edited_raw = _gemini(edit_prompt(body, prods, guide), key, models, model_idx)
+        if reason == "MAX_TOKENS" or len(body.split()) < alt_sinir:
+            print(
+                f"  taslak {len(body.split())} kelime, finish={reason or 'STOP'}"
+                f"{ym.dusunce_notu(getattr(raw, 'usage', None))}")
+        body = uzat_taslak(body, t, prods, guide, key, models, model_idx, reason)
+        if len(body.split()) < alt_sinir:
+            why = gate(body, t["tip"], prods, others, banned)
+            continue
+        edited_raw = _gemini(edit_prompt(body, prods, guide, alt_sinir), key, models, model_idx)
         edited = ym.validate(re.sub(r"^```(?:markdown)?\s*|\s*```$", "", edited_raw.strip()), prods)
         if len(edited.split()) >= 0.85 * len(body.split()):
             why = gate(edited, t["tip"], prods, others, banned)
