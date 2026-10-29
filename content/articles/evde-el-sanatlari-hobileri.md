@@ -2,7 +2,7 @@
 title: "Evde Başlayabileceğin 8 Yaratıcı El Sanatı Hobisi ve Gerekli Malzemeler"
 slug: "evde-el-sanatlari-hobileri"
 category: "el-sanatlari"
-meta_title: "Evde El Sanatları Hobileri: 8 Fikir ve Malzeme Rehberi | Hobi Bul"
+meta_title: "Evde El Sanatları: 8 Hobi Fikri | Hobi Bul"
 meta_description: "Evde başlayabileceğin 8 el sanatı hobisi ve gerekli malzemeler: örgü, takı, ahşap ve resim için ürün önerileri ve satın alma bağlantıları."
 excerpt: "Örgüden sulu boyaya, ahşap oymacılığından takı tasarımına evde başlayabileceğin 8 el sanatı hobisini ve her biri için ihtiyacın olan malzemeleri keşfet."
 date: "2026-10-27"

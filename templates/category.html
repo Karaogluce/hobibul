@@ -5,7 +5,7 @@
 {% block jsonld %}<script type="application/ld+json">{{ jsonld|safe }}</script>{% endblock %}
 {% block hero %}
 <header class="cat-head" {{ acc(cat.id) }}>
-  {% if hero_img %}<img class="cat-bg" src="{{ hero_img }}" alt="" width="1200" height="400">{% endif %}
+  {% if hero_img %}<img class="cat-bg" src="{{ hero_img }}" alt="{{ page.heading }} için kapak görseli" width="1200" height="400" decoding="async">{% endif %}
   <div class="wrap">
     <nav class="breadcrumb" aria-label="breadcrumb">
       <a href="/">Ana Sayfa</a> <span>›</span>
@@ -37,7 +37,7 @@
   <div class="art-grid">
     {% for a in cat_articles %}
     <a class="art" href="/makale/{{ a.slug }}/" {{ acc(a.category) }}>
-      <div class="art-media">{% if a.image %}<img src="{{ a.image }}" alt="{{ a.image_alt }}" loading="lazy" width="640" height="400">{% endif %}<span class="tag">{{ a.category_name }}</span></div>
+      <div class="art-media">{% if a.image %}<img src="{{ a.image }}" alt="{{ a.image_alt }}" loading="lazy" decoding="async" width="640" height="400">{% endif %}<span class="tag">{{ a.category_name }}</span></div>
       <h3>{{ a.title }}</h3>
       {% if a.excerpt %}<p>{{ a.excerpt }}</p>{% endif %}
     </a>

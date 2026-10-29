@@ -1,7 +1,7 @@
 {% extends "base.html" %}
 {% from "_macros.html" import acc, shop_cta_block %}
 {% block title %}Tüm Rehberler | {{ site.site_name }}{% endblock %}
-{% block description %}Hobi kategorilerine göre ekipman rehberleri, alım kılavuzları ve karşılaştırmalar.{% endblock %}
+{% block description %}Outdoor’dan mutfağa, müzikten teknolojiye yayımlanan ekipman rehberlerinin listesi. Yeni başlayan için karşılaştırma ve alım notları burada.{% endblock %}
 {% block content %}
 <nav class="breadcrumb" aria-label="breadcrumb"><a href="/">Ana Sayfa</a> <span>›</span> <span class="current">Rehberler</span></nav>
 <h1 class="page-title">Tüm rehberler</h1>
@@ -15,7 +15,7 @@
   <div class="art-grid">
     {% for a in items %}
     <a class="art" href="/makale/{{ a.slug }}/">
-      <div class="art-media">{% if a.image %}<img src="{{ a.image }}" alt="{{ a.image_alt }}" loading="lazy" width="640" height="400">{% endif %}</div>
+      <div class="art-media">{% if a.image %}<img src="{{ a.image }}" alt="{{ a.image_alt }}" loading="lazy" decoding="async" width="640" height="400">{% endif %}</div>
       <h3>{{ a.title }}</h3>
       <p>{{ a.excerpt }}</p>
     </a>

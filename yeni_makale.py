@@ -30,6 +30,8 @@ import urllib.error
 import urllib.request
 from datetime import date
 
+from seo import fit_description, fit_title
+
 class GeminiError(Exception):
     pass
 
@@ -342,7 +344,11 @@ def main():
 
     excerpt = first_paragraph(body)
     year = date.today().year
-    meta_title = f"{a.baslik} | Hobi Bul"
+    meta_title = fit_title(f"{a.baslik} | Hobi Bul")
+    meta_description = fit_description(
+        excerpt.replace('"', "'"),
+        extra=f"{a.baslik} rehberi, yeni başlayan için ürün notlarıyla",
+    )
     fm = "\n".join([
         "---",
         f'title: "{a.baslik}"',
@@ -350,8 +356,8 @@ def main():
         f'category: "{a.kategori}"',
         f'date: "{date.today().isoformat()}"',
         f'updated: "{date.today().isoformat()}"',
-        f'meta_title: "{meta_title[:70]}"',
-        f'meta_description: "{excerpt[:155].replace(chr(34), chr(39))}"',
+        f'meta_title: "{meta_title.replace(chr(34), chr(39))}"',
+        f'meta_description: "{meta_description.replace(chr(34), chr(39))}"',
         f'excerpt: "{excerpt.replace(chr(34), chr(39))}"',
         "---", ""])
     os.makedirs(ARTICLES, exist_ok=True)

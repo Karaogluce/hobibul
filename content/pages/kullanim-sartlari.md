@@ -4,7 +4,7 @@ path: "/kullanim-sartlari/"
 nav: "Kullanım Şartları"
 order: 70
 meta_title: "Kullanım Şartları | Hobi Bul"
-meta_description: "hobibul.com.tr kullanım şartları: rehberlerin niteliği, ortaklık bağlantıları, içerik ve sorumluluk sınırı."
+meta_description: "hobibul.com.tr kullanım şartları: rehberlerin niteliği, ortaklık bağlantıları ve sorumluluk sınırı. Siteyi kullanmak bu metni okuduğun anlamına gelir."
 updated: "2026-10-29"
 ---
 

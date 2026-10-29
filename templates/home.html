@@ -7,10 +7,6 @@
   <div class="wrap">
     <h1>Hobini bul, ekipmanını seç.</h1>
     <p class="sub">{{ all_categories|length }} hobi kategorisinde, yeni başlayanlar için sade ve karşılaştırmalı ekipman rehberleri.</p>
-    <div class="search">
-      <input type="search" id="cat-search" placeholder="Hobi veya ürün ara…" aria-label="Hobi veya ürün ara" autocomplete="off">
-      <button type="button" aria-label="Ara">Ara</button>
-    </div>
     <nav class="chips" aria-label="Hızlı kategoriler">
       {% for c in all_categories %}<a class="chip" href="/kategori/{{ c.slug }}/" {{ acc(c.id) }}><i></i>{{ c.name.split(' & ')[0] }}</a>{% endfor %}
     </nav>
@@ -18,13 +14,36 @@
 </section>
 {% endblock %}
 {% block content %}
+<section class="sec home-direct">
+  <div class="home-picks">
+    <div>
+      <div class="sec-head"><h2>Son rehberler</h2><a href="/rehberler/">Tüm rehberler</a></div>
+      <ul class="link-list">
+        {% for a in latest_articles %}
+        <li><a href="/makale/{{ a.slug }}/">{{ a.title }}</a><span>{{ a.category_name }}{% if a.date_label %} · {{ a.date_label }}{% endif %}</span></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% if featured_articles %}
+    <div>
+      <div class="sec-head"><h2>Öne çıkan rehberler</h2></div>
+      <ul class="link-list">
+        {% for a in featured_articles %}
+        <li><a href="/makale/{{ a.slug }}/">{{ a.title }}</a><span>{{ a.category_name }}</span></li>
+        {% endfor %}
+      </ul>
+    </div>
+    {% endif %}
+  </div>
+</section>
+
 <section class="sec">
   <div class="sec-head"><h2>Tüm hobi kategorileri</h2></div>
   <div class="cat-grid" id="cat-grid">
     {% for c in all_categories %}
     <div class="cat-card" {{ acc(c.id) }} data-search="{{ (c.name ~ ' ' ~ c.description ~ ' ' ~ c.subcategories|map(attribute='name')|join(' '))|lower }}">
       <a class="cat-card-main" href="/kategori/{{ c.slug }}/">
-        <div class="cat-media">{% if c.card_image %}<img src="{{ c.card_image }}" alt="" loading="lazy" width="600" height="338">{% endif %}</div>
+        <div class="cat-media">{% if c.card_image %}<img src="{{ c.card_image }}" alt="{{ c.name }} kategorisinden bir görsel" loading="lazy" decoding="async" width="600" height="338">{% endif %}</div>
         <div class="cat-body"><h3>{{ c.name }}</h3><p>{{ c.description }}</p></div>
         <span class="cat-meta">{{ c.subcategories|length }} alt kategori</span>
       </a>
@@ -36,12 +55,12 @@
 </section>
 
 <section class="sec">
-  <div class="sec-head"><h2>Öne çıkan rehberler</h2><a href="/rehberler/">Tüm rehberler</a></div>
+  <div class="sec-head"><h2>Görselli rehberler</h2><a href="/rehberler/">Tüm rehberler</a></div>
   <div class="art-grid">
     {% for a in (articles|sort(attribute='date', reverse=True))[:6] %}
     <a class="art" href="/makale/{{ a.slug }}/" {{ acc(a.category) }}>
       <div class="art-media">
-        {% if a.image %}<img src="{{ a.image }}" alt="{{ a.image_alt }}" loading="lazy" width="640" height="400">{% endif %}
+        {% if a.image %}<img src="{{ a.image }}" alt="{{ a.image_alt }}" loading="lazy" decoding="async" width="640" height="400">{% endif %}
         <span class="tag">{{ a.category_name }}</span>
       </div>
       <h3>{{ a.title }}</h3>
@@ -50,24 +69,4 @@
     {% endfor %}
   </div>
 </section>
-{% endblock %}
-{% block scripts %}
-<script>
-(function () {
-  var input = document.getElementById('cat-search');
-  var cards = document.querySelectorAll('#cat-grid .cat-card');
-  var none = document.getElementById('no-result');
-  if (!input) return;
-  input.addEventListener('input', function () {
-    var q = input.value.trim().toLocaleLowerCase('tr');
-    var shown = 0;
-    cards.forEach(function (c) {
-      var ok = !q || c.getAttribute('data-search').indexOf(q) !== -1;
-      c.classList.toggle('hide', !ok);
-      if (ok) shown++;
-    });
-    none.classList.toggle('hide', shown !== 0);
-  });
-})();
-</script>
 {% endblock %}
