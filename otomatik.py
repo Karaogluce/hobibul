@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Hobi Bul — günlük otomatik makale hattı.
 
-  python otomatik.py                  # bugünün kalanını üret (hedef 8, Europe/Istanbul)
+  python otomatik.py                  # bugünün kalanını üret (hedef 3, Europe/Istanbul)
   python otomatik.py --adet 2         # en fazla 2; günlük kalan daha azsa o kadar
   python otomatik.py --adet 2 --yayinla
   python otomatik.py --konu-listesi   # sıradaki konuları göster (API çağırmaz)
@@ -10,7 +10,7 @@ Akış: konu seç → Google Autocomplete'ten gerçek Türkçe sorguları çek �
 (yalnızca products.json verisiyle) → kalite kapıları → Unsplash'tan görsel → .md yaz.
 Kapıdan geçemeyen makale YAYINLANMAZ, content/uretim_log.json'a işlenir.
 
-Günlük hedef: İstanbul takvim gününde 8 makale. Sayı logdaki tarih kayıtlarından gelir.
+Günlük hedef: İstanbul takvim gününde 3 makale. Sayı logdaki tarih kayıtlarından gelir.
 Hedef doluysa Gemini çağrılmaz. 503/UNAVAILABLE, zaman aşımı, bağlantı hatası ve 429
 kotasında biten makaleler diskte kalır, çıkış kodu 0 olur; sonraki çalışma kalanı dener.
 
@@ -36,8 +36,8 @@ if hasattr(sys.stdout, "reconfigure"):
 CONTENT, ARTICLES = ym.CONTENT, ym.ARTICLES
 LOG_PATH = os.path.join(CONTENT, "uretim_log.json")
 POOL_PATH = os.path.join(CONTENT, "konu_havuzu.json")
-GUNLUK_HEDEF = 8
-TAMAM_MESAJI = "Bugünün 8 makalesi tamam"
+GUNLUK_HEDEF = 3
+TAMAM_MESAJI = "Bugünün 3 makalesi tamam"
 UA = {"User-Agent": "Mozilla/5.0 (HobiBul-bot)"}
 
 
