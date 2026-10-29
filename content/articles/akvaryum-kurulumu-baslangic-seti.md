@@ -14,155 +14,106 @@ starter_text: "Başlangıç tankı Aqueon 10 galon. Filtre ve ısıtıcı ayrı 
 draft: "false"
 ---
 
-İlk akvaryum küçük bir cam tank olsun. Aqueon 10 galon, yeni başlayan için yazılmış bir ölçü. Filtre ve ışık kutuda yok, ısıtıcı da yok. Balığı aynı gün suya bırakmak setin en sık bozulan adımı, çünkü su önce oturur ve balık sonra girer.
+Yeni bir akvaryum kurmaya niyetlendiysen, Aqueon 10 galonluk model başlangıç için çokça karşına çıkacak bir ölçü. Ancak şunu baştan bilmelisin; bu ürün sadece boş bir cam tank. Yani kutuyu açtığında içinden filtre, ışık ya da ısıtıcı çıkmayacak. En büyük hata, tankı alıp aynı gün içine balığı bırakmaktır. Önce o suyun bir oturması, ekosistemin kendine gelmesi gerekiyor.
 
-On galon büyük bir vatoz veya sürü için küçük kalır, ürün notu da bunu söylüyor. İlk canlı bu hacme sığan bir tür olsun. Tür adı ve litre hesabını burada uydurmayacağım, pet shop'taki yetişkin boya bak. "Yavru küçük" diye alınan balık büyüyünce aynı tankta boğulur.
+On galonluk bir hacim, büyük vatozlar ya da kalabalık sürü balıkları için aslında dar bir alan. Balık seçerken pet shop’taki o küçücük hallerine değil, yetişkinlikte ulaşacakları boya bakman lazım. "Yavruyken idare eder" diye aldığın balık, kısa süre sonra o tankta nefes alamaz hale gelir. Kurulum için gereken diğer parçalara [akvaryum ekipmanları](/kategori/evcil-hayvan/akvaryum/) sayfasından bakabilirsin. Kedi besliyorsan, [kedi bakım seti](/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/) bu tankın bir parçası değil; ikisi de [evcil hayvan](/kategori/evcil-hayvan/) kategorisinde ama ihtiyaçları bambaşka.
 
-Kurulumun parçaları [akvaryum ekipmanları](/kategori/evcil-hayvan/akvaryum/) sayfasında. Filtre olarak Fluval 307 güçlü. On galon için fazla gelebilir, bunu saklamadan yazacağım. Kedi evi bu tankın işi değil. [Kedi bakım seti](/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/) ayrı duruyor ve ikisi [evcil hayvan](/kategori/evcil-hayvan/) kategorisinde.
+## Aqueon 10 Galon: Cam Tankı Kurarken Nelere Dikkat Etmeli?
 
-## Tank: Aqueon 10 Galon
+Aqueon’un bu modeli standart, dayanıklı camdan yapılmış bir tank. Fiyatı başlangıç için uygun olsa da ışık ve filtreyi ayrıca alman gerektiğini tekrar hatırlatayım. Tankı koyacağın yer çok önemli; sehpanın veya dolabın üzerine tam oturduğundan emin olmalısın. Eğer bir köşesi havada kalırsa, suyun ağırlığıyla camın çatlaması an meselesidir. Altına ince bir mat koymak her zaman daha güvenli olur. Bir de sakın tankı içi su doluyken taşımaya kalkma; on galon su beklediğinden çok daha ağırdır.
 
-Aqueon standart cam tank, 10 galon. Dayanıklı cam ve uygun fiyat notu var, aydınlatma ile filtre ayrı ve büyük balık için de küçük.
-
-Camı dolaba veya sehpaya tam oturt, köşe havada kalırsa cam çatlar. Altına ince bir mat ya da üreticinin dediği taban korumasını koy. Tankı dolu halde taşıma, on galon su evde sandığından ağırdır, o yüzden boş kur ve yerinde doldur.
-
-Kime uymaz? Büyük balık veya kalabalık sürü isteyen kişiye uymaz. "Her şey kutuda olsun" diyen kişiye de uymaz, çünkü ışık ve filtre ayrıca alınır. Hazır komple set arıyorsan bu kayıt o set değil.
+**Kime uymaz?** Büyük balık beslemek isteyenleri veya "her şey kutudan çıksın, ben uğraşmayayım" diyenleri hayal kırıklığına uğratır. Eğer hazır bir set arıyorsan bu doğru ürün değil.
 
 **Artıları:**
-- Ölçü, ilk kurulumu oda köşesine sığdırır.
-- Cam gövde, plastik kovadan daha net durur.
-- Fiyat, büyük tankın altında bir başlangıç bırakır.
+- Ölçüleri sayesinde odanın her köşesine kolayca sığar.
+- Cam gövdesi plastik tanklara göre çok daha net bir görüntü sunar.
+- Bütçeyi sarsmadan bir temel oluşturmanı sağlar.
 
 **Eksileri:**
-- Filtre ve ışık yok.
-- Büyük balık bu hacimde yaşamaz.
+- İçinden filtre ve ışık çıkmaz.
+- Hacmi nedeniyle büyük türler için yetersizdir.
 
 [Satın Al: Aqueon 10 Galon Tank](aff://aqueon-akvaryum-tanki)
 
-## Filtre: Fluval 307 Fazla mı?
+## Fluval 307 Dış Filtre Bu Tanka Fazla mı Gelir?
 
-Fluval 307 çok kademeli ve sessiz bir dış filtre. Bakımı kolay diye not var. Başlangıç maliyeti yüksek, kurulum tecrübe ister ve orta boy tanklar için yazılmış.
+Fluval 307 aslında çok kaliteli, sessiz ve bakımı kolay bir dış filtre; fakat on galonluk bir tank için biraz "kaslı" kalabilir. Eğer tecrüben yoksa kurulumu seni biraz uğraştırabilir. En büyük risk, filtrenin yarattığı akıntının küçük balıkları tankın camına yapıştırmasıdır. Yine de dış filtre her zaman iç filtreden daha temiz bir su sağlar çünkü su çok daha fazla katmandan geçer. 
 
-On galon orta boy değil, 307 bu hacim için güçlü kaçar. Akıntı küçük balığı tankın camına yaslar. Yine de dış filtrenin mantığı doğru, su tankın içindeki süngerden daha çok katmandan geçer. Tecrübe notunu ciddiye al, hortum ilk kurulumda hava kilitlenir ve kullanım kâğıdını atlama.
+**Kime uymaz?** İlk günden "tak çalıştır" rahatlığı arayanlara gelmez, kurulumu teknik bilgi ister. Eğer sadece bir tane sakin beta balığı besleyeceksen, bu filtrenin yaratacağı fırtına balığı yorar.
 
-Kime uymaz? İlk gün "tak ve unut" isteyen kişiye uymaz, kurulum tecrübe ister. On galonluk sakin bir betta veya çok küçük bir tür için akıntı fazla gelebilir. O durumda daha küçük bir iç filtre düşünülür. Bu sayfadaki kayıt 307 ve onu küçük tanka zorla bağlamak balığı yorar.
-
-Daha büyük ikinci tank planın varsa 307 yerinde kalır. İlk tank küçük, ikinci tank orta boy olacaksa filtreyi büyüğe göre almak da bir yol. İlk ay akıntıyı çıkış başlığıyla cama çarptır, doğrudan balığın üstüne vurma.
+Eğer ileride daha büyük bir tanka geçme planın varsa, 307'yi şimdiden almak mantıklı olabilir. Akıntıyı kontrol etmek için su çıkışını doğrudan balıkların üzerine değil, tankın camına doğru verebilirsin. Böylece suyun hızı biraz kırılır.
 
 **Artıları:**
-- Çok kademe, tek süngerden daha geniş bir süzme bırakır.
-- Sessiz motor, salon tankında uğultuyu azaltır.
-- Bakım notu, kartuşu sökmeyi korkulacak bir iş olmaktan çıkarır.
+- Suyu çok aşamalı süzdüğü için berraklık sağlar.
+- Motoru oldukça sessizdir, salonda uğultu yapmaz.
+- Kartuş değişimi ve temizliği pratiktir.
 
 **Eksileri:**
-- Fiyatı iç filtreden yüksektir.
-- Kurulum ilk kez yapanı uğraştırır.
-- On galon için akıntı fazla olabilir.
+- Fiyatı iç filtrelere göre yüksektir.
+- On galonluk tankta çok güçlü bir akıntı yaratabilir.
 
 [Satın Al: Fluval 307 Dış Filtre](aff://fluval-307-dis-filtre)
 
-## Isı: Eheim Jager
+## Isı Dengesi: Eheim Jager Kullanımı
 
-Eheim Jager su altı ısıtıcı. Hassas sıcaklık, darbeye dayanıklı cam ve uzun ömür notları var. Boy tank hacmine göre seçilir, cam ise kırılgandır.
+Tropik balık besleyeceksen suyun sıcaklığını sabit tutman şart. Eheim Jager bu konuda güvenilir bir cam ısıtıcı. Ancak cam olduğu için hassas davranmalısın. En kritik kural şu: Isıtıcıyı suyun dışındayken asla prize takma. Kuru cam anında çatlar. Önce tankı doldur, ısıtıcıyı yerleştir, sonra fişini tak.
 
-Tropik balık oda soğuyunca üşür, ısıtıcı bu yüzden sette. Oda zaten sıcaksa ve tür soğuk su istiyorsa ısıtıcıyı zorla çalıştırma. Türün istediği aralığı pet notundan oku, derece uydurmayacağım.
-
-Cam ısıtıcı suyun dışındayken prize takılmaz, kuru cam çatlar ve su dolduktan sonra açılır. Dekor taşını ısıtıcının üstüne düşürme. Darbeye dayanıklı notu var, yine de cam çekiç değil.
-
-Kime uymaz? Yanlış watt seçen kişiye uymaz. Küçük tanka dev bir ısıtıcı suyu hızla aşırır, büyük tanka küçük ısıtıcı da kışın yetişmez, hacme göre boy seç. On galon için büyük bir 307 mantığı burada da geçer, ısıtıcıyı tanka göre al.
+**Kime uymaz?** Akvaryum hacmine göre yanlış watt seçenlere uymaz. On galon için çok güçlü bir ısıtıcı suyu bir anda hamama çevirir, küçük olan ise kışın suyu ısıtmaya yetişemez.
 
 **Artıları:**
-- Sıcaklık kontrolü hassas diye geçiyor.
-- Cam, günlük darbeye daha dayanıklı bir not taşıyor.
-- Uzun ömür, her sezon yenisini almayı erteletir.
+- Sıcaklığı ayarlama konusunda oldukça hassastır.
+- Darbelere dayanıklı özel bir camdan yapılmıştır.
+- Kaliteli olduğu için seni her sezon yeni cihaz alma derdinden kurtarır.
 
 **Eksileri:**
-- Boy yanlışsa ya yetişmez ya suyu aşırır.
-- Cam yine de kırılır, kuru çalıştırma.
+- Yanlış boy seçilirse su dengesini bozar.
+- Kuru çalıştırılırsa camı çatlar.
 
 [Satın Al: Eheim Jager Isıtıcı](aff://eheim-jager-akvaryum-isiticisi)
 
-## Hava ve Işık
+## Hava ve Işık Meselesini Nasıl Çözmeli?
 
-Tetra Whisper hava pompası sessiz, uygun fiyatlı ve kurulumu kolay. Sadece motor geliyor, taş ve hortum ayrı ve büyük tankta güç yetmeyebilir. On galonda filtre zaten suyu çeviriyorsa hava şart olmayabilir, yüzeye yakın nefes alan türlerde ve yedek oksijende ise işe yarar. Hortumu kıs, uzun ve ince hortum akışı düşürür.
+Tetra Whisper, özellikle sessizlik arayanlar için uygun fiyatlı bir hava pompası. Ama kutudan sadece motor çıkıyor; hortumu ve hava taşını ayrıca alman lazım. Eğer dış filtren su yüzeyini yeterince hareketlendiriyorsa buna çok ihtiyacın olmayabilir, ama yedek oksijen her zaman iyidir.
 
-Kime uymaz? Her şeyi tek kutuda arayan kişiye uymaz, taş ayrıca. Dış filtrenin yüzey hareketi yeten bir kurulumda ikinci bir uğultu istemeyen kişi de atlayabilir.
-
-Fluval Plant Spectrum LED, bitkili tank için tam spektrum ve ayarlı parlaklık sunar. Enerji notu verimli, fiyat yüksek ve tam kontrol için ayrı modül gerekebilir.
-
-Bitki yoksa bu lamba fazla kalır ve balığı görmek için daha sade bir LED yeter. Bitki istiyorsan spektrum fark eder. Aqueon'un kendi ışığı yok, bir ışık yine şart. Bitkisiz başlangıçta Plant Spectrum bütçeyi şişirir, bitki planın netse aynı anda al.
-
-Kime uymaz? Sadece balık ve plastik süs isteyen kişiye pahalı gelir. Modül eksikse uygulamanın bir kısmı kapanır, ürün notu bunu söylüyor.
+Fluval Plant Spectrum LED ise bitki yetiştirmeyi kafaya koyduysan harika bir ışık. Spektrumu bitkiler için ayarlanmış ve parlaklığı kontrol edilebiliyor. Ancak içinde bitki olmayan, sadece balık ve dekor olan bir tank için bu ışık gereksiz bir masraf olur. Bitki planın yoksa daha basit bir LED işini görür.
 
 **Artıları:**
-- Whisper sessiz ve küçük tankta kurulumu kısa.
-- Plant LED, bitki düşünüyorsan spektrumu hazır getirir.
-- İkisi de tankın su dolu kutu olarak kalmasını engeller.
+- Tetra Whisper küçük hacimli tanklarda çok sessiz çalışır.
+- Fluval Plant LED, bitkilerin sağlıklı büyümesi için gereken ışığı verir.
 
 **Eksileri:**
-- Hava taşları sette yok, büyük tankta pompa güçsüz kalır.
-- Bitki LED'i pahalı, modül ayrı olabilir.
+- Hava pompasının aksesuarları (taş, hortum) ayrı satılır.
+- Bitki lambası pahalıdır ve tam verim için ek modül isteyebilir.
 
 [Satın Al: Tetra Whisper Hava Pompası](aff://tetra-whisper-hava-pompasi)
-
 [Satın Al: Fluval Plant Spectrum LED](aff://fluval-plant-led-aydinlatma)
 
-## Su Oturmadan Balık Yok
+## İlk Haftayı Kazasız Atlatmak İçin Tavsiyeler
 
-Tankı yerine koy ve zemin malzemesini yıka, tozlu kum suyu süt gibi yapar. Filtreyi çalıştır, ısıtıcıyı su dolunca aç ve ışığı bir rutine bağla. Bütün gün açık lamba yosunu besler.
+Tankı kurarken sabırlı olmalısın. Zemin malzemesini (kum veya çakıl) koymadan önce mutlaka yıka; yoksa suyun günlerce çamur gibi kalır. Akvaryumu pencerenin tam önüne koyma, güneş ışığı yosunlanmayı acayip hızlandırır. Işığı bir rutine bağla ve tüm gün açık bırakma.
 
-Balığı ilk saat ekleme, filtredeki bakteri balığın atığını henüz çeviremez ve bu süre tanka göre değişir. Gün sayısını ezberletmeyeceğim, test kiti yoksa "birkaç gün geçti" diye balık boşaltma. Suyu test et, sonra az sayıda canlı ekle ve hepsini aynı gün alma.
+Balık eklemek için acele etme. Su dolduktan ve filtre çalışmaya başladıktan sonra bakterilerin oluşması için zamana ihtiyaç var. Test kitin yoksa "üç gün geçti, hadi balıkları atalım" demek risklidir. Önce suyu hazırla, sonra balıkları azar azar ekle. Temizlik yaparken de suyun tamamını asla boşaltma. Sadece dipteki kiri çekip bir kısmını tazelemen yeterli. Filtre süngerini de musluk suyunun altında değil, akvaryumdan aldığın suyla yıka ki içindeki yararlı bakteriler ölmesin.
 
-Su değişimini hortumla, dipteki kiri çekerek yap. Komple boşaltıp musluk suyuyla doldurmak, oturan suyu da bakteriyi de çöpe atar. Musluk suyunu doğrudan, dinlendirmeden ve türün kaldıracağı şekilde hazırlamadan basma. Koşulları yerel suya göre oku, burada bir kimya tarifi yok.
+### Sıkça Sorulan Sorular
 
-Filtrenin süngerini musluk altında koparana kadar yıkama. Akan su işine yarayan tarafı da götürür, tanktan çektiğin suyla çalkala.
+**Akvaryumu doluyken taşıyabilir miyim?**
+Hayır, 10 galonluk tank su doluyken çok ağırdır ve taşıma esnasında esneyip çatlayabilir. Mutlaka yerinde doldurmalısın.
 
-## Yer, Işık ve İlk Canlı
+**Dış filtre şart mı?**
+On galon için şart değil ama su kalitesini artırır. Fluval 307 gibi güçlü bir model kullanacaksan akıntıyı camdan sektirerek azaltman gerekir.
 
-Tankı pencerenin tam önüne koyma. Güneş yosunu senden hızlı besler, ışık senin açtığın LED olsun. Bitki yoksa Plant Spectrum'u ilk gün alma, balığı görmek için daha sade bir lamba yeter. Bitki planın netse spektrumu o zaman ekle. Aqueon kutuda ışık yok, karanlık bir kutu da olmaz.
+**Isıtıcı her zaman açık mı kalmalı?**
+Isıtıcılar termostatlıdır; su ayarladığın dereceye gelince kendisi durur, soğuyunca tekrar çalışır. Yani fişte kalmasında sakınca yok.
 
-Dolap veya sehpa tabanın tamamını taşısın, köşe havada kalırsa cam çatlar ve tankı doluyken taşıma. On galon boşken kurulur ve yerinde dolar, altına da üreticinin dediği taban payı konur. Halının üstünde ince bir sehpa su dolunca iner.
+**Işık bitkiler için neden önemli?**
+Sıradan lambalar balığı görmeni sağlar ama bitkiyi beslemez. Eğer canlı bitki bakacaksan Fluval Plant gibi spektrumu geniş ürünler kullanman şart.
 
-İlk canlı az olsun ve türün yetişkin boyu bu hacme sığsın. "Yavru küçük" diye alınan balık büyür. Fluval 307'nin akıntısı küçük gövdeyi cama yaslıyorsa çıkışı cama çarptır. Hâlâ sürükleniyorsa bu filtre bu tank için erkendir, orta boy ikinci tank düşünüyorsan 307 o güne kalsın.
+## Hangi Kurulum Sana Uygun?
 
-Isıtıcıyı su dolmadan prize takma. Eheim'ın camı kuru çalışınca çatlar, boyu da hacme göre olsun. Devasa bir ısıtıcı küçük suyu çabuk aşırtır. Balık, test olmadan "birkaç gün geçti" diye eklenmez, süre tanka göre değişir ve gün uydurmuyorum.
-
-## Sık Sorulan Sorular
-
-### İlk tank kaç galon olsun?
-
-Aqueon kaydı 10 galonu yeni başlayan ölçüsü diye yazıyor. Büyük balık için küçük, türü buna göre seç.
-
-### Fluval 307 küçük tanka uyar mı?
-
-Güçlüdür, kurulumu tecrübe ister ve on galonda akıntı fazla gelebilir. Orta boy ikinci tank düşünüyorsan yerinde kalır, çıkışı cama çarptır.
-
-### Isıtıcı şart mı?
-
-Tropik türde evet, soğuk su türünde zorla ısıtma. Eheim Jager'ın boyunu hacme göre al ve kuru prize takma.
-
-### Işık hangi gün lazım?
-
-Bitki yoksa balığı görmek için sade bir ışık yeter. Bitki varsa Fluval Plant Spectrum daha doğru, Aqueon kutuda ışık yok.
-
-## İlk Haftanın Sırası
-
-Gün bir: tank boş, sehpa düz, köşe havada değil. Gün iki: zemin yıkanmış, su dolu, filtre çalışıyor. Isıtıcı ancak su dolunca prize girer, çünkü Eheim kuru camda çatlar. Gün üç: ışık bir rutine bağlanır. Pencere tam karşıdaysa güneş yosunu senden hızlı besler, LED senin açtığın saat kadar yansın.
-
-Balık bu üç günde markette kalır. Süre uydurmuyorum ve test yoksa "birkaç gün geçti" diye poşet boşaltma. İlk canlı az olsun ve yetişkin boy bu on galona sığsın. Yavru diye alınan balık büyür, Aqueon notu da büyük balık için küçük diyor.
-
-Fluval 307 akıntısı küçük gövdeyi cama yaslıyorsa çıkışı cama kır. Hâlâ sürükleniyorsa filtre erkendir. Orta boy ikinci tank varsa 307 o güne daha uygun, on galonda sakin bir tür için iç filtre daha az yorar ve bu sayfadaki güçlü kayıt her ilk tankın zorla parçası değil.
-
-Bitki yoksa Plant Spectrum'u ertele, balığı görmek için sade bir ışık yeter ve bitki netse spektrum aynı hafta girer. Hava pompası yüzey hareketi yetmiyorsa eklenir, taş ve hortum sette yok, onları unutma.
-
-Filtrenin süngerini ilk hafta musluk altında ovma, tanktan aldığın suyla çalkala, çünkü akan şebeke suyu yeni oturan tarafı da götürür. Balık hâlâ marketteyse bu yıkama daha da erken, sabret.
-
-## Bütçe, Orta ve Üst Paket
-
-| Paket | İçinde ne var | Kime uyar |
+| Paket Seviyesi | Neler Var? | Kimler İçin? |
 | --- | --- | --- |
-| Bütçe | [Aqueon 10 galon](aff://aqueon-akvaryum-tanki) ve [Tetra Whisper](aff://tetra-whisper-hava-pompasi) | Tankı kurup filtreyi ayrıca çözecek kişi |
-| Orta | Tank, [Eheim Jager](aff://eheim-jager-akvaryum-isiticisi) ve küçük hacme uygun bir filtre planı | Tropik balığı ısıtarak bekletecek ilk kurulum |
-| Üst | Tank, [Fluval 307](aff://fluval-307-dis-filtre), ısıtıcı ve [Plant LED](aff://fluval-plant-led-aydinlatma) | Akıntıyı yönetebilen, bitki de isteyen kişi |
+| **Ekonomik** | [Aqueon 10 galon](aff://aqueon-akvaryum-tanki) + [Tetra Whisper](aff://tetra-whisper-hava-pompasi) | Temel bir başlangıç yapıp geri kalanı yavaşça çözecekler. |
+| **Dengeli** | Tank + [Eheim Jager](aff://eheim-jager-akvaryum-isiticisi) + İç Filtre | Tropik balıklar için ideal ısıyı garantilemek isteyenler. |
+| **İleri Seviye** | Tank + [Fluval 307](aff://fluval-307-dis-filtre) + [Plant LED](aff://fluval-plant-led-aydinlatma) | Hem bitki bakan hem de en temiz suyu hedefleyen tecrübeliler. |
 
-İlk gün Aqueon tankını yerine koy, suyu çalıştır ve balığı markette bırak. Isıtıcı ile filtre oturmadan canlı ekleme.
+Özetle; Aqueon tankını sağlam bir yere yerleştir, ekipmanlarını kur ve suyun oturması için balıkları bir süre daha akvaryumcuda bırak. Acele etmezsen çok daha sağlıklı bir hobin olur.

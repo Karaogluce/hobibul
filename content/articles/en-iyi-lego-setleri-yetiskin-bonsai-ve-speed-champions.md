@@ -14,176 +14,103 @@ starter_text: "Yetişkin için ilk vitrin seti LEGO Botanicals Bonsai 10281. Ye�
 draft: "false"
 ---
 
-İlk yetişkin LEGO setini rafa koyacağın modele göre al. Kutuyu bitirip çöpe ayıracaksan parça sayısı seni yormasın, sergi duracaksa saksı, stand ve toz düşün.
+İlk yetişkin LEGO setini seçerken asıl karar vermen gereken şey, bitirdiğinde o modeli rafa koyup sergilemek mi istediğin yoksa sadece yapım sürecinin tadını çıkarıp kutuyu kaldırmak mı olduğu. Eğer amacın şık bir dekor oluşturmaksa saksılı ve standlı modellere yönelmelisin; sadece bir akşam vakit geçirmek istiyorsan parça sayısı daha az olan seçenekler seni daha az yorar. Gerçek bir ağaca bakma fikri sana daha yakınsa [bonsai başlangıç seti](/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/) yazısına göz atabilirsin, çünkü buradaki modeller su veya budama istemeyen cinsten.
 
-Canlı ağaç bakmak başka bir hobi ve onu [bonsai başlangıç seti](/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/) ayrı anlatıyor. Buradaki bonsai, su istemeyen bir model.
+## Bir Akşamlık Eğlence mi, İki Gecelik Mesai mi?
 
-## Bir Akşam mı, Bir Hafta mı?
+Eğer masanın başında saatlerce kalmak istemiyorsan Kiraz Çiçekleri 40725 tam sana göre. 430 parçadan oluşuyor ve dalların boyu 35 cm civarında. 8 yaş ve üzeri herkesin rahatça yapabileceği, pastel pembe ve beyaz tomurcukların karıştığı bu set aslında bir akşamlık iş. Büyük bir bonsai gövdesi bekleme, bunlar daha çok vazo içine konulacak dalları andırıyor.
 
-Kiraz çiçekleri 40725, sayfada 430 parça ve dal başına 35 cm diyor. 8 yaş ve üzeri, iki dal, pastel pembe ve beyaz; tomurcuk renkleri de karışıyor. Bu bir akşamlık iş, büyük bonsai gövdesi değil.
+Gerçek bir sergi parçası arıyorsan 10281 Bonsai Ağacı daha mantıklı bir adım. İçinden kendine has dikdörtgen saksısı ve ahşap görünümlü standı da çıkıyor. En güzel yanı ise mevsimi senin belirlemen; istersen yeşil yaprakları takarsın, istersen pembe kiraz çiçeklerini. Yapımı bir akşamda bitmeyebilir, masayı bir-iki gece açık bırakman gerekebilir ama sonuçta elinde derli toplu bir model kalıyor.
 
-10281 bonsai yetişkin seti. Dikdörtgen saksı ve ahşap efektli stand var, yapraklar yeşil ya da pembe kiraz olarak değişiyor. Parça adedi bu maddelerde yok, yoksa ezberleme. Akşam yetmezse masa iki gece açık kalır, bunu kusur sanma.
+Birden fazla ağaçla uğraşmayı seviyorsan 10373 kodlu mini bonsai setine bakabilirsin. İçinde mabet ağacı, karaçam ve mor salkım olmak üzere üç farklı ağaç var. İki ayrı standı olduğu için rafına farklı şekillerde dizebilirsin. Tek bir büyük gövde yerine küçük bir bahçe kurmak isteyenler için birebir. Ama unutma, parçalar küçük olduğu için bittiğinde rafın biraz kalabalık görünebilir.
 
-Mini bonsai 10373 üç ağaç birden: mabet ağacı sarı, karaçam koyu yeşil, mor salkım ayrı. Yapraklar gövdeler arasında değişiyor ve iki stand var. Üç küçük model, bir büyük gövdeden farklı bir akşamdır. Bitince raf kalabalıklaşır, tek parça isteyen 10281'de kalsın.
+Kategoriye genel bir bakış atmak istersen [LEGO ve model](/kategori/koleksiyon/lego-model/) sayfasına da uğrayabilirsin.
 
-Hız setleri başka bir ruh taşır. Supra 77260 10 yaş ve üzeri, zaman makinesi 77256 ise 9 yaş ve üzeri. Çocukla birlikte kuracaksan yaş satırını oku; yetişkin tek başına da kurar. Yaş satırı yasak değildir, küçük parça uyarısıdır.
+## Bonsai 10281: İki Farklı Görünüm Tek Kutu
 
-Kategori [LEGO ve model](/kategori/koleksiyon/lego-model/). Parça kutusunu katalogdaki saklama ürünüyle karıştırma. O kutu bu turda ayrı bir `/dp/` ile doğrulanmadı.
+LEGO Botanicals serisindeki 10281 kodlu Bonsai, doğrudan yetişkinlerin dekorasyon zevkine göre tasarlanmış. Saksısı ve o geleneksel standı kutuya dahil. Kutunun içinden hem klasik yeşil yapraklar hem de minik pembe kiraz çiçekleri çıkıyor. Yalnız küçük bir detay var; bu iki seti aynı anda ağaca takamıyorsun. Birini seçip ağacı süslüyorsun, diğerini ise başka bir zaman değiştirmek üzere çekmecende saklıyorsun.
 
-## Bonsai 10281: İki Yaprak, Bir Saksı
-
-LEGO Botanicals Bonsai Ağacı 10281 yetişkinlere özel. Saksı parçalardan, stand ahşap efektli bir ızgara. Klasik yeşil yaprak ile pembe kiraz çiçeği aynı kutuda. İkisini birden ağaca takamazsın: biri sergilenir, biri çekmecede durur.
-
-Sayfa, minik kurbağalara dönüşen bir kiraz deseni de söylüyor. Bu bir süs, canlı kurbağa bakımı değil. Canlı ağaçta tel, toprak ve makas vardır, burada yok, olmasını bekleme.
-
-Toz yaprakların arasına girer. Standı camlı dolaba koyacaksan ölçü sayfada tek bir mobilya cümlesi değil, önce yer aç sonra kutuyu aç.
-
-Sulayıp budayacağı bir ağaç isteyen kişiye uymaz; o kişi canlı bonsai yazısına gitsin. Tek akşamda bitecek 430 parça isteyen de 40725'e baksın.
+Bu setin kiraz çiçeklerinde minik kurbağa detayları var ama bunlar sadece görsel bir espri; canlı bir canlı beslemeyeceğini zaten biliyorsun. Bu modelin en büyük düşmanı toz. Eğer camlı bir dolabın yoksa yaprak aralarını temizlemekle uğraşabilirsin, o yüzden yerini önceden belirleyip kutuyu öyle açman en iyisi. Gerçekten budayıp sulayacağı bir ağaç arayanlar için bu set uygun değil, onlar canlı bitkilere yönelmeli.
 
 **Artıları:**
-- İki yaprak seti değişiyor.
-- Saksı ve stand kutuda.
-- Canlı bakım yok.
+- İçinden iki farklı yaprak seçeneği çıkıyor.
+- Saksı ve stand kutuya dahil olduğu için ekstra bir şey gerekmiyor.
+- Hiçbir bakım maliyeti veya zahmeti yok.
 
 **Eksileri:**
-- Parça adedi bu maddelerde yok.
-- Yedek yaprak çekmecede bekler.
+- O an kullanmadığın yaprak setini kaybetmemen için iyi saklaman lazım.
+- Tozlanmaya müsait bir yapısı var.
 
 [Satın Al: LEGO Bonsai 10281](aff://lego-bonsai-10281)
 
-## Mini Bonsai 10373 ve Sukulent 10309
+## Mini Bonsai 10373 ve Sukulent 10309: Paylaşarak Yapmak
 
-10373 üç minyatür ağaç. Yaprak takası, mor salkımın gövdesine mabet yaprağı koymana izin veriyor. İki süslü stand dizilimi değiştiriyor. Eşine tek bir heykel değil, üçlü bir grup verirsin.
+10373 seti aslında üç minyatür ağaçtan oluşuyor. İstersen mor salkımın gövdesine mabet ağacının yapraklarını takıp kendi tasarımını da yapabilirsin. Tek bir büyük parça yerine üç farklı noktaya dağıtabileceğin bir set arıyorsan bunu tercih etmelisin.
 
-Tek büyük bonsai isteyen kişiye uymaz, 10281 o iş için duruyor. Canlı üçlü de değil, su dökme.
-
-Sukulentler 10309 dokuz bitki. Birlikte, küçük gruplar halinde veya tek tek duruyorlar. Üç ayrı yapım kitapçığı var, arkadaşla bölüşmek bu yüzden mümkün. Herkes bir kitapçığı alır, bitince saksıları bir tepside toplarsın.
-
-Gerçek sukulentten esinlendiği yazıyor. Gerçek sukulent değildir; güneş ve su yok, ofiste solmaz. Bu, canlı bitki isteyen için eksidir, toz alan için artıdır.
-
-Tek bir büyük vitrin parçası isteyen kişiye uymaz. Dokuz küçük parça rafta dağılır. Dağılsın isteyen kişi için tam da o set.
+Sukulentler 10309 ise bambaşka bir mantığa sahip. İçinde dokuz farklı küçük bitki var ve bunları istersen birleştirip bir tepsi gibi sergileyebilirsin, istersen tek tek dağıtabilirsin. En güzel tarafı, içinden üç ayrı yapım kitapçığı çıkması. Bu sayede arkadaşlarınla veya eşinle masaya oturup herkesin birkaç saksıyı aynı anda yapması mümkün oluyor. Ofiste güneş görmeyen bir masan varsa, bu plastik sukulentler asla solmayacağı için oldukça kullanışlı.
 
 **Artıları:**
-- 10373 üç ağaç ve iki stand.
-- 10309 dokuz bitki, üç kitapçık.
-- İkisi de sergilenir.
+- 10373 ile üç farklı ağaç çeşidine sahip oluyorsun.
+- 10309'un üç kitapçığı sayesinde grupça eğlenceye dönüşüyor.
+- Her iki set de rafında çok şık duruyor.
 
 **Eksileri:**
-- Canlı değiller.
-- 10309 rafta çoğalır.
+- Dokuz küçük saksı rafta çok çabuk dağılıp kalabalık yapabilir.
+- Canlı bitki dokusu arayanları tatmin etmeyebilir.
 
 [Satın Al: LEGO Mini Bonsai 10373](aff://lego-mini-bonsai-10373)
-
 [Satın Al: LEGO Sukulentler 10309](aff://lego-sukulent-10309)
 
-## Supra 77260: Film Arabası, Yürüyen Araba Değil
+## Hız ve Nostalji: Supra ve Zaman Makinesi
 
-Speed Champions Toyota Supra MK4 77260, 10 yaş ve üzeri. Brian minifigürü tişört ve kotla geliyor, yan tarafta Nuclear Gladiator grafiği ve arka kanat var. Dört jant krom görünümlü; bitince raf, masa veya komodin.
+Eğer bitkilerle aran çok iyi değilse ama film ikonlarına bayılıyorsan, Speed Champions serisindeki Toyota Supra MK4 (77260) ilgini çekebilir. 10 yaş ve üzeri için tasarlansa da biz yetişkinler için de harika bir masa üstü objesi. Yanındaki Brian minifigürü ve aracın grafik detayları tam bir koleksiyon parçası. Ancak dikkat et, bu araba koridorda yarıştırılacak bir uzaktan kumandalı araç değil; daha çok duruşuyla kendini sevdiren bir sergi modeli.
 
-Minifigürü kokpite oturtursun, ama sürdüğün bir uzaktan kumanda araba değildir. Tekerlek yerde hız için değil, duruş içindir. Bunu çocukla konuş: film sahnesi kurmak başka, koridorda yarışmak başka.
-
-10 yaş altı için alınan hediyede küçük parça riski vardır, sayfa yaşını yazmış. Uzaktan kumandalı araç isteyen de bu kutuyu değil, başka bir aracı alsın.
+Bir diğer efsane ise 77256 kodlu Geleceğe Dönüş zaman makinesi. Kutudan hem Doc Brown hem de Marty McFly minifigürleri çıkıyor. Bu setin olayı şu: İstersen ilk filmdeki yıldırım kancalı halini kurarsın, istersen ikinci filmdeki uçan tekerlekli ve Bay Fusion'lı halini. İki farklı tasarım demek, aslında kutunun içinde iki farklı eğlence var demek. Ama parçaları iyi organize etmelisin; bir düzeni bozup diğerine geçerken parça kaybedersen zaman yolculuğun yarım kalabilir.
 
 **Artıları:**
-- Brian minifigürü var.
-- Kanat ve grafik duruyor.
-- Sergi için yazılmış.
+- 77260'ta filmden tanıdığımız Brian figürü var.
+- Zaman makinesi 77256 iki farklı modda kurulabiliyor.
+- Detayları (zaman sayacı, akı kapasitörü vb.) oldukça sadık.
 
 **Eksileri:**
-- Yaş satırı 10+.
-- Yürüyen oyuncak değil.
+- Uzaktan kumanda özellikleri yok, sadece statik modeller.
+- Parçalar küçük olduğu için yaş sınırına dikkat edilmeli.
 
 [Satın Al: LEGO Supra 77260](aff://lego-supra-77260)
-
-## Zaman Makinesi 77256 ve Kiraz 40725
-
-77256, Geleceğe Dönüş zaman makinesi, 9 yaş ve üzeri. Doc Brown ve Marty McFly var. İlk film düzeninde yıldırım kancası duruyor. İkinci film için yan tekerlekler ve Bay Fusion ile uçan hale geliyor. Hava girişi, kokpit, akı kapasitörü ve zaman sayacı maddede.
-
-İki düzen, bir kutuda iki akşam demek. Birini kurup diğerinin parçasını kaybedersen dönüş yarım kalır. Parça poşetini düzen bitene kadar atma.
-
-Tek poz ve tek vitrin isteyen kişiye uymaz. İki düzen, çekmecede ikinci bir yığın demektir. 9 yaş altı için de yaş satırı duruyor.
-
-40725 daha sakin: 430 parça, dal 35 cm, iki dal ve buket değil. Tomurcukları karıştırırsın, 8 yaş ve üzeri. Bonsai gövdesi arayan burada eksik kalır, kısa ve renkli bir akşam arayan burada kalır.
-
-10281'in saksısını isteyen kişiye uymaz. 35 cm dal masa ortasına uzanır, dar rafı ölçmeden alma.
-
-**Artıları:**
-- 77256 iki film düzeni taşır.
-- İki minifigür var.
-- 40725 bir akşama yakın, 430 parça.
-
-**Eksileri:**
-- İkinci düzenin parçası kaybolur.
-- Kiraz dalı bonsai değildir.
-
 [Satın Al: LEGO Zaman Makinesi 77256](aff://lego-zaman-makinesi-77256)
-
 [Satın Al: LEGO Kiraz Çiçekleri 40725](aff://lego-kiraz-40725)
 
-## Masa, Poşet ve Toz
+## Kurulum ve Uzun Ömürlü Kullanım İçin İpuçları
 
-Kutuyu halının üstünde açma, çünkü küçük parça halıya girer. Düz bir tepsi bir akşamlık sigortadır; 10309'un üç kitapçığı varsa tepsiyi de üçe böl, karışan poşet yanlış kitapçık demektir.
+Kutuyu halının üzerinde açma hatasına düşme; o minik parçalar halının tüyleri arasında kaybolursa bulması imkansız olur. Geniş bir tepsi veya düz bir masa her zaman hayat kurtarır. Özellikle 10309 Sukulentler gibi çok kitapçıklı setlerde, poşetleri kitapçıklara göre ayırmak işini çok kolaylaştırır. 
 
-10281'de yeşil ve pembe yaprak aynı akşam takılmaz, birini bitirip diğerini poşette bırak. Poşeti saksının dibine koyarsan kaybolur, ayrı bir kutu daha dürüsttür.
+Tozlanma konusuna gelirsek, sert fırçalar kullanmaktan kaçınmalısın çünkü pimli bağlantıları yerinden oynatabilirsin. Yumuşak bir makyaj fırçası veya toz alma püskülü yeterli olacaktır. Modelleri asla suyla yıkama, çünkü bu setlerin hiçbirinde suya dayanıklılık gibi bir durum söz konusu değil.
 
-77256'nın uçan düzeni için yer bırak, çünkü yan tekerlek raf derinliğini değiştirir. Komodin darsa ilk film düzeninde kal ve ikisini birden zorla takmaya çalışma. Sayfa dönüş diyor, ikisini üst üste değil.
-
-40725'in dalı 35 cm. İki dal yan yana 70 cm etmez, çünkü açıyı sen verirsin. Vazoyu andıran bir kap şart değil, görünür bir kanca da değil. Devirince parça kırılmaz, dağılır; dağılan parçayı aynı akşam topla.
-
-Toz için fırça, canlı bonsai makası değildir. Sert uç pimli bağlantıyı söker, o yüzden yumuşak fırça yeter; yıkama, çünkü su bu setlerin hiçbir maddesinde bakım adımı değil.
-
-Hediye alacaksan yaş satırını kutunun üstüne yaz: 40725 için 8, 77256 için 9, 77260 için 10. Yetişkin setlerinde 10281 ve 10373 yaş maddesi "yetişkin" diye geçiyor. Çocuğa sürpriz diye onları alma, parça küçük ve akşam uzun.
-
-Film setini botanik setle aynı rafta sıkıştırma: biri araç pozu, biri saksı. İkisi de LEGO olsa da aynı vitrin dilini konuşmaz. Yer varsa yan yana durur, yoksa önce botanik bitsin ve araç ikinci kutu kalsın.
-
-Eksik parça çıkarsa kutuyu çöpe atma, numara kitapçıkta durur. Numara yoksa poşet sırasını karıştırmışsındır. 10309'da üç kitapçık var ve yanlış kitapçık eksik parça sanılır; diğer ikisine bak, sonra şikayet et.
-
-İkinci el kutu alırsan yaprak seti eksik olabilir. 10281'in anlamı iki yaprak setidir. Pembe yoksa çekmeceye bak; çekmece de boşsa tam set değildir. Yeni kutu bu turdaki link, ikinci elin poşetini doğrulamadım.
-
-Speed Champions parçalarını botanik poşetine boşaltma. Jant ile yaprak aynı renkte olabilir, akşam ayıramazsın. İki tepsi aç, karışınca ikisi de yarım kalır.
-
-Raf 35 cm dala yetmeyebilir, o yüzden 40725'i yatay koy; 10281 saksısı ise dik durur. Ahşap efekt ahşap mobilya değildir, ıslak bezle ovma.
-
-Üç seti birden sipariş etme, önce bir kutu bitsin. 40725 bir akşama yakınsa onunla başla, sonra 10281'e geç. Araç isteyen kişi sırayı ters çevirir; Supra veya 77256 önce gelir.
-
-Canlı sukulent ile 10309 aynı rafta durabilir, ama sularken plastiğe su dökme. Canlısı da fazla suyu sevmez. Ayrım, ikisinin yan yana durabileceğini gösterir, karıştırman gerektiğini göstermez.
-
-Toz birikince sert fırça kullanma, pim çıkar. Yumuşak fırça ve kuru bez yeter, yıkama yok. 10281'in yedek yapraklarını tozlu çekmecede unutma; pembe set kaybolursa kutu yarım kalır. Yarım kutu ikinci el ilanına benzer ve yeni link tam kutu içindir.
-
-77260 minifigürünün kolu gevşerse yapıştırıcı sürme, çünkü yapıştırıcı sonraki pozu bitirir. Gevşek kol sergi için yeter. Çocuk her gün çıkarıp takıyorsa yaş satırını yeniden oku; 10 yaş, yapıştırıcı yaşı değildir.
-
-40725 dallarını tavana asma. 35 cm masa ölçüsüdür ve tavan kancası bu maddede yok. Düşen dal dağılır, dağılan tomurcuk halıda kaybolur, yatay raf daha az risk taşır.
-
-Kutu kapağını atma, parça numarası kapakta da durabilir ve kapaksız ikinci el eksik yaprak riskini büyütür. 10281'de pembe set kapak çiziminde görünüyorsa çizimi sakla. Görünmüyorsa poşet say; poşet eksikse linkteki yeni kutu daha dürüst bir başlangıçtır.
+Eğer bu setlerden birini hediye alacaksan, kutu üzerindeki yaş ibarelerine mutlaka bak. 8, 9 veya 10 yaş sınırları sadece zorluk değil, aynı zamanda güvenlik uyarısıdır. Yetişkinler için olan setleri (10281 veya 10373 gibi) çok küçük çocuklara sürpriz diye alma; parçalar çok küçük olduğu için hem tehlikeli olabilir hem de sabırları yetmeyebilir.
 
 ## Sık Sorulan Sorular
 
-### Canlı bonsai ile 10281 aynı şey mi?
+**10281 Bonsai ağacına su verilir mi?**
+Hayır, bu tamamen plastik parçalardan oluşan bir modeldir. Suyla temas etmesi parçaların yapısına zarar verebilir, sadece kuru bezle tozunu almalısın.
 
-Değil. 10281 yaprak değiştirir ve su istemez; canlı ağaç makas, tel ve toprak ister. O liste ayrı yazıda.
+**Hangi set daha çabuk biter?**
+Elimizdeki verilere göre 430 parçalık 40725 Kiraz Çiçekleri en hızlı biten ve en sade set. Bir akşamlık keyif için ideal.
 
-### En kısa set hangisi?
+**Arabalar gerçekten gidiyor mu?**
+Tekerlekleri döner ancak bunlar motorlu veya uzaktan kumandalı araçlar değil. Rafında sergilemen veya elinle hareket ettirmen için tasarlanmışlar.
 
-Parça sayısı yazan doğrulanmış set 40725: 430 parça, dal 35 cm. Diğerlerinin parça adedi bu maddelerde yok.
+**Yedek parçaları nasıl saklamalıyım?**
+Bonsai setindeki yedek yaprakları kendi kutusunda veya kilitli bir poşette saklaman en iyisi. Saksının dibine koyarsan temizlik yaparken kaybolabilirler.
 
-### Supra uzaktan kumandalı mı?
+## İhtiyacına Göre Seçim Tablosu
 
-Değil. Minifigür, kanat ve sergi var, koridorda yarışmaz.
+Aşağıdaki tabloya bakarak hangi setin sana daha uygun olduğuna karar verebilirsin.
 
-### Üç ağaç mı, tek ağaç mı?
-
-Tek büyük gövde 10281, üç küçük ağaç 10373, dokuz sukulent 10309. Rafın genişliğine göre seç.
-
-## Bütçe, Orta ve Üst Paket
-
-Fiyat yazmıyorum, kutu fiyatı değişir.
-
-| Paket | İçinde ne var | Kime uyar |
+| Set İsmi | Öne Çıkan Özellik | Kimin İçin? |
 | --- | --- | --- |
-| Bütçe | [Kiraz 40725](aff://lego-kiraz-40725) | 430 parça, bir akşam, 8 yaş ve üzeri |
-| Orta | [Bonsai 10281](aff://lego-bonsai-10281) | Tek vitrin, iki yaprak seti isteyen yetişkin |
-| Üst | [10373](aff://lego-mini-bonsai-10373) ve [77256](aff://lego-zaman-makinesi-77256) | Hem üç ağaç hem iki film düzeni isteyen kişi |
+| [Kiraz 40725](aff://lego-kiraz-40725) | 430 parça, 35 cm dal | Hızlı ve bütçe dostu bir başlangıç isteyenlere. |
+| [Bonsai 10281](aff://lego-bonsai-10281) | İki farklı yaprak seti, stand | Evinde şık bir dekorasyon parçası isteyen yetişkinlere. |
+| [Sukulentler 10309](aff://lego-sukulent-10309) | 9 bitki, 3 ayrı kitapçık | Arkadaşıyla veya ailesiyle ortak etkinlik yapmak isteyenlere. |
+| [Zaman Makinesi 77256](aff://lego-zaman-makinesi-77256) | İki farklı film modu | Sinema ve ikonik araç meraklılarına. |
 
-İlk kutun 10281 olsun, canlı ağaç sanmadan. Kısa akşam istiyorsan 40725, araç pozu istiyorsan Supra veya zaman makinesi. İkisini aynı poşete boşaltma.
-
-Yaş satırını hediye notuna yaz, çünkü 8, 9 ve 10 aynı kutu değildir. Yetişkin setini çocuk sürprizi yapma.
+Eğer ilk kez başlayacaksan 10281 klasik bir tercihtir. Ama "vaktim kısıtlı, hemen bitsin" dersen 40725 dallarına bakabilirsin. Arabalara ilgin varsa zaten Supra veya Zaman Makinesi seni bekliyor. Şimdiden keyifli kurulumlar!

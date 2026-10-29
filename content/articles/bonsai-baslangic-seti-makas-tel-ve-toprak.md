@@ -14,166 +14,104 @@ starter_text: "İlk canlı bonsai çantası TianBonsai 10 parça set. Paslanmaz 
 draft: "false"
 ---
 
-Canlı bonsai alacaksan önce makas ve süzülen toprak olsun. Ağacı alet çantasından önce de alabilirsin, çanta yoksa dalı mutfak makasıyla kesersin ve o kesik gövdeyi ezer.
+## Canlı Bir Bonsaiye Başlarken Neler Lazım?
 
-LEGO bonsai başka kutu, su yok, tel yok. Onu [yetişkin LEGO setleri](/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/) anlatıyor. Burada yaprak değişmez, yaprak dökülür.
+Canlı bir bonsai bakmaya niyetlendiysen, ağaçtan bile önce iyi süzülen bir toprağa ve temiz kesen bir makasa ihtiyacın var. Hevesle aldığın fidanı mutfak makasıyla budamaya kalkarsan dalları ezer, bitkiye gereksiz yere zarar verirsin. Niyetin bakım derdi olmadan rafa yeşil bir dekor koymaksa, o zaman seni doğrudan [yetişkin LEGO setleri](/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/) tarafına alalım; çünkü canlı bir ağaç düzenli sulama, doğru toprak ve sabır ister. Daha fazla detay ve farklı türler için [bonsai](/kategori/bahce-bitki/bonsai/) kategorisine de uğrayabilirsin.
 
-## Alet Sayfaları Bu Turda Arama
+Aşağıdaki listede yer alan ürünlerin doğrudan ürün sayfaları yerine pazar yeri arama sonuçları açılabilir; bu yüzden bağlantıya tıkladığında başlığı, parça sayısını ve satıcıyı kontrol etmeyi ihmal etme.
 
-Bu listedeki beş ürün katalogda duruyor. Amazon.com.tr `/dp/` sayfalarını bu turda doğrulayamadım, linkler arama açar. Açılınca başlık, marka ve parça adedini sen oku, başka bir set gelirse geri dön.
+## TianBonsai 10 Parça Set: Her İşe Yetecek Bir Başlangıç mı?
 
-TianBonsai 10 parça set, budama ve şekil için paslanmaz çelik diyor. Taşıma çantası var, profesyonel sete göre basit ve bıçaklar bileme ister. On parça, on ayrı uzmanlık değildir ve ince makas ile kalın dal testeresi aynı elde ilk gün gerekmez.
+Aletleri tek tek aramak yerine her şey elimin altında dursun diyorsan TianBonsai 10 parça set derli toplu bir seçenek. İçinde budama makasından şekillendirme araçlarına kadar temel parçalar ve hepsini bir arada tutan bir taşıma çantası bulunuyor. Malzeme paslanmaz çelik olarak belirtilmiş ancak bu durum aletlerin sonsuza kadar neme dayanacağı anlamına gelmiyor; kullandıktan sonra ıslak bırakmamak ve zamanı gelince ağızlarını bilemek gerekiyor.
 
-Alüminyum tel, Mudder kaydında yumuşak ve çeşitli kalınlık diyor. Ağaca zarar vermez denmiş, kalın dal için yetersiz ve renk seçeneği sınırlı. Tel dalı bir gecede heykel yapmaz, kalınlık yetmiyorsa ikinci tur tel sar ve zorla sıkma.
-
-Bonsai Jack toprak drenaj ve hazır karışım diyor, kök çürümesini önler denmiş. Besin yok, gübre ayrıca ve fiyatı yüksek. Besinsiz toprak "eksik ürün" değildir, kayıt bunu söylüyor, gübreyi aynı gün düşün.
-
-BonsaiOutlet makası ince uç ve keskin çelik diyor. Küçük dala uygun, kalın dala değil ve pas için bakım ister. Kalın dalı bu uçla zorlarsan ağız bükülür.
-
-Biogold yavaş salınımlı organik gübre diyor. Japon kaydı, uzun süre etkili, fiyatı yüksek ve koku olabilir. Toprak besinsiz olduğu için gübre boş bir süs değildir. Koku notunu kapalı odada unutma.
-
-Kategori [bonsai](/kategori/bahce-bitki/bonsai/).
-
-## On Parça Set: Çanta Var, Usta Yok
-
-On parça bir başlangıç çantası. Basit kayıt bunu saklamıyor ve bileme ister, bilemeden kullanılan ağız dalı kesmez, ezer ve ezik uç bir hafta kuru bir sap olarak kalır.
-
-Çanta parçaları bir arada tutar ama çantayı ıslak balkonda bırakma. Pas notu makas kaydında da var. Çelik paslanmaz denmiş ama paslanmaz, bakımsız sonsuz demek değildir. Makas kaydı bakım ister diyor, set de bileme ister diyor, ikisini birlikte oku.
-
-Kime uymaz? Kalın gövdeyi tek ağızla kesecek kişiye uymaz, kayıt profesyonel sete göre basit diyor ve o iş için ayrı bir testere ararsın. Onu bu linkin içine yazmam, arama başka ürüne düşer.
+Kime uymaz? Kalın gövdeleri tek hamlede kesecek profesyonel ve ağır iş aletleri arayanlara uymaz. Açıklamalarda da profesyonel setlere kıyasla daha temel kaldığı ve bıçaklarının zamanla bileme isteyeceği açıkça belirtilmiş.
 
 **Artıları:**
-- On parça aynı çantada duruyor.
-- Kayıt paslanmaz çelik diyor.
-- Taşıma çantası parçaları bir arada tutuyor.
+- On farklı parçayı tek bir çantada topluyor.
+- Paslanmaz çelik malzeme kullanılmış.
+- Çantası sayesinde parçalar kaybolmadan saklanabiliyor.
 
 **Eksileri:**
-- Basit bir set, bileme şart.
-- `/dp/` doğrulanmadı.
+- Profesyonel bir set değil, bıçaklar bileme isteyebilir.
+- Kalın gövde kesimleri için uygun değil.
 
 [Satın Al: TianBonsai 10 Parça Set](aff://bonsai-alet-seti-10-parca)
 
-## Tel: Kalın Dalı Zorlama
+## Mudder Alüminyum Bonsai Teli: Dallara Şekil Verme
 
-Tel ince dalı yönlendirir. Kayıt yumuşak diyor, çeşitli kalınlık var ve kalın dal için yetersiz. Yetersiz teli iki kat sarıp "tutar" deme, kabuk izi fazla sıkının izidir. Kayıt zarar vermez diyor, o cümle zorlanan kalın dal için yazılmamış.
+Ağacına o karakteristik eğimleri verirken sıradan teller kullanamazsın; sert metaller kabuğu soyup ağacı sakatlar. Mudder alüminyum tel, yumuşak yapısıyla dallara zarar vermeden bükülmeye imkan tanıyor ve pakette farklı kalınlık seçenekleri sunuluyor. İnce ve orta sürgünleri kırmadan yönlendirmek için gayet yeterli bir ürün.
 
-Renk sınırlı olduğu için görünmez tel arıyorsan bu kayıt yetmeyebilir. Görünsün ve işi görsün, estetik ikinci aya kalsın.
-
-Kime uymaz? Kalın gövde bükecek kişiye uymaz, tel orada yetersiz. Makas da kalın dala değil, ikisi birden o işi çözmez.
+Kime uymaz? Ağacın ana gövdesini veya çok sert, kalınlaşmış dallarını bükmek isteyenlere uymaz. İnce teli kat kat sararak kalın dalı zorlamak yerine doğrudan kalın tellere yönelmek gerekir. Ayrıca renk seçeneği sınırlı olduğu için ağaç üzerinde neredeyse hiç fark edilmeyen bir tel arıyorsan seni tatmin etmeyebilir.
 
 **Artıları:**
-- Yumuşak, bükülür.
-- Birden fazla kalınlık var.
-- İnce dal için yazılmış.
+- Yumuşak yapısı sayesinde ağaç kabuğuna zarar vermeden bükülür.
+- Farklı kalınlık alternatifleri içerir.
+- İnce ve taze sürgünleri yönlendirmek için pratiktir.
 
 **Eksileri:**
-- Kalın dala yetmez.
-- Renk az ve sayfa doğrulanmadı.
+- Kalın ve sert dalları tutmakta yetersiz kalır.
+- Renk seçeneği sınırlıdır.
 
 [Satın Al: Bonsai Alüminyum Teli](aff://bonsai-aluminyum-teli)
 
-## Toprak, Makas ve Gübre
+## Bonsai Jack Toprak, Hassas Makas ve Biogold Gübre
 
-Bonsai Jack süzülür, kök çürümesi notu bu yüzden var ve besin yoktur. Saksı tabağında su bekletme, süzülen karışım tabakta göl olursa kayıt boşa çıkar. Ne kadar günde bir su, sayfa yazmıyor. Yazmıyorsa takvim uydurma, toprak yüzeyi kuruyunca bak ve çok ıslaksa bekle.
+Bonsaide en büyük risk köklerin havasız kalıp çürümesidir. Bonsai Jack hazır toprak karışımı, suyu hızla tahliye eden süzek yapısıyla tam olarak kök çürümesini engellemek için hazırlanmış. Yalnız bu toprağın içinde hiçbir besin maddesi yok; yani ağacı bu karışıma dikip gübre vermezsen fidan besinsiz kalır. Fiyatının da standart saksı topraklarına kıyasla yüksek olduğunu belirtmek gerek.
 
-Kime uymaz? İçinde gübre olan tek torba isteyen kişiye uymaz, besin yok ve Biogold ayrı.
-
-İnce makas küçük dal içindir, kalın dalda ağız zorlanır. Pas için kurulayarak kaldır, ıslak ağız bakım notunu hızlandırır.
-
-Kime uymaz? Tek aletle hem kök hem kalın gövde isteyen kişiye uymaz. On parça set daha geniş, yine de basit.
-
-Biogold yavaş salınır, her sulamada kaşık gübre bekleme. Kayıt uzun süre diyor, süre gün olarak yok. Yoksa hafta sayısı yazmam. Koku olabilir, kapalı rafın içine açık paket koyma.
-
-Kime uymaz? Kokusuz ve ucuz bir sıvı gübre arayan kişiye uymaz, fiyat yüksek ve koku notu açık.
-
-**Artıları:**
-- Toprak süzülür.
-- Makas ince dala uygun.
-- Gübre yavaş salınımlı.
-
-**Eksileri:**
-- Toprak besinsiz.
-- Makas kalın dala değil.
-- Gübre pahalı ve kokabilir.
+Kime uymaz? "Tek bir paket alayım, içinde gübresi de hazır olsun" diyenlere uymaz; besin takviyesini ayrıca yapman şart.
 
 [Satın Al: Bonsai Jack Toprak](aff://bonsai-jack-toprak-karisimi)
 
+İnce işler için BonsaiOutlet budama makası, keskin çelik ucuyla küçük dalları ezmeden temiz kesikler atmanı sağlar. Taze sürgünleri ve yaprak saplarını ayıklarken ana gövdeye zarar vermezsin. Çeliğin keskin kalması ve pas lekesi yapmaması için her budamadan sonra ağzını kuru bir bezle temizleyip kaldırman önemli.
+
+Kime uymaz? Tek bir aletle hem kök budamak hem de kalın ana dalları kesmek isteyenlere uymaz; ince ucu kalın dallara zorlarsan ağzı eğilebilir.
+
+Biogold ise Japon menşeili, yavaş salınımlı organik bir gübre. Bonsai Jack gibi besinsiz bir toprak kullanıyorsan böyle uzun süre dengeli besin veren bir takviye işini fazlasıyla kolaylaştırır. Bitkiyi yakmadan, sulandıkça azar azar besler. Fiyatı standart gübrelerin üzerindedir ve organik içeriği sebebiyle kapalı alanlarda hafif bir koku yayabilir.
+
+Kime uymaz? Kokusuz, ucuz veya anında etki gösteren kimyasal sıvı gübre arayanlara uymaz.
+
+**Artıları:**
+- Jack toprak suyu hızla süzer, kök çürümesini önler.
+- Makas küçük sürgünleri ezmeden hassas şekilde keser.
+- Biogold uzun süre boyunca dengeli ve yavaş besin sağlar.
+
+**Eksileri:**
+- Toprakta hazır besin yoktur, fiyatı yüksektir.
+- Makas kalın dallar için uygun değildir.
+- Gübre pahalıdır ve hafif koku yapabilir.
+
 [Satın Al: Biogold Gübre](aff://biogold-bonsai-gubresi)
 
-## İlk Ay Ağacı Değil, Suyu İzle
+## İlk Haftalarda Ağacı Nasıl Yönetmeli?
 
-Ağacı aldığın gün teli dolama, önce bir hafta aynı yerde dursun. Yer değişimi ile tel aynı güne denk gelirse yaprağın neden döküldüğünü ayıramazsın. Dökülme olursa suyu, yeri ve teli tek tek ele.
+Eve yeni bir bonsai getirdiğinde hemen aynı gün makasa ve tele sarılma. Ağaç ortam değişikliğine tepki verip yaprak dökebilir; aynı anda teli sarıp dalları kesersen dökülmenin yer değişiminden mi yoksa senin müdahalenden mi kaynaklandığını anlayamazsın. İlk hafta sadece aydınlık, hava akımı olmayan bir yer bulup toprağın kuruma hızını takip et.
 
-Toprak Jack ise tabakta su bırakma. Başka bir torba kullandıysan bu cümle ona ait değildir ve başka torbanın drenajını bu kayıttan üretme.
+Bonsai Jack kullanıyorsan saksı tabağında biriken suyu mutlaka dök; toprak suyu ne kadar iyi süzerse süzsün, tabakta su birikirse kökler yine çürür. Gübreleme yaparken de paketin tamamını toprağa boca etme; Biogold yavaş çözünür ama gereğinden fazla kullanırsan yaprak uçlarında yanmalar görebilirsin.
 
-İnce makasla yalnızca kuru uç ve bariz taşan küçük dal, kalın kesim yok. Set basit diyor, ilk ay o sınırı zorlama, zorlarsan ağız bükülür ve dal ezilir.
-
-Gübreyi ilk gün boca etme, toprak zaten besinsiz diye tüm paketi dökme. Yavaş salınım az ve seyrek demeye yakındır, gün sayısı da yok, paketin kendi tarifini oku. Tarif yoksa az koy ve yaprağı izle. Yaprak ucu yanıyorsa fazla gitmişsindir, bunu bir laboratuvar sonucu sanma, gözlemdir.
-
-Tel rengi görünüyorsa sorun değil, kabuğu kestiyse sıkı turu gevşet. Kalın dal yetersiz notundaysa teli çıkar, zorlama.
-
-Kışın içeri alınan ağaç ile balkondaki ağaç aynı suyu istemez. Sayfa mevsim takvimi vermiyor, odayı çok sıcak tutup her gün suyu aynı tutma ve toprak yüzeyine bak.
-
-LEGO 10281'i bu saksının yanına koyabilirsin ama sulama kabını plastik yaprağa değdirme. Canlı yaprak ile takılan yaprak aynı yeşil değildir, karışırsa ikisini de bozarsın.
-
-Saksı deliği yoksa Jack toprak da çürümeyi tek başına çözmez, kayıt drenaj diyor ve deliksiz kap drenajı keser. Delik açmak bu listenin aleti değil, deliksiz kabı başlangıç sanma.
-
-## Saksı, Işık ve İkinci Ay
-
-Ağacı camın dibine yapıştırma, yaprak camda yanarsa suyu artırmak çare değildir ve bir karış içeri al. Bunu bir lüks ölçüsü sanma, göz yanık ucu sudan ayırır. Yanık uçta gübreyi de kes, Biogold yavaş diye her gün eklenmez.
-
-Rüzgarlı balkon ince dalı tel varken büker, tel ise rüzgarın yerine geçmez. Kayıt teli yön için yazmış, fırtına için yazmamış. Fırtınada içeri al ve içeri alınca suyu azalt, çünkü oda balkon kadar kurutmaz. Takvim yok, toprak yüzeyi yeter.
-
-Kök delikten çıkıyorsa saksı küçük kalmış olabilir. Jack toprağı yenilemek aynı gün teli sarmaktan daha acil, ikisini birden yapma. Kök işi bitsin, bir hafta bekle, sonra ince dala tel geç, kalın dala yine tel yok.
-
-On parça çantayı ıslak elle kapatma, bıçak bileme ister ve ıslak ağız bilemeden önce paslanır. Makas kaydı da bakım diyor, ikisini aynı kutuda kuru tut. Çantayı toprak torbasının üstüne koyma, torba toz döker.
-
-Gübre kokusu kapalı çekmecede birikir, paketi mutfak kavanozunun yanına koyma. Koku notu bu yüzden yazılı. Kokuyu bozuk sanıp dökmeyebilirsin, açık havada bir kez kokla ve sonra kapağı kapat.
-
-İkinci ay hâlâ alçak bir karton kapta ise Jack'in drenajı eksik kalır. Delik açmadan toprak değiştirmek aynı gölü yeni torbayla kurar. Delik bu listenin satın alınan parçası değil, saksı seçimi senin. Deliksiz saksıyı "Japon kabı" diye kutsama.
-
-Yaprak parlıyorsa gübreyi artırma, parlaklık fazla besinin reklamı değildir. Soluk yaprakta da hemen tüm paketi dökme, az koy ve kısa bir aralık bak. Hafta sayısı kayıtta yok, yaprak daha hızlı bozulursa süreyi kısalt.
-
-LEGO saksısını canlı saksının içine koyma, plastik yaprak Jack toprakta çamur olur. İki hobi aynı rafta durur, aynı delikte durmaz.
-
-Komşu bitkinin toprağını bonsaiye doldurma, ev bitkisi torbası Jack kaydı değildir. Süzülme vaadi o torbada yoksa çürüme notu da yok demektir, karıştırma.
-
-Yeni ağacı aynı gün budama, yer değişimi yeter, makas ikinci hafta ve tel üçüncü gelir. Sıra bozulursa yaprak neden gitti bilinmez. İnce uç kuru dalı alır, yeşil ve sağlıklı dal ilk ay dursun ve kalın kesim yok. Set basit diyor, basit set acele ustalık istemez.
-
-Gübre paketini toprak torbasının içine boşaltma, ikisi ayrı iş ve boşaltırsan yavaş salınım bir anda hızlı olur. Yaprak ucu kararırsa suyu artırıp gübreyi kes, artırmak ise tabağı göl yapmak değildir. Jack süzülür, göl ise süzülmeyi iptal eder.
+Aletlerinin ömrünü uzatmak için işin bittiğinde makasları nemli bırakma, çantayı da balkonda veya nemli bir dolapta saklama. Çelik aletleri kuru tutarsan uzun süre bileme derdi olmadan kullanabilirsin.
 
 ## Sık Sorulan Sorular
 
-### LEGO bonsai bu sete dahil mi?
+### LEGO bonsai ile bu aletler kullanılır mı?
+LEGO modeli plastik parçalardan oluşur; su, tel ya da budama istemez. Canlı bir ağaç ise süzülen toprak, sulama disiplini ve budama makası gerektirir.
 
-Hayır, o model su istemez, canlı ağaç ise makas, tel ve toprak ister. İki hobi yan yana durabilir, aynı kutu değildir.
+### TianBonsai 10 parça set tek başına yeterli mi?
+Temel dalları budama, uç alma ve genel form verme işlerinde başlangıç için yeterlidir. Kalın ana gövdeleri keseceksen ilerleyen dönemde daha büyük dal makaslarına veya özel testerelere ihtiyaç duyarsın.
 
-### On parça yetmez mi?
+### Bonsai Jack toprağında neden besin yok?
+Bu karışım tamamen köklerin hava alması ve suyun hızlı tahliyesi için tasarlanmıştır. Bitkinin besin dengesini kontrolsüz toprak yerine dışarıdan Biogold gibi kontrollü gübrelerle senin sağlaman beklenir.
 
-Başlangıç için kayıt öyle diyor ve basit diye de yazıyor. Kalın gövde ile profesyonel ağız başka sete kalır, o setin sayfasını doğrulamadım.
+### Ağacı aldığım gün tel sarılır mı?
+Önerilmez. Ağacın yeni ortamına alışması için en azından bir-iki hafta beklemen daha sağlıklıdır. Tel sararken de kabuğu zedeleyecek kadar sıkmamaya özen göstermelisin.
 
-### Toprak neden gübresiz?
+## Hangi Paketi Tercih Etmelisin?
 
-Jack kaydı besin yok diyor, çürümemesi için süzülür ve besini Biogold tarafı konuşur. İkisini tek torba sanma.
+Bütçene ve ne kadar vakit ayırmak istediğine göre ihtiyaç duyacağın parçaları şöyle toparlayabiliriz:
 
-### Teli ilk gün sarılır mı?
-
-Sarılmasın, yer değişimi otursun. Kalın dala zaten yetmez, ince dalda bile kabuğu kesene kadar sıkma.
-
-## Bütçe, Orta ve Üst Paket
-
-Fiyat yazılmıyor, arama sayfası fiyatı değiştirir.
-
-| Paket | İçinde ne var | Kime uyar |
+| Paket | İçindekiler | Kimler İçin Uygun? |
 | --- | --- | --- |
-| Bütçe | [İnce makas](aff://bonsai-budama-makasi) ve [tel](aff://bonsai-aluminyum-teli) | Küçük dalı olan, kalın gövde kesmeyen kişi |
-| Orta | [10 parça set](aff://bonsai-alet-seti-10-parca) ve [Jack toprak](aff://bonsai-jack-toprak-karisimi) | Çanta isteyen, süzülen toprak arayan kişi |
-| Üst | Orta paket ve [Biogold](aff://biogold-bonsai-gubresi) | Besinsiz toprağa yavaş gübre ekleyen kişi |
+| Başlangıç | [İnce makas](aff://bonsai-budama-makasi) ve [tel](aff://bonsai-aluminyum-teli) | Küçük bir fidanı olan, sadece uç budaması ve hafif şekil verme yapacak kişiler |
+| Orta Düzey | [10 parça set](aff://bonsai-alet-seti-10-parca) ve [Jack toprak](aff://bonsai-jack-toprak-karisimi) | Kendi saksı değişimini yapacak, derli toplu alet çantası arayanlar |
+| Tam Bakım | Orta paket + [Biogold](aff://biogold-bonsai-gubresi) | Besinsiz süzek toprağa uzun etkili organik gübre eklemek isteyenler |
 
-İlk canlı ağaçta makas ile süzülen toprağı aynı haftaya koy, teli ikinci hafta düşün. LEGO kutusunu sulama, deliksiz saksıya Jack doldurma ve gübreyi torbanın içine boşaltma. Kalın dal bu sette kesilmez, kuru uç yeter.
-
-Çantayı ıslak balkonda bırakma, bıçak bileme ister. Tel rengi görünebilir, kabuğu kesmesin. Kesiyorsa turu gevşet. Biogold kokuyorsa mutfak kavanozunun yanına koyma, koku notu bu yüzden duruyor.
-
-İlk hafta yalnızca yeri ve suyu izle, tel ve kalın kesim yok, ince makas kuru ucu alır. Jack tabağında göl bırakma ve gübreyi az koy. Çok parlak yaprak davet değildir, LEGO yaprağı da aynı deliğe girmez.
-
-Pas notunu kuru saklama ile karşıla, ıslak ağız bilemeden önce işi bırakır.
+Canlı bonsaiye başlıyorsan aceleci olma. İlk adımda süzülen bir toprak ve taze sürgünleri ezmeyecek bir makas edinmek yeterli. Şekil verme ve tel sarma işini fidanın yeni yerine alışmasından sonraya bırakırsan ağacını çok daha uzun süre sağlıklı tutarsın.
