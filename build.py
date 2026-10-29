@@ -18,6 +18,8 @@ from urllib.parse import urlencode, quote as urlquote
 
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
+from deeplink import shop_ctas_for
+
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
@@ -377,6 +379,7 @@ env.globals.update(
     articles=articles,
     year=YEAR,
     base_url=BASE_URL,
+    shop_ctas_for=shop_ctas_for,
 )
 
 

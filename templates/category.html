@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import acc %}
+{% from "_macros.html" import acc, shop_cta_block %}
 {% block title %}{{ page.meta_title }}{% endblock %}
 {% block description %}{{ page.meta_description }}{% endblock %}
 {% block jsonld %}<script type="application/ld+json">{{ jsonld|safe }}</script>{% endblock %}
@@ -19,6 +19,7 @@
 {% endblock %}
 {% block content %}
 <div {{ acc(cat.id) }}>
+{{- shop_cta_block(shop_ctas_for(cat.id, sub.id if sub else '')) }}
 {% if not sub %}
 <section class="subcats">
   <h2 class="section-title">Alt kategoriler</h2>

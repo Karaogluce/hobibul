@@ -14,7 +14,7 @@ on:
         default: "3"
   push:                         # taslağı onaylayıp (draft: "false") kaydedince siteyi yeniden üretir
     branches: [main]
-    paths: ["content/**", "templates/**", "static/**", "build.py"]
+    paths: ["content/**", "templates/**", "static/**", "build.py", "deeplink.py"]
 
 permissions:
   contents: write
