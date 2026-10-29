@@ -139,6 +139,10 @@ h1,h2,h3,h4{font-family:var(--display);line-height:1.12;letter-spacing:-.02em;ma
 .pros-cons ul{margin:0;padding-left:18px;color:var(--muted);font-size:.95rem}
 .btn-aff{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 20px;border-radius:12px;background:var(--accent-dark);color:#fff;font:700 1rem var(--display);text-decoration:none;border:0;cursor:pointer}
 .btn-aff:hover{filter:brightness(.9);color:#fff}
+.btn-aff.secondary{background:#0f172a}
+.shop-ctas{margin:0 0 22px;padding:16px;border-radius:var(--r-md);background:var(--surface);border:1px solid var(--line)}
+.shop-ctas p{margin:0 0 12px;color:var(--muted)}
+.shop-cta-row{display:flex;flex-wrap:wrap;gap:10px}
 
 /* ---- makale sayfası ---- */
 .article{max-width:720px;margin:0 auto;padding-top:8px}

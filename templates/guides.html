@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import acc %}
+{% from "_macros.html" import acc, shop_cta_block %}
 {% block title %}Tüm Rehberler | {{ site.site_name }}{% endblock %}
 {% block description %}Hobi kategorilerine göre ekipman rehberleri, alım kılavuzları ve karşılaştırmalar.{% endblock %}
 {% block content %}
@@ -11,6 +11,7 @@
 {% if items %}
 <section class="sec" {{ acc(c.id) }}>
   <div class="sec-head"><h2 class="dot-title"><i></i>{{ c.name }}</h2><a href="/kategori/{{ c.slug }}/">Kategoriye git</a></div>
+  {{- shop_cta_block(shop_ctas_for(c.id)) }}
   <div class="art-grid">
     {% for a in items %}
     <a class="art" href="/makale/{{ a.slug }}/">

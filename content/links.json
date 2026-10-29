@@ -38,6 +38,64 @@
       "tag": "",
       "active": false,
       "note": "Hepsiburada Affiliate (ws) link yapısını buraya ekle."
+    },
+    "aliexpress": {
+      "name": "AliExpress",
+      "type": "deeplink",
+      "base_url": "https://rzekl.com/g/1e8d114494a8d7abb5f616525dc3e8/",
+      "target_url": "https://www.aliexpress.com/w/wholesale-{slug}.html",
+      "keyword_style": "slug",
+      "label": "AliExpress'te bak",
+      "locative": "AliExpress'te",
+      "active": true,
+      "note": "Admitad deeplink: taban?ulp=<urlencode edilmiş hedef arama URL'si>."
+    },
+    "geekbuying": {
+      "name": "Geekbuying",
+      "type": "deeplink",
+      "base_url": "https://bywiola.com/g/78tuvzaw8ka8d7abb5f60267b86f6e/",
+      "target_url": "https://www.geekbuying.com/search?keyword={keyword}",
+      "keyword_style": "query",
+      "label": "Geekbuying'de bak",
+      "locative": "Geekbuying'de",
+      "active": true,
+      "note": "Admitad deeplink: taban?ulp=<urlencode edilmiş hedef arama URL'si>. Yalnızca elektronik ve gadget konuları."
     }
+  },
+  "shop_topics": {
+    "outdoor/balikcilik": {"aliexpress": "fishing tackle"},
+    "el-sanatlari": {"aliexpress": "craft supplies"},
+    "el-sanatlari/orgu-tig": {"aliexpress": "knitting yarn"},
+    "el-sanatlari/taki-yapimi": {"aliexpress": "jewelry making supplies"},
+    "el-sanatlari/ahsap-isleri": {"aliexpress": "woodworking tools"},
+    "el-sanatlari/resim-boyama": {"aliexpress": "painting supplies"},
+    "el-sanatlari/mum-sabun": {"aliexpress": "candle making kit"},
+    "el-sanatlari/deri-isleri": {"aliexpress": "leather craft tools"},
+    "koleksiyon/lego-model": {"aliexpress": "model kit"},
+    "sanat/kaligrafi-cizim": {"aliexpress": "drawing supplies"},
+    "sanat/dikis-nakis": {"aliexpress": "embroidery kit"},
+    "sanat/seramik-comlek": {"aliexpress": "pottery tools"},
+    "sanat/heykel": {"aliexpress": "sculpting tools"},
+    "teknoloji": {
+      "aliexpress": "electronics diy kit",
+      "geekbuying": "smart gadget"
+    },
+    "teknoloji/raspberry-pi-elektronik": {
+      "aliexpress": "arduino kit",
+      "geekbuying": "arduino"
+    },
+    "teknoloji/3d-yazici": {
+      "aliexpress": "3d printer",
+      "geekbuying": "3d printer"
+    },
+    "teknoloji/drone": {
+      "aliexpress": "drone",
+      "geekbuying": "drone"
+    },
+    "teknoloji/robotik": {
+      "aliexpress": "rc robot kit",
+      "geekbuying": "rc robot"
+    },
+    "teknoloji/oyun-pc-modlama": {"aliexpress": "pc modding"}
   }
 }

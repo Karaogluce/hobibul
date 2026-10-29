@@ -2,3 +2,16 @@
 {%- set m = cat_meta.get(id, cat_meta['outdoor']) -%}
 style="--accent:{{ m.c1 }};--accent-dark:{{ m.c2 }}"
 {%- endmacro %}
+
+{% macro shop_cta_block(block) -%}
+{%- if block and block.links %}
+<aside class="shop-ctas">
+  <p>{{ block.lead }}</p>
+  <div class="shop-cta-row">
+    {%- for c in block.links %}
+    <a class="btn-aff{% if c.network != 'aliexpress' %} secondary{% endif %}" href="{{ c.href }}" data-aff-link="{{ c.track_id }}" data-network="{{ c.network }}" target="_blank" rel="sponsored nofollow noopener">{{ c.label }}</a>
+    {%- endfor %}
+  </div>
+</aside>
+{%- endif -%}
+{%- endmacro %}

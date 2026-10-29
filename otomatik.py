@@ -28,6 +28,7 @@ import urllib.error
 import urllib.parse
 import urllib.request
 
+import deeplink
 import yeni_makale as ym
 
 if hasattr(sys.stdout, "reconfigure"):
@@ -490,6 +491,7 @@ KESİN KURALLAR:
 5. Doğal, samimi, abartısız Türkçe. Konuşur gibi yaz: cümleler birbirine bağlansın. Cümleyi yapay biçimde kısaltma; 3-7 kelime zorunluluğu yok. "Mükemmel", "piyasa lideri", "kesinlikle", "garanti" gibi kanıtsız iddialar yok. Her paragraf bilgi taşısın, dolgu cümle yazma.
 6. Başka sitelerden metin alma; kalıp cümleleri tekrarlama.
 7. Yabancı dilde paragraf yazma. İl adı, "nedir" tanımı veya "nasıl yazılır" konusu açma.
+8. AliExpress, Geekbuying, Trendyol veya Hepsiburada adresi yazma. Bu mağaza düğmeleri, kategori eşleşirse sayfaya build sırasında eklenir. Ürün linki yalnızca aff:// biçiminde olsun.
 {ticari_ek}
 YAZIM REHBERİ (bunu uygula; okuyucuya bir insanın konuşur gibi yazdığı gelsin, ama kimseyi yanıltma):
 {guide}
@@ -663,6 +665,8 @@ def write_article(t, meta, body, img, draft, tarih=None):
                   f'image_credit: "{q(img["credit"])}"', f'image_credit_url: "{img["credit_url"]}"']
     if t.get("sub") and t["sub"] != "_main":
         lines.append(f'subcategory: "{t["sub"]}"')
+    # Mağaza düğmesi buraya yazılmaz. category / subcategory, deeplink.shop_ctas_for
+    # ile article.html ve category.html içinde Admitad deeplink'ine döner.
     lines += [f'draft: "{"true" if draft else "false"}"', "---", ""]
     path = os.path.join(ARTICLES, slug + ".md")
     os.makedirs(ARTICLES, exist_ok=True)
@@ -867,6 +871,10 @@ def main():
             made += 1
             save_log(log)
             print(f"  ✓ {slug}  ({n} kelime, {'taslak' if draft else 'yayın'}, görsel: {'Unsplash' if has_img else 'kategori'})")
+            sub = "" if t.get("sub") in (None, "", "_main") else t["sub"]
+            ctas = deeplink.shop_ctas_for(t["cat"], sub)
+            if ctas["links"]:
+                print("  ✓ mağaza CTA: " + ", ".join(c["label"] for c in ctas["links"]))
         else:
             log["atlanan"].append({"anahtar": t["key"], "neden": why, "tarih": bugun})
             save_log(log)
