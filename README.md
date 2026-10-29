@@ -177,7 +177,8 @@ düzenleme; değişiklikleri `templates/`, `static/` ve `content/` altında yap.
 
 ## Günlük otomatik makale (GitHub Actions)
 
-`.github/workflows/gunluk-makale.yml` her 30 dakikada bir (`*/30 * * * *`) `otomatik.py` çalıştırır.
+`.github/workflows/gunluk-makale.yml` her 30 dakikada bir (UTC **:07** ve **:37**) `otomatik.py` çalıştırır.
+`*/30` dakika :00 ve :30'a denk gelir; GitHub Actions bu dilimleri yük altında geciktirir veya düşürür.
 Hedef, Türkiye takvim gününde (Europe/Istanbul) **3 yayınlanmış makale**dir. Betik
 `content/uretim_log.json` içindeki `makaleler` kayıtlarının `tarih` alanından bugün üretilenleri sayar
 ve yalnızca kalanı yazar (`3 - bugün`). Kayıtta tarih yoksa üretim anındaki İstanbul günü yazılır.
@@ -187,7 +188,8 @@ tavan 3'tür.
 Her biten makale hemen diske ve loga yazılır. Gemini 503/UNAVAILABLE, zaman aşımı, bağlantı hatası
 veya 429 kotasında bitenler korunur ve iş **exit 0** ile biter; sonraki tur kaldığı yerden devam eder.
 Eksik `GEMINI_API_KEY` hâlâ kırmızı fail. Üretilen dosyalar her çalışmada commit edilip push edilir
-(`git pull --rebase`, push 3 deneme). Çalışmalar çakışmaz (`concurrency`, `cancel-in-progress: false`).
+(`git fetch` + `reset --hard origin/main`, yeniden üret, push 3 deneme). GA4 işi ile aynı
+`site-yayin` grubunda sıraya girer (`cancel-in-progress: false`).
 İş zaman aşımı 45 dakikadır.
 
 Sıra ticari niyettedir: önce `content/konu_havuzu.json` içinde `tip_onerisi: "ticari"` olan konular, sonra her alt

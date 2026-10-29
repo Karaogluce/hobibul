@@ -121,12 +121,17 @@ _MIN_GAP = 13  # saniye — ücretsiz katmanda dakikada 5 istek sınırını aş
 
 
 def _gunluk_kota(msg):
-    """Günlük kota. Dakikalık 429 (retry / per minute) bu sınıfa girmez."""
-    if re.search(r"retry in|rate[- ]limit|per minute|PerMinute|requests per min", msg, re.I):
+    """Günlük kota. Dakikalık 429 (retry / per minute) bu sınıfa girmez.
+
+    Kota gövdesi her zaman docs/rate-limits adresini taşır; bu, dakikalık sınır
+    değildir. PerDay açıkça günlük kotadır ve "retry in" satırından önce bakılır.
+    """
+    if re.search(r"PerDay|per[_ ]day|daily quota|GenerateContent.*PerDay", msg, re.I):
+        return True
+    if re.search(r"retry in|per minute|PerMinute|requests per min", msg, re.I):
         return False
     return bool(re.search(
-        r"PerDay|per[_ ]day|daily quota|quota exceeded|exceeded your current quota|"
-        r"GenerateContent.*PerDay|free_tier",
+        r"quota exceeded|exceeded your current quota|free_tier",
         msg, re.I))
 
 
