@@ -2,13 +2,13 @@ name: Günlük makale
 
 on:
   schedule:
-    # Her 30 dakikada bir. İstanbul gününde 8 makale dolana kadar otomatik.py kalanı üretir.
+    # Her 30 dakikada bir. İstanbul gününde 3 makale dolana kadar otomatik.py kalanı üretir.
     - cron: "*/30 * * * *"
   workflow_dispatch:
     inputs:
       adet:
-        description: "Bu çalışmada denenecek makale sayısı (varsayılan 8). Günlük tavan 8; bugün yazılanlar düşülür."
-        default: "8"
+        description: "Bu çalışmada denenecek makale sayısı (varsayılan 3). Günlük tavan 3; bugün yazılanlar düşülür."
+        default: "3"
   push:                         # taslağı onaylayıp (draft: "false") kaydedince siteyi yeniden üretir
     branches: [main]
     paths: ["content/**", "templates/**", "static/**", "build.py"]
@@ -44,8 +44,8 @@ jobs:
           # Eksik GEMINI_API_KEY hâlâ kırmızı fail. Secret değeri buraya yazılmaz.
           GEMINI_MODEL_YEDEK: ${{ vars.GEMINI_MODEL_YEDEK || 'gemini-flash-lite-latest' }}
           TASLAK_MODU: ${{ vars.TASLAK_MODU || 'false' }}
-        # Zamanlanmış çalıştırma girdi almaz; varsayılan 8. Gün doluysa betik hemen çıkar.
-        run: python otomatik.py --adet ${{ github.event.inputs.adet || '8' }}
+        # Zamanlanmış çalıştırma girdi almaz; varsayılan 3. Gün doluysa betik hemen çıkar.
+        run: python otomatik.py --adet ${{ github.event.inputs.adet || '3' }}
 
       - name: Siteyi üret
         run: python build.py

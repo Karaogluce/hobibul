@@ -178,11 +178,11 @@ düzenleme; değişiklikleri `templates/`, `static/` ve `content/` altında yap.
 ## Günlük otomatik makale (GitHub Actions)
 
 `.github/workflows/gunluk-makale.yml` her 30 dakikada bir (`*/30 * * * *`) `otomatik.py` çalıştırır.
-Hedef, Türkiye takvim gününde (Europe/Istanbul) **8 yayınlanmış makale**dir. Betik
+Hedef, Türkiye takvim gününde (Europe/Istanbul) **3 yayınlanmış makale**dir. Betik
 `content/uretim_log.json` içindeki `makaleler` kayıtlarının `tarih` alanından bugün üretilenleri sayar
-ve yalnızca kalanı yazar (`8 - bugün`). Kayıtta tarih yoksa üretim anındaki İstanbul günü yazılır.
-Gün doluysa `Bugünün 8 makalesi tamam` deyip çıkar; Gemini çağrılmaz. Elle tetikte de varsayılan adet 8,
-tavan 8'dir.
+ve yalnızca kalanı yazar (`3 - bugün`). Kayıtta tarih yoksa üretim anındaki İstanbul günü yazılır.
+Gün doluysa `Bugünün 3 makalesi tamam` deyip çıkar; Gemini çağrılmaz. Elle tetikte de varsayılan adet 3,
+tavan 3'tür.
 
 Her biten makale hemen diske ve loga yazılır. Gemini 503/UNAVAILABLE, zaman aşımı, bağlantı hatası
 veya 429 kotasında bitenler korunur ve iş **exit 0** ile biter; sonraki tur kaldığı yerden devam eder.
