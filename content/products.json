@@ -241,7 +241,8 @@
           "Arayüzü eski"
         ],
         "query": "Garmin eTrex 22x GPS",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B07RQYFPB3"
       },
       {
         "id": "petzl-actik-core",
@@ -311,7 +312,8 @@
           "Hacimli"
         ],
         "query": "Plano Edge tackle box",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B07YNFGNJC"
       },
       {
         "id": "plusinno-telescopic",
@@ -451,7 +453,8 @@
           "Kalın iplerde kullanımı sınırlı"
         ],
         "query": "Petzl GriGri belay device",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B004BKMKWQ"
       },
       {
         "id": "black-diamond-momentum",
@@ -1190,7 +1193,8 @@
           "Stand ayrı"
         ],
         "query": "Yamaha P-45 digital piano",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B00UBJ4L32"
       },
       {
         "id": "alesis-nitro-max",
@@ -1207,7 +1211,8 @@
           "Pedal kalitesi orta"
         ],
         "query": "Alesis Nitro Max electronic drum",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0C43R8SRB"
       },
       {
         "id": "pioneer-ddj-flx4",
@@ -1243,7 +1248,8 @@
           "Baskı hissi olabilir"
         ],
         "query": "Audio-Technica ATH-M50x headphones",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B00HVLUR86"
       }
     ],
     "gitar": [
@@ -1280,7 +1286,8 @@
           "Kılıf ayrı"
         ],
         "query": "Yamaha F310 acoustic guitar",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B000RVYW7E"
       },
       {
         "id": "boss-katana-50",
@@ -1315,7 +1322,8 @@
           "Düzenli değişim gerekir"
         ],
         "query": "Daddario EXL110 strings",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0002F7K7Y"
       },
       {
         "id": "snark-st8",
@@ -1351,7 +1359,8 @@
           "Stand ayrı"
         ],
         "query": "Yamaha P-45 digital piano",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B00UBJ4L32"
       },
       {
         "id": "casio-ct-s300",
@@ -1368,7 +1377,8 @@
           "Hoparlör küçük"
         ],
         "query": "Casio CT-S300 keyboard",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B07ZTRJDNG"
       },
       {
         "id": "roland-fp10",
@@ -1385,7 +1395,8 @@
           "Pedal ayrı"
         ],
         "query": "Roland FP-10 digital piano",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B07MH391ZF"
       },
       {
         "id": "yamaha-l85-stand",
@@ -1419,7 +1430,8 @@
           "Kayabilir"
         ],
         "query": "M-Audio SP-2 sustain pedal",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B00063678K"
       }
     ],
     "davul-perkusyon": [
@@ -1438,7 +1450,8 @@
           "Pedal kalitesi orta"
         ],
         "query": "Alesis Nitro Max drum kit",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0C43R8SRB"
       },
       {
         "id": "vic-firth-5a",
@@ -1489,7 +1502,8 @@
           "Kırılabilir"
         ],
         "query": "Zildjian 5B drumsticks",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B005FQO19A"
       },
       {
         "id": "meinl-cajon",
@@ -1525,7 +1539,8 @@
           "Laptop gerekir"
         ],
         "query": "Pioneer DDJ-FLX4 controller",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0BK25SY9G"
       },
       {
         "id": "ath-m50x",
@@ -1542,7 +1557,8 @@
           "Kablo özel"
         ],
         "query": "Audio-Technica ATH-M50x headphones",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B00HVLUR86"
       },
       {
         "id": "focusrite-scarlett-2i2",
@@ -1559,7 +1575,8 @@
           "Yazılım lisansı sınırlı"
         ],
         "query": "Focusrite Scarlett 2i2 interface",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0C5JRTS3Y"
       },
       {
         "id": "krk-rokit-5",
@@ -1700,7 +1717,8 @@
           "Katana gibi çok efektli amfide ilk gün şart değil"
         ],
         "query": "Boss DS-1 Distortion pedal",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0002KYY14"
       },
       {
         "id": "numark-party-mix-iii",
@@ -1867,7 +1885,8 @@
           "Kılıf ayrı"
         ],
         "query": "Arduino Uno R3",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B008GRTSV6"
       }
     ],
     "raspberry-pi-elektronik": [
@@ -1904,7 +1923,8 @@
           "Kılıf ayrı"
         ],
         "query": "Arduino Uno R3",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B008GRTSV6"
       },
       {
         "id": "freenove-starter-kit",
@@ -1955,7 +1975,8 @@
           "Fiyatı orta"
         ],
         "query": "Raspberry Pi 5 power supply",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0CM46P7MC"
       }
     ],
     "3d-yazici": [
@@ -2219,7 +2240,8 @@
           "Kablo çokluğu"
         ],
         "query": "Arctic P12 fans",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B07HC7P3HJ"
       }
     ],
     "robotik": [
@@ -2238,7 +2260,8 @@
           "İşlem gücü sınırlı"
         ],
         "query": "Arduino Uno R3",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B008GRTSV6"
       },
       {
         "id": "raspberry-pi-4",
@@ -2755,7 +2778,8 @@
           "Kapak menteşesi"
         ],
         "query": "Ultra Pro deck box",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B003TYWR5K"
       },
       {
         "id": "kmc-perfect-fit",
@@ -3448,7 +3472,8 @@
           "Tek beden"
         ],
         "query": "Arena silicone swim cap",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0B83X554Q"
       },
       {
         "id": "speedo-fins",
@@ -3465,7 +3490,8 @@
           "Sadece havuz"
         ],
         "query": "Speedo training fins",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B08146CTRD"
       },
       {
         "id": "speedo-pull-buoy",
@@ -3482,7 +3508,8 @@
           "Tek boy"
         ],
         "query": "Speedo pull buoy",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B07ZJBLQSL"
       },
       {
         "id": "mp-snorkel",
@@ -4578,7 +4605,8 @@
           "Üst dallarda denge ister"
         ],
         "query": "Fiskars loppers",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0017VF34O"
       },
       {
         "id": "radius-garden-el-capasi",
@@ -5015,7 +5043,8 @@
           "Netlik için tripod önerilir"
         ],
         "query": "Celestron SkyMaster 15x70 binoculars",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B00008Y0VN"
       },
       {
         "id": "celestron-omni-az-102",
@@ -5802,7 +5831,8 @@
           "Fiyatı yüksek"
         ],
         "query": "Sony WH-1000XM5 wireless noise cancelling headphones",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B09XS7JWHH"
       },
       {
         "id": "bellroy-travel-wallet",
@@ -5942,7 +5972,8 @@
           "Batarya ayrı şarj edilir"
         ],
         "query": "DJI Osmo Mobile 6 gimbal",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0B7XD7R43"
       },
       {
         "id": "peak-design-slide-lite",
@@ -6133,7 +6164,8 @@
           "Maksimum yükseklik sınırlı"
         ],
         "query": "Manfrotto Element Traveller tripod",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0734ZVCST"
       },
       {
         "id": "dji-mic-2",
@@ -6167,7 +6199,8 @@
           "Gövde sabitlemesi yok"
         ],
         "query": "Sony ZV-E10 mirrorless vlog camera",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B09BBGN298"
       }
     ]
   },
@@ -6239,7 +6272,8 @@
           "Gövde plastik ve hafif kalıyor"
         ],
         "query": "Pilot G2 retractable gel pens",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B00JUZVKM8"
       },
       {
         "id": "faber-castell-9000-pencil-set",
@@ -6343,7 +6377,8 @@
           "Yedek mürekkep maliyeti zamanla artar"
         ],
         "query": "Parker Jotter ballpoint pen",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0CL4PSCLG"
       }
     ],
     "blog-yazarligi": [
@@ -6396,7 +6431,8 @@
           "Masa titreşimlerini alabilir"
         ],
         "query": "Blue Yeti USB microphone",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B002VA464S"
       },
       {
         "id": "rode-nt-usb-mini-microphone",
@@ -6430,7 +6466,8 @@
           "Sabit lens, geniş açı sınırlı"
         ],
         "query": "Logitech C920s Pro HD webcam",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B07MM4V7NR"
       }
     ],
     "yaratici-yazarlik": [
@@ -6517,7 +6554,8 @@
           "Konvertör ayrı satın alınır"
         ],
         "query": "Pilot Kakuno fountain pen",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B00G1V0H4G"
       }
     ],
     "okuma": [
@@ -6834,7 +6872,8 @@
           "Uzun kullanımda baskı hissi"
         ],
         "query": "Audio-Technica ATH-M50x headphones",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B00HVLUR86"
       },
       {
         "id": "xbox-wireless-controller",
@@ -6851,7 +6890,8 @@
           "USB-C kablo kutuda yok"
         ],
         "query": "Xbox wireless controller",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0FKGVK6KK"
       },
       {
         "id": "elgato-stream-deck-mk2",
@@ -7097,7 +7137,8 @@
           "Öğütücü yok"
         ],
         "query": "delonghi dedica espresso machine",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B07PGLT7Z3"
       },
       {
         "id": "pyrex-borcam-seti",
@@ -7150,7 +7191,8 @@
           "Basit görünüm"
         ],
         "query": "victorinox fibrox chef knife",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B000XF0FFC"
       },
       {
         "id": "zwilling-four-star-bicak",
@@ -7218,7 +7260,8 @@
           "Saklama kapağı yok"
         ],
         "query": "microplane zester",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B09BB3LTWH"
       }
     ],
     "kahve": [
@@ -7307,7 +7350,8 @@
           "Telvesi kalabilir"
         ],
         "query": "bodum chambord french press",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B00JFVHO40"
       }
     ],
     "ekmek-pasta": [
