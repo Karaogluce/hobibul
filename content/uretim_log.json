@@ -153,6 +153,46 @@
    "anahtar": "ticari:bilim-astronomi:mikroskop:baslangic",
    "neden": "kısa (1225 kelime, alt sınır 1550)",
    "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:seyahat-gezi:seyahat-fotograf:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:yazilim-kodlama:oyun-gelistirme:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:yazi-edebiyat:blog-yazarligi:baslangic",
+   "neden": "kısa (1060 kelime, alt sınır 1550)",
+   "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:outdoor:kampcilik:baslangic",
+   "neden": "kısa (1092 kelime, alt sınır 1550)",
+   "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:el-sanatlari:ahsap-isleri:baslangic",
+   "neden": "kısa (1161 kelime, alt sınır 1550)",
+   "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:muzik:gitar:baslangic",
+   "neden": "kısa (1113 kelime, alt sınır 1550)",
+   "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:teknoloji:drone:drone-secimi-yeni-baslayanlar-icin-oyuncak-sinifi-ve-dji-ayrimi",
+   "neden": "kısa (981 kelime, alt sınır 1550)",
+   "tarih": "2026-10-29"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:lego-model:baslangic",
+   "neden": "kısa (935 kelime, alt sınır 1550)",
+   "tarih": "2026-10-29"
   }
  ],
  "makaleler": [
