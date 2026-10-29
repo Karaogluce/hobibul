@@ -177,9 +177,18 @@ düzenleme; değişiklikleri `templates/`, `static/` ve `content/` altında yap.
 
 ## Günlük otomatik makale (GitHub Actions)
 
-`.github/workflows/gunluk-makale.yml` her gün 11:00'de (TR) `otomatik.py` ile **tam 2** makale üretir, siteyi
-yeniden oluşturur ve commit eder. (Saat, Gemini günlük kotasının Pasifik gece yarısı sıfırlanmasına göre seçildi.)
-Elle tetikte de sayı 2'nin üstüne çıkmaz.
+`.github/workflows/gunluk-makale.yml` her 30 dakikada bir (`*/30 * * * *`) `otomatik.py` çalıştırır.
+Hedef, Türkiye takvim gününde (Europe/Istanbul) **8 yayınlanmış makale**dir. Betik
+`content/uretim_log.json` içindeki `makaleler` kayıtlarının `tarih` alanından bugün üretilenleri sayar
+ve yalnızca kalanı yazar (`8 - bugün`). Kayıtta tarih yoksa üretim anındaki İstanbul günü yazılır.
+Gün doluysa `Bugünün 8 makalesi tamam` deyip çıkar; Gemini çağrılmaz. Elle tetikte de varsayılan adet 8,
+tavan 8'dir.
+
+Her biten makale hemen diske ve loga yazılır. Gemini 503/UNAVAILABLE, zaman aşımı, bağlantı hatası
+veya 429 kotasında bitenler korunur ve iş **exit 0** ile biter; sonraki tur kaldığı yerden devam eder.
+Eksik `GEMINI_API_KEY` hâlâ kırmızı fail. Üretilen dosyalar her çalışmada commit edilip push edilir
+(`git pull --rebase`, push 3 deneme). Çalışmalar çakışmaz (`concurrency`, `cancel-in-progress: false`).
+İş zaman aşımı 45 dakikadır.
 
 Sıra ticari niyettedir: önce `content/konu_havuzu.json` içinde `tip_onerisi: "ticari"` olan konular, sonra her alt
 kategori için bir başlangıç seti. `nedir`, `nasıl yazılır`, il adı ve yabancı dil sorguları havuzdan ve Google
@@ -196,8 +205,9 @@ Kurulum (bir kerelik): GitHub → Settings → Secrets and variables → Actions
   yedek model(ler), virgülle. **Tanımlı değilse** workflow `gemini-flash-lite-latest` kullanır;
   AI Studio'daki ad değiştiyse güncel flash adını bu variable'a yaz. Ana model zaten
   `gemini-flash-lite-latest` ise yedeği ondan farklı bir güncel flash yap.
-  Günlük kota algılanınca beklenmeden yedek modele geçilir. Tüm modellerin kotası doluysa
-  iş **exit 0** ile biter (schedule kırmızı görünmez). Eksik `GEMINI_API_KEY` hâlâ kırmızı fail.
+  Günlük kota algılanınca beklenmeden yedek modele geçilir. Kota dolunca, ya da 503/UNAVAILABLE,
+  zaman aşımı veya bağlantı hatası sürerse biten makaleler kaydedilir ve iş **exit 0** ile biter
+  (schedule kırmızı görünmez; sonraki tur dener). Eksik `GEMINI_API_KEY` hâlâ kırmızı fail.
   Kota her gece Pasifik saatiyle 00:00'da sıfırlanır. Dakikalık 429 yine bekleyip yeniden dener.
 
 Kalite kapıları (geçemeyen makale yayınlanmaz, `content/uretim_log.json` → `atlanan`): minimum kelime,
