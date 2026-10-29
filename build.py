@@ -21,6 +21,7 @@ from urllib.parse import urlencode, quote as urlquote
 from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from deeplink import shop_ctas_for
+from seo import extract_faq, fit_description, fit_title
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -45,6 +46,15 @@ products = load("products.json")
 
 BASE_URL = site["base_url"].rstrip("/")
 YEAR = datetime.now().year
+DEFAULT_OG = "/img/og-default.png"
+
+
+def public_image(url):
+    """Paylaşım ve şema için mutlak görsel. Yoksa markalı varsayılan."""
+    url = (url or "").strip()
+    if url.startswith("http://") or url.startswith("https://"):
+        return url
+    return BASE_URL + DEFAULT_OG
 
 # global ürün haritası: id -> ürün
 product_map = {}
@@ -361,6 +371,11 @@ def load_articles():
             author_slug = meta.get("author_slug") or author_meta.get("slug") or "hobi-bul-editor"
             published = meta.get("date") or ""
             updated = meta.get("updated") or published
+            image = meta.get("image") or CAT_CARD_IMG.get(meta.get("category", ""), "")
+            image_alt = (meta.get("image_alt") or "").strip() or meta.get("title") or slug
+            raw_title = meta.get("meta_title") or meta.get("title") or slug
+            raw_desc = meta.get("meta_description") or ""
+            excerpt = meta.get("excerpt") or ""
             articles.append({
                 "slug": slug,
                 "title": meta.get("title", slug),
@@ -368,17 +383,19 @@ def load_articles():
                 "subcategory": meta.get("subcategory", ""),
                 "category_name": cat_name(meta.get("category", "")),
                 "subcategory_name": sub_name(meta.get("category", ""), meta.get("subcategory", "")),
-                "meta_title": meta.get("meta_title", meta.get("title", slug)),
-                "meta_description": meta.get("meta_description", ""),
-                "excerpt": meta.get("excerpt", ""),
+                "meta_title": fit_title(raw_title),
+                "meta_description": fit_description(raw_desc, extra=excerpt),
+                "excerpt": excerpt,
+                "faq": extract_faq(body),
                 "date": published,
                 "date_label": format_tr_date(published),
                 "updated": updated,
                 "updated_label": format_tr_date(updated),
                 "author_name": author_name,
                 "author_url": f"/yazar/{author_slug}/",
-                "image": meta.get("image") or CAT_CARD_IMG.get(meta.get("category", ""), ""),
-                "image_alt": meta.get("image_alt", meta.get("title", slug)),
+                "image": image,
+                "image_alt": image_alt,
+                "og_image": public_image(image),
                 "image_credit": meta.get("image_credit", ""),
                 "image_credit_url": meta.get("image_credit_url", ""),
                 "starter_text": meta.get("starter_text", ""),
@@ -420,8 +437,8 @@ def load_info_pages():
             "nav": meta.get("nav", meta.get("title", fn[:-3])),
             "order": int(meta.get("order") or 100),
             "in_footer": footer_flag not in ("false", "0", "hayir", "hayır"),
-            "meta_title": meta.get("meta_title", meta.get("title", "") + " | " + site["site_name"]),
-            "meta_description": meta.get("meta_description", ""),
+            "meta_title": fit_title(meta.get("meta_title") or (meta.get("title", "") + " | " + site["site_name"])),
+            "meta_description": fit_description(meta.get("meta_description") or "", extra=meta.get("title") or ""),
             "updated": updated,
             "updated_label": format_tr_date(updated),
             "body_html": render_markdown(body.strip()),
@@ -477,6 +494,57 @@ env = Environment(
     autoescape=select_autoescape(["html", "xml"]),
 )
 
+def search_index():
+    """Üst arama kutusu: kategori, alt kategori ve rehber."""
+    rows = []
+    for c in categories:
+        rows.append({
+            "title": c["name"],
+            "url": f"/kategori/{c['slug']}/",
+            "kind": "Kategori",
+            "hay": " ".join(
+                [c["name"], c.get("description") or ""]
+                + [s["name"] for s in c["subcategories"]]
+            ),
+        })
+        for s in c["subcategories"]:
+            rows.append({
+                "title": s["name"],
+                "url": f"/kategori/{c['slug']}/{s['slug']}/",
+                "kind": c["name"],
+                "hay": f"{s['name']} {s.get('description') or ''} {c['name']}",
+            })
+    for a in articles:
+        rows.append({
+            "title": a["title"],
+            "url": f"/makale/{a['slug']}/",
+            "kind": a.get("category_name") or "Rehber",
+            "hay": f"{a['title']} {a.get('excerpt') or ''}",
+        })
+    return rows
+
+
+def latest_articles(n=8):
+    return sorted(articles, key=lambda a: a.get("date") or "", reverse=True)[:n]
+
+
+def featured_articles(n=8):
+    """Son listede olmayan kategorilerden birer rehber. Sahte okunma sayısı yok."""
+    latest_slugs = {a["slug"] for a in latest_articles(8)}
+    latest_cats = {a["category"] for a in latest_articles(8)}
+    out = []
+    seen = set()
+    ordered = sorted(articles, key=lambda a: a.get("date") or "", reverse=True)
+    for a in ordered:
+        if a["slug"] in latest_slugs or a["category"] in latest_cats or a["category"] in seen:
+            continue
+        seen.add(a["category"])
+        out.append(a)
+        if len(out) >= n:
+            break
+    return out
+
+
 env.globals.update(
     site=site,
     links=links,
@@ -484,6 +552,8 @@ env.globals.update(
     cat_meta=CATEGORY_META,
     articles=articles,
     info_pages=info_pages,
+    search_index=search_index(),
+    default_og=BASE_URL + DEFAULT_OG,
     year=YEAR,
     base_url=BASE_URL,
     shop_ctas_for=shop_ctas_for,
@@ -516,6 +586,86 @@ def write(path, content):
 
 def jsonld(obj):
     return json.dumps(obj, ensure_ascii=False)
+
+
+def as_graph(*nodes):
+    clean = []
+    for node in nodes:
+        if not node:
+            continue
+        item = dict(node)
+        item.pop("@context", None)
+        clean.append(item)
+    return {"@context": "https://schema.org", "@graph": clean}
+
+
+def breadcrumb_ld(crumbs):
+    """crumbs: (ad, yol) listesi. yol / ile başlar."""
+    return {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": i + 1,
+                "name": name,
+                "item": BASE_URL + path,
+            }
+            for i, (name, path) in enumerate(crumbs)
+        ],
+    }
+
+
+def faq_ld(faqs):
+    if not faqs:
+        return None
+    return {
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": item["q"],
+                "acceptedAnswer": {"@type": "Answer", "text": item["a"]},
+            }
+            for item in faqs
+        ],
+    }
+
+
+def article_crumbs(a):
+    crumbs = [
+        ("Ana Sayfa", "/"),
+        (a["category_name"], f"/kategori/{a['category']}/"),
+    ]
+    if a.get("subcategory"):
+        crumbs.append((
+            a["subcategory_name"],
+            f"/kategori/{a['category']}/{a['subcategory']}/",
+        ))
+    crumbs.append((a["title"], f"/makale/{a['slug']}/"))
+    return crumbs
+
+
+def article_ld(a):
+    return {
+        "@type": "Article",
+        "headline": a["title"],
+        "image": a["og_image"],
+        "datePublished": str(a["date"]),
+        "dateModified": str(a.get("updated") or a["date"]),
+        "description": a["meta_description"],
+        "inLanguage": "tr",
+        "author": {
+            "@type": "Organization",
+            "name": a["author_name"],
+            "url": BASE_URL + a["author_url"],
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": site["site_name"],
+            "url": BASE_URL + "/",
+        },
+        "mainEntityOfPage": BASE_URL + f"/makale/{a['slug']}/",
+    }
 
 
 def _png_rgba(size, pixel):
@@ -561,6 +711,43 @@ def _favicon_pixel(x, y, n):
     return (r, g, b, alpha)
 
 
+def write_og_image(path):
+    """1200x630 markalı paylaşım görseli. Yazı tipi yoksa mevcut dosyayı bırakır."""
+    font_bold = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+    font_reg = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+    try:
+        from PIL import Image, ImageDraw, ImageFont
+    except ImportError:
+        if os.path.exists(path):
+            return
+        raise
+    if not (os.path.exists(font_bold) and os.path.exists(font_reg)):
+        if os.path.exists(path):
+            return
+        raise RuntimeError("OG görseli için DejaVu yazı tipi yok")
+    w, h = 1200, 630
+    img = Image.new("RGB", (w, h), "#0b0d1e")
+    glow = Image.new("RGBA", (w, h), (0, 0, 0, 0))
+    gd = ImageDraw.Draw(glow)
+    gd.ellipse((40, 20, 640, 610), fill=(22, 163, 74, 58))
+    gd.ellipse((720, -120, 1320, 420), fill=(15, 118, 110, 46))
+    img = Image.alpha_composite(img.convert("RGBA"), glow).convert("RGB")
+    draw = ImageDraw.Draw(img)
+    cx, cy = 210, 300
+    draw.rounded_rectangle((cx - 118, cy - 118, cx + 118, cy + 118), radius=40, fill="#16a34a")
+    draw.ellipse((cx - 78, cy - 78, cx + 78, cy + 78), outline="white", width=10)
+    draw.ellipse((cx - 40, cy - 40, cx + 40, cy + 40), outline="white", width=10)
+    draw.ellipse((cx - 12, cy - 12, cx + 12, cy + 12), fill="white")
+    title_font = ImageFont.truetype(font_bold, 92)
+    sub_font = ImageFont.truetype(font_reg, 36)
+    host_font = ImageFont.truetype(font_reg, 28)
+    draw.text((390, 210), "Hobi Bul", font=title_font, fill="white")
+    draw.text((394, 330), "Hobini bul, ekipmanını seç.", font=sub_font, fill="#d7f5e3")
+    draw.text((394, 400), "hobibul.com.tr", font=host_font, fill="#94a3b8")
+    os.makedirs(os.path.dirname(path), exist_ok=True)
+    img.save(path, "PNG", optimize=True)
+
+
 def write_favicon(path):
     """Kök /favicon.ico. PNG gömülü ICO; dış kütüphane yok."""
     sizes = (16, 32, 48)
@@ -590,6 +777,7 @@ def main():
     os.makedirs(SITE)
 
     # statik dosyalar
+    write_og_image(os.path.join(STATIC, "img", "og-default.png"))
     if os.path.isdir(STATIC):
         shutil.copytree(STATIC, SITE, dirs_exist_ok=True)
     write_favicon(os.path.join(SITE, "favicon.ico"))
@@ -600,13 +788,20 @@ def main():
         first_article.setdefault(a["category"], a)
     render("home.html", os.path.join(SITE, "index.html"), {
         "first_article": first_article,
+        "latest_articles": latest_articles(),
+        "featured_articles": featured_articles(),
         "canonical_path": "/",
         "jsonld": jsonld({
             "@context": "https://schema.org",
             "@type": "WebSite",
             "name": site["site_name"],
-            "url": BASE_URL,
-            "description": site["default_meta"]["description"],
+            "url": BASE_URL + "/",
+            "description": fit_description(site["default_meta"]["description"]),
+            "potentialAction": {
+                "@type": "SearchAction",
+                "target": BASE_URL + "/?q={search_term_string}",
+                "query-input": "required name=search_term_string",
+            },
         }),
     })
 
@@ -624,10 +819,13 @@ def main():
                 "name": cat["name"],
                 "heading": cat["name"],
                 "description": cat["description"],
-                "meta_title": cat["meta_title"],
-                "meta_description": cat["meta_description"],
+                "meta_title": fit_title(cat["meta_title"]),
+                "meta_description": fit_description(cat["meta_description"], extra=cat.get("description") or ""),
             },
-            "jsonld": jsonld(guides_ld(cat["name"], cat_guides, cat_path, cat.get("description", ""))),
+            "jsonld": jsonld(as_graph(
+                guides_ld(cat["name"], cat_guides, cat_path, cat.get("description", "")),
+                breadcrumb_ld([("Ana Sayfa", "/"), (cat["name"], cat_path)]),
+            )),
         })
         for sub in cat["subcategories"]:
             sub_path = f"/kategori/{cat['slug']}/{sub['slug']}/"
@@ -642,10 +840,17 @@ def main():
                     "name": sub["name"],
                     "heading": sub["name"],
                     "description": sub["description"],
-                    "meta_title": sub["meta_title"],
-                    "meta_description": sub["meta_description"],
+                    "meta_title": fit_title(sub["meta_title"]),
+                    "meta_description": fit_description(sub["meta_description"], extra=sub.get("description") or ""),
                 },
-                "jsonld": jsonld(guides_ld(sub["name"], sub_guides, sub_path, sub.get("description", ""))),
+                "jsonld": jsonld(as_graph(
+                    guides_ld(sub["name"], sub_guides, sub_path, sub.get("description", "")),
+                    breadcrumb_ld([
+                        ("Ana Sayfa", "/"),
+                        (cat["name"], cat_path),
+                        (sub["name"], sub_path),
+                    ]),
+                )),
             })
 
     # ---- rehberler (tüm makaleler) ----
@@ -667,27 +872,11 @@ def main():
             "canonical_path": f"/makale/{a['slug']}/",
             "article": a,
             "related": related_for(a),
-            "jsonld": jsonld({
-                "@context": "https://schema.org",
-                "@type": "Article",
-                "headline": a["title"],
-                "image": a["image"],
-                "datePublished": str(a["date"]),
-                "dateModified": str(a.get("updated") or a["date"]),
-                "description": a["meta_description"],
-                "inLanguage": "tr",
-                "author": {
-                    "@type": "Organization",
-                    "name": a["author_name"],
-                    "url": BASE_URL + a["author_url"],
-                },
-                "publisher": {
-                    "@type": "Organization",
-                    "name": site["site_name"],
-                    "url": BASE_URL + "/",
-                },
-                "mainEntityOfPage": BASE_URL + f"/makale/{a['slug']}/",
-            }),
+            "jsonld": jsonld(as_graph(
+                article_ld(a),
+                breadcrumb_ld(article_crumbs(a)),
+                faq_ld(a.get("faq")),
+            )),
         })
 
     # ---- eski/yanlış adresler için yönlendirme sayfaları (GitHub Pages 301 vermez) ----

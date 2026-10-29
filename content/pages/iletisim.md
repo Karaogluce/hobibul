@@ -4,7 +4,7 @@ path: "/iletisim/"
 nav: "İletişim"
 order: 30
 meta_title: "İletişim | Hobi Bul"
-meta_description: "Hobi Bul ile iletişim: emrekaraoglu93@gmail.com. Telefon ve posta adresi yayımlanmaz."
+meta_description: "Hobi Bul’a yazmak için tek adres emrekaraoglu93@gmail.com. Telefon ve posta adresi yok. Rehber hatası, kırık bağlantı ve KVKK talepleri bu e-postaya gelir."
 updated: "2026-10-29"
 ---
 

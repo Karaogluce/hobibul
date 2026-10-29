@@ -31,6 +31,7 @@ import urllib.request
 
 import deeplink
 import yeni_makale as ym
+from seo import fit_description, fit_title
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -510,7 +511,7 @@ YAZIM REHBERİ (bunu uygula; okuyucuya bir insanın konuşur gibi yazdığı gel
 ÇIKTI BİÇİMİ (tam olarak böyle):
 GORSEL: <Unsplash'ta aratılacak 2-4 kelimelik İNGİLİZCE sorgu; marka/ürün adı yok; konuyu görsel olarak anlatsın>
 ANAHTAR: <odak anahtar kelime, Türkçe, 2-4 kelime>
-ACIKLAMA: <140-155 karakterlik Türkçe meta açıklama, odak anahtar kelimeyi içersin>
+ACIKLAMA: <120-160 karakterlik Türkçe meta açıklama, odak anahtar kelimeyi içersin. Başlık artı " | Hobi Bul" en fazla 60 karakter olsun.>
 ---
 <makale metni>
 """
@@ -665,11 +666,13 @@ def q(s):
 def write_article(t, meta, body, img, draft, tarih=None):
     slug = ym.slugify(t["title"])
     title = t["title"]
-    mt = title if len(title) > 58 else f"{title} | Hobi Bul"
+    raw_desc = q(meta.get("ACIKLAMA") or "")
+    mt = fit_title(title if title.endswith("Hobi Bul") else f"{title} | Hobi Bul")
+    md = fit_description(raw_desc, extra=f"{q(meta.get('ANAHTAR') or title)} rehberi, yeni başlayan için ürün notlarıyla")
     tarih = tarih or istanbul_bugun().isoformat()
     lines = ["---", f'title: "{q(title)}"', f'slug: "{slug}"', f'category: "{t["cat"]}"',
              f'date: "{tarih}"', f'updated: "{tarih}"', f'meta_title: "{q(mt)}"',
-             f'meta_description: "{q(meta["ACIKLAMA"])[:158]}"', f'excerpt: "{q(meta["ACIKLAMA"])}"',
+             f'meta_description: "{q(md)}"', f'excerpt: "{raw_desc or q(md)}"',
              f'focus_keyword: "{q(meta["ANAHTAR"])}"']
     if img:
         lines += [f'image: "{img["url"]}"', f'image_alt: "{q(img["alt"])}"',
@@ -817,7 +820,7 @@ def devam_prompt(taslak, t, prods, guide, finish_reason, tam_bicim=False):
         cikti = """ÇIKTI BİÇİMİ (tam olarak böyle, kod bloğu yok):
 GORSEL: <2-4 kelimelik İngilizce Unsplash sorgusu; marka adı yok>
 ANAHTAR: <Türkçe odak kelime, 2-4 kelime>
-ACIKLAMA: <140-155 karakter>
+ACIKLAMA: <120-160 karakter>
 ---
 <baştan sona makale metni>"""
     else:

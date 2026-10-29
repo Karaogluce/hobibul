@@ -1,12 +1,20 @@
 {% extends "base.html" %}
 {% from "_macros.html" import acc, shop_cta_block %}
+{% from "_macros.html" import share_bar with context %}
 {% block title %}{{ article.meta_title }}{% endblock %}
 {% block description %}{{ article.meta_description }}{% endblock %}
+{% block og_type %}article{% endblock %}
+{% block og_image %}{{ article.og_image }}{% endblock %}
+{% block og_image_dims %}{% endblock %}
+{% block twitter_image %}{{ article.og_image }}{% endblock %}
 {% block jsonld %}<script type="application/ld+json">{{ jsonld|safe }}</script>{% endblock %}
 {% block content %}
 <nav class="breadcrumb" aria-label="breadcrumb">
   <a href="/">Ana Sayfa</a> <span>›</span>
-  <a href="/kategori/{{ article.category }}/">{{ article.category_name }}</a> <span>›</span>
+  <a href="/kategori/{{ article.category }}/">{{ article.category_name }}</a>
+  {% if article.subcategory %} <span>›</span>
+  <a href="/kategori/{{ article.category }}/{{ article.subcategory }}/">{{ article.subcategory_name }}</a>{% endif %}
+  <span>›</span>
   <span class="current">{{ article.title }}</span>
 </nav>
 
@@ -18,6 +26,7 @@
     {% if article.date_label %}<span class="sep" aria-hidden="true">·</span> <span>Yayın: <time datetime="{{ article.date }}">{{ article.date_label }}</time></span>{% endif %}
     {% if article.updated_label %}<span class="sep" aria-hidden="true">·</span> <span>Güncellendi: <time datetime="{{ article.updated }}">{{ article.updated_label }}</time></span>{% endif %}
   </p>
+  {{ share_bar() }}
   <div class="article-disclosure article-disclosure-top">
     <strong>ℹ️ Affiliate Açıklaması:</strong> {{ site.affiliate_disclosure }}
     <a href="/affiliate-aciklamasi/">Ayrıntılı açıklama</a>
@@ -30,7 +39,7 @@
   </aside>
   {% endif %}
   {{- shop_cta_block(shop_ctas_for(article.category, article.subcategory)) }}
-  {% if article.image %}<img class="article-hero" onerror="this.remove()" src="{{ article.image }}" alt="{{ article.image_alt }}" width="760" height="320">
+  {% if article.image %}<img class="article-hero" onerror="this.remove()" src="{{ article.image }}" alt="{{ article.image_alt }}" width="760" height="320" decoding="async">
   {% if article.image_credit %}<p class="img-credit">Fotoğraf: <a href="{{ article.image_credit_url }}" target="_blank" rel="noopener">{{ article.image_credit }}</a> / <a href="https://unsplash.com/?utm_source=hobibul&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></p>{% endif %}{% endif %}
   <div class="article-body">
     {{ article.body_html|safe }}
@@ -41,6 +50,7 @@
     <a class="cat-cta" href="/kategori/{{ article.category }}/{{ article.subcategory }}/">{{ article.subcategory_name }} →</a>
     {% endif %}
   </p>
+  {{ share_bar() }}
 </article>
 
 {% if related %}
@@ -49,7 +59,7 @@
   <div class="art-grid">
     {% for a in related %}
     <a class="art" href="/makale/{{ a.slug }}/" {{ acc(a.category) }}>
-      <div class="art-media">{% if a.image %}<img src="{{ a.image }}" alt="{{ a.image_alt }}" loading="lazy" width="640" height="400">{% endif %}<span class="tag">{{ a.category_name }}</span></div>
+      <div class="art-media">{% if a.image %}<img src="{{ a.image }}" alt="{{ a.image_alt }}" loading="lazy" decoding="async" width="640" height="400">{% endif %}<span class="tag">{{ a.category_name }}</span></div>
       <h3>{{ a.title }}</h3>
     </a>
     {% endfor %}
@@ -57,3 +67,4 @@
 </section>
 {% endif %}
 {% endblock %}
+{% block scripts %}<script src="/js/share.js" defer></script>{% endblock %}

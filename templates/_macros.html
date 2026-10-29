@@ -1,3 +1,21 @@
+{% macro share_bar() -%}
+{% set share_url = base_url ~ canonical_path %}
+{% set share_title = article.title %}
+{% set share_image = article.og_image or default_og %}
+<aside class="share" aria-label="Yazıyı paylaş">
+  <p class="share-label">Paylaş</p>
+  <div class="share-row">
+    <a href="https://wa.me/?text={{ (share_title ~ ' ' ~ share_url)|urlencode }}" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp'ta paylaş">WhatsApp</a>
+    <a href="https://twitter.com/intent/tweet?url={{ share_url|urlencode }}&amp;text={{ share_title|urlencode }}" target="_blank" rel="noopener noreferrer" aria-label="X'te paylaş">X</a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ share_url|urlencode }}" target="_blank" rel="noopener noreferrer" aria-label="Facebook'ta paylaş">Facebook</a>
+    <a href="https://t.me/share/url?url={{ share_url|urlencode }}&amp;text={{ share_title|urlencode }}" target="_blank" rel="noopener noreferrer" aria-label="Telegram'da paylaş">Telegram</a>
+    <a href="https://pinterest.com/pin/create/button/?url={{ share_url|urlencode }}&amp;media={{ share_image|urlencode }}&amp;description={{ share_title|urlencode }}" target="_blank" rel="noopener noreferrer" aria-label="Pinterest'te paylaş">Pinterest</a>
+    <a href="https://www.linkedin.com/sharing/share-offsite/?url={{ share_url|urlencode }}" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn'de paylaş">LinkedIn</a>
+    <button type="button" data-copy-url="{{ share_url }}" aria-label="Bağlantıyı kopyala">Bağlantıyı kopyala</button>
+  </div>
+</aside>
+{%- endmacro %}
+
 {% macro acc(id) -%}
 {%- set m = cat_meta.get(id, cat_meta['outdoor']) -%}
 style="--accent:{{ m.c1 }};--accent-dark:{{ m.c2 }}"
