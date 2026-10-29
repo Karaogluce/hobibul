@@ -14,155 +14,109 @@ starter_text: "İlk filtre setinin ortası Hario V60. Yanına tutarlı bir öğ�
 draft: "false"
 ---
 
-Evde filtre kahveye V60 ile başlamak yeterli bir çerçeve. Asıl tadı öğütücü belirler; tartı da ertesi sabah aynı fincanı yeniden kurmanı sağlar.
+Evde iyi bir filtre kahve içmek istiyorsan, asıl mesele ekipmanın rengi ya da markasından ziyade kahveyi nasıl öğüttüğünle başlıyor. V60 gibi bir dripper işin son aşaması; tadı asıl belirleyen şey kaliteli bir öğütücü ve ertesi sabah aynı lezzeti yakalamanı sağlayan tartı. Hazır çekilmiş kahveyle de yola çıkabilirsin ama o paket açıldıktan birkaç gün sonra kahvenin tadı düzleşmeye ve acılaşmaya başlar. Bu yüzden mutfağı küçük bir kahve dükkanına çevirirken ilk sırayı öğütücüye, ikinciyi demleyiciye, üçüncüyü ise tartıya vermelisin.
 
-Hazır çekilmiş poşetle de kahve olur, ama bir hafta sonra aynı poşet daha düz ve daha acı gelir. Bunun nedeni demleme tarifi değil, çekirdeğin havayla temas etmesidir. Çekirdeği evde, demlemeden hemen önce öğütmek bu yüzden setin ilk parçasıdır. Demleyici ikinci, tartı üçüncü gelir. Sırayı ters çevirirsen pahalı bir dripper alır, her fincan yine rastgele çıkar.
+## Neden Önce Öğütücüye Yatırım Yapmalısın?
 
-## Seti Hangi Sırayla Kurmalısın?
+Sabahları sadece kendin için tek bir fincan hazırlayacaksan, konik dişli bir öğütücü, bir V60 ve zamanlayıcısı olan bir tartı sana yeter. Elindeki su ısıtıcısını hemen değiştirmen gerekmiyor; ince ağızlı bir kettle döküşü kolaylaştırsa da başlangıçta normal bir ısıtıcıyla da idare edebilirsin. Bütçenin aslan payını öğütücüye ayırman mantıklı çünkü ucuz bıçaklı doğrayıcılar kahveyi öğütmez, parçalar. Bu da fincanında hem toz hem de koca parçaların olmasına neden olur; sonuçta bir tarafı acı, diğer tarafı su gibi bir kahve içersin.
 
-Sabah tek fincan içiyorsan üç parça yeter: konik dişli bir öğütücü, V60 ve zamanlayıcılı bir tartı. Su ısıtıcın varsa onu değiştirme. İnce ağızlı bir kettle döküşü kolaylaştırır; yoksa normal bir ketıl da iş görür. İlk ayda ekipman avına çıkma.
+Eğer mutfak listeni daha da genişletmek istersen [kahve ekipmanları](/kategori/yemek-mutfak/kahve/) sayfamıza bakabilirsin. Filtre kahvenin ötesine geçip pizza ya da ekmek gibi işlere de meraklıysan [evde pizza fırını](/makale/evde-pizza-firini-g3-ferrari-delizia-ile-baslangic/) yazısı ilginç gelebilir. Mutfağın tamamına dair ipuçları ise [yemek ve mutfak](/kategori/yemek-mutfak/) kategorisinde seni bekliyor.
 
-Öğütücü bütçenin büyük parçası olsun. Ucuz bir bıçaklı doğrayıcı, V60'ın spiral kanalını boşa çıkarır, çünkü iri parçayla toz aynı kaşığa düşer. Su tozu hemen acılaştırır, iri parçayı da ıslatmadan geçer.
+## Baratza Encore: Her Sabah Aynı Standart
 
-Daha geniş mutfak listesi [kahve ekipmanları](/kategori/yemek-mutfak/kahve/) sayfasında. Filtre dışında ocak üstü bir fincan da istiyorsan moka potu ayrı bir yoldur; onu filtre setinin yerine koyma. Pizza ve ekmek başka tezgah, [evde pizza fırını](/makale/evde-pizza-firini-g3-ferrari-delizia-ile-baslangic/) orada duruyor. Mutfağın tamamı [yemek ve mutfak](/kategori/yemek-mutfak/) kategorisinde.
+Baratza Encore, evde kahve demleyenlerin en çok tercih ettiği konik dişli değirmenlerden biri. En büyük avantajı, 40 farklı ayar kademesi sunması ve gövdesinin tamir edilebilir olması. Dişleri aşındığında ya da bir parçası bozulduğunda makineyi çöpe atmak yerine parçasını değiştirip devam edebiliyorsun. Bu, başlangıç seviyesindeki bir ürün için oldukça nadir ve kıymetli bir özellik.
 
-## Baratza Encore: Öğütümü Sabitle
-
-Baratza Encore, ev demlemesi için konik dişli bir değirmen. Ürün notunda 40 kademe ayar ve tamir edilebilir bir gövde var. Tutarlı öğütüm, filtrenin tekrar edilebilir olması için aranan şey.
-
-V60 ile French press aynı makinede durabilir. Kademe sayısı, birini ince birini daha iri tutmana izin verir. Dişler aşınınca makineyi çöpe atmak zorunda da değilsin; bu, başlangıç bütçesinde nadir bir not.
-
-Espresso isteyen kişiye uymaz. Ürün de bunu yazıyor: espresso için sınırlı. Tezgahı sessiz tutmak isteyen de zorlanır, çünkü makine sesli çalışır. Tek göz oda mutfakta sabah altıda çalıştırmadan önce bunu bilmekte fayda var.
+Eğer sadece filtre kahve değil, arada French press de yapıyorsan bu makine işini görür. Ancak espresso tutkunuysan Encore seni üzebilir; çünkü espresso için gereken o çok ince ayarları yakalamakta zorlanıyor. Bir de sabahın köründe evdekileri uyandırmaktan çekiniyorsan dikkatli ol, çünkü biraz gürültülü çalışan bir makine.
 
 **Artıları:**
-- Öğütüm tutarlı, filtre tarifini tekrar edebilirsin.
-- 40 kademe, French press ile V60 arasında geçiş bırakır.
-- Tamir edilebilir gövde, ilk arızada çöpe gitmez.
+*   Öğütüm kalitesi tutarlı, her seferinde aynı tadı yakalayabilirsin.
+*   40 kademesi sayesinde French press’ten V60’a her türlü ayarı yapabiliyorsun.
+*   Tamir edilebilir olması uzun ömürlü bir kullanım vaat ediyor.
 
 **Eksileri:**
-- Sesli çalışır.
-- Espresso inceliğinde sınırlı kalır.
+*   Çalışırken biraz fazla ses çıkarıyor.
+*   Espresso için gereken incelikte performansı sınırlı.
 
 [Satın Al: Baratza Encore Öğütücü](aff://baratza-encore-ogutucu)
 
-## Hario V60: Döküşü Sen Yönetirsin
+## Hario V60: Kontrolü Elde Tutmak İsteyenlere
 
-Hario V60, pour over için spiral kanallı seramik bir dripper. Temiz bir fincan ve demleme üzerinde kontrol vaat ediyor. Fiyatı öğütücünün yanında küçük kalır; asıl masraf filtre kağıdında birikir.
+Hario V60, pour over demleme dediğimiz yöntemin klasikleşmiş seramik dripper’ı. Fiyatı bir öğütücüye göre çok daha uygun olsa da asıl maliyet zamanla filtre kağıtlarında birikiyor. Seramik gövdesi ısıyı iyi tutuyor ama kahveyi koymadan önce sıcak suyla iyice çalkalaman şart. Eğer bunu yapmazsan hem fincanın çabuk soğur hem de kağıdın o istenmeyen tadı kahvene geçer.
 
-Seramik gövde ısıyı tutar. İlk döküşten önce sıcak suyla çalkalamak hem kağıdın tadını alır hem gövdeyi ısıtır. Bunu atlayan fincan, ilk yudumda kağıt tadı verir. Ürün notu da "tekniğe duyarlı" diyor: elin döküşü değiştikçe fincan değişir. Bu bir kusur değil, kontrolün bedeli.
-
-Sabah gözünü açar açmaz tek tuş isteyen kişiye uymaz. Misafire üç fincanı aynı anda yetiştirmek de zor, çünkü V60 tek kişilik bir ritim. Kalabalık bir masada French press daha sakin ilerler.
-
-Filtre kağıdı ayrıca alınır. Kağıtsız kullanmaya çalışma; spiral kanal kağıtla birlikte çalışır.
+V60 tamamen senin el yeteneğine bakan bir alet. Suyu dökme hızın ve şeklin kahvenin tadını doğrudan etkiliyor. Bu yüzden sabah gözünü açar açmaz bir tuşa basıp kahvesi hazır olsun isteyenlere pek gelmez. Ayrıca misafir ağırlarken üç-dört kişiye aynı anda kahve yetiştirmek de V60 ile tam bir eziyete dönüşebilir. Öyle durumlarda French press çok daha kurtarıcı oluyor.
 
 **Artıları:**
-- Fincan temiz çıkar, kontrol sendedir.
-- Öğütücüye göre uygun fiyatlı bir giriş.
-- Seramik gövde, demleme ısısını daha düz tutar.
+*   Fincanda temiz ve berrak bir tat profili oluşturuyor.
+*   Giriş maliyeti oldukça düşük.
+*   Isı dengesini koruyan seramik yapıya sahip.
 
 **Eksileri:**
-- Filtre kağıdı bitince demleme durur.
-- Elin değişince tat değişir.
+*   Sürekli filtre kağıdı alman gerekiyor.
+*   Döküş tekniğine göre kahvenin tadı sürekli değişebilir, dikkat istiyor.
 
 [Satın Al: Hario V60 Dripper](aff://hario-v60-dripper)
 
-## Tartı: Kaşığı Bırak
+## Tartı Kullanmak Neden Önemli?
 
-Zamanlayıcılı kahve tartısı, Amazon.com.tr kaydında 0,1 gram hassasiyet, dara ve zamanlayıcı ile geçiyor. Şarjı USB-C. Marka adı listede yok. Bu bir laboratuvar aleti değil; evde oranı not etmek için yeter.
+Zamanlayıcılı bir kahve tartısı aslında senin hafızan demek. 0,1 gram hassasiyeti olan bir tartı sayesinde, bugün içtiğin o çok güzel fincanı yarın sabah da birebir kopyalayabilirsin. Göz kararı veya kaşıkla ölçü aldığında her gün farklı bir tatla karşılaşırsın. Bu tartı USB-C ile şarj oluyor, yani pil derdiyle de uğraşmıyorsun.
 
-Dara kabı sıfırlar. Öğütücüden gelen kahveyi kaba koyar, sıfırlar, suyu üstüne eklersin. Zamanlayıcı da döküşün ne kadar sürdüğünü gösterir. Ertesi sabah aynı gramı ve aynı süreyi tutturursun. Kaşıkla göz kararı bu tekrarı vermez.
-
-Rakamdan sıkılan kişiye uymaz. Markalı bir Hario veya Acaia tartı arayan da bu kaydı almasın; listede marka yazmıyor. Hassasiyet iddiası 0,1 gram ve kalibrasyon zamanla kayabilir. Ayda bir kez bildiğin bir ağırlıkla kontrol etmek yeter.
+Üzerindeki zamanlayıcı ise suyun kahveyle ne kadar süre temas ettiğini görmeni sağlıyor. Eğer her şeyi rakamlarla takip etmekten sıkılan biriysen tartı seni yorabilir. Bu arada listedeki bu tartının özel bir markası yok, yani profesyonel bir laboratuvar aleti bekleme ama ev kullanımı için fazlasıyla yeterli.
 
 **Artıları:**
-- 0,1 gram okuma, küçük fincanda farkı gösterir.
-- Dara ve zamanlayıcı aynı gövdede.
-- Şarjlı. Pil bitince demleme yarıda kalmaz.
+*   0,1 gram hassasiyeti ile en küçük farkları bile yönetmeni sağlar.
+*   Dara alma ve zamanlayıcı özellikleri tek ekranda.
+*   Şarjlı olduğu için pil bitip demlemenin ortasında seni yarı yolda bırakmaz.
 
 **Eksileri:**
-- Markasız bir liste kaydı.
-- Yalnızca kahveye kilitli değil. Mutfakta başka işe de gider, o da karışıklık yaratabilir.
+*   Belirli bir markası olmayan genel bir ürün.
+*   Sadece kahve değil mutfaktaki diğer işler için de kullanıldığında kafa karıştırabilir.
 
 [Satın Al: Zamanlayıcılı Kahve Tartısı](aff://zamanlayicili-kahve-tartisi)
 
-## V60 Yetmezse: AeroPress ve French Press
+## Alternatif Arayanlara: AeroPress ve French Press
 
-Bazı sabahlar döküşle uğraşmak istemezsin. AeroPress basınçla tek fincanı hızlı bitirir, taşınır ve temizliği kısa sürer. Ürün notu tek fincan diyor. İki kişiye peş peşe basarsın, aynı anda iki fincan çıkmaz. Filtre sarfiyatı burada da var. Geniş bir karaf isteyen kişiye uymaz; misafir ağırlarken French press daha rahat.
+Bazı sabahlar döküşle uğraşmak, o seremoniyi yapmak istemeyebilirsin. AeroPress, basınç kullanarak hızlıca kahve yapmanı sağlar, temizlemesi saniyeler sürer ve seyahatlerde çantaya atmak için harikadır. Ama unutma, o da tek kişilik bir cihaz. Kalabalık bir kahvaltı masasında herkesin kahvesini aynı anda vermek istiyorsan Bodum Chambord gibi klasik bir French press en doğrusu. French press’te kağıt filtre olmadığı için kahvenin yağı içinde kalır, daha gövdeli bir tat alırsın ama fincanın dibinde biraz telve kalması normaldir.
 
-Bodum Chambord, cam gövdeli ve metal filtreli klasik French press. Zengin bir gövde arayan kişi buraya kayar. V60'daki temiz fincanın tersine bir miktar telve kalabilir; ürün de bunu söylüyor. Cam kırılgan, lavaboda sert bırakma. Berrak, çay gibi bir filtre fincanı isteyen kişiye uymaz. O iş V60'ın.
-
-Bialetti Moka Express ocak üstünde, alüminyum gövdede daha yoğun bir fincan verir. İndüksiyon ocakta uyumsuz. Filtre setinin parçası değil; "bir de daha yoğun bir fincan olsun" diyen kişi için yan kapı.
+Eğer "ben daha sert, espressoya yakın bir şeyler içmek istiyorum" dersen, Bialetti Moka Express imdadına yetişir. Ocak üstünde çalışan bu emektar, yoğun bir kahve verir. Ancak indüksiyonlu ocağın varsa bu alüminyum modeli kullanamazsın, aklında olsun.
 
 **Artıları:**
-- AeroPress hızlı ve tek kişilik çantaya girer.
-- French press, aynı anda birden fazla fincanı kaldırır.
-- Moka, ocak varsa ayrı bir elektrikli alet istemez.
+*   AeroPress hızlı, dayanıklı ve taşınabilir.
+*   French press ile tek seferde birkaç kişiye kahve çıkabilir.
+*   Moka pot, elektrikli alet kalabalığı yaratmadan yoğun kahve sunar.
 
 **Eksileri:**
-- AeroPress tek fincanla sınırlı.
-- French press camdır, telve bırakabilir.
-- Moka, indüksiyonlu ocakta işe yaramaz.
+*   AeroPress aynı anda sadece bir fincan hazırlar.
+*   French press cam olduğu için kırılgandır ve telve sızdırabilir.
+*   Moka pot indüksiyon ocaklarda çalışmaz.
 
 [Satın Al: AeroPress Kahve Demleyici](aff://aeropress-kahve-demleyici)
-
 [Satın Al: Bodum Chambord French Press](aff://bodum-chambord-french-press)
 
-## İlk Hafta Nasıl İçilir?
+## İlk Demlemelerde Nelere Dikkat Etmelisin?
 
-Bir tarif uydurup gram yazmayacağım; ürün verisinde bir oran yok. Senin yapacağın iş daha basit. İlk fincanda kahve gramını ve su gramını tartıya bakıp bir kâğıda yaz, ertesi gün aynı sayıları tut. Fincan acıysa öğütümü bir kademe irileştir. Ekşi ve zayıfsa bir kademe incel. Encore'daki 40 kademe bu küçük adımlar için var.
+Sana burada ezbere bir tarif vermeyeceğim çünkü en iyi tarif senin damak tadın. İlk demlemeni yaparken kaç gram kahve ve su kullandığını bir kenara not et. Eğer içtiğin kahve çok acı geldiyse, Encore öğütücünde ayarı bir kademe irileştir. Eğer çok sulu ve ekşi geldiyse, bir dahaki sefere daha ince öğüt. Makinedeki o 40 kademe işte tam da bu ince ayarları bulman için var.
 
-Su kaynadıktan sonra bir dakika bekle. Kaynar su, ince öğütülmüş kahveyi yakar. Bunu bir ölçü olarak ezberleme; ağzın "yakıyor" diyorsa suyu beklet.
+Su sıcaklığı da çok kritik. Kaynar suyu doğrudan kahvenin üzerine dökme; su kaynadıktan sonra bir dakika kadar beklemesine izin ver. Çok sıcak su kahveyi yakar ve o yanık tadını fincanına taşır. Ve tabii ki kahveni demlemeden hemen önce öğütmeyi alışkanlık haline getir. Önceden öğütüp kavanoza doldurursan, aldığın o kaliteli öğütücünün bir anlamı kalmaz.
 
-V60'ı demlemeden önce sıcak suyla çalkala. Kağıdı ıslat, suyu dök, sonra kahveyi koy. Bu sıra, kağıt tadını ve soğuk seramiği aynı anda çözer. Öğütülmüş kahveyi kavanozda biriktirme. Encore'un anlamı, demlemeden hemen önce öğütmek. Öğütüp kutuya koyarsan poşet kahveye geri dönmüş olursun.
+## Sıkça Sorulan Sorular
 
-## Çekirdek, Su ve Tezgah
+**Sadece bir parça alacak bütçem var, hangisini alayım?**
+Kesinlikle öğütücü. İyi bir öğütücüyle French press bile yapsan, kötü bir öğütücüyle yapılan V60'tan daha iyi sonuç alırsın. Taze öğütülmüş kahve her şeyin temelidir.
 
-Öğütücü ve V60 doğru olsa da çekirdek bayatsa fincan düzleşir. Çekirdeği ışık görmeyen bir kavanozda tut, öğütülmüş halde biriktirme. Kavanozun kapağı açık kalırsa bir hafta sonra aynı gram ve aynı süre, daha soluk bir fincan verir. Suç dripper'da değildir.
+**V60 ve French press için aynı öğütme ayarını kullanabilir miyim?**
+Hayır, French press için oldukça iri (deniz tuzu gibi), V60 için ise orta incelikte (sofra tuzu gibi) bir öğütüm gerekir. Encore kullanıyorsan bu iki ayarı bir kenara not et ki her sabah deneme yanılma yapma.
 
-Su, çaydanlığın içinden gelir. Kireçli su hem tadı hem kettle'ın dibini bozar. Filtre sürahi kullanıyorsan kahveyi ondan doldur. Kullanmıyorsan bunu bir zorunluluk diye yazmam. Ağzın "metalik" diyorsa suyu değiştir, öğütümü değil.
+**Musluk suyu kahvenin tadını bozar mı?**
+Eğer çeşme suyunuz çok kireçliyse evet, tadı metalikleştirir. İmkanın varsa filtre sürahiyle arıtılmış su kullanmak kahvenin aromasını daha iyi ortaya çıkarır.
 
-Tezgah düzeni de setin parçası. Tartı ketılın altında kaybolursa her sabah ararsın. V60, kağıt ve tartı aynı çekmecede dursun. AeroPress'i seyahat çantasına ayır. French press lavaboda cam olarak bekler; onu ıslak elde sıkma.
+## Hangi Paket Sana Daha Uygun?
 
-Misafir gelince V60 ile üç fincanı yetiştirmeye çalışma. French press o masa için duruyor. Tek kişilik sabah V60'ta kalsın. İki demleyiciyi aynı öğütüm kademesinde kullanma; kâğıda iki sayı yaz. Encore'un 40 kademesi bu not için var.
+Bütçene ve kahve içme alışkanlığına göre şu üç seçenekten birine yönelebilirsin:
 
-## Sık Sorulan Sorular
+| Paket | İçerik | Kimler İçin? |
+| :--- | :--- | :--- |
+| **Bütçe Dostu** | [Hario V60](aff://hario-v60-dripper) + [Tartı](aff://zamanlayicili-kahve-tartisi) | Zaten bir öğütücüsü olan veya döküş tekniğini geliştirmek isteyenler. |
+| **İdeal Başlangıç** | [Baratza Encore](aff://baratza-encore-ogutucu) + V60 + Tartı | Evde gerçek kahve deneyimine başlamak isteyen herkes için en mantıklı set. |
+| **Meraklısına** | Orta Paket + [AeroPress](aff://aeropress-kahve-demleyici) | Hem hafta sonu ritüelini hem de hafta içi hızını ve seyahat kolaylığını isteyenler. |
 
-### Öğütücü mü, V60 mı önce alınır?
-
-Öğütücü. Hazır çekilmiş kahve ile V60 da çalışır ama fincan her hafta değişir. Encore bir kez oturunca dripper'ı sonra da alabilirsin. İkisi birlikte daha doğru. Bütçe tek parçaya yetiyorsa öğütücüden başla.
-
-### French press ile V60 aynı öğütümü kullanır mı?
-
-Hayır. French press daha iri ister, V60 daha ince. Encore'da iki kademeyi bir kâğıda yaz. Her sabah tahmin yürütme.
-
-### Tartısız başlanır mı?
-
-Başlanır. Kaşıkla da kahve olur, ama aynı fincanı yarın tutturamazsın. 0,1 gram okuyan zamanlayıcılı tartı, setin en küçük ama en çok tekrar ettiren parçası.
-
-### Moka pot filtre kahvenin yerine geçer mi?
-
-Geçmez. Daha yoğun, ocak üstü bir fincandır. İndüksiyonun varsa Bialetti'yi alma. Filtre istiyorsan V60 veya AeroPress duruyor.
-
-## Misafir, Tek Fincan, Ertesi Sabah
-
-Tek kişilik sabah V60'ta kalır. Misafir varsa French press daha sakin; üç fincanı V60 ile yetiştirmeye çalışma, çünkü elin değiştikçe fincan değişir. Bodum'un camı o masa için duruyor. Lavaboda ıslak elle sıkma, cam kırılır. Telve kalabilir. Bunu temiz filtre tadı sanma.
-
-Acele günde AeroPress tek fincanı hızlı bitirir ve çantaya girer. İki kişiyi aynı anda beslemez; peş peşe basabilirsin, filtre yine biter. Yedek kağıdı V60 kağıdıyla aynı çekmeceye koyma, karışır.
-
-Ertesi sabah aynı gram ve aynı süre. Tartı bunu tutar, kaşık tutmaz. Acıysa Encore'da bir kademe iri, ekşi ve zayıfsa bir kademe ince. 40 kademe bu küçük adımlar için var. Espresso inceliği bekleme; ürün notu sınırlı diyor. Moka, ocak varsa ayrı bir yoğun fincan. İndüksiyonun varsa Bialetti'yi alma.
-
-Çekirdeği ışık görmeyen kavanozda tut ve öğütüp biriktirme. Encore'un anlamı, demlemeden hemen önce çalışmak. Kağıt bitince V60 durur. Bir paket yedek, öğütücüden ucuz bir sigorta. O gün French press devreye girer; metal filtre kağıt istemez, telve kalır. Bunu arıza sanma, Bodum'un notu bu. AeroPress kağıdı ayrıdır. Üç kağıdı aynı kutuya koyma. Sabah yanlış kağıt, ıslak bir deneme olur.
-
-Tartıyı her sabah aynı yere koy. Çekmecede kaybolursa kaşığa dönersin. Setin en ucuz parçası, en çok tekrar ettirenidir. Öğütücünün haznesini de her gün boşalt. İçerde kalan öğütülmüş kahve, ertesi sabahın taze çekirdeğine karışır. Encore'u bu kırıntıyla çalıştırma.
-
-## Bütçe, Orta ve Üst Paket
-
-Fiyat yazmıyorum. Rakam sipariş sayfasında değişir.
-
-| Paket | İçinde ne var | Kime uyar |
-| --- | --- | --- |
-| Bütçe | [Hario V60](aff://hario-v60-dripper) ve [tartı](aff://zamanlayicili-kahve-tartisi) | Öğütücüsü olan, döküşü öğrenmek isteyen kişi |
-| Orta | [Baratza Encore](aff://baratza-encore-ogutucu), V60 ve tartı | Evde filtreye yeni başlayan asıl set |
-| Üst | Orta paket artı [AeroPress](aff://aeropress-kahve-demleyici) | Sabah V60, acele günde tek tuşa yakın bir fincan isteyen kişi |
-
-İlk paranı Baratza Encore, Hario V60 ve zamanlayıcılı tartıya böl. Espresso ve moka bu setin işi değil.
+Son bir tavsiye: Ekipmanların mutfakta hep aynı yerde ve elinin altında dursun. Tartı bir çekmecede, kağıt filtreler başka dolapta olursa bir süre sonra üşenip o güzelim öğütücüyü rafa kaldırabilirsin. Düzenli bir kahve köşesi, her sabah aynı keyfi sürdürmenin en kolay yoludur.

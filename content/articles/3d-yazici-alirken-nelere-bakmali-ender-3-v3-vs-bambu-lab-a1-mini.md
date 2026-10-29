@@ -14,79 +14,59 @@ starter_text: "İlk baskı için az uğraş istiyorsan Bambu Lab A1 Mini. Masay�
 draft: "false"
 ---
 
-İlk 3D yazıcıda iki yol var ve ikisi aynı masada aynı işi görmüyor. Creality Ender 3 V3, ayarını senin yaptığın, topluluğu geniş bir başlangıç makinesi. Bambu Lab A1 Mini ise otomatik kalibrasyonlu, tablası küçük ve hızlı bir kutu. Kurcalamayı seviyorsan Ender'e bak, kutudan çıkınca parça basayım diyorsan A1 Mini o akşamı daha kısa tutar.
+İlk 3D yazıcını alırken vereceğin asıl karar ne basacağından çok, makinenin başında ne kadar vakit geçirmek istediğinle ilgili. Bir tarafta vidalarıyla, tablasıyla uğraşıp işin mekaniğini kavrayacağın geniş topluluklu makineler var; diğer tarafta ayarı kendi yapıp hemen baskıya geçen ama alanı daha dar tutan modeller duruyor. Diğer alternatifleri merak edersen [3D yazıcı ekipmanları](/kategori/teknoloji/3d-yazici/) sayfasına da bakabilirsin; yazılımla ya da kart bilgisayarlarla ilgileniyorsan [Raspberry Pi 5 başlangıç kiti](/makale/raspberry-pi-5-baslangic-kiti/) gibi farklı projeler de [teknoloji](/kategori/teknoloji/) kategorisinde duruyor. 
 
-İkisi de filament istiyor, kutu ise çoğu zaman boş geliyor. PLA makarayı ve bir alet setini yazıcıdan bir gün sonra değil, aynı sepette tut. İlk baskı spatulasız tabladan sökülmez, tırnakla denemek hem parçayı hem eli bozar.
-
-Karşılaştırma [3D yazıcı ekipmanları](/kategori/teknoloji/3d-yazici/) sayfasındaki diğer modellerle yan yana duruyor. Anycubic Kobra 2 üçüncü bir kapı ve onu aşağıya bıraktım. Kart bilgisayar başka bir masanın konusu. [Raspberry Pi 5 başlangıç kiti](/makale/raspberry-pi-5-baslangic-kiti/) orada, ikisinin üst listesi de [teknoloji](/kategori/teknoloji/) kategorisinde.
-
-## Almadan Önce Üç Soru
-
-Tabla mı, ayar mı, gürültü mü diye ayırmadan makine seçme. Büyük parça basacaksan tabla küçüklüğü seni durdurur. A1 Mini'nin eksi notu baskı alanının küçük olması, Ender'de ise bu cümle yok. Santim uydurmayacağım, ölçüyü sipariş sayfasından oku. Karar, küçük obje mi yoksa kutu ve aparat mı sorusuyla başlar.
-
-Ayarla uğraşmak isteyip istemediğin de aynı yerde belli olur. Ender kalibrasyon ister, ilk akşamı vida ve yatak ayarıyla geçebilir. Bu, öğrenmenin parçası. Sinirini bozacaksa A1 Mini'nin otomatik kalibrasyonu daha doğru, çünkü ürün notu bunu artı diye yazıyor.
-
-Yedek parça ve soru soracak bir topluluk da ilk günden belli olsun. Ender'de topluluk geniş, A1 Mini'de parça pahalı. Bir nozul veya tabla yüzeyi bozulunca cüzdan farklı tepki verir, bunu siparişten önce bil.
+Seçim yaparken üç temel noktayı netleştirmen gerek: Basacağın parçanın boyutu ne olacak, kalibrasyonla uğraşmak istiyor musun ve yedek parça gerektiğinde kolayca ulaşıp ucuza çözebilecek misin?
 
 ## Creality Ender 3 V3
 
-Ender 3 V3 hızlı ve kurulumu kolay diye geçiyor. Topluluğu geniş, kalibrasyon sende ve filament ayrı satılıyor.
+Creality Ender 3 V3, eski nesil modellere kıyasla hem daha hızlı hem de kurulumu belirgin şekilde kolaylaştırılmış bir yazıcı. Yine de kalibrasyon işi sende kalıyor; yani ilk katmanın tablaya düzgün oturması için gözünle takip edip ayar yapman gerek. Eğer bir yerde takılırsan arkasındaki topluluk oldukça geniş, karşılaştığın hatayı daha önce yaşamış birilerini forumlarda rahatça bulabiliyorsun. Kutu içeriğinde filament gelmediği için makineyle beraber makarayı da sepete eklemen gerekir.
 
-Hız notu eski Ender nesline göre daha az bekleme vaat ediyor, yine de ilk katmanı sen izlersin. Tabla yanlış hizadaysa filament havada örümcek ağı olur. Bunu bir kez görünce sonraki baskılar daha sakin geçer, geniş topluluk da aynı hatanın fotoğrafını bir yerde bulmanı kolaylaştırır.
-
-Kime uymaz? "Kutuyu aç, akşam oyuncak çıksın" diyen kişiye uymaz, çünkü kalibrasyon o akşamı yer. Filamenti unutup yalnızca makine alan kişiye de uymaz, makara bitince yazıcı heykel olarak kalır.
+Kime uymaz dersen; kutudan çıkarıp hiçbir ayara dokunmadan ilk akşam sorunsuz parça almak isteyen birine uymaz. Kalibrasyon süreci biraz sabır ve deneme ister.
 
 **Artıları:**
-- Hız, beklemeyi eski kartuşlu modellere göre kısaltır.
-- Kurulum, sıfırdan vida saydığın bir kite göre daha kısa tutulmuş.
-- Topluluk, tıkanan nozul için cevap bulmayı kolaylaştırır.
+- Eski nesil modellere göre belirgin şekilde daha hızlı çalışır.
+- Sıfırdan karmaşık vida saydığın montajlara kıyasla kurulumu daha basittir.
+- Geniş kullanıcı topluluğu sayesinde tıkanma veya ayar sorunlarına çözüm bulmak kolaydır.
 
 **Eksileri:**
-- Kalibrasyon sende ve ilk katman kendi kendine düzelmez.
-- Filament kutuda yoksa baskı başlamaz.
+- Kalibrasyonu manuel kontrol etmen gerekir, ilk katman kendi kendine düzelmez.
+- Kutusundan filament çıkmaz, ayrıca temin edilmelidir.
 
 [Satın Al: Creality Ender 3 V3](aff://creality-ender-3-v3)
 
 ## Bambu Lab A1 Mini
 
-A1 Mini kompakt, hızlı ve akıllı bir başlangıç yazıcısı. Otomatik kalibrasyonu var, baskı alanı küçük, yedek parça da pahalı.
+Bambu Lab A1 Mini, masanın köşesine rahatça sığan, kompakt ve hızlı bir yazıcı. En büyük avantajı otomatik kalibrasyon sunması; bu sayede tabla ayarıyla dakikalarca uğraşmadan baskıya başlayabiliyorsun. Küçük figürler, menteşeler, klipsler veya minyatürler için fazlasıyla pratik bir cihaz. Buna karşılık baskı alanı dar olduğu için kask, büyük vazo veya uzun nesneleri tek parçada basamazsın; parçaları bölüp sonra yapıştırman gerekir. Ayrıca orijinal yedek parçalarının biraz pahalı olduğunu bilerek sipariş vermelisin.
 
-Masa köşesine sığması apartman odası için gerçek bir artı. Otomatik kalibrasyon Ender'deki ilk akşamı kısaltır ve hız notu da "çok hızlı" diye yazılmış. Küçük obje, menteşe, klips ve minyatür bu tablaya uyar. Kask, büyük vazo ve uzun bir ray sığmaz. Parçayı bölüp yapıştırmak bir yol, her işi bölmek istemezsin.
-
-Kime uymaz? Büyük ve tek parça basacak kişiye uymaz, çünkü tabla bunu keser. Her arızada ucuz yedek arayan kişiye de uymaz, parça pahalı. Topluluk Ender kadar dağınık bir forum denizi olmayabilir ve kutunun kendi akışı daha kapalıdır.
+Kime uymaz? Büyük ve tek parça gövdeler basmak isteyenlere ya da olası arızalarda en ucuz yedek parçayı arayanlara uymaz.
 
 **Artıları:**
-- Otomatik kalibrasyon, ilk katman stresini azaltır.
-- Hız, küçük işi aynı akşam bitirir.
-- Kompakt gövde, masa köşesine girer.
+- Otomatik kalibrasyon özelliği ilk katman stresini ortadan kaldırır.
+- Hızlı yapısı sayesinde ufak tefek işleri aynı akşam bitirir.
+- Masada az yer kaplayan kompakt bir gövdeye sahiptir.
 
 **Eksileri:**
-- Baskı alanı küçük, büyük parça dışarıda kalır.
-- Yedek parça pahalı.
+- Baskı alanı küçüktür, büyük boyutlu projeleri tek parça basamazsın.
+- Orijinal yedek parçaları pahalıdır.
 
 [Satın Al: Bambu Lab A1 Mini](aff://bambu-lab-a1-mini)
 
-## Filament, Alet ve Üçüncü Makine
+## Alternatif Seçenek, Filament ve Alet Seti
 
-Sunlu PLA, 1 kg'lık bir makara. Notta sorunsuz baskı, geniş renk ve uygun fiyat var. Nemden etkileniyor, marka tutarlılığı da eksi diye yazılmış. PLA ilk öğrenme plastiği olduğu için ABS'ye ve daha sıcak malzemeye ilk hafta girme. O iş kapalı kasa ve başka bir sıcaklık ister, burada o sıcaklığı uydurmayacağım.
+Bütçeyi çok zorlamadan otomatik seviyeleme arıyorsan Anycubic Kobra 2 üçüncü bir seçenek olarak öne çıkıyor. Hızlı çalışması ve uygun fiyatı avantaj sağlasa da çalışırken epey ses çıkarıyor, üstelik topluluk desteği Ender serisi kadar geniş değil. Sessiz bir odada gece baskı almayı düşünüyorsan bu gürültü can sıkabilir. Geniş bir kullanıcı desteği arayanlara ya da yatak odasında sessizce parça basmak isteyenlere Kobra 2 uymaz.
 
-Makarayı açıkta bırakma, çünkü nem yüzeyi pürüzlü ve kopan bir baskıya çevirir. Bir poşet ile nem alıcı, yazıcıdan ucuz bir sigorta.
-
-3D yazıcı alet setinde spatula, pense ve temizlik aletleri var. Set komple ve uygun fiyatlı, kalite ise orta. Spatula aşınır, yine de ilk gün lazım. Tabla sıcakken metal spatulayı dik saplama, yüzeyi çizersin. Parça soğusun, kenardan gir.
-
-Anycubic Kobra 2, otomatik seviyelemeli ve hızlı bir üçüncü seçenek. Fiyatı uygun, topluluk desteği az ve gürültülü. Ender'in forumunu ve A1 Mini'nin kutusunu istemeyip otomatik seviye isteyen kişi bakabilir. Gürültü gece baskısını yatak odasında bitirir, ürün notu da bunu saklamıyor.
-
-Kime uymaz? Sessiz bir salonda gece basacak kişiye Kobra 2 uymaz. Soru soracak geniş bir forum isteyen kişiye de topluluk eksi notu nedeniyle zayıf kalır.
+Yazıcı tek başına çalışmaz; yanına Sunlu PLA filament ve bir alet seti eklemen şart. Sunlu PLA, geniş renk çeşitliliği ve uygun fiyatıyla ilk denemeler için uygundur. Ancak neme karşı hassastır; paketi açtıktan sonra açık rafta bekletirsen havadaki nemi kapıp baskı yüzeyinde kabarcıklar oluşturabilir. 3D yazıcı alet setindeki spatula ve pense ise orta kalitede olsa da ilk günden itibaren işini görür; sıcak tabladan parçayı tırnakla sökmeye kalkıp yüzeyi çizmeni engeller.
 
 **Artıları:**
-- Sunlu PLA, ilk rengin ucuz ve çok seçenekli olması için yeterli.
-- Alet seti, parçayı tabladan sökmeyi tırnağa bırakmaz.
-- Kobra 2, otomatik seviye ile uygun fiyatı bir arada tutar.
+- Sunlu PLA, bütçeyi yormadan farklı renklerle deneme yapmanı sağlar.
+- Alet seti, parçayı tabladan ayırırken ve destekleri temizlerken işini kolaylaştırır.
+- Anycubic Kobra 2, uygun fiyata otomatik seviyeleme sunar.
 
 **Eksileri:**
-- PLA nemlenir, açık rafta bir ay bekletme.
-- Spatula orta kalite, zamanla biter.
-- Kobra 2 gürültülü ve topluluğu daha dar.
+- PLA filament açıkta kaldığında nemlenir, kuru bir yerde saklanmalıdır.
+- Alet setinin malzeme kalitesi orta seviyedir, spatula zamanla aşınabilir.
+- Kobra 2 çalışırken gürültülüdür ve topluluk desteği daha sınırlıdır.
 
 [Satın Al: Sunlu PLA Filament](aff://sunlu-pla-filament)
 
@@ -94,70 +74,32 @@ Kime uymaz? Sessiz bir salonda gece basacak kişiye Kobra 2 uymaz. Soru soracak 
 
 [Satın Al: Anycubic Kobra 2](aff://anycubic-kobra-2)
 
-## İlk Baskı Akşamı
+## İlk Baskıda Dikkat Edilecekler
 
-Yazıcıyı cereyansız ve düz bir masaya koy, halı üstünde sehpa sallanıyorsa ilk katman kayar. Filamenti üreticinin gösterdiği yoldan sürmeden ısıtma, boş nozul erimiş plastik kokusuyla tıkanır.
+Makineyi sarsılmayan düz bir masaya koymalısın; sallanan sehpa katmanların kaymasına yol açar. Açık pencereden gelen hava akımı da PLA'nın köşelerden kalkmasına sebep olabileceği için yazıcıyı cereyandan uzak tutmak gerekir. 
 
-İlk işin kutu, kapak veya heykel değil, küçük bir deneme parçası olsun. İlk katman düzgün yapışıyorsa ikinci işe geç, yapışmıyorsa tabla yüksekliğini ve temizliği kontrol et. Yağlı parmak PLA'yı iter, izopropil veya sıcak su ise tablayı yağdan arındırır. Kimyasal oran uydurmuyorum, tabla üreticisinin dediği sıvıya bak.
-
-A1 Mini'de otomatik kalibrasyonu atlama, Ender'de ise ilk katmanı gözünle izle. Kenar kalkıyorsa durdur, çünkü bütün gece hatalı bir ızgara basmak filament yakar.
-
-Baskı bitince parçayı hemen koparma, soğumasını bekle ve spatulayı kenardan, düz tutarak sür. Pense destek ile çapak içindir, çocuğun eline de sıcak tabla bırakma.
-
-## Filament, Tabla ve Gece
-
-PLA makarasını açık rafta bırakma. Sunlu notu nemden etkilendiğini söylüyor ve bir poşet ile kuru bir köşe, nozzle tıkanmasından ucuz. Rengi değiştirmeden önce besleme yolunu boşalt, eski renk yeni parçanın ilk katmanına karışır.
-
-Tabla yağlıysa PLA yapışmaz, parmağınla yokla ve iz bırakıyorsan yüzeyi üreticinin dediği şekilde sil. Metal spatulayı sıcak tablaya dik saplama. Alet setinin kalitesi orta olsa da tırnaktan iyidir, parça soğusun ve kenardan gir.
-
-Gece baskısı kuracaksan makineyi yatağın yanında bırakma. Kobra 2 gürültülü diye yazılmış, Ender ve A1 Mini de fan çevirir. Kapı aralığı hem yangın hem uyku için daha doğru bir yer. Baskıyı yarıda bırakıp çıkacaksan ilk katmanın oturduğunu gör, çünkü havada örümcek bağlamış bir iş bütün gece filament yer.
-
-İlk ay heykel ve kutu basma, küçük bir deneme parçası kalibrasyonu öğretir. Ender'de o parçayı gözünle izle, A1 Mini'de otomatik kalibrasyonu atlama. Büyük bir parçayı A1 Mini'ye sığdırmaya çalışma, tabla notu küçük diyor. Parçayı bölmek bir yol, her işi bölmek istemezsen Ender tarafına bak ve ölçüyü sipariş sayfasından oku, burada santim yok.
+İlk seferde karmaşık ve büyük bir şey basmak yerine küçük bir deneme parçası seç. Tablada elinden geçen yağ veya toz varsa plastik yapışmaz; üreticinin önerdiği şekilde tablayı temizleyip kurulamalısın. A1 Mini kullanıyorsan otomatik kalibrasyonun bitmesini bekle, Ender tarafındaysan ilk katmanı gözünle takip et. Parça kenardan kalkıyorsa baskıyı hemen durdurup ayarını yeniden yap; yoksa bütün gece boşa plastik harcarsın. Baskı bittiğinde de parçayı zorla çekme; tabla soğuyunca malzeme kendini bırakır, alet setindeki spatulayı kenardan düz bir açıyla sürerek kolayca alabilirsin.
 
 ## Sık Sorulan Sorular
 
 ### Ender 3 V3 mü, A1 Mini mi?
-
-Küçük parça basıp az ayar istiyorsan A1 Mini, ayar öğrenmek ve daha geniş bir topluluk istiyorsan Ender 3 V3. Büyük tek parça A1 Mini'ye sığmaz.
+Küçük parçalar basıp ayarla vakit kaybetmek istemiyorsan A1 Mini daha pratiktir. Baskı alanının biraz daha geniş olmasını istiyorsan, kalibrasyonu öğrenmeye hevesliysen ve geniş bir forum desteğine güvenmek istiyorsan Ender 3 V3 tarafına bakmalısın.
 
 ### Filament yazıcıyla birlikte gelir mi?
+Bu modellerin kutusunda işe yarar miktarda filament bulunmuyor. Yazıcıyı alırken Sunlu PLA gibi bir makarayı aynı anda sepete eklemen gerekir.
 
-Bu kayıtlarda filament ayrı. Sunlu PLA'yı aynı sepette al ve nemli rafta bekletme.
+### Anycubic Kobra 2 kimler için mantıklı?
+Otomatik seviyeleme isteyip bütçesini daha düşük tutmak isteyenler için mantıklıdır. Ancak gürültülü çalıştığını ve forumlarda Ender kadar geniş bir destek ağı bulamayacağını kabul etmen gerekir.
 
-### Üçüncü seçenek var mı?
-
-Anycubic Kobra 2 otomatik seviye ve uygun fiyat sunuyor. Gürültülü, topluluğu daha dar, gece yatak odasında basma.
-
-### Alet seti şart mı?
-
-İlk gün şart, çünkü spatulasız parça tablada kalır. Setin kalitesi orta, yine de tırnaktan iyi.
-
-## Hangi Makine Hangi Odaya
-
-Masa köşesi darsa A1 Mini'nin kompakt notu işe yarar. Büyük bir parça basmak istiyorsan aynı not seni durdurur, tabla küçük. Ölçüyü sayfadan oku ve parçayı kutuya sığdırmaya çalışma. Ender 3 V3 o parçayı kaldırmak için daha doğru bir kapı, kalibrasyon akşamını da kabul etmen gerekir. Topluluk, tıkanan nozulun fotoğrafını bir yerde bulmana yardım eder.
-
-Gürültü yatak odasını bölüyorsa Kobra 2'yi o odaya koyma. Ürün notu gürültülü diyor, Ender ve A1 Mini de fan çevirir. Kapı aralığı hem uyku hem yangın için daha doğru bir yer. Baskıyı yalnız bırakmadan önce ilk katmanın yapıştığını gör.
-
-Filament aynı gün alınır. Sunlu PLA nemlenir ve açık raf bir haftada yüzeyi bozar. Poşet ile kuru köşe, yedek nozzle'dan ucuz bir sigorta. Alet setinin spatulası orta kalite, yine de sıcak tablayı tırnakla kazımaktan iyi. Parça soğusun, kenardan gir.
-
-İlk ay heykel basma, küçük bir deneme hem Ender'in el ayarını hem A1 Mini'nin otomatik kalibrasyonunu öğretir. İkisini birden alma, biri diğerinin yedeği değil. Kurcalama istiyorsan Ender, az uğraş ve küçük parça istiyorsan A1 Mini.
-
-İlk makarayı tek renkte al. Sunlu PLA'nın çok rengi var. İlk hafta renk değiştirmek besleme yolunu boşaltmayı öğretir ama asıl ders ilk katmandır. Sepette bir renk, bir deneme parçası ve bir spatula olsun, bu üçü oturunca ikinci renk gelir.
-
-Yazıcıyı sallanan sehpaya koyma, ilk katman kayar ve suç nozzle'da sanılır, masa düz olsun. Cereyan ile açık pencere PLA'yı köşeden kaldırır, o yüzden kapıyı o baskı bitene kadar aralık bırakma. Bu, modelden bağımsız bir kural, Ender de A1 Mini de aynı rüzgarı sevmez.
-
-Tabla yapışmıyorsa önce temizlik, sonra yükseklik. Yeni bir yazıcı sipariş etmek yağlı parmağı çözmez ve aynı makinede ikinci deneme, birinci denemenin hatasını gösterir.
-
-İkinci baskı birinciyle aynı dosya olsun, ayar değiştiyse farkı görürsün. Her seferinde yeni bir model seçersen hatanın nereden geldiği gizlenir.
-
-Filament ucunu düz kes, çünkü ezik uç beslemeyi ilk santimde tıkar. Makas alet setinde yoksa mutfaktakini kullan, dişle koparma.
+### Alet seti almak şart mı?
+İlk gün için gereklidir. Sıcak tabladan parçayı elinle ya da rastgele bir bıçakla sökmeye çalışırsan hem parçayı kırabilir hem de baskı yüzeyini çizebilirsin.
 
 ## Bütçe, Orta ve Üst Paket
 
 | Paket | İçinde ne var | Kime uyar |
 | --- | --- | --- |
-| Bütçe | [Anycubic Kobra 2](aff://anycubic-kobra-2), [Sunlu PLA](aff://sunlu-pla-filament) ve [alet seti](aff://3d-tool-kit) | Otomatik seviye isteyip gürültüye katlanan kişi |
-| Orta | [Bambu Lab A1 Mini](aff://bambu-lab-a1-mini), PLA ve alet seti | Masa köşesinde küçük parçayı az ayarla basacak kişi |
-| Üst | [Ender 3 V3](aff://creality-ender-3-v3), PLA ve alet seti | Kalibrasyonu öğrenip topluluğa soru soracak kişi |
+| Bütçe | [Anycubic Kobra 2](aff://anycubic-kobra-2), [Sunlu PLA](aff://sunlu-pla-filament) ve [alet seti](aff://3d-tool-kit) | Uygun fiyata otomatik seviyeleme isteyip sese katlananlar |
+| Orta | [Bambu Lab A1 Mini](aff://bambu-lab-a1-mini), PLA ve alet seti | Az yer kaplasın, ayarla uğraştırmasın, küçük parça bassın diyenler |
+| Üst | [Ender 3 V3](aff://creality-ender-3-v3), PLA ve alet seti | İşi mekaniğiyle öğrenmek, geniş topluluktan faydalanmak isteyenler |
 
-Küçük oda ve az uğraş için Bambu Lab A1 Mini, masayı ve ayarı büyütmek için Creality Ender 3 V3. İkisine de PLA ile spatulayı aynı gün ekle.
+Az yerim var ve ayarla boğuşmak istemiyorum diyorsan Bambu Lab A1 Mini doğru bir başlangıç olur. Mekaniğe dokunmak, işin mantığını kavrayarak ilerlemek ve gerektiğinde bolca kaynak bulmak istiyorsan Creality Ender 3 V3 yönüne gitmelisin. Hangi gövdeyi seçersen seç, yanına bir makara PLA ve spatulalı alet setini eklemeyi unutma.

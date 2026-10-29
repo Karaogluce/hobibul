@@ -14,166 +14,98 @@ starter_text: "İlk set Canon EOS R100 travel kit. Sayfa APS-C, 24,1 MP, kit len
 draft: "false"
 ---
 
-İlk fotoğraf makineni lensi kutuda olan bir kitle al, çünkü gövde tek başına akşam çekmecede kalır. APS-C ile tam kareyi aynı hafta karıştırma. Biri başlangıç gövdesi, diğeri lens isteyen ayrı bir kapı; kapıyı fiyatla değil, kutuda ne yazdığıyla seç.
+Fotoğraf çekmeye niyetlendiysen ilk hatayı makineyi lenizsiz alarak yapma. Sadece gövdeyi alıp eve geldiğinde, o makine çekmecede öylece yatar çünkü bakacak bir camın olmaz. Eğer yeni başlıyorsan, APS-C sensörlü bir giriş seviyesi ile tam kare (full frame) makineler arasındaki o keskin çizgiyi en baştan anlaman lazım. Bu ayrımı fiyata bakarak değil, kutunun içinden ne çıktığına bakarak yapmalısın.
 
-## Kit Sayfası ile Gövde Sayfasını Ayır
+## R100 Travel Kit: İlk çekim için her şey içinde olsun dersen
 
-Canon EOS R100 RF-S 18-45mm kit başlıkta lensi söylüyor; gövde aynasız. Aynı sayfanın madde listesi başlığı tekrarlıyor. Megapiksel orada yok; yoksa travel kitin sayısından ödünç alma.
+Hafta sonu kutuyu açıp hemen çekime çıkmak istiyorsan en mantıklı paket bu. Canon EOS R100 Travel Kit içinde sadece makineyi değil, RF-S 18-45mm lensi, 64 GB hafıza kartını ve taşıma çantasını da getiriyor. 24,1 megapiksellik APS-C sensörü, telefonla çektiğin fotoğraflardan çok daha derinlikli kareler yakalamanı sağlar.
 
-Travel kit ayrı bir ASIN. Orada gövde ve RF-S 18-45mm, APS-C CMOS, 24,1 megapiksel yazıyor. Video maddesinde 4K UHD ve Full HD var; 4K için 24p, Full HD için 60p geçiyor. Kart yuvası SD, mikrofon 3,5 mm, ISO aralığı 100-25600. Bluetooth ve 2,4 GHz Wi-Fi da yazıyor. Sette omuz çantası ve 64 GB kart geçiyor.
+Video tarafında 4K seçeneğin var ama 24p ile sınırlı; yani çok hızlı hareket eden sahnelerde o akıcılığı bulamayabilirsin. Eğer hareketli bir günce tutacaksan, aynı paketteki Full HD 60p seçeneği senin için çok daha dürüst bir tercih olur. ISO aralığı 100-25600 arasında, bu da ışık azaldığında çekim yapabilmen demek; ama yine de gece çekimlerinde mucizeler bekleme, ışığın olduğu yerde kalmaya çalış.
 
-İki sayfa iki ürün. 24,1 sayısını lensli sade kitin maddesine yapıştırma. Sade kit lensi başlıkta veriyor, ölçüyü travel sayfası veriyor. İkisini de aç ve hangisinin çantası olduğunu gör.
-
-Sony Alpha 7 III gövde sayfası 24,2 MP, 4K, beş yönlü sabitleme ve 0,02 saniye odak diyor. Eurasia garanti ibaresi başlıkta, lens yok, su dayanımı ise madde listesinde geçiyor. Bu kontrolde sepete düğmesi net ayrışmadı; stok yoksa zorlama.
-
-Katalogdaki Canon EOS R50 ve Sony A6400 ayrı kayıtlar. Onların `/dp/` sayfası bu turda yok, link arama açar. R100 sayfalarıyla karıştırma.
-
-Havadan kare başka bir alet; [Drone seçimi](/makale/drone-secimi-yeni-baslayanlar-icin/) orada, kategori de [fotoğrafçılık](/kategori/sanat/fotografcilik/).
-
-## R100 Travel Kit: Sayılar Bu Sayfada
-
-Travel kit, başlangıç için en dolu doğrulanmış kayıt. 24,1 MP APS-C, kit lens de RF-S 18-45mm. 4K var, ama madde 24 kare diyor. Hızlı hareket, 4K 24p ile akıcı bir yavaş çekim olmaz. Full HD 60p aynı maddede duruyor; hızlı bir oyun günü için oraya bak.
-
-64 GB kart sette yazıyor; ikinci kartı ilk gün alma. Kart dolar, çekim de büyür. Çanta da sette; ayrı bir sırt çantası bu kaydın vaadi değil.
-
-ISO 100-25600 yazıyor. Genişletilmiş bir üst sınır bu maddede yok; yoksa ekleme. Wi-Fi 2,4 GHz, 5 GHz yazmıyor. Ev ağın yalnızca 5 GHz ise sayfayı buna göre oku.
-
-Tam kare ve gövde içi sabitleme romanı isteyen kişiye uymaz; o kişi A7 III başlığına baksın. Lenssiz bir sinema gövdesi arayan da travel kitin çantasını boşuna taşımasın.
+**Kimlere uymaz:** Profesyonel seviyede gövde içi sabitleme arayanlara veya sadece "tam kare" sensörün o geniş dünyasını hedefleyenlere hitap etmez.
 
 **Artıları:**
-- 24,1 MP APS-C ve kit lens.
-- Çanta ve 64 GB kart sette.
-- 4K ve Full HD aynı maddede.
+- 24,1 MP sensör ve lensle birlikte gelmesi.
+- Kart ve çantanın pakete dahil olması sayesinde ek alışveriş gerektirmemesi.
+- 4K ve Full HD seçeneklerinin bir arada sunulması.
 
 **Eksileri:**
-- 4K kaydı 24p diyor.
-- Tam kare değil.
+- 4K kaydının 24 karede kalması akıcılığı etkileyebilir.
+- Tam kare bir sensör değil.
 
 [Satın Al: Canon EOS R100 Travel Kit](aff://canon-eos-r100-travel)
 
-## Sade R100 Kit: Lens Var, Sayı Yok
+## Sade R100 Kit: Kartın ve çantan zaten varsa
 
-Sade kitin başlığı RF-S 18-45mm ve aynasız diyor. Sepete ekle bu kontrolde görüldü. Megapiksel, ISO ve kart maddesi yok; travel kitin 24,1 sayısını buraya kopyalama, kopyalarsan yanlış kutunun özelliğini anlatmış olursun.
+Eğer elinde halihazırda kaliteli bir SD kartın ve makineni koyacağın bir çantan varsa, Travel Kit'e fazladan bütçe ayırmana gerek yok. Bu pakette de RF-S 18-45mm lens var, yani makineyi hemen kullanmaya başlayabilirsin. Ancak bu sayfanın özellik listesinde megapiksel veya ISO detayları açıkça belirtilmemiş; bu yüzden Travel Kit'teki verilerin aynısını burada arama.
 
-Çanta ve 64 GB bu başlıkta yok. Kartın varsa sade kit yeter; kartın yoksa travel kit daha az eksik çıkarır, çünkü ikinci bir kutu aramak ilk haftayı yer.
+Bu paket, "benim temel ihtiyacım sadece makine ve lens" diyenler için bir alternatif. Kartın yoksa bu seti alıp ilk gün eve dönmek, çekim yapamadan kart siparişi beklemek anlamına gelir.
 
-Kutuda kart ve çanta görmek isteyen kişiye uymaz. Sayıyı madde madde okumak isteyen de travel sayfasında kalsın.
+**Kimlere uymaz:** Kutusundan her şey tam çıksın diyen, teknik detayları kutu üzerinde madde madde görmek isteyen birine gelmez.
 
 **Artıları:**
-- Lens başlıkta.
-- Aynasız kit.
-- Sepet düğmesi görüldü.
+- Aynasız sisteme en hızlı giriş yolu.
+- Lens kutu içeriğine dahil.
 
 **Eksileri:**
-- Megapiksel maddesi yok.
-- Çanta ve kart ayrı.
+- Hafıza kartı ve çanta gibi temel aksesuarlar yok.
+- Ürün sayfasında detaylı teknik veri eksikliği var.
 
 [Satın Al: Canon EOS R100 Kit](aff://canon-eos-r100-kit)
 
-## Sony A7 III: Lens Ayrı
+## Sony A7 III: Sadece gövde, profesyonel hedef
 
-A7 III gövde, tam kare 24,2 MP. 4K, beş yönlü sabitleme ve 0,02 saniye odak başlıkta. Su dayanımı maddede. Lens maddede yok.
+Sony A7 III tam kare (full frame) bir canavar; 24,2 MP sensörü, 5 yönlü sabitleme sistemi ve inanılmaz hızlı odaklamasıyla bambaşka bir ligde. Ama dikkat et, bu sayfada satılan sadece gövde. Yani yanında bir lens gelmiyor. Eğer E-mount bir lensin yoksa, bu makineyi aldığın gün fotoğraf çekemezsin.
 
-Lens yoksa ilk akşam çekim de yok. E-mount bir lens ayrıca alınır; o lensin sayfasını bu turda doğrulamadım ve gövde linki lens getirmez.
+Eurasia garantisiyle gelmesi büyük avantaj, gövdenin suya ve toza dayanıklı yapısı da dış çekimlerde sana güven verir. Ancak stok durumu her zaman net olmayabiliyor; satın almadan önce düğmeyi kontrol etmende fayda var.
 
-İlk makinesi olan ve tek kutu isteyen kişiye uymaz; R100 travel kit o kişi için duruyor. Stok düğmesi bu kontrolde net değil. Sayfayı aç, düğme yoksa bekleme listesine girme.
+**Kimlere uymaz:** İlk makinesini alan ve "tak-çalıştır" bir çözüm arayanlara kesinlikle uymaz. Lens bütçesini ayrıca planlamayanı üzer.
 
 **Artıları:**
-- Tam kare 24,2 MP başlıkta.
-- Sabitleme ve 4K başlıkta.
-- Odak süresi başlıkta yazıyor.
+- Tam kare sensörle yüksek görüntü kalitesi.
+- Gövde içinde 5 yönlü sarsıntı engelleme.
+- Çok hızlı (0,02 sn) otomatik odaklama.
 
 **Eksileri:**
-- Lens ayrı.
-- Stok düğmesi net ayrışmadı.
+- Lens dahil değil, ayrıca alman gerekiyor.
+- Stok durumu belirsiz olabiliyor.
 
 [Satın Al: Sony A7 III Gövde](aff://sony-a7-iii-body)
 
-## Katalogdaki R50, A6400 ve Kart
+## Diğer modeller ve yardımcı ekipmanlar
 
-EOS R50 katalogda kompakt, otomatik odak ve 4K video diyor. Lens kiti ayrı, pil küçük. Bu bir arama linki; R100 ile aynı kutu değildir.
+Eğer havadan çekim yapmak istersen [Drone seçimi](/makale/drone-secimi-yeni-baslayanlar-icin/) yazımıza bakabilirsin; genel fotoğraf dünyası içinse [fotoğrafçılık](/kategori/sanat/fotografcilik/) kategorimiz seni bekliyor. Katalogda karşına çıkabilecek diğer seçeneklere de şöyle bir değinelim:
 
-A6400 katalogda hızlı otomatik odak, video ve kompakt diyor. Menü karmaşık, pil küçük. O da arama linki. Menü karmaşıksa ilk hafta R100 travel kit daha sakin bir kapı olabilir. Bunu bir test diye yazmıyorum; katalog notu karmaşık diyor.
-
-SanDisk Extreme Pro katalogda yüksek hız, 4K uyum ve dayanıklılık diyor. Eksi tarafı kapasite seçimi. Travel kit zaten 64 GB yazıyor; ikinci kart arayana bu kayıt duruyor, ama sayfası doğrulanmadı.
-
-Peak Design askı katalogda hızlı bağlantı ve konfor diyor. Pahalı, metal parça da var ve askı şart değil. Travel kitte omuz çantası yazıyor; çanta askının yerine geçmez, boyun askısı ayrı düşünülür.
-
-Manfrotto kompakt tripod katalogda hafif ve sağlam diyor. Yük kapasitesi sınırlı. R100 hafif bir başlangıç gövdesi. Ağır bir tam kare ve uzun bir lens, sınırlı kapasiteye uymaz. A7 III'e tripod alacaksan kapasite notunu oku. Sayı yok; yoksa kilo uydurma.
-
-Tek kutu isteyen kişi bu katalog parçalarını ilk gün almasın; önce travel kit otursun.
-
-**Artıları:**
-- R50 ve A6400 katalogda kompakt.
-- Extreme Pro ikinci kart adayı.
-- Tripod, sabit kare için duruyor.
-
-**Eksileri:**
-- Bu dördünün `/dp/` sayfası yok.
-- R50'de lens ayrı yazıyor.
+- **Canon EOS R50:** Daha kompakt bir yapı ve otomatik odaklama odaklı bir cihaz ama lens durumunu ayrıca kontrol etmen lazım.
+- **Sony A6400:** Hızlıdır, kompakttır ama menüsü yeni başlayanlar için biraz karmaşık gelebilir.
+- **SanDisk Extreme Pro:** Eğer Travel Kit içindeki 64 GB sana yetmezse, hızlı bir yedek kart olarak aklında bulunsun. Ama önce elindekini doldur, hemen harcama yapma.
+- **Tripod ve Askı:** Manfrotto kompakt tripod hafif makineler için iyidir ama A7 III gibi ağır bir gövdeye uzun lens takarsan kapasite sınırlarını zorlayabilirsin. Peak Design askılar ise konforlu ama başlangıç için şart değil.
 
 [Satın Al: Canon EOS R50](aff://canon-eos-r50)
 
-## İlk Hafta Kart, Çanta ve Işık
+## Teknik detaylarda boğulmadan bilmen gerekenler
 
-Travel kitteki 64 GB dolmadan ikinci kart açma. Kart dolar ve yedek sandığın dosyayı silersin; silmeden önce bilgisayara al. Bunu bir yazılım dersi sanma: kopyala, sonra format at.
+Makineyi aldığında ISO'yu hemen en sona (25600) dayama. Bu sayı arttıkça fotoğrafta "kumlanma" dediğimiz o lekeler artar. Mümkün olduğunca taban değer olan 100 civarında kalmaya çalış. Wi-Fi üzerinden telefona görüntü aktarırken de makinenin 2,4 GHz bandını kullandığını unutma; eğer evdeki ağın sadece 5 GHz ise bağlantı sorunlarını kabloyla çözebilirsin.
 
-4K 24p akan suyu ipek yapmaz. Full HD 60p maddede duruyor; hızlı çocuk ve sokak için oradan başla, 4K'yı ise manzara ve sabit karede dene. İkisini aynı saniyede bekleme.
+Hafıza kartını makinede silmeden önce mutlaka bilgisayara kopyala. Kartı formatlamak tüm emeklerini bir saniyede silebilir. Eğer video çekeceksen, 3,5 mm mikrofon girişi ileride işine yarayacak ama ilk haftadan mikrofon peşinde koşmana gerek yok; önce görüntüyü bir oturt.
 
-ISO 25600 tavan diye her gece oraya çıkma. Tavan kumlanma demektir. Madde bunu anlatmıyor; anlatmayınca temiz bir gece vaadi de yok. Işık varsa ISO'yu tabanda tut. 100 yazıyor, oradan başla.
+## Merak edilen birkaç detay
 
-Wi-Fi 2,4 GHz olduğu için telefonuna aktarım vaadi evdeki 5 GHz ağda susabilir. Kablo duruyorsa kablo daha az sürpriz çıkarır. 3,5 mm mikrofon video için ayrı bir kapı; ilk hafta şart değil. Görüntü otursun, ses ikinci haftaya kalsın.
+**R100'ün iki kiti arasındaki fark sadece aksesuar mı?**
+Aslında evet. Travel Kit, 24,1 MP olduğu tescilli, içinde kartı ve çantası olan tam bir başlangıç paketi. Sade kitte ise bu ekstralar yok, sadece lens ve gövde var.
 
-A7 III aldıysan lens gelmeden gövdeyi şarja koy. Şarj çekim değildir. Eurasia ibaresi başlıkta; garanti kapsamını başlıktan hukuk diye üretme, kutudaki kağıdı oku.
+**Sony A7 III neden daha pahalı?**
+Çünkü sensörü "tam kare". Yani ışığı toplama alanı daha geniş, bu da profesyonel sonuçlara daha yakın olmanı sağlar. Ama lensi ayrı alman gerektiğini unutmamalısın.
 
-R50 aramasını R100 diye kaydetme; başlık saparsa geri dön. Aynı marka aynı kutu demek değildir. A6400 da Sony diye A7 III'ün küçüğü sayılmaz. Katalog pilin küçük olduğunu söylüyor; iki küçük pil bir tam kare gövde etmez.
+**4K çekim yapmak şart mı?**
+Her zaman değil. Eğer çok hızlı hareket eden nesneleri çekiyorsan, Full HD 60p sana daha akıcı ve izlemesi keyifli bir görüntü verir. 4K'yı daha çok manzara gibi durağan sahnelerde tercih et.
 
-Çantayı travel kitten çıkarıp A7 III'e takma hayali kurma, çünkü çanta o setin parçası. Gövde değişince askı ve kapasite de değişir. Manfrotto kaydı yükü sınırlı diyor; sınırın kilosu yok, ağır gelirse indir.
+## Senin için en uygun yol hangisi?
 
-## Kart, Boyun ve İlk Yüz Çekim
-
-64 GB dolmadan silme; önce bilgisayara kopyala, çünkü kopya yoksa format çekimi bitirir. Travel kit bu kartı sette sayıyor, sade kit saymıyor. Hangi kutuyu açtığını karıştırırsan kart yok sanırsın, o yüzden kutu kapağını oku.
-
-Boyun askısı yoksa çanta kayışı idare eder, ama kayış yürüyüş askısı değildir. Peak Design araması o iş için duruyor ve pahalı notu katalogda; ilk hafta çanta yeter. Metal parça ceket yakasını çizer, çizerse askıyı ikinci aya bırak.
-
-İlk yüz çekiminde 4K 24p açma. Full HD 60p daha az yer tutar ve madde ikisini de yazıyor. Yüz hareket ettiği için 24 kare her gülüşü tek kare gibi bölebilir. Bunu bir sinema övgüsü sanma; kayıt yalnızca kare sayısını veriyor.
-
-ISO'yu 25600'e kilitleme, çünkü tavan gece izni değildir. Lambayı yak ve ISO'yu 100 civarında tut. "Civarında" bir katalog sayısı değil; taban 100 yazıyor, oradan ayrılman gerekirse az ayrıl.
-
-Wi-Fi aktarımı 2,4 GHz; telefonun bu bandı kapalıysa kablo kullan. Kablo tipi sayfada tek bir zorunlu model değil. 3,5 mm mikrofon da ilk gün değil, görüntü dosyası düzgün kopyalanıyorsa sesi sonra eklersin.
-
-A7 III gövdesini lensesiz çantaya koyma, çünkü toz açık yuvaya girer. Kapak kutuda mı, bu kontrolde madde demiyor; demiyorsa kapak var sanma ve açık yuvayla seyahat etme.
-
-R50 aramasında "lens kiti ayrı" katalogda. Ayrı yazıyorsa travel kitteki 18-45 hazırlığı onda yoktur; başlığı R100 sandıysan geri dön. A6400 menü notu karmaşık, ilk hafta menüyle kavga etmek istemiyorsan o aramayı ertele.
-
-Pil küçük notu R50 ve A6400 katalogunda. R100 travel sayfası pil boyu yazmıyor; yazmıyorsa küçük deme. Yedek pil uydurma. Bir pil biterse çekim biter, bunu yaşamadan ikinci pil arama. Arama linki başka bir kapasite getirir. İlk yüz çekimini pili doluyken yap; boş pil 24,1 megapikseli rafta bırakır.
-
-## Sık Sorulan Sorular
-
-### Sade kit ile travel kit aynı sayı mı?
-
-Başlıklar benziyor, ama 24,1 MP, ISO ve 64 GB kart travel sayfasında. Sade kitin maddesi başlığı tekrarlıyor; sayıyı oradan okuma.
-
-### A7 III ilk makine olur mu?
-
-Gövde olur, set olmaz, çünkü lens ayrı. Stok düğmesi bu kontrolde net değil. Tek kutu istiyorsan R100 travel kit duruyor.
-
-### 4K şart mı?
-
-Travel kitte var ve 24p diye yazılmış. Full HD 60p aynı maddede duruyor; hızlı hareket için 60p daha dürüst bir ilk ay.
-
-### İkinci kart ne zaman?
-
-64 GB dolunca Extreme Pro aramasına bakarsın, ilk gün değil.
-
-## Bütçe, Orta ve Üst Paket
-
-Rakam sayfada değişir. Stok da değişir.
-
-| Paket | İçinde ne var | Kime uyar |
+| Seçenek | Ne Sunuyor? | Kime Hitap Ediyor? |
 | --- | --- | --- |
-| Bütçe | [R100 sade kit](aff://canon-eos-r100-kit) | Kartı olan, megapikseli travel sayfasından okumayan kişi |
-| Orta | [R100 travel kit](aff://canon-eos-r100-travel) | 24,1 MP, lens, çanta ve 64 GB isteyen kişi |
-| Üst | [A7 III gövde](aff://sony-a7-iii-body) | Tam kare isteyen, lensi ayrıca alacak kişi |
+| [R100 Sade Kit](aff://canon-eos-r100-kit) | Lens ve Gövde | Kartı ve çantası önceden hazır olanlara. |
+| [R100 Travel Kit](aff://canon-eos-r100-travel) | Lens, Çanta, 64GB Kart | "Hemen çekime başlamak istiyorum" diyenlere. |
+| [A7 III Gövde](aff://sony-a7-iii-body) | Sadece Profesyonel Gövde | Bütçesi olan ve lensi ayrıca seçecek olanlara. |
 
-İlk kutun travel kit olsun. Tam kareyi lenssiz gövde diye ayrıca düşün ve kartı dolmadan silme.
+Eğer bu işe yeni giriyorsan, maceraya atılmadan **Canon EOS R100 Travel Kit** ile başlaman en güvenli yol olur. Her şeyi tek kutuda çözersin, teknik detaylarla boğulmak yerine fotoğraf çekmeye odaklanırsın. Elindeki kart dolduğunda ise fotoğrafları bilgisayara aktarmayı sakın unutma!

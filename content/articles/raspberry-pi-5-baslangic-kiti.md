@@ -14,148 +14,87 @@ starter_text: "Kutudan çıkınca çalışsın diyorsan GeeekPi Pi 5 8GB kiti. Y
 draft: "false"
 ---
 
-Raspberry Pi 5 8GB güçlü bir tek kart bilgisayar, ama kartı masaya bırakınca kendi kendine masaüstüne dönmüyor. Soğutucu ayrı isteniyor, adaptör de kutuda yok; ürün notu ikisini de eksi diye yazıyor. Başlangıçta ya bu parçaları tek tek toplarsın ya da içindekiler listesi dolu bir kit alırsın.
+Raspberry Pi 5 8GB aldığında eline sadece çıplak bir kart geçiyor; ne bir soğutucusu var ne de adaptörü. Eğer masaya öylece bırakırsan kendi kendine bir bilgisayara dönüşmesini bekleme. Bu kartı gerçekten kullanabilmek için ya tek tek parça toplayacaksın ya da her şeyin içinde olduğu dolu bir kit seçeceksin. 
 
-GeeekPi seti, Amazon.com.tr kaydında Pi 5 8GB, metal kasa, aktif soğutucu, 64GB SD kart, HDMI kablosu, NVMe kartı ve 27W USB-C adaptör ile geçiyor. Adaptör resmi Raspberry Pi adaptörü değil ve NVMe disk de sette yok, diski ayrıca alırsın. Kartı ve resmi adaptörü ayrı tutmak istersen ikinci yol aşağıda duruyor.
+İşin elektronik kısmıyla daha derin ilgileniyorsan [Raspberry Pi ekipmanları](/kategori/teknoloji/raspberry-pi-elektronik/) sayfasına bakabilirsin, genel liste ise [teknoloji](/kategori/teknoloji/) bölümünde duruyor. Eğer niyetin kod yazmak değil de plastik parçalar basmaksa, o zaman [3D yazıcı karşılaştırması](/makale/3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini/) yazısına geçmen daha doğru olur.
 
-Elektronik tarafı [Raspberry Pi ekipmanları](/kategori/teknoloji/raspberry-pi-elektronik/) sayfasında, üst liste de [teknoloji](/kategori/teknoloji/). Arduino Uno başka bir iş; onu Pi'nin ucuz hali sanma. Plastik parça basmak da ayrı bir alet, onun yeri [3D yazıcı karşılaştırması](/makale/3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini/).
+## Raspberry Pi 5 8GB Sadece Kart Olarak Alınır mı?
 
-## Kart: Raspberry Pi 5 8GB
+Pi 5 8GB oldukça güçlü bir işlemciyle geliyor ve geniş bir topluluk desteğine sahip. 8 GB RAM kapasitesi, tarayıcıda çok sekme açtığında veya arkada küçük bir sunucu çalıştırdığında sana rahat bir nefes aldırır. Eğer sadece basit bir LED yakıp söndüreceksen bu kart sana fazla gelir; o iş için Arduino çok daha mantıklı bir yerde duruyor.
 
-Pi 5 8GB, güçlü işlemcisi, çok amaçlı kullanımı ve geniş topluluğuyla duruyor. Soğutucu gerekir, aksesuar da kartın yanında gelmez.
-
-Sekiz gigabayt, tarayıcı ve hafif bir masaüstü için 4 GB kayıtlardan daha rahat bir nefes bırakır. 4 GB'lık sürümün fiyatı burada yok; karar, aynı anda kaç iş açacağına bakıyor. Dosya sunucusuyla küçük bir projeyi birlikte düşüneceksen 8 GB ferah kalır. Yalnızca bir LED yakacaksan bu kart fazla gelir, o iş Arduino'da daha yerinde durur.
-
-Topluluk, Türkçe ve İngilizce anlatımı bol bir kapı. Takıldığın hatanın ekran görüntüsü bir yerde vardır; bu, kapalı bir kutunun vaadi değil, forum ve resmi belge okumayı kabul eden kişi için artı.
-
-Adaptörle soğutucuyu "nasıl olsa kutudadır" diye bekliyorsan bu kart sana uymaz, çünkü ikisi de kutuda değil. Telefon şarj aletiyle zorlamak da doğru değil. Pi 5, 27W sınıfı bir kaynak istiyor ve resmi adaptörün notu da bunu söylüyor. Zayıf bir adaptör, disk ve USB takılınca kartı yeniden başlatır.
+Bu kartın en büyük eksisi, kutusundan soğutucu veya adaptör çıkmaması. "Evdeki telefon şarjıyla idare ederim" diye düşünüyorsan yanılırsın; Pi 5, 27W gücünde kararlı bir kaynak istiyor. Zayıf bir adaptör kullandığında, karta bir disk veya USB taktığın an sistemin yeniden başladığını görürsün. Ayrıca soğutucu takmazsan, işlemci yük altında hemen ısınır ve performansı düşürür.
 
 **Artıları:**
-- İşlemci, eski Pi nesline göre daha çok iş kaldırır.
-- 8 GB, masaüstü ve küçük sunucuda nefes bırakır.
-- Kurulum hatasında takılırsan topluluk seni yalnız bırakmaz.
+- İşlemcisi eski nesillere göre çok daha hızlı.
+- 8 GB RAM, masaüstü kullanımı ve çoklu işlemler için ferah bir alan sağlıyor.
+- Takıldığın bir yer olursa internette çözümünü bulman çok kolay.
 
 **Eksileri:**
-- Soğutucu takılı değilse kart yük altında ısınır.
-- Adaptör, kart ve depolama ayrı kalem olarak kalır.
+- Soğutucu ve adaptör gibi temel parçalar kutuya dahil değil.
+- Tüm parçaları ayrı ayrı almak maliyeti artırabilir.
 
 [Satın Al: Raspberry Pi 5 8GB](aff://raspberry-pi-5)
 
-## Güç: Resmi 27W Adaptör
+## Gücü Sağlama Al: Resmi 27W Adaptör
 
-Raspberry Pi 5 resmi adaptör 27W USB-C. Kayıtta resmi uyum, kararlı güç ve bir güvenlik notu var; yalnızca Pi 5 için ve fiyatı orta.
+Kartı çıplak alıyorsan yanına mutlaka [Raspberry Pi Resmi Adaptör](aff://rpi-power-supply) eklemeni öneririm. Resmi parça kullanmak, ucuz bir telefon adaptörüyle risk almaktan çok daha mantıklıdır. 27W gücü sayesinde kartın ihtiyacı olan enerjiyi tam olarak sağlar ve USB-C ucuyla eski tip karmaşalara son verir. 
 
-GeeekPi setindeki adaptör de 27W sınıfında, fakat ürün kaydı onun resmi Raspberry adaptörü olmadığını söylüyor. Kartı çıplak alacaksan resmi adaptör daha sakin bir seçim olur. Set alacaksan aynı gün ikinci bir resmi adaptör alma; çekmecede yedek diye durur, istersen sonra alırsın.
-
-Pi 4 veya daha eski bir kartı "uç aynı" diye bu adaptörle beslemeye kalkarsan uymaz, çünkü not yalnızca Pi 5 diyor ve eski kartın kendi adaptörü duruyor.
+Şunu unutma: Bu adaptör sadece Pi 5 için öneriliyor. Eğer elinde Pi 4 veya daha eski bir model varsa, uçları aynı görünse de bu adaptörü onlar için kullanma. Ayrıca birazdan bahsedeceğim GeeekPi setini alacaksan, içinden zaten bir adaptör çıkacağı için bunu ekstra olarak almana gerek yok.
 
 **Artıları:**
-- 27W, Pi 5'in beklediği güç sınıfına denk geliyor.
-- Resmi parça, ucuz bir telefon adaptöründen daha öngörülebilir.
-- USB-C uç, eski micro USB karışıklığını kesiyor.
+- Pi 5'in tam performans çalışması için gereken gücü verir.
+- Resmi parça olduğu için uyum sorunu yaşatmaz.
 
 **Eksileri:**
-- Pi 4 ve daha eski kartlar için alınmaz.
-- Sette zaten bir 27W varsa ikinci kez alma.
+- Sadece Pi 5 ile uyumlu, eski kartlarda kullanılmaz.
 
 [Satın Al: Raspberry Pi 5 Resmi Adaptör](aff://rpi-power-supply)
 
-## Hepsi Bir Arada: GeeekPi Set
+## Her Şey Tek Kutuda: GeeekPi Seti
 
-GeeekPi başlangıç kiti kartı, soğutucuyu, kasayı, 64GB SD'yi, HDMI kablosunu ve 27W adaptörü aynı listeye yazıyor. NVMe kartı var, diskin kendisi yok; adaptör de resmi değil.
+Parça parça ürün aramaktan yorulduysan [GeeekPi Raspberry Pi 5 8GB Kiti](aff://geeekpi-pi5-baslangic-kiti) senin için en pratik yol. İçinde metal kasa, aktif soğutucu, 64GB SD kart ve HDMI kablosu gibi kurulumda unutabileceğin her şey var. Hatta NVMe kart yuvası bile eklemişler ama içinde disk gelmiyor, diski ayrıca alman lazım.
 
-Tek tek aramaktan yorulduysan bu liste anlamlı hale geliyor. SD kart yoksa Pi açılmaz, HDMI yoksa ekranı göremezsin, soğutucu yoksa yük altında ısı gelir; set bu üç unutkanlığı kapatır. Metal kasa, masada çıplak kart bırakmamanı da çözer.
-
-Resmi adaptör ve kendi seçtiğin kasa istiyorsan bu set sana uymaz, çünkü adaptör üçüncü parti. NVMe takacağım diye sepeti şişirme, disk sette yok. Kart zaten elindeyse bu seti alma, yoksa ikinci bir Pi 5 gelir.
+Setteki adaptör resmi bir Raspberry ürünü değil ama 27W sınıfında işini görüyor. Eğer "her parçam resmi marka olsun" gibi bir takıntın yoksa, bu set seni büyük bir zahmetten kurtarır. Ancak elinde zaten SD kart veya kasa varsa, bu sete boşuna para dökme; sadece ihtiyacın olanları tek tek al.
 
 **Artıları:**
-- Soğutucu ve kasa, kartla birlikte aynı kutuda duruyor.
-- SD kart ve HDMI, ilk açılışı ekrana kadar taşıyor.
-- 27W adaptör sette olduğu için ayrı telefon şarjı aranmaz.
+- Soğutucu, kasa ve kablolar tek pakette geliyor.
+- SD kart ve HDMI kablosu sayesinde ilk kurulumu hemen yapabiliyorsun.
 
 **Eksileri:**
-- Adaptör, resmi bir Raspberry Pi parçası değil.
-- NVMe disk ayrıca alınır; kart yalnızca yuvayı verir.
+- Adaptörü resmi Raspberry markası değil.
+- NVMe yuvası var ama içinden SSD disk çıkmıyor.
 
 [Satın Al: GeeekPi Raspberry Pi 5 8GB Kiti](aff://geeekpi-pi5-baslangic-kiti)
 
-## Sensör ve Arduino
+## Elektronik Öğrenmek İçin Sensörler ve Arduino
 
-Freenove başlangıç kiti, Raspberry Pi ve Arduino için sensörlü bir eğitim kutusu. Kapsamı geniş, eğitici dokümanı var ve fiyatı uygun; parça kalitesi orta, kutu içi düzen de karışabiliyor.
+Pi 5'i kurup masaüstünü açtıktan sonra bir şeylere fiziksel olarak dokunmak istersen, [Freenove Başlangıç Kiti](aff://freenove-starter-kit) iyi bir kapı açar. İçindeki sensörler ve eğitici dokümanlar sayesinde rastgele kablo bağlayıp kartı yakma riskin azalır. Parça kalitesi orta seviye olsa da öğrenme aşamasında işini fazlasıyla görür.
 
-Pi masaüstüne döndükten sonra bir şeye dokunmak istersen sensör seti o kapıyı açar. Doküman, boş bir LED'i rastgele bağlamaktan daha az yakar. Parça kalitesi orta olduğu için kırılan bir jumper teli seti çöpe attırmaz; yedek tel ucuzdur. Yalnızca medya kutusu kuracaksan Freenove sana uymaz, çünkü sensör o rafta toz olur.
-
-Arduino Uno R3 klasik bir mikrodenetleyicidir; yaygın, öğrenmesi kolay ve kaynak bol, belleği sınırlı, kılıfı da ayrı. Pi bir bilgisayar, Arduino bir kontrol kartı ve ikisi yarışmaz. Lamba, motor, basit sensör ve gerçek zamanlı küçük döngü Arduino'da daha sade durur. Tarayıcı, kamera sunucusu ve Linux ise Pi'de kalır. İkisini aynı projede konuşturmak ileri bir iş, ilk kitte birini seç. Elektronik öğrenip ekran istemiyorsan Uno daha küçük bir kapı; ekran ve Linux istiyorsan Pi 5.
+Eğer niyetin Linux işletim sistemiyle uğraşmak değil de sadece lamba yakmak veya motor döndürmekse, [Arduino Uno R3](aff://arduino-uno-r3) senin için daha doğru bir başlangıç olur. Arduino bir bilgisayar değil, basit bir kontrol kartıdır. Pi 5'e göre çok daha kısıtlı bir belleği vardır ama gerçek zamanlı işlerde daha sadedir. Linux ve tarayıcı istiyorsan Pi 5, sadece elektronik devre kuracaksan Uno mantıklı.
 
 **Artıları:**
-- Freenove, sensörü boş bir poşet yerine dokümanla birlikte verir.
-- Uno, Pi almadan küçük bir devreyi öğrenmene yeter.
-- Pi 5 her iş için fazla kaldığında ikisi de yerinde durur.
+- Freenove seti, sensörleri dokümanlarla birlikte verdiği için öğrenmeyi kolaylaştırıyor.
+- Uno, küçük projeler için Pi'den çok daha ucuz ve sade bir seçenek.
 
 **Eksileri:**
-- Freenove'da parça kalitesi orta ve kutu kolay karışır.
-- Uno'nun belleği küçük kalır ve üzerinde Linux çalışmaz.
+- Freenove içindeki parçalar çok hassas, dikkatli kullanmak gerekiyor.
+- Arduino üzerinde bir işletim sistemi (Linux gibi) çalıştıramazsın.
 
 [Satın Al: Freenove Başlangıç Kiti](aff://freenove-starter-kit)
-
 [Satın Al: Arduino Uno R3](aff://arduino-uno-r3)
 
-## İlk Açılış
+## İlk Kurulumda Nelere Dikkat Etmelisin?
 
-Gücü vermeden önce SD karta sistemi yaz, çünkü boş kart siyah ekran demektir. Yazma işini başka bir bilgisayarda, resmi imajla yap. Hangi imajın güncel olduğunu o günkü belgeden oku; sürüm numarası uydurmayacağım.
+Kutu eline ulaştığında hemen fişe takma. Önce başka bir bilgisayarda resmi imaj yazıcıyı kullanarak SD karta sistemi yazmalısın. Boş bir kartı Pi'ye takarsan ekranda hiçbir şey göremezsin. Kasayı toplamaya başladığında ise önce soğutucuyu tak; çünkü kasa kapandıktan sonra soğutucunun vidalarına ulaşmak işkenceye dönüşebilir.
 
-Soğutucuyu kasadan önce tak, çünkü kasa vidaları soğutucunun üstünü kapatırsa söküp yeniden takmak zorunda kalırsın. HDMI kablosu mikro uç istiyorsa settekinin ucunu kullan; televizyonun kalın HDMI ucunu yuvaya zorla gömmeye çalışma.
+Güç verirken telefon şarj cihazlarını bir kenara bırak ve ya resmi adaptörü ya da setteki 27W kaynağı kullan. İlk açılışta fare ve klavyeyi Bluetooth ile bağlamaya çalışma, USB üzerinden bağlamak her zaman daha az sorun çıkarır. Sistem bir kez ayakta kalsın, ondan sonra NVMe disk veya kamera gibi diğer aksesuarları eklersin. Eğer kart çok ısınıyorsa fanın dönüp dönmediğini kontrol et; kablosu gevşek kalmış olabilir.
 
-Resmi adaptörü ya da setteki 27W adaptörü tak, telefon şarjını "idare eder" diye bırakma. İlk açılışta klavye ve fare USB'de dursun. Disk, NVMe kartı ve ağır USB aynı anda ilk gün şart değil; sistem ayakta kalsın, depolamayı sonra ekle.
+## Hangi Paket Senin İçin Uygun?
 
-Kasa ısındıysa soğutucu fanının döndüğüne bak; dönmüyorsa kablo ters ya da gevşek olabilir ve yük altında fansız bir Pi 5, ürün notunun uyardığı yere gelir. Arduino'yu aynı masaya kuracaksan onu Pi'nin 5 volt pininden besleme; Uno'nun kendi USB'si ilk deneme için yeter. İki kartı karıştırmak, ilk akşamın hatası olur.
-
-## Ekran, Kart ve İlk Proje
-
-Boş SD kart siyah ekran demektir, o yüzden sistemi başka bir bilgisayarda ve o günkü resmi imajla yaz. Sürüm numarası uydurmayacağım, belge ne diyorsa o. Yazma bitmeden kartı çekme, çünkü yarım imaj açılışta döngüye girer.
-
-HDMI ucu mikroysa setteki kabloyu kullan ve televizyonun kalın ucunu yuvaya zorlama, yoksa ilk kurulum ekransız kör kalır. GeeekPi listesinde kablo var; çıplak kart aldıysan kabloyu unutma. Klavyeyi ilk gün Bluetooth ile arama, USB daha az sürpriz çıkarır.
-
-İlk proje tarayıcı ya da küçük bir dosya paylaşımı olsun. NVMe disk, sistem ayakta kalınca gelsin; yuva sette olabilir, disk yoktur. Aynı anda disk, kamera ve birkaç USB takarsan zayıf adaptör kartı yeniden başlatır, 27W sınıfı bu yüzden yazılı. Ucu uyuyor diye telefon şarjını bu karta takma.
-
-Arduino aynı masadaysa onu Pi'nin pininden besleme, çünkü Uno'nun USB'si ilk LED için yeter. İki kartı karıştırmak ilk akşamın en sık hatasıdır; Linux ve ekran Pi'de, lamba ve motor Uno'da kalır, birini bitirip öyle konuştur.
-
-Kasa ısındıysa fanın dönüp dönmediğine bak, dönmüyorsa kablo gevşek olabilir ve fansız yük ürün notunun uyardığı yerdir. Soğutucuyu kasadan önce tak; vida üstünü kapatırsa söküp yeniden takarsın.
-
-## Sık Sorulan Sorular
-
-### Yalnızca kart alır mıyım?
-
-Alırsın, ama soğutucu ve 27W adaptör aynı sepette olmalı. SD kartla HDMI de yoksa ekran açılmaz. Bunları unutacağını biliyorsan GeeekPi seti daha az parça avı çıkarır.
-
-### Setin adaptörü resmi mi?
-
-GeeekPi kaydı 27W adaptörü sete koyuyor ve bunun resmi Raspberry adaptörü olmadığını söylüyor. Resmi parçayı ayrıca istiyorsan yukarıdaki resmi adaptör linkine bak, ikisini birden ilk gün alma.
-
-### NVMe şart mı?
-
-NVMe şart değil; set yuvayı verir, diski vermez. İlk sistem SD kartta durur ve disk, sistem oturunca alınır.
-
-### Arduino ile Pi aynı şey mi?
-
-Aynı şey değiller: Pi Linux çalıştıran küçük bir bilgisayar, Uno ise belleği sınırlı bir kontrol kartı. Lamba ve motor için Uno'ya, ekran ve masaüstü için Pi 5'e bak.
-
-## Kart mı, Set mi
-
-Elinde SD, HDMI, kasa ve soğutucu varsa çıplak Pi 5 ile resmi 27W adaptör yeter; biri eksikse açılış yarım kalır. Boş kart siyah ekrandır ve ince HDMI yuvasına kalın uç zorlanmaz. Telefon şarjının ucu uysa da 27W sınıfı değildir, disk ve USB takılınca kart yeniden başlar.
-
-Parça avından kaçıyorsan GeeekPi listesi soğutucu, kasa, 64GB kart, HDMI ve 27W adaptörü aynı satırda toplar. Adaptör resmi değil, NVMe yuvası var ama disk yok; diski ilk güne sıkıştırma, sistem SD'de ayakta kalsın. İkinci bir resmi adaptörü aynı sepete koyma, çünkü yedek çekmece işidir.
-
-Arduino'yu Pi sanma; Uno ekransız küçük devre içindir, Freenove o kapıya sensör ve doküman koyar, parça kalitesi de orta kalır. Linux ve tarayıcı istiyorsan Uno yetmez, o iş Pi 5'te. İkisini ilk akşam aynı pine bağlama; Uno'nun kendi USB'si ilk LED için yeter.
-
-Fan dönmüyorsa kablo gevşek olabilir, o yüzden soğutucuyu kasadan önce tak. Yük altında fansız kart, ürün notunun uyardığı yere gelir. İlk açılışta tek iş, ekranın geldiğini görmek olsun. Kamera, disk ve sense hat aynı gün takılırsa arıza hangi parçadan geldi bilinmez. Sistem ayakta kalsın, fan dönsün, Freenove ondan sonra gelsin; bu sıra hem Pi 5 hem GeeekPi seti için aynı. Kapağı kapatmadan önce fan kablosunun sıkışmadığına bak, çünkü sıkışan kablo ilk hafta susar.
-
-## Bütçe, Orta ve Üst Paket
-
-| Paket | İçinde ne var | Kime uyar |
+| Seçenek | İçerik | Kimler Almalı? |
 | --- | --- | --- |
-| Bütçe | [Arduino Uno R3](aff://arduino-uno-r3) ve [Freenove](aff://freenove-starter-kit) | Ekransız, küçük devre öğrenecek kişi |
-| Orta | [Pi 5 8GB](aff://raspberry-pi-5) ve [resmi 27W adaptör](aff://rpi-power-supply) | Kartı kendi kasası ve SD'siyle kuracak kişi |
-| Üst | [GeeekPi Pi 5 kiti](aff://geeekpi-pi5-baslangic-kiti) | Soğutucu, SD, HDMI ve adaptörü tek listede isteyen kişi |
+| **Bütçe Dostu** | [Arduino Uno R3](aff://arduino-uno-r3) ve [Freenove Kit](aff://freenove-starter-kit) | Ekranla işi olmayan, sadece elektroniğe giriş yapacaklar. |
+| **Orta Seviye** | [Pi 5 8GB](aff://raspberry-pi-5) ve [Resmi Adaptör](aff://rpi-power-supply) | Elinde zaten SD kart ve kasa olan, kendi sistemini kuracaklar. |
+| **Eksiksiz Set** | [GeeekPi Pi 5 Kiti](aff://geeekpi-pi5-baslangic-kiti) | Parça aramakla uğraşmadan doğrudan masaüstü bilgisayar kuracaklar. |
 
-Ekran ve Linux istiyorsan Pi 5 al, soğutucu ile 27W adaptörü unutma. Parça avından kaçacaksan GeeekPi seti aynı işi tek sepette toplar; küçük devre içinse Uno yeter.
+Kısacası, eğer Linux dünyasına girmek ve güçlü bir kartla projeler yapmak istiyorsan Pi 5 8GB en iyi yol. Ama soğutucu ve adaptörü sakın ihmal etme. Sadece hobi amaçlı küçük devreler kuracaksan Uno ile başlamak hem cüzdanını hem de seni daha az yorar.

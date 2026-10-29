@@ -14,165 +14,107 @@ starter_text: "İlk ciddi kontrol cihazı Pioneer DDJ-FLX4. Kutuda rekordbox var
 draft: "false"
 ---
 
-İlk DJ kontrol cihazını iki kanalla al, dört kanal ilk ayda boş fader demektir.
+İlk DJ kontrol cihazını alırken iki kanallı bir modelle başlaman en mantıklısı. Dört kanallı bir cihaz aldığında, muhtemelen ilk birkaç ay o fazladan iki fader’ın orada öylece durduğunu göreceksin. Boşuna kafa karıştırmaya gerek yok.
 
-Yazılım kutuda mı, yoksa "uyumlu ama ayrı" mı, ikinci soru bu. Bunu atlayan kişi doğru gövdeyi alır, akşam lisansa takılır. Laptop da ayrı bir şart. Telefon vaadi, başlıkta Bluetooth yazan modelde bile sayfayı okumadan kurulmaz.
+Cihazı seçerken asıl bakman gereken şey yazılım meselesi. "Uyumlu" yazan her cihaz, yazılımın tam sürümünü sana hediye ediyor demek değil. Bazı modeller lisansla gelirken bazıları seni ek ödemelerle baş başa bırakabilir. Bir de tabii laptop şart; telefonla DJ’lik yapma vaatlerine, özellikle Bluetooth üzerinden kurulan bağlantılara çok güvenip işini şansa bırakma.
 
-## Kutudaki Yazılımı Ayır
+## Hangi Cihaz Hangi Yazılımla Geliyor?
 
-DDJ-FLX4 sayfası rekordbox DJ'yi dahil diyor, Serato DJ Pro ve Serato DJ Lite ise aynı maddede "dahil değil" diye duruyor. Uyumlu olmak bedava olmak değildir, Serato ile büyümek istiyorsan FLX4'ü ilk gün o yüzden açma. Numark tarafında Serato DJ Lite'ın kutuda olduğu modeller var.
+Pioneer DDJ-FLX4 aldığında rekordbox DJ kutudan dahil çıkıyor ama iş Serato tarafına gelince değişiyor. Sayfada Serato DJ Pro ve Lite için "dahil değil" notu düşülmüş. Yani Serato ile ilerlemek istiyorsan FLX4 ilk gün seni biraz uğraştırabilir. Eğer tercihin Serato ise Numark modellerine bakman daha mantıklı çünkü Numark tarafında Serato DJ Lite genelde paketin içinde oluyor.
 
-Party Mix III başlığı Serato DJ Lite ve Algoriddim djay diyor, MixTrack Go başlığı da aynı ikiliyi taşıyor. Mixtrack Pro FX maddesi Serato DJ Lite'ın dahil olduğunu yazıyor. Üç Numark Serato çizgisinde, FLX4 ise rekordbox çizgisinde. İkisini aynı akşam kurup karşılaştırma, birini seçersen diğerinin kısayolu kasta kalır.
+Party Mix III, MixTrack Go ve Mixtrack Pro FX modellerinin üçü de Serato DJ Lite ile geliyor. Hatta ilk ikisi Algoriddim djay ile de uyumlu. Burada önemli olan şu: Aynı akşam hem rekordbox hem Serato kurmaya çalışma. Birini seçip onun üzerinden gitmezsen, öteki yazılımın kısa yolları ve mantığı eline ayağına dolaşır.
 
-Bilgisayar şartı FLX4 kaydında Windows 10-11 ve macOS 10.15-11.2 olarak geçiyor. Daha yeni bir sistemde çalışır mı, sayfa susuyor, susuyorsa "çalışır" deme ve sürümü açıp bak.
+Bilgisayarının işletim sistemi de önemli. FLX4 için Windows 10-11 veya macOS 10.15-11.2 gibi spesifik sürümler belirtilmiş. Eğer sistemin bunlardan çok daha yeniyse, "nasıl olsa çalışır" demeyip bir kontrol etmende fayda var. Bu arada kulaklık genelde ayrı satılır. Katalogda Audio-Technica ATH-M50x gibi kapalı ve katlanabilir modeller öneriliyor ama bunların kablo yapısı özeldir ve kafayı biraz sıkabilir, bunu da aklında tut. Müzik ekipmanları hakkında daha geniş bir perspektif istersen [DJ ve prodüksiyon](/kategori/muzik/dj-produksiyon/) kategorisine göz atabilirsin; ama gitar gibi başka bir dünyaya niyetin varsa seni [elektro gitar seti](/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/) yazısına alalım.
 
-Kulaklık ayrı satılıyor. Katalogdaki Audio-Technica ATH-M50x kapalı, katlanır ve dengeli ses diyor, baskı hissi var ve kablo da özel. Bu kulaklığın ürün sayfasını bu turda doğrulamadım, link arama açar ve kontrol cihazının `/dp/` linkiyle karıştırma.
+## Pioneer DDJ-FLX4: Rekordbox ile Öğrenmek
 
-Kategori [DJ ve prodüksiyon](/kategori/muzik/dj-produksiyon/). Gitar ayrı bir alet, onu [elektro gitar seti](/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/) yazısında bırak.
+Pioneer DDJ-FLX4, masanda durduğunda sana gerçek bir öğrenme istasyonu hissi verir. İki ana kanalı, bir mikrofon girişi ve üç bant EQ yapısı var. Ses kalitesi olarak 48 kHz örnekleme ve 24-bit dönüşüm sunuyor ki bu başlangıç seviyesi için oldukça iyi bir değer. Cihazın üzerinde iki tane USB-C girişi var ve AAC’den WAV’a kadar pek çok dosya formatını destekliyor.
 
-## DDJ-FLX4: Rekordbox Kutuda
+Yaklaşık 2,2 kg ağırlığında ve 48 cm civarı bir genişliği var. Yani bu cihazı "çantanın yan cebine atıp çıkayım" diyemezsin, daha çok evde sabit bir masada duracak cinsten.
 
-Pioneer DDJ-FLX4 iki stereo kanal ve bir mikrofon kanalı yazıyor. Fader tarafında iki kanal seviyesi, bir crossfader ve iki pitch var, EQ de üç bant. Yüksek, orta ve düşük için aralık -26 ile +6 dB, örnekleme 48 kHz ve dönüşüm 24-bit.
-
-Girişte 6,3 mm mikrofon var, çıkışta 3,5 mm kulaklık ve RCA ana çıkış, USB-C ise iki tane. Dosya listesi AAC, AIFF, ALAC, FLAC, MP3 ve WAV, frekans yanıtı da 20 Hz-20 kHz. Liste 2,2 kg yazıyor, ölçü 48,3 x 27,2 x 5,8 cm.
-
-Bu sayıların hepsi o sayfanın maddelerinden, başka bir hız, jog çapı veya ped sayısı uydurmam. Sayfa ped adedini bu maddelerde vermiyor, vermiyorsa "8 ped" demem.
-
-2,2 kg çantanın yan cebi değildir, o iddiayı MixTrack Go taşıyor. FLX4 taşınabilir kayıtlarda geçiyor ama ölçü ortada, masada duran bir öğrenme aleti olarak daha dürüst.
-
-Kime uymaz? Serato lisansını kutuda isteyen kişiye uymaz, çünkü Serato dahil değil. Telefonla kulüpsüz kurulum isteyen de FLX4 maddesinde telefon görmez. macOS sürümün 11.2'nin çok ötesindeyse sayfayı satıcıya sor.
+**Kime uymaz?** Serato lisansının kutudan çıkmasını isteyenlere veya telefonla, bilgisayarsız bir kurulum hayali kuranlara pek uymaz. Ayrıca macOS sürümün çok güncelse uyumluluk konusunu satıcıya bir sorman gerekebilir.
 
 **Artıları:**
-- Rekordbox DJ dahil.
-- EQ aralığı yazıyor.
-- 24-bit ve iki USB-C.
+- Rekordbox DJ yazılımı dahil.
+- EQ aralığı (-26 ile +6 dB) profesyonel standartlarda.
+- 24-bit ses kalitesi ve modern USB-C bağlantısı.
 
 **Eksileri:**
-- Serato dahil değil.
-- 2,2 kg cep işi değil.
+- Serato yazılımı pakete dahil değil.
+- 2,2 kg ağırlığıyla çok mobil sayılmaz.
 
 [Satın Al: Pioneer DDJ-FLX4](aff://pioneer-ddj-flx4)
 
-## Party Mix III: Işık ve Beat Assist
+## Numark Party Mix III: Hem Işık Hem Yardımcı Özellikler
 
-Numark Party Mix III iki deck. Her deck'te 8 pad var, toplam 16 ve bu padler hot cue, auto loop, sampler ve efekt için. Stems maddesi vokal ve enstrüman katmanını ayırıyor. Beat Assist beat eşlemeyi adım adım gösteriyor, Smart Fader ise tek dokunuşla geçiş yapıyor.
+Eğer biraz daha renkli bir başlangıç istiyorsan Party Mix III işini görür. Her iki deck üzerinde de toplam 16 pad var; bu pad’lerle efektleri, loop’ları ve örnek sesleri (sampler) yönetebiliyorsun. En dikkat çekici yanı ise vuruşlara göre yanıp sönen dahili LED ışıkları. "Beat Assist" özelliği tempoyu eşlemeni kolaylaştırırken, "Smart Fader" tek bir hareketle pürüzsüz geçiş yapmanı sağlıyor.
 
-Üç bant EQ, filtre düğmesi ve crossfader var, Fade FX de crossfader'a bağlı. Dahili LED vuruşa göre yanıyor ve başlıkta Bluetooth, USB-C, Serato DJ Lite ile Algoriddim djay geçiyor.
-
-Işık evde her gece istenmez, komşu duvarı inceyse gösteriyi kapatacak bir yol ara. Sayfa ışığın kapanıp kapanmadığını tek cümlede söylemiyor, kapanmıyorsa bu model ev için gürültülü bir lamba olur.
-
-Kime uymaz? Işıksız, sade bir öğrenme masası isteyen kişiye uymaz, o kişi FLX4'e veya Mixtrack Pro FX'e baksın. Beat Assist'i kapalı tutup yine de ışık isteyen de buraya gelir.
+**Kime uymaz?** Işıklı, parıltılı bir masa istemeyen, daha sade bir cihaz arayanlara gelmez. Işıkların kapanıp kapanmadığı bilgisi net değil, o yüzden gece evde çalışırken bu durum canını sıkabilirse FLX4 veya Pro FX daha iyi bir tercih olur.
 
 **Artıları:**
-- 16 pad ve stems.
-- Beat Assist öğrenmeyi gösterir.
-- Serato çizgisi başlıkta.
+- 16 adet pad ve vokal/enstrüman ayıran Stems özelliği.
+- Yeni başlayanlar için Beat Assist ve Smart Fader kolaylığı.
+- Serato DJ Lite kutuda.
 
 **Eksileri:**
-- Dahili ışık her odaya uymaz.
-- Ayrıntılı kilo notu bu maddelerde yok.
+- Dahili ışık sistemi her kullanıcıya hitap etmeyebilir.
+- Ağırlık ve boyut detayları teknik listelerde çok net belirtilmemiş.
 
 [Satın Al: Numark Party Mix III](aff://numark-party-mix-iii)
 
-## MixTrack Go ve Mixtrack Pro FX
+## MixTrack Go ve Mixtrack Pro FX Karşılaştırması
 
-MixTrack Go, 0,6 kg ve 324 mm gövde diyor, çantanın yan cebi iddiası da sayfada. İki kapasitif jog scratch ve pitch bend için duruyor, toplam 8 pad var, deck başına da 4. Stems tarafında vokal, enstrüman, bas ve davul ayrılıyor. Smart Fader ve Fade FX var, Bluetooth ile USB-C de başlıkta.
+MixTrack Go, gerçekten taşınabilir bir cihaz arayanlar için üretilmiş. Sadece 0,6 kg ağırlığında ve 32 cm genişliğinde; yani tam olarak çantaya atıp götürmelik. Küçük yapısına rağmen vokal ve davul gibi katmanları ayıran Stems özelliği ve Bluetooth desteği var. Ancak jog’lar (tekerlekler) küçük olduğu için profesyonel bir scratch hissi bekleme.
 
-0,6 kg, FLX4'ün 2,2 kg kaydının yanında başka bir eşya ve küçük jog büyük deck hissi vermez. İlk ayında jog'u büyütmek isteyen kişi Go'da sıkılır, otobüste taşıyacaksan sıkılmaz.
+Mixtrack Pro FX ise daha "oturaklı" bir seçenek. 6 inçlik büyük jog’ları ve efektleri yönetmek için kullanılan çift "paddle" koluyla geliyor. Serato DJ Lite dahil ve TIDAL gibi servislerden müzik çalma imkanı sunuyor.
 
-Kime uymaz? 16 pad ve ışık gösterisi isteyen kişiye uymaz, o kişi Party Mix III. Geniş jog isteyen de Pro FX'e baksın.
-
-Mixtrack Pro FX, Serato DJ Lite dahil diyor. İki deck, 24-bit ses kartı ve Mac ile PC için tak-çalıştır USB var. Jog 6 inç ve kapasitif, çift paddle ile efekt, anında loop ve her deck'te sekiz pad var. SoundCloud ve TIDAL yayını maddede geçiyor, yayın hesabın yoksa o cümle boş kalır.
-
-Kime uymaz? 0,6 kg arayan kişiye uymaz. Pro FX'in kilo ve milimetresi bu maddelerde yok, ışık gösterisi de yok. Sade Serato masası isteyen için bu bir artı.
+**Kime uymaz?** Çok sayıda pad ve ışık gösterisi arıyorsan Go modeli seni kesmeyebilir. Eğer cihazın hafifliği senin için önemliyse Pro FX biraz kaba kalabilir.
 
 **Artıları:**
-- Go çantaya girer, 0,6 kg.
-- Pro FX'te 6 inç jog ve Serato Lite.
-- İkisi de pad taşıyor, adetleri farklı.
+- MixTrack Go inanılmaz hafif (0,6 kg).
+- Pro FX’in 6 inçlik jog’ları gerçekçi bir his sunuyor.
+- İkisinde de pad ve efekt kontrolü mevcut.
 
 **Eksileri:**
-- Go'da pad az.
-- Pro FX'in taşıma ölçüsü yazmıyor.
+- Go modelindeki pad sayısı (toplam 8) kısıtlı.
+- Pro FX'in tam taşıma ölçüleri teknik verilerde eksik.
 
 [Satın Al: Numark MixTrack Go](aff://numark-mixtrack-go)
-
 [Satın Al: Numark Mixtrack Pro FX](aff://numark-mixtrack-pro-fx)
 
-## DDJ-FLX2 İnce Bir Sayfa
+## Pioneer DDJ-FLX2 Hakkında Notlar
 
-DDJ-FLX2 sayfası adı ve AlphaTheta markasını yazıyor. Kanal, ped, kilo ve yazılım listesi bu kontrolde çıkmadı, ince sayfaya kalın hikaye eklemem.
-
-FLX4 ile aynı ailenin küçüğü gibi duruyor ama "gibi" bir ölçü değildir. Özellik maddesi yoksa FLX4'ün 2,2 kg ve rekordbox cümlesini FLX2'ye yapıştırma, yapıştırırsan yanlış kutu gelir.
-
-Kime uymaz? Kâğıtta kanal ve yazılım görmek isteyen kişiye uymaz, o kişi FLX4 sayfasını okusun. İnce sayfa ucuz diye alınmaz, ucuz olup olmadığını ben yazmam ve fiyat değişir.
-
-**Artıları:**
-- FLX adını taşıyor.
-- Sayfa açılıyor.
-
-**Eksileri:**
-- Özellik listesi yok.
-- FLX4 ölçüleri buna ait değil.
+DDJ-FLX2 hakkında şu an elimizde çok kısıtlı bilgi var. Sayfada sadece marka ve model adı geçiyor; kanal sayısı, ağırlık veya hangi yazılımla geldiği belirtilmemiş. Bu yüzden bu cihazı "FLX4’ün ucuz versiyonu" sanıp hemen karar verme. Teknik detayları netleşmeden FLX4 özelliklerini buna yormak yanlış olur.
 
 [Satın Al: Pioneer DDJ-FLX2](aff://pioneer-ddj-flx2)
 
-## İlk Ay Masayı Nasıl Kurarsın?
+## İlk Ay Masayı Nasıl Kurmalısın?
 
-Laptop fanı kapalı bir yastığın üstünde çalışmasın. FLX4 48,3 cm genişlik istiyor, mutfak tezgahı darsa Go'nun 324 mm gövdesi sığar ve genişlik yetmiyorsa cihazı suçlama.
+Cihazı aldın, masaya koydun. Eğer FLX4 kullanıyorsan 48 cm’lik bir alana ihtiyacın var, dar bir masada Go modeli çok daha rahat sığacaktır. Laptopunu asla yastık gibi yumuşak bir zemine koyma, fanları kapanmasın.
 
-Kulaklığı 3,5 mm çıkışa FLX4'te takarsın, başka modellerde jak yazmıyorsa uydurma. ATH-M50x katalogda baskı hissi diyor, yarım saatte kulak acıyorsa beden değil, kafa bandıdır. Onu arama linkinden aç, kontrol cihazının yerine koyma.
+Kulaklık olarak önerilen ATH-M50x, katalogda "baskı hissi olan" bir model olarak geçiyor. Bu, dış sesi iyi keser ama uzun saatler kullanımda kulağını yorabilir. İlk aşamada hoparlörün yoksa laptop hoparlörüyle idare edersin ama komşuların sesini duymak istemiyorsan kulaklıkta kalmak en iyisi.
 
-Serato kurulu bir akşam rekordbox kısayolu ezberleme, bir yazılım bir ay yeter. Party Mix'te Beat Assist açıksa eşlemeyi ona bırak, kapalıysa kulakla dene. İkisi birden ilk hafta gürültüdür.
-
-Smart Fader geçişi tek başına öğrenmek değildir, elle crossfader'ı da sür. Fade FX açıkken her geçiş süslenir. Süsü kapat, geçiş kötüyse fader'ı öğrenmemişsindir, FX bunu saklar.
-
-Hoparlörün yoksa laptop hoparlörü ilk üç gün idare eder, dördüncü gün komşu duvarı konuşur. Katalogdaki KRK gibi monitörler bu yazının doğrulanmış listesinde değil, onları kategori sayfasından ayrı düşün ve önce iki kanal otursun.
-
-USB-C kablosu kutuda mı, sayfa her modelde söylemiyor. FLX4 iki USB-C diyor ama kablonun hediye olduğunu söylemiyor. Go ve Party Mix de USB-C başlığında, kabloyu ayrıca kontrol et, eksik kablo bozuk cihaz değildir.
-
-## İlk Set: İki Şarkı, Bir Geçiş
-
-İlk akşam dört efekt açma, iki şarkı seç, biri bitsin ve diğeri girsin. FLX4'te EQ üç bant ve aralık -26 ile +6 dB yazıyor, o aralığın dışına bir hikaye ekleme. Bası sonuna kadar kesmek geçişi saklar, orta bandı az aç ve vokal çarpışıyorsa indir.
-
-Party Mix'te Beat Assist açıksa ona bak, kapalı kurulumda kulakla vuruşu say. Smart Fader'ı ilk geçişte kullan ve ikinci geçişte kapat. İkisi de düzgünse fader'ı öğrenmişsindir, yalnızca akıllı geçiş düzgünse cihaz seni taşımıştır.
-
-Go'da jog küçük, scratch denemesi ilk hafta şart değil ve pitch bend yeter. 8 pad hot cue için duruyor. 16 pad isteği o gün doğarsa Party Mix III'e bak. Go'yu iade edip aynı akşam büyütme, önce 0,6 kg senin için küçük mü onu anla.
-
-Pro FX'in 6 inç jog'u scratch isteyen ele daha yakın. Paddle efektleri açıkken her hareket süslenir, süsü kapat, loop düğmesi ise paddle'dan daha dürüst bir ilk derstir. TIDAL veya SoundCloud hesabın yoksa yayın cümlesi seni ilgilendirmez. Kendi dosyan MP3 ise FLX4'ün dosya listesi onu kapsıyor. Pro FX sayfası aynı dosya listesini bu maddelerde vermiyor, vermiyorsa FLX4 listesini ona yapıştırma.
-
-Kulaklık baskısı yarım saatte artıyorsa sesi yükseltme. ATH-M50x katalogda baskı diyor ve doğrulanmış bir `/dp/` değil, arama linki başka bir satıcıya düşebilir. Düşerse modeli başlıkta gör.
-
-Komşu şikayeti hoparlörden gelir, kulaklıktan değil, ilk ay kulaklıkla kal. RCA çıkışı FLX4'te var, diğer modellerde ana çıkış yazmıyorsa hoparlör kablosunu uydurma.
-
-Yazılımı bir kez kur ve kısayolu bir kâğıda yaz, ikinci yazılımı aynı hafta kurma. Kurarsan hangi düğmenin hangi programda boş kaldığını ayıramazsın, boş düğme bozuk cihaz değildir.
+Yazılım konusuna gelirsek; Smart Fader gibi akıllı özellikler başta hayat kurtarır ama her şeyi cihaza bırakma. Manuel olarak crossfader kullanmayı da öğren. Efektleri ve süsleri kapatıp iki şarkıyı sadece hızlarını eşleyerek birbirine bağlayabiliyorsan, işin temelini kavramışsın demektir.
 
 ## Sık Sorulan Sorular
 
-### Serato ile rekordbox aynı kutuda mı?
+**Serato ve rekordbox aynı cihazda çalışır mı?**
+Cihaz donanımsal olarak desteklese bile yazılımların lisansları genelde ayrıdır. FLX4 rekordbox ile gelirken, Numark tarafı Serato ağırlıklıdır. İkisini de aynı anda ücretsiz alamazsın.
 
-FLX4'te rekordbox var, Serato yok. Pro FX'te Serato DJ Lite var, Party Mix III ve Go başlıklarında ise Serato DJ Lite ile djay geçiyor. İkisini bir kutuda bedava sanma.
+**Dört kanallı bir cihaza ihtiyacım var mı?**
+Yeni başlıyorsan hayır. İki şarkıyı aynı anda çalmayı tam anlamıyla öğrenmeden üçüncü bir kanala geçmek sadece kafanı karıştırır.
 
-### Dört kanal şart mı?
+**Işıklı modeller evde sorun olur mu?**
+Party Mix III gibi modellerin ışıkları vuruşa göre yanar. Eğer loş bir odada çalışacaksan bu ışıklar bir süre sonra gözünü yorabilir.
 
-İlk ay değil, buradaki modeller iki deck ve üçüncü şarkıyı aynı anda sürmek bu setin işi değil.
+## Hangi Paket Sana Göre?
 
-### Işıklı cihaz evde olur mu?
+Stok ve fiyat durumuna göre seçimini yapabilirsin ama temel ayrım şu şekilde:
 
-Party Mix III vuruşa göre yanıyor. İstiyorsan al, istemiyorsan FLX4 veya Pro FX'e bak, ışığın kapanma düğmesi bu maddelerde net değil.
-
-### FLX2, FLX4'ün yarısı mı?
-
-Sayfa bunu yazmıyor ve özellik listesi ince. Yarı fiyat olsa bile yarı özellik diyemem.
-
-## Bütçe, Orta ve Üst Paket
-
-Fiyatı ben kilitlemem, stok değişir.
-
-| Paket | İçinde ne var | Kime uyar |
+| Paket Türü | Model | Öne Çıkan Özelliği |
 | --- | --- | --- |
-| Bütçe | [MixTrack Go](aff://numark-mixtrack-go) | Çantada 0,6 kg isteyen, 8 ped yeten kişi |
-| Orta | [DDJ-FLX4](aff://pioneer-ddj-flx4) | Rekordbox ile masada öğrenecek kişi |
-| Üst | [Party Mix III](aff://numark-party-mix-iii) veya [Pro FX](aff://numark-mixtrack-pro-fx) | 16 pad, ışık veya 6 inç jog isteyen kişi |
+| **Taşınabilirlik** | [MixTrack Go](aff://numark-mixtrack-go) | Sadece 0,6 kg, her çantaya sığar. |
+| **Standart Öğrenme** | [DDJ-FLX4](aff://pioneer-ddj-flx4) | Profesyonel dizilim ve rekordbox desteği. |
+| **Performans ve Görsellik** | [Party Mix III](aff://numark-party-mix-iii) veya [Pro FX](aff://numark-mixtrack-pro-fx) | 16 pad, ışıklar veya büyük jog’lar. |
 
-İlk kutuyu yazılımına göre seç. Rekordbox ise FLX4, Serato Lite ve küçük gövde ise Go. Işık ve 16 pad ise Party Mix III.
+Tavsiyem, önce hangi yazılımı kullanacağına karar ver. Rekordbox istiyorsan FLX4, "ben Serato ile başlayacağım ve cihazım hafif olsun" diyorsan Go modeline yönel. Görsellik ve bol pad istiyorsan Party Mix III tam o boşluğu dolduruyor.

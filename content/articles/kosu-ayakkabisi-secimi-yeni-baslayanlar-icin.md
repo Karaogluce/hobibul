@@ -14,175 +14,112 @@ starter_text: "Asfaltta ilk çift için adidas Duramo Speed 2 erkek koşu ayakka
 draft: "false"
 ---
 
-İlk koşu ayakkabını asfalt için al. Patika botuyla park turu olmaz, park ayakkabısıyla da taşlı yokuş olmaz.
+Koşmaya yeni niyetlendiysen ilk ayakkabını mutlaka asfalta göre seçmelisin. Patika botuyla parkta tur atamazsın, park ayakkabısıyla da taşlı yokuşlarda rahat edemezsin. Haftada üç-beş kısa tur atacaksan başlangıçta tek bir çift ayakkabı sana yeter de artar bile. Akıllı saati, kemeri veya diğer aksesuarları ancak o ayakkabı ayağına iyice oturduktan sonra düşünmeye başla. Sırayı şaşırırsan, çekmecede duran pahalı bir saatin ama ayağında seni rahatsız eden eski bir ayakkabın olur.
 
-Haftada üç kısa tur atacaksan tek bir çift yeter. İkinci çifti, saati ve kemeri o ayakkabı oturunca düşün. Sıra ters giderse çekmecede akıllı saat durur, ayakta eski spor ayakkabı kalır.
+## Asfalt ile Patika Ayakkabısını Karıştırma
 
-## Asfalt Turu ile Patikayı Ayır
+Mahallede, düz yolda veya sahilde koşuyorsan "yol ayakkabısı" bakman lazım. Listemdeki üç model de tam olarak bu iş için uygun. Eğer işin içine çamur, kaya veya dik inişler girecekse, o zaman [trekking bot rehberi](/makale/trekking-bot-secimi-gore-tex-baslangic-botlari/) sayfasına bakmalısın, çünkü o apayrı bir ihtiyaç.
 
-Mahallede düz yolda koşuyorsan yol ayakkabısı ara. Kayıtlardaki üç model de bu iş için duruyor. Taş, çamur ve uzun iniş başka ayakkabı ister; onu [trekking bot rehberi](/makale/trekking-bot-secimi-gore-tex-baslangic-botlari/) ayrı tutuyor.
+Teknik detaylarda boğulma; ayakkabının topuk yüksekliği farkı gibi rakamları ezberlemene gerek yok. Eğer koşarken ayağının altı yanıyorsa, bu genelde bir milimetre farkından değil, yanlış beden veya yanlış bağcıktan kaynaklanır. Özellikle Nike Pegasus 41 gibi dar kalıplı modellerde numaran tutsa bile parmakların sıkışabilir. Bu yüzden ayakkabıyı mutlaka akşam, gün boyu şişmiş ayakla denemelisin. Daha geniş bir liste arıyorsan [koşu kategorisinde](/kategori/spor-fitness/kosu/) gezinebilirsin. Evde kalıp ağırlık çalışmak niyetindeysen de ayakkabıdan önce [ayarlanabilir dambıl rehberine](/makale/evde-fitness-icin-ayarlanabilir-dambil-rehberi/) göz atmanı öneririm.
 
-Drop, yani topuk ile burun arasındaki yükseklik farkı, bu üç sayfanın hiçbirinde sayı olarak yok. Bilmediğin sayıyı ezberleme. Ayak tabanın yanıyorsa bunu bir milimetre iddiasıyla çözme; önce bedeni ve bağcığı düzelt.
+## adidas Duramo Speed 2: Sadeliği Sevenlere
 
-Geniş ayak ile dar kalıp aynı rafta durmaz. Nike Pegasus 41 kaydı dar kalıp diyor ve o cümle, numaran tutsa bile parmakların sıkışabileceği anlamına gelir. Denemeyi akşam yap, şiş ayakta, çünkü sabah alınan beden akşamı yalan söyleyebilir.
+Bu ayakkabı tam bir başlangıç modeli. Ürün sayfasında taban sertliği veya yastıklama yüksekliği gibi teknik veriler detaylandırılmamış, o yüzden olmayan özellikleri uydurmaya gerek yok. Eğer asfaltta koşmaya başlayacaksan ve erkek kalıbı arıyorsan, bu doğrulanmış bir seçenek.
 
-Daha geniş koşu listesi [koşu kategorisinde](/kategori/spor-fitness/kosu/). Evde kalıp ağırlık çalışacaksan ayakkabı yerine [ayarlanabilir dambıl rehberine](/makale/evde-fitness-icin-ayarlanabilir-dambil-rehberi/) bak.
+Ancak kadın kalıbı arıyorsan bu link üzerinden numara çevirip almaya çalışma, çünkü başlıkta erkek modeli olduğu net belirtilmiş. Stok durumu bazen yanıltıcı olabiliyor; satın al düğmesiyle "mevcut değil" yazısı aynı anda görünebilir. Bu yüzden linki açtığında bedenini seçip düğmeyi kontrol etmen en sağlıklısı.
 
-## adidas Duramo Speed 2: Başlık Ne Diyor?
-
-adidas Duramo Speed 2, Amazon.com.tr başlığında erkek koşu ayakkabısı, bu kadar. Yastık yüksekliği, taban sertliği ve drop o sayfada yazmıyor, yazılmayan ölçüyü ben de yazmam.
-
-Erkek kalıbı arayan ve asfaltta başlayan biri için bu, doğrulanmış bir ürün sayfası. Kadın kalıbı arayan kişi aynı linki beden çevirerek kullanmasın, başlık erkek diyor.
-
-Stok satırı bu kontrolde karışıktı: hem alma düğmesi hem de mevcut değil ibaresi göründü. Linki aç, beden seç, düğme yoksa zorlama. Arama kutusuna aynı adı yazmak başka bir satıcının başka kalıbına düşürebilir, doğru sayfa `/dp/` linkidir.
-
-Kime uymaz? Patika, salon ayakkabısı veya geniş kalıp garantisi isteyen kişiye uymaz. Liste bu üçünü de vermiyor.
+**Kime uymaz?** Patikada koşacaklara, spor salonu ayakkabısı arayanlara veya geniş kalıp garantisi isteyenlere pek gelmez.
 
 **Artıları:**
-- Başlık koşu ayakkabısı diyor.
-- Erkek modeli olarak ayrılmış.
-- Ürün sayfası doğrulandı.
+- Net bir erkek koşu modeli.
+- Asfalt kullanımı için ideal bir başlangıç seviyesi.
 
 **Eksileri:**
-- Yastık ölçüsü yok.
-- Stok ibaresi dalgalı göründü.
+- Yastıklama ölçüleri belirsiz.
+- Stok durumu bazen kafa karıştırıcı olabiliyor.
 
 [Satın Al: adidas Duramo Speed 2](aff://adidas-duramo-speed-2)
 
-## Nike Pegasus 41: Dar Kalıbı Baştan Bil
+## Nike Pegasus 41: Dar Ama Çok Yönlü
 
-Nike Pegasus 41 kaydı günlük koşu için çok yönlü ve konforlu diyor, dayanıklı da denmiş. Fiyat notu orta-üst, dar kalıp da eksi olarak yazılmış.
+Pegasus 41, günlük koşular için oldukça dayanıklı ve konforlu bir model olarak biliniyor. Fiyatı biraz orta-üst seviyede kalsa da hem kısa hem de orta uzunluktaki park turlarına uyum sağlar. Bu ayakkabının en önemli özelliği dar kalıplı olması; yani taraklı bir ayağın varsa seni biraz zorlayabilir.
 
-Çok yönlü, burada hem kısa tur hem biraz daha uzun bir park turu demek. Yarış ayakkabısı iddiası yok, kayıt da yarış demiyor. İlk çiftin işi seni her gün dışarı çıkarmak ve Pegasus bu cümleye uyuyor. Dar kalıp uymuyorsa uymuyor.
+Bağcıkları son deliğe kadar geçirmek bazen ayakkabıyı ayağına daha iyi sabitler ama parmak ucun buruna değiyorsa mutlaka bir numara büyük bakmalısın. Kalıbı dar olan bir ayakkabı "zamanla açılır" diye beklenmez, baştan rahat olması gerekir.
 
-Bağcığı son delikten geçirmek, bir beden büyütmekten daha temiz bir deneme olabilir. Yine de parmak ucun buruna değiyorsa numarayı büyüt. Dar kalıp notu "alışırsın" diye kapanmaz.
-
-Kime uymaz? Geniş ön ayağı olan kişiye uymaz. Bütçenin en altını arıyorsan orta-üst notu da seni keser, o zaman Duramo sayfasına dön. Ölçü orada da yok, en azından fiyat bandı kaydı daha sade.
+**Kime uymaz?** Ön ayağı geniş olanlara ve en düşük bütçeli seçeneği arayanlara uymaz.
 
 **Artıları:**
-- Günlük koşuya ayrılmış.
-- Konfor ve dayanıklılık kaydı var.
-- Tek çiftle birkaç tempoya gider.
+- Günlük kullanımda oldukça dayanıklı.
+- Farklı tempolardaki koşulara kolayca uyum sağlar.
 
 **Eksileri:**
-- Dar kalıp.
-- Orta-üst fiyat notu.
+- Dar kalıbı nedeniyle herkese konforlu gelmeyebilir.
+- Fiyatı başlangıç modellerine göre daha yukarıda.
 
 [Satın Al: Nike Pegasus 41](aff://nike-pegasus-41)
 
-## ASICS Gel-Kayano 30: Destek Ağır Gelir
+## ASICS Gel-Kayano 30: Destek ve Stabilite
 
-ASICS Gel-Kayano 30 kaydı stabilite ve destek diyor. Konfor ve dayanıklılık da listede, eksi taraf ise ağır olması ve yüksek fiyat.
+Eğer koşarken ayağının veya dizinin içeri doğru fazla yattığını hissediyorsan, Gel-Kayano 30 gibi destekli modeller mantıklı olabilir. Bu model stabiliteye odaklandığı için taban yapısı diğerlerine göre daha ağırdır. Konforlu ve uzun ömürlüdür ama hafif bir tempo ayakkabısı arıyorsan bu ağırlık seni bir süre sonra yorabilir.
 
-Dizinin içeri kaçtığını hissediyorsan destekli bir model mantıklı olabilir. Bunu bir doktor cümlesi sanma. Kayıt ayakkabının işini destek diye yazmış, ağır olması da aynı kaydın bedeli.
+Ağır tabanlı ayakkabılar uzun ve yavaş koşularda seni korur ancak kısa ve hızlı turlarda ayak bileğini biraz fazla zorlayabilir. Fiyatının yüksek olduğunu da baştan bilmekte fayda var; bu yüzden gerçekten bu desteğe ihtiyacın olup olmadığını ilk birkaç haftalık hafif koşularında anlamaya çalış.
 
-Hafif bir tempo ayakkabısı arıyorsan Kayano'yu ilk çift yapma. Ağır taban kısa ve hızlı turda ayak bileğini yorar, uzun ve yavaş turda aynı ağırlık yorgunluğu başka yere taşır. Hangisi olduğunu ilk iki hafta anlarsın, anlamadan ikinci çifti alma.
-
-Kime uymaz? Hafif ayakkabı isteyen kişiye uymaz. Bütçesi tek bir orta çift olan kişi de yüksek fiyat notunu görmeden tıklamasın.
+**Kime uymaz?** Çok hafif ayakkabı peşinde olanlara ve kısıtlı bütçesi olanlara uygun değildir.
 
 **Artıları:**
-- Stabilite odaklı.
-- Destek kaydı açık.
-- Dayanıklılık notu var.
+- Stabilite ve destek konusunda çok iddialı.
+- Uzun mesafelerde dayanıklılık sağlar.
 
 **Eksileri:**
-- Ağır.
-- Fiyatı yüksek.
+- Diğer modellere göre daha hantal ve ağır.
+- Fiyatı yüksek bir model.
 
 [Satın Al: ASICS Gel-Kayano 30](aff://asics-gel-kayano)
 
-## Saat ve Kemer Ayakkabının Yerine Geçmez
+## Saat ve Kemer Ayakkabının Yerini Tutmaz
 
-Ayakkabı oturmadan Garmin Forerunner 55 almak turu güzelleştirmez. Saat kayda göre doğru GPS ve koşu metrikleri verir, pil de uzun denmiş. Dokunmatik ekran yok, müzik depolama da yok.
+Ayağına uygun ayakkabıyı bulmadan Garmin Forerunner 55 gibi bir saat almak koşunu bir üst seviyeye taşımaz. Bu saat GPS verilerini tutmak ve temel koşu ölçümlerini takip etmek için harikadır, şarjı da uzun gider; ancak dokunmatik ekranı veya müzik depolama özelliği yok. Yani müzik dinlemek istiyorsan telefonun yine cebinde olmalı.
 
-Kulaklığın telefonunda kalır, saate şarkı yüklemeyi bekleme. Düğmelerle idare edersin; parmakla kaydırmayı seven kişi ilk günden sıkılır.
-
-Kime uymaz? Müzik isteyen ve dokunmatik arayan kişiye uymaz. Koşu metriklerini okumayacaksan saat, pahalı bir kronometre olur.
-
-Telefon ve anahtar cebinde zıplıyorsa FlipBelt'e bak. Kayıt zıplamaz diyor, gizli cepler var, beden ise tek. Sıkı olabilir: belin inceyse kemer boş döner, belin genişse sıkar, tek beden her iki uçta da küser.
-
-Kime uymaz? Cep kapağı arayan kişiye uymaz, bu bir bel çantası değil.
-
-Nathan su kemeri ayrı bir parça. Hafif, erişimi kolay ve sızdırmaz denmiş, kapasite ise sınırlı ve temizlik ister. Yarım saatlik park turunda su kemeri şart değil. Bir saati geçen turda ağzın kuruyorsa o zaman bak, çünkü şişeyi elde taşımak omzu asimetrik yorar.
-
-Kime uymaz? Büyük su deposu isteyen kişiye uymaz, kapasite notu sınırlı.
+Telefon ve anahtarın koşarken sallanmasından rahatsız oluyorsan FlipBelt gibi bir kemer kullanabilirsin. Zıplama yapmadığı söyleniyor ve gizli cepleri var ama tek beden olduğu için belin çok inceyse bol, genişse dar gelebilir. Uzun koşularda ağzın kuruyorsa Nathan su kemerine de bakabilirsin. Yarım saatlik turlarda şart değil ama bir saati geçiyorsan şişeyi elde taşımak omuzlarını dengesiz yorar.
 
 **Artıları:**
-- Forerunner koşu metriği tutar.
-- FlipBelt zıplamayı keser.
-- Nathan kısa tura yeter.
+- Forerunner ile tüm koşu verilerini doğru tutarsın.
+- FlipBelt telefonun sallanmasını engeller.
 
 **Eksileri:**
-- Saatte müzik yok.
-- Kemer tek beden.
-- Su kapasitesi sınırlı.
+- Saatte müzik çalma özelliği yok.
+- Kemer her vücut tipine aynı rahatlıkta uymayabilir.
 
 [Satın Al: Garmin Forerunner 55](aff://garmin-forerunner-55)
-
 [Satın Al: FlipBelt Koşu Kemeri](aff://flipbelt)
 
-## İlk İki Hafta Ne Değişir?
+## İlk İki Haftada Dikkat Etmen Gerekenler
 
-İlk turu eski ayakkabıyla bitirip yenisini akşam yarış gibi giyme. Yeni çiftte ilk gün yirmi dakika yeter. Topuk mu acıyor, ön ayak mı, yan taraf mı, onu ayır.
+Yeni ayakkabını alır almaz hemen çok uzun koşulara çıkma. İlk gün yirmi dakikalık bir deneme yeterlidir. Eğer Pegasus kullanırken parmak köklerinde acı hissediyorsan kalıbı sana dar gelmiş demektir. Kayano'da bileklerin erkenden yoruluyorsa ağırlığına henüz alışamamış olabilirsin.
 
-Pegasus'ta acı parmak kökündeyse dar kalıp notu çalışıyor demektir. Kayano'da bilek yoruluyorsa ağırlık notu çalışıyor demektir. Duramo'da bir ölçü yok, acıyı bir sayıya bağlayamazsın. O zaman sayfadaki beden tablosuna bak, yoksa mağazada dene.
+Çorap seçimi de en az ayakkabı kadar kritiktir. Kalın bir koşu çorabı, zaten dar olan Pegasus'u ayağında daha da sıkıştırır. Bu yüzden ayakkabıyı hangi çorapla kullanacaksan onunla denemelisin. Bağcıkların çok sıkı olması veya dilin kayması da konforu bozar; hemen tabana suç atmadan önce dili ortalayıp bir tur daha dene.
 
-Çorap değişince kalıp da değişir. Kalın koşu çorabı dar Pegasus'ta bedeni bir adım küçültür, ince çorapla alınan numara da kışın kalın çorapta sıkar. Çorabı ayakkabıyla birlikte götür.
-
-Bağcık sıkı ve dil kaymışsa sorunu tabana yıkma. Dili ortaya al, üstten bir delik boş bırak, bir tur daha dene. Bu, yeni bir çift almaktan ucuzdur.
-
-Yağmurda kaydı "su geçirmez" sanma. Üç modelin kaydında da su geçirmezlik yok, ıslak asfaltta adımı kısalt. Bot arıyorsan yine trekking yazısına dön.
-
-## Numara, Çorap ve Eski Çift
-
-Akşam şişen ayak sabah alınan numarayı küçük çıkarır, denemeyi günün sonunda yap. Parmak ucu ile burun arasında bir parmak boşluk bırak. Bu bir milimetre tablosu değil, sıkışan tırnak üçüncü turda kendini belli eder.
-
-Çorap kalıbın parçasıdır. Kalın çorapla denediğin Pegasus ince çorapla boşalır, ince çorapla aldığın numara kışın kalın çorapta daralır. Dar kalıp notu zaten Pegasus'ta duruyor, çorabı değiştirerek o notu silmeye çalışma.
-
-Eski çiftin tabanı bir yana yattıysa yenisi de aynı yöne yatar, ayakkabı bunu düzeltmez. Kısa tur, düz zemin ve bağcık ilk ayın işi. Destek için Kayano'ya atlamak yıpranmış bir yürüyüşü saklar. Ağrı dizdeyse ve iki haftadır aynıysa ayakkabı linkinden önce bir uzmana sor, bu sayfa tıbbi ölçü vermez.
-
-İki çift birden çevirmek yıpratmayı böler. İlk ayda bunu yapma, hangi çiftin acıttığını ayıramazsın. Bir çift otursun, taban deseni düzleşince ikinciye bak. Düzleşmeyi gözün görür, kilometre sayacı şart değil. Forerunner bunu tutar, tutmasa da taban yalan söylemez.
-
-Kayano ağır diye her turda onu giymek zorunda değilsin. Kısa tempo gününde Pegasus duruyorsa onu giy. İkisi de sende yoksa tek çifti yorma, turu kısalt. Yeni bir model yorgun tabanın ilacı değildir.
-
-Duramo sayfasında beden tablosu varsa ona bak, yoksa komşu numara alma. İade penceresi satıcıya göre değişir. Bedeni uymayan kutuyu "alışırım" diye açıp parkta ezme. İlk tur yirmi dakika kalsın, acı yoksa ertesi gün uzat.
-
-Kadın kalıbı arayan kişi erkek başlıklı Duramo'yu numara çevirerek çözmesin. Pegasus kaydı dar diyor, kadın ya da erkek ayrımı o maddede yok. Geniş ön ayak her iki başlıkta da aynı sıkışmayı yaşar.
-
-Nathan'ı kısa tura ekleme, FlipBelt'i su şişesi sanma, saat ekranına bakarak kaldırımdan inme. Sıra böyle: ayakkabı, sonra cep, sonra kayıt.
-
-Bağcık düğümü her turda aynı yere gelsin. Bir gün gevşek, bir gün sıkı bağlanan ayakkabı kalıp şikayeti üretir, Pegasus'ta bu daha belirgin. Dar kalıp gevşek bağcıkla genişlemez, sadece topuk kayar. Topuk kabarcığı dar parmakla aynı problem değildir: kabarcık varsa bağcığı üstten kilitle, parmak ağrısı varsa numara veya model değişir.
-
-Kayano'nun ağırlığı ilk turda "kalite" gibi gelir, ikinci haftada baldır yorgunluğu olarak döner, o zaman turu kısalt. Daha hafif bir çift arayacaksan Pegasus kaydına dön. Duramo'ya dönersen ölçüsüz bir sayfa açtığını bil. Üçü de asfalt içindir, yokuşta tempo yarışı bu rehberin işi değil.
-
-Eski yürüyüş ayakkabısını koşuya çevirme. Taban deseni yürüyüş için dizilmişse koşu kaydı aramazsın. Elindeki model Pegasus, Kayano veya Duramo değilse buradaki artı ve eksi ona uymaz, komşu modele "aynı his" deme.
+Yağmurlu havalarda bu modellerin su geçirmezlik özelliği olmadığını unutma. Islak asfaltta kaymamak için adımlarını biraz daha kısa tutmaya çalış. Eğer gerçekten su geçirmeyen bir şey arıyorsan, yine trekking rehberindeki botlara bakman gerekecek.
 
 ## Sık Sorulan Sorular
 
-### Kadın bir Duramo alabilir mi?
+**İki farklı ayakkabıyı aynı anda kullanabilir miyim?**
+Yeni başlıyorsan hayır. Önce tek bir modelle ayağın alışsın. İki ayakkabıyı birden çevirirsen, ayağını hangisinin acıttığını veya hangisinin daha iyi geldiğini ayırt edemezsin.
 
-Başlık erkek diyor. Aynı adı kadın kalıbında aramak başka bir sayfa açar, o sayfayı doğrulamadan link verme. Dar kalıp derdi Pegasus kaydında, Duramo'da ise kalıp genişliği yazmıyor.
+**Koşu saati gerçekten gerekli mi?**
+Değil. Koşmak için kapıdan çıkman yeterli. Saat sadece mesafeni ve kalp atışını detaylı görmek istiyorsan işine yarar.
 
-### İki çift birden alınır mı?
+**Kadınlar erkek modeli olan Duramo'yu alabilir mi?**
+Kalıp farkı olduğu için tavsiye etmem. Aynı modelin kadın versiyonunu aramak daha mantıklı olur, çünkü erkek kalıpları genelde daha geniş ve farklı bir yapıda tasarlanır.
 
-Alınmaz. Önce bir yol ayakkabısı, ikinci çift birincisi yıpranınca veya zemin değişince gelir. Kayano ile Pegasus'u aynı hafta almak, hangisinin acıttığını gizler.
+## Hangi Seçenek Sana Daha Uygun?
 
-### Saat şart mı?
+Fiyatlar ve stoklar sürekli değiştiği için senin için mantıklı olabilecek paketleri şöyle ayırabiliriz:
 
-Değil, turu kapıdan çıkmak bitirir. Forerunner mesafeyi ve metriği tutmak isteyene yarar, müzik ve dokunmatik isteyene değil.
-
-### Su kemeri ilk günden mi?
-
-Hayır. Kısa turda şart değil, kapasite zaten sınırlı. Tur uzayınca Nathan'a bak, FlipBelt ise telefon içindir, su için değil.
-
-## Bütçe, Orta ve Üst Paket
-
-Fiyat yazmıyorum, çünkü rakam sayfada değişir, stok da değişir.
-
-| Paket | İçinde ne var | Kime uyar |
+| Paket İsmi | İçerik | Kimler İçin? |
 | --- | --- | --- |
-| Bütçe | [Duramo Speed 2](aff://adidas-duramo-speed-2) | Asfaltta tek çift isteyen, ölçü uydurmak istemeyen kişi |
-| Orta | [Pegasus 41](aff://nike-pegasus-41) ve [FlipBelt](aff://flipbelt) | Dar kalıba uyan, telefonu kemere alan kişi |
-| Üst | [Gel-Kayano 30](aff://asics-gel-kayano) ve [Forerunner 55](aff://garmin-forerunner-55) | Destek ve kayıt isteyen, ağırlığı kabul eden kişi |
+| **Ekonomik Başlangıç** | [Duramo Speed 2](aff://adidas-duramo-speed-2) | Sadece asfaltta koşacağım, temel bir ayakkabı yeter diyenlere. |
+| **Konfor Odaklı** | [Pegasus 41](aff://nike-pegasus-41) ve [FlipBelt](aff://flipbelt) | Ayağı dar olan ve telefonu kemerde taşımak isteyenlere. |
+| **Veri ve Destek** | [Gel-Kayano 30](aff://asics-gel-kayano) ve [Forerunner 55](aff://garmin-forerunner-55) | Ayak desteği arayan ve gelişimini saatle izlemek isteyenlere. |
 
-İlk paranı ölçüsü yazmayan bir tabana gömme. Duramo'yu aç, beden varsa al. Dar ayak Pegasus'a, destek isteyen Kayano'ya bakar.
+İlk bütçeni ayakkabıya ayırırken teknik verisi yazmayan tabanlara çok güvenme. Duramo sayfasını aç, bedenin varsa değerlendir. Eğer ayağın dar ise Pegasus'a, daha fazla destek ve ağırlık arıyorsan Kayano'ya yönelmek en mantıklısı olur.
