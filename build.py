@@ -334,6 +334,98 @@ def format_tr_date(value):
     return f"{day} {_TR_MONTHS[month]} {year}"
 
 
+_GENERIC_WORDS = {
+    "en", "iyi", "yeni", "başlayan", "başlayanlar", "için", "başlangıç",
+    "seti", "rehberi", "seçimi", "hakkında", "ve", "ile",
+}
+
+
+def _tr_key(word):
+    """Turkce buyuk I/İ dahil karsilastirilabilir anahtar (casefold tek basina yetmez)."""
+    w = word.replace("İ", "i").replace("I", "ı").lower()
+    return re.sub(r"[\u0300-\u036f]", "", w)
+
+
+def _link_phrases(article):
+    """Aday ifadeler: basligin ilk 2-3 kelimesi, sonra alt kategori adi.
+
+    Ana kategori adi (\"Teknoloji\", \"Muzik\") bilerek kullanilmaz: tek kelimelik
+    genel adlar cumlenin anlamindan bagimsiz link uretiyor. Ayni sekilde
+    \"Yeni Baslayanlar Icin\" gibi tamamen genel baslik kaliplari atlanir.
+    """
+    title = re.sub(r"^En İyi\s+", "", article["title"], flags=re.I).strip()
+    out = []
+    words = title.split()
+    for n in (3, 2):
+        if len(words) >= n:
+            phrase = " ".join(words[:n]).rstrip(" :,.-–—")
+            if len(phrase) < 10:
+                continue
+            if all(_tr_key(w) in _GENERIC_WORDS for w in phrase.split()):
+                continue
+            out.append(phrase)
+    name = article.get("subcategory_name")
+    if name and len(name) >= 5:
+        out.append(name)
+    return out
+
+
+def inject_internal_links(html, article, all_articles, limit=3):
+    """Govdede baska makalelere en fazla `limit` baglam ic linki ekler.
+
+    Mevcut <a> bloklari ve h1-h4 basliklari korunur; ayni hedefe ikinci kez
+    link verilmez, her ifade yalnizca ilk gectigi yerde linklenir.
+    """
+    if not html or limit <= 0:
+        return html
+    adaylar, gorulen = [], set()
+    for other in all_articles:
+        if other["slug"] == article["slug"]:
+            continue
+        for phrase in _link_phrases(other):
+            key = phrase.casefold()
+            if key in gorulen:
+                continue
+            gorulen.add(key)
+            desen = re.compile(r"(?<![\w])" + re.escape(phrase) + r"(?![\w])", re.I)
+            adaylar.append((len(phrase), desen, other["slug"]))
+    if not adaylar:
+        return html
+    adaylar.sort(key=lambda x: -x[0])
+
+    parcalar = re.split(r"(<[^>]+>)", html)
+    eklenen, canli_hedefler, icinde_a, icinde_baslik = 0, set(), 0, 0
+    for h in re.finditer(r'<a\s[^>]*href="/makale/([^"/]+)/', html, re.I):
+        canli_hedefler.add(h.group(1))
+    kullanilan = {article["slug"]} | canli_hedefler
+    for i, parca in enumerate(parcalar):
+        if parca.startswith("<"):
+            low = parca.lower()
+            if re.match(r"<a[\s>]", low):
+                icinde_a += 1
+            elif low.startswith("</a"):
+                icinde_a = max(0, icinde_a - 1)
+            elif re.match(r"<h[1-4][\s>]", low):
+                icinde_baslik += 1
+            elif re.match(r"</h[1-4]", low):
+                icinde_baslik = max(0, icinde_baslik - 1)
+            continue
+        if icinde_a or icinde_baslik or eklenen >= limit or not parca.strip():
+            continue
+        for _, desen, slug in adaylar:
+            if slug in kullanilan:
+                continue
+            m = desen.search(parca)
+            if not m:
+                continue
+            parcalar[i] = (parca[:m.start()] + f'<a href="/makale/{slug}/">{m.group(0)}</a>'
+                           + parca[m.end():])
+            kullanilan.add(slug)
+            eklenen += 1
+            break
+    return "".join(parcalar)
+
+
 def parse_article(path):
     with open(path, encoding="utf-8") as f:
         text = f.read()
@@ -406,6 +498,8 @@ def load_articles():
                 "body_html": render_markdown(body.strip()),
                 "word_count": len(body.split()),
             })
+    for a in articles:
+        a["body_html"] = inject_internal_links(a["body_html"], a, articles)
     return articles
 
 
@@ -911,20 +1005,31 @@ def main():
           "window.HOBIBUL_CONFIG = " + json.dumps(cfg, ensure_ascii=False) + ";\n")
 
     # ---- sitemap + robots + CNAME + 404 ----
-    urls = ["/", "/rehberler/"]
+    def lastmod(value):
+        v = (value or "").strip()
+        return v if re.fullmatch(r"\d{4}-\d{2}-\d{2}", v) else None
+
+    def newest(items):
+        vals = [d for d in (lastmod(x.get("updated") or x.get("date")) for x in items) if d]
+        return max(vals) if vals else None
+
+    urls = [("/", newest(articles)), ("/rehberler/", newest(articles))]
     for page in info_pages:
-        urls.append(page["path"])
+        urls.append((page["path"], lastmod(page.get("updated"))))
     for cat in categories:
-        urls.append(f"/kategori/{cat['slug']}/")
+        in_cat = [a for a in articles if a["category"] == cat["id"]]
+        urls.append((f"/kategori/{cat['slug']}/", newest(in_cat)))
         for sub in cat["subcategories"]:
-            urls.append(f"/kategori/{cat['slug']}/{sub['slug']}/")
+            in_sub = [a for a in in_cat if a.get("subcategory") == sub["id"]]
+            urls.append((f"/kategori/{cat['slug']}/{sub['slug']}/", newest(in_sub)))
     for a in articles:
-        urls.append(f"/makale/{a['slug']}/")
+        urls.append((f"/makale/{a['slug']}/", lastmod(a.get("updated") or a.get("date"))))
 
     sitemap = ['<?xml version="1.0" encoding="UTF-8"?>',
                '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">']
-    for u in urls:
-        sitemap.append(f"  <url><loc>{BASE_URL}{u}</loc></url>")
+    for u, lm in urls:
+        suffix = f"<lastmod>{lm}</lastmod>" if lm else ""
+        sitemap.append(f"  <url><loc>{BASE_URL}{u}</loc>{suffix}</url>")
     sitemap.append("</urlset>")
     write(os.path.join(SITE, "sitemap.xml"), "\n".join(sitemap))
 
