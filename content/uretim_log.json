@@ -3,10 +3,14 @@
   "ticari:el-sanatlari:orgu-tig:baslangic",
   "ticari:koleksiyon:lego-model:en-iyi-lego-setleri-yetiskin-icin-bonsai-sukulent-ve-speed-champions",
   "ticari:sanat:fotografcilik:fotograf-makinesi-secimi-yeni-baslayanlar-icin-canon-eos-r100",
-  "ticari:bahce-bitki:bonsai:bonsai-baslangic-seti-makas-tel-toprak-ve-gubre"
+  "ticari:bahce-bitki:bonsai:bonsai-baslangic-seti-makas-tel-toprak-ve-gubre",
+  "ticari:evcil-hayvan:kedi-bakimi:kedi-bakim-seti-tirmalama-firca-oyuncak-ve-tuvalet-duzeni",
+  "ticari:bilim-astronomi:kimya-deney:baslangic"
  ],
  "photos": [
-  "Q_7lgvvDLbQ"
+  "Q_7lgvvDLbQ",
+  "N04FIfHhv_k",
+  "cuqp2Jzz_lY"
  ],
  "atlanan": [
   {
@@ -313,6 +317,56 @@
    "anahtar": "ticari:muzik:klavye-piyano:baslangic",
    "neden": "çıktı biçimi bozuk",
    "tarih": "2026-10-30"
+  },
+  {
+   "anahtar": "ticari:seyahat-gezi:karavan:baslangic",
+   "neden": "kısa (1142 kelime, alt sınır 1550)",
+   "tarih": "2026-10-30"
+  },
+  {
+   "anahtar": "ticari:yazilim-kodlama:veri-bilimi:baslangic",
+   "neden": "kısa (1270 kelime, alt sınır 1550)",
+   "tarih": "2026-10-30"
+  },
+  {
+   "anahtar": "ticari:yazi-edebiyat:yaratici-yazarlik:baslangic",
+   "neden": "kısa (1246 kelime, alt sınır 1550)",
+   "tarih": "2026-10-30"
+  },
+  {
+   "anahtar": "ticari:outdoor:dagcilik-trekking:baslangic",
+   "neden": "kısa (1402 kelime, alt sınır 1550)",
+   "tarih": "2026-10-30"
+  },
+  {
+   "anahtar": "ticari:el-sanatlari:resim-boyama:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-30"
+  },
+  {
+   "anahtar": "ticari:muzik:klavye-piyano:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-30"
+  },
+  {
+   "anahtar": "ticari:teknoloji:oyun-pc-modlama:oyuncu-mouse-ve-klavye-seti-redragon-kumara-ve-logitech-g213",
+   "neden": "kısa (1024 kelime, alt sınır 1550)",
+   "tarih": "2026-10-30"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:kart-oyunlari:baslangic",
+   "neden": "kısa (1156 kelime, alt sınır 1550)",
+   "tarih": "2026-10-30"
+  },
+  {
+   "anahtar": "ticari:spor-fitness:kosu:baslangic",
+   "neden": "kısa (1330 kelime, alt sınır 1550)",
+   "tarih": "2026-10-30"
+  },
+  {
+   "anahtar": "ticari:sanat:seramik-comlek:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-30"
   }
  ],
  "makaleler": [
@@ -320,6 +374,16 @@
    "anahtar": "ticari:bahce-bitki:bonsai:bonsai-baslangic-seti-makas-tel-toprak-ve-gubre",
    "tarih": "2026-10-29",
    "slug": "bonsai-baslangic-seti-makas-tel-toprak-ve-gubre"
+  },
+  {
+   "anahtar": "ticari:evcil-hayvan:kedi-bakimi:kedi-bakim-seti-tirmalama-firca-oyuncak-ve-tuvalet-duzeni",
+   "tarih": "2026-10-30",
+   "slug": "kedi-bakim-seti-tirmalama-firca-oyuncak-ve-tuvalet-duzeni"
+  },
+  {
+   "anahtar": "ticari:bilim-astronomi:kimya-deney:baslangic",
+   "tarih": "2026-10-30",
+   "slug": "kimya-deney-baslangic-seti-ilk-alinacaklar-2026"
   }
  ]
 }
