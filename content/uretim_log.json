@@ -5,12 +5,14 @@
   "ticari:sanat:fotografcilik:fotograf-makinesi-secimi-yeni-baslayanlar-icin-canon-eos-r100",
   "ticari:bahce-bitki:bonsai:bonsai-baslangic-seti-makas-tel-toprak-ve-gubre",
   "ticari:evcil-hayvan:kedi-bakimi:kedi-bakim-seti-tirmalama-firca-oyuncak-ve-tuvalet-duzeni",
-  "ticari:bilim-astronomi:kimya-deney:baslangic"
+  "ticari:bilim-astronomi:kimya-deney:baslangic",
+  "ticari:yemek-mutfak:yemek-pisirme:baslangic"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
   "N04FIfHhv_k",
-  "cuqp2Jzz_lY"
+  "cuqp2Jzz_lY",
+  "S2Eql9vHN3o"
  ],
  "atlanan": [
   {
@@ -404,6 +406,11 @@
    "anahtar": "ticari:bilim-astronomi:kimya-deney:baslangic",
    "tarih": "2026-10-30",
    "slug": "kimya-deney-baslangic-seti-ilk-alinacaklar-2026"
+  },
+  {
+   "anahtar": "ticari:yemek-mutfak:yemek-pisirme:baslangic",
+   "tarih": "2026-10-30",
+   "slug": "yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026"
   }
  ]
 }
