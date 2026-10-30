@@ -2,7 +2,7 @@ name: Günlük makale
 
 on:
   schedule:
-    # Her 30 dakikada bir, İstanbul gününde 3 makale dolana kadar otomatik.py kalanı üretir.
+    # Her 30 dakikada bir, İstanbul gününde 5 makale dolana kadar otomatik.py kalanı üretir.
     # */30 dakika :00 ve :30'a denk gelir; GitHub Actions bu dilimleri yük altında
     # geciktirir veya hiç başlatmaz. Aynı tempo, kalabalığın dışında iki ayrı zamanlama.
     - cron: "7 * * * *"
@@ -10,8 +10,8 @@ on:
   workflow_dispatch:
     inputs:
       adet:
-        description: "Bu çalışmada denenecek makale sayısı (varsayılan 3). Günlük tavan 3; bugün yazılanlar düşülür."
-        default: "3"
+        description: "Bu çalışmada denenecek makale sayısı (varsayılan 5). Günlük tavan 5; bugün yazılanlar düşülür."
+        default: "5"
   push:                         # taslağı onaylayıp (draft: "false") kaydedince siteyi yeniden üretir
     branches: [main]
     paths: ["content/**", "templates/**", "static/**", "build.py", "deeplink.py"]
@@ -46,7 +46,7 @@ jobs:
           # Eksik GEMINI_API_KEY hâlâ kırmızı fail. Secret değeri buraya yazılmaz.
           GEMINI_MODEL_YEDEK: ${{ vars.GEMINI_MODEL_YEDEK || 'gemini-flash-lite-latest' }}
           TASLAK_MODU: ${{ vars.TASLAK_MODU || 'false' }}
-        # Zamanlanmış çalıştırma girdi almaz; varsayılan 3. Gün doluysa betik hemen çıkar.
+        # Zamanlanmış çalıştırma girdi almaz; varsayılan 5. Gün doluysa betik hemen çıkar.
         # fetch/reset üretimi siler; bu yüzden makale ve site üretimi döngünün içindedir.
         run: |
           git config user.name "hobibul-bot"
@@ -56,7 +56,7 @@ jobs:
             git fetch origin main
             git reset --hard origin/main
             if [ "${{ github.event_name }}" != "push" ]; then
-              python otomatik.py --adet "${{ github.event.inputs.adet || '3' }}"
+              python otomatik.py --adet "${{ github.event.inputs.adet || '5' }}"
             fi
             python build.py
             git add -A
