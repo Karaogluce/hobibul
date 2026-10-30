@@ -7,14 +7,16 @@
   "ticari:evcil-hayvan:kedi-bakimi:kedi-bakim-seti-tirmalama-firca-oyuncak-ve-tuvalet-duzeni",
   "ticari:bilim-astronomi:kimya-deney:baslangic",
   "ticari:yemek-mutfak:yemek-pisirme:baslangic",
-  "ticari:bahce-bitki:bonsai:baslangic"
+  "ticari:bahce-bitki:bonsai:baslangic",
+  "ticari:evcil-hayvan:kopek-bakimi:baslangic"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
   "N04FIfHhv_k",
   "cuqp2Jzz_lY",
   "S2Eql9vHN3o",
-  "c18q3myyHLU"
+  "c18q3myyHLU",
+  "puf9mUUURbs"
  ],
  "atlanan": [
   {
@@ -391,6 +393,81 @@
    "anahtar": "ticari:sanat:seramik-comlek:baslangic",
    "neden": "kısa (1101 kelime, alt sınır 1550)",
    "tarih": "2026-10-30"
+  },
+  {
+   "anahtar": "ticari:bilim-astronomi:meteoroloji:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:seyahat-gezi:vlog:baslangic",
+   "neden": "kısa (906 kelime, alt sınır 1550)",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:yazilim-kodlama:siber-guvenlik:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:yazi-edebiyat:okuma:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:outdoor:balikcilik:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:el-sanatlari:mum-sabun:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:muzik:davul-perkusyon:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:teknoloji:raspberry-pi-elektronik:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:vintage-antika:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:spor-fitness:yoga-pilates:baslangic",
+   "neden": "kısa (845 kelime, alt sınır 1550)",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:sanat:dikis-nakis:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:yemek-mutfak:kahve:baslangic",
+   "neden": "kısa (1439 kelime, alt sınır 1550)",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:bahce-bitki:teraryum:baslangic",
+   "neden": "kısa (1237 kelime, alt sınır 1550)",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:evcil-hayvan:kedi-bakimi:baslangic",
+   "neden": "kısa (1456 kelime, alt sınır 1550)",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:outdoor:bisiklet:baslangic",
+   "neden": "kısa (1285 kelime, alt sınır 1550)",
+   "tarih": "2026-10-31"
   }
  ],
  "makaleler": [
@@ -418,6 +495,11 @@
    "anahtar": "ticari:bahce-bitki:bonsai:baslangic",
    "tarih": "2026-10-31",
    "slug": "bonsai-baslangic-seti-ilk-alinacaklar-2026"
+  },
+  {
+   "anahtar": "ticari:evcil-hayvan:kopek-bakimi:baslangic",
+   "tarih": "2026-10-31",
+   "slug": "kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026"
   }
  ]
 }
