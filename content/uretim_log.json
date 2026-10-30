@@ -367,6 +367,26 @@
    "anahtar": "ticari:sanat:seramik-comlek:baslangic",
    "neden": "çıktı biçimi bozuk",
    "tarih": "2026-10-30"
+  },
+  {
+   "anahtar": "ticari:teknoloji:oyun-pc-modlama:oyuncu-mouse-ve-klavye-seti-redragon-kumara-ve-logitech-g213",
+   "neden": "kısa (1190 kelime, alt sınır 1550)",
+   "tarih": "2026-10-30"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:kart-oyunlari:baslangic",
+   "neden": "kısa (1536 kelime, alt sınır 1550)",
+   "tarih": "2026-10-30"
+  },
+  {
+   "anahtar": "ticari:spor-fitness:kosu:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-30"
+  },
+  {
+   "anahtar": "ticari:sanat:seramik-comlek:baslangic",
+   "neden": "kısa (1101 kelime, alt sınır 1550)",
+   "tarih": "2026-10-30"
   }
  ],
  "makaleler": [
