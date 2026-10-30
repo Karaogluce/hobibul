@@ -6,13 +6,15 @@
   "ticari:bahce-bitki:bonsai:bonsai-baslangic-seti-makas-tel-toprak-ve-gubre",
   "ticari:evcil-hayvan:kedi-bakimi:kedi-bakim-seti-tirmalama-firca-oyuncak-ve-tuvalet-duzeni",
   "ticari:bilim-astronomi:kimya-deney:baslangic",
-  "ticari:yemek-mutfak:yemek-pisirme:baslangic"
+  "ticari:yemek-mutfak:yemek-pisirme:baslangic",
+  "ticari:bahce-bitki:bonsai:baslangic"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
   "N04FIfHhv_k",
   "cuqp2Jzz_lY",
-  "S2Eql9vHN3o"
+  "S2Eql9vHN3o",
+  "c18q3myyHLU"
  ],
  "atlanan": [
   {
@@ -411,6 +413,11 @@
    "anahtar": "ticari:yemek-mutfak:yemek-pisirme:baslangic",
    "tarih": "2026-10-30",
    "slug": "yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026"
+  },
+  {
+   "anahtar": "ticari:bahce-bitki:bonsai:baslangic",
+   "tarih": "2026-10-31",
+   "slug": "bonsai-baslangic-seti-ilk-alinacaklar-2026"
   }
  ]
 }
