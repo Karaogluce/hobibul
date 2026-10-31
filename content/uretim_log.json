@@ -10,7 +10,8 @@
   "ticari:bahce-bitki:bonsai:baslangic",
   "ticari:evcil-hayvan:kopek-bakimi:baslangic",
   "ticari:bilim-astronomi:meteoroloji:baslangic",
-  "ticari:el-sanatlari:deri-isleri:baslangic"
+  "ticari:el-sanatlari:deri-isleri:baslangic",
+  "ticari:muzik:dj-produksiyon:dj-seti-nasil-kullanilir"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -20,7 +21,8 @@
   "c18q3myyHLU",
   "puf9mUUURbs",
   "ytCZ5MhC1VA",
-  "eM-gOy8AiQk"
+  "eM-gOy8AiQk",
+  "6weyVIC3N-Y"
  ],
  "atlanan": [
   {
@@ -602,6 +604,11 @@
    "anahtar": "ticari:evcil-hayvan:akvaryum:baslangic",
    "neden": "kısa (1195 kelime, alt sınır 1550)",
    "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:lego-model:lego-model-araba",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-31"
   }
  ],
  "makaleler": [
@@ -644,6 +651,11 @@
    "anahtar": "ticari:el-sanatlari:deri-isleri:baslangic",
    "tarih": "2026-10-31",
    "slug": "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026"
+  },
+  {
+   "anahtar": "ticari:muzik:dj-produksiyon:dj-seti-nasil-kullanilir",
+   "tarih": "2026-10-31",
+   "slug": "dj-seti-nasil-kullanilir"
   }
  ]
 }
