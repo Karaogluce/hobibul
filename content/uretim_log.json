@@ -11,7 +11,12 @@
   "ticari:evcil-hayvan:kopek-bakimi:baslangic",
   "ticari:bilim-astronomi:meteoroloji:baslangic",
   "ticari:el-sanatlari:deri-isleri:baslangic",
-  "ticari:muzik:dj-produksiyon:dj-seti-nasil-kullanilir"
+  "ticari:muzik:dj-produksiyon:dj-seti-nasil-kullanilir",
+  "ticari:koleksiyon:lego-model:lego-model-araba",
+  "kontrol_listesi:yemek-mutfak:kahve:kahve-barista-malzemeleri",
+  "rehber:teknoloji:_main",
+  "ticari:muzik:dj-produksiyon:dj-seti-adi",
+  "yeni_baslayan:teknoloji:_main"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -22,7 +27,12 @@
   "puf9mUUURbs",
   "ytCZ5MhC1VA",
   "eM-gOy8AiQk",
-  "6weyVIC3N-Y"
+  "6weyVIC3N-Y",
+  "tb3W-vzrgl8",
+  "q0qXYST9iKY",
+  "WgMlXuSv-8A",
+  "dY11a6wI2jI",
+  "lPcXuJyoIjU"
  ],
  "atlanan": [
   {
@@ -609,6 +619,46 @@
    "anahtar": "ticari:koleksiyon:lego-model:lego-model-araba",
    "neden": "çıktı biçimi bozuk",
    "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "sss:muzik:gitar:gitar-nasil-calinir",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-01"
+  },
+  {
+   "anahtar": "sss:teknoloji:drone:drone-nasil-kullanilir",
+   "neden": "kısa (532 kelime, güvenlik tabanı 600)",
+   "tarih": "2026-11-01"
+  },
+  {
+   "anahtar": "kontrol_listesi:evcil-hayvan:akvaryum:akvaryum-balik-av-malzemeleri-ula-yorumlari",
+   "neden": "aynı kelimeyle başlayan cümle çok",
+   "tarih": "2026-11-01"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:lego-model:lego-model-ai",
+   "neden": "kısa (549 kelime, güvenlik tabanı 600)",
+   "tarih": "2026-11-01"
+  },
+  {
+   "anahtar": "sss:muzik:gitar:gitar-nasil-tutulur",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-01"
+  },
+  {
+   "anahtar": "sss:teknoloji:drone:drone-nasil-ucurulur",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-01"
+  },
+  {
+   "anahtar": "sss:yemek-mutfak:kahve:barista-kahve-nasil",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-01"
+  },
+  {
+   "anahtar": "sss:bahce-bitki:bonsai:bonsai-bitkisi-nasil-cogalir",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-01"
   }
  ],
  "makaleler": [
@@ -656,6 +706,31 @@
    "anahtar": "ticari:muzik:dj-produksiyon:dj-seti-nasil-kullanilir",
    "tarih": "2026-10-31",
    "slug": "dj-seti-nasil-kullanilir"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:lego-model:lego-model-araba",
+   "tarih": "2026-11-01",
+   "slug": "lego-model-araba"
+  },
+  {
+   "anahtar": "kontrol_listesi:yemek-mutfak:kahve:kahve-barista-malzemeleri",
+   "tarih": "2026-11-01",
+   "slug": "kahve-barista-malzemeleri"
+  },
+  {
+   "anahtar": "rehber:teknoloji:_main",
+   "tarih": "2026-11-01",
+   "slug": "en-iyi-teknoloji-ekipmanlari-2026-alim-rehberi"
+  },
+  {
+   "anahtar": "ticari:muzik:dj-produksiyon:dj-seti-adi",
+   "tarih": "2026-11-01",
+   "slug": "dj-seti-adi"
+  },
+  {
+   "anahtar": "yeni_baslayan:teknoloji:_main",
+   "tarih": "2026-11-01",
+   "slug": "teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar"
   }
  ]
 }
