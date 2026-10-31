@@ -30,6 +30,7 @@ import urllib.error
 import urllib.request
 from datetime import date
 
+import urun_denetim
 from seo import fit_description, fit_title
 
 class GeminiError(Exception):
@@ -86,18 +87,22 @@ def slugify(text):
 
 
 def pick_products(products, cat, sub, ids):
-    pool = products.get(cat, {}).get(sub or "_main", [])
+    """Doğrulanmış ürünlerden seç. Çelişkili kopya sessizce seçilmez."""
+    pool = urun_denetim.alt_kategori_urunleri(products, cat, sub or "_main")
     if not ids:
         return pool
+    try:
+        harita = urun_denetim.urun_haritasi(products)
+    except urun_denetim.UrunVerisiHatasi as e:
+        sys.exit(f"Ürün verisi hatası: {e}")
     by_id = {p["id"]: p for p in pool}
-    # alt kategori dışından da id verilebilsin
-    for subs in products.values():
-        for items in subs.values():
-            for p in items:
-                by_id.setdefault(p["id"], p)
+    # alt kategori dışından da id verilebilsin; yalnızca geçerli kayıtlar girer
+    for rid, rec in harita.items():
+        if rid not in by_id and urun_denetim.gecerli_mi(rec):
+            by_id[rid] = rec
     missing = [i for i in ids if i not in by_id]
     if missing:
-        sys.exit(f"Bilinmeyen ürün id: {', '.join(missing)}  (--liste ile bak)")
+        sys.exit(f"Bilinmeyen veya kullanılamayan ürün id: {', '.join(missing)}  (--liste ile bak)")
     return [by_id[i] for i in ids]
 
 

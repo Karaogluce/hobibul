@@ -30,6 +30,7 @@ import urllib.parse
 import urllib.request
 
 import deeplink
+import urun_denetim
 import yeni_makale as ym
 from seo import fit_description, fit_title
 
@@ -72,9 +73,13 @@ CAT_EN = {
     "yazilim-kodlama": "coding laptop", "yazi-edebiyat": "writing books",
 }
 
+# Kelime sayısı yalnızca güvenlik kontrolüdür: açıkça yarım, bozuk veya konuyu
+# cevaplamayan çıktı bu tabanın altında reddedilir. Uzunluk arama niyetine bırakılır.
+GUVENLIK_TABANI = 600
+
 TIPLER = {
     "ticari": dict(
-        min=1550, hepsi=False,
+        hedef=1200, hepsi=False,
         baslik=lambda s: f"{s} Başlangıç Seti: İlk Alınacaklar ({YEAR})",
         yapi="İlk iki cümlede alım sorusuna cevap ver. Hemen ardından bir başlangıç ürününe aff:// linki koy. "
              "Sonra '## Satın Almadan Önce Nelere Bakmalı?' → '## Ürün Ürün Set' altında her önerilen ürün için ### başlık "
@@ -83,33 +88,33 @@ TIPLER = {
              "('Sonuç' başlığı kullanma).",
     ),
     "rehber": dict(
-        min=1500, hepsi=True,
+        hedef=1000, hepsi=True,
         baslik=lambda s: f"En İyi {s} Ekipmanları ({YEAR}): Alım Rehberi",
         yapi="Giriş (odak anahtar kelime ilk paragrafta geçsin) → '## Satın Almadan Önce Nelere Bakmalı?' (genel, "
              "doğrulanabilir bilgiler; sayı/ölçü uydurma) → '## En İyi Seçenekler' altında her ürün için ### başlık → "
              "'## Hangisini Seçmeli?' (kullanım senaryosuna göre kısa eşleştirme) → '## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
     "yeni_baslayan": dict(
-        min=1500, hepsi=True,
+        hedef=1000, hepsi=True,
         baslik=lambda s: f"{s} İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
         yapi="Giriş (başlangıç kaygıları) → '## Başlamadan Önce Bilmen Gerekenler' → '## İlk Alışverişte Öncelik Sırası' altında "
              "ürünleri neden bu sırayla alınacağıyla ### başlıklar halinde anlat → '## Yeni Başlayanların Sık Yaptığı Hatalar' → "
              "'## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
     "hatalar": dict(
-        min=1500, hepsi=False,
+        hedef=1000, hepsi=False,
         baslik=lambda s: f"{s} Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
         yapi="Giriş → 7 numaralı hata, her biri ### başlık + 'neden sorun' + 'ne yapmalı' → hataların 2-3'üne uygun ürünlerden "
              "doğal biçimde link ver → '## Sık Sorulan Sorular' (3 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
     "sss": dict(
-        min=1500, hepsi=False,
+        hedef=1000, hepsi=False,
         baslik=lambda s: f"{s} Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
         yapi="Giriş → 8-10 soru, her biri ### başlık olarak (aşağıdaki gerçek arama sorgularından seç) ve 2-4 cümlelik net cevap → "
              "uygun cevaplarda 2-3 üründen doğal biçimde link ver → '## Sık Sorulan Sorular' başlığını da kullan (ör. 'Hâlâ Aklında Soru Var mı?') → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
     "kontrol_listesi": dict(
-        min=1500, hepsi=False,
+        hedef=1000, hepsi=False,
         baslik=lambda s: f"{s} Kontrol Listesi: Eksiksiz Hazırlık",
         yapi="Giriş (hedef sorguya ilk paragrafta cevap) → '## Neye İhtiyacın Var?' (hangi durumda hangi ekipman, "
              "ürün verisine dayalı genel gerekçeler) → '## Kontrol Listesi' altında madde madde liste; her maddede o şeyin neden "
@@ -117,7 +122,7 @@ TIPLER = {
              "'## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma). Listede geçen en az 2 üründen doğal biçimde link ver.",
     ),
     "nasil_yapilir": dict(
-        min=1500, hepsi=False,
+        hedef=1000, hepsi=False,
         baslik=lambda s: f"{s} Nasıl Yapılır? Adım Adım Rehber",
         yapi="Giriş (hedef sorguya ilk iki cümlede cevap) → '## Gerekli Malzemeler ve Hazırlık' (kısa liste) → "
              "'## Adım Adım Uygulama' altında her adımı ### başlık yaparak sırayla anlat → '## Yeni Başlayanların Sık Yaptığı Hatalar' → "
@@ -317,16 +322,50 @@ def dogal_baslik(sorgu):
     return s
 
 
-def yeni_tip_konulari(products, c, pool, used):
+# Ürün listesini tam kapsaması gereken tipler. Bu tiplerde alt kategori için
+# en az üç doğrulanmış ürün şartı aranır; diğer tipler iki linkle çalışabilir.
+URUN_ODAKLI_TIPLER = ("ticari", "rehber", "yeni_baslayan")
+
+
+def _gerekli_urun(tip):
+    return 3 if tip in URUN_ODAKLI_TIPLER else 2
+
+
+def _havuz_uygun(e):
+    """Sınıflandırma sonucu elenen/incelenecek kayıtlar üretime alınmaz.
+
+    `siniflandirma` alanı olmayan eski havuz kayıtları eskisi gibi davranır.
+    """
+    s = e.get("siniflandirma")
+    if isinstance(s, dict):
+        durum = s.get("durum")
+        if durum and durum != "uygun":
+            return False
+    return True
+
+
+def _urun_haritasi(products):
+    try:
+        return urun_denetim.urun_haritasi(products)
+    except urun_denetim.UrunVerisiHatasi as e:
+        sys.exit(f"Ürün verisi hatası: {e}")
+
+
+def havuz_konulari(products, c, pool, used):
+    """Havuzdaki ticari olmayan konular. Ürün eşiği doğrulanmış ürünlerle sayılır."""
     items = []
     subs = {s["id"]: s["name"] for s in c["subcategories"]}
     for e in pool:
-        tip, sub = e.get("tip_onerisi"), e.get("alt")
-        sorgu = re.sub(r"\s+", " ", str(e.get("sorgu", ""))).strip()
-        plist = products.get(c["id"], {}).get(sub, [])
-        if tip not in YENI_TIPLER or e.get("kategori") != c["id"] or sub not in subs or not sorgu:
+        if not _havuz_uygun(e):
             continue
-        if cop_mu(sorgu) or len(plist) < 3:
+        tip, sub = e.get("tip_onerisi"), e.get("alt")
+        if tip not in TIPLER or tip == TICARI_TIP or e.get("kategori") != c["id"] or sub not in subs:
+            continue
+        sorgu = re.sub(r"\s+", " ", str(e.get("sorgu", ""))).strip()
+        if not sorgu or cop_mu(sorgu):
+            continue
+        plist = urun_denetim.alt_kategori_urunleri(products, c["id"], sub)
+        if len(plist) < _gerekli_urun(tip):
             continue
         sslug = ym.slugify(sorgu)
         if not sslug or sslug in used:
@@ -335,18 +374,23 @@ def yeni_tip_konulari(products, c, pool, used):
         items.append(dict(
             key=f"{tip}:{c['id']}:{sub}:{sslug}", tip=tip, cat=c["id"], cat_name=c["name"],
             sub=sub, sub_name=subs[sub], ids=[p["id"] for p in plist],
-            title=dogal_baslik(sorgu), sorgu=sorgu, sorgu_slug=sslug))
+            title=dogal_baslik(sorgu), sorgu=sorgu, sorgu_slug=sslug, kaynak="havuz"))
     return items
 
 
 def _urun_bul(products, ids):
-    by_id = {}
-    for subs in products.values():
-        for items in subs.values():
-            for p in items:
-                by_id.setdefault(p["id"], p)
-    found = [by_id[i] for i in ids if i in by_id]
-    return found
+    """İstenen kimlikleri doğrulanmış ürün haritasından çöz; geçersizleri atla."""
+    harita = _urun_haritasi(products)
+    gorulen, out = set(), []
+    for rid in ids:
+        rid = str(rid).strip()
+        if not rid or rid in gorulen:
+            continue
+        gorulen.add(rid)
+        rec = harita.get(rid)
+        if rec is not None and urun_denetim.gecerli_mi(rec):
+            out.append(rec)
+    return out
 
 
 def ticari_konulari(products, c, pool, used):
@@ -354,20 +398,20 @@ def ticari_konulari(products, c, pool, used):
     items = []
     subs = {s["id"]: s["name"] for s in c["subcategories"]}
 
-    def ekle(tip_key, sub, sub_name, plist, title, sorgu):
+    def ekle(tip_key, sub, sub_name, plist, title, sorgu, kaynak):
         sslug = ym.slugify(sorgu or title)
         if not sslug or sslug in used or cop_mu(sorgu or title):
             return
-        if len(plist) < 3:
+        if len(plist) < _gerekli_urun(TICARI_TIP):
             return
         used.add(sslug)
         items.append(dict(
             key=tip_key, tip=TICARI_TIP, cat=c["id"], cat_name=c["name"],
             sub=sub, sub_name=sub_name, ids=[p["id"] for p in plist],
-            title=title, sorgu=sorgu, sorgu_slug=sslug))
+            title=title, sorgu=sorgu, sorgu_slug=sslug, kaynak=kaynak))
 
     for e in pool:
-        if e.get("tip_onerisi") != TICARI_TIP or e.get("kategori") != c["id"]:
+        if not _havuz_uygun(e) or e.get("tip_onerisi") != TICARI_TIP or e.get("kategori") != c["id"]:
             continue
         sub = e.get("alt")
         if sub not in subs:
@@ -379,50 +423,119 @@ def ticari_konulari(products, c, pool, used):
         if wanted:
             plist = _urun_bul(products, wanted)
         else:
-            plist = list(products.get(c["id"], {}).get(sub, []))
-            for p in products.get(c["id"], {}).get("_ek", []):
-                if p.get("alt") == sub:
-                    plist.append(p)
-        ekle(f"ticari:{c['id']}:{sub}:{ym.slugify(sorgu)}", sub, subs[sub], plist, dogal_baslik(sorgu), sorgu)
+            plist = urun_denetim.alt_kategori_urunleri(products, c["id"], sub)
+        ekle(f"ticari:{c['id']}:{sub}:{ym.slugify(sorgu)}", sub, subs[sub], plist,
+             dogal_baslik(sorgu), sorgu, "havuz")
     for s in c["subcategories"]:
-        plist = products.get(c["id"], {}).get(s["id"], [])
+        plist = urun_denetim.alt_kategori_urunleri(products, c["id"], s["id"])
         title = TIPLER[TICARI_TIP]["baslik"](s["name"])
-        ekle(f"ticari:{c['id']}:{s['id']}:baslangic", s["id"], s["name"], plist, title, title)
+        ekle(f"ticari:{c['id']}:{s['id']}:baslangic", s["id"], s["name"], plist, title, title, "sablon")
     return items
 
 
-def _donustur(per_cat):
-    out, i = [], 0
-    while any(per_cat):
-        for items in per_cat:
-            if i < len(items):
-                out.append(items[i])
-        i += 1
-        if i > 400:
-            break
+def _makale_gruplari(articles_dir=None):
+    """(kategori, alt kategori) -> makale sayısı. Makalesiz gruba öncelik için."""
+    counts = Counter()
+    for m in urun_denetim.makale_verileri(articles_dir or ARTICLES):
+        cat = str(m.get("kategori") or "").strip()
+        if not cat:
+            continue
+        sub = str(m.get("alt") or "").strip() or "_main"
+        counts[(cat, sub)] += 1
+    return counts
+
+
+def _son_uretim_gunu(log):
+    """(kategori, alt kategori) -> en son üretim tarihi. Hiç üretilmemiş grup yoktur."""
+    out = {}
+    for item in _tarihli_kayitlar(log or {}):
+        parca = str(item.get("anahtar") or "").split(":")
+        if len(parca) < 3:
+            continue
+        anahtar = (parca[1], parca[2])
+        tarih = str(item.get("tarih") or "").strip()
+        if not tarih:
+            continue
+        if anahtar not in out or tarih > out[anahtar]:
+            out[anahtar] = tarih
     return out
 
 
-def topic_queue(products, cats):
-    """Önce ticari niyet (havuz, sonra başlangıç seti), sonra diğer tipler. Kategoriler dönüşümlü."""
+def _grup_anahtari(g, makale_sayisi, son_uretim):
+    """Makalesiz alt kategori önce, sonra en uzun süredir üretim yapılmayan.
+
+    Kategori düzeyi (_main) konuları gerçek alt kategorilerin önüne geçmez;
+    böylece ilk günlerde tüm kategorilerin jenerik rehberi kuyruğu doldurmaz.
+    """
+    cat, sub = g["cat"], g["sub"]
+    if sub == "_main":
+        oncelik = 2
+    elif makale_sayisi.get((cat, sub), 0) == 0:
+        oncelik = 0
+    else:
+        oncelik = 1
+    return (oncelik, son_uretim.get((cat, sub), ""), cat, sub)
+
+
+def _adil_sira(gruplar, makale_sayisi, son_uretim):
+    """Gruplar arasında round-robin; aynı ana kategori art arda gelmez.
+
+    Sıra deterministiktir: rastgelelik ve analytics ağırlığı yoktur. Gruplar
+    tükenene kadar her turda her gruptan en fazla bir konu alınır.
+    """
+    sirali = sorted(gruplar, key=lambda g: _grup_anahtari(g, makale_sayisi, son_uretim))
+    kuyruk = [list(g["konular"]) for g in sirali]
+    out, son_kat = [], None
+    while any(kuyruk):
+        ilerleme = False
+        for i, g in enumerate(sirali):
+            if not kuyruk[i] or g["cat"] == son_kat:
+                continue
+            out.append(kuyruk[i].pop(0))
+            son_kat = g["cat"]
+            ilerleme = True
+        if not ilerleme:
+            # Kalan tüm gruplar son kategoriyle aynıysa kilit çözülür.
+            for i, g in enumerate(sirali):
+                if kuyruk[i]:
+                    out.append(kuyruk[i].pop(0))
+                    son_kat = g["cat"]
+                    ilerleme = True
+                    break
+            if not ilerleme:
+                break
+    return out
+
+
+def topic_queue(products, cats, log=None, articles_dir=None):
+    """Kategori/alt kategori grupları arasında adil, deterministik üretim sırası.
+
+    Önce ticari niyet, sonra havuzun diğer tipleri ve başlangıç setleri. Konusu
+    olmayan alt kategori kuyruğa girmez; her grup tur başına bir konu verir.
+    """
     pool, used = load_pool(), set()
-    ticari_per, per_cat = [], []
+    makale_sayisi = _makale_gruplari(articles_dir)
+    son_uretim = _son_uretim_gunu(load_log() if log is None else log)
+    gruplar = []
     for c in cats:
-        ticari_per.append(ticari_konulari(products, c, pool, used))
-        items = []
+        items = ticari_konulari(products, c, pool, used)
         subs = [("_main", c["name"])] + [(s["id"], s["name"]) for s in c["subcategories"]]
         for tip in ESKI_TIPLER:
             for sid, sname in subs:
-                plist = products.get(c["id"], {}).get(sid, [])
-                if len(plist) < 3:
+                plist = urun_denetim.alt_kategori_urunleri(products, c["id"], sid)
+                if len(plist) < _gerekli_urun(tip):
                     continue
                 items.append(dict(
                     key=f"{tip}:{c['id']}:{sid}", tip=tip, cat=c["id"], cat_name=c["name"],
                     sub=sid, sub_name=sname, ids=[p["id"] for p in plist],
-                    title=TIPLER[tip]["baslik"](sname)))
-        items += yeni_tip_konulari(products, c, pool, used)
-        per_cat.append(items)
-    return _donustur(ticari_per) + _donustur(per_cat)
+                    title=TIPLER[tip]["baslik"](sname), kaynak="sablon"))
+        items += havuz_konulari(products, c, pool, used)
+        yerliler = {}
+        for t in sorted(items, key=lambda x: 0 if x.get("kaynak") == "havuz" else 1):
+            yerliler.setdefault(t["sub"], []).append(t)
+        for sub, konular in yerliler.items():
+            gruplar.append(dict(cat=c["id"], sub=sub, konular=konular))
+    return _adil_sira(gruplar, makale_sayisi, son_uretim)
 
 
 # ------------------------------------------------------------------ arama sorguları
@@ -446,8 +559,8 @@ def suggestions(sub_name):
 
 # ------------------------------------------------------------------ prompt / parse
 def kelime_hedef(tip):
-    """Kapı eşiğinin üstünde, ilk taslağın hedeflemesi gereken alt uzunluk."""
-    return max(TIPLER[tip]["min"] + 150, 1650)
+    """Yumuşak hedef. Zorunlu alt sınır değil; konu bittiyse uzatma gerekmez."""
+    return TIPLER[tip]["hedef"]
 
 
 def _urun_bloku(prods):
@@ -484,10 +597,10 @@ BAŞLIK: {t['title']}
 KATEGORİ: {t['cat_name']} › {t['sub_name']}
 MAKALE TİPİ: {t['tip']}
 BEKLENEN YAPI: {cfg['yapi']}
-UZUNLUK VE YAPI BÜTÇESİ (uymayan taslak reddedilir):
-- Toplam metin {hedef}–2000 kelime olsun. {cfg['min']} kelimenin altı eksik sayılır ve yayınlanmaz.
-- Erken bitirme. En az 6 adet "## " bölümü yaz; her ## bölümünde en az iki paragraf olsun.
-- Her bölümü somut bir durumdan aç. Gerekçeyi ürün verisine bağla. Kısa kesip geçme; aynı öğüdü tekrarlayarak uzatma.
+UZUNLUK VE YAPI (arama niyetine göre doğal yaz):
+- Yaklaşık {hedef} kelime yeterli. Konu tamamlandığında sırf kelime sayısını artırmak için uzatma; gereksiz genel bilgi, tekrar ve dolgu cümle yazma.
+- En az 4 adet "## " bölümü yaz; her ## bölümünde en az iki paragraf olsun.
+- Her bölümü somut bir durumdan aç. Gerekçeyi ürün verisine bağla. Aynı öğüdü yeni başlık altında tekrarlama.
 
 İNSANLARIN GERÇEKTEN ARADIĞI SORGULAR (uygun olanları başlıklara ve SSS bölümüne doğal biçimde yedir; zorlama ya da tekrar yapma):
 {sq}
@@ -517,7 +630,7 @@ ACIKLAMA: <120-160 karakterlik Türkçe meta açıklama, odak anahtar kelimeyi i
 """
 
 
-def edit_prompt(body, prods, guide, alt_sinir=1500):
+def edit_prompt(body, prods, guide, alt_sinir=GUVENLIK_TABANI):
     veri = "\n".join(f"- {p['id']}: {p['name']} | {p.get('desc','')} | artı: {'; '.join(p.get('pros', []))} | eksi: {'; '.join(p.get('cons', []))}" for p in prods)
     return f"""Sen titiz bir Türkçe blog editörüsün. Aşağıdaki taslağı, YAZIM REHBERİ'ne göre elden geçir.
 
@@ -526,7 +639,7 @@ YAPILACAKLAR:
 2. Cümleleri doğal konuşma Türkçesine çek. Kesik kesik, telegram gibi dizilmiş yargıları birleştir. Cümleyi salt kısa olsun diye bölme; 3-7 kelime zorunluluğu yok. Art arda aynı kelimeyle başlayan cümleleri değiştir. İç içe geçmiş, nefes aldırmayan cümleleri sadeleştir.
 3. Ürün verisinde bulunmayan her bilgiyi (ölçü, ağırlık, süre, puan, fiyat, "denedik/kullandım" iddiası) sil.
 4. Tüm aff:// linklerini aynen koru. ## ve ### başlık sayısını koru (başlık metinlerini doğallaştırabilirsin).
-5. Kelime sayısını %10'dan fazla azaltma ve {alt_sinir} kelimenin altına düşürme. Yeni bilgi ekleme. Markdown tablo satırlarını silme.
+5. Bilgi kaybı yaratma; metni {alt_sinir} kelimenin altına düşürme. Sırf uzatmak için yeni paragraf ekleme, dolgu yazma. Markdown tablo satırlarını silme.
 Sadece düzeltilmiş Markdown metnini döndür; açıklama yazma.
 
 ÜRÜN VERİSİ:
@@ -601,8 +714,8 @@ def stil_kontrol(body, banned):
 def gate(body, tip, prods, others, banned=()):
     cfg = TIPLER[tip]
     words = len(body.split())
-    if words < cfg["min"]:
-        return f"kısa ({words} kelime, alt sınır {cfg['min']})"
+    if words < GUVENLIK_TABANI:
+        return f"kısa ({words} kelime, güvenlik tabanı {GUVENLIK_TABANI})"
     if len(re.findall(r"^## ", body, re.M)) < 4:
         return "yetersiz H2 bölümü"
     if not re.search(r"sık sorulan|sorular|\bsss\b", body, re.I):
@@ -752,10 +865,14 @@ DEVAM_HAKKI = 2
 
 
 def genisletme_gerekli(body, tip, finish_reason):
-    """Alt sınırın altı ya da token kesmesi devam ister. Uzun ve tamamlanmış taslak istemez."""
-    if len((body or "").split()) < TIPLER[tip]["min"]:
+    """Yalnızca token kesmesi ya da güvenlik tabanının altı devam ister.
+
+    Konu tamamlanmış ve tabanın üstündeyse sırf kelime sayısı için continuation
+    çağrılmaz; `tip` yumuşak hedefi okumak için ayrılabilir.
+    """
+    if (finish_reason or "") == "MAX_TOKENS":
         return True
-    return (finish_reason or "") == "MAX_TOKENS"
+    return len((body or "").split()) < GUVENLIK_TABANI
 
 
 def _cumleler(text):
@@ -804,7 +921,6 @@ def govde_ayikla(raw):
 def devam_prompt(taslak, t, prods, guide, finish_reason, tam_bicim=False):
     """Kısa veya kesik taslağı dolguya kaçmadan eksik bölümlerle tamamlat."""
     cfg = TIPLER[t["tip"]]
-    hedef = kelime_hedef(t["tip"])
     simdi = len((taslak or "").split())
     if finish_reason == "MAX_TOKENS":
         durum = (
@@ -813,7 +929,7 @@ def devam_prompt(taslak, t, prods, guide, finish_reason, tam_bicim=False):
         )
     else:
         durum = (
-            f"Taslak {simdi} kelime ve alt sınır {cfg['min']}. Erken durmuş. "
+            f"Taslak {simdi} kelime ve güvenlik tabanı {GUVENLIK_TABANI}. Erken durmuş. "
             "Eksik bölümleri ve ince kalan bölümleri işle."
         )
     if tam_bicim:
@@ -828,7 +944,7 @@ ACIKLAMA: <120-160 karakter>
             "Çıktı, baştan sona tam makale gövdesi olsun. Yalnızca eklenti döndürme. "
             "GORSEL, ANAHTAR, ACIKLAMA satırı ve kod bloğu yazma."
         )
-    return f"""Sen aynı makaleyi tamamlayan Türkçe blog editörüsün. Taslağı yayın eşiğine çıkar. Dolgu yazma.
+    return f"""Sen aynı makaleyi tamamlayan Türkçe blog editörüsün. Yalnızca eksik kalan yerleri tamamla. Dolgu yazma.
 
 BAŞLIK: {t['title']}
 MAKALE TİPİ: {t['tip']}
@@ -836,9 +952,8 @@ BEKLENEN YAPI: {cfg['yapi']}
 DURUM: {durum}
 
 UZUNLUK:
-- Şu an yaklaşık {simdi} kelime. Bitmiş metin en az {hedef} kelime olsun. {cfg['min']} altı reddedilir.
-- 2100 kelimeyi geçme.
-- Eş anlamlı tekrar, boş övgü ve aynı öğüdün yeni başlık altında yeniden sıralanması yasak. Her eklenen paragraf yeni bir durum, ayrım veya gerekçe taşısın.
+- Şu an yaklaşık {simdi} kelime. Yalnızca eksik kalan bölümleri ve yarım cümleleri tamamla; konu tamamsa sırf daha uzun olsun diye yeni paragraf yazma.
+- Dolgu cümle, eş anlamlı tekrar, boş övgü ve aynı öğüdün yeni başlık altında yeniden sıralanması yasak. Her eklenen paragraf yeni bir durum, ayrım veya gerekçe taşısın.
 
 YAPILACAKLAR:
 1. Beklenen yapıdaki eksik ## ve ### bölümlerini yaz. Her ## bölümünde en az iki paragraf olsun. SSS cevapları kısa kalabilir; uzunluk karar gerekçesinden gelsin.
@@ -868,7 +983,7 @@ def uzat_taslak(body, t, prods, guide, key, models, model_idx, finish_reason, ha
         kalan -= 1
         once = len((body or "").split())
         etiket = "kesik" if reason == "MAX_TOKENS" else "kısa"
-        print(f"  {etiket} ({once} kelime, alt sınır {TIPLER[t['tip']]['min']}); eksik bölümler tamamlanıyor")
+        print(f"  {etiket} ({once} kelime, güvenlik tabanı {GUVENLIK_TABANI}); eksik bölümler tamamlanıyor")
         raw = _gemini(devam_prompt(body, t, prods, guide, reason), key, models, model_idx)
         reason = getattr(raw, "finish_reason", "") or ""
         ek = ym.validate(govde_ayikla(raw), prods)
@@ -884,7 +999,10 @@ def uzat_taslak(body, t, prods, guide, key, models, model_idx, finish_reason, ha
 
 
 def uret(t, products, key, models, model_idx, ukey, log, draft, tarih):
-    pool = {p["id"]: p for s in products.values() for items in s.values() for p in items}
+    pool = _urun_haritasi(products)
+    eksik = [i for i in t["ids"] if i not in pool]
+    if eksik:
+        return None, f"ürün kimliği bulunamadı: {', '.join(eksik)}"
     prods = [pool[i] for i in t["ids"]]
     sugg = suggestions(t["sub_name"])
     if t.get("sorgu"):
@@ -892,7 +1010,7 @@ def uret(t, products, key, models, model_idx, ukey, log, draft, tarih):
     others = existing_shingles()
     guide, banned = load_guide()
     why = "bilinmiyor"
-    alt_sinir = TIPLER[t["tip"]]["min"]
+    alt_sinir = GUVENLIK_TABANI
     for attempt in range(2):
         raw = _gemini(build_prompt(t, prods, sugg, guide), key, models, model_idx)
         reason = getattr(raw, "finish_reason", "") or ""
@@ -990,8 +1108,8 @@ def main():
     for x in log["atlanan"]:
         fails[x["anahtar"]] = fails.get(x["anahtar"], 0) + 1
     done_keys = set(done_anahtarlari(log))
-    done_sorgu = {k.rsplit(":", 1)[-1] for k in done_keys if k.split(":", 1)[0] in YENI_TIPLER}
-    queue = [t for t in topic_queue(products, cats)
+    done_sorgu = {k.rsplit(":", 1)[-1] for k in done_keys if k.count(":") >= 3}
+    queue = [t for t in topic_queue(products, cats, log=log)
              if t["key"] not in done_keys and ym.slugify(t["title"]) not in have
              and t.get("sorgu_slug") not in done_sorgu and fails.get(t["key"], 0) < 2]
 

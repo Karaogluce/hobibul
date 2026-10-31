@@ -22,6 +22,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from deeplink import shop_ctas_for
 from seo import extract_faq, fit_description, fit_title
+import urun_denetim
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -56,12 +57,12 @@ def public_image(url):
         return url
     return BASE_URL + DEFAULT_OG
 
-# global ürün haritası: id -> ürün
-product_map = {}
-for cat_id, subs in products.items():
-    for sub_id, items in subs.items():
-        for it in items:
-            product_map.setdefault(it["id"], it)
+# global ürün haritası: id -> ürün. Çelişkili kopya varsa build durur; ilk kayıt
+# sessizce kazanmaz (bkz. urun_denetim.urun_haritasi).
+try:
+    product_map = urun_denetim.urun_haritasi(products)
+except urun_denetim.UrunVerisiHatasi as e:
+    sys.exit(f"Ürün verisi hatası: {e}")
 
 # kategori id -> isim
 cat_by_id = {c["id"]: c for c in categories}

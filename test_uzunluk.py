@@ -1,4 +1,4 @@
-"""Gemini uzunluk kapısı: token tavanı, MAX_TOKENS ve devam çağrısı. Ağ yok."""
+"""Gemini uzunluk kapısı: yumuşak hedef, güvenlik tabanı ve devam çağrısı. Ağ yok."""
 import io
 import json
 import unittest
@@ -37,31 +37,129 @@ def _uzun_govde():
     return "\n".join(govde)
 
 
+def _tam_makale():
+    """Yaklaşık 740 kelime: eski 1500 sınırının altında, güvenlik tabanının üstünde."""
+    ozne = [
+        "Sabah", "Rota", "Ayakkabı", "Çanta", "Su", "Harita", "Hava", "Rehber", "Dönüş", "Mola",
+        "Katman", "Eldiven", "Şapka", "Güneş", "Yağmur", "Rüzgar", "Patika", "Kaya", "Dere", "Kamp",
+        "Çadır", "Uyku", "Yemek", "Ocak", "Fener", "Pil", "Telefon", "Arkadaş", "Grup", "Tempo",
+        "Nefes", "Adım", "Bacak", "Omuz", "Sırt", "Bel", "Diz", "Ayak", "Taban", "Bağcık",
+    ]
+    yuklem = [
+        "erken saatte çıktığın yürüyüşte ayakkabının tabanı ıslak taşta kaymamalı ve adımını güvenle atmalısın",
+        "seçerken haritanın yanında hava durumunu da kontrol etmek işini belirgin biçimde kolaylaştırır",
+        "bağcıklarını her molada kontrol etmek uzun yürüyüşlerde ayak sağlığını korur",
+        "içine yedek çorap ve ince bir üst koymak hava değişiminde rahatlık sağlar",
+        "tüketimini saat başı planlamak baş ağrısını ve halsizliği önlemeye yardım eder",
+        "üzerindeki işaretleri takip etmek kaybolma riskini azaltır ve dönüş yolunu kısaltır",
+        "sıcaklık düştüğünde rüzgarın yönünü okumak doğru giyinmeyi kolaylaştırır",
+        "notlarını küçük bir deftere yazmak sonraki geziler için güvenilir bir kaynak oluşturur",
+        "yolunu gün batmadan planlamak karanlıkta yön bulma stresini ortadan kaldırır",
+        "süresini kısa tutmak bacakların dinlenmesine ve tempoyu korumana yardım eder",
+        "kalınlığını mevsime göre seçmek vücut ısısını dengede tutar",
+        "elde taşımak yerine cebe koymak parmaklarını soğuktan korur",
+        "geniş kenarlı olanı tercih etmek yüzünü öğleden sonra güneşinden saklar",
+        "koruyucu kremi iki saatte bir yenilemek ciltte yanık oluşmasını engeller",
+        "başladığında mola yerini önceden belirlemek panik yapmanı önler",
+        "sertleştiğinde adımlarını küçültmek dengeni korumana yardımcı olur",
+        "taşlı bölümde yavaşlamak burkulma riskini belirgin biçimde düşürür",
+        "geçişinde ayakkabının tutuşunu test etmek güvenli bir geçiş sağlar",
+        "yakınında mola vermek hem serinlemeyi hem de su ikmalini kolaylaştırır",
+        "alanını erkenden kurmak akşam karanlığında işlerini zorlaştırmaz",
+        "gerginliğini doğru ayarlamak yağmurda içeri su girmesini engeller",
+        "düzenini korumak sabah eşyalarını hızlıca bulmanı sağlar",
+        "listesini önceden yapmak eksik malzemeyle yola çıkma riskini azaltır",
+        "yakmak için kuru dal toplamak ıslak zeminde güvenli bir başlangıç sunar",
+        "ışığını cebinde taşımak karanlıkta çevreyi görmeni kolaylaştırır",
+        "durumunu her akşam kontrol etmek yolda kalma ihtimalini düşürür",
+        "sinyalini yüksek noktada denemek acil durumda iletişimi hızlandırır",
+        "grubunu önceden bilgilendirmek buluşma noktasını netleştirir",
+        "hızını en yavaş kişiye göre ayarlamak kimsenin geride kalmasını önler",
+        "sabırlı tutmak uzun yürüyüşlerde sakatlanma riskini azaltır",
+        "verdiğin molalarda derin nefes almak kasların toparlanmasına yardım eder",
+        "uzunluğunu kısa tutmak dizlerin yükünü hafifletir",
+        "larını germe hareketleriyle rahatlatmak ertesi gün ağrıyı azaltır",
+        "yükünü iki omuza eşit dağıtmak duruşunu düzeltir",
+        "duruşunu ara ara kontrol etmek bel ağrısını önler",
+        "bölgesini sıcak tutmak ani hareketlerde rahatlık sağlar",
+        "bileğini burkmamak için düz zeminde ısınmak faydalıdır",
+        "tabanını her geziden sonra temizlemek malzemenin ömrünü uzatır",
+        "bağcığını çift düğümle sabitlemek uzun yürüyüşte çözülmeyi önler",
+        "hazırlığını bir gün önceden tamamlamak sabah telaşını ortadan kaldırır",
+    ]
+    ek1 = [
+        "bu yüzden küçük ayrıntıları atlamamak gerekir",
+        "böylece gün sonunda daha az yorgun kalırsın",
+        "çünkü doğru hazırlık beklenmedik durumları yönetmeyi kolaylaştırır",
+        "ve bu alışkanlık zamanla kalıcı bir düzene dönüşür",
+    ]
+    ek2 = [
+        "aynı zamanda yolda karşılaşabileceğin küçük sorunları büyümeden çözmene yardım eder",
+        "üstelik grubun geri kalanıyla uyum içinde ilerlemeni sağlar",
+        "böylece hem güvenliğini hem de keyfini birlikte korumuş olursun",
+    ]
+    cumleler = []
+    for i, (a, b) in enumerate(zip(ozne, yuklem)):
+        if i % 3 == 0:
+            cumleler.append(f"{a} {b}, {ek1[i % 4]}, {ek2[i % 3]}.")
+        elif i % 3 == 1:
+            cumleler.append(f"{a} {b}, {ek1[i % 4]}.")
+        else:
+            cumleler.append(f"{a} {b}.")
+    cumleler[3] += "\n\n[Satın Al: Ürün A](aff://a)"
+    cumleler[22] += "\n\n[Satın Al: Ürün B](aff://b)"
+    basliklar = ["## Hazırlık", "## Rota", "## Kamp", "## Dönüş", "## Sık Sorulan Sorular"]
+    bolumler = []
+    for i in range(0, len(cumleler), 8):
+        bolumler.append(basliklar[i // 8] + "\n\n" + " ".join(cumleler[i:i + 8]))
+    return "\n\n".join(bolumler)
+
+
 class UzunlukTest(unittest.TestCase):
-    def test_hedef_ve_alt_sinir_ayni_kalir(self):
-        self.assertEqual(otomatik.GUNLUK_HEDEF, 3)
-        self.assertEqual(otomatik.TIPLER["ticari"]["min"], 1550)
-        self.assertEqual(otomatik.TIPLER["rehber"]["min"], 1500)
-        self.assertEqual(otomatik.kelime_hedef("ticari"), 1700)
-        self.assertEqual(otomatik.kelime_hedef("rehber"), 1650)
+    def test_gunluk_hedef_ve_yumusak_hedef(self):
+        self.assertEqual(otomatik.GUNLUK_HEDEF, 5)
+        self.assertEqual(otomatik.TIPLER["ticari"]["hedef"], 1200)
+        self.assertEqual(otomatik.TIPLER["rehber"]["hedef"], 1000)
+        self.assertEqual(otomatik.kelime_hedef("ticari"), 1200)
+        self.assertEqual(otomatik.kelime_hedef("rehber"), 1000)
         adet, _ = otomatik.kosu_plani(8, {"done": [], "makaleler": []}, "2026-10-29")
-        self.assertEqual(adet, 3)
+        self.assertEqual(adet, 5)
 
-    def test_kisa_kapisi_siniri_soyler(self):
-        why = otomatik.gate("kelime " * 700, "ticari", [], [])
-        self.assertEqual(why, "kısa (700 kelime, alt sınır 1550)")
-        uzun = otomatik.gate("kelime " * 1600, "rehber", [{"id": "a"}, {"id": "b"}], [])
-        self.assertFalse(uzun and uzun.startswith("kısa"))
+    def test_kisa_kapisi_guvenlik_tabanini_soyler(self):
+        why = otomatik.gate("kelime " * 500, "ticari", [], [])
+        self.assertEqual(why, "kısa (500 kelime, güvenlik tabanı 600)")
+        yedi_yuz = otomatik.gate("kelime " * 700, "rehber", [{"id": "a"}, {"id": "b"}], [])
+        self.assertFalse(yedi_yuz and yedi_yuz.startswith("kısa"))
 
-    def test_prompt_alt_siniri_ve_dolguyu_soyler(self):
+    def test_kisa_ama_tam_makale_reddedilmez(self):
+        body = _tam_makale()
+        self.assertGreaterEqual(len(body.split()), otomatik.GUVENLIK_TABANI)
+        self.assertLess(len(body.split()), 1500)
+        self.assertIsNone(otomatik.gate(body, "sss", [{"id": "a"}, {"id": "b"}], []))
+
+    def test_yarim_ve_bozuk_cikti_reddedilir(self):
+        self.assertTrue(otomatik.gate("kelime " * 200, "sss", [], []).startswith("kısa"))
+        yarim = _tam_makale().replace("## ", "### ")
+        self.assertEqual(otomatik.gate(yarim, "sss", [{"id": "a"}, {"id": "b"}], []),
+                         "yetersiz H2 bölümü")
+        ssssiz = _tam_makale().replace("Sık Sorulan Sorular", "Ek Notlar")
+        self.assertEqual(otomatik.gate(ssssiz, "sss", [{"id": "a"}, {"id": "b"}], []),
+                         "SSS bölümü yok")
+        linksiz = _tam_makale().replace("aff://a", "aff://yok").replace("aff://b", "aff://yok")
+        self.assertEqual(otomatik.gate(linksiz, "sss", [{"id": "a"}, {"id": "b"}], []),
+                         "en az 2 ürün linki yok")
+
+    def test_prompt_yumusak_hedefi_ve_dolgu_yasagini_soyler(self):
         t = _konu()
         metin = otomatik.build_prompt(t, _urun(), ["teleskop nasıl seçilir"], "rehber")
-        self.assertIn("1700–2000", metin)
-        self.assertIn("1550 kelimenin altı", metin)
-        self.assertIn("tekrarlayarak uzatma", metin)
+        self.assertIn("Yaklaşık 1200 kelime yeterli", metin)
+        self.assertIn("sırf kelime sayısını artırmak için uzatma", metin)
+        self.assertIn("dolgu cümle yazma", metin)
+        self.assertNotIn("1700–2000", metin)
+        self.assertNotIn("kelimenin altı eksik sayılır", metin)
         self.assertNotIn("Kısa giriş", metin)
-        edit = otomatik.edit_prompt("taslak", _urun(), "rehber", 1550)
-        self.assertIn("1550 kelimenin altına düşürme", edit)
+        edit = otomatik.edit_prompt("taslak", _urun(), "rehber", 600)
+        self.assertIn("600 kelimenin altına düşürme", edit)
         devam = otomatik.devam_prompt("kısa taslak", t, _urun(), "rehber", "MAX_TOKENS")
         self.assertIn("token sınırında", devam)
         self.assertIn("Dolgu cümle yazma", devam)
@@ -163,14 +261,14 @@ class UzunlukTest(unittest.TestCase):
         self.assertNotIn("GORSEL", ayik)
 
     def test_genisletme_karari(self):
-        self.assertTrue(otomatik.genisletme_gerekli("kelime " * 700, "ticari", "STOP"))
-        self.assertFalse(otomatik.genisletme_gerekli("kelime " * 1600, "ticari", "STOP"))
-        self.assertTrue(otomatik.genisletme_gerekli("kelime " * 1600, "ticari", "MAX_TOKENS"))
+        self.assertTrue(otomatik.genisletme_gerekli("kelime " * 500, "ticari", "STOP"))
+        self.assertFalse(otomatik.genisletme_gerekli("kelime " * 700, "ticari", "STOP"))
+        self.assertTrue(otomatik.genisletme_gerekli("kelime " * 700, "ticari", "MAX_TOKENS"))
 
     def test_uzat_kisa_taslagi_tamamlar_ve_uzun_taslage_dokunmaz(self):
         t = _konu()
         uzun = _uzun_govde()
-        self.assertGreaterEqual(len(uzun.split()), 1550)
+        self.assertGreaterEqual(len(uzun.split()), otomatik.GUVENLIK_TABANI)
         calls = []
 
         def fake(prompt, key, models, idx):
@@ -183,7 +281,7 @@ class UzunlukTest(unittest.TestCase):
         try:
             kisa = "## Satın Almadan Önce Nelere Bakmalı?\n\nKısa taslak.\n\n## Ürün Ürün Set\n\nErken bitti."
             out = otomatik.uzat_taslak(kisa, t, _urun(), "rehber", "test-anahtar", ["yedek"], [0], "MAX_TOKENS")
-            self.assertGreaterEqual(len(out.split()), 1550)
+            self.assertGreaterEqual(len(out.split()), otomatik.GUVENLIK_TABANI)
             self.assertEqual(len(calls), 1)
             self.assertIn("token sınırında", calls[0])
             calls.clear()
@@ -210,7 +308,7 @@ class UzunlukTest(unittest.TestCase):
         finally:
             otomatik._gemini = orig
         self.assertEqual(calls["n"], 2)
-        self.assertLess(len(out.split()), 1550)
+        self.assertLess(len(out.split()), otomatik.GUVENLIK_TABANI)
 
     def test_kota_yedek_modeli_korunur(self):
         calls = []

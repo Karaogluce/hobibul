@@ -56,15 +56,15 @@
         "id": "black-diamond-spot-400",
         "name": "Black Diamond Spot 400 Kafa Lambası",
         "brand": "Black Diamond",
-        "desc": "400 lümenlik, su geçirmez ve şarj edilebilir kafa lambası.",
+        "desc": "400 lümen gücü ve suya dayanıklı gövdesiyle kamp ve sırt çantalı seyahatler için kafa lambası.",
         "pros": [
-          "400 lümen parlaklık",
-          "IPX8 su geçirmez",
-          "USB şarj edilebilir"
+          "400 lümen güçlü aydınlatma",
+          "IPX8 suya dayanıklılık",
+          "Hafif ve ayarlanabilir bant"
         ],
         "cons": [
-          "Pil kapağı kırılgan olabilir",
-          "Orta-üst fiyat"
+          "Pil ömrü yüksek ayarda kısa",
+          "Pil dahil değil"
         ],
         "query": "Black Diamond Spot 400 headlamp",
         "network": "amazon_tr"
@@ -1200,17 +1200,17 @@
         "id": "alesis-nitro-max",
         "name": "Alesis Nitro Max Elektronik Davul",
         "brand": "Alesis",
-        "desc": "Sessiz pratik için 8 parçalı elektronik davul seti.",
+        "desc": "8 parçalı, sessiz pratik imkanı sunan elektronik davul.",
         "pros": [
           "Sessiz pratik",
           "Gerçekçi his",
           "Uygun fiyat"
         ],
         "cons": [
-          "Kurulum alanı ister",
+          "Alan ister",
           "Pedal kalitesi orta"
         ],
-        "query": "Alesis Nitro Max electronic drum",
+        "query": "Alesis Nitro Max drum kit",
         "network": "amazon_tr",
         "asin": "B0C43R8SRB"
       },
@@ -1237,15 +1237,15 @@
         "id": "ath-m50x",
         "name": "Audio-Technica ATH-M50x Kulaklık",
         "brand": "Audio-Technica",
-        "desc": "Stüdyo kalitesinde, kapalı arka monitör kulaklığı.",
+        "desc": "Oyun sesi ve müzik prodüksiyonu için dengeli sesli stüdyo monitör kulaklığı.",
         "pros": [
           "Dengeli ses",
-          "Katlanabilir",
-          "Dayanıklı"
+          "Katlanabilir tasarım",
+          "Dayanıklı yapı"
         ],
         "cons": [
-          "Kablo değişimi özel",
-          "Baskı hissi olabilir"
+          "Kablolu",
+          "Uzun kullanımda baskı hissi"
         ],
         "query": "Audio-Technica ATH-M50x headphones",
         "network": "amazon_tr",
@@ -1257,10 +1257,10 @@
         "id": "fender-player-strat",
         "name": "Fender Player Stratocaster",
         "brand": "Fender",
-        "desc": "Efsanevi single-coil tonuyla çok yönlü elektro gitar.",
+        "desc": "Efsanevi tonuyla başlangıç ve orta seviye için elektro gitar.",
         "pros": [
           "İkonik ton",
-          "Çok yönlü",
+          "Sağlam yapı",
           "Değerini korur"
         ],
         "cons": [
@@ -1528,11 +1528,11 @@
         "id": "pioneer-ddj-flx4",
         "name": "Pioneer DDJ-FLX4 DJ Kontrol",
         "brand": "Pioneer",
-        "desc": "Rekordbox/Serato dahil, 2 kanallı DJ kontrol cihazı.",
+        "desc": "Başlangıç için 2 kanallı, yazılım dahil DJ kontrol cihazı.",
         "pros": [
           "Yazılım dahil",
           "Taşınabilir",
-          "Kolay öğrenilir"
+          "Öğrenmesi kolay"
         ],
         "cons": [
           "Profesyonel sınırları var",
@@ -1540,21 +1540,22 @@
         ],
         "query": "Pioneer DDJ-FLX4 controller",
         "network": "amazon_tr",
-        "asin": "B0BK25SY9G"
+        "asin": "B0BK25SY9G",
+        "not": "Amazon.com.tr sayfası: 2 kanal, rekordbox DJ dahil, Serato dahil değil, 24-bit, 2 USB-C, listede 2,2 kg."
       },
       {
         "id": "ath-m50x",
         "name": "Audio-Technica ATH-M50x Kulaklık",
         "brand": "Audio-Technica",
-        "desc": "Stüdyo monitör kalitesinde kapalı kulaklık.",
+        "desc": "Oyun sesi ve müzik prodüksiyonu için dengeli sesli stüdyo monitör kulaklığı.",
         "pros": [
           "Dengeli ses",
-          "Katlanabilir",
-          "Dayanıklı"
+          "Katlanabilir tasarım",
+          "Dayanıklı yapı"
         ],
         "cons": [
-          "Baskı hissi",
-          "Kablo özel"
+          "Kablolu",
+          "Uzun kullanımda baskı hissi"
         ],
         "query": "Audio-Technica ATH-M50x headphones",
         "network": "amazon_tr",
@@ -1803,15 +1804,15 @@
         "id": "raspberry-pi-5",
         "name": "Raspberry Pi 5 (8GB)",
         "brand": "Raspberry Pi",
-        "desc": "Güçlü, çok amaçlı tek kart bilgisayar.",
+        "desc": "Kodlama ve sunucu projeleri için güçlü, çok amaçlı tek kart bilgisayar.",
         "pros": [
           "Güçlü CPU",
-          "Çok amaçlı",
-          "Geniş topluluk"
+          "Çok amaçlı kullanım",
+          "Geniş topluluk desteği"
         ],
         "cons": [
-          "Soğutucu gerekir",
-          "Aksesuarlar ayrı"
+          "Soğutucu gerekebilir",
+          "Aksesuarlar ayrı satılır"
         ],
         "query": "Raspberry Pi 5 8GB",
         "network": "amazon_tr",
@@ -1842,12 +1843,12 @@
         "desc": "4K kameralı, 249g altı kompakt drone.",
         "pros": [
           "4K kamera",
-          "249g (lisanssız)",
+          "249g lisanssız",
           "Kararlı uçuş"
         ],
         "cons": [
           "Rüzgarda hassas",
-          "Pil ömrü sınırlı"
+          "Pil sınırlı"
         ],
         "query": "DJI Mini 4K drone",
         "network": "amazon_tr",
@@ -1855,34 +1856,34 @@
       },
       {
         "id": "keychron-k2",
-        "name": "Keychron K2 Mekanik Klavye",
+        "name": "Keychron K2 Kablosuz Mekanik Klavye",
         "brand": "Keychron",
-        "desc": "Kablosuz, kompakt mekanik klavye.",
+        "desc": "Kompakt 75% düzene sahip, kablosuz ve hot-swap switch destekli mekanik klavye.",
         "pros": [
-          "Kablosuz",
-          "Hot-swap switch",
-          "Kompakt"
+          "Kablosuz ve kablolu çift mod",
+          "Hot-swap switch desteği",
+          "Mac ve Windows uyumlu"
         ],
         "cons": [
-          "Pil şarjı gerekir",
-          "Fiyatı orta-üst"
+          "Pil şarjı gerektirir",
+          "Orta-üst fiyat"
         ],
-        "query": "Keychron K2 keyboard",
+        "query": "Keychron K2 wireless mechanical keyboard",
         "network": "amazon_tr"
       },
       {
         "id": "arduino-uno-r3",
-        "name": "Arduino Uno R3",
+        "name": "Arduino Uno R3 Mikrodenetleyici",
         "brand": "Arduino",
-        "desc": "Elektronik öğrenmek için klasik geliştirme kartı.",
+        "desc": "Kodlama ve elektronik projeleri için en yaygın kullanılan mikrodenetleyici kartı.",
         "pros": [
-          "Klasik ve yaygın",
-          "Kolay öğrenilir",
-          "Geniş kaynak"
+          "Geniş topluluk desteği",
+          "Kullanımı kolay",
+          "Çok sayıda uyumlu sensör"
         ],
         "cons": [
-          "Sınırlı bellek",
-          "Kılıf ayrı"
+          "Kablosuz bağlantı dahil değil",
+          "İşlem gücü sınırlı"
         ],
         "query": "Arduino Uno R3",
         "network": "amazon_tr",
@@ -1894,15 +1895,15 @@
         "id": "raspberry-pi-5",
         "name": "Raspberry Pi 5 (8GB)",
         "brand": "Raspberry Pi",
-        "desc": "Yüksek performanslı tek kart bilgisayar.",
+        "desc": "Kodlama ve sunucu projeleri için güçlü, çok amaçlı tek kart bilgisayar.",
         "pros": [
-          "Güçlü",
-          "Çok amaçlı",
-          "Geniş topluluk"
+          "Güçlü CPU",
+          "Çok amaçlı kullanım",
+          "Geniş topluluk desteği"
         ],
         "cons": [
-          "Soğutucu gerekir",
-          "Aksesuar ayrı"
+          "Soğutucu gerekebilir",
+          "Aksesuarlar ayrı satılır"
         ],
         "query": "Raspberry Pi 5 8GB",
         "network": "amazon_tr",
@@ -1910,17 +1911,17 @@
       },
       {
         "id": "arduino-uno-r3",
-        "name": "Arduino Uno R3",
+        "name": "Arduino Uno R3 Mikrodenetleyici",
         "brand": "Arduino",
-        "desc": "Başlangıç için klasik mikrodenetleyici kartı.",
+        "desc": "Kodlama ve elektronik projeleri için en yaygın kullanılan mikrodenetleyici kartı.",
         "pros": [
-          "Yaygın",
-          "Kolay",
-          "Geniş kaynak"
+          "Geniş topluluk desteği",
+          "Kullanımı kolay",
+          "Çok sayıda uyumlu sensör"
         ],
         "cons": [
-          "Bellek sınırlı",
-          "Kılıf ayrı"
+          "Kablosuz bağlantı dahil değil",
+          "İşlem gücü sınırlı"
         ],
         "query": "Arduino Uno R3",
         "network": "amazon_tr",
@@ -1982,11 +1983,11 @@
     "3d-yazici": [
       {
         "id": "creality-ender-3-v3",
-        "name": "Creality Ender 3 V3",
+        "name": "Creality Ender 3 V3 3D Yazıcı",
         "brand": "Creality",
-        "desc": "Hızlı, güvenilir başlangıç seviyesi FDM yazıcı.",
+        "desc": "Hızlı ve güvenilir başlangıç seviyesi FDM 3D yazıcı.",
         "pros": [
-          "Hızlı",
+          "Hızlı baskı",
           "Kolay kurulum",
           "Geniş topluluk"
         ],
@@ -2159,19 +2160,19 @@
     "oyun-pc-modlama": [
       {
         "id": "keychron-k2",
-        "name": "Keychron K2 Mekanik Klavye",
+        "name": "Keychron K2 Kablosuz Mekanik Klavye",
         "brand": "Keychron",
-        "desc": "Kablosuz, kompakt hot-swap mekanik klavye.",
+        "desc": "Kompakt 75% düzene sahip, kablosuz ve hot-swap switch destekli mekanik klavye.",
         "pros": [
-          "Kablosuz",
-          "Hot-swap",
-          "Kompakt"
+          "Kablosuz ve kablolu çift mod",
+          "Hot-swap switch desteği",
+          "Mac ve Windows uyumlu"
         ],
         "cons": [
-          "Pil şarjı",
+          "Pil şarjı gerektirir",
           "Orta-üst fiyat"
         ],
-        "query": "Keychron K2 keyboard",
+        "query": "Keychron K2 wireless mechanical keyboard",
         "network": "amazon_tr"
       },
       {
@@ -2453,19 +2454,19 @@
     "_main": [
       {
         "id": "lego-icons-botanical",
-        "name": "LEGO Icons Botanik Koleksiyonu",
+        "name": "LEGO Icons Botanik Seti",
         "brand": "LEGO",
-        "desc": "Yetişkinler için detaylı, dekoratif botanik seti.",
+        "desc": "Dekoratif, yetişkinlere yönelik botanik koleksiyonu.",
         "pros": [
           "Dekoratif",
           "Detaylı",
-          "Sergilemeye uygun"
+          "Rahatlatıcı"
         ],
         "cons": [
           "Fiyatı yüksek",
           "Küçük parça"
         ],
-        "query": "LEGO Icons Botanical collection",
+        "query": "LEGO Icons Botanical",
         "network": "amazon_tr"
       },
       {
@@ -2544,9 +2545,9 @@
         "brand": "Lighthouse",
         "desc": "Asitsiz sayfalı, geniş pul albümü.",
         "pros": [
-          "Asitsiz",
-          "Geniş",
-          "Dayanıklı"
+          "Asitsiz sayfa",
+          "Geniş kapasite",
+          "Dayanıklı cilt"
         ],
         "cons": [
           "Pahalı",
@@ -2574,7 +2575,7 @@
       },
       {
         "id": "numis-capsules",
-        "name": "Numis Para Kapsülleri",
+        "name": "Numis Para Kapsülü Seti",
         "brand": "Numis",
         "desc": "Çeşitli çaplarda şeffaf para kapsülleri.",
         "pros": [
@@ -2584,9 +2585,9 @@
         ],
         "cons": [
           "Çizilebilir",
-          "Organizasyon"
+          "Kutu organizasyonu"
         ],
-        "query": "coin capsules",
+        "query": "coin capsules set",
         "network": "amazon_tr"
       },
       {
@@ -2646,10 +2647,10 @@
         "id": "tamiya-model-kit",
         "name": "Tamiya Maket Seti",
         "brand": "Tamiya",
-        "desc": "Detaylı plastik maket kiti.",
+        "desc": "Detaylı, yüksek kaliteli plastik maket seti.",
         "pros": [
           "Detaylı",
-          "Kaliteli",
+          "Kaliteli kalıp",
           "Uygun fiyat"
         ],
         "cons": [
@@ -2716,7 +2717,7 @@
         "id": "ultra-pro-sleeves",
         "name": "Ultra Pro Kart Kılıfı (100'lü)",
         "brand": "Ultra Pro",
-        "desc": "Asitsiz, standart kart koruyucu kılıf.",
+        "desc": "Asitsiz, standart boyutlu kart koruyucu kılıf.",
         "pros": [
           "Asitsiz",
           "Dayanıklı",
@@ -2724,7 +2725,7 @@
         ],
         "cons": [
           "Tek boy",
-          "Kaygan"
+          "Parlak yüzey kaygan"
         ],
         "query": "Ultra Pro card sleeves",
         "network": "amazon_tr"
@@ -3181,17 +3182,17 @@
     "kosu": [
       {
         "id": "nike-pegasus-41",
-        "name": "Nike Pegasus 41",
+        "name": "Nike Pegasus 41 Koşu Ayakkabısı",
         "brand": "Nike",
-        "desc": "Günlük koşu için çok yönlü, konforlu ayakkabı.",
+        "desc": "Günlük antrenman için çok yönlü, konforlu koşu ayakkabısı.",
         "pros": [
           "Konforlu",
           "Çok yönlü",
           "Dayanıklı"
         ],
         "cons": [
-          "Orta-üst fiyat",
-          "Dar kalıp"
+          "Fiyatı orta-üst",
+          "Kalıbı dar"
         ],
         "query": "Nike Pegasus 41 running shoes",
         "network": "amazon_tr"
@@ -3270,7 +3271,7 @@
         "id": "liforme-yoga-mat",
         "name": "Liforme Yoga Matı",
         "brand": "Liforme",
-        "desc": "Kaymaz, hizalama çizgili premium mat.",
+        "desc": "Kaymaz yüzeyli, hizalama çizgili premium yoga matı.",
         "pros": [
           "Mükemmel tutuş",
           "Hizalama çizgileri",
@@ -3355,9 +3356,9 @@
     "evde-fitness": [
       {
         "id": "bowflex-552",
-        "name": "Bowflex 552 Dambıl",
+        "name": "Bowflex 552 Ayarlanabilir Dambıl",
         "brand": "Bowflex",
-        "desc": "2.5-25kg ayarlanabilir dambıl çifti.",
+        "desc": "2.5-25kg arası ayarlanabilir dambıl çifti.",
         "pros": [
           "Alan tasarrufu",
           "Geniş ağırlık",
@@ -3367,7 +3368,7 @@
           "Pahalı",
           "Ağır"
         ],
-        "query": "Bowflex SelectTech 552",
+        "query": "Bowflex SelectTech 552 dumbbells",
         "network": "amazon_tr"
       },
       {
@@ -3391,14 +3392,14 @@
         "id": "theraband-bands",
         "name": "TheraBand Direnç Bantları",
         "brand": "TheraBand",
-        "desc": "Farklı dirençli egzersiz bantları.",
+        "desc": "Farklı direnç seviyelerinde egzersiz bantları.",
         "pros": [
           "Çok seviye",
           "Taşınabilir",
           "Çok yönlü"
         ],
         "cons": [
-          "Yıpranır",
+          "Zamanla yıpranır",
           "Lateks alerjisi"
         ],
         "query": "TheraBand resistance bands",
@@ -3406,19 +3407,19 @@
       },
       {
         "id": "fit-simplify-bands",
-        "name": "Fit Simplify Bant Seti",
+        "name": "Fit Simplify Direnç Bandı Seti",
         "brand": "Fit Simplify",
-        "desc": "5 seviyeli, kılıflı direnç bant seti.",
+        "desc": "Ev antrenmanı için farklı direnç seviyelerinde lateks bant seti.",
         "pros": [
-          "Çok seviye",
-          "Kılıf dahil",
+          "Hafif ve taşınabilir",
+          "Farklı direnç seviyeleri",
           "Uygun fiyat"
         ],
         "cons": [
-          "Kopabilir",
-          "Koku"
+          "Lateks alerjisi riski",
+          "Zamanla esneyebilir"
         ],
-        "query": "Fit Simplify resistance bands",
+        "query": "resistance bands",
         "network": "amazon_tr"
       },
       {
@@ -3444,7 +3445,7 @@
         "id": "speedo-vanquisher",
         "name": "Speedo Vanquisher Gözlük",
         "brand": "Speedo",
-        "desc": "Sızdırmaz, buğu önleyici yüzme gözlüğü.",
+        "desc": "Sızıntı yapmayan, buğu önleyici yüzme gözlüğü.",
         "pros": [
           "Sızdırmaz",
           "Buğu önleyici",
@@ -3960,10 +3961,10 @@
         "id": "canon-eos-r50",
         "name": "Canon EOS R50",
         "brand": "Canon",
-        "desc": "Kompakt, başlangıç dostu aynasız makine.",
+        "desc": "Başlangıç için kompakt, aynasız fotoğraf makinesi.",
         "pros": [
           "Kompakt",
-          "İyi otomatik odak",
+          "Harika otomatik odak",
           "4K video"
         ],
         "cons": [
@@ -4047,7 +4048,7 @@
         "id": "faber-castell-polychromos",
         "name": "Faber-Castell Polychromos",
         "brand": "Faber-Castell",
-        "desc": "Profesyonel, yağ bazlı renkli kalemler.",
+        "desc": "Yüksek pigmentli, profesyonel renkli kalem seti.",
         "pros": [
           "Canlı pigment",
           "Yağ bazlı",
@@ -4057,7 +4058,7 @@
           "Pahalı",
           "Tek tek satılır"
         ],
-        "query": "Faber Castell Polychromos",
+        "query": "Faber Castell Polychromos pencils",
         "network": "amazon_tr"
       },
       {
@@ -4084,12 +4085,12 @@
         "desc": "Asitsiz, kaliteli çizim defteri.",
         "pros": [
           "Asitsiz",
-          "Kaliteli",
+          "Kaliteli kağıt",
           "Çok boy"
         ],
         "cons": [
           "Kapak ince",
-          "Orta fiyat"
+          "Fiyat orta"
         ],
         "query": "Strathmore sketchbook",
         "network": "amazon_tr"
@@ -4221,9 +4222,9 @@
         "id": "brother-xm2701",
         "name": "Brother XM2701 Dikiş Makinesi",
         "brand": "Brother",
-        "desc": "27 desenli, başlangıç dostu makine.",
+        "desc": "27 dikiş desenli, başlangıç dostu dikiş makinesi.",
         "pros": [
-          "Kolay",
+          "Kolay kullanım",
           "Çok desen",
           "Uygun fiyat"
         ],
@@ -4231,7 +4232,7 @@
           "Ağır kumaşta sınırlı",
           "Işık zayıf"
         ],
-        "query": "Brother XM2701",
+        "query": "Brother XM2701 sewing machine",
         "network": "amazon_tr"
       },
       {
@@ -6738,19 +6739,19 @@
     "web-gelistirme": [
       {
         "id": "logitech-mx-keys-s",
-        "name": "Logitech MX Keys S Klavye",
+        "name": "Logitech MX Keys S Kablosuz Klavye",
         "brand": "Logitech",
-        "desc": "Alçak profilli, sessiz tuşlu ve akıllı aydınlatmalı kablosuz klavye.",
+        "desc": "Uzun yazı seanslarında konforlu tuşları ve akıllı arka aydınlatmasıyla içerik üreticilerin favorisi klavye.",
         "pros": [
-          "Konforlu alçak profil",
-          "Akıllı arka aydınlatma",
-          "Çoklu cihaz eşleştirme"
+          "Rahat ve sessiz tuşlar",
+          "El yaklaşınca yanan akıllı aydınlatma",
+          "Üç cihazla çoklu bağlantı"
         ],
         "cons": [
-          "Mekanik his yok",
-          "Fiyatı orta-üst"
+          "Mekanik klavye hissi arayanlara sığ gelir",
+          "Fiyatı yüksek"
         ],
-        "query": "Logitech MX Keys S keyboard",
+        "query": "Logitech MX Keys S wireless keyboard",
         "network": "amazon_tr"
       },
       {
