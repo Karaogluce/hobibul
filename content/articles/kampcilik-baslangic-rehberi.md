@@ -8,6 +8,11 @@ meta_description: "Kampçılığa yeni başlayanlar için kapsamlı rehber: çad
 excerpt: "Kampçılığa yeni mi başlıyorsun? Çadırdan ocağa, uyku matından su filtresine kadar ilk kampın için ihtiyacın olan tüm ekipmanları, artıları ve eksileriyle bu rehberde topladık."
 date: "2026-10-27"
 updated: "2026-10-29"
+image: "/img/makale/kamp-cadiri.webp"
+image_alt: "Ormanda kurulmuş kamp çadırı"
+image_credit: "Unsplash"
+image_credit_url: "https://unsplash.com/s/photos/camping-tent"
+image_source: ""
 ---
 
 ## İlk kampın için devasa bir hazırlığa ihtiyacın yok

@@ -1233,7 +1233,14 @@
         "query": "Pioneer DDJ-FLX4 controller",
         "network": "amazon_tr",
         "asin": "B0BK25SY9G",
-        "not": "Amazon.com.tr sayfası: 2 kanal, rekordbox DJ dahil, Serato dahil değil, 24-bit, 2 USB-C, listede 2,2 kg."
+        "not": "Amazon.com.tr sayfası: 2 kanal, rekordbox DJ dahil, Serato dahil değil, 24-bit, 2 USB-C, listede 2,2 kg.",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0BK25SY9G",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0BK25SY9G",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "ath-m50x",
@@ -1289,7 +1296,14 @@
         ],
         "query": "Yamaha F310 acoustic guitar",
         "network": "amazon_tr",
-        "asin": "B000RVYW7E"
+        "asin": "B08Z3C1GRM",
+        "amazon_url": "https://www.amazon.com.tr/dp/B08Z3C1GRM",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B08Z3C1GRM",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "boss-katana-50",
@@ -1325,7 +1339,14 @@
         ],
         "query": "Daddario EXL110 strings",
         "network": "amazon_tr",
-        "asin": "B0002F7K7Y"
+        "asin": "B0002F7K7Y",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0002F7K7Y",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0002F7K7Y",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "snark-st8",
@@ -1543,7 +1564,14 @@
         "query": "Pioneer DDJ-FLX4 controller",
         "network": "amazon_tr",
         "asin": "B0BK25SY9G",
-        "not": "Amazon.com.tr sayfası: 2 kanal, rekordbox DJ dahil, Serato dahil değil, 24-bit, 2 USB-C, listede 2,2 kg."
+        "not": "Amazon.com.tr sayfası: 2 kanal, rekordbox DJ dahil, Serato dahil değil, 24-bit, 2 USB-C, listede 2,2 kg.",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0BK25SY9G",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0BK25SY9G",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "ath-m50x",
@@ -1759,7 +1787,14 @@
         ],
         "query": "Numark MixTrack Go",
         "network": "amazon_tr",
-        "asin": "B0GYYS6B5X"
+        "asin": "B0GYYS6B5X",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0GYYS6B5X",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0GYYS6B5X",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "numark-mixtrack-pro-fx",
@@ -1796,7 +1831,14 @@
         ],
         "query": "Pioneer DDJ-FLX2",
         "network": "amazon_tr",
-        "asin": "B0DK49GW7M"
+        "asin": "B0DK49GW7M",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0DK49GW7M",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0DK49GW7M",
+          "yontem": "manuel-web-denetim"
+        }
       }
     ]
   },
@@ -1818,7 +1860,14 @@
         ],
         "query": "Raspberry Pi 5 8GB",
         "network": "amazon_tr",
-        "asin": "B0CK2FCG1K"
+        "asin": "B0CK2FCG1K",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0CK2FCG1K",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0CK2FCG1K",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "creality-ender-3-v3",
@@ -1836,7 +1885,14 @@
         ],
         "query": "Creality Ender 3 V3",
         "network": "amazon_tr",
-        "asin": "B0D3VCLX5N"
+        "asin": "B0D3VCLX5N",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0D3VCLX5N",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0D3VCLX5N",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "dji-mini-4k",
@@ -1854,7 +1910,14 @@
         ],
         "query": "DJI Mini 4K drone",
         "network": "amazon_tr",
-        "asin": "B0CXJDDJ9X"
+        "asin": "B0CXJDDJ9X",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0CXJDDJ9X",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0CXJDDJ9X",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "keychron-k2",
@@ -1889,7 +1952,14 @@
         ],
         "query": "Arduino Uno R3",
         "network": "amazon_tr",
-        "asin": "B008GRTSV6"
+        "asin": "B008GRTSV6",
+        "amazon_url": "https://www.amazon.com.tr/dp/B008GRTSV6",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B008GRTSV6",
+          "yontem": "manuel-web-denetim"
+        }
       }
     ],
     "raspberry-pi-elektronik": [
@@ -1909,7 +1979,14 @@
         ],
         "query": "Raspberry Pi 5 8GB",
         "network": "amazon_tr",
-        "asin": "B0CK2FCG1K"
+        "asin": "B0CK2FCG1K",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0CK2FCG1K",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0CK2FCG1K",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "arduino-uno-r3",
@@ -1927,7 +2004,14 @@
         ],
         "query": "Arduino Uno R3",
         "network": "amazon_tr",
-        "asin": "B008GRTSV6"
+        "asin": "B008GRTSV6",
+        "amazon_url": "https://www.amazon.com.tr/dp/B008GRTSV6",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B008GRTSV6",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "freenove-starter-kit",
@@ -1979,7 +2063,14 @@
         ],
         "query": "Raspberry Pi 5 power supply",
         "network": "amazon_tr",
-        "asin": "B0CM46P7MC"
+        "asin": "B0CM46P7MC",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0CM46P7MC",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0CM46P7MC",
+          "yontem": "manuel-web-denetim"
+        }
       }
     ],
     "3d-yazici": [
@@ -1999,7 +2090,14 @@
         ],
         "query": "Creality Ender 3 V3",
         "network": "amazon_tr",
-        "asin": "B0D3VCLX5N"
+        "asin": "B0D3VCLX5N",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0D3VCLX5N",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0D3VCLX5N",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "bambu-lab-a1-mini",
@@ -2087,7 +2185,14 @@
         ],
         "query": "DJI Mini 4K drone",
         "network": "amazon_tr",
-        "asin": "B0CXJDDJ9X"
+        "asin": "B0CXJDDJ9X",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0CXJDDJ9X",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0CXJDDJ9X",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "holy-stone-hs720",
@@ -2264,7 +2369,14 @@
         ],
         "query": "Arduino Uno R3",
         "network": "amazon_tr",
-        "asin": "B008GRTSV6"
+        "asin": "B008GRTSV6",
+        "amazon_url": "https://www.amazon.com.tr/dp/B008GRTSV6",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B008GRTSV6",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "raspberry-pi-4",
@@ -2372,7 +2484,14 @@
         ],
         "query": "MOBEE E88 drone",
         "network": "amazon_tr",
-        "asin": "B0HKNQX9G8"
+        "asin": "B0HKNQX9G8",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0HKNQX9G8",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0HKNQX9G8",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "redragon-k552-kumara",
@@ -2448,7 +2567,14 @@
         ],
         "query": "Logitech G502 HERO",
         "network": "amazon_tr",
-        "asin": "B07GS6ZB7T"
+        "asin": "B07GS6ZB7T",
+        "amazon_url": "https://www.amazon.com.tr/dp/B07GS6ZB7T",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B07GS6ZB7T",
+          "yontem": "manuel-web-denetim"
+        }
       }
     ]
   },
@@ -3013,7 +3139,14 @@
         ],
         "query": "LEGO Mini Bonsai 10373",
         "network": "amazon_tr",
-        "asin": "B0DWDDNK1J"
+        "asin": "B0DWDDNK1J",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0DWDDNK1J",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0DWDDNK1J",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "lego-sukulent-10309",
@@ -3032,7 +3165,14 @@
         ],
         "query": "LEGO Sukulentler 10309",
         "network": "amazon_tr",
-        "asin": "B09BNV7VS1"
+        "asin": "B09BNV7VS1",
+        "amazon_url": "https://www.amazon.com.tr/dp/B09BNV7VS1",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B09BNV7VS1",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "lego-supra-77260",
@@ -3051,7 +3191,14 @@
         ],
         "query": "LEGO Speed Champions Supra 77260",
         "network": "amazon_tr",
-        "asin": "B0FPXF65PH"
+        "asin": "B0FPXF65PH",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0FPXF65PH",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0FPXF65PH",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "lego-zaman-makinesi-77256",
@@ -3814,7 +3961,14 @@
         ],
         "query": "adidas Duramo Speed 2 erkek koşu",
         "network": "amazon_tr",
-        "asin": "B0CYTDW332"
+        "asin": "B0CYTDW332",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0CYTDW332",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0CYTDW332",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "yoga-mat-6mm-kaymaz",
@@ -3870,7 +4024,14 @@
         ],
         "query": "pamuk yoga kemeri 200 cm",
         "network": "amazon_tr",
-        "asin": "B0H4RPNFBV"
+        "asin": "B0H4RPNFBV",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0H4RPNFBV",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0H4RPNFBV",
+          "yontem": "manuel-web-denetim"
+        }
       }
     ]
   },
@@ -4434,7 +4595,14 @@
         ],
         "query": "Canon EOS R100 travel kit",
         "network": "amazon_tr",
-        "asin": "B0GP7BJ5M7"
+        "asin": "B0GP7BJ5M7",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0GP7BJ5M7",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0GP7BJ5M7",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "sony-a7-iii-body",
@@ -4723,88 +4891,128 @@
     "bonsai": [
       {
         "id": "bonsai-alet-seti-10-parca",
-        "name": "TianBonsai 10 Parça Bonsai Alet Seti",
-        "brand": "TianBonsai",
-        "desc": "Budama, şekillendirme ve bakım için gereken tüm temel aletleri içeren paslanmaz çelik bonsai seti.",
+        "name": "BestAlice 6 Parça Karbon Çelik Bonsai Alet Seti",
+        "brand": "BestAlice",
+        "desc": "Budama, dal kesme ve temel kök bakım işleri için altı parçadan oluşan karbon çelik bonsai alet seti.",
         "pros": [
-          "Komple 10 parça set",
-          "Paslanmaz çelik",
-          "Taşıma çantası dahil"
+          "Altı parçalı temel set",
+          "Karbon çelik aletler",
+          "Farklı bakım işleri için ayrı uçlar"
         ],
         "cons": [
-          "Profesyonel setlere göre basit",
-          "Bıçaklar düzenli bileme ister"
+          "Karbon çelik nemde paslanabilir",
+          "Profesyonel kalın dal işleri için sınırlı"
         ],
-        "query": "bonsai tool kit 10 piece",
-        "network": "amazon_tr"
+        "query": "BestAlice 6 piece bonsai tool kit",
+        "network": "amazon_tr",
+        "asin": "B0CF5XV944",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0CF5XV944",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0CF5XV944",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "bonsai-aluminyum-teli",
-        "name": "Bonsai Alüminyum Eğitim Teli",
-        "brand": "Mudder",
-        "desc": "Dalları şekillendirmek ve yönlendirmek için çeşitli kalınlıklarda yumuşak alüminyum bonsai teli.",
+        "name": "DZDSBB 5 Kalınlıkta Eloksallı Alüminyum Bonsai Teli",
+        "brand": "DZDSBB",
+        "desc": "Bonsai dallarını yönlendirmek için 1,0–3,0 mm arasında beş farklı kalınlıkta sunulan eloksallı alüminyum tel seti.",
         "pros": [
-          "Yumuşak ve kolay bükülür",
-          "Farklı kalınlıklar",
-          "Ağaca zarar vermez"
+          "Beş farklı kalınlık",
+          "Yumuşak ve şekillendirilebilir",
+          "Eloksallı alüminyum"
         ],
         "cons": [
-          "Renk seçeneği sınırlı",
-          "Kalın dallar için yetersiz"
+          "Kalın ve sert dallar için uygun kalınlık seçilmeli",
+          "Kabukta iz kalmaması için düzenli kontrol gerekir"
         ],
-        "query": "bonsai aluminum training wire",
-        "network": "amazon_tr"
+        "query": "DZDSBB bonsai aluminum wire 5 sizes",
+        "network": "amazon_tr",
+        "asin": "B09SM5FFW3",
+        "amazon_url": "https://www.amazon.com.tr/dp/B09SM5FFW3",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B09SM5FFW3",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "bonsai-jack-toprak-karisimi",
-        "name": "Bonsai Jack Bonsai Toprak Karışımı",
-        "brand": "Bonsai Jack",
-        "desc": "Suyu süzen ve kök çürümesini önleyen, bonsai ve sukulentler için hazırlanmış profesyonel toprak karışımı.",
+        "name": "Compo 1602 Bonsai Toprağı 5 L",
+        "brand": "Compo",
+        "desc": "Bonsai saksılarında kullanılmak üzere hazırlanmış 5 litrelik hazır toprak karışımı.",
         "pros": [
-          "Mükemmel drenaj",
-          "Hazır karışım",
-          "Kök çürümesini önler"
+          "Kullanıma hazır karışım",
+          "5 litrelik paket",
+          "Bonsai saksılarına uygun"
         ],
         "cons": [
-          "Besin içermez (gübre gerekir)",
-          "Fiyatı yüksek"
+          "Tek başına her tür için ideal olmayabilir",
+          "Saksı drenajı yine gerekli"
         ],
-        "query": "Bonsai Jack soil mix",
-        "network": "amazon_tr"
+        "query": "Compo 1602 bonsai soil 5 l",
+        "network": "amazon_tr",
+        "asin": "B00CC3F3EG",
+        "amazon_url": "https://www.amazon.com.tr/dp/B00CC3F3EG",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B00CC3F3EG",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "bonsai-budama-makasi",
-        "name": "BonsaiOutlet Bonsai Budama Makası",
-        "brand": "BonsaiOutlet",
-        "desc": "İnce dalları hassas şekilde kesmek için tasarlanmış keskin uçlu bonsai budama makası.",
+        "name": "Wazakura Ashinaga Bonsai Makası ve İçbükey Dal Kesici Seti",
+        "brand": "Wazakura",
+        "desc": "Japonya’da üretilen, 200 mm uzun saplı Ashinaga bonsai makası ve 200 mm içbükey dal kesiciden oluşan iki parçalı set.",
         "pros": [
-          "Hassas ince uç",
-          "Keskin çelik bıçak",
-          "Küçük dallara ideal"
+          "İki farklı kesim aracı",
+          "200 mm uzun saplı makas",
+          "İçbükey dal kesici dahil"
         ],
         "cons": [
-          "Kalın dallara uygun değil",
-          "Paslanmaya karşı bakım ister"
+          "Tek makastan daha yüksek bütçe ister",
+          "Kalınlık sınırı aletin ölçüsüne göre değerlendirilmeli"
         ],
-        "query": "bonsai pruning shears",
-        "network": "amazon_tr"
+        "query": "Wazakura Ashinaga bonsai scissors concave cutter",
+        "network": "amazon_tr",
+        "asin": "B08G836FMN",
+        "amazon_url": "https://www.amazon.com.tr/dp/B08G836FMN",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B08G836FMN",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "biogold-bonsai-gubresi",
-        "name": "Biogold Bonsai Gübresi",
-        "brand": "Biogold",
-        "desc": "Japon yapımı, yavaş salınımlı organik bonsai gübresi; sağlıklı büyüme ve yaprak rengi sağlar.",
+        "name": "Genta Prestige Bonsai Sıvı Bitki Besini 500 ml",
+        "brand": "Genta",
+        "desc": "Bonsai ve saksı bitkilerinde etiketindeki orana göre sulandırılarak kullanılan sıvı bitki besini.",
         "pros": [
-          "Organik ve yavaş salınımlı",
-          "Japon kalitesi",
-          "Uzun süre etkili"
+          "Sıvı formda kolay uygulama",
+          "500 ml ambalaj",
+          "Etiket dozuyla ölçülü kullanım"
         ],
         "cons": [
-          "Fiyatı yüksek",
-          "Kokusu olabilir"
+          "Sulandırma ölçüsüne dikkat ister",
+          "Aşırı uygulama köklere zarar verebilir"
         ],
-        "query": "Biogold bonsai fertilizer",
-        "network": "amazon_tr"
+        "query": "Genta Prestige bonsai liquid fertilizer 500 ml",
+        "network": "amazon_tr",
+        "asin": "B0BSNFQJ3Q",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0BSNFQJ3Q",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0BSNFQJ3Q",
+          "yontem": "manuel-web-denetim"
+        }
       }
     ],
     "teraryum": [
@@ -5598,37 +5806,53 @@
     "akvaryum": [
       {
         "id": "aqueon-akvaryum-tanki",
-        "name": "Aqueon Standart Cam Akvaryum Tankı (10 Galon)",
-        "brand": "Aqueon",
-        "desc": "Yeni başlayanlar için ideal, dayanıklı camdan üretilmiş standart 10 galonluk akvaryum tankı.",
+        "name": "Tetra Starter Line LED 54 L Akvaryum Komple Set",
+        "brand": "Tetra",
+        "desc": "54 litre cam akvaryum; gündüz/gece LED aydınlatma, iç filtre, ısıtıcı, balık yemi ve su hazırlama ürünüyle gelen komple başlangıç seti.",
         "pros": [
-          "Yeni başlayanlar için ideal boyut",
-          "Dayanıklı cam yapı",
-          "Uygun fiyat"
+          "54 litre cam tank",
+          "LED, iç filtre ve ısıtıcı dahil",
+          "Başlangıç aksesuarlarıyla komple set"
         ],
         "cons": [
-          "Aydınlatma ve filtre ayrı satılır",
-          "Büyük balıklar için küçük kalır"
+          "Boş tanktan daha yüksek başlangıç bütçesi",
+          "Canlı yükü arttığında ekipman yükseltmesi gerekebilir"
         ],
-        "query": "Aqueon 10 gallon aquarium tank",
-        "network": "amazon_tr"
+        "query": "Tetra Starter Line LED 54 l aquarium complete set",
+        "network": "amazon_tr",
+        "asin": "B09RPD8HGL",
+        "amazon_url": "https://www.amazon.com.tr/dp/B09RPD8HGL",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B09RPD8HGL",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "fluval-307-dis-filtre",
-        "name": "Fluval 307 Performance Dış Filtre",
+        "name": "Fluval 207 Performance Dış Filtre",
         "brand": "Fluval",
-        "desc": "Çok kademeli filtrasyon ve sessiz çalışmasıyla orta boy akvaryumlar için güçlü dış filtre.",
+        "desc": "Küçük ve orta boy akvaryumlar için çok kademeli filtrasyon sunan dış filtre.",
         "pros": [
-          "Güçlü ve sessiz motor",
           "Çok kademeli filtrasyon",
-          "Kolay bakım ve temizlik"
+          "Kompakt dış filtre gövdesi",
+          "Bakım için ayrılabilir sepetler"
         ],
         "cons": [
-          "Başlangıç maliyeti yüksek",
-          "Dış filtre kurulumu tecrübe ister"
+          "Başlangıç maliyeti iç filtreden yüksek",
+          "Hortum ve bağlantı kurulumu ister"
         ],
-        "query": "Fluval 307 canister filter",
-        "network": "amazon_tr"
+        "query": "Fluval 207 external filter",
+        "network": "amazon_tr",
+        "asin": "B07JHG13WP",
+        "amazon_url": "https://www.amazon.com.tr/dp/B07JHG13WP",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B07JHG13WP",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "eheim-jager-akvaryum-isiticisi",
@@ -5645,24 +5869,40 @@
           "Cam yüzeyi kırılgan"
         ],
         "query": "Eheim Jager aquarium heater",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B001MX5X5G",
+        "amazon_url": "https://www.amazon.com.tr/dp/B001MX5X5G",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B001MX5X5G",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "tetra-whisper-hava-pompasi",
-        "name": "Tetra Whisper Hava Pompası",
+        "name": "Tetra APS 150 Hava Pompası",
         "brand": "Tetra",
-        "desc": "Sessiz çalışan, akvaryum havalandırma ve hava taşı sistemleri için tasarlanmış kompakt hava pompası.",
+        "desc": "Akvaryum hava taşı ve havalandırma ekipmanları için tasarlanmış kompakt hava pompası.",
         "pros": [
-          "Sessiz çalışma",
-          "Uygun fiyat",
-          "Kurulumu kolay"
+          "Kompakt tasarım",
+          "Kurulumu kolay",
+          "Hava hortumu ve taşıyla kullanılabilir"
         ],
         "cons": [
-          "Sadece hava motoru, aksesuarlar ayrı",
-          "Büyük tanklar için güç yetersiz"
+          "Hortum, çekvalf ve hava taşı ayrı kontrol edilmeli",
+          "Tank hacmine uygun model seçilmeli"
         ],
-        "query": "Tetra Whisper air pump",
-        "network": "amazon_tr"
+        "query": "Tetra APS 150 air pump",
+        "network": "amazon_tr",
+        "asin": "B002X93UOE",
+        "amazon_url": "https://www.amazon.com.tr/dp/B002X93UOE",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B002X93UOE",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "fluval-plant-led-aydinlatma",
@@ -6724,7 +6964,14 @@
         ],
         "query": "Raspberry Pi 5 8GB",
         "network": "amazon_tr",
-        "asin": "B0CK2FCG1K"
+        "asin": "B0CK2FCG1K",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0CK2FCG1K",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0CK2FCG1K",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "anker-7-in-1-hub",
@@ -7201,7 +7448,14 @@
         ],
         "query": "victorinox fibrox chef knife",
         "network": "amazon_tr",
-        "asin": "B000XF0FFC"
+        "asin": "B000XF0FFC",
+        "amazon_url": "https://www.amazon.com.tr/dp/B000XF0FFC",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B000XF0FFC",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "zwilling-four-star-bicak",
@@ -7276,21 +7530,28 @@
     "kahve": [
       {
         "id": "baratza-encore-ogutucu",
-        "name": "Baratza Encore Öğütücü",
-        "brand": "Baratza",
-        "desc": "Ev kahve demleme için tutarlı öğütüm sağlayan konik dişli kahve değirmeni.",
+        "name": "De’Longhi Dedica KG 521.M Kahve Öğütücü",
+        "brand": "De’Longhi",
+        "desc": "Filtre kahve ve farklı demleme yöntemleri için 18 öğütme kademesi sunan kompakt elektrikli kahve öğütücü.",
         "pros": [
-          "Tutarlı öğütüm",
-          "40 kademe ayar",
-          "Tamir edilebilir"
+          "18 öğütme kademesi",
+          "Kompakt gövde",
+          "Porsiyon ayarı"
         ],
         "cons": [
-          "Sesli",
-          "Espresso için sınırlı"
+          "Fiyatı başlangıç el değirmenlerinden yüksek",
+          "Öğütme kabı düzenli temizlik ister"
         ],
-        "query": "baratza encore coffee grinder",
+        "query": "DeLonghi Dedica KG 521.M coffee grinder",
         "network": "amazon_tr",
-        "asin": "B0CTTSGS65"
+        "asin": "B01KPN9K2A",
+        "amazon_url": "https://www.amazon.com.tr/dp/B01KPN9K2A",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B01KPN9K2A",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "hario-v60-dripper",
@@ -7308,7 +7569,14 @@
         ],
         "query": "hario v60 dripper",
         "network": "amazon_tr",
-        "asin": "B000P4D5HG"
+        "asin": "B000P4D5HG",
+        "amazon_url": "https://www.amazon.com.tr/dp/B000P4D5HG",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B000P4D5HG",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "bialetti-moka-express",
@@ -7380,7 +7648,14 @@
         ],
         "query": "kitchenaid artisan stand mixer",
         "network": "amazon_tr",
-        "asin": "B0DRLCZWWQ"
+        "asin": "B0DRLCZWWQ",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0DRLCZWWQ",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B0DRLCZWWQ",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "nordic-ware-bundt-kalibi",
@@ -7468,7 +7743,14 @@
         ],
         "query": "weber original kettle 57cm",
         "network": "amazon_tr",
-        "asin": "B07KT9FY31"
+        "asin": "B07KT9FY31",
+        "amazon_url": "https://www.amazon.com.tr/dp/B07KT9FY31",
+        "dogrulama": {
+          "durum": "dogrulanmis",
+          "tarih": "2026-10-31",
+          "kaynak_url": "https://www.amazon.com.tr/dp/B07KT9FY31",
+          "yontem": "manuel-web-denetim"
+        }
       },
       {
         "id": "weber-rapidfire-baca",

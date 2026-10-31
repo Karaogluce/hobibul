@@ -8,6 +8,11 @@ meta_description: "Gitar öğrenmeye başlayanlar için rehber: akustik ve elekt
 excerpt: "Sıfırdan gitar öğrenmek istiyor ama nereden başlayacağınızı bilmiyor musunuz? Doğru gitar, amfi, tel ve tuner seçimiyle ilk akorlarınızı haftalar içinde çalmaya başlayın. İşte yeni başlayanlar için eksiksiz ekipman rehberi."
 date: "2026-10-27"
 updated: "2026-10-29"
+image: "/img/makale/gitar-ogrenme.webp"
+image_alt: "Gitar ve amfi ile çalışma alanı"
+image_credit: "Unsplash"
+image_credit_url: "https://unsplash.com/s/photos/guitar-amp"
+image_source: ""
 ---
 
 ## Neden Herkes İlk Enstrüman Olarak Gitarı Seçiyor?

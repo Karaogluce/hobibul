@@ -96,9 +96,9 @@ def pick_products(products, cat, sub, ids):
     except urun_denetim.UrunVerisiHatasi as e:
         sys.exit(f"Ürün verisi hatası: {e}")
     by_id = {p["id"]: p for p in pool}
-    # alt kategori dışından da id verilebilsin; yalnızca geçerli kayıtlar girer
+    # Alt kategori dışından da id verilebilsin; yalnızca kanıtlanmış ürünler girer.
     for rid, rec in harita.items():
-        if rid not in by_id and urun_denetim.gecerli_mi(rec):
+        if rid not in by_id and urun_denetim.dogrulanmis_mi(rec):
             by_id[rid] = rec
     missing = [i for i in ids if i not in by_id]
     if missing:

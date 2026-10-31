@@ -39,8 +39,8 @@
   </aside>
   {% endif %}
   {{- shop_cta_block(shop_ctas_for(article.category, article.subcategory)) }}
-  {% if article.image %}<img class="article-hero" onerror="this.remove()" src="{{ article.image }}" alt="{{ article.image_alt }}" width="760" height="320" decoding="async">
-  {% if article.image_credit %}<p class="img-credit">Fotoğraf: <a href="{{ article.image_credit_url }}" target="_blank" rel="noopener">{{ article.image_credit }}</a> / <a href="https://unsplash.com/?utm_source=hobibul&utm_medium=referral" target="_blank" rel="noopener">Unsplash</a></p>{% endif %}{% endif %}
+  {% if article.image %}<img class="article-hero" src="{{ article.image }}" alt="{{ article.image_alt }}" width="760" height="320" decoding="async">
+  {% if article.image_credit %}<p class="img-credit">Fotoğraf: <a href="{{ article.image_credit_url }}" target="_blank" rel="noopener">{{ article.image_credit }}</a>{% if article.image_source %} / <a href="https://unsplash.com/?utm_source=hobibul&utm_medium=referral" target="_blank" rel="noopener">{{ article.image_source }}</a>{% endif %}</p>{% endif %}{% endif %}
   <div class="article-body">
     {{ article.body_html|safe }}
   </div>

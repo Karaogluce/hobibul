@@ -23,6 +23,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 from deeplink import shop_ctas_for
 from seo import extract_faq, fit_description, fit_title
 import urun_denetim
+import site_denetim
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -55,6 +56,8 @@ def public_image(url):
     url = (url or "").strip()
     if url.startswith("http://") or url.startswith("https://"):
         return url
+    if url.startswith("/"):
+        return BASE_URL + url
     return BASE_URL + DEFAULT_OG
 
 # global ürün haritası: id -> ürün. Çelişkili kopya varsa build durur; ilk kayıt
@@ -114,7 +117,12 @@ def affiliate_url(prod):
 
 def resolve_aff(pid):
     prod = product_map.get(pid)
-    return affiliate_url(prod) if prod else "#"
+    if not prod:
+        raise urun_denetim.UrunVerisiHatasi(f"Makalede bilinmeyen aff:// kimliği: {pid}")
+    target = affiliate_url(prod)
+    if not target or target == "#":
+        raise urun_denetim.UrunVerisiHatasi(f"Ürün için geçerli bağlantı üretilemedi: {pid}")
+    return target
 
 
 # kategori görsel meta (ürün görseli yer tutucuları için)
@@ -464,7 +472,8 @@ def load_articles():
             author_slug = meta.get("author_slug") or author_meta.get("slug") or "hobi-bul-editor"
             published = meta.get("date") or ""
             updated = meta.get("updated") or published
-            image = meta.get("image") or CAT_CARD_IMG.get(meta.get("category", ""), "")
+            # Kategori kartı makaleye rastgele konu dışı görsel taşımaz.
+            image = meta.get("image") or DEFAULT_OG
             image_alt = (meta.get("image_alt") or "").strip() or meta.get("title") or slug
             raw_title = meta.get("meta_title") or meta.get("title") or slug
             raw_desc = meta.get("meta_description") or ""
@@ -491,6 +500,7 @@ def load_articles():
                 "og_image": public_image(image),
                 "image_credit": meta.get("image_credit", ""),
                 "image_credit_url": meta.get("image_credit_url", ""),
+                "image_source": meta.get("image_source", ""),
                 "starter_text": meta.get("starter_text", ""),
                 "starter_label": meta.get("starter_label", ""),
                 "starter_product": starter_pid,
@@ -1077,6 +1087,8 @@ def main():
     print(f"✓ {len(info_pages)} bilgi sayfası")
     print(f"✓ 1 ana sayfa + 1 dashboard + sitemap + robots + CNAME + 404"
           + (" + IndexNow anahtarı" if inkey else ""))
+    sayi = site_denetim.denetle(SITE)
+    print(f"✓ {sayi} bağlantı/görsel hedefi doğrulandı")
     print(f"✓ Çıktı: {SITE}")
 
 

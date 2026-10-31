@@ -7,6 +7,11 @@ meta_description: "Evde başlayabileceğin 8 el sanatı hobisi ve gerekli malzem
 excerpt: "Örgüden sulu boyaya, ahşap oymacılığından takı tasarımına evde başlayabileceğin 8 el sanatı hobisini ve her biri için ihtiyacın olan malzemeleri keşfet."
 date: "2026-10-27"
 updated: "2026-10-29"
+image: "/img/makale/el-sanatlari.webp"
+image_alt: "El sanatları için fırça, ip ve yapıştırıcılar"
+image_credit: "Unsplash"
+image_credit_url: "https://unsplash.com/s/photos/craft-supplies"
+image_source: ""
 ---
 
 ## Zihnini susturmanın en iyi yolu: Ellerini çalıştırmak

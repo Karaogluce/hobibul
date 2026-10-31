@@ -1,5 +1,6 @@
 """Ürün verisi: tekilleştirme, çelişki, aff:// çözümü ve üç ürün kuralı. Ağ yok."""
 import copy
+import hashlib
 import os
 import tempfile
 import unittest
@@ -17,9 +18,16 @@ KATEGORILER = [{
 
 
 def urun(rid, **kw):
+    asin = hashlib.sha1(rid.encode("utf-8")).hexdigest()[:10].upper()
     rec = dict(
         id=rid, name=f"Ürün {rid}", desc="Kullanışlı bir ürün.",
-        query=f"ürün {rid}", network="amazon_tr")
+        query=f"ürün {rid}", network="amazon_tr", asin=asin,
+        dogrulama={
+            "durum": "dogrulanmis",
+            "tarih": "2026-10-31",
+            "kaynak_url": f"https://www.amazon.com.tr/dp/{asin}",
+            "yontem": "manuel-test",
+        })
     rec.update(kw)
     return rec
 
@@ -142,6 +150,60 @@ class UcUrunKuraliTest(_GeciciMakaleler):
             self.assertEqual(otomatik._gerekli_urun(tip), 3, tip)
         for tip in ("hatalar", "sss", "kontrol_listesi", "nasil_yapilir"):
             self.assertEqual(otomatik._gerekli_urun(tip), 2, tip)
+
+
+class GercekUrunDogrulamaTest(_GeciciMakaleler):
+    def test_kanitsiz_urun_uretime_giremez(self):
+        products = urunler("a", "b", "c")
+        for _, _, rec in urun_denetim.iter_kayitlar(products):
+            rec.pop("dogrulama")
+        konu = {"ids": ["a", "b", "c"], "tip": "ticari"}
+        sonuc, neden = otomatik.uret(
+            konu, products, "gizli", [], 0, "gizli", {"photos": []}, False, "2026-10-31")
+        self.assertIsNone(sonuc)
+        self.assertIn("doğrulanmamış ürün", neden)
+
+    def test_asin_tek_basina_dogrulama_degildir(self):
+        rec = urun("a")
+        rec.pop("dogrulama")
+        self.assertFalse(urun_denetim.dogrulanmis_mi(rec))
+        self.assertEqual(urun_denetim.dogrulama_durumu(rec), "incelenecek")
+
+    def test_devre_disi_urun_sayilmaz(self):
+        products = urunler("a", "b", "c")
+        self.assertEqual(urun_denetim.devre_disi_isaretle(products, "a"), 1)
+        ids = [r["id"] for r in urun_denetim.gecerli_urunler(products, "outdoor", "cadir")]
+        self.assertEqual(ids, ["b", "c"])
+
+    def test_kaynak_urldeki_asin_urunle_ayni_olmali(self):
+        rec = urun("a")
+        rec["dogrulama"]["kaynak_url"] = "https://www.amazon.com.tr/dp/B000000000"
+        self.assertFalse(urun_denetim.dogrulanmis_mi(rec))
+
+    def test_dogrulama_butun_kopyalara_islenir(self):
+        a = urun("a")
+        products = {"outdoor": {"cadir": [a], "_main": [copy.deepcopy(a)]}}
+        n = urun_denetim.dogrulama_isaretle(
+            products, "a", "B0ABC12345", "https://www.amazon.com.tr/dp/B0ABC12345", "2026-10-31")
+        self.assertEqual(n, 2)
+        self.assertTrue(all(urun_denetim.dogrulanmis_mi(r) for _, _, r in urun_denetim.iter_kayitlar(products)))
+
+    def test_arama_urlsi_kanit_olamaz(self):
+        rec = urun("a")
+        rec["dogrulama"]["kaynak_url"] = "https://www.amazon.com.tr/s?k=kamp"
+        self.assertFalse(urun_denetim.dogrulanmis_mi(rec))
+
+    def test_mevcut_makale_riski_yayini_silmeden_raporlanir(self):
+        rec = urun("a")
+        rec.pop("dogrulama")
+        products = urunler(rec, "b", "c")
+        dosya = os.path.join(self.articles, "riskli.md")
+        with open(dosya, "w", encoding="utf-8") as f:
+            f.write("---\ntitle: Riskli\ncategory: outdoor\nsubcategory: cadir\n---\n[Ürün](aff://a)\n")
+        rapor = urun_denetim.dogrula(products, KATEGORILER, articles_dir=self.articles)
+        self.assertEqual(rapor["makale_dogrulama"]["riskli_sayi"], 1)
+        self.assertEqual(rapor["makale_dogrulama"]["riskli"][0]["urunler"], ["a"])
+        self.assertTrue(os.path.isfile(dosya))
 
 
 class AffCozumTest(unittest.TestCase):

@@ -6,9 +6,14 @@ subcategory: "kahve"
 date: "2026-10-28"
 updated: "2026-10-29"
 meta_title: "Filtre Kahve Başlangıç Seti: Öğütücü, V60, Tartı | Hobi Bul"
-meta_description: "Evde filtre kahve için öğütücü, Hario V60 ve tartı nasıl seçilir? Baratza Encore, AeroPress ve French press karşılaştırması."
+meta_description: "Evde filtre kahve için öğütücü, Hario V60 ve tartı nasıl seçilir? De’Longhi Dedica KG 521.M, AeroPress ve French press karşılaştırması."
 excerpt: "Filtre kahvede fincanı öğütücü belirler. V60 kontrol verir, tartı ise aynı fincanı yarın da tutturmanı sağlar."
 focus_keyword: "filtre kahve başlangıç seti"
+image: "/img/makale/filtre-kahve.webp"
+image_alt: "V60 dripper ile filtre kahve demleme"
+image_credit: "Unsplash"
+image_credit_url: "https://unsplash.com/s/photos/pour-over-coffee"
+image_source: ""
 starter_product: "hario-v60-dripper"
 starter_label: "V60 başlangıç demleyicisine bak"
 starter_text: "İlk filtre setinin ortası Hario V60. Yanına tutarlı bir öğütücü ve 0,1 gram okuyan bir tartı koy. Güncel fiyatı Amazon'da kontrol et."
@@ -23,22 +28,22 @@ Sabahları sadece kendin için tek bir fincan hazırlayacaksan, konik dişli bir
 
 Eğer mutfak listeni daha da genişletmek istersen [kahve ekipmanları](/kategori/yemek-mutfak/kahve/) sayfamıza bakabilirsin. Filtre kahvenin ötesine geçip pizza ya da ekmek gibi işlere de meraklıysan [evde pizza fırını](/makale/evde-pizza-firini-g3-ferrari-delizia-ile-baslangic/) yazısı ilginç gelebilir. Mutfağın tamamına dair ipuçları ise [yemek ve mutfak](/kategori/yemek-mutfak/) kategorisinde seni bekliyor.
 
-## Baratza Encore: Her Sabah Aynı Standart
+## De’Longhi Dedica KG 521.M: Her Sabah Aynı Standart
 
-Baratza Encore, evde kahve demleyenlerin en çok tercih ettiği konik dişli değirmenlerden biri. En büyük avantajı, 40 farklı ayar kademesi sunması ve gövdesinin tamir edilebilir olması. Dişleri aşındığında ya da bir parçası bozulduğunda makineyi çöpe atmak yerine parçasını değiştirip devam edebiliyorsun. Bu, başlangıç seviyesindeki bir ürün için oldukça nadir ve kıymetli bir özellik.
+De’Longhi Dedica KG 521.M, evde filtre kahve hazırlayanlara 18 öğütme kademesi ve porsiyon ayarı sunan elektrikli bir öğütücü. Kompakt gövdesi tezgahta fazla yer kaplamaz. El değirmenine göre daha yüksek bir başlangıç bütçesi ister; buna karşılık her sabah kahveyi elle çevirme zahmetini azaltır.
 
-Eğer sadece filtre kahve değil, arada French press de yapıyorsan bu makine işini görür. Ancak espresso tutkunuysan Encore seni üzebilir; çünkü espresso için gereken o çok ince ayarları yakalamakta zorlanıyor. Bir de sabahın köründe evdekileri uyandırmaktan çekiniyorsan dikkatli ol, çünkü biraz gürültülü çalışan bir makine.
+French press ile V60 arasında geçiş yaparken öğütme kademesini demleme yöntemine göre değiştirebilirsin. İlk denemede V60 için orta kademelerden başla; suyun akış hızına ve fincandaki tada göre ayarı irileştir veya incelt. Öğütme kabını ve dişli çevresini düzenli temizlemek, eski kahve kalıntılarının yeni demlemeye karışmasını önler.
 
 **Artıları:**
-*   Öğütüm kalitesi tutarlı, her seferinde aynı tadı yakalayabilirsin.
-*   40 kademesi sayesinde French press’ten V60’a her türlü ayarı yapabiliyorsun.
-*   Tamir edilebilir olması uzun ömürlü bir kullanım vaat ediyor.
+*   18 öğütme kademesi farklı demleme yöntemlerine uyum sağlar.
+*   Porsiyon ayarı tekrarlanabilir hazırlık sunar.
+*   Kompakt gövdesi küçük mutfaklarda kolay konumlanır.
 
 **Eksileri:**
-*   Çalışırken biraz fazla ses çıkarıyor.
-*   Espresso için gereken incelikte performansı sınırlı.
+*   Temel el değirmenlerinden daha yüksek bütçe ister.
+*   Düzenli ve doğru sonuç için öğütme kabı ve dişli çevresi temizlenmelidir.
 
-[Satın Al: Baratza Encore Öğütücü](aff://baratza-encore-ogutucu)
+[Satın Al: De’Longhi Dedica KG 521.M](aff://baratza-encore-ogutucu)
 
 ## Hario V60: Kontrolü Elde Tutmak İsteyenlere
 
@@ -95,7 +100,7 @@ Eğer "ben daha sert, espressoya yakın bir şeyler içmek istiyorum" dersen, Bi
 
 ## İlk Demlemelerde Nelere Dikkat Etmelisin?
 
-Sana burada ezbere bir tarif vermeyeceğim çünkü en iyi tarif senin damak tadın. İlk demlemeni yaparken kaç gram kahve ve su kullandığını bir kenara not et. Eğer içtiğin kahve çok acı geldiyse, Encore öğütücünde ayarı bir kademe irileştir. Eğer çok sulu ve ekşi geldiyse, bir dahaki sefere daha ince öğüt. Makinedeki o 40 kademe işte tam da bu ince ayarları bulman için var.
+Sana burada ezbere bir tarif vermeyeceğim çünkü en iyi tarif senin damak tadın. İlk demlemeni yaparken kaç gram kahve ve su kullandığını bir kenara not et. Eğer içtiğin kahve çok acı geldiyse, Dedica öğütücünde ayarı bir kademe irileştir. Eğer çok sulu ve ekşi geldiyse, bir dahaki sefere daha ince öğüt. Makinedeki 18 kademe, demleme yöntemine ve kahveye göre doğru öğütümü bulmana yardımcı olur.
 
 Su sıcaklığı da çok kritik. Kaynar suyu doğrudan kahvenin üzerine dökme; su kaynadıktan sonra bir dakika kadar beklemesine izin ver. Çok sıcak su kahveyi yakar ve o yanık tadını fincanına taşır. Ve tabii ki kahveni demlemeden hemen önce öğütmeyi alışkanlık haline getir. Önceden öğütüp kavanoza doldurursan, aldığın o kaliteli öğütücünün bir anlamı kalmaz.
 
@@ -105,7 +110,7 @@ Su sıcaklığı da çok kritik. Kaynar suyu doğrudan kahvenin üzerine dökme;
 Kesinlikle öğütücü. İyi bir öğütücüyle French press bile yapsan, kötü bir öğütücüyle yapılan V60'tan daha iyi sonuç alırsın. Taze öğütülmüş kahve her şeyin temelidir.
 
 **V60 ve French press için aynı öğütme ayarını kullanabilir miyim?**
-Hayır, French press için oldukça iri (deniz tuzu gibi), V60 için ise orta incelikte (sofra tuzu gibi) bir öğütüm gerekir. Encore kullanıyorsan bu iki ayarı bir kenara not et ki her sabah deneme yanılma yapma.
+Hayır, French press için oldukça iri (deniz tuzu gibi), V60 için ise orta incelikte (sofra tuzu gibi) bir öğütüm gerekir. Dedica kullanıyorsan bu iki ayarı bir kenara not et ki her sabah deneme yanılma yapma.
 
 **Musluk suyu kahvenin tadını bozar mı?**
 Eğer çeşme suyunuz çok kireçliyse evet, tadı metalikleştirir. İmkanın varsa filtre sürahiyle arıtılmış su kullanmak kahvenin aromasını daha iyi ortaya çıkarır.
@@ -117,7 +122,7 @@ Bütçene ve kahve içme alışkanlığına göre şu üç seçenekten birine y�
 | Paket | İçerik | Kimler İçin? |
 | :--- | :--- | :--- |
 | **Bütçe Dostu** | [Hario V60](aff://hario-v60-dripper) + [Tartı](aff://zamanlayicili-kahve-tartisi) | Zaten bir öğütücüsü olan veya döküş tekniğini geliştirmek isteyenler. |
-| **İdeal Başlangıç** | [Baratza Encore](aff://baratza-encore-ogutucu) + V60 + Tartı | Evde gerçek kahve deneyimine başlamak isteyen herkes için en mantıklı set. |
+| **İdeal Başlangıç** | [De’Longhi Dedica KG 521.M](aff://baratza-encore-ogutucu) + V60 + Tartı | Evde gerçek kahve deneyimine başlamak isteyen herkes için en mantıklı set. |
 | **Meraklısına** | Orta Paket + [AeroPress](aff://aeropress-kahve-demleyici) | Hem hafta sonu ritüelini hem de hafta içi hızını ve seyahat kolaylığını isteyenler. |
 
 Son bir tavsiye: Ekipmanların mutfakta hep aynı yerde ve elinin altında dursun. Tartı bir çekmecede, kağıt filtreler başka dolapta olursa bir süre sonra üşenip o güzelim öğütücüyü rafa kaldırabilirsin. Düzenli bir kahve köşesi, her sabah aynı keyfi sürdürmenin en kolay yoludur.

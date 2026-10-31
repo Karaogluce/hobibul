@@ -18,6 +18,7 @@ import os
 import re
 import sys
 from collections import Counter, defaultdict
+from datetime import date
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -32,6 +33,12 @@ ZORUNLU = ("id", "name", "desc", "query", "network")
 LISTE_ALANLARI = ("pros", "cons", "images")
 ASIN_RE = re.compile(r"^[A-Z0-9]{10}$")
 URL_RE = re.compile(r"^https?://[^\s]+$")
+DOGRULAMA_DURUMLARI = {"dogrulanmis", "incelenecek", "devre_disi"}
+TARIH_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+AMAZON_DP_RE = re.compile(
+    r"^https://(?:www\.)?amazon\.com(?:\.tr)?(?:/[^\s]*)?/dp/([A-Z0-9]{10})(?:[/?#]|$)",
+    re.I,
+)
 # _ek, categories.json'da olmayan ama ürüne `alt` alanıyla bağlanan ek listedir.
 EK_LISTE = "_ek"
 BUCKET_ALANLARI = {"alt"}
@@ -118,6 +125,68 @@ def gecerli_mi(rec):
     return True
 
 
+def dogrulama_durumu(rec):
+    """Kanıt alanı yoksa ürün gerçek kabul edilmez; incelemede kalır."""
+    dogrulama = rec.get("dogrulama") if isinstance(rec, dict) else None
+    if not isinstance(dogrulama, dict):
+        return "incelenecek"
+    durum = str(dogrulama.get("durum") or "").strip()
+    return durum if durum in DOGRULAMA_DURUMLARI else "incelenecek"
+
+
+def dogrulanmis_mi(rec):
+    """Gerçek ürün kanıtı: ASIN tek başına veya arama URL'si yeterli değildir."""
+    if not gecerli_mi(rec) or dogrulama_durumu(rec) != "dogrulanmis":
+        return False
+    d = rec["dogrulama"]
+    tarih = str(d.get("tarih") or "").strip()
+    kaynak = str(d.get("kaynak_url") or "").strip()
+    yontem = str(d.get("yontem") or "").strip()
+    if not TARIH_RE.match(tarih) or not URL_RE.match(kaynak) or not yontem:
+        return False
+    try:
+        date.fromisoformat(tarih)
+    except ValueError:
+        return False
+    net = rec.get("network", "amazon_tr")
+    if net in ("amazon_tr", "amazon"):
+        asin = re.sub(r"[^A-Za-z0-9]", "", str(rec.get("asin") or "")).upper()
+        m = AMAZON_DP_RE.match(kaynak)
+        if not ASIN_RE.match(asin) or not m or m.group(1).upper() != asin:
+            return False
+        if net == "amazon_tr" and "amazon.com.tr/" not in kaynak:
+            return False
+    return True
+
+
+def dogrulama_isaretle(products, rid, asin, kaynak_url, tarih, yontem="manuel"):
+    """İnsan tarafından bulunan gerçek ürün sayfasını bütün kopyalara işle."""
+    rows = grupla(products).get(rid) or []
+    if not rows:
+        raise UrunVerisiHatasi(f"Ürün kimliği bulunamadı: {rid}")
+    asin = re.sub(r"[^A-Za-z0-9]", "", str(asin or "")).upper()
+    dogrulama = {"durum": "dogrulanmis", "tarih": tarih,
+                 "kaynak_url": kaynak_url.strip(), "yontem": yontem.strip()}
+    aday = dict(rows[0][2], asin=asin, amazon_url=kaynak_url.strip(), dogrulama=dogrulama)
+    if not dogrulanmis_mi(aday):
+        raise UrunVerisiHatasi("Geçerli ASIN, aynı ASIN'li doğrudan Amazon /dp/ URL'si, ISO tarih ve yöntem gerekli")
+    for _, _, rec in rows:
+        rec["asin"] = asin
+        rec["amazon_url"] = kaynak_url.strip()
+        rec["dogrulama"] = dict(dogrulama)
+    return len(rows)
+
+
+def devre_disi_isaretle(products, rid, neden="ürün doğrulanamadı"):
+    """Kaydı silmeden yeni üretimden çıkar."""
+    rows = grupla(products).get(rid) or []
+    if not rows:
+        raise UrunVerisiHatasi(f"Ürün kimliği bulunamadı: {rid}")
+    for _, _, rec in rows:
+        rec["dogrulama"] = {"durum": "devre_disi", "neden": neden}
+    return len(rows)
+
+
 def birlestir(kayitlar):
     """Aynı id'nin kopyalarını tek kayda indir; çelişen değerleri ayrıca döndür.
 
@@ -187,7 +256,7 @@ def gecerli_urunler(products, cat=None, sub=None):
             if not rid or rid in gorulen:
                 continue
             row = rec if sub_id != EK_LISTE else {**rec, "alt": rec.get("alt") or sub}
-            if gecerli_mi(row):
+            if dogrulanmis_mi(row):
                 gorulen.add(rid)
                 out.append(row)
     return out
@@ -202,7 +271,7 @@ def alt_kategori_urunleri(products, cat, sub):
     gorulen, out = set(), []
     for rec in havuz:
         rid = str(rec.get("id") or "").strip()
-        if not rid or rid in gorulen or not gecerli_mi(rec):
+        if not rid or rid in gorulen or not dogrulanmis_mi(rec):
             continue
         gorulen.add(rid)
         out.append(rec)
@@ -335,6 +404,29 @@ def dogrula(products, categories, articles_dir=ARTICLES):
     if cozulmeyen:
         hatalar.append(f"{len(cozulmeyen)} aff:// kimliği ürün verisinde yok")
 
+    durumlar = Counter()
+    hatali_kanit = []
+    for rid, rows in gruplar.items():
+        rec = rows[0][2]
+        durum = dogrulama_durumu(rec)
+        durumlar[durum] += 1
+        if durum == "dogrulanmis" and not dogrulanmis_mi(rec):
+            hatali_kanit.append(rid)
+    rapor["dogrulama"] = {k: durumlar[k] for k in ("dogrulanmis", "incelenecek", "devre_disi")}
+    rapor["hatali_kanit"] = sorted(hatali_kanit)
+    if hatali_kanit:
+        uyarilar.append(f"{len(hatali_kanit)} üründe doğrulama kanıtı geçersiz")
+
+    riskli_makaleler = []
+    for m in makaleler:
+        dogrulanmayan = sorted(
+            pid for pid in m["aff"] | ({m["starter"]} if m["starter"] else set())
+            if pid in gruplar and not dogrulanmis_mi(gruplar[pid][0][2])
+        )
+        if dogrulanmayan:
+            riskli_makaleler.append({"dosya": m["dosya"], "urunler": dogrulanmayan})
+    rapor["makale_dogrulama"] = {"riskli": riskli_makaleler, "riskli_sayi": len(riskli_makaleler)}
+
     rapor["gecerli_urun"] = {
         f"{c}/{s}": len(gecerli_urunler(products, c, s))
         for c, s in {(c, s) for c, s, _ in recs}
@@ -404,6 +496,10 @@ def _rapor_bas(rapor):
           f"bilinmeyen alt kategori: {len(rapor['alt_kategori_hata'])}")
     print(f"  makalelerde aff:// kimliği: {rapor['aff']['kullanilan']}  |  "
           f"çözülemeyen: {len(rapor['aff']['cozulemeyen'])}")
+    d = rapor["dogrulama"]
+    print(f"  gerçek ürün doğrulaması: {d['dogrulanmis']} doğrulanmış | "
+          f"{d['incelenecek']} incelemede | {d['devre_disi']} devre dışı")
+    print(f"  doğrulanmamış ürün içeren mevcut makale: {rapor['makale_dogrulama']['riskli_sayi']}")
     for h in rapor["hatalar"]:
         print(f"  HATA: {h}")
     for u in rapor["uyarilar"]:
@@ -414,10 +510,33 @@ def main():
     ap = argparse.ArgumentParser(description="Ürün verisi doğrulama / tekilleştirme")
     ap.add_argument("--duzelt", action="store_true", help="çelişkili kopyaları birleştirip dosyayı yaz")
     ap.add_argument("--json", action="store_true", help="raporu JSON bas")
+    ap.add_argument("--dogrula-urun", metavar="URUN_ID", help="gerçek ürün sayfası kontrol edilen kimlik")
+    ap.add_argument("--asin", help="ürünün doğrulanmış ASIN'i")
+    ap.add_argument("--urun-url", help="aynı ASIN'li doğrudan Amazon /dp/ adresi")
+    ap.add_argument("--tarih", default=date.today().isoformat(), help="doğrulama tarihi (YYYY-MM-DD)")
+    ap.add_argument("--yontem", default="manuel", help="doğrulama yöntemi")
+    ap.add_argument("--devre-disi", metavar="URUN_ID", help="ürünü silmeden yeni üretimden çıkar")
+    ap.add_argument("--neden", default="ürün doğrulanamadı", help="devre dışı bırakma nedeni")
     a = ap.parse_args()
+    if a.dogrula_urun and a.devre_disi:
+        ap.error("--dogrula-urun ve --devre-disi birlikte kullanılamaz")
+    if a.dogrula_urun and not (a.asin and a.urun_url):
+        ap.error("--dogrula-urun için --asin ve --urun-url zorunlu")
 
     products = yukle()
     categories = yukle(CATEGORIES_PATH)
+
+    try:
+        if a.dogrula_urun:
+            n = dogrulama_isaretle(products, a.dogrula_urun, a.asin, a.urun_url, a.tarih, a.yontem)
+            kaydet(products)
+            print(f"Doğrulama işlendi: {a.dogrula_urun} ({n} kopya)")
+        if a.devre_disi:
+            n = devre_disi_isaretle(products, a.devre_disi, a.neden)
+            kaydet(products)
+            print(f"Devre dışı bırakıldı: {a.devre_disi} ({n} kopya)")
+    except UrunVerisiHatasi as e:
+        ap.error(str(e))
 
     if a.duzelt:
         products, degisim = duzelt(products)

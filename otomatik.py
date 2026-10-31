@@ -388,7 +388,7 @@ def _urun_bul(products, ids):
             continue
         gorulen.add(rid)
         rec = harita.get(rid)
-        if rec is not None and urun_denetim.gecerli_mi(rec):
+        if rec is not None and urun_denetim.dogrulanmis_mi(rec):
             out.append(rec)
     return out
 
@@ -743,6 +743,26 @@ def gate(body, tip, prods, others, banned=()):
 
 
 # ------------------------------------------------------------------ Unsplash
+_GORSEL_GENEL = {
+    "a", "an", "and", "the", "of", "on", "in", "with", "for", "to", "at",
+    "photo", "image", "picture", "person", "man", "woman", "white", "black",
+    "hobby", "tools", "equipment", "outdoor", "home", "new", "best",
+}
+
+
+def _gorsel_kelimeleri(text):
+    return {
+        w for w in re.findall(r"[a-z0-9]+", (text or "").lower())
+        if len(w) > 2 and w not in _GORSEL_GENEL
+    }
+
+
+def gorsel_puani(photo, query):
+    """Alt/açıklama metni arama konusuyla en az bir belirgin kelime paylaşmalı."""
+    metin = " ".join(str(photo.get(k) or "") for k in ("alt_description", "description"))
+    return len(_gorsel_kelimeleri(query) & _gorsel_kelimeleri(metin))
+
+
 def unsplash(query, fallback, used, key):
     if not key:
         return None
@@ -756,9 +776,9 @@ def unsplash(query, fallback, used, key):
         except Exception as e:
             print(f"  ! Unsplash hatası: {e}")
             return None
-        for ph in res:
-            if ph["id"] in used:
-                continue
+        adaylar = [ph for ph in res if ph["id"] not in used and gorsel_puani(ph, q) > 0]
+        adaylar.sort(key=lambda ph: gorsel_puani(ph, q), reverse=True)
+        for ph in adaylar:
             try:  # Unsplash kuralı: kullanılan fotoğrafın indirme olayını bildir
                 urllib.request.urlopen(urllib.request.Request(ph["links"]["download_location"], headers=h), timeout=15).read()
             except Exception:
@@ -1004,6 +1024,11 @@ def uret(t, products, key, models, model_idx, ukey, log, draft, tarih):
     if eksik:
         return None, f"ürün kimliği bulunamadı: {', '.join(eksik)}"
     prods = [pool[i] for i in t["ids"]]
+    dogrulanmayan = [p["id"] for p in prods if not urun_denetim.dogrulanmis_mi(p)]
+    if dogrulanmayan:
+        return None, f"doğrulanmamış ürün: {', '.join(dogrulanmayan)}"
+    if len(prods) < _gerekli_urun(t["tip"]):
+        return None, f"yeterli doğrulanmış ürün yok ({len(prods)}/{_gerekli_urun(t['tip'])})"
     sugg = suggestions(t["sub_name"])
     if t.get("sorgu"):
         sugg = [t["sorgu"]] + [s for s in sugg if s.lower() != t["sorgu"].lower()]
@@ -1051,10 +1076,9 @@ def uret(t, products, key, models, model_idx, ukey, log, draft, tarih):
     else:
         return None, why
     img = unsplash(meta["GORSEL"], CAT_EN.get(t["cat"], "hobby"), set(log["photos"]), ukey)
-    if img:
-        log["photos"].append(img["id"])
-    elif ukey:
-        print("  ! Görsel bulunamadı; kategori görseli kullanılacak.")
+    if not img:
+        return None, "konuyla eşleşen Unsplash görseli bulunamadı"
+    log["photos"].append(img["id"])
     slug, n, tarih = write_article(t, meta, body, img, draft, tarih)
     # Makale diske yazıldığı anda log da yazılır; sonraki madde düşse de bu kayıt kalır.
     makale_kaydi_ekle(log, t["key"], slug, tarih)

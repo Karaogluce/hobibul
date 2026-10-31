@@ -1,5 +1,6 @@
 """Havuz sınıflandırması ve alt kategori bazlı adil kuyruk. Ağ yok, dry-run."""
 import copy
+import hashlib
 import os
 import tempfile
 import unittest
@@ -20,8 +21,16 @@ KATEGORILER = [
 
 
 def urun(rid):
-    return dict(id=rid, name=f"Ürün {rid}", desc="Kullanışlı bir ürün.",
-                query=f"ürün {rid}", network="amazon_tr")
+    asin = hashlib.sha1(rid.encode("utf-8")).hexdigest()[:10].upper()
+    return dict(
+        id=rid, name=f"Ürün {rid}", desc="Kullanışlı bir ürün.",
+        query=f"ürün {rid}", network="amazon_tr", asin=asin,
+        dogrulama={
+            "durum": "dogrulanmis",
+            "tarih": "2026-10-31",
+            "kaynak_url": f"https://www.amazon.com.tr/dp/{asin}",
+            "yontem": "manuel-test",
+        })
 
 
 def urunler(**adetler):
