@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-30",
+ "generated_at": "2026-10-31",
  "period_days": 30,
  "visitors_daily": [
   {
@@ -13,12 +13,16 @@
   {
    "date": "2026-10-30",
    "users": 1
+  },
+  {
+   "date": "2026-10-31",
+   "users": 1
   }
  ],
  "channels": [
   {
    "name": "Direct",
-   "sessions": 47
+   "sessions": 56
   },
   {
    "name": "Organic Search",
@@ -26,10 +30,16 @@
   },
   {
    "name": "Unassigned",
-   "sessions": 1
+   "sessions": 4
   }
  ],
  "top_pages": [
+  {
+   "path": "/makale/akvaryum-kurulumu-baslangic-seti/",
+   "slug": "akvaryum-kurulumu-baslangic-seti",
+   "title": "Akvaryum Kurulumu Başlangıç Seti",
+   "views": 3
+  },
   {
    "path": "/makale/en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma/",
    "slug": "en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma",
@@ -37,15 +47,21 @@
    "views": 3
   },
   {
-   "path": "/makale/akvaryum-kurulumu-baslangic-seti/",
-   "slug": "akvaryum-kurulumu-baslangic-seti",
-   "title": "Akvaryum Kurulumu Başlangıç Seti",
-   "views": 2
+   "path": "/makale/kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026/",
+   "slug": "kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026",
+   "title": "Köpek Bakımı Başlangıç Seti: İlk Alınacaklar (2026)",
+   "views": 3
   },
   {
    "path": "/makale/drone-secimi-yeni-baslayanlar-icin/",
    "slug": "drone-secimi-yeni-baslayanlar-icin",
    "title": "Drone Seçimi: Yeni Başlayanlar İçin Oyuncak Sınıfı ve DJI Ayrımı",
+   "views": 2
+  },
+  {
+   "path": "/makale/kedi-bakim-seti-tirmalama-firca-oyuncak-ve-tuvalet-duzeni/",
+   "slug": "kedi-bakim-seti-tirmalama-firca-oyuncak-ve-tuvalet-duzeni",
+   "title": "Kedi Bakım Seti: Tırmalama, Fırça, Oyuncak ve Tuvalet Düzeni",
    "views": 2
   },
   {
@@ -61,33 +77,21 @@
    "views": 1
   },
   {
-   "path": "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
-   "slug": "bonsai-baslangic-seti-makas-tel-ve-toprak",
+   "path": "/makale/bonsai-baslangic-seti-ilk-alinacaklar-2026/",
+   "slug": "bonsai-baslangic-seti-ilk-alinacaklar-2026",
+   "title": "Bonsai Başlangıç Seti: İlk Alınacaklar (2026)",
+   "views": 1
+  },
+  {
+   "path": "/makale/bonsai-baslangic-seti-makas-tel-toprak-ve-gubre/",
+   "slug": "bonsai-baslangic-seti-makas-tel-toprak-ve-gubre",
    "title": "Bonsai Başlangıç Seti: Makas, Tel, Toprak ve Gübre",
    "views": 1
   },
   {
-   "path": "/makale/kampcilik-baslangic-rehberi/",
-   "slug": "kampcilik-baslangic-rehberi",
-   "title": "Yeni Başlayanlar İçin Kampçılık Rehberi: İhtiyacın Olan Tüm Ekipmanlar (2026)",
-   "views": 1
-  },
-  {
-   "path": "/makale/kopek-yuruyus-ve-egitim-seti/",
-   "slug": "kopek-yuruyus-ve-egitim-seti",
-   "title": "Köpek Yürüyüş ve Eğitim Seti",
-   "views": 1
-  },
-  {
-   "path": "/makale/mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar/",
-   "slug": "mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar",
-   "title": "Mangal Başlangıç Seti: Weber Kettle ve Olmazsa Olmaz Aksesuarlar",
-   "views": 1
-  },
-  {
-   "path": "/makale/sifirdan-gitar-ogrenmek/",
-   "slug": "sifirdan-gitar-ogrenmek",
-   "title": "Sıfırdan Gitar Öğrenmek: Doğru Ekipmanla Başla (2026)",
+   "path": "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
+   "slug": "bonsai-baslangic-seti-makas-tel-ve-toprak",
+   "title": "Bonsai Başlangıç Seti: Makas, Tel, Toprak ve Gübre",
    "views": 1
   }
  ]
