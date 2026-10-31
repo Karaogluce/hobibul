@@ -525,6 +525,46 @@
    "anahtar": "ticari:yemek-mutfak:kahve:baslangic",
    "neden": "kısa (1083 kelime, alt sınır 1550)",
    "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:bahce-bitki:teraryum:baslangic",
+   "neden": "kısa (935 kelime, alt sınır 1550)",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:evcil-hayvan:kedi-bakimi:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:outdoor:bisiklet:baslangic",
+   "neden": "kısa (1397 kelime, alt sınır 1550)",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:el-sanatlari:deri-isleri:baslangic",
+   "neden": "kısa (1114 kelime, alt sınır 1550)",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:muzik:dj-produksiyon:baslangic",
+   "neden": "kısa (1165 kelime, alt sınır 1550)",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:teknoloji:3d-yazici:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:masaustu-oyun:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:spor-fitness:evde-fitness:baslangic",
+   "neden": "kısa (1098 kelime, alt sınır 1550)",
+   "tarih": "2026-10-31"
   }
  ],
  "makaleler": [
