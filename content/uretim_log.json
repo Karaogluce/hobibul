@@ -9,7 +9,8 @@
   "ticari:yemek-mutfak:yemek-pisirme:baslangic",
   "ticari:bahce-bitki:bonsai:baslangic",
   "ticari:evcil-hayvan:kopek-bakimi:baslangic",
-  "ticari:bilim-astronomi:meteoroloji:baslangic"
+  "ticari:bilim-astronomi:meteoroloji:baslangic",
+  "ticari:el-sanatlari:deri-isleri:baslangic"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -18,7 +19,8 @@
   "S2Eql9vHN3o",
   "c18q3myyHLU",
   "puf9mUUURbs",
-  "ytCZ5MhC1VA"
+  "ytCZ5MhC1VA",
+  "eM-gOy8AiQk"
  ],
  "atlanan": [
   {
@@ -565,6 +567,41 @@
    "anahtar": "ticari:spor-fitness:evde-fitness:baslangic",
    "neden": "kısa (1098 kelime, alt sınır 1550)",
    "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:muzik:dj-produksiyon:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:teknoloji:3d-yazici:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:masaustu-oyun:baslangic",
+   "neden": "kısa (938 kelime, alt sınır 1550)",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:spor-fitness:evde-fitness:baslangic",
+   "neden": "kısa (1171 kelime, alt sınır 1550)",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:sanat:heykel:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:yemek-mutfak:ekmek-pasta:baslangic",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-10-31"
+  },
+  {
+   "anahtar": "ticari:evcil-hayvan:akvaryum:baslangic",
+   "neden": "kısa (1195 kelime, alt sınır 1550)",
+   "tarih": "2026-10-31"
   }
  ],
  "makaleler": [
@@ -602,6 +639,11 @@
    "anahtar": "ticari:bilim-astronomi:meteoroloji:baslangic",
    "tarih": "2026-10-31",
    "slug": "hava-meteoroloji-baslangic-seti-ilk-alinacaklar-2026"
+  },
+  {
+   "anahtar": "ticari:el-sanatlari:deri-isleri:baslangic",
+   "tarih": "2026-10-31",
+   "slug": "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026"
   }
  ]
 }
