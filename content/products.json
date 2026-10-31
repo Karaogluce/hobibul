@@ -64,7 +64,9 @@
         ],
         "cons": [
           "Pil ömrü yüksek ayarda kısa",
-          "Pil dahil değil"
+          "Pil dahil değil",
+          "Pil kapağı kırılgan olabilir",
+          "Orta-üst fiyat"
         ],
         "query": "Black Diamond Spot 400 headlamp",
         "network": "amazon_tr"
@@ -3417,7 +3419,9 @@
         ],
         "cons": [
           "Lateks alerjisi riski",
-          "Zamanla esneyebilir"
+          "Zamanla esneyebilir",
+          "Kopabilir",
+          "Koku"
         ],
         "query": "resistance bands",
         "network": "amazon_tr"
@@ -3594,7 +3598,9 @@
         ],
         "cons": [
           "Lateks alerjisi riski",
-          "Zamanla esneyebilir"
+          "Zamanla esneyebilir",
+          "Kopabilir",
+          "Koku"
         ],
         "query": "resistance bands",
         "network": "amazon_tr"
@@ -5934,7 +5940,9 @@
         ],
         "cons": [
           "Pil ömrü yüksek ayarda kısa",
-          "Pil dahil değil"
+          "Pil dahil değil",
+          "Pil kapağı kırılgan olabilir",
+          "Orta-üst fiyat"
         ],
         "query": "Black Diamond Spot 400 headlamp",
         "network": "amazon_tr"
