@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-10-31",
+ "generated_at": "2026-11-01",
  "period_days": 30,
  "visitors_daily": [
   {
@@ -17,12 +17,16 @@
   {
    "date": "2026-10-31",
    "users": 1
+  },
+  {
+   "date": "2026-11-01",
+   "users": 1
   }
  ],
  "channels": [
   {
    "name": "Direct",
-   "sessions": 56
+   "sessions": 66
   },
   {
    "name": "Organic Search",
@@ -30,10 +34,16 @@
   },
   {
    "name": "Unassigned",
-   "sessions": 4
+   "sessions": 3
   }
  ],
  "top_pages": [
+  {
+   "path": "/makale/en-iyi-lego-setleri-yetiskin-icin-bonsai-sukulent-ve-speed-champions/",
+   "slug": "en-iyi-lego-setleri-yetiskin-icin-bonsai-sukulent-ve-speed-champions",
+   "title": "En İyi LEGO Setleri: Yetişkin İçin Bonsai, Sukulent ve Speed Champions",
+   "views": 4
+  },
   {
    "path": "/makale/akvaryum-kurulumu-baslangic-seti/",
    "slug": "akvaryum-kurulumu-baslangic-seti",
@@ -51,6 +61,12 @@
    "slug": "kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026",
    "title": "Köpek Bakımı Başlangıç Seti: İlk Alınacaklar (2026)",
    "views": 3
+  },
+  {
+   "path": "/makale/bonsai-baslangic-seti-ilk-alinacaklar-2026/",
+   "slug": "bonsai-baslangic-seti-ilk-alinacaklar-2026",
+   "title": "Bonsai Başlangıç Seti: İlk Alınacaklar (2026)",
+   "views": 2
   },
   {
    "path": "/makale/drone-secimi-yeni-baslayanlar-icin/",
@@ -77,20 +93,8 @@
    "views": 1
   },
   {
-   "path": "/makale/bonsai-baslangic-seti-ilk-alinacaklar-2026/",
-   "slug": "bonsai-baslangic-seti-ilk-alinacaklar-2026",
-   "title": "Bonsai Başlangıç Seti: İlk Alınacaklar (2026)",
-   "views": 1
-  },
-  {
    "path": "/makale/bonsai-baslangic-seti-makas-tel-toprak-ve-gubre/",
    "slug": "bonsai-baslangic-seti-makas-tel-toprak-ve-gubre",
-   "title": "Bonsai Başlangıç Seti: Makas, Tel, Toprak ve Gübre",
-   "views": 1
-  },
-  {
-   "path": "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
-   "slug": "bonsai-baslangic-seti-makas-tel-ve-toprak",
    "title": "Bonsai Başlangıç Seti: Makas, Tel, Toprak ve Gübre",
    "views": 1
   }
