@@ -16,7 +16,12 @@
   "kontrol_listesi:yemek-mutfak:kahve:kahve-barista-malzemeleri",
   "rehber:teknoloji:_main",
   "ticari:muzik:dj-produksiyon:dj-seti-adi",
-  "yeni_baslayan:teknoloji:_main"
+  "yeni_baslayan:teknoloji:_main",
+  "sss:muzik:gitar:gitar-nasil-calinir",
+  "sss:teknoloji:drone:drone-nasil-kullanilir",
+  "kontrol_listesi:evcil-hayvan:akvaryum:akvaryum-balik-av-malzemeleri-ula-yorumlari",
+  "sss:muzik:gitar:gitar-nasil-tutulur",
+  "sss:teknoloji:drone:drone-nasil-ucurulur"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -32,7 +37,12 @@
   "q0qXYST9iKY",
   "WgMlXuSv-8A",
   "dY11a6wI2jI",
-  "lPcXuJyoIjU"
+  "lPcXuJyoIjU",
+  "2UuhMZEChdc",
+  "TdRCj0kLY9w",
+  "YZczhrvBD6o",
+  "vH2vj_3_IeU",
+  "6w0NhcEXKns"
  ],
  "atlanan": [
   {
@@ -731,6 +741,31 @@
    "anahtar": "yeni_baslayan:teknoloji:_main",
    "tarih": "2026-11-01",
    "slug": "teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar"
+  },
+  {
+   "anahtar": "sss:muzik:gitar:gitar-nasil-calinir",
+   "tarih": "2026-11-02",
+   "slug": "gitar-nasil-calinir"
+  },
+  {
+   "anahtar": "sss:teknoloji:drone:drone-nasil-kullanilir",
+   "tarih": "2026-11-02",
+   "slug": "drone-nasil-kullanilir"
+  },
+  {
+   "anahtar": "kontrol_listesi:evcil-hayvan:akvaryum:akvaryum-balik-av-malzemeleri-ula-yorumlari",
+   "tarih": "2026-11-02",
+   "slug": "akvaryum-balik-av-malzemeleri-ula-yorumlari"
+  },
+  {
+   "anahtar": "sss:muzik:gitar:gitar-nasil-tutulur",
+   "tarih": "2026-11-02",
+   "slug": "gitar-nasil-tutulur"
+  },
+  {
+   "anahtar": "sss:teknoloji:drone:drone-nasil-ucurulur",
+   "tarih": "2026-11-02",
+   "slug": "drone-nasil-ucurulur"
   }
  ]
 }
