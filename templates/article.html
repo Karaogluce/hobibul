@@ -31,6 +31,17 @@
     <strong>ℹ️ Affiliate Açıklaması:</strong> {{ site.affiliate_disclosure }}
     <a href="/affiliate-aciklamasi/">Ayrıntılı açıklama</a>
   </div>
+  {% if starter_plan %}
+  <aside class="plan-box">
+    <p class="plan-kicker">Başlangıç planı</p>
+    <div class="plan-grid">
+      <div><strong>İlk gün</strong><p>{{ starter_plan.gun1 }}</p></div>
+      <div><strong>İlk hafta</strong><p>{{ starter_plan.hafta1 }}</p></div>
+      <div><strong>İlk ay</strong><p>{{ starter_plan.ay1 }}</p></div>
+      <div><strong>Ne zaman yükselt?</strong><p>{{ starter_plan.yukselt }}</p></div>
+    </div>
+  </aside>
+  {% endif %}
   {% if article.starter_url %}
   <aside class="starter-cta">
     <p class="starter-kicker">Başlangıç seti</p>
@@ -44,6 +55,7 @@
   <div class="article-body">
     {{ article.body_html|safe }}
   </div>
+  <div id="hb-checklist"></div>
   <p class="guide-links">
     <a class="cat-cta" href="/kategori/{{ article.category }}/">{{ article.category_name }} ekipmanları →</a>
     {% if article.subcategory %}
@@ -67,4 +79,4 @@
 </section>
 {% endif %}
 {% endblock %}
-{% block scripts %}<script src="/js/share.js" defer></script>{% endblock %}
+{% block scripts %}<script src="/js/share.js" defer></script><script src="/js/checklist.js" defer></script>{% endblock %}

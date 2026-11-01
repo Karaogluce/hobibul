@@ -958,6 +958,11 @@ def main():
                 )),
             })
 
+
+    # ---- hangi hobi sana uygun? (istemci tarafında calisan quiz) ----
+    render("quiz.html", os.path.join(SITE, "hangi-hobi", "index.html"), {
+        "canonical_path": "/hangi-hobi/",
+    })
     # ---- rehberler (tüm makaleler) ----
     render("guides.html", os.path.join(SITE, "rehberler", "index.html"), {
         "canonical_path": "/rehberler/",
@@ -972,10 +977,12 @@ def main():
         })
 
     # ---- makale sayfalari ----
+    starter_plans = load_starter_plans()
     for a in articles:
         render("article.html", os.path.join(SITE, "makale", a["slug"], "index.html"), {
             "canonical_path": f"/makale/{a['slug']}/",
             "article": a,
+            "starter_plan": starter_plans.get(a.get("category", "")),
             "related": related_for(a),
             "jsonld": jsonld(as_graph(
                 article_ld(a),
@@ -1093,6 +1100,14 @@ def main():
 
 
 REDIRECTS = {"/outdoor/": "/kategori/outdoor/"}
+
+
+def load_starter_plans():
+    p = os.path.join(CONTENT, "baslangic_planlari.json")
+    if os.path.exists(p):
+        with open(p, encoding="utf-8") as f:
+            return json.load(f)
+    return {}
 
 
 def load_ga4():

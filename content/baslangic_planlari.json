@@ -1,0 +1,86 @@
+{
+  "outdoor": {
+    "gun1": "Çadır/ekipmanı evde bir kez kurup sök; dışarıda ilk kez denemeyi kampa bırakma.",
+    "hafta1": "Yakın bir mesire alanında tek gecelik, basit bir çıkış yap. Hava durumunu kontrol et, geri dönüş planın olsun.",
+    "ay1": "Hangi ekipmanı hiç kullanmadığını, hangisinin eksik kaldığını not et; bir sonraki çıkışta ona göre düzelt.",
+    "yukselt": "Aynı ekipmanla 2-3 çıkış yaptıktan, konforundan/ağırlığından net bir şikayetin oluştuktan sonra yükselt."
+  },
+  "el-sanatlari": {
+    "gun1": "Başlangıç setiyle küçük, bitirmesi 1 saati geçmeyen bir örnek proje yap; büyük bir hediye projesiyle başlama.",
+    "hafta1": "Aynı tekniği 3-4 kez tekrarla; malzemeyi değil, elini alıştır.",
+    "ay1": "İlk işlerinle son işini yan yana koy, nerede ilerlediğini gör.",
+    "yukselt": "Başlangıç malzemesinin sınırını (renk, kalınlık, tür) fark ettiğinde, sadece o eksik yönde yükselt."
+  },
+  "muzik": {
+    "gun1": "Enstrümanı doğru tutuş/duruşla tanı; ilk gün yeni bir şarkı öğrenmeye çalışma.",
+    "hafta1": "Günde 10-15 dakika, aynı saatte kısa ve düzenli çalış; uzun ama seyrek seanslardan iyidir.",
+    "ay1": "Tek bir basit parçayı baştan sona çalabiliyor musun, ona bak; teknik değil tamamlama hedefle.",
+    "yukselt": "Başlangıç ekipmanının sesi/ayarı seni gerçekten engellemeye başladığında yükselt, can sıkıntısından değil."
+  },
+  "teknoloji": {
+    "gun1": "Kiti kutudan çıkar, üretici kılavuzundaki ilk örneği değiştirmeden aynen kur.",
+    "hafta1": "Aynı örneği küçük değişikliklerle (bir satır kod, bir bağlantı) tekrar dene.",
+    "ay1": "Kendi küçük bir fikrini, öğrendiğin parçaları birleştirerek uygulamayı dene.",
+    "yukselt": "Başlangıç kitinin bir parçası projenin darboğazı olduğunda (yetersiz güç, bellek, hassasiyet) o parçayı yükselt."
+  },
+  "koleksiyon": {
+    "gun1": "Elindekileri tek bir yerde, basit bir listede (kağıt veya not uygulaması) kayıt altına al.",
+    "hafta1": "Hangi alt dala (dönem, tema, marka) yöneldiğini gözlemle, dağınık almaktan kaçın.",
+    "ay1": "Listendeki tekrarları ve eksikleri gözden geçir, bütçeni buna göre ayarla.",
+    "yukselt": "Saklama/koruma ekipmanını, elindeki parça sayısı günlük rafa sığmamaya başladığında yükselt."
+  },
+  "spor-fitness": {
+    "gun1": "Temel ekipmanla sadece doğru form/duruşu öğren; ilk gün ağırlık veya tempoyu zorlama.",
+    "hafta1": "Haftada 3 kez, kısa ve aynı rutini tekrarla; her gün farklı bir şey denemekten kaçın.",
+    "ay1": "Hangi hareketin seni hâlâ zorladığını not et, o hareketi tekrar çalış.",
+    "yukselt": "Temel ekipman artık yetersiz/kısıtlayıcı hissettirdiğinde (ağırlık, dayanıklılık) yükselt."
+  },
+  "sanat": {
+    "gun1": "Başlangıç setiyle tek bir küçük, basit bir çalışma bitir; malzemenin tamamını ilk günde deneme.",
+    "hafta1": "Aynı konuyu (ör. aynı obje, aynı poz) birkaç kez farklı dene; çeşitlilik yerine tekrar seç.",
+    "ay1": "İlk çalışmalarınla kıyasla, hangi teknikte rahatladığını fark et.",
+    "yukselt": "Belirli bir malzeme/renk/fırça seni tekrar tekrar sınırlandırıyorsa, sadece onu yükselt."
+  },
+  "yemek-mutfak": {
+    "gun1": "Tarifi/ekipmanı üreticinin önerdiği en basit haliyle dene; ilk seferde değişken ekleme.",
+    "hafta1": "Aynı tarifi aynı ölçülerle tekrarla, tek bir değişkeni (süre, sıcaklık, oran) değiştirip farkı gözlemle.",
+    "ay1": "Hangi değişkenin sonucu en çok etkilediğini öğrendiysen, onu bilinçli ayarlamaya başla.",
+    "yukselt": "Temel ekipmanın kapasitesi/hassasiyeti isteğini karşılamadığında yükselt, meraktan değil."
+  },
+  "bahce-bitki": {
+    "gun1": "Tek, dayanıklı bir bitki/tohumla başla; aynı anda çok türle uğraşma.",
+    "hafta1": "Sulama/ışık rutinini sabitle, günlük kısa kontrol alışkanlığı edin.",
+    "ay1": "Bitkinin tepkisine (büyüme, yaprak rengi) göre rutini küçük adımlarla ayarla.",
+    "yukselt": "İlk bitkin/bitkilerin istikrarlı büyüdüğünü gördükten sonra çeşit veya ekipman çeşitlendir."
+  },
+  "evcil-hayvan": {
+    "gun1": "Temel bakım ekipmanını hazırla; hayvanı yeni ortama alıştırmaya öncelik ver.",
+    "hafta1": "Besleme ve temizlik rutinini sabit saatlerde tekrarla.",
+    "ay1": "Hayvanın davranış/sağlık değişimlerini not et, gerekirse veterinere danış.",
+    "yukselt": "Temel ekipman hayvanın büyümesi/ihtiyacı değiştiğinde (boyut, yaş) yükselt."
+  },
+  "bilim-astronomi": {
+    "gun1": "Ekipmanı gündüz, sabit ve tanıdık bir hedefte dene; ilk kullanımı geceye/karmaşığa bırakma.",
+    "hafta1": "Aynı gözlem noktasına birkaç kez dön, kurulum ve odaklama hızını artır.",
+    "ay1": "Gözlemlerini basitçe not al (tarih, hedef, gördüklerin).",
+    "yukselt": "Başlangıç ekipmanının çözünürlük/büyütme sınırına gerçekten takıldığında yükselt."
+  },
+  "seyahat-gezi": {
+    "gun1": "Ekipmanı/çantanı kısa bir deneme (yakın mesafe, 1 gece) ile dene.",
+    "hafta1": "Neyi fazla, neyi eksik paketlediğini fark et, listeni güncelle.",
+    "ay1": "Sabit bir paketleme/çekim rutini oluştur.",
+    "yukselt": "Ekipmanın dayanıklılığı veya ağırlığı seni gerçekten sınırladığında yükselt."
+  },
+  "yazilim-kodlama": {
+    "gun1": "Ortamı kur, 'merhaba dünya' seviyesinde en basit örneği çalıştır.",
+    "hafta1": "Küçük, tamamlanabilir bir mini proje seç; büyük bir uygulamaya hemen başlama.",
+    "ay1": "Yazdığın ilk kodu gözden geçir, neyi daha iyi yazabileceğini gör.",
+    "yukselt": "Mevcut araç/donanım projeni gerçekten yavaşlattığında yükselt."
+  },
+  "yazi-edebiyat": {
+    "gun1": "Günde 10-15 dakika, düzenleme yapmadan serbestçe yaz.",
+    "hafta1": "Aynı saatte, kısa ve düzenli yaz; uzunluktan çok süreklilik hedefle.",
+    "ay1": "Yazdıklarını oku, tekrarlayan kalıpları fark et.",
+    "yukselt": "Temel araç (defter, uygulama) iş akışını zorlaştırdığında değiştir."
+  }
+}

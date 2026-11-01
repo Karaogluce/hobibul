@@ -7,6 +7,7 @@
   <div class="wrap">
     <h1>Hobini bul, ekipmanını seç.</h1>
     <p class="sub">{{ all_categories|length }} hobi kategorisinde, yeni başlayanlar için sade ve karşılaştırmalı ekipman rehberleri.</p>
+    <a class="quiz-teaser" href="/hangi-hobi/">🤔 Hangi hobi sana uygun? 5 soruda bul →</a>
     <nav class="chips" aria-label="Hızlı kategoriler">
       {% for c in all_categories %}<a class="chip" href="/kategori/{{ c.slug }}/" {{ acc(c.id) }}><i></i>{{ c.name.split(' & ')[0] }}</a>{% endfor %}
     </nav>
