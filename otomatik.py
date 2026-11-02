@@ -1,17 +1,17 @@
 #!/usr/bin/env python3
 """Hobi Bul — günlük otomatik makale hattı.
 
-  python otomatik.py                  # bugünün kalanını üret (hedef 5, Europe/Istanbul)
+  python otomatik.py                  # bugünün kalanını üret (hedef 3, Europe/Istanbul)
   python otomatik.py --adet 2         # en fazla 2; günlük kalan daha azsa o kadar
   python otomatik.py --adet 2 --yayinla
   python otomatik.py --konu-listesi   # sıradaki konuları göster (API çağırmaz)
 
 Akış: konu seç → Google Autocomplete'ten gerçek Türkçe sorguları çek → Gemini ile yaz
 (yalnızca products.json verisiyle) → kısa veya MAX_TOKENS ile kesik taslakta eksik
-bölümleri tamamlayan devam çağrısı → kalite kapıları → Unsplash'tan görsel → .md yaz.
+bölümleri tamamlayan devam çağrısı → kalite kapıları → Unsplash görselini yerel webp'ye indir → .md yaz.
 Kapıdan geçemeyen makale YAYINLANMAZ, content/uretim_log.json'a işlenir.
 
-Günlük hedef: İstanbul takvim gününde 5 makale. Sayı logdaki tarih kayıtlarından gelir.
+Günlük hedef: İstanbul takvim gününde 3 makale. Sayı logdaki tarih kayıtlarından gelir.
 Hedef doluysa Gemini çağrılmaz. 503/UNAVAILABLE, zaman aşımı, bağlantı hatası ve 429
 kotasında biten makaleler diskte kalır, çıkış kodu 0 olur; sonraki çalışma kalanı dener.
 
@@ -38,10 +38,11 @@ if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
 
 CONTENT, ARTICLES = ym.CONTENT, ym.ARTICLES
+STATIC = os.path.join(ym.BASE, "static")
 LOG_PATH = os.path.join(CONTENT, "uretim_log.json")
 POOL_PATH = os.path.join(CONTENT, "konu_havuzu.json")
-GUNLUK_HEDEF = 5
-TAMAM_MESAJI = "Bugünün 5 makalesi tamam"
+GUNLUK_HEDEF = 3
+TAMAM_MESAJI = "Bugünün 3 makalesi tamam"
 UA = {"User-Agent": "Mozilla/5.0 (HobiBul-bot)"}
 
 
@@ -817,7 +818,32 @@ def gorsel_puani(photo, query):
     return len(_gorsel_kelimeleri(query) & _gorsel_kelimeleri(metin))
 
 
-def unsplash(query, fallback, used, key):
+def gorsel_indir(url, slug):
+    """Unsplash görselini 1600 px webp olarak static/img/makale/<slug>.webp'ye indir."""
+    if not url or not slug:
+        return None
+    hedef = os.path.join(STATIC, "img", "makale", slug + ".webp")
+    ayrac = "&" if "?" in url else "?"
+    indirme = url + ayrac + urllib.parse.urlencode(
+        {"fm": "webp", "w": 1600, "q": 80, "fit": "max"})
+    try:
+        with urllib.request.urlopen(
+                urllib.request.Request(indirme, headers=UA), timeout=30) as r:
+            veri = r.read()
+        if len(veri) < 2048 or veri[:4] != b"RIFF" or veri[8:12] != b"WEBP":
+            raise ValueError("geçerli webp değil")
+        os.makedirs(os.path.dirname(hedef), exist_ok=True)
+        gecici = hedef + ".tmp"
+        with open(gecici, "wb") as f:
+            f.write(veri)
+        os.replace(gecici, hedef)
+        return "/img/makale/" + slug + ".webp"
+    except Exception as e:
+        print(f"  ! görsel indirilemedi ({slug}): {e}")
+        return None
+
+
+def unsplash(query, fallback, used, key, slug):
     if not key:
         return None
     for q in (query, fallback):
@@ -839,7 +865,7 @@ def unsplash(query, fallback, used, key):
                 pass
             u = ph["user"]
             return dict(
-                id=ph["id"], url=ph["urls"]["regular"],
+                id=ph["id"], url=gorsel_indir(ph["urls"]["raw"], slug),
                 alt=(ph.get("alt_description") or q).replace('"', "'"),
                 credit=u["name"], credit_url=u["links"]["html"] + "?utm_source=hobibul&utm_medium=referral")
     return None
@@ -861,7 +887,7 @@ def write_article(t, meta, body, img, draft, tarih=None):
              f'date: "{tarih}"', f'updated: "{tarih}"', f'meta_title: "{q(mt)}"',
              f'meta_description: "{q(md)}"', f'excerpt: "{raw_desc or q(md)}"',
              f'focus_keyword: "{q(meta["ANAHTAR"])}"']
-    if img:
+    if img and img.get("url"):
         lines += [f'image: "{img["url"]}"', f'image_alt: "{q(img["alt"])}"',
                   f'image_credit: "{q(img["credit"])}"', f'image_credit_url: "{img["credit_url"]}"']
     if t.get("sub") and t["sub"] != "_main":
@@ -1129,15 +1155,17 @@ def uret(t, products, key, models, model_idx, ukey, log, draft, tarih):
             break
     else:
         return None, why
-    img = unsplash(meta["GORSEL"], CAT_EN.get(t["cat"], "hobby"), set(log["photos"]), ukey)
+    slug = ym.slugify(t["title"])
+    img = unsplash(meta["GORSEL"], CAT_EN.get(t["cat"], "hobby"), set(log["photos"]), ukey, slug)
     if not img:
         return None, "konuyla eşleşen Unsplash görseli bulunamadı"
-    log["photos"].append(img["id"])
+    if img.get("url"):
+        log["photos"].append(img["id"])
     slug, n, tarih = write_article(t, meta, body, img, draft, tarih)
     # Makale diske yazıldığı anda log da yazılır; sonraki madde düşse de bu kayıt kalır.
     makale_kaydi_ekle(log, t["key"], slug, tarih)
     save_log(log)
-    return (slug, n, bool(img), tarih), None
+    return (slug, n, bool(img.get("url")), tarih), None
 
 
 def _kota_mesaji(exc, yedek_acik, made):

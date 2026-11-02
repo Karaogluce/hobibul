@@ -117,13 +117,13 @@ def _tam_makale():
 
 class UzunlukTest(unittest.TestCase):
     def test_gunluk_hedef_ve_yumusak_hedef(self):
-        self.assertEqual(otomatik.GUNLUK_HEDEF, 5)
+        self.assertEqual(otomatik.GUNLUK_HEDEF, 3)
         self.assertEqual(otomatik.TIPLER["ticari"]["hedef"], 1200)
         self.assertEqual(otomatik.TIPLER["rehber"]["hedef"], 1000)
         self.assertEqual(otomatik.kelime_hedef("ticari"), 1200)
         self.assertEqual(otomatik.kelime_hedef("rehber"), 1000)
         adet, _ = otomatik.kosu_plani(8, {"done": [], "makaleler": []}, "2026-10-29")
-        self.assertEqual(adet, 5)
+        self.assertEqual(adet, 3)
 
     def test_kisa_kapisi_guvenlik_tabanini_soyler(self):
         why = otomatik.gate("kelime " * 500, "ticari", [], [])
