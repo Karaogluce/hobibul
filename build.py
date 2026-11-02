@@ -1099,7 +1099,13 @@ def main():
     print(f"✓ Çıktı: {SITE}")
 
 
-REDIRECTS = {"/outdoor/": "/kategori/outdoor/"}
+REDIRECTS = {
+    "/outdoor/": "/kategori/outdoor/",
+    "/makale/drone-nasil-ucurulur/": "/makale/drone-nasil-kullanilir/",
+    "/makale/gitar-nasil-tutulur/": "/makale/gitar-nasil-calinir/",
+    "/makale/akvaryum-balik-av-malzemeleri-ula-yorumlari/":
+        "/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/",
+}
 
 
 def load_starter_plans():

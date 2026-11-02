@@ -26,6 +26,16 @@ Geniş, ağaçsız ve rüzgarın az olduğu açık bir sahaya çıktığında ci
 
 Drone havada sabit beklerken yön çubuklarına çok yumuşak dokunuşlar yap. Sağ kolu hafifçe ileri itip bırak, ardından geriye çekip cihazın havada nasıl tepki verdiğine bak. Drone kendi ekseni etrafında dönüp sana baktığında yön algın karışabileceği için ilk uçuşlarda cihazın arkasını hep kendine dönük tut. İniş yaparken de telaş etmeden, gaz kolunu yavaşça aşağı çekerek yere tekerlek koyar gibi yumuşak bir temas sağla.
 
+## Uçuş Öncesi Kısa Kontrol Rutini
+
+Motorları çalıştırmadan önce yapacağın birkaç dakikalık kontrol, ilk uçuşlarda yaşanan kazaların çoğunu önler.
+
+- Pervanelerde çatlak, gevşeklik veya yabancı cisim olup olmadığını incele; hasarlı pervaneyi kesinlikle takma.
+- Bataryanın yuvasına sıkıca oturduğundan ve kumandanın şarjının yeterli olduğundan emin ol.
+- Yerde rüzgar hissetmesen bile birkaç metre yüksekte hava akımının değişebileceğini hesaba katarak sakin bir gün seç.
+- Kalkış ve iniş için düz, kuru ve temiz bir zemin bul; uzun çim ya da toz motor yuvalarına kaçabilir.
+- Çevrende insan, evcil hayvan, elektrik teli veya bina bulunmadığını son bir kez gözden geçir.
+
 ## Türkiye'de Yasal Sınırlar ve Uçuş Alanları
 
 Cihazı rastgele bir parkta veya sokak arasında havalandırmak yasal yaptırımlara yol açabilir. Sivil Havacılık Genel Müdürlüğü (SHGM), ağırlığı 500 gram ve üzeri olan insansız hava araçlarının sisteme kaydedilmesini ve pilotun ehliyet almasını zorunlu tutar. 500 gram altındaki hobi cihazları tescil zorunluluğundan muaf tutulsa bile uçuşa yasak bölgelerde serbestçe uçurulamaz.

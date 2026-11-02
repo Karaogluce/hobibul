@@ -22,9 +22,11 @@ Gitar çalmaya başlamak için saatlerce karmaşık nota teorisine gömülmene g
 
 ## Gitara Nereden ve Nasıl Başlamalısın?
 
-Eline gitarı aldığında omurganı dik tutarak oturmalı ve enstrümanı bacağına dengeli biçimde yaslamalısın. Sapı tutan sol elinin başparmağını klavyenin arkasında, orta hatta yakın tutarsan diğer parmakların tellere dik bir açıyla basabilir. Parmakların tellere yatık gelirse alttaki tele temas edip sesin boğulmasına yol açar; bu yüzden perdelerin tam metal çizgisine değil, hemen arkasına dik basmayı alışkanlık edinmelisin.
+Eline gitarı aldığında sandalyenin ucuna dik otur; enstrümanın bel kıvrımını sağ bacağına yerleştir ve gövdenin arka yüzü göğsüne hafifçe değsin. Gitarı havada tutmaya çalışmak yerine ağırlığını bacakların ve sağ kolun taşımalı. Sapı yere tam paralel bırakmak yerine hafifçe yukarı yönlendirmek, sol bileğini doğal açıda tutmanı kolaylaştırır.
 
-Sağ el tarafında ise ritim ve pena hakimiyeti öne çıkar. Penayı işaret parmağının yan yüzeyi ile başparmağının arasına çok sıkmadan almalı, bileğini kasmadan tellere aşağı yukarı hareketlerle vurmalısın. Ritim tutturmakta zorlanıyorsan ayağınla tempo tutabilir veya basit bir metronom yardımıyla en düşük hızda pratik yaparak el koordinasyonunu hızla toparlayabilirsin.
+Sapı tutan sol elinin başparmağını klavyenin arkasında, orta parmağın hizasında dik tutmalısın; avuç içi ile klavyenin alt kenarı arasında küçük bir boşluk kalmalı. Parmakların tellere yatık gelirse alttaki tele temas edip sesin boğulmasına yol açar; bu yüzden perdelerin tam metal çizgisine değil, hemen arkasına dik basmayı alışkanlık edinmelisin. Bileğini aşırı bükmek yerine ön koldan gelen doğal çizgiyi korumak, uzun pratiklerde ağrıyı da önler.
+
+Sağ el tarafında ise ritim ve pena hakimiyeti öne çıkar. Sağ kolunun dirsek ile bilek arasındaki kısmı gövdenin üst kıvrımına hafifçe yaslanmalı; enstrümanı sıkıştıracak kadar baskı uygulamamalısın. Penayı işaret parmağının yan yüzeyi ile başparmağının arasına çok sıkmadan almalı, vuruşları çoğunlukla bileğini esneterek yapmalısın. Ritim tutturmakta zorlanıyorsan ayağınla tempo tutabilir veya basit bir metronom yardımıyla en düşük hızda pratik yaparak el koordinasyonunu hızla toparlayabilirsin.
 
 ## Akustik Gitar Nasıl Seçilir?
 
