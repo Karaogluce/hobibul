@@ -47,6 +47,13 @@ BAD_WORDS = re.compile(
 BELGE = re.compile(r"belgesi\b", re.I)
 KAMP_BELGE = re.compile(r"kamp[çc]ılık\s+belgesi", re.I)
 PRIORITY = re.compile(r"nasıl|nedir|listesi|malzemeleri|için en iyi", re.I)
+# Ham Autocomplete sorgusu başlık olmadan önce akıl kontrolü.
+AKIL_ARGO = ("ula", "yaa", "abi", "amk", "ya işte", "nolur", "pls")
+AKIL_ARGO_RE = re.compile(
+    r"(?<![\w])(?:" + "|".join(re.escape(k) for k in AKIL_ARGO) + r")(?![\w])", re.I)
+AKIL_META = re.compile(r"\b(?:ad[ıi]|ismi|ne demek|nasıl yazılır|nasil yazilir)\s*$", re.I)
+# Sorunun başında geçen, konuyla çelişmeyen genel bağlam kelimeleri.
+AKIL_BAGLAM = {"evde", "yeni", "en", "iyi", "ilk", "nasıl", "nasil", "hangi", "için", "icin"}
 MAX_PER_SUB = 15
 NASIL = re.compile(r"nasıl\s+(?:yapılır|kurulur|yapılıyor)")
 LISTE = re.compile(r"listesi|malzemeleri|ihtiyaç")
@@ -128,6 +135,45 @@ def jaccard(a, b):
     return len(a & b) / len(a | b) if a | b else 0.0
 
 
+def kelime_listesi(text):
+    return re.findall(r"[a-zçğıöşü0-9]+", normal(text))
+
+
+def _kok(w):
+    return w if len(w) <= 4 else w[:4]
+
+
+def _ilgili(ilk, kelimeler):
+    """İlk kelime alt kategori adı ya da köküyle aynı gövdeyi paylaşıyor mu?"""
+    a = _kok(ilk)
+    for w in kelimeler:
+        if a == _kok(w):
+            return True
+        if len(w) >= 3 and w.startswith(ilk):
+            return True
+        if len(ilk) >= 3 and ilk.startswith(w):
+            return True
+    return False
+
+
+def akil_kontrolu(q, kelimeler):
+    """Sorgu başlık olmaya uygun mu? Uygunsa None, değilse neden."""
+    if not 3 <= len(q.split()) <= 8:
+        return "uzunluk"
+    n = normal(q)
+    if AKIL_ARGO_RE.search(n):
+        return "argo"
+    if AKIL_META.search(n):
+        return "meta"
+    parcalar = kelime_listesi(n)
+    if not parcalar:
+        return "ilk-kelime"
+    ilk = parcalar[0]
+    if ilk not in AKIL_BAGLAM and not _ilgili(ilk, kelimeler):
+        return "ilk-kelime"
+    return None
+
+
 def tip_onerisi(q):
     low = q.lower()
     if NASIL.search(low):
@@ -169,23 +215,36 @@ def topla(base, cache, stats, seen, raw):
 
 def build_pool(cats):
     cache = load_json(CACHE_PATH, {})
-    stats = {"istek": 0, "onbellek": 0, "hata": 0, "ham": 0, "suzulen": 0, "kume": 0, "konu": 0}
+    stats = {"istek": 0, "onbellek": 0, "hata": 0, "ham": 0, "suzulen": 0,
+             "kume": 0, "konu": 0, "akil": 0, "akil_neden": {}}
     pool = []
     try:
         for c in cats:
             for s in c["subcategories"]:
                 base = base_name(s)
+                kok = KOK.get(f"{c['id']}/{s['id']}")
+                kelimeler = set()
+                for parca in [base] + (kok or []):
+                    kelimeler.update(kelime_listesi(parca))
                 seen, raw = set(), []
                 topla(base, cache, stats, seen, raw)
-                kept = [q for q in raw if len(q.split()) >= 3 and not elenir(q)]
+                kept = [q for q in raw if not akil_kontrolu(q, kelimeler) and not elenir(q)]
 
-                kok = KOK.get(f"{c['id']}/{s['id']}")
                 if len(kept) < 5 and kok:
                     for r in kok:
                         topla(r, cache, stats, seen, raw)
-                    kept = [q for q in raw if len(q.split()) >= 3 and not elenir(q)]
+                    kept = [q for q in raw if not akil_kontrolu(q, kelimeler) and not elenir(q)]
                     print(f"  ↳ kısa kök denendi: {', '.join(kok)}")
 
+                reddedilen = []
+                for q in raw:
+                    neden = akil_kontrolu(q, kelimeler)
+                    if neden:
+                        reddedilen.append((q, neden))
+                stats["akil"] += len(reddedilen)
+                for q, neden in reddedilen:
+                    stats["akil_neden"][neden] = stats["akil_neden"].get(neden, 0) + 1
+                    print(f"  ! atlandı: argo/anlamsız — {q}")
                 stats["ham"] += len(raw)
                 groups = cluster(kept)
                 groups.sort(key=lambda g: 0 if PRIORITY.search(g["temsilci"]) else 1)
@@ -195,7 +254,8 @@ def build_pool(cats):
                 stats["konu"] += len(reps)
                 for q in reps:
                     pool.append({"sorgu": q, "kategori": c["id"], "alt": s["id"], "tip_onerisi": tip_onerisi(q)})
-                print(f"  {c['id']}/{s['id']}: {len(raw)} ham → {len(kept)} süzülen → {len(groups)} küme → {len(reps)} konu")
+                print(f"  {c['id']}/{s['id']}: {len(raw)} ham → {len(kept)} süzülen → {len(groups)} küme → {len(reps)} konu"
+                      + (f" ({len(reddedilen)} akıl)" if reddedilen else ""))
                 save_json(CACHE_PATH, cache)
     except KeyboardInterrupt:
         print("\nKesildi; önbellek kaydediliyor…")
@@ -209,6 +269,8 @@ def build_pool(cats):
     print(f"\n{stats['istek']} istek, {stats['onbellek']} önbellek, {stats['hata']} hata")
     print(f"{stats['ham']} ham → {stats['suzulen']} süzülen → {stats['kume']} küme → "
           f"{stats['konu']} konu (alt kategori başına en fazla {MAX_PER_SUB})")
+    nedenler = ", ".join(f"{k}={v}" for k, v in sorted(stats["akil_neden"].items()))
+    print(f"{stats['akil']} sorgu akıl kontrolünde elendi (argo/anlamsız)" + (f": {nedenler}" if nedenler else ""))
     print("Tipler: " + ", ".join(f"{k or 'yok'}={v}" for k, v in sorted(tipler.items(), key=lambda x: str(x[0]))))
     return pool
 

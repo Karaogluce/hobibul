@@ -133,6 +133,11 @@ ESKI_TIPLER = ("rehber", "yeni_baslayan", "hatalar", "sss")
 YENI_TIPLER = ("kontrol_listesi", "nasil_yapilir")
 TICARI_TIP = "ticari"
 
+# Aynı alt kategoride başlık düzeyinde yakın konu eşiği. Makale gövdesi
+# shingle kontrolünden ayrıdır; konu üretilmeden önce eler.
+BENZER_BASLIK_ESIK = 0.35
+TR_KUCUK = str.maketrans("ÇĞİÖŞÜI", "çğiöşüı")
+
 # Havuzdan ve otomatik tamamlama önerilerinden elenen sorgular.
 _JUNK_RE = re.compile(
     r"(nasıl\s+yazılır|nasil\s+yazilir|\bnedir\b|\bne demek\b|\bne anlama gelir\b|\bnasıl okunur\b|\bnasil okunur\b)",
@@ -344,6 +349,27 @@ def _havuz_uygun(e):
     return True
 
 
+def _baslik_kelimeleri(text):
+    low = str(text or "").translate(TR_KUCUK).lower()
+    return {w for w in re.findall(r"[a-z0-9çğıöşü]+", low) if len(w) > 1}
+
+
+def _kelime_jaccard(a, b):
+    return len(a & b) / len(a | b) if a | b else 0.0
+
+
+def _makale_baslik_kumeleri(articles_dir=None):
+    """(kategori, alt kategori) -> yayınlanmış makale başlıklarının kelime kümeleri."""
+    out = {}
+    for m in urun_denetim.makale_verileri(articles_dir or ARTICLES):
+        cat = str(m.get("kategori") or "").strip()
+        sub = str(m.get("alt") or "").strip() or "_main"
+        kume = _baslik_kelimeleri(m.get("baslik"))
+        if cat and kume:
+            out.setdefault((cat, sub), []).append(kume)
+    return out
+
+
 def _urun_haritasi(products):
     try:
         return urun_denetim.urun_haritasi(products)
@@ -351,9 +377,14 @@ def _urun_haritasi(products):
         sys.exit(f"Ürün verisi hatası: {e}")
 
 
-def havuz_konulari(products, c, pool, used):
-    """Havuzdaki ticari olmayan konular. Ürün eşiği doğrulanmış ürünlerle sayılır."""
+def havuz_konulari(products, c, pool, used, basliklar=None, rapor=None):
+    """Havuzdaki ticari olmayan konular. Ürün eşiği doğrulanmış ürünlerle sayılır.
+
+    `basliklar` aynı alt kategoride kuyrukta/yayında olan başlık kelime kümelerini
+    taşır; yeni nasıl/kontrol konuları bunlara çok yakınsa hiç kuyruğa girmez.
+    """
     items = []
+    basliklar = basliklar if basliklar is not None else {}
     subs = {s["id"]: s["name"] for s in c["subcategories"]}
     for e in pool:
         if not _havuz_uygun(e):
@@ -364,17 +395,33 @@ def havuz_konulari(products, c, pool, used):
         sorgu = re.sub(r"\s+", " ", str(e.get("sorgu", ""))).strip()
         if not sorgu or cop_mu(sorgu):
             continue
+        title, kume = dogal_baslik(sorgu), None
         plist = urun_denetim.alt_kategori_urunleri(products, c["id"], sub)
         if len(plist) < _gerekli_urun(tip):
             continue
         sslug = ym.slugify(sorgu)
         if not sslug or sslug in used:
             continue
+        # "nasıl" soruları sınıflandırmada bazen sss olur; örnek çiftleri
+        # (drone nasıl kullanılır / uçurulur) yakalamak için onları da kapsa.
+        nasil_sorusu = tip == "sss" and bool(re.search(r"\bnasıl\b|\bnasil\b", sorgu.lower()))
+        if tip in YENI_TIPLER or nasil_sorusu:
+            kume = _baslik_kelimeleri(title)
+            if any(_kelime_jaccard(kume, k) >= BENZER_BASLIK_ESIK
+                   for k in basliklar.get(sub, ())):
+                if rapor is not None:
+                    rapor["benzer"] = rapor.get("benzer", 0) + 1
+                    ornek = rapor.setdefault("ornek", [])
+                    if len(ornek) < 20:
+                        ornek.append(f"{c['id']}/{sub}: {sorgu}")
+                continue
         used.add(sslug)
         items.append(dict(
             key=f"{tip}:{c['id']}:{sub}:{sslug}", tip=tip, cat=c["id"], cat_name=c["name"],
             sub=sub, sub_name=subs[sub], ids=[p["id"] for p in plist],
-            title=dogal_baslik(sorgu), sorgu=sorgu, sorgu_slug=sslug, kaynak="havuz"))
+            title=title, sorgu=sorgu, sorgu_slug=sslug, kaynak="havuz"))
+        if kume is not None:
+            basliklar.setdefault(sub, []).append(kume)
     return items
 
 
@@ -507,7 +554,7 @@ def _adil_sira(gruplar, makale_sayisi, son_uretim):
     return out
 
 
-def topic_queue(products, cats, log=None, articles_dir=None):
+def topic_queue(products, cats, log=None, articles_dir=None, rapor=None):
     """Kategori/alt kategori grupları arasında adil, deterministik üretim sırası.
 
     Önce ticari niyet, sonra havuzun diğer tipleri ve başlangıç setleri. Konusu
@@ -515,6 +562,7 @@ def topic_queue(products, cats, log=None, articles_dir=None):
     """
     pool, used = load_pool(), set()
     makale_sayisi = _makale_gruplari(articles_dir)
+    yayin_basliklari = _makale_baslik_kumeleri(articles_dir)
     son_uretim = _son_uretim_gunu(load_log() if log is None else log)
     gruplar = []
     for c in cats:
@@ -529,7 +577,13 @@ def topic_queue(products, cats, log=None, articles_dir=None):
                     key=f"{tip}:{c['id']}:{sid}", tip=tip, cat=c["id"], cat_name=c["name"],
                     sub=sid, sub_name=sname, ids=[p["id"] for p in plist],
                     title=TIPLER[tip]["baslik"](sname), kaynak="sablon"))
-        items += havuz_konulari(products, c, pool, used)
+        basliklar = {sid: list(yayin_basliklari.get((c["id"], sid), ()))
+                     for sid, _ in subs}
+        for t in items:
+            sub = t.get("sub")
+            if sub in basliklar:
+                basliklar[sub].append(_baslik_kelimeleri(t.get("title")))
+        items += havuz_konulari(products, c, pool, used, basliklar=basliklar, rapor=rapor)
         yerliler = {}
         for t in sorted(items, key=lambda x: 0 if x.get("kaynak") == "havuz" else 1):
             yerliler.setdefault(t["sub"], []).append(t)
@@ -1133,9 +1187,12 @@ def main():
         fails[x["anahtar"]] = fails.get(x["anahtar"], 0) + 1
     done_keys = set(done_anahtarlari(log))
     done_sorgu = {k.rsplit(":", 1)[-1] for k in done_keys if k.count(":") >= 3}
-    queue = [t for t in topic_queue(products, cats, log=log)
+    rapor = {}
+    queue = [t for t in topic_queue(products, cats, log=log, rapor=rapor)
              if t["key"] not in done_keys and ym.slugify(t["title"]) not in have
              and t.get("sorgu_slug") not in done_sorgu and fails.get(t["key"], 0) < 2]
+    if rapor.get("benzer"):
+        print(f"! benzer başlık: {rapor['benzer']} konu kuyruğa alınmadı")
 
     if a.konu_listesi:
         print(f"Kuyrukta {len(queue)} konu. Sıradakiler:")

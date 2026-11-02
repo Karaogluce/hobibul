@@ -182,10 +182,10 @@ class AdilSiraTest(unittest.TestCase):
 
 
 class KuyrukTest(_GeciciMakaleler):
-    def kuyruk(self, products, pool=None, log=None):
+    def kuyruk(self, products, pool=None, log=None, rapor=None):
         with mock.patch.object(otomatik, "load_pool", return_value=copy.deepcopy(pool or [])):
             return otomatik.topic_queue(products, KATEGORILER, log=log or {},
-                                        articles_dir=self.articles)
+                                        articles_dir=self.articles, rapor=rapor)
 
     def test_konusuz_alt_kategori_kuyruga_girmez(self):
         sira = self.kuyruk(urunler(outdoor__cadir=3))
@@ -223,6 +223,33 @@ class KuyrukTest(_GeciciMakaleler):
         self.assertNotEqual(sira[0]["sub"], "_main")
         self.assertNotEqual(sira[1]["sub"], "_main")
         self.assertIn("_main", {k["sub"] for k in sira})
+
+    def test_yakin_nasil_basligi_ikinci_kez_kuyruga_girmez(self):
+        pool = [
+            havuz_kaydi("çadır nasıl kurulur", "outdoor", "cadir", tip="nasil_yapilir"),
+            havuz_kaydi("çadır nasıl sökülür", "outdoor", "cadir", tip="nasil_yapilir"),
+        ]
+        rapor = {}
+        sira = self.kuyruk(urunler(outdoor__cadir=3), pool=pool, rapor=rapor)
+        sorgular = [k.get("sorgu") for k in sira]
+        self.assertIn("çadır nasıl kurulur", sorgular)
+        self.assertNotIn("çadır nasıl sökülür", sorgular)
+        self.assertEqual(rapor["benzer"], 1)
+
+    def test_yayinlanmis_baslikla_benzer_konu_elenir(self):
+        metin = """---
+title: Çadır Nasıl Kurulur?
+category: outdoor
+subcategory: cadir
+---
+"""
+        with open(os.path.join(self.articles, "cadir-nasil-kurulur.md"), "w", encoding="utf-8") as f:
+            f.write(metin)
+        pool = [havuz_kaydi("çadır nasıl sökülür", "outdoor", "cadir", tip="nasil_yapilir")]
+        rapor = {}
+        sira = self.kuyruk(urunler(outdoor__cadir=3), pool=pool, rapor=rapor)
+        self.assertNotIn("çadır nasıl sökülür", [k.get("sorgu") for k in sira])
+        self.assertEqual(rapor["benzer"], 1)
 
     def test_kuyruk_deterministik(self):
         pool = [
