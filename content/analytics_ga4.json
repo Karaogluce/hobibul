@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-01",
+ "generated_at": "2026-11-02",
  "period_days": 30,
  "visitors_daily": [
   {
@@ -21,16 +21,20 @@
   {
    "date": "2026-11-01",
    "users": 1
+  },
+  {
+   "date": "2026-11-02",
+   "users": 1
   }
  ],
  "channels": [
   {
    "name": "Direct",
-   "sessions": 66
+   "sessions": 67
   },
   {
    "name": "Organic Search",
-   "sessions": 4
+   "sessions": 8
   },
   {
    "name": "Unassigned",
@@ -38,6 +42,12 @@
   }
  ],
  "top_pages": [
+  {
+   "path": "/makale/en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma/",
+   "slug": "en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma",
+   "title": "En İyi Kamp Çadırı Seçimi 2026: 2 ve 4 Kişilik Karşılaştırma",
+   "views": 4
+  },
   {
    "path": "/makale/en-iyi-lego-setleri-yetiskin-icin-bonsai-sukulent-ve-speed-champions/",
    "slug": "en-iyi-lego-setleri-yetiskin-icin-bonsai-sukulent-ve-speed-champions",
@@ -51,9 +61,9 @@
    "views": 3
   },
   {
-   "path": "/makale/en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma/",
-   "slug": "en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma",
-   "title": "En İyi Kamp Çadırı Seçimi 2026: 2 ve 4 Kişilik Karşılaştırma",
+   "path": "/makale/gitar-nasil-tutulur/",
+   "slug": "gitar-nasil-tutulur",
+   "title": "gitar-nasil-tutulur",
    "views": 3
   },
   {
@@ -66,6 +76,12 @@
    "path": "/makale/bonsai-baslangic-seti-ilk-alinacaklar-2026/",
    "slug": "bonsai-baslangic-seti-ilk-alinacaklar-2026",
    "title": "Bonsai Başlangıç Seti: İlk Alınacaklar (2026)",
+   "views": 2
+  },
+  {
+   "path": "/makale/dj-seti-adi/",
+   "slug": "dj-seti-adi",
+   "title": "Dj seti adı",
    "views": 2
   },
   {
@@ -85,18 +101,6 @@
    "slug": "oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech",
    "title": "Oyuncu Mouse ve Klavye Seti: Redragon Kumara ve Logitech G213",
    "views": 2
-  },
-  {
-   "path": "/makale/3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini/",
-   "slug": "3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini",
-   "title": "3D Yazıcı Alırken Nelere Bakmalı: Ender 3 V3 vs Bambu Lab A1 Mini",
-   "views": 1
-  },
-  {
-   "path": "/makale/bonsai-baslangic-seti-makas-tel-toprak-ve-gubre/",
-   "slug": "bonsai-baslangic-seti-makas-tel-toprak-ve-gubre",
-   "title": "Bonsai Başlangıç Seti: Makas, Tel, Toprak ve Gübre",
-   "views": 1
   }
  ]
 }
