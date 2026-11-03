@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-02",
+ "generated_at": "2026-11-03",
  "period_days": 30,
  "visitors_daily": [
   {
@@ -24,21 +24,25 @@
   },
   {
    "date": "2026-11-02",
+   "users": 2
+  },
+  {
+   "date": "2026-11-03",
    "users": 1
   }
  ],
  "channels": [
   {
    "name": "Direct",
-   "sessions": 67
+   "sessions": 68
   },
   {
    "name": "Organic Search",
-   "sessions": 8
+   "sessions": 14
   },
   {
    "name": "Unassigned",
-   "sessions": 3
+   "sessions": 1
   }
  ],
  "top_pages": [
@@ -73,9 +77,21 @@
    "views": 3
   },
   {
+   "path": "/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/",
+   "slug": "akvaryum-ekipmani-secimi-tank-filtre-isitici",
+   "title": "Akvaryum Ekipmanı Seçimi: Tank, Filtre, Isıtıcı ve Hava Pompası",
+   "views": 2
+  },
+  {
    "path": "/makale/bonsai-baslangic-seti-ilk-alinacaklar-2026/",
    "slug": "bonsai-baslangic-seti-ilk-alinacaklar-2026",
    "title": "Bonsai Başlangıç Seti: İlk Alınacaklar (2026)",
+   "views": 2
+  },
+  {
+   "path": "/makale/deri-isciligi-baslangic-seti-ilk-alinacaklar-2026/",
+   "slug": "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026",
+   "title": "Deri İşçiliği Başlangıç Seti: İlk Alınacaklar (2026)",
    "views": 2
   },
   {
@@ -88,18 +104,6 @@
    "path": "/makale/drone-secimi-yeni-baslayanlar-icin/",
    "slug": "drone-secimi-yeni-baslayanlar-icin",
    "title": "Drone Seçimi: Yeni Başlayanlar İçin Oyuncak Sınıfı ve DJI Ayrımı",
-   "views": 2
-  },
-  {
-   "path": "/makale/kedi-bakim-seti-tirmalama-firca-oyuncak-ve-tuvalet-duzeni/",
-   "slug": "kedi-bakim-seti-tirmalama-firca-oyuncak-ve-tuvalet-duzeni",
-   "title": "Kedi Bakım Seti: Tırmalama, Fırça, Oyuncak ve Tuvalet Düzeni",
-   "views": 2
-  },
-  {
-   "path": "/makale/oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech/",
-   "slug": "oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech",
-   "title": "Oyuncu Mouse ve Klavye Seti: Redragon Kumara ve Logitech G213",
    "views": 2
   }
  ]
