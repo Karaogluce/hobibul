@@ -21,7 +21,10 @@
   "sss:teknoloji:drone:drone-nasil-kullanilir",
   "kontrol_listesi:evcil-hayvan:akvaryum:akvaryum-balik-av-malzemeleri-ula-yorumlari",
   "sss:muzik:gitar:gitar-nasil-tutulur",
-  "sss:teknoloji:drone:drone-nasil-ucurulur"
+  "sss:teknoloji:drone:drone-nasil-ucurulur",
+  "nasil_yapilir:teknoloji:raspberry-pi-elektronik:raspberry-pi-ile-linux-ve-elektronik-uygulamalari",
+  "ticari:koleksiyon:lego-model:lego-model-ai",
+  "hatalar:muzik:gitar"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -42,7 +45,10 @@
   "TdRCj0kLY9w",
   "YZczhrvBD6o",
   "vH2vj_3_IeU",
-  "6w0NhcEXKns"
+  "6w0NhcEXKns",
+  "rZKdS0wI8Ks",
+  "S8bde3hkBR8",
+  "fWzqFbKe9Wo"
  ],
  "atlanan": [
   {
@@ -669,6 +675,26 @@
    "anahtar": "sss:bahce-bitki:bonsai:bonsai-bitkisi-nasil-cogalir",
    "neden": "yetersiz H2 bölümü",
    "tarih": "2026-11-01"
+  },
+  {
+   "anahtar": "sss:bahce-bitki:bonsai:bonsai-bitkisi-nasil-cogalir",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-03"
+  },
+  {
+   "anahtar": "ticari:muzik:dj-produksiyon:dj-seti-al",
+   "neden": "kısa (560 kelime, güvenlik tabanı 600)",
+   "tarih": "2026-11-03"
+  },
+  {
+   "anahtar": "sss:yemek-mutfak:kahve:barista-kahve-boykot-mu",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-03"
+  },
+  {
+   "anahtar": "sss:evcil-hayvan:akvaryum:akvaryum-balik-kokusu-nasil-giderilir",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-03"
   }
  ],
  "makaleler": [
@@ -766,6 +792,21 @@
    "anahtar": "sss:teknoloji:drone:drone-nasil-ucurulur",
    "tarih": "2026-11-02",
    "slug": "drone-nasil-ucurulur"
+  },
+  {
+   "anahtar": "nasil_yapilir:teknoloji:raspberry-pi-elektronik:raspberry-pi-ile-linux-ve-elektronik-uygulamalari",
+   "tarih": "2026-11-03",
+   "slug": "raspberry-pi-ile-linux-ve-elektronik-uygulamalari"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:lego-model:lego-model-ai",
+   "tarih": "2026-11-03",
+   "slug": "lego-model-ai"
+  },
+  {
+   "anahtar": "hatalar:muzik:gitar",
+   "tarih": "2026-11-03",
+   "slug": "gitar-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir"
   }
  ]
 }
