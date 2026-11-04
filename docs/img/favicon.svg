@@ -1,12 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64" role="img" aria-label="Hobi Bul">
   <defs>
-    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#16a34a"/>
-      <stop offset="1" stop-color="#0f766e"/>
+    <linearGradient id="hbfav" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#fb810a"/>
+      <stop offset="1" stop-color="#1163f7"/>
     </linearGradient>
   </defs>
-  <rect width="48" height="48" rx="12" fill="url(#g)"/>
-  <circle cx="24" cy="24" r="13" fill="none" stroke="#fff" stroke-width="2.5"/>
-  <circle cx="24" cy="24" r="6.5" fill="none" stroke="#fff" stroke-width="2.5"/>
-  <circle cx="24" cy="24" r="2.6" fill="#fff"/>
+  <rect width="64" height="64" rx="15" fill="url(#hbfav)"/>
+  <path fill="#fff" d="M32 12 L41.5 32 L32 52 L22.5 32 Z"/>
 </svg>

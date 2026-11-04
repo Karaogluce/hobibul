@@ -1,6 +1,7 @@
 /* Hobi Bul teması — her hobi kategorisi kendi rengini (--accent) taşır */
 :root{
-  --paper:#f6f7fb;--surface:#fff;--ink:#0f1222;--muted:#565c72;--line:#e1e4ee;--night:#0b0d1e;
+  --paper:#f6f7fb;--surface:#fff;--ink:#0f1222;--muted:#565c72;--line:#e1e4ee;
+  --night:#0F0F1A;--brand-1:#FE8500;--brand-2:#105BFF;--brand-soft:#F0F0F0;
   --accent:#16a34a;--accent-dark:#15803d;--on:#fff;
   --r-lg:20px;--r-md:14px;
   --display:"Bricolage Grotesque",ui-sans-serif,system-ui,sans-serif;
@@ -26,7 +27,7 @@ h1,h2,h3,h4{font-family:var(--display);line-height:1.12;letter-spacing:-.02em;ma
 /* ---- yüzen cam menü ---- */
 .site-header{position:sticky;top:0;z-index:50;padding:10px 12px;pointer-events:none}
 .home .site-header{margin-bottom:-72px}
-.pill{pointer-events:auto;max-width:1120px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:8px;padding:7px 8px 7px 14px;border-radius:999px;background:rgba(255,255,255,.84);-webkit-backdrop-filter:blur(16px) saturate(1.5);backdrop-filter:blur(16px) saturate(1.5);border:1px solid rgba(255,255,255,.65);box-shadow:0 8px 30px rgba(11,13,30,.16)}
+.pill{pointer-events:auto;max-width:1120px;margin:0 auto;display:flex;align-items:center;justify-content:space-between;gap:8px;padding:7px 8px 7px 14px;border-radius:999px;background:linear-gradient(104deg,color-mix(in srgb,var(--brand-1) 14%,rgba(255,255,255,.84)),rgba(255,255,255,.84) 38%,color-mix(in srgb,var(--brand-2) 12%,rgba(255,255,255,.84)));-webkit-backdrop-filter:blur(16px) saturate(1.5);backdrop-filter:blur(16px) saturate(1.5);border:1px solid rgba(255,255,255,.65);box-shadow:0 8px 30px rgba(11,13,30,.16)}
 .site-brand{display:flex;align-items:center;flex:none}
 .brand-logo{height:34px;width:auto}
 .nav{display:flex;align-items:center;gap:2px}
@@ -64,6 +65,8 @@ h1,h2,h3,h4{font-family:var(--display);line-height:1.12;letter-spacing:-.02em;ma
 /* ---- ana sayfa kahramanı: tüm kategori renklerinden doğan aurora ---- */
 .cine{position:relative;overflow:hidden;isolation:isolate;background:var(--night);color:#fff;padding:140px 0 48px;min-height:min(88svh,740px);display:flex;align-items:flex-end}
 .cine::before{content:"";position:absolute;inset:-25%;z-index:-1;background:
+  radial-gradient(30% 26% at 32% 66%,color-mix(in srgb,var(--brand-1) 52%,transparent),transparent 70%),
+  radial-gradient(28% 24% at 74% 28%,color-mix(in srgb,var(--brand-2) 44%,transparent),transparent 70%),
   radial-gradient(38% 34% at 14% 22%,rgba(22,163,74,.62),transparent 70%),
   radial-gradient(34% 30% at 86% 14%,rgba(124,58,237,.6),transparent 70%),
   radial-gradient(40% 34% at 76% 82%,rgba(37,99,235,.58),transparent 70%),
@@ -77,7 +80,7 @@ h1,h2,h3,h4{font-family:var(--display);line-height:1.12;letter-spacing:-.02em;ma
 .search{display:flex;gap:6px;max-width:560px;padding:6px;border-radius:999px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.3);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px)}
 .search input{flex:1;min-width:0;border:0;background:transparent;color:#fff;font:inherit;padding:12px 16px;outline:0}
 .search input::placeholder{color:rgba(255,255,255,.72)}
-.search button{border:0;border-radius:999px;background:#fff;color:var(--ink);font:700 1rem var(--display);padding:0 22px;cursor:pointer}
+.search button{border:0;border-radius:999px;background:var(--brand-2);color:#fff;font:700 1rem var(--display);padding:0 22px;cursor:pointer}
 .chips{display:flex;gap:8px;overflow-x:auto;scrollbar-width:none;margin-inline:-16px;padding:2px 16px 6px}
 .chips::-webkit-scrollbar{display:none}
 @media(min-width:900px){.chips{flex-wrap:wrap;overflow:visible;margin-inline:0;padding-inline:0}}
@@ -206,7 +209,7 @@ h1,h2,h3,h4{font-family:var(--display);line-height:1.12;letter-spacing:-.02em;ma
 .related h2{font-size:1.6rem}
 
 /* ---- alt bilgi ---- */
-.site-footer{margin-top:72px;background:var(--night);color:#cfd3e6;padding:52px 0 28px}
+.site-footer{margin-top:72px;background:linear-gradient(115deg,color-mix(in srgb,var(--brand-1) 10%,transparent),transparent 42%,color-mix(in srgb,var(--brand-2) 12%,transparent)),var(--night);color:#cfd3e6;padding:52px 0 28px}
 .footer-cols{display:grid;gap:32px;grid-template-columns:1fr}
 @media(min-width:760px){.footer-cols{grid-template-columns:1.1fr 1fr 1.2fr}}
 .site-footer h3{color:#fff;font-size:1.1rem}
@@ -299,7 +302,7 @@ h1,h2,h3,h4{font-family:var(--display);line-height:1.12;letter-spacing:-.02em;ma
 .quiz-opt{padding:14px 16px;border-radius:12px;border:1px solid var(--line);background:var(--paper);font:600 1rem var(--body);text-align:left;cursor:pointer;color:var(--ink)}
 .quiz-opt:hover{border-color:var(--accent);background:#fff}
 .quiz-results{display:grid;gap:10px;margin:0 0 18px}
-.quiz-result{padding:14px 16px;border-radius:12px;background:var(--accent-dark);color:#fff;text-decoration:none;font-weight:700}
+.quiz-result{padding:14px 16px;border-radius:12px;background:var(--brand-2);color:#fff;text-decoration:none;font-weight:700}
 .quiz-result:hover{filter:brightness(.92);color:#fff}
 .quiz-restart{padding:9px 16px;border-radius:999px;border:1px solid var(--line);background:none;color:var(--muted);font-weight:600;cursor:pointer}
 
