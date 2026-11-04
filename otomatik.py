@@ -129,6 +129,14 @@ TIPLER = {
              "'## Adım Adım Uygulama' altında her adımı ### başlık yaparak sırayla anlat → '## Yeni Başlayanların Sık Yaptığı Hatalar' → "
              "'## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma). Uygun adımlarda en az 2 üründen doğal biçimde link ver.",
     ),
+    "talep": dict(
+        hedef=1500, hepsi=False, taban=1500,
+        baslik=lambda s: s,
+        yapi="Giriş (aranan sorguyu ilk iki cümlede doğal Türkçeyle cevapla) → '## Ne Arıyor, Ne İşe Yarar?' → "
+             "'## Seçerken Nelere Bakmalı?' → '## Ürün Ürün Karşılaştırma' altında her ürün için ### başlık, artı, eksi ve kime uymaz → "
+             "'## Sık Yapılan Hatalar' → '## Sık Sorulan Sorular' (en az 4 soru, ### başlık) → kapanışta tek cümlelik net tavsiye "
+             "('Sonuç' başlığı kullanma). Kategori sayfasına bir iç link ve en az 2 aff:// ürün linki ver.",
+    ),
 }
 ESKI_TIPLER = ("rehber", "yeni_baslayan", "hatalar", "sss")
 TICARI_TIP = "ticari"
@@ -273,7 +281,8 @@ def bugun_uretilen_say(log, bugun):
         if tarih != bugun:
             continue
         anahtar = str(item.get("anahtar") or item.get("slug") or "").strip()
-        if not anahtar or anahtar in seen:
+        # Arama-talebi makaleleri günlük 3'lük tavana yazılmaz; kendi kotası vardır.
+        if not anahtar or anahtar.startswith("talep:") or anahtar in seen:
             continue
         seen.add(anahtar)
         n += 1
@@ -691,6 +700,11 @@ def kelime_hedef(tip):
     return TIPLER[tip]["hedef"]
 
 
+def _yayin_tabani(tip):
+    """Kapı alt sınırı. Arama-talebi dışında güvenlik tabanı değişmez."""
+    return int(TIPLER.get(tip, {}).get("taban") or GUVENLIK_TABANI)
+
+
 def _urun_bloku(prods):
     return "\n".join(
         f"- id: {p['id']}\n  ad: {p['name']}\n  marka: {p.get('brand','')}\n  açıklama: {p.get('desc','')}\n"
@@ -701,11 +715,26 @@ def _urun_bloku(prods):
 def build_prompt(t, prods, sugg, guide=""):
     cfg = TIPLER[t["tip"]]
     plist = _urun_bloku(prods)
-    hedef = kelime_hedef(t["tip"])
+    hedef = t.get("hedef") or kelime_hedef(t["tip"])
     sq = "\n".join(f"- {s}" for s in sugg) or "- (sorgu bulunamadı; konuyla ilgili doğal sorular kullan)"
     zorunlu = ("HER ÜRÜN için en az bir kez" if cfg["hepsi"] else "en az 2 ürün için")
     tablo_kurali = "Paket bölümündeki markdown tablo serbest; başka tablo yok." if t["tip"] == TICARI_TIP else "Tablo kullanma."
     alt_yol = f"/kategori/{t['cat']}/{t['sub']}/" if t.get("sub") and t["sub"] != "_main" else f"/kategori/{t['cat']}/"
+    if t["tip"] == "talep":
+        uzunluk = (
+            f"- En az {hedef} kelime yaz. Sorguyu ilk paragrafta doğal Türkçeyle cevapla; kelimeyi doldurmak için aynı öğüdü tekrarlama.\n"
+            "- En az 6 adet \"## \" bölümü yaz. Her ## bölümünde en az iki paragraf olsun.\n"
+            "- '## Sık Sorulan Sorular' altında en az 4 soru olsun; her soru ### başlık.\n"
+            f"- Kategoriye bir iç link ver: [{t['sub_name']}]({alt_yol})\n"
+            "- Başka bir rehber doğal düşüyorsa /makale/... iç linki de kullan.\n"
+            "- Her bölüm yeni bir ayrım taşısın: kime uyar, kime uymaz, hangi durumda hangi parça."
+        )
+    else:
+        uzunluk = (
+            f"- Yaklaşık {hedef} kelime yeterli. Konu tamamlandığında sırf kelime sayısını artırmak için uzatma; gereksiz genel bilgi, tekrar ve dolgu cümle yazma.\n"
+            "- En az 4 adet \"## \" bölümü yaz; her ## bölümünde en az iki paragraf olsun.\n"
+            "- Her bölümü somut bir durumdan aç. Gerekçeyi ürün verisine bağla. Aynı öğüdü yeni başlık altında tekrarlama."
+        )
     ticari_ek = ""
     if t["tip"] == TICARI_TIP:
         ticari_ek = f"""
@@ -726,9 +755,7 @@ KATEGORİ: {t['cat_name']} › {t['sub_name']}
 MAKALE TİPİ: {t['tip']}
 BEKLENEN YAPI: {cfg['yapi']}
 UZUNLUK VE YAPI (arama niyetine göre doğal yaz):
-- Yaklaşık {hedef} kelime yeterli. Konu tamamlandığında sırf kelime sayısını artırmak için uzatma; gereksiz genel bilgi, tekrar ve dolgu cümle yazma.
-- En az 4 adet "## " bölümü yaz; her ## bölümünde en az iki paragraf olsun.
-- Her bölümü somut bir durumdan aç. Gerekçeyi ürün verisine bağla. Aynı öğüdü yeni başlık altında tekrarlama.
+{uzunluk}
 
 İNSANLARIN GERÇEKTEN ARADIĞI SORGULAR (uygun olanları başlıklara ve SSS bölümüne doğal biçimde yedir; zorlama ya da tekrar yapma):
 {sq}
@@ -842,8 +869,9 @@ def stil_kontrol(body, banned):
 def gate(body, tip, prods, others, banned=()):
     cfg = TIPLER[tip]
     words = len(body.split())
-    if words < GUVENLIK_TABANI:
-        return f"kısa ({words} kelime, güvenlik tabanı {GUVENLIK_TABANI})"
+    taban = _yayin_tabani(tip)
+    if words < taban:
+        return f"kısa ({words} kelime, güvenlik tabanı {taban})"
     if len(re.findall(r"^## ", body, re.M)) < 4:
         return "yetersiz H2 bölümü"
     if not re.search(r"sık sorulan|sorular|\bsss\b", body, re.I):
@@ -1045,7 +1073,7 @@ def genisletme_gerekli(body, tip, finish_reason):
     """
     if (finish_reason or "") == "MAX_TOKENS":
         return True
-    return len((body or "").split()) < GUVENLIK_TABANI
+    return len((body or "").split()) < _yayin_tabani(tip)
 
 
 def _cumleler(text):
@@ -1156,7 +1184,7 @@ def uzat_taslak(body, t, prods, guide, key, models, model_idx, finish_reason, ha
         kalan -= 1
         once = len((body or "").split())
         etiket = "kesik" if reason == "MAX_TOKENS" else "kısa"
-        print(f"  {etiket} ({once} kelime, güvenlik tabanı {GUVENLIK_TABANI}); eksik bölümler tamamlanıyor")
+        print(f"  {etiket} ({once} kelime, güvenlik tabanı {_yayin_tabani(t['tip'])}); eksik bölümler tamamlanıyor")
         raw = _gemini(devam_prompt(body, t, prods, guide, reason), key, models, model_idx)
         reason = getattr(raw, "finish_reason", "") or ""
         ek = ym.validate(govde_ayikla(raw), prods)
@@ -1212,12 +1240,17 @@ def uret(t, products, key, models, model_idx, ukey, log, draft, tarih):
             print(
                 f"  taslak {len(body.split())} kelime, finish={reason or 'STOP'}"
                 f"{ym.dusunce_notu(getattr(raw, 'usage', None))}")
-        body = uzat_taslak(body, t, prods, guide, key, models, model_idx, reason)
+        hak = 4 if t.get("tip") == "talep" else DEVAM_HAKKI
+        body = uzat_taslak(body, t, prods, guide, key, models, model_idx, reason, hak=hak)
+        if t.get("tip") == "talep":
+            body = _talep_ic_link(body, t)
         if len(body.split()) < alt_sinir:
             why = gate(body, t["tip"], prods, others, banned)
             continue
-        edited_raw = _gemini(edit_prompt(body, prods, guide, alt_sinir), key, models, model_idx)
+        edited_raw = _gemini(edit_prompt(body, prods, guide, _yayin_tabani(t["tip"])), key, models, model_idx)
         edited = ym.validate(re.sub(r"^```(?:markdown)?\s*|\s*```$", "", edited_raw.strip()), prods)
+        if t.get("tip") == "talep":
+            edited = _talep_ic_link(edited, t)
         if len(edited.split()) >= 0.85 * len(body.split()):
             why = gate(edited, t["tip"], prods, others, banned)
             if not why:
@@ -1239,6 +1272,403 @@ def uret(t, products, key, models, model_idx, ukey, log, draft, tarih):
     makale_kaydi_ekle(log, t["key"], slug, tarih)
     save_log(log)
     return (slug, n, bool(img.get("url")), tarih), None
+
+
+# ------------------------------------------------------------------ arama talebi
+GSC_PATH = os.path.join(CONTENT, "analytics_gsc.json")
+GSC_SEED_PATH = os.path.join(CONTENT, "gsc_seed_queries.json")
+TALEP_HEDEF_VARSAYILAN = 2
+_TALEP_ARA_STOP = _JACCARD_STOP | {"hangi", "icin"}
+_NIYET_ON_EK = ("mark", "sec", "olc", "ideal", "alin", "malz", "gerek", "alet")
+_KOK_YAKIN = {
+    "cadir": {"kamp", "kampc"},
+    "kamp": {"cadir"},
+    "kampc": {"cadir"},
+    "spor": {"fitne"},
+    "fitne": {"spor"},
+    "robot": {"kodla"},
+    "kodla": {"robot"},
+    "yoga": {"pilat"},
+    "pilat": {"yoga"},
+}
+
+
+def gsc_hedef():
+    """Günlük arama-talebi kotası. GSC_HEDEF yoksa 2. Bozuk değerde varsayılan."""
+    raw = (os.environ.get("GSC_HEDEF") or "").strip()
+    if not raw:
+        return TALEP_HEDEF_VARSAYILAN
+    try:
+        return max(0, int(raw))
+    except ValueError:
+        return TALEP_HEDEF_VARSAYILAN
+
+
+def _kok5(word):
+    return word[:5] if len(word) >= 5 else word
+
+
+def _talep_govde(text):
+    out = []
+    for w in _baslik_kelimeleri(text):
+        if w in _TALEP_ARA_STOP:
+            continue
+        out.append(_kok5(w))
+    return out
+
+
+def _govde_kume(stems):
+    out = set(stems)
+    for s in list(out):
+        out |= _KOK_YAKIN.get(s, set())
+    return out
+
+
+def sorgular_yakin(a, b):
+    """İki arama sorgusu aynı yazıya gider mi? Yazım farkı ve ortak başlangıç dahil."""
+    ta, tb = _baslik_kelimeleri(a), _baslik_kelimeleri(b)
+    if not ta or not tb:
+        return False
+    if ta == tb:
+        return True
+    if _baslik_cakisiyor(ta, [tb]) or _baslik_cakisiyor(tb, [ta]):
+        return True
+    ga, gb = _talep_govde(a), _talep_govde(b)
+    if ga and ga == gb:
+        return True
+    if len(ga) >= 2 and len(gb) >= 2 and ga[:2] == gb[:2]:
+        return True
+    sa, sb = set(ga), set(gb)
+    if sa and sb and len(sa & sb) / len(sa | sb) >= 0.45:
+        return True
+    return False
+
+
+def makale_sorguyu_karsilar(sorgu, baslik, slug=""):
+    """Yayındaki başlık bu sorguyu zaten cevaplıyorsa yeni yazı açma."""
+    if sorgular_yakin(sorgu, baslik):
+        return True
+    if slug and sorgular_yakin(sorgu, slug.replace("-", " ")):
+        return True
+    q = _talep_govde(sorgu)
+    b = _talep_govde(f"{baslik} {slug.replace('-', ' ')}")
+    if not q or not b:
+        return False
+    bset = set(b)
+
+    def niyet(w):
+        return any(w.startswith(p) for p in _NIYET_ON_EK)
+
+    konu = [w for w in q if not niyet(w)]
+    if not konu:
+        konu = q
+    eslesen = [w for w in konu if w in bset]
+    kalan = [w for w in konu if w not in bset]
+    if len(eslesen) >= 2:
+        return True
+    return bool(eslesen) and not kalan
+
+
+def _tr_kelime(word):
+    if not word:
+        return word
+    ilk = {"i": "İ", "ı": "I"}.get(word[0], word[0].upper())
+    return ilk + word[1:]
+
+
+def talep_basligi(sorgu):
+    """Sorgunun doğal Türkçe H1'i. Kısa kalan sorguya seçim eki eklenir."""
+    s = re.sub(r"\s+", " ", str(sorgu or "")).strip().strip("?.!")
+    if not s:
+        return ""
+    baslik = " ".join(_tr_kelime(w) for w in s.split())
+    if re.search(r"\b(nasıl|nedir|hangi|nereden)\b", baslik, re.I) and not baslik.endswith("?"):
+        baslik += "?"
+    if baslik_bozuk(baslik):
+        ek = baslik.rstrip("?")
+        baslik = f"{ek}: Seçim Rehberi"
+    if baslik_bozuk(baslik):
+        return ""
+    return baslik
+
+
+def _json_oku(path):
+    if not path or not os.path.exists(path):
+        return None
+    try:
+        with open(path, encoding="utf-8") as f:
+            return json.load(f)
+    except (OSError, json.JSONDecodeError):
+        return None
+
+
+def talep_ham_sorgular(gsc_path=None, seed_path=None):
+    """GSC varsa gösterim, sonra tıklama. Yoksa tohum listesinin sırası."""
+    gsc_path = gsc_path if gsc_path is not None else GSC_PATH
+    seed_path = seed_path if seed_path is not None else GSC_SEED_PATH
+    data = _json_oku(gsc_path)
+    rows = []
+    if isinstance(data, dict) and data.get("ok") and data.get("queries"):
+        for i, row in enumerate(data["queries"]):
+            if not isinstance(row, dict):
+                continue
+            q = re.sub(r"\s+", " ", str(row.get("query") or "")).strip()
+            if not q:
+                continue
+            rows.append({
+                "query": q,
+                "impressions": int(row.get("impressions") or 0),
+                "clicks": int(row.get("clicks") or 0),
+                "sira": i,
+            })
+    if rows:
+        rows.sort(key=lambda r: (-r["impressions"], -r["clicks"], r["sira"]))
+        return rows, "gsc"
+    seed = _json_oku(seed_path) or {}
+    queries = seed.get("queries") if isinstance(seed, dict) else seed
+    out = []
+    for i, q in enumerate(queries or []):
+        text = q.get("query") if isinstance(q, dict) else q
+        text = re.sub(r"\s+", " ", str(text or "")).strip()
+        if text:
+            out.append({"query": text, "impressions": 0, "clicks": 0, "sira": i})
+    return out, "seed"
+
+
+def talep_kumeleri(rows):
+    """Yakın sorguları tek hedefte birleştir. Temsilci en yüksek taleplidir."""
+    kumeler = []
+    for row in rows:
+        hedef = None
+        for kume in kumeler:
+            if any(sorgular_yakin(row["query"], u) for u in kume["uyeler"]):
+                hedef = kume
+                break
+        if hedef:
+            hedef["uyeler"].append(row["query"])
+            hedef["impressions"] += row["impressions"]
+            hedef["clicks"] += row["clicks"]
+            if row["sira"] < hedef["sira"]:
+                hedef["sira"] = row["sira"]
+        else:
+            kumeler.append({
+                "sorgu": row["query"],
+                "uyeler": [row["query"]],
+                "impressions": row["impressions"],
+                "clicks": row["clicks"],
+                "sira": row["sira"],
+            })
+    kumeler.sort(key=lambda k: (-k["impressions"], -k["clicks"], k["sira"]))
+    return kumeler
+
+
+def _talep_anahtar(sorgu):
+    slug = ym.slugify(sorgu) or "sorgu"
+    return "talep:" + slug
+
+
+def _talep_kullanilan(log):
+    kullanilan = []
+    for item in log.get("talep") or []:
+        if not isinstance(item, dict):
+            continue
+        if item.get("durum") not in ("yazildi", "guclendir"):
+            continue
+        q = str(item.get("sorgu") or "").strip()
+        if q:
+            kullanilan.append(q)
+    for anahtar in done_anahtarlari(log):
+        if anahtar.startswith("talep:"):
+            kullanilan.append(anahtar.split(":", 1)[1].replace("-", " "))
+    return kullanilan
+
+
+def bugun_talep_say(log, bugun):
+    if not isinstance(bugun, str):
+        bugun = bugun.isoformat()
+    seen = set()
+    n = 0
+    for item in _tarihli_kayitlar(log):
+        if str(item.get("tarih") or "").strip() != bugun:
+            continue
+        anahtar = str(item.get("anahtar") or "").strip()
+        if not anahtar.startswith("talep:") or anahtar in seen:
+            continue
+        seen.add(anahtar)
+        n += 1
+    return n
+
+
+def talep_sec(rows, log, makaleler, adet):
+    """Bugün yazılacak kümeler ve 'mevcut makaleyi güçlendir' diye ayrılanlar."""
+    if adet <= 0:
+        return [], []
+    kullanilan = _talep_kullanilan(log)
+    basliklar = []
+    for m in makaleler or []:
+        for kaynak in (m.get("baslik"), str(m.get("slug") or "").replace("-", " ")):
+            kelime = _baslik_kelimeleri(kaynak)
+            if kelime:
+                basliklar.append(kelime)
+    secilen, guclendir = [], []
+    for kume in talep_kumeleri(rows):
+        if any(sorgular_yakin(kume["sorgu"], eski) for eski in kullanilan):
+            continue
+        if any(makale_sorguyu_karsilar(kume["sorgu"], m.get("baslik") or "", m.get("slug") or "")
+               for m in makaleler or []):
+            guclendir.append(kume["sorgu"])
+            kullanilan.append(kume["sorgu"])
+            continue
+        baslik = talep_basligi(kume["sorgu"])
+        if not baslik or not _kuyruk_basligi_uygun(baslik, basliklar):
+            if baslik:
+                guclendir.append(kume["sorgu"])
+                kullanilan.append(kume["sorgu"])
+            continue
+        kume = dict(kume)
+        kume["baslik"] = baslik
+        kume["anahtar"] = _talep_anahtar(kume["sorgu"])
+        secilen.append(kume)
+        kullanilan.append(kume["sorgu"])
+        basliklar.append(_baslik_kelimeleri(baslik))
+        if len(secilen) >= adet:
+            break
+    return secilen, guclendir
+
+
+def kategori_eslestir(sorgu, cats, products=None):
+    """Sorguya en yakın kategori / alt kategori. Ürün verilirse en az 2 doğrulanmış ürün şart."""
+    q = _govde_kume(_talep_govde(sorgu))
+    if not q:
+        return None
+    adaylar = []
+    for c in cats or []:
+        secenek = [("_main", c.get("name") or c.get("id") or "")]
+        for s in c.get("subcategories") or []:
+            secenek.append((s.get("id") or "", s.get("name") or ""))
+        for sid, name in secenek:
+            if not sid:
+                continue
+            blob = _govde_kume(_talep_govde(f"{name} {str(sid).replace('-', ' ')} {c.get('name') or ''}"))
+            skor = len(q & blob)
+            if skor < 1:
+                continue
+            ozel = 0 if sid == "_main" else 1
+            adaylar.append((skor, ozel, c.get("id"), sid, name or sid))
+    adaylar.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    for skor, _ozel, cat, sid, name in adaylar:
+        if products is not None:
+            plist = urun_denetim.alt_kategori_urunleri(products, cat, sid)
+            if len(plist) < 2:
+                continue
+        return cat, sid, name, skor
+    return None
+
+
+def _talep_ic_link(body, t):
+    if "/kategori/" in body or "/makale/" in body:
+        return body
+    if t.get("sub") and t["sub"] != "_main":
+        yol = f"/kategori/{t['cat']}/{t['sub']}/"
+    else:
+        yol = f"/kategori/{t['cat']}/"
+    ad = t.get("sub_name") or t.get("cat_name") or "kategori"
+    return body.rstrip() + f"\n\nSeçimi [{ad}]({yol}) sayfasındaki diğer rehberlerle birlikte düşün.\n"
+
+
+def _talep_kaydet(log, sorgu, durum, tarih, slug="", anahtar=""):
+    kayitlar = log.setdefault("talep", [])
+    anahtar = anahtar or _talep_anahtar(sorgu)
+    for item in kayitlar:
+        if isinstance(item, dict) and item.get("anahtar") == anahtar and item.get("durum") == durum:
+            return
+    kayitlar.append({
+        "sorgu": sorgu,
+        "anahtar": anahtar,
+        "durum": durum,
+        "tarih": tarih,
+        "slug": slug,
+    })
+
+
+def talep_uret(log, products, cats, articles_dir, key, models, model_idx, ukey, draft, tarih, yedek_acik):
+    """Düzenli akıştan sonra arama talebinden en fazla GSC_HEDEF yazı. Kota akışı bozmaz."""
+    hedef = gsc_hedef()
+    kalan = hedef - bugun_talep_say(log, tarih)
+    if kalan <= 0 or hedef <= 0:
+        print(f"Arama talebi: bugünün {hedef} yazısı tamam.")
+        return 0
+    rows, kaynak = talep_ham_sorgular()
+    makaleler = urun_denetim.makale_verileri(articles_dir)
+    secilen, guclendir = talep_sec(rows, log, makaleler, kalan)
+    for sorgu in guclendir:
+        _talep_kaydet(log, sorgu, "guclendir", tarih)
+        print(f"! mevcut makaleyi güçlendir: {sorgu}")
+    if guclendir:
+        save_log(log)
+    if not secilen:
+        print(f"Arama talebi ({kaynak}): yazılacak yeni sorgu kalmadı.")
+        return 0
+    print(f"Arama talebi ({kaynak}): {len(secilen)} sorgu denenecek.")
+    fails = {}
+    for x in log.get("atlanan") or []:
+        if isinstance(x, dict):
+            fails[x.get("anahtar")] = fails.get(x.get("anahtar"), 0) + 1
+    made = 0
+    for kume in secilen:
+        if made >= kalan:
+            break
+        if fails.get(kume["anahtar"], 0) >= 2:
+            continue
+        eslesen = kategori_eslestir(kume["sorgu"], cats, products)
+        if not eslesen:
+            print(f"  ! kategori yok, sonraki sorgu: {kume['sorgu']}")
+            continue
+        cat, sub, sub_name, _skor = eslesen
+        cat_name = next((c.get("name") for c in cats if c.get("id") == cat), cat)
+        plist = urun_denetim.alt_kategori_urunleri(products, cat, sub if sub != "_main" else "_main")
+        if len(plist) < 2:
+            print(f"  ! yeterli ürün yok, sonraki sorgu: {kume['sorgu']}")
+            continue
+        konu = {
+            "key": kume["anahtar"],
+            "tip": "talep",
+            "cat": cat,
+            "cat_name": cat_name,
+            "sub": sub,
+            "sub_name": sub_name,
+            "ids": [p["id"] for p in plist[:6]],
+            "title": kume["baslik"],
+            "sorgu": kume["sorgu"],
+            "hedef": 1500,
+            "kaynak": "talep",
+        }
+        print(f"→ [talep] {konu['title']}")
+        try:
+            res, why = uret(konu, products, key, models, model_idx, ukey, log, draft, tarih)
+        except ym.GeminiError as e:
+            save_log(log)
+            if isinstance(e, ym.GeminiQuotaError) or gecici_api_hatasi(e):
+                _kota_mesaji(e, yedek_acik, made) if isinstance(e, ym.GeminiQuotaError) else _gecici_mesaji(e, made)
+                print("Arama talebi kota/geçici hatada durdu. Düzenli makaleler diskte.")
+                return made
+            raise
+        if res:
+            slug, n, has_img, gun = res
+            _talep_kaydet(log, kume["sorgu"], "yazildi", gun, slug=slug, anahtar=kume["anahtar"])
+            for uye in kume["uyeler"]:
+                if uye == kume["sorgu"]:
+                    continue
+                _talep_kaydet(log, uye, "yazildi", gun, slug=slug, anahtar=_talep_anahtar(uye))
+            save_log(log)
+            made += 1
+            print(f"  ✓ {slug}  ({n} kelime, talep)")
+        else:
+            log.setdefault("atlanan", []).append({"anahtar": kume["anahtar"], "neden": why, "tarih": tarih})
+            save_log(log)
+            print(f"  ✗ atlandı: {why}")
+    print(f"Arama talebi bitti: {made} makale.")
+    return made
 
 
 def _kota_mesaji(exc, yedek_acik, made):
@@ -1278,8 +1708,8 @@ def main():
         a.adet, plan_mesaj = kosu_plani(a.adet, log, bugun)
         for satir in plan_mesaj:
             print(satir)
-        if a.adet <= 0:
-            return
+    else:
+        a.adet = 0
 
     products, cats = ym.load("products.json"), ym.load("categories.json")
     have = {fn[:-3] for fn in os.listdir(ARTICLES)} if os.path.isdir(ARTICLES) else set()
@@ -1297,10 +1727,23 @@ def main():
     if rapor.get("bozuk_baslik"):
         print(f"! bozuk başlık: {rapor['bozuk_baslik']} konu kuyruğa alınmadı")
 
+    talep_rows, talep_kaynak = talep_ham_sorgular()
+    talep_kalan = max(0, gsc_hedef() - bugun_talep_say(log, bugun))
+    talep_onizleme, talep_guclendir = talep_sec(
+        talep_rows, log, urun_denetim.makale_verileri(ARTICLES), talep_kalan)
+
     if a.konu_listesi:
         print(f"Kuyrukta {len(queue)} konu. Sıradakiler:")
         for t in queue[:12]:
             print(f"  [{t['tip']}] {t['title']}")
+        print(f"Arama talebi ({talep_kaynak}), bugün en fazla {talep_kalan}:")
+        for kume in talep_onizleme:
+            print(f"  [talep] {kume['baslik']}  ← {kume['sorgu']}")
+        for sorgu in talep_guclendir:
+            print(f"  ! mevcut makaleyi güçlendir: {sorgu}")
+        return
+
+    if a.adet <= 0 and talep_kalan <= 0:
         return
 
     draft_env = os.environ.get("TASLAK_MODU", "false").strip().lower() not in ("false", "0", "hayir", "hayır")
@@ -1318,10 +1761,22 @@ def main():
         print("Kalıcı ayar: GitHub variable GEMINI_MODEL_YEDEK=gemini-flash-lite-latest")
         print("Ana model zaten buysa AI Studio'daki güncel flash adını yedek olarak yaz.")
 
-    made, tried = 0, 0
+    made, kota = 0, False
     # Kalite kapısı eleyen taslakları atlayıp günlük hedefi tutturmak için konu payı.
+    if a.adet > 0:
+        made, kota = _duzenli_uret(
+            queue, a.adet, products, key, models, model_idx, ukey, log, draft, bugun, yedek_acik)
+    if talep_kalan > 0 and not kota:
+        talep_uret(
+            log, products, cats, ARTICLES, key, models, model_idx, ukey, draft, bugun, yedek_acik)
+    save_log(log)
+    print(f"Bitti: {made} düzenli makale ({'TASLAK — onay bekliyor' if draft else 'yayına hazır'}).")
+
+
+def _duzenli_uret(queue, adet, products, key, models, model_idx, ukey, log, draft, bugun, yedek_acik):
+    made, tried = 0, 0
     for t in queue:
-        if made >= a.adet or tried >= max(GUNLUK_HEDEF, a.adet * 4):
+        if made >= adet or tried >= max(GUNLUK_HEDEF, adet * 4):
             break
         tried += 1
         print(f"→ {t['title']}")
@@ -1331,10 +1786,10 @@ def main():
             save_log(log)
             if isinstance(e, ym.GeminiQuotaError):
                 _kota_mesaji(e, yedek_acik, made)
-                return
+                return made, True
             if gecici_api_hatasi(e):
                 _gecici_mesaji(e, made)
-                return
+                return made, True
             sys.exit(f"API hatası, durduruldu: {e}")
         if res:
             slug, n, has_img, tarih = res
@@ -1351,7 +1806,7 @@ def main():
             save_log(log)
             print(f"  ✗ atlandı: {why}")
     save_log(log)
-    print(f"Bitti: {made} makale ({'TASLAK — onay bekliyor' if draft else 'yayına hazır'}).")
+    return made, False
 
 
 if __name__ == "__main__":

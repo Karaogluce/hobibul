@@ -46,6 +46,8 @@ jobs:
           # Eksik GEMINI_API_KEY hâlâ kırmızı fail. Secret değeri buraya yazılmaz.
           GEMINI_MODEL_YEDEK: ${{ vars.GEMINI_MODEL_YEDEK || 'gemini-flash-lite-latest' }}
           TASLAK_MODU: ${{ vars.TASLAK_MODU || 'false' }}
+          # Düzenli 3 makaleden sonra arama talebi. Kota dolarsa bu akış düşer, düzenli yayın bozulmaz.
+          GSC_HEDEF: ${{ vars.GSC_HEDEF || '2' }}
         # Zamanlanmış çalıştırma girdi almaz; varsayılan 3. Gün doluysa betik hemen çıkar.
         # fetch/reset üretimi siler; bu yüzden makale ve site üretimi döngünün içindedir.
         run: |
