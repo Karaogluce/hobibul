@@ -4,7 +4,7 @@ slug: "bonsai-baslangic-seti-makas-tel-ve-toprak"
 category: "bahce-bitki"
 subcategory: "bonsai"
 date: "2026-10-28"
-updated: "2026-10-29"
+updated: "2026-11-04"
 meta_title: "Bonsai Başlangıç Seti: Makas, Tel, Toprak | Hobi Bul"
 meta_description: "Bonsai başlangıç seti: 10 parça alet, alüminyum tel, Compo toprak, ince makas ve Genta sıvı besin. Canlı ağaç LEGO değildir; ölçüye bak."
 excerpt: "Canlı bonsai için önce makas ve süzülen toprak. Tel, dal kalınlaşınca gelir. LEGO bonsai ayrı kutudur."
@@ -95,6 +95,12 @@ Eve yeni bir bonsai getirdiğinde hemen aynı gün makasa ve tele sarılma. Ağa
 Compo bonsai toprağı kullanıyorsan saksı tabağında biriken suyu mutlaka dök; tabakta su birikirse kökler havasız kalabilir. Genta sıvı besini ise doğrudan şişeden toprağa dökme; ambalajındaki sulandırma oranını ve uygulama aralığını izle. Gereğinden yoğun çözelti yaprak ve kök zararına yol açabilir.
 
 Aletlerinin ömrünü uzatmak için işin bittiğinde makasları nemli bırakma, çantayı da balkonda veya nemli bir dolapta saklama. Çelik aletleri kuru tutarsan uzun süre bileme derdi olmadan kullanabilirsin.
+
+## Saksı, Torf ve Tel
+
+Bahçe toprağı suyu tutar, kuruyunca da sertleşir. Torf bir kez kupkuru kalırsa tekrar suyu zor alır. Bonsai dar saksıda yaşadığı için suyun deliklerden süzüldüğü taneli karışım gerekir. Yaprak ucu kararıp dökülüyorsa bu çoğu zaman susuzluk değil, torfun kökü boğmasıdır; üstüne bir sulama daha ekleme.
+
+Saksı sığ olsun, tabanda geniş drenaj deliği bulunsun. Değişimden sonra ağacı birkaç hafta doğrudan güneşten koru. Teli, dal kalınlığının kabaca üçte biri kadar seç. Ağaç susuzken sarma. Form oturunca teli daldan çekerek açma; halka halka keserek çıkar, tomurcuğu koparma. Çiçekli türde tomurcuk döneminden önce sert budama yapma, o yılın çiçeğini kesmiş olursun.
 
 ## Sık Sorulan Sorular
 

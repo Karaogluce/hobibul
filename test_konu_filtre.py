@@ -27,6 +27,10 @@ class AkilKontroluTest(unittest.TestCase):
     def test_meta_sorgu_reddedilir(self):
         self.assertEqual(
             konu_kesfet.akil_kontrolu("dj seti adı", {"dj", "prodüksiyon"}), "meta")
+        self.assertEqual(
+            konu_kesfet.akil_kontrolu("lego model ai", {"lego", "model"}), "meta")
+        self.assertIsNone(
+            konu_kesfet.akil_kontrolu("aile ile kamp nasıl yapılır", {"kamp", "aile"}))
 
 
 if __name__ == "__main__":

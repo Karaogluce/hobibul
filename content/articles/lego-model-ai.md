@@ -1,13 +1,13 @@
 ---
-title: "Lego model ai"
+title: "LEGO Mini Bonsai, Sukulent ve Supra: Üç Masa Üstü Set"
 slug: "lego-model-ai"
 category: "koleksiyon"
 date: "2026-11-03"
-updated: "2026-11-03"
-meta_title: "Lego model ai | Hobi Bul"
-meta_description: "En iyi lego model ai setleri, koleksiyon önerileri ve koleksiyonunuza değer katacak parçalar için rehber. | Hobi Bul. Karşılaştırma yeni başlayan içindir."
-excerpt: "En iyi lego model ai setleri, koleksiyon önerileri ve koleksiyonunuza değer katacak parçalar için rehber. | Hobi Bul"
-focus_keyword: "lego model ai"
+updated: "2026-11-04"
+meta_title: "LEGO Mini Bonsai, Sukulent ve Supra | Hobi Bul"
+meta_description: "LEGO mini bonsai 10373, sukulent 10309 ve Supra 77260: masa üstü üç setin standı, yapım temposu ve kime uymadığı bu sayfada."
+excerpt: "Mini bonsai, sukulent ve Supra: üç masa üstü LEGO seti. Stand kutuda mı, araç oyuncak mı, kime uymaz."
+focus_keyword: "LEGO mini bonsai sukulent supra"
 image: "/img/makale/lego-model-ai.webp"
 image_alt: "a yellow background with small dots"
 image_credit: "JOSE LARRAZOLO"
@@ -26,7 +26,7 @@ Parça renklerinin çeşitliliği ve yapım kitapçığının sunduğu yönlendi
 
 ## Ürün Ürün Set Seçenekleri ve Lego En İyi Setler
 
-Koleksiyonunuza yeni bir soluk getirmek veya doğrudan [lego en iyi setler] arasından bir tercih yapmak istediğinizde karşınıza farklı zevklere hitap eden alternatifler çıkar. Hangi modelin masanıza veya rafınıza uyacağına karar verirken ürünlerin artılarını ve sınırlamalarını yakından incelemek faydalı olacaktır.
+Koleksiyonuna yeni bir soluk getirmek veya [yetişkin LEGO setleri](/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/) arasından daha geniş listeye bakmak istediğinde bonsai 10281, kiraz çiçekleri ve Zaman Makinesi de o yazıda duruyor. Bu sayfa yalnızca masada az yer kaplayan üç sete bakıyor. Speed Champions araçları halıda sürülecek oyuncak değil; jant ve yan grafik görünsün diye rafta hafif çapraz durunca daha net okunuyor. Yanına sukulent veya mini bonsai koymak vitrine organik bir hat ekliyor.
 
 ### LEGO Botanicals Mini Bonsai Ağaçları 10373
 Üç farklı minyatür ağacı tek kutuda buluşturan bu set; sarı yapraklı mabet ağacı, karaçam ve mor salkım gibi detaylarıyla dikkat çeker. Kutu içinden çıkan iki ayrı stand sayesinde bu ağaçları farklı şekillerde sergileyebilir ve yapraklarını dilediğiniz gibi karıştırabilirsiniz.

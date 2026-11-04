@@ -4,7 +4,7 @@ slug: "fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic"
 category: "sanat"
 subcategory: "fotografcilik"
 date: "2026-10-28"
-updated: "2026-10-29"
+updated: "2026-11-04"
 meta_title: "Fotoğraf Makinesi: Canon EOS R100 Başlangıç | Hobi Bul"
 meta_description: "Başlangıç fotoğraf makinesi: Canon EOS R100 kit, travel kit 24,1 MP APS-C ve Sony A7 III gövde. Lens kutuda mı, sayfada bak."
 excerpt: "İlk gövdeyi lensi kutuda olan APS-C kit ile al. Tam kare, lenssiz gövde olarak ayrı bir kapı."
@@ -92,6 +92,8 @@ Eğer havadan çekim yapmak istersen [Drone seçimi](/makale/drone-secimi-yeni-b
 ## Teknik detaylarda boğulmadan bilmen gerekenler
 
 Makineyi aldığında ISO'yu hemen en sona (25600) dayama. Bu sayı arttıkça fotoğrafta "kumlanma" dediğimiz o lekeler artar. Mümkün olduğunca taban değer olan 100 civarında kalmaya çalış. Wi-Fi üzerinden telefona görüntü aktarırken de makinenin 2,4 GHz bandını kullandığını unutma; eğer evdeki ağın sadece 5 GHz ise bağlantı sorunlarını kabloyla çözebilirsin.
+
+Telefon arka planı yazılımla bulanıklaştırır. R100'ün 24,1 MP APS-C sensörü aynı etkiyi lens diyaframıyla üretir ve zayıf ışıkta telefon sensöründen daha temiz kalır. Ham dosya için en pahalı bilgisayarı bekleme; başlangıçta birkaç düzine kareyi açıp ışık ve renk düzeltmek için sıradan bir dizüstü yeter.
 
 Hafıza kartını makinede silmeden önce mutlaka bilgisayara kopyala. Kartı formatlamak tüm emeklerini bir saniyede silebilir. Eğer video çekeceksen, 3,5 mm mikrofon girişi ileride işine yarayacak ama ilk haftadan mikrofon peşinde koşmana gerek yok; önce görüntüyü bir oturt.
 

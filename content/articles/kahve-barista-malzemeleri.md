@@ -1,12 +1,12 @@
 ---
-title: "Kahve barista malzemeleri"
+title: "Kahve Barista Malzemeleri: Öğütücü, V60 ve Hassas Tartı"
 slug: "kahve-barista-malzemeleri"
 category: "yemek-mutfak"
 date: "2026-11-01"
-updated: "2026-11-01"
-meta_title: "Kahve barista malzemeleri | Hobi Bul"
-meta_description: "Kahve barista malzemeleri ile evde nitelikli kahve demlemek için gereken ekipmanlar, kontrol listesi ve seçim rehberi Hobi Bul'da."
-excerpt: "Kahve barista malzemeleri ile evde nitelikli kahve demlemek için gereken ekipmanlar, kontrol listesi ve seçim rehberi Hobi Bul'da."
+updated: "2026-11-04"
+meta_title: "Kahve Barista Malzemeleri: Öğütücü ve V60 | Hobi Bul"
+meta_description: "Kahve barista malzemeleri: De'Longhi öğütücü, Hario V60, hassas tartı, filtre kağıdı ve ince uçlu su ısıtıcısı bir arada."
+excerpt: "Öğütücü, V60 ve tartı olmadan demleme her seferinde başka bir fincan olur. Filtre kağıdı ve ince uçlu kettle listeye eklenir."
 focus_keyword: "kahve barista malzemeleri"
 image: "/img/makale/kahve-barista-malzemeleri.webp"
 image_alt: "Coffee brewing equipment on a counter"
@@ -28,7 +28,7 @@ Sabahın erken saatlerinde hızlıca bir fincan hazırlamak istediğinde, tezgah
 
 - Elektrikli Öğütücü: Çekirdekleri demleme yöntemine uygun boyutta öğütmek ve kahve aromalarını taze tutmak için gereklidir.
 - Manuel Demleyici: Su ile kahvenin buluşma süresini kontrol ederek berrak bir içim elde etmek için gereklidir.
-- Hassas Tartı: Kahve ve su oranını gramaj bazında tutturarak her demlemede aynı lezzeti yakalamak için gereklidir.
+- Hassas Tartı: Kahve ve su oranını gramaj bazında tutturmak için [Satın Al: Zamanlayıcılı Kahve Tartısı](aff://zamanlayicili-kahve-tartisi) iş görür. Her demlemede aynı lezzeti bununla yakalarsın.
 - Su Isıtıcısı: Özellikle ince uçlu modeller, suya yön vererek kahve yatağının eşit şekilde demlenmesini sağlar.
 - Filtre Kağıdı: Elle demleme sırasında tortuların fincana geçmesini engellemek ve temiz bir gövde elde etmek için gereklidir.
 

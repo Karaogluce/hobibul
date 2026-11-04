@@ -3,7 +3,7 @@ title: "Akvaryum Ekipmanı Seçimi: Tank, Filtre, Isıtıcı ve Hava Pompası"
 slug: "akvaryum-ekipmani-secimi-tank-filtre-isitici"
 category: "evcil-hayvan"
 date: "2026-11-02"
-updated: "2026-11-02"
+updated: "2026-11-04"
 meta_title: "Akvaryum Ekipmanı Seçimi: Tank, Filtre, Isıtıcı | Hobi Bul"
 meta_description: "Akvaryum kurarken hangi tank, filtre, ısıtıcı ve hava pompasını seçmelisin? Oda ve canlı türüne göre karşılaştırmalı rehber."
 excerpt: "Akvaryum kurarken hangi tank, filtre, ısıtıcı ve hava pompasını seçmelisin? Oda ve canlı türüne göre karşılaştırmalı rehber."
@@ -46,6 +46,9 @@ Tropikal türler besleyeceksen suyun ısısını sabit tutmak hayati önem taş�
 - **Akvaryum Silikonu:** Kendi tankını yaparken ya da dekor sabitlerken suya zararlı kimyasal salınımı yapmayan yapıştırıcıdır.
 - **Taban Kumu:** Bitki köklerinin tutunmasını sağlar ve yararlı mikroorganizmalar için doğal bir zemin oluşturur.
 - **Su Düzenleyici:** Musluk suyundaki kloru bağlayarak suyu balıkların yaşamasına elverişli hale getirir.
+- **Kepçe:** Bakımda veya balık taşırken elle yakalamaktan daha az stres verir.
+- **Dip süpürgesi:** Kumun arasında biriken artığı su değişiminde çeker.
+- **Termometre:** Isıtıcının ayarını suyun içinden, dışarıdan kontrol etmeni sağlar.
 
 ## Tankı Kuracağın Odaya ve Canlı Türüne Göre Planlama
 

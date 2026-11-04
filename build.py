@@ -11,7 +11,6 @@ import os
 import re
 import shutil
 import html as html_mod
-import hashlib
 import struct
 import sys
 import zlib
@@ -885,6 +884,10 @@ def main():
     write_og_image(os.path.join(STATIC, "img", "og-default.png"))
     if os.path.isdir(STATIC):
         shutil.copytree(STATIC, SITE, dirs_exist_ok=True)
+    # Analitik paneli tahmin edilebilir bir yolda yayınlanmaz.
+    dash_js = os.path.join(SITE, "js", "dashboard.js")
+    if os.path.isfile(dash_js):
+        os.remove(dash_js)
     write_favicon(os.path.join(SITE, "favicon.ico"))
 
     # ---- home ----
@@ -999,25 +1002,14 @@ def main():
               f'<meta http-equiv="refresh" content="0;url={new}"><meta name="robots" content="noindex">'
               f'</head><body><a href="{new}">Devam et</a></body></html>')
 
-    # ---- dashboard ----
-    render("dashboard.html", os.path.join(SITE, "dashboard", "index.html"), {
-        "canonical_path": "/dashboard/",
-        "jsonld": "",
-        "articles_json": json.dumps(
-            [{"path": f"/makale/{a['slug']}/", "title": a["title"]} for a in articles],
-            ensure_ascii=False,
-        ),
-        "ga4_json": json.dumps(load_ga4(), ensure_ascii=False
-        ),
-    })
+    # Panel docs/ altına yazılmaz. Şablon ve kaynak JS repoda kalır;
+    # parola özeti de herkese açık config.js içine konmaz.
 
     # ---- config.js (analitik) ----
     an = site.get("analytics", {})
-    pw = site.get("dashboard_password", "") or ""
     cfg = {
         "supabaseUrl": an.get("supabase_url", ""),
         "supabaseAnonKey": an.get("supabase_anon_key", ""),
-        "dashboardHash": hashlib.sha256(pw.encode("utf-8")).hexdigest() if pw else "",
     }
     write(os.path.join(SITE, "js", "config.js"),
           "window.HOBIBUL_CONFIG = " + json.dumps(cfg, ensure_ascii=False) + ";\n")
@@ -1031,7 +1023,8 @@ def main():
         vals = [d for d in (lastmod(x.get("updated") or x.get("date")) for x in items) if d]
         return max(vals) if vals else None
 
-    urls = [("/", newest(articles)), ("/rehberler/", newest(articles))]
+    urls = [("/", newest(articles)), ("/rehberler/", newest(articles)),
+            ("/hangi-hobi/", newest(articles))]
     for page in info_pages:
         urls.append((page["path"], lastmod(page.get("updated"))))
     for cat in categories:
@@ -1092,7 +1085,7 @@ def main():
     print(f"✓ {n_cat} kategori sayfası")
     print(f"✓ {len(articles)} makale sayfası")
     print(f"✓ {len(info_pages)} bilgi sayfası")
-    print(f"✓ 1 ana sayfa + 1 dashboard + sitemap + robots + CNAME + 404"
+    print(f"✓ 1 ana sayfa + sitemap + robots + CNAME + 404"
           + (" + IndexNow anahtarı" if inkey else ""))
     sayi = site_denetim.denetle(SITE)
     print(f"✓ {sayi} bağlantı/görsel hedefi doğrulandı")
@@ -1104,6 +1097,24 @@ REDIRECTS = {
     "/makale/drone-nasil-ucurulur/": "/makale/drone-nasil-kullanilir/",
     "/makale/gitar-nasil-tutulur/": "/makale/gitar-nasil-calinir/",
     "/makale/akvaryum-balik-av-malzemeleri-ula-yorumlari/":
+        "/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/",
+    "/makale/en-iyi-lego-setleri-yetiskin-icin-bonsai-sukulent-ve-speed-champions/":
+        "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/",
+    "/makale/lego-model-araba/":
+        "/makale/lego-model-ai/",
+    "/makale/bonsai-baslangic-seti-makas-tel-toprak-ve-gubre/":
+        "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
+    "/makale/bonsai-baslangic-seti-ilk-alinacaklar-2026/":
+        "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
+    "/makale/fotograf-makinesi-secimi-yeni-baslayanlar-icin-canon-eos-r100/":
+        "/makale/fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic/",
+    "/makale/kedi-bakim-seti-tirmalama-firca-oyuncak-ve-tuvalet-duzeni/":
+        "/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/",
+    "/makale/dj-seti-baslangic/":
+        "/makale/dj-seti-adi/",
+    "/makale/dj-seti-nasil-kullanilir/":
+        "/makale/dj-seti-adi/",
+    "/makale/akvaryum-balik-malzemeleri/":
         "/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/",
 }
 

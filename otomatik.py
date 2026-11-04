@@ -131,13 +131,26 @@ TIPLER = {
     ),
 }
 ESKI_TIPLER = ("rehber", "yeni_baslayan", "hatalar", "sss")
-YENI_TIPLER = ("kontrol_listesi", "nasil_yapilir")
 TICARI_TIP = "ticari"
 
 # Aynı alt kategoride başlık düzeyinde yakın konu eşiği. Makale gövdesi
 # shingle kontrolünden ayrıdır; konu üretilmeden önce eler.
+# Kısa başlıklarda kelime Jaccard. Uzun şablonlar alt kategori adını
+# paylaştığı için birbirine bu eşikle kıyaslanmaz; onların çakışması
+# ilk üç kelimenin aynı olmasıyla yakalanır.
 BENZER_BASLIK_ESIK = 0.35
+BENZER_KISA_BASLIK = 6
+BENZER_KISA_KARSIT = 8
 TR_KUCUK = str.maketrans("ÇĞİÖŞÜI", "çğiöşüı")
+_ASCII = str.maketrans("çğıöşüı", "cgiosui")
+# Jaccard'da gürültü. "nasıl" ve "seti" durur; yoksa yakın nasıl soruları kaçardı.
+_JACCARD_STOP = {
+    "en", "iyi", "yeni", "ilk", "icin", "ile", "ve", "bir", "bu",
+    "rehber", "rehberi", "hakkinda", "baslayanlar", "alinacaklar",
+    "olan", "olarak", "daha", "cok", "gibi", "kadar",
+}
+# Otomatik tamamlamadan kalan bozuk başlıklar: sonda/ortada "adı", tek başına "ai".
+_BOZUK_ARTEFAKT = re.compile(r"(?:^|\s)(?:ai|ad[ıi]|ismi)(?:\s|$)", re.I)
 
 # Havuzdan ve otomatik tamamlama önerilerinden elenen sorgular.
 _JUNK_RE = re.compile(
@@ -351,23 +364,89 @@ def _havuz_uygun(e):
 
 
 def _baslik_kelimeleri(text):
-    low = str(text or "").translate(TR_KUCUK).lower()
-    return {w for w in re.findall(r"[a-z0-9çğıöşü]+", low) if len(w) > 1}
+    """Sıralı kelime listesi. Türkçe karakterler ve slug ASCII'si aynı gövdeye iner."""
+    low = str(text or "").translate(TR_KUCUK).lower().translate(_ASCII)
+    return [w for w in re.findall(r"[a-z0-9]+", low) if len(w) > 1]
 
 
 def _kelime_jaccard(a, b):
-    return len(a & b) / len(a | b) if a | b else 0.0
+    def sade(words):
+        return {w for w in words if w not in _JACCARD_STOP} or set(words)
+    sa, sb = sade(a), sade(b)
+    return len(sa & sb) / len(sa | sb) if sa | sb else 0.0
+
+
+def baslik_bozuk(title):
+    """Yayınlanmayacak başlık. Uygunsa None, değilse kısa neden.
+
+    Havuz sorgusu küçük harfle gelir; bu kontrol `dogal_baslik` sonrası
+    üretilmiş başlığa uygulanır. Küçük harfle başlayan, çok kısa ya da
+    otomatik tamamlama artığı ('ai', 'adı') başlıklar elenir.
+    """
+    s = re.sub(r"\s+", " ", str(title or "")).strip().strip("\"'")
+    if not s:
+        return "bos"
+    ilk = s[0]
+    if ilk.isalpha() and ilk == ilk.lower():
+        return "kucuk-harf"
+    if _BOZUK_ARTEFAKT.search(s.translate(TR_KUCUK).lower()):
+        return "artefakt"
+    kelimeler = re.findall(r"[A-Za-z0-9çğıöşüÇĞİÖŞÜâîûÂÎÛ]+", s)
+    if len(kelimeler) < 3 or len(s) < 12:
+        return "kisa"
+    return None
+
+
+def _baslik_cakisiyor(aday, mevcutlar):
+    """Aday başlık, yayındaki veya bu turda kabul edilmiş bir konuyla örtüşüyor mu?"""
+    if not aday:
+        return False
+    for diger in mevcutlar:
+        if not diger:
+            continue
+        if len(aday) >= 3 and len(diger) >= 3 and aday[:3] == list(diger)[:3]:
+            return True
+        # Kısa sorular (nasıl kurulur / nasıl sökülür). Uzun şablonlar
+        # alt kategori adını paylaştığı için bu kıyasa girmez.
+        if (len(aday) <= BENZER_KISA_BASLIK and len(diger) <= BENZER_KISA_KARSIT
+                and _kelime_jaccard(aday, diger) >= BENZER_BASLIK_ESIK):
+            return True
+    return False
+
+
+def _kuyruk_basligi_uygun(title, mevcutlar, rapor=None, etiket=""):
+    """Başlık kuyruğa girebilir mi? Giremezse rapora yazar ve False döner."""
+    neden = baslik_bozuk(title)
+    if neden:
+        if rapor is not None:
+            rapor["bozuk_baslik"] = rapor.get("bozuk_baslik", 0) + 1
+            ornek = rapor.setdefault("bozuk_ornek", [])
+            if len(ornek) < 20:
+                ornek.append(f"{etiket} ({neden})" if etiket else f"{title} ({neden})")
+        return False
+    kelimeler = _baslik_kelimeleri(title)
+    if _baslik_cakisiyor(kelimeler, mevcutlar):
+        if rapor is not None:
+            rapor["benzer"] = rapor.get("benzer", 0) + 1
+            ornek = rapor.setdefault("ornek", [])
+            if len(ornek) < 20:
+                ornek.append(etiket or title)
+        return False
+    return True
 
 
 def _makale_baslik_kumeleri(articles_dir=None):
-    """(kategori, alt kategori) -> yayınlanmış makale başlıklarının kelime kümeleri."""
+    """(kategori, alt kategori) -> yayınlanmış başlık ve slug kelime listeleri."""
     out = {}
     for m in urun_denetim.makale_verileri(articles_dir or ARTICLES):
         cat = str(m.get("kategori") or "").strip()
         sub = str(m.get("alt") or "").strip() or "_main"
-        kume = _baslik_kelimeleri(m.get("baslik"))
-        if cat and kume:
-            out.setdefault((cat, sub), []).append(kume)
+        if not cat:
+            continue
+        for kaynak in (m.get("baslik"), str(m.get("slug") or "").replace("-", " ")):
+            kume = _baslik_kelimeleri(kaynak)
+            if kume:
+                out.setdefault((cat, sub), []).append(kume)
     return out
 
 
@@ -381,8 +460,8 @@ def _urun_haritasi(products):
 def havuz_konulari(products, c, pool, used, basliklar=None, rapor=None):
     """Havuzdaki ticari olmayan konular. Ürün eşiği doğrulanmış ürünlerle sayılır.
 
-    `basliklar` aynı alt kategoride kuyrukta/yayında olan başlık kelime kümelerini
-    taşır; yeni nasıl/kontrol konuları bunlara çok yakınsa hiç kuyruğa girmez.
+    `basliklar` aynı alt kategoride kuyrukta/yayında olan başlık kelime listelerini
+    taşır. Yakın veya bozuk başlık kuyruğa girmez; üretim başka konuya kalır.
     """
     items = []
     basliklar = basliklar if basliklar is not None else {}
@@ -396,33 +475,23 @@ def havuz_konulari(products, c, pool, used, basliklar=None, rapor=None):
         sorgu = re.sub(r"\s+", " ", str(e.get("sorgu", ""))).strip()
         if not sorgu or cop_mu(sorgu):
             continue
-        title, kume = dogal_baslik(sorgu), None
+        title = dogal_baslik(sorgu)
         plist = urun_denetim.alt_kategori_urunleri(products, c["id"], sub)
         if len(plist) < _gerekli_urun(tip):
             continue
         sslug = ym.slugify(sorgu)
         if not sslug or sslug in used:
             continue
-        # "nasıl" soruları sınıflandırmada bazen sss olur; örnek çiftleri
-        # (drone nasıl kullanılır / uçurulur) yakalamak için onları da kapsa.
-        nasil_sorusu = tip == "sss" and bool(re.search(r"\bnasıl\b|\bnasil\b", sorgu.lower()))
-        if tip in YENI_TIPLER or nasil_sorusu:
-            kume = _baslik_kelimeleri(title)
-            if any(_kelime_jaccard(kume, k) >= BENZER_BASLIK_ESIK
-                   for k in basliklar.get(sub, ())):
-                if rapor is not None:
-                    rapor["benzer"] = rapor.get("benzer", 0) + 1
-                    ornek = rapor.setdefault("ornek", [])
-                    if len(ornek) < 20:
-                        ornek.append(f"{c['id']}/{sub}: {sorgu}")
-                continue
+        # Ticari olmayan her tip aynı elekten geçer. Yakın konu kuyruğa
+        # girmez; tur, başka alt kategorideki veya başka tipten konuya kalır.
+        if not _kuyruk_basligi_uygun(title, basliklar.get(sub, ()), rapor, f"{c['id']}/{sub}: {sorgu}"):
+            continue
         used.add(sslug)
         items.append(dict(
             key=f"{tip}:{c['id']}:{sub}:{sslug}", tip=tip, cat=c["id"], cat_name=c["name"],
             sub=sub, sub_name=subs[sub], ids=[p["id"] for p in plist],
             title=title, sorgu=sorgu, sorgu_slug=sslug, kaynak="havuz"))
-        if kume is not None:
-            basliklar.setdefault(sub, []).append(kume)
+        basliklar.setdefault(sub, []).append(_baslik_kelimeleri(title))
     return items
 
 
@@ -580,11 +649,15 @@ def topic_queue(products, cats, log=None, articles_dir=None, rapor=None):
                     title=TIPLER[tip]["baslik"](sname), kaynak="sablon"))
         basliklar = {sid: list(yayin_basliklari.get((c["id"], sid), ()))
                      for sid, _ in subs}
+        uygun = []
         for t in items:
             sub = t.get("sub")
-            if sub in basliklar:
-                basliklar[sub].append(_baslik_kelimeleri(t.get("title")))
-        items += havuz_konulari(products, c, pool, used, basliklar=basliklar, rapor=rapor)
+            etiket = f"{c['id']}/{sub}: {t.get('title')}"
+            if not _kuyruk_basligi_uygun(t.get("title"), basliklar.get(sub, ()), rapor, etiket):
+                continue
+            basliklar.setdefault(sub, []).append(_baslik_kelimeleri(t.get("title")))
+            uygun.append(t)
+        items = uygun + havuz_konulari(products, c, pool, used, basliklar=basliklar, rapor=rapor)
         yerliler = {}
         for t in sorted(items, key=lambda x: 0 if x.get("kaynak") == "havuz" else 1):
             yerliler.setdefault(t["sub"], []).append(t)
@@ -1220,7 +1293,9 @@ def main():
              if t["key"] not in done_keys and ym.slugify(t["title"]) not in have
              and t.get("sorgu_slug") not in done_sorgu and fails.get(t["key"], 0) < 2]
     if rapor.get("benzer"):
-        print(f"! benzer başlık: {rapor['benzer']} konu kuyruğa alınmadı")
+        print(f"! benzer başlık: {rapor['benzer']} konu kuyruğa alınmadı; sıra başka konuya geçti")
+    if rapor.get("bozuk_baslik"):
+        print(f"! bozuk başlık: {rapor['bozuk_baslik']} konu kuyruğa alınmadı")
 
     if a.konu_listesi:
         print(f"Kuyrukta {len(queue)} konu. Sıradakiler:")
