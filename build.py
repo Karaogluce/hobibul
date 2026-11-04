@@ -11,6 +11,7 @@ import os
 import re
 import shutil
 import html as html_mod
+import hashlib
 import struct
 import sys
 import zlib
@@ -884,10 +885,6 @@ def main():
     write_og_image(os.path.join(STATIC, "img", "og-default.png"))
     if os.path.isdir(STATIC):
         shutil.copytree(STATIC, SITE, dirs_exist_ok=True)
-    # Analitik paneli tahmin edilebilir bir yolda yayınlanmaz.
-    dash_js = os.path.join(SITE, "js", "dashboard.js")
-    if os.path.isfile(dash_js):
-        os.remove(dash_js)
     write_favicon(os.path.join(SITE, "favicon.ico"))
 
     # ---- home ----
@@ -1002,14 +999,26 @@ def main():
               f'<meta http-equiv="refresh" content="0;url={new}"><meta name="robots" content="noindex">'
               f'</head><body><a href="{new}">Devam et</a></body></html>')
 
-    # Panel docs/ altına yazılmaz. Şablon ve kaynak JS repoda kalır;
-    # parola özeti de herkese açık config.js içine konmaz.
+    # Panel: tahmin edilemeyen yol, noindex. Site haritası, menü ve robots
+    # bu yolu yazmaz. /dashboard/ disallow olarak kalır.
+    panel = dashboard_path()
+    render("dashboard.html", os.path.join(SITE, panel.strip("/"), "index.html"), {
+        "canonical_path": panel,
+        "jsonld": "",
+        "articles_json": json.dumps(
+            [{"path": f"/makale/{a['slug']}/", "title": a["title"]} for a in articles],
+            ensure_ascii=False,
+        ),
+        "ga4_json": json.dumps(load_ga4(), ensure_ascii=False),
+    })
 
     # ---- config.js (analitik) ----
     an = site.get("analytics", {})
+    pw = site.get("dashboard_password", "") or ""
     cfg = {
         "supabaseUrl": an.get("supabase_url", ""),
         "supabaseAnonKey": an.get("supabase_anon_key", ""),
+        "dashboardHash": hashlib.sha256(pw.encode("utf-8")).hexdigest() if pw else "",
     }
     write(os.path.join(SITE, "js", "config.js"),
           "window.HOBIBUL_CONFIG = " + json.dumps(cfg, ensure_ascii=False) + ";\n")
@@ -1085,7 +1094,7 @@ def main():
     print(f"✓ {n_cat} kategori sayfası")
     print(f"✓ {len(articles)} makale sayfası")
     print(f"✓ {len(info_pages)} bilgi sayfası")
-    print(f"✓ 1 ana sayfa + sitemap + robots + CNAME + 404"
+    print(f"✓ 1 ana sayfa + 1 panel + sitemap + robots + CNAME + 404"
           + (" + IndexNow anahtarı" if inkey else ""))
     sayi = site_denetim.denetle(SITE)
     print(f"✓ {sayi} bağlantı/görsel hedefi doğrulandı")
@@ -1125,6 +1134,14 @@ def load_starter_plans():
         with open(p, encoding="utf-8") as f:
             return json.load(f)
     return {}
+
+
+def dashboard_path():
+    """site.json'da bir kez yazılmış panel yolu. Her build'de yeniden üretilmez."""
+    path = (site.get("dashboard_path") or "").strip()
+    if not re.fullmatch(r"/panel-[0-9a-f]{16,}/", path):
+        sys.exit("content/site.json dashboard_path /panel-<16+ hex>/ biçiminde olmalı.")
+    return path
 
 
 def load_ga4():
