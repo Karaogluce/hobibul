@@ -509,6 +509,7 @@ def load_articles():
                 "starter_product": starter_pid,
                 "starter_url": affiliate_url(starter_prod) if starter_prod else "",
                 "starter_network": (starter_prod or {}).get("network", "amazon_tr"),
+                "hide_plan": str(meta.get("hide_plan", "")).lower() in ("true", "1", "evet"),
                 "body_html": render_markdown(body.strip()),
                 "word_count": len(body.split()),
             })
@@ -1005,7 +1006,7 @@ def main():
         render("article.html", os.path.join(SITE, "makale", a["slug"], "index.html"), {
             "canonical_path": f"/makale/{a['slug']}/",
             "article": a,
-            "starter_plan": starter_plans.get(a.get("category", "")),
+            "starter_plan": starter_plan_for(a, starter_plans),
             "related": related_for(a),
             "jsonld": jsonld(as_graph(
                 article_ld(a),
@@ -1192,6 +1193,17 @@ def planli_yer_tutucular(yayinda):
             '<a href="/">Ana sayfaya dön</a>.</p>'
             "</body></html>",
         )
+
+
+def starter_plan_for(article, plans):
+    """Alt kategori planı, yoksa kategori planı. Uymayan yazıda kutu gizlenir."""
+    if article.get("hide_plan"):
+        return None
+    sub = str(article.get("subcategory") or "").strip()
+    if sub and isinstance(plans.get(sub), dict):
+        return plans[sub]
+    plan = plans.get(article.get("category") or "")
+    return plan if isinstance(plan, dict) else None
 
 
 def load_starter_plans():

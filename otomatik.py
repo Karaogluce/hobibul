@@ -579,7 +579,36 @@ def _brief_prompt(t):
     ]
     if ham:
         satirlar.append("HAM BRİF:\n" + ham)
+    liste = _oyun_listesi_satiri(b)
+    if liste:
+        satirlar.append(liste)
     return "\n".join(satirlar) + "\n\n"
+
+
+def _oyun_listesi_satiri(brief):
+    """Kutu oyunu brifleri yalnızca doğrulanmış Türkiye listesini kullanır."""
+    rel = str((brief or {}).get("oyun_listesi") or "").strip()
+    if not rel:
+        return ""
+    path = rel if os.path.isabs(rel) else os.path.join(CONTENT, rel)
+    if not os.path.exists(path):
+        return ""
+    try:
+        with open(path, encoding="utf-8") as f:
+            data = json.load(f)
+    except (OSError, ValueError):
+        return ""
+    grup = str(brief.get("oyun_grup") or "").strip()
+    satirlar = [
+        "TÜRKİYE KUTU OYUNU LİSTESİ (bağlayıcı): yalnızca bu oyunlar. Kişi, süre ve yaş bu kayıttan. Listede olmayan oyunu yazma. Kesik cümle ve 'fiyat yok' tekrarı yok.",
+    ]
+    for g in data.get("oyunlar") or []:
+        if grup and grup not in (g.get("grup") or []):
+            continue
+        satirlar.append(
+            f"- {g.get('ad')} | kişi {g.get('oyuncu')} | süre {g.get('sure')} | yaş {g.get('yas')} | id {g.get('id')} | {g.get('ozet')}"
+        )
+    return "\n".join(satirlar)
 
 
 def havuz_konulari(products, c, pool, used, basliklar=None, rapor=None):
@@ -955,7 +984,7 @@ KESİN KURALLAR:
 2. Fiyat yazma. Gerekirse "güncel fiyatı Amazon'da kontrol et" de.
 3. Ürün linkini şu biçimde ver ({zorunlu}): [Satın Al: ÜRÜN ADI](aff://ÜRÜN_ID)
 4. Yalnızca Markdown. En üstte H1 yok. {tablo_kurali} ## ve ### başlıkları, nefes alan paragraflar ve gerektiğinde madde listesi kullan.
-5. Doğal, samimi, abartısız Türkçe. Konuşur gibi yaz: cümleler birbirine bağlansın. Cümleyi yapay biçimde kısaltma; 3-7 kelime zorunluluğu yok. "Mükemmel", "piyasa lideri", "kesinlikle", "garanti" gibi kanıtsız iddialar yok. Her paragraf bilgi taşısın, dolgu cümle yazma.
+5. Doğal, samimi, abartısız Türkçe. Konuşur gibi yaz: cümleler birbirine bağlansın, uzunlukları değişsin. Art arda tek yargı dizme. Aynı öğüdü yeni başlıkta tekrarlama. "Fiyat yok", "puan yok", "kapakta yazıyor", "bu yazı uzamaz" gibi meta cümle kurma; bilmediğin sayıyı yazma ve konuya dön. "Mükemmel", "piyasa lideri", "kesinlikle", "garanti" gibi kanıtsız iddialar yok.
 6. Başka sitelerden metin alma; kalıp cümleleri tekrarlama.
 7. Yabancı dilde paragraf yazma. İl adı, "nedir" tanımı veya "nasıl yazılır" konusu açma.
 8. AliExpress, Geekbuying, Wondershare, Trendyol veya Hepsiburada adresi yazma. Bu mağaza düğmeleri, kategori eşleşirse sayfaya build sırasında eklenir. Ürün linki yalnızca aff:// biçiminde olsun.

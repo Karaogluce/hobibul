@@ -3156,15 +3156,14 @@
         "id": "catan-kutu",
         "name": "Catan",
         "brand": "Catan Studio",
-        "desc": "Kaynak toplama ve yerleşme oyunu. Temel kutu 3 veya 4 kişi içindir.",
+        "desc": "Köy kurup kaynak takas eden oyun. Temel kutu 3-4 kişi. İki kişilik değildir. Neo Troy kaydı: 3-4 kişi, 30-60 dk, 10+.",
         "pros": [
-          "Takas masayı konuşturur",
-          "Kurallar bir akşamda oturur",
-          "Ek kutuyla kişi sayısı artar"
+          "3-4 kişi",
+          "Süre 30-60 dk"
         ],
         "cons": [
-          "Temel kutu 2 kişiye göre değildir",
-          "Zar, planı bozabilir"
+          "Temel kutu 3-4 kişi",
+          "İki kişilik akşama kurulmuyor"
         ],
         "query": "Catan kutu oyunu",
         "network": "amazon_tr"
@@ -3173,17 +3172,15 @@
         "id": "carcassonne-kutu",
         "name": "Carcassonne",
         "brand": "Z-Man Games",
-        "desc": "Fayans döşeyerek şehir, yol ve manastır kurulan oyun. Kutuda 2-5 kişi yazar.",
+        "desc": "Rastgele karoyu haritaya ekleyerek kale şehrini büyüten oyun. Neo Troy 3. baskıyı satıyor. Neo Troy kaydı: 2-5 kişi, 30-60 dk, 8+.",
         "pros": [
-          "İki kişiyle de kurulur",
-          "Turlar kısadır",
-          "Puan hesabı tahtanın üstünde görünür"
+          "2-5 kişi",
+          "Süre 30-60 dk"
         ],
         "cons": [
-          "Çok kişi olunca masa kalabalıklaşır",
-          "Kurallar sade, derinlik sınırlıdır"
+          "Yaş sınırı 8+"
         ],
-        "query": "Carcassonne board game",
+        "query": "Carcassonne kutu oyunu",
         "network": "amazon_tr"
       },
       {
@@ -3241,17 +3238,15 @@
         "id": "ticket-to-ride-europe",
         "name": "Ticket to Ride Europe",
         "brand": "Days of Wonder",
-        "desc": "Tren yolu bağlama oyunu. Avrupa haritası 2-5 kişi içindir.",
+        "desc": "20. yüzyıl başı Avrupa'sında tren yolu bağlama. Sayfa İstanbul'u da güzergâh olarak anıyor. Neo Troy kaydı: 2-5 kişi, 30-60 dk, 8+.",
         "pros": [
-          "İki kişiyle de kurulur",
-          "Hedef kartları gizlidir",
-          "Harita okuması sadedir"
+          "2-5 kişi",
+          "Süre 30-60 dk"
         ],
         "cons": [
-          "Masa geniş ister",
-          "Uzun partide dikkat dağılır"
+          "Yaş sınırı 8+"
         ],
-        "query": "Ticket to Ride Europe",
+        "query": "Ticket to Ride Europe kutu oyunu",
         "network": "amazon_tr"
       },
       {
@@ -3292,17 +3287,15 @@
         "id": "codenames-kutu",
         "name": "Codenames",
         "brand": "Czech Games Edition",
-        "desc": "İki takımın kelime ipucu verdiği parti oyunu.",
+        "desc": "İki takımın kod adıyla ajan bulduğu parti oyunu. Sayfa 45'ten fazla dilde yayınlandığını yazıyor. Neo Troy kaydı: 4-8+ kişi, 15 dk, 14+.",
         "pros": [
-          "Kalabalıkta herkes söz alır",
-          "Kurulum bir dakikadır",
-          "Tekrar oynanır"
+          "4-8+ kişi",
+          "Süre 15 dk"
         ],
         "cons": [
-          "İki kişiye göre değildir",
-          "Kelime bilgisi masayı böler"
+          "Yaş sınırı 14+"
         ],
-        "query": "Codenames board game",
+        "query": "Codenames kutu oyunu",
         "network": "amazon_tr"
       },
       {
@@ -3320,6 +3313,277 @@
           "Temel Catan'ın yerine geçmez"
         ],
         "query": "Catan Junior",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "sky-team",
+        "name": "Sky Team",
+        "brand": "",
+        "desc": "İki kişinin birlikte bir yolcu uçağını indirdiği oyun. Sayfa 2024 Spiel des Jahres ödülünü anıyor. Neo Troy kaydı: 2 kişi, 20 dk, 12+.",
+        "pros": [
+          "2 kişi",
+          "Süre 20 dk"
+        ],
+        "cons": [
+          "Yaş sınırı 12+",
+          "Üçüncü kişi bu kutuya oturamıyor"
+        ],
+        "query": "Sky Team kutu oyunu",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "codenames-duet",
+        "name": "Codenames Duet",
+        "brand": "",
+        "desc": "Codenames'in birlikte oynanan hali. Sayfa 2 kişiyle de kurulduğunu söylüyor; özellik satırı 2+. Neo Troy kaydı: 2+ kişi, 15 dk, 14+.",
+        "pros": [
+          "2+ kişi",
+          "Süre 15 dk"
+        ],
+        "cons": [
+          "Yaş sınırı 14+"
+        ],
+        "query": "Codenames Duet kutu oyunu",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "splendor",
+        "name": "Splendor",
+        "brand": "",
+        "desc": "Mücevher ticareti ve motor kurma. Sayfa 2014'ün en iyi kutu oyunu seçildiğini yazıyor. Neo Troy kaydı: 2-4 kişi, 30-60 dk, 10+.",
+        "pros": [
+          "2-4 kişi",
+          "Süre 30-60 dk"
+        ],
+        "cons": [
+          "Yaş sınırı 10+"
+        ],
+        "query": "Splendor kutu oyunu",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "cascadia",
+        "name": "Cascadia",
+        "brand": "",
+        "desc": "Habitat karoları ve hayvan pullarıyla ekosistem kurma. Tek kişi de oynanıyor. Neo Troy kaydı: 1-4 kişi, 30-60 dk, 10+.",
+        "pros": [
+          "1-4 kişi",
+          "Süre 30-60 dk"
+        ],
+        "cons": [
+          "Yaş sınırı 10+"
+        ],
+        "query": "Cascadia kutu oyunu",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "evvel-zaman",
+        "name": "Evvel Zaman",
+        "brand": "",
+        "desc": "Birlikte çözülen saat bulmacası. Sayfa 40 bulmacadan söz ediyor. Neo Troy kaydı: 2-4 kişi, 30 dk, 10+.",
+        "pros": [
+          "2-4 kişi",
+          "Süre 30 dk"
+        ],
+        "cons": [
+          "Yaş sınırı 10+"
+        ],
+        "query": "Evvel Zaman kutu oyunu",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "captain-flip",
+        "name": "Captain Flip",
+        "brand": "",
+        "desc": "Korsan tayfası seçilen kısa oyun. Karar bir kez veriliyor. Neo Troy kaydı: 2-5 kişi, 20 dk, 8+.",
+        "pros": [
+          "2-5 kişi",
+          "Süre 20 dk"
+        ],
+        "cons": [
+          "Yaş sınırı 8+"
+        ],
+        "query": "Captain Flip kutu oyunu",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "beste-bes",
+        "name": "Beşte Beş",
+        "brand": "",
+        "desc": "Taşındaki sayıyı yalnızca rakiplerin gördüğü hızlı çıkarım oyunu. Neo Troy kaydı: 2-4 kişi, 15 dk, 8+.",
+        "pros": [
+          "2-4 kişi",
+          "Süre 15 dk"
+        ],
+        "cons": [
+          "Yaş sınırı 8+"
+        ],
+        "query": "Beşte Beş kutu oyunu",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "pandemic",
+        "name": "Pandemic",
+        "brand": "",
+        "desc": "Dört salgını birlikte durdurmaya çalışan kooperatif oyun. Neo Troy kaydı: 2-4 kişi, 30-60 dk, 8+.",
+        "pros": [
+          "2-4 kişi",
+          "Süre 30-60 dk"
+        ],
+        "cons": [
+          "Yaş sınırı 8+"
+        ],
+        "query": "Pandemic kutu oyunu",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "machi-koro",
+        "name": "Machi Koro",
+        "brand": "",
+        "desc": "Şehir kurup rakibin zarından da gelir almaya çalışan oyun. Neo Troy kaydı: 2-4 kişi, 30-60 dk, 8+.",
+        "pros": [
+          "2-4 kişi",
+          "Süre 30-60 dk"
+        ],
+        "cons": [
+          "Yaş sınırı 8+"
+        ],
+        "query": "Machi Koro kutu oyunu",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "bi-paket-cips",
+        "name": "Bi' Paket Cips",
+        "brand": "",
+        "desc": "Cips pullarıyla hedef kartı tutturmaya çalışan tahmin ve risk oyunu. Neo Troy kaydı: 2-6 kişi, 15 dk, 8+.",
+        "pros": [
+          "2-6 kişi",
+          "Süre 15 dk"
+        ],
+        "cons": [
+          "Yaş sınırı 8+"
+        ],
+        "query": "Bi' Paket Cips kutu oyunu",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "hop",
+        "name": "Hop!",
+        "brand": "",
+        "desc": "Renk ve sayı eşine, doğru anda araya girilen kısa kart oyunu. Neo Troy kaydı: 2-7 kişi, 10 dk, 8+.",
+        "pros": [
+          "2-7 kişi",
+          "Süre 10 dk"
+        ],
+        "cons": [
+          "Yaş sınırı 8+"
+        ],
+        "query": "Hop! kutu oyunu",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "frekans",
+        "name": "Frekans",
+        "brand": "",
+        "desc": "İki takımın aynı ölçekte tahmin yürüttüğü sohbet oyunu. Neo Troy kaydı: 2-12+ kişi, 30-45 dk, 14+.",
+        "pros": [
+          "2-12+ kişi",
+          "Süre 30-45 dk"
+        ],
+        "cons": [
+          "Yaş sınırı 14+"
+        ],
+        "query": "Frekans kutu oyunu",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "bang",
+        "name": "BANG!",
+        "brand": "",
+        "desc": "Gizli rollü Vahşi Batı oyunu. Dörtten az kişiyle kurulmuyor. Neo Troy kaydı: 4-7 kişi, 30-60 dk, 10+.",
+        "pros": [
+          "4-7 kişi",
+          "Süre 30-60 dk"
+        ],
+        "cons": [
+          "Yaş sınırı 10+"
+        ],
+        "query": "BANG! kutu oyunu",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "munchkin",
+        "name": "Munchkin",
+        "brand": "",
+        "desc": "Zindanda canavar kesip birbirinin seviyesini bozan kart oyunu. Neo Troy kaydı: 3-6 kişi, 60-120 dk, 16+.",
+        "pros": [
+          "3-6 kişi",
+          "Süre 60-120 dk"
+        ],
+        "cons": [
+          "Yaş sınırı 16+"
+        ],
+        "query": "Munchkin kutu oyunu",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "7-wonders",
+        "name": "7 Wonders",
+        "brand": "",
+        "desc": "Yedi antik kentten birini yönetme. Sayfa, Türkçe lisansın Goblin Gaming'de olduğunu yazıyor. Neo Troy kaydı: 3-7 kişi, 30-60 dk, 14+.",
+        "pros": [
+          "3-7 kişi",
+          "Süre 30-60 dk"
+        ],
+        "cons": [
+          "Yaş sınırı 14+"
+        ],
+        "query": "7 Wonders kutu oyunu",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "wingspan",
+        "name": "Wingspan",
+        "brand": "",
+        "desc": "Kuş kartlarıyla koleksiyon ve motor kurma. Tek kişi de oynanıyor. Neo Troy kaydı: 1-5 kişi, 30-60 dk, 14+.",
+        "pros": [
+          "1-5 kişi",
+          "Süre 30-60 dk"
+        ],
+        "cons": [
+          "Yaş sınırı 14+"
+        ],
+        "query": "Wingspan kutu oyunu",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "heat-tam-gaz",
+        "name": "Heat: Tam Gaz",
+        "brand": "",
+        "desc": "1960'lar yarışında el yönetimi. Virajda hız, motoru hararet ettirebiliyor. Neo Troy kaydı: 1-6 kişi, 60 dk, 10+.",
+        "pros": [
+          "1-6 kişi",
+          "Süre 60 dk"
+        ],
+        "cons": [
+          "Yaş sınırı 10+"
+        ],
+        "query": "Heat: Tam Gaz kutu oyunu",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "terraforming-mars",
+        "name": "Terraforming Mars",
+        "brand": "",
+        "desc": "Şirket yönetip Mars'ı dönüştüren uzun strateji oyunu. Neo Troy kaydı: 1-5 kişi, 120-240 dk, 14+.",
+        "pros": [
+          "1-5 kişi",
+          "Süre 120-240 dk"
+        ],
+        "cons": [
+          "Yaş sınırı 14+"
+        ],
+        "query": "Terraforming Mars kutu oyunu",
         "network": "amazon_tr"
       }
     ],

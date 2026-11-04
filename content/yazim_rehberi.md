@@ -47,3 +47,10 @@ Bir hobiyi iyi bilen birinin, yakın arkadaşına anlatır gibi yaz. Doğrudan o
 - hayalinizdeki
 - sınırlarını zorla
 - bir çok
+
+## TEKRAR VE TELEGRAM ÜSLUBU
+- Art arda tek yargı dizme. "Kapakta 2 yazar. Üçüncü gelmez. Fiyat yok." gibi kesik cümleler yazma. Cümleler birbirine bağlansın; kimisi kısa, kimisi fikri taşıyacak kadar uzun olsun.
+- Aynı öğüdü yeni başlık altında tekrarlama. Bir gerçek bir kez, geçtiği yerde dursun.
+- Okura kendi yazım kuralını anlatma. "Fiyat burada yok", "puan yok", "bu yazı o sayının üstüne çıkmaz", "santim uydurulmaz" gibi cümleler kurma. Bilmediğin sayıyı yazma; yerine konuyu anlat.
+- Bölüm, önceki bölümün özeti olmasın. Yeni bir ayrım, örnek ya da tercih getirsin.
+- Karşılaştırma tablosu kullanacaksan sayıları uydurma. Kişi, süre ve yaş ancak ürün kaydında varsa yazılsın. Zorluk için 10 üzerinden puan verme; sayfanın anlattığı oyun türünü kısa yaz.
