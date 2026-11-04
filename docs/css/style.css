@@ -276,6 +276,14 @@ h1,h2,h3,h4{font-family:var(--display);line-height:1.12;letter-spacing:-.02em;ma
 .chart-card .carea{fill:rgba(37,99,235,.12);stroke:none}
 .chart-card .cdot{fill:#2563eb}
 .chart-card .cgrid{stroke:var(--border);stroke-width:1}
+.chart-card .cline-imp{fill:none;stroke:#16a34a;stroke-width:2.5}
+.chart-card .carea-imp{fill:rgba(22,163,74,.12);stroke:none}
+.chart-card .cdot-imp{fill:#16a34a}
+.chart-legend{display:flex;gap:16px;margin:0 0 8px;color:var(--muted);font-size:.85rem;font-weight:600}
+.chart-legend[hidden]{display:none}
+.lg-click::before,.lg-imp::before{content:"";display:inline-block;width:14px;height:3px;margin-right:6px;vertical-align:middle;border-radius:2px}
+.lg-click::before{background:#2563eb}
+.lg-imp::before{background:#16a34a}
 .chart-empty{color:var(--muted);font-size:.9rem;text-align:center;padding:60px 0}
 
 /* ---- Hangi Hobi Sana Uygun? (quiz) ---- */

@@ -6,7 +6,7 @@
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
 <meta name="robots" content="noindex, nofollow">
-<script>window.HOBIBUL_ARTICLES = {{ articles_json|safe }};window.HOBIBUL_GA4 = {{ ga4_json|safe }};</script>
+<script>window.HOBIBUL_ARTICLES = {{ articles_json|safe }};window.HOBIBUL_GA4 = {{ ga4_json|safe }};window.HOBIBUL_GSC = {{ gsc_json|safe }};</script>
 {% endblock %}
 {% block content %}
 <h1 class="page-title">📊 Analitik Paneli</h1>
@@ -36,6 +36,21 @@
     <div id="dash-channels" class="dash-table-wrap"></div>
   </section>
 
+  <div id="gsc-banner" class="dash-banner"></div>
+  <section>
+    <h2 class="section-title">Arama sorguları</h2>
+    <div id="gsc-queries" class="dash-table-wrap"></div>
+  </section>
+  <section>
+    <h2 class="section-title">En çok tıklanan sayfalar</h2>
+    <div id="gsc-pages" class="dash-table-wrap"></div>
+  </section>
+  <section>
+    <h2 class="section-title">Arama trendi (son 28 gün)</h2>
+    <p class="chart-legend" id="gsc-legend"><span class="lg-click">Tıklama</span><span class="lg-imp">Gösterim</span></p>
+    <div class="chart-card"><svg id="gsc-chart" viewBox="0 0 760 220" preserveAspectRatio="none" role="img" aria-label="Son 28 günde arama tıklaması ve gösterimi"></svg></div>
+  </section>
+
   <div id="site-banner" class="dash-banner"></div>
   <div class="stat-cards" id="stat-cards"></div>
 
@@ -49,4 +64,4 @@
   </section>
 </div>
 {% endblock %}
-{% block scripts %}<script src="/js/dashboard.js?v=4"></script>{% endblock %}
+{% block scripts %}<script src="/js/dashboard.js?v=5"></script>{% endblock %}

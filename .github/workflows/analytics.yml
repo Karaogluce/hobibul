@@ -1,4 +1,4 @@
-name: GA4 analitik güncelle
+name: Analitik güncelle
 
 on:
   schedule:
@@ -20,7 +20,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-      - run: pip install jinja2 google-analytics-data
+      - run: pip install jinja2 google-analytics-data google-auth requests
 
       - name: Commit ve yayınla
         env:
@@ -40,7 +40,7 @@ jobs:
               echo "Değişiklik yok"
               exit 0
             fi
-            git commit -m "GA4 analitik güncelleme $(date -u +%F)"
+            git commit -m "Analitik güncelleme $(date -u +%F)"
             if git push origin HEAD:main; then
               exit 0
             fi

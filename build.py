@@ -1010,6 +1010,7 @@ def main():
             ensure_ascii=False,
         ),
         "ga4_json": json.dumps(load_ga4(), ensure_ascii=False),
+        "gsc_json": json.dumps(load_gsc(), ensure_ascii=False),
     })
 
     # ---- config.js (analitik) ----
@@ -1146,6 +1147,14 @@ def dashboard_path():
 
 def load_ga4():
     p = os.path.join(CONTENT, "analytics_ga4.json")
+    if os.path.exists(p):
+        with open(p, encoding="utf-8") as f:
+            return json.load(f)
+    return None
+
+
+def load_gsc():
+    p = os.path.join(CONTENT, "analytics_gsc.json")
     if os.path.exists(p):
         with open(p, encoding="utf-8") as f:
             return json.load(f)
