@@ -223,8 +223,18 @@ Sıradaki konuları görmek için: `python otomatik.py --konu-listesi`
 ## GA4 analitik paneli
 
 `fetch_analytics.py` + `.github/workflows/analytics.yml`, GA4'ten günlük veriyi **sunucu
-tarafında** (GitHub Actions) çekip `content/analytics_ga4.json`'a yazar; panel bu dosyayı okur.
-Servis hesabı anahtarı hiçbir zaman tarayıcıya/koda konmaz. Kurulum adımları aşağıda. Panel bu dosyayı okur; adresi sitede linklenmez.
+tarafında** (GitHub Actions) çekip `content/analytics_ga4.json`'a yazar; aynı kimlikle
+Search Console `searchAnalytics.query` sonucunu `content/analytics_gsc.json`'a yazar.
+Panel ikisini de okur. Servis hesabı anahtarı hiçbir zaman tarayıcıya/koda konmaz.
+Kurulum adımları aşağıda. Panel adresi sitede linklenmez.
+
+Search Console için aynı `GA4_SERVICE_ACCOUNT_JSON` anahtarı kullanılır
+(`webmasters.readonly` kapsamı script içindedir). Search Console → Ayarlar →
+Kullanıcılar ve izinler ekranına, bu JSON'daki `client_email` adresini kullanıcı
+olarak ekle. `content/site.json` → `gsc_property`: `auto` (önce
+`sc-domain:hobibul.com.tr`, olmazsa `https://hobibul.com.tr/`), ya da bu iki
+değerden biri. API izin vermezse iş kırmızı olmaz; panelde "Search Console verisi
+henüz yok" görünür, GA4 dosyası yine yazılır.
 
 Secrets (GitHub → Settings → Secrets and variables → Actions):
 - `GA4_PROPERTY_ID` — GA4 mülk numarası (örn. 123456789)

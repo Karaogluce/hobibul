@@ -15,12 +15,18 @@
   var articles = window.HOBIBUL_ARTICLES || [];
 
   var ga4 = window.HOBIBUL_GA4 || null;
+  var gsc = window.HOBIBUL_GSC || null;
 
   var banner = document.getElementById("site-banner");
   var ga4Banner = document.getElementById("ga4-banner");
   var heroCards = document.getElementById("hero-cards");
   var chartEl = document.getElementById("visitors-chart");
   var chanWrap = document.getElementById("dash-channels");
+  var gscBanner = document.getElementById("gsc-banner");
+  var gscQueries = document.getElementById("gsc-queries");
+  var gscPages = document.getElementById("gsc-pages");
+  var gscChart = document.getElementById("gsc-chart");
+  var gscLegend = document.getElementById("gsc-legend");
   var statCards = document.getElementById("stat-cards");
   var artWrap = document.getElementById("dash-articles");
   var prodWrap = document.getElementById("dash-products");
@@ -74,6 +80,102 @@
       : '<p class="chart-empty">Henüz veri yok.</p>';
 
     return { totalVisitors: totalVisitors, topChannel: channels[0] || null, topPage: (ga4.top_pages || [])[0] || null };
+  }
+
+  function gscReady(data) {
+    if (!data || data.ok === false) return false;
+    if ((data.queries || []).length || (data.pages || []).length) return true;
+    return (data.daily || []).some(function (d) {
+      return (d.clicks || 0) + (d.impressions || 0) > 0;
+    });
+  }
+
+  function pct(ratio) {
+    return (Number(ratio || 0) * 100).toLocaleString("tr-TR", { minimumFractionDigits: 1, maximumFractionDigits: 1 }) + "%";
+  }
+
+  function pos(n) {
+    return Number(n || 0).toLocaleString("tr-TR", { minimumFractionDigits: 1, maximumFractionDigits: 1 });
+  }
+
+  function pageLabel(url) {
+    var s = String(url || "");
+    var host = "https://hobibul.com.tr";
+    if (s.indexOf(host) === 0) return s.slice(host.length) || "/";
+    return s;
+  }
+
+  function renderGSC() {
+    if (!gscBanner) return;
+    if (!gscReady(gsc)) {
+      gscBanner.className = "dash-banner demo";
+      gscBanner.textContent = "Search Console verisi henüz yok";
+      if (gscQueries) gscQueries.innerHTML = "";
+      if (gscPages) gscPages.innerHTML = "";
+      if (gscLegend) gscLegend.hidden = true;
+      if (gscChart) gscChart.innerHTML = "";
+      return;
+    }
+    gscBanner.className = "dash-banner live";
+    gscBanner.textContent = "Search Console — son güncelleme: " + (gsc.generated_at || "?") +
+      " (son " + (gsc.period_days || 28) + " gün)";
+    if (gscLegend) gscLegend.hidden = false;
+    var queries = (gsc.queries || []).slice();
+    gscQueries.innerHTML = queries.length
+      ? '<table><thead><tr><th>Sorgu</th><th>Tıklama</th><th>Gösterim</th><th>CTR</th><th>Ort. sıra</th></tr></thead><tbody>' +
+        queries.map(function (q) {
+          return "<tr><td>" + esc(q.query) + "</td><td>" + fmt(q.clicks) + "</td><td>" + fmt(q.impressions) +
+            "</td><td>" + pct(q.ctr) + "</td><td>" + pos(q.position) + "</td></tr>";
+        }).join("") + "</tbody></table>"
+      : '<p class="chart-empty">Search Console verisi henüz yok</p>';
+    var pages = (gsc.pages || []).slice();
+    gscPages.innerHTML = pages.length
+      ? '<table><thead><tr><th>Sayfa</th><th>Tıklama</th><th>Gösterim</th><th>CTR</th><th>Ort. sıra</th></tr></thead><tbody>' +
+        pages.map(function (p) {
+          return "<tr><td>" + esc(pageLabel(p.page)) + "</td><td>" + fmt(p.clicks) + "</td><td>" +
+            fmt(p.impressions) + "</td><td>" + pct(p.ctr) + "</td><td>" + pos(p.position) + "</td></tr>";
+        }).join("") + "</tbody></table>"
+      : '<p class="chart-empty">Search Console verisi henüz yok</p>';
+    drawDual(gscChart, gsc.daily || []);
+  }
+
+  function points(days, key, max, w, h, pad) {
+    var step = (w - pad * 2) / Math.max(1, days.length - 1);
+    return days.map(function (d, i) {
+      var x = pad + i * step;
+      var y = h - pad - ((d[key] || 0) / max) * (h - pad * 2);
+      return [x, y];
+    });
+  }
+
+  function pathOf(pts) {
+    return pts.map(function (p, i) { return (i ? "L" : "M") + p[0].toFixed(1) + "," + p[1].toFixed(1); }).join(" ");
+  }
+
+  function drawDual(el, days) {
+    if (!el) return;
+    if (!days.length) { el.innerHTML = ""; return; }
+    var w = 760, h = 220, pad = 28;
+    var maxC = Math.max.apply(null, days.map(function (d) { return d.clicks || 0; }).concat([1]));
+    var maxI = Math.max.apply(null, days.map(function (d) { return d.impressions || 0; }).concat([1]));
+    var clicks = points(days, "clicks", maxC, w, h, pad);
+    var imps = points(days, "impressions", maxI, w, h, pad);
+    var lineI = pathOf(imps);
+    var areaI = lineI + " L" + imps[imps.length - 1][0].toFixed(1) + "," + (h - pad) +
+      " L" + imps[0][0].toFixed(1) + "," + (h - pad) + " Z";
+    var lineC = pathOf(clicks);
+    var grid = [0.25, 0.5, 0.75].map(function (f) {
+      var y = pad + f * (h - pad * 2);
+      return '<line class="cgrid" x1="' + pad + '" x2="' + (w - pad) + '" y1="' + y + '" y2="' + y + '"/>';
+    }).join("");
+    var dotsI = imps.map(function (p) {
+      return '<circle class="cdot-imp" cx="' + p[0].toFixed(1) + '" cy="' + p[1].toFixed(1) + '" r="2.5"/>';
+    }).join("");
+    var dotsC = clicks.map(function (p) {
+      return '<circle class="cdot" cx="' + p[0].toFixed(1) + '" cy="' + p[1].toFixed(1) + '" r="2.5"/>';
+    }).join("");
+    el.innerHTML = grid + '<path class="carea-imp" d="' + areaI + '"/><path class="cline-imp" d="' + lineI + '"/>' +
+      dotsI + '<path class="cline" d="' + lineC + '"/>' + dotsC;
   }
 
   function drawChart(days) {
@@ -143,6 +245,7 @@
     }).join("") : '<tr><td colspan="2">Henüz tıklama kaydı yok.</td></tr>';
     prodWrap.innerHTML = '<table><thead><tr><th>Ürün</th><th>Tıklama</th></tr></thead><tbody>' + prows + '</tbody></table>';
 
+    renderGSC();
     var ga4Info = renderGA4();
     var topArticle = artRows[0] && artRows[0].views > 0 ? artRows[0] : null;
     var topProduct = prods[0] || null;
