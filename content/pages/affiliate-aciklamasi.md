@@ -5,7 +5,7 @@ nav: "Affiliate Açıklaması"
 order: 80
 meta_title: "Affiliate Açıklaması | Hobi Bul"
 meta_description: "Hobi Bul ortaklık açıklaması: Amazon Associates, Admitad, Gelir Ortakları ile Trendyol ve Hepsiburada, ileride Google AdSense."
-updated: "2026-10-29"
+updated: "2026-11-04"
 ---
 
 Bu sitedeki bazı bağlantılar satış ortaklığı bağlantısıdır. Linke tıklayıp alışveriş yaparsan ödediğin fiyat değişmez. Satıcı veya ağ, satıştan Hobi Bul’a küçük bir komisyon yazabilir. Komisyon, ürünün listede olup olmamasını tek başına belirlemez. Önce yeni başlayana uyup uymadığına bakarız. Uymayan tarafını da yazarız. Nasıl yazıldığı [editör sayfasında](/yazar/hobi-bul-editor/).
@@ -18,7 +18,7 @@ Amazon.com.tr üzerindeki satın alma bağlantılarında Amazon Associates etike
 
 ## Admitad
 
-Bazı konularda AliExpress ve Geekbuying aramasına giden düğmeler Admitad deeplink’idir. Tıklayınca önce Admitad yönlendirmesinden geçersin, sonra mağazanın arama sayfasına düşersin. Admitad bu yönlendirmeyi komisyon kaydı için işaretleyebilir. Her rehberde bu düğme yoktur; yalnızca o konu için düğme konmuşsa vardır.
+Bazı konularda AliExpress ve Geekbuying aramasına giden düğmeler Admitad deeplink’idir. Tıklayınca önce Admitad yönlendirmesinden geçersin, sonra mağazanın arama sayfasına düşersin. Video, fotoğraf, drone, vlog ve DJ set kaydı konularında Wondershare düğmesi de Admitad deeplink’idir. O düğme Filmora ürün sayfasına gider. Vlog sayfasında buna UniConverter de eklenir. PDF konusu yoksa PDFelement düğmesi konmaz. Admitad bu yönlendirmeyi komisyon kaydı için işaretleyebilir. Her rehberde bu düğme yoktur; yalnızca o konu için düğme konmuşsa vardır.
 
 ## Gelir Ortakları, Trendyol ve Hepsiburada
 

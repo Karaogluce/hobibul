@@ -31,5 +31,15 @@ style="--accent:{{ m.c1 }};--accent-dark:{{ m.c2 }}"
     {%- endfor %}
   </div>
 </aside>
+{%- endif %}
+{%- if block and block.offers %}
+<aside class="shop-ctas shop-offer">
+  <p>{{ block.offers[0].lead }}</p>
+  <div class="shop-cta-row">
+    {%- for c in block.offers %}
+    <a class="btn-aff{% if not loop.first %} secondary{% endif %}" href="{{ c.href }}" data-aff-link="{{ c.track_id }}" data-network="{{ c.network }}" target="_blank" rel="sponsored nofollow noopener">{{ c.label }}</a>
+    {%- endfor %}
+  </div>
+</aside>
 {%- endif -%}
 {%- endmacro %}

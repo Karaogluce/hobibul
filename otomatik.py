@@ -880,6 +880,24 @@ def _urun_bloku(prods):
         + (f"\n  yazarın notu: {p['not']}" if p.get('not') else "") for p in prods)
 
 
+def _wondershare_kural(t):
+    """Eşleşen konuda model, Filmora adresini yazmasın; düğme build'de gelir."""
+    sub = t.get("sub") if t.get("sub") not in (None, "", "_main") else ""
+    try:
+        blok = deeplink.shop_ctas_for(t.get("cat"), sub)
+    except Exception:
+        return ""
+    offers = blok.get("offers") or []
+    if not offers:
+        return ""
+    adlar = ", ".join(o["label"] for o in offers)
+    return (
+        f"9. Bu konuya build sırasında şu düğme eklenir: {adlar}. "
+        "wondershare.com, Admitad veya kjuzv.com adresi yazma. "
+        "Filmora video düzenleme aracıdır; drone, fotoğraf makinesi veya DJ kontrol cihazının yerine koyma.\n"
+    )
+
+
 def build_prompt(t, prods, sugg, guide=""):
     cfg = TIPLER[t["tip"]]
     plist = _urun_bloku(prods)
@@ -903,6 +921,7 @@ def build_prompt(t, prods, sugg, guide=""):
             "- En az 4 adet \"## \" bölümü yaz; her ## bölümünde en az iki paragraf olsun.\n"
             "- Her bölümü somut bir durumdan aç. Gerekçeyi ürün verisine bağla. Aynı öğüdü yeni başlık altında tekrarlama."
         )
+    ws_kural = _wondershare_kural(t)
     ticari_ek = ""
     if t["tip"] == TICARI_TIP:
         ticari_ek = f"""
@@ -939,8 +958,8 @@ KESİN KURALLAR:
 5. Doğal, samimi, abartısız Türkçe. Konuşur gibi yaz: cümleler birbirine bağlansın. Cümleyi yapay biçimde kısaltma; 3-7 kelime zorunluluğu yok. "Mükemmel", "piyasa lideri", "kesinlikle", "garanti" gibi kanıtsız iddialar yok. Her paragraf bilgi taşısın, dolgu cümle yazma.
 6. Başka sitelerden metin alma; kalıp cümleleri tekrarlama.
 7. Yabancı dilde paragraf yazma. İl adı, "nedir" tanımı veya "nasıl yazılır" konusu açma.
-8. AliExpress, Geekbuying, Trendyol veya Hepsiburada adresi yazma. Bu mağaza düğmeleri, kategori eşleşirse sayfaya build sırasında eklenir. Ürün linki yalnızca aff:// biçiminde olsun.
-{ticari_ek}
+8. AliExpress, Geekbuying, Wondershare, Trendyol veya Hepsiburada adresi yazma. Bu mağaza düğmeleri, kategori eşleşirse sayfaya build sırasında eklenir. Ürün linki yalnızca aff:// biçiminde olsun.
+{ws_kural}{ticari_ek}
 YAZIM REHBERİ (bunu uygula; okuyucuya bir insanın konuşur gibi yazdığı gelsin, ama kimseyi yanıltma):
 {guide}
 
@@ -2169,8 +2188,9 @@ def _duzenli_uret(queue, adet, products, key, models, model_idx, ukey, log, draf
             print(f"  ✓ {slug}  ({n} kelime, {'taslak' if draft else 'yayın'}, görsel: {'Unsplash' if has_img else 'kategori'})")
             sub = "" if t.get("sub") in (None, "", "_main") else t["sub"]
             ctas = deeplink.shop_ctas_for(t["cat"], sub)
-            if ctas["links"]:
-                print("  ✓ mağaza CTA: " + ", ".join(c["label"] for c in ctas["links"]))
+            dugmeler = list(ctas["links"]) + list(ctas.get("offers") or [])
+            if dugmeler:
+                print("  ✓ mağaza CTA: " + ", ".join(c["label"] for c in dugmeler))
         else:
             log["atlanan"].append({"anahtar": t["key"], "neden": why, "tarih": bugun})
             save_log(log)
