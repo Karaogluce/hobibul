@@ -466,6 +466,122 @@ def _urun_haritasi(products):
         sys.exit(f"Ürün verisi hatası: {e}")
 
 
+BRIEFS_PATH = os.path.join(CONTENT, "briefs", "kuyruk.json")
+_BRIEF_CACHE = None
+
+
+def load_brief_index():
+    """Slug -> yazar brifi. Dosya yoksa boş döner; üretim brifsiz de çalışır."""
+    global _BRIEF_CACHE
+    if _BRIEF_CACHE is not None:
+        return _BRIEF_CACHE
+    idx = {}
+    if os.path.exists(BRIEFS_PATH):
+        try:
+            with open(BRIEFS_PATH, encoding="utf-8") as f:
+                data = json.load(f)
+        except (OSError, ValueError):
+            data = []
+        if isinstance(data, list):
+            for b in data:
+                if isinstance(b, dict) and b.get("slug"):
+                    idx[str(b["slug"])] = b
+    _BRIEF_CACHE = idx
+    return idx
+
+
+def _brief_kaydi(e):
+    """Havuz kaydının üstüne content/briefs/kuyruk.json alanlarını yazar."""
+    if not isinstance(e, dict):
+        return e or {}
+    key = str(e.get("brief") or e.get("slug") or "").strip()
+    b = load_brief_index().get(key) if key else None
+    if not b:
+        return e
+    out = dict(e)
+    for alan in (
+        "h1", "slug", "meta_title", "meta_description", "oncelik", "yasak",
+        "zorunlu_linkler", "terimler", "brief_dosya", "brief_baslik", "focus_keyword",
+    ):
+        if b.get(alan) not in (None, "", []):
+            out[alan] = b[alan]
+    if not out.get("brief"):
+        out["brief"] = b.get("slug")
+    if b.get("urunler") and not out.get("urunler"):
+        out["urunler"] = b["urunler"]
+    return out
+
+
+def _konu_ekleri(kayit, e):
+    if isinstance(e.get("oncelik"), int):
+        kayit["oncelik"] = e["oncelik"]
+    if e.get("brief"):
+        kayit["brief"] = e["brief"]
+    slug = str(e.get("slug") or "").strip()
+    if slug:
+        kayit["slug"] = slug
+    for alan in ("meta_title", "meta_description", "yasak", "zorunlu_linkler", "terimler", "focus_keyword"):
+        if e.get(alan):
+            kayit[alan] = e[alan]
+    return kayit
+
+
+def _brief_metni(b):
+    dosya = str((b or {}).get("brief_dosya") or "").strip()
+    if not dosya:
+        return ""
+    path = dosya if os.path.isabs(dosya) else os.path.join(CONTENT, "briefs", dosya)
+    if not os.path.exists(path):
+        return ""
+    with open(path, encoding="utf-8") as f:
+        text = f.read()
+    bas = str(b.get("brief_baslik") or "").strip()
+    if not bas:
+        return text.strip()
+    i = text.find(bas)
+    if i < 0:
+        return ""
+    rest = text[i:]
+    nxt = rest.find("\n# Brief #", 8)
+    return (rest if nxt < 0 else rest[:nxt]).strip()
+
+
+def _brief_prompt(t):
+    key = str(t.get("brief") or "").strip()
+    b = load_brief_index().get(key) if key else None
+    if not b and not key:
+        return ""
+    b = b or {}
+    terimler = t.get("terimler") or b.get("terimler") or []
+    yasak = t.get("yasak") or b.get("yasak") or []
+    linkler = t.get("zorunlu_linkler") or b.get("zorunlu_linkler") or []
+    if isinstance(terimler, str):
+        terimler = [terimler]
+    if isinstance(yasak, str):
+        yasak = [yasak]
+    if isinstance(linkler, str):
+        linkler = [linkler]
+    ham = _brief_metni(b)
+    satirlar = [
+        "YAZAR BRİFİ (bu konu için bağlayıcıdır; tip şablonuyla çelişirse brif kazanır):",
+        f"- H1 olarak şu başlık kullanılacak, gövdede H1 yazma: {t.get('title') or b.get('h1') or ''}",
+        f"- Slug sabit: {t.get('slug') or b.get('slug') or ''}. Başlıktan başka slug üretme. URL'ye yıl ekleme.",
+        f"- Meta title: {t.get('meta_title') or b.get('meta_title') or ''}",
+        f"- Meta description: {t.get('meta_description') or b.get('meta_description') or ''}",
+        "- Hedef terimler: " + "; ".join(str(x) for x in terimler),
+        "- Yasak: " + ("; ".join(str(x) for x in yasak) if yasak else "(yok)"),
+        "- Zorunlu iç linkler (doğal cümlede, tam yol): " + (", ".join(str(x) for x in linkler) if linkler else "(yok)"),
+        "- Her ana bölümün hemen altında, soruya 40-60 kelimelik doğrudan cevabı `> ` ile başlayan tek satır olarak yaz.",
+        "- SSS başlığı birebir `## Sıkça Sorulan Sorular` olsun. Tip şablonundaki 'Sık Sorulan Sorular' ifadesini bununla değiştir.",
+        "- Her SSS sorusu `**soru**` biçiminde olsun; altında cevap paragrafı gelsin. Soruyu ### başlık yapma.",
+        "- Brifteki H2/H3 planını izle. Brifteki AEO kısa cevaplarını kendi cümlelerinle yaz; rakip metin kopyalama.",
+        "- Brif ham metninde fiyat, puan, stok veya uydurma ölçü geçse bile yazma.",
+    ]
+    if ham:
+        satirlar.append("HAM BRİF:\n" + ham)
+    return "\n".join(satirlar) + "\n\n"
+
+
 def havuz_konulari(products, c, pool, used, basliklar=None, rapor=None):
     """Havuzdaki ticari olmayan konular. Ürün eşiği doğrulanmış ürünlerle sayılır.
 
@@ -478,17 +594,19 @@ def havuz_konulari(products, c, pool, used, basliklar=None, rapor=None):
     for e in pool:
         if not _havuz_uygun(e):
             continue
+        e = _brief_kaydi(e)
         tip, sub = e.get("tip_onerisi"), e.get("alt")
         if tip not in TIPLER or tip == TICARI_TIP or e.get("kategori") != c["id"] or sub not in subs:
             continue
         sorgu = re.sub(r"\s+", " ", str(e.get("sorgu", ""))).strip()
-        if not sorgu or cop_mu(sorgu):
+        gevsek = isinstance(e.get("oncelik"), int) or bool(e.get("brief"))
+        if not sorgu or (not gevsek and cop_mu(sorgu)):
             continue
-        title = dogal_baslik(sorgu)
-        plist = urun_denetim.alt_kategori_urunleri(products, c["id"], sub)
+        title = str(e.get("h1") or "").strip() or dogal_baslik(sorgu)
+        plist = _plist_for_entry(products, c["id"], sub, e, tip)
         if len(plist) < _gerekli_urun(tip):
             continue
-        sslug = ym.slugify(sorgu)
+        sslug = str(e.get("slug") or "").strip() or ym.slugify(sorgu)
         if not sslug or sslug in used:
             continue
         # Ticari olmayan her tip aynı elekten geçer. Yakın konu kuyruğa
@@ -496,12 +614,35 @@ def havuz_konulari(products, c, pool, used, basliklar=None, rapor=None):
         if not _kuyruk_basligi_uygun(title, basliklar.get(sub, ()), rapor, f"{c['id']}/{sub}: {sorgu}"):
             continue
         used.add(sslug)
-        items.append(dict(
+        sorgu_slug = ym.slugify(sorgu)
+        if sorgu_slug:
+            used.add(sorgu_slug)
+        kayit = dict(
             key=f"{tip}:{c['id']}:{sub}:{sslug}", tip=tip, cat=c["id"], cat_name=c["name"],
             sub=sub, sub_name=subs[sub], ids=[p["id"] for p in plist],
-            title=title, sorgu=sorgu, sorgu_slug=sslug, kaynak="havuz"))
+            title=title, sorgu=sorgu, sorgu_slug=sorgu_slug or sslug, kaynak="havuz")
+        _konu_ekleri(kayit, e)
+        items.append(kayit)
         basliklar.setdefault(sub, []).append(_baslik_kelimeleri(title))
     return items
+
+
+def _gecerli_urunler(products, ids):
+    """Öncelikli konuda ASIN'i olmayan ama arama linki kurulabilen ürünler."""
+    try:
+        harita = _urun_haritasi(products)
+    except SystemExit:
+        return []
+    gorulen, out = set(), []
+    for rid in ids:
+        rid = str(rid).strip()
+        if not rid or rid in gorulen:
+            continue
+        rec = harita.get(rid)
+        if rec is not None and urun_denetim.gecerli_mi(rec):
+            gorulen.add(rid)
+            out.append(rec)
+    return out
 
 
 def _urun_bul(products, ids):
@@ -519,25 +660,49 @@ def _urun_bul(products, ids):
     return out
 
 
+def _plist_for_entry(products, cat_id, sub, e, tip):
+    """Brifli konuda listelenen ürünler; ASIN yoksa arama linki kurulabilen kayıt yeter."""
+    wanted = [str(x).strip() for x in (e.get("urunler") or []) if str(x).strip()]
+    gevsek = isinstance(e.get("oncelik"), int) or bool(e.get("brief"))
+    if wanted:
+        plist = _urun_bul(products, wanted)
+        if gevsek and len(plist) < _gerekli_urun(tip):
+            plist = _gecerli_urunler(products, wanted)
+        return plist
+    return urun_denetim.alt_kategori_urunleri(products, cat_id, sub)
+
+
 def ticari_konulari(products, c, pool, used):
     """Havuzdaki ticari niyetli konular, sonra her alt kategori için başlangıç seti."""
     items = []
     subs = {s["id"]: s["name"] for s in c["subcategories"]}
 
-    def ekle(tip_key, sub, sub_name, plist, title, sorgu, kaynak):
-        sslug = ym.slugify(sorgu or title)
-        if not sslug or sslug in used or cop_mu(sorgu or title):
+    def ekle(tip_key, sub, sub_name, plist, title, sorgu, kaynak, e=None):
+        e = e or {}
+        gevsek = isinstance(e.get("oncelik"), int) or bool(e.get("brief"))
+        if not gevsek and cop_mu(sorgu or title):
+            return
+        sslug = str(e.get("slug") or "").strip() or ym.slugify(sorgu or title)
+        if not sslug or sslug in used:
             return
         if len(plist) < _gerekli_urun(TICARI_TIP):
             return
         used.add(sslug)
-        items.append(dict(
+        sorgu_slug = ym.slugify(sorgu or title)
+        if sorgu_slug:
+            used.add(sorgu_slug)
+        kayit = dict(
             key=tip_key, tip=TICARI_TIP, cat=c["id"], cat_name=c["name"],
             sub=sub, sub_name=sub_name, ids=[p["id"] for p in plist],
-            title=title, sorgu=sorgu, sorgu_slug=sslug, kaynak=kaynak))
+            title=title, sorgu=sorgu, sorgu_slug=sorgu_slug or sslug, kaynak=kaynak)
+        _konu_ekleri(kayit, e)
+        items.append(kayit)
 
-    for e in pool:
-        if not _havuz_uygun(e) or e.get("tip_onerisi") != TICARI_TIP or e.get("kategori") != c["id"]:
+    for ham in pool:
+        if not _havuz_uygun(ham):
+            continue
+        e = _brief_kaydi(ham)
+        if e.get("tip_onerisi") != TICARI_TIP or e.get("kategori") != c["id"]:
             continue
         sub = e.get("alt")
         if sub not in subs:
@@ -545,13 +710,10 @@ def ticari_konulari(products, c, pool, used):
         sorgu = re.sub(r"\s+", " ", str(e.get("sorgu", ""))).strip()
         if not sorgu:
             continue
-        wanted = [str(x).strip() for x in (e.get("urunler") or []) if str(x).strip()]
-        if wanted:
-            plist = _urun_bul(products, wanted)
-        else:
-            plist = urun_denetim.alt_kategori_urunleri(products, c["id"], sub)
-        ekle(f"ticari:{c['id']}:{sub}:{ym.slugify(sorgu)}", sub, subs[sub], plist,
-             dogal_baslik(sorgu), sorgu, "havuz")
+        title = str(e.get("h1") or "").strip() or dogal_baslik(sorgu)
+        plist = _plist_for_entry(products, c["id"], sub, e, TICARI_TIP)
+        ekle(f"ticari:{c['id']}:{sub}:{str(e.get('slug') or '').strip() or ym.slugify(sorgu)}",
+             sub, subs[sub], plist, title, sorgu, "havuz", e)
     for s in c["subcategories"]:
         plist = urun_denetim.alt_kategori_urunleri(products, c["id"], s["id"])
         title = TIPLER[TICARI_TIP]["baslik"](s["name"])
@@ -672,7 +834,13 @@ def topic_queue(products, cats, log=None, articles_dir=None, rapor=None):
             yerliler.setdefault(t["sub"], []).append(t)
         for sub, konular in yerliler.items():
             gruplar.append(dict(cat=c["id"], sub=sub, konular=konular))
-    return _adil_sira(gruplar, makale_sayisi, son_uretim)
+    sira = _adil_sira(gruplar, makale_sayisi, son_uretim)
+    # oncelik alanı olan havuz kayıtları adil sıranın önüne alınır.
+    # Yılbaşı gibi tarihli konular küçük sayıyla en öne yazılır.
+    oncelikli = [t for t in sira if isinstance(t.get("oncelik"), int)]
+    diger = [t for t in sira if not isinstance(t.get("oncelik"), int)]
+    oncelikli.sort(key=lambda t: (t["oncelik"], t.get("key") or ""))
+    return oncelikli + diger
 
 
 # ------------------------------------------------------------------ arama sorguları
@@ -776,7 +944,7 @@ KESİN KURALLAR:
 YAZIM REHBERİ (bunu uygula; okuyucuya bir insanın konuşur gibi yazdığı gelsin, ama kimseyi yanıltma):
 {guide}
 
-ÇIKTI BİÇİMİ (tam olarak böyle):
+{_brief_prompt(t)}ÇIKTI BİÇİMİ (tam olarak böyle):
 GORSEL: <Unsplash'ta aratılacak 2-4 kelimelik İNGİLİZCE sorgu; marka/ürün adı yok; konuyu görsel olarak anlatsın>
 ANAHTAR: <odak anahtar kelime, Türkçe, 2-4 kelime>
 ACIKLAMA: <120-160 karakterlik Türkçe meta açıklama, odak anahtar kelimeyi içersin. Başlık artı " | Hobi Bul" en fazla 60 karakter olsun.>
@@ -978,16 +1146,20 @@ def q(s):
 
 
 def write_article(t, meta, body, img, draft, tarih=None):
-    slug = ym.slugify(t["title"])
+    slug = str(t.get("slug") or "").strip() or ym.slugify(t["title"])
     title = t["title"]
-    raw_desc = q(meta.get("ACIKLAMA") or "")
-    mt = fit_title(title if title.endswith("Hobi Bul") else f"{title} | Hobi Bul")
+    raw_desc = q(t.get("meta_description") or meta.get("ACIKLAMA") or "")
+    raw_mt = str(t.get("meta_title") or "").strip()
+    if raw_mt:
+        mt = fit_title(raw_mt if raw_mt.endswith("Hobi Bul") else f"{raw_mt} | Hobi Bul")
+    else:
+        mt = fit_title(title if title.endswith("Hobi Bul") else f"{title} | Hobi Bul")
     md = fit_description(raw_desc, extra=f"{q(meta.get('ANAHTAR') or title)} rehberi, yeni başlayan için ürün notlarıyla")
     tarih = tarih or istanbul_bugun().isoformat()
     lines = ["---", f'title: "{q(title)}"', f'slug: "{slug}"', f'category: "{t["cat"]}"',
              f'date: "{tarih}"', f'updated: "{tarih}"', f'meta_title: "{q(mt)}"',
              f'meta_description: "{q(md)}"', f'excerpt: "{raw_desc or q(md)}"',
-             f'focus_keyword: "{q(meta["ANAHTAR"])}"']
+             f'focus_keyword: "{q(t.get("focus_keyword") or meta.get("ANAHTAR") or title)}"']
     if img and img.get("url"):
         lines += [f'image: "{img["url"]}"', f'image_alt: "{q(img["alt"])}"',
                   f'image_credit: "{q(img["credit"])}"', f'image_credit_url: "{img["credit_url"]}"']
@@ -1205,9 +1377,15 @@ def uret(t, products, key, models, model_idx, ukey, log, draft, tarih):
     if eksik:
         return None, f"ürün kimliği bulunamadı: {', '.join(eksik)}"
     prods = [pool[i] for i in t["ids"]]
-    dogrulanmayan = [p["id"] for p in prods if not urun_denetim.dogrulanmis_mi(p)]
-    if dogrulanmayan:
-        return None, f"doğrulanmamış ürün: {', '.join(dogrulanmayan)}"
+    gevsek = isinstance(t.get("oncelik"), int) or bool(t.get("brief"))
+    if gevsek:
+        gecersiz = [p["id"] for p in prods if not urun_denetim.gecerli_mi(p)]
+        if gecersiz:
+            return None, f"geçersiz ürün: {', '.join(gecersiz)}"
+    else:
+        dogrulanmayan = [p["id"] for p in prods if not urun_denetim.dogrulanmis_mi(p)]
+        if dogrulanmayan:
+            return None, f"doğrulanmamış ürün: {', '.join(dogrulanmayan)}"
     if len(prods) < _gerekli_urun(t["tip"]):
         return None, f"yeterli doğrulanmış ürün yok ({len(prods)}/{_gerekli_urun(t['tip'])})"
     sugg = suggestions(t["sub_name"])
@@ -1261,7 +1439,7 @@ def uret(t, products, key, models, model_idx, ukey, log, draft, tarih):
             break
     else:
         return None, why
-    slug = ym.slugify(t["title"])
+    slug = str(t.get("slug") or "").strip() or ym.slugify(t["title"])
     img = unsplash(meta["GORSEL"], CAT_EN.get(t["cat"], "hobby"), set(log["photos"]), ukey, slug)
     if not img:
         return None, "konuyla eşleşen Unsplash görseli bulunamadı"
@@ -1591,16 +1769,233 @@ def _talep_kaydet(log, sorgu, durum, tarih, slug="", anahtar=""):
     })
 
 
+# Brif sorgularında her rehberde geçen gövdeler. Bunlar tek başına
+# kannibalizasyon sayılmaz; ayırıcı kökler (yılbaşı, kadın, strateji) kalır.
+_BRIF_GENEL_KOK = (
+    "basla", "set", "nasil", "yapil", "kutu", "oyun", "hobi",
+    "evde", "yeni", "ilk", "rehbe", "secim", "fikir", "malze",
+)
+# "Yeni başlayanlar için …" birçok rehberin ortak ön eki. İlk üç kelime
+# yalnız bu kalıptan oluşuyorsa başlık çakışması sayılmaz.
+_BRIF_BASLIK_GENEL = {
+    "yeni", "baslayanlar", "baslangic", "icin", "en", "iyi",
+    "rehber", "rehberi", "seti", "nasil", "nedir",
+}
+
+
+def _brif_genel_kok(word):
+    return any(
+        word == g or word.startswith(g) or (len(word) >= 4 and g.startswith(word))
+        for g in _BRIF_GENEL_KOK
+    )
+
+
+def _brif_ozel_kok(text):
+    """Çoğul eki kökü uzatır: oyunları → oyunl, setleri → setle. Genel kök elenir."""
+    return [w for w in _talep_govde(text) if not _brif_genel_kok(w)]
+
+
+def _brif_ayri_sluglar(brief):
+    """Brifin iç link verdiği makaleler aynı konu değildir."""
+    ayri = set()
+    for yol in (brief or {}).get("zorunlu_linkler") or []:
+        parca = [p for p in str(yol).strip("/").split("/") if p]
+        if len(parca) >= 2 and parca[0] == "makale":
+            ayri.add(parca[1])
+    return ayri
+
+
+def brif_makaleyle_cakisir(brief, makale):
+    """SEO brifini, yayındaki yazıyla aynı sorguya düşüyorsa ele.
+
+    Ortak 'kutu oyunu' / 'başlangıç seti' gövdesi yetmez. Ayırıcı köklerin
+    hepsi yayındaki başlıkta varsa, ya da başlığın ilk üç kelimesi aynıysa
+    yeni yazı açılmaz. Brifin kendi iç linkleri bu eleğe girmez.
+    """
+    slug = str((makale or {}).get("slug") or "")
+    if slug and slug == str((brief or {}).get("slug") or ""):
+        return True
+    if slug in _brif_ayri_sluglar(brief):
+        return False
+    baslik = str((makale or {}).get("baslik") or "")
+    sorgu = str((brief or {}).get("sorgu") or "")
+    h1 = str((brief or {}).get("h1") or "")
+    ilk = _baslik_kelimeleri(h1)[:3]
+    if (h1 and baslik and any(w not in _BRIF_BASLIK_GENEL for w in ilk)
+            and _baslik_cakisiyor(_baslik_kelimeleri(h1), [_baslik_kelimeleri(baslik)])):
+        return True
+    ozel = _brif_ozel_kok(sorgu)
+    hedef = set(_talep_govde(f"{baslik} {slug.replace('-', ' ')}"))
+    # Ayırıcı köklerin hepsi yayındaki başlıkta olmalı. Tek başına
+    # "kutu oyunu" veya "başlangıç seti" yeni brifi düşürmez.
+    if ozel and hedef and all(w in hedef for w in ozel):
+        return True
+    return False
+
+
+def talep_brif_listesi():
+    """SEO brifleri, küçük oncelik önce. Yılbaşı 1'dir."""
+    return sorted(
+        load_brief_index().values(),
+        key=lambda b: (int(b.get("oncelik") or 9999), str(b.get("slug") or "")),
+    )
+
+
+def talep_brif_sec(briefs, log, makaleler, adet):
+    """Bugünkü arama-talebi kotasının brif kısmı. Düzenli havuzdan okumaz."""
+    if adet <= 0:
+        return [], []
+    kullanilan = _talep_kullanilan(log)
+    yayin = {str(m.get("slug") or "") for m in makaleler or []}
+    secilen, guclendir = [], []
+    sirali = sorted(briefs or [], key=lambda b: (int(b.get("oncelik") or 9999), str(b.get("slug") or "")))
+    for b in sirali:
+        slug = str(b.get("slug") or "").strip()
+        sorgu = re.sub(r"\s+", " ", str(b.get("sorgu") or "")).strip()
+        if not slug or not sorgu:
+            continue
+        if slug in yayin:
+            continue
+        if any(sorgular_yakin(sorgu, eski) for eski in kullanilan):
+            continue
+        if any(brif_makaleyle_cakisir(b, m) for m in makaleler or []):
+            guclendir.append(sorgu)
+            kullanilan.append(sorgu)
+            continue
+        if any(sorgular_yakin(sorgu, s.get("sorgu") or "") for s in secilen):
+            continue
+        secilen.append(b)
+        kullanilan.append(sorgu)
+        if len(secilen) >= adet:
+            break
+    return secilen, guclendir
+
+
+def _brif_konusu(brief, cats, products):
+    """Brifi talep konusu yap. Ürünler brifteki kimliklerdir."""
+    cat = str(brief.get("kategori") or "").strip()
+    sub = str(brief.get("alt") or "").strip()
+    cat_rec = next((c for c in cats or [] if c.get("id") == cat), None)
+    if not cat_rec:
+        return None
+    sub_rec = next((s for s in cat_rec.get("subcategories") or [] if s.get("id") == sub), None)
+    if not sub_rec:
+        return None
+    plist = _gecerli_urunler(products, brief.get("urunler") or [])
+    if len(plist) < _gerekli_urun("talep"):
+        return None
+    slug = str(brief.get("slug") or "").strip()
+    return {
+        "key": "talep:" + slug,
+        "tip": "talep",
+        "cat": cat,
+        "cat_name": cat_rec.get("name") or cat,
+        "sub": sub,
+        "sub_name": sub_rec.get("name") or sub,
+        "ids": [p["id"] for p in plist],
+        "title": str(brief.get("h1") or "").strip() or talep_basligi(brief.get("sorgu")),
+        "slug": slug,
+        "sorgu": brief.get("sorgu"),
+        "hedef": 1500,
+        "kaynak": "talep-brif",
+        "brief": slug,
+        "oncelik": brief.get("oncelik"),
+        "meta_title": brief.get("meta_title") or "",
+        "meta_description": brief.get("meta_description") or "",
+        "focus_keyword": brief.get("focus_keyword") or brief.get("sorgu") or "",
+        "yasak": brief.get("yasak") or [],
+        "zorunlu_linkler": brief.get("zorunlu_linkler") or [],
+        "terimler": brief.get("terimler") or [],
+    }
+
+
+def _talep_yaz(konular, log, products, key, models, model_idx, ukey, draft, tarih, yedek_acik, kalan, kaynak):
+    """Hazır talep konularını yazar. Kota veya geçici hatada (adet, True) döner."""
+    fails = {}
+    for x in log.get("atlanan") or []:
+        if isinstance(x, dict):
+            fails[x.get("anahtar")] = fails.get(x.get("anahtar"), 0) + 1
+    made = 0
+    for konu in konular:
+        if made >= kalan:
+            break
+        if fails.get(konu.get("key"), 0) >= 2:
+            continue
+        print(f"→ [talep/{kaynak}] {konu['title']}")
+        try:
+            res, why = uret(konu, products, key, models, model_idx, ukey, log, draft, tarih)
+        except ym.GeminiError as e:
+            save_log(log)
+            if isinstance(e, ym.GeminiQuotaError) or gecici_api_hatasi(e):
+                if isinstance(e, ym.GeminiQuotaError):
+                    _kota_mesaji(e, yedek_acik, made)
+                else:
+                    _gecici_mesaji(e, made)
+                print("Arama talebi kota/geçici hatada durdu. Düzenli makaleler diskte.")
+                return made, True
+            raise
+        if res:
+            slug, n, _has_img, gun = res
+            _talep_kaydet(log, konu["sorgu"], "yazildi", gun, slug=slug, anahtar=konu["key"])
+            for uye in konu.get("uyeler") or []:
+                if uye == konu["sorgu"]:
+                    continue
+                _talep_kaydet(log, uye, "yazildi", gun, slug=slug, anahtar=_talep_anahtar(uye))
+            save_log(log)
+            made += 1
+            print(f"  ✓ {slug}  ({n} kelime, talep)")
+        else:
+            log.setdefault("atlanan", []).append({"anahtar": konu["key"], "neden": why, "tarih": tarih})
+            save_log(log)
+            print(f"  ✗ atlandı: {why}")
+    return made, False
+
+
 def talep_uret(log, products, cats, articles_dir, key, models, model_idx, ukey, draft, tarih, yedek_acik):
-    """Düzenli akıştan sonra arama talebinden en fazla GSC_HEDEF yazı. Kota akışı bozmaz."""
+    """Düzenli 3'ten sonra en fazla GSC_HEDEF yazı.
+
+    Önce SEO brif kuyruğu (yılbaşı en önde, brifle yazılır). Brif kalmayınca
+    Search Console / tohum sorgusuna düşer. Brifler düzenli konu havuzundan okunmaz.
+    """
     hedef = gsc_hedef()
     kalan = hedef - bugun_talep_say(log, tarih)
     if kalan <= 0 or hedef <= 0:
         print(f"Arama talebi: bugünün {hedef} yazısı tamam.")
         return 0
-    rows, kaynak = talep_ham_sorgular()
     makaleler = urun_denetim.makale_verileri(articles_dir)
-    secilen, guclendir = talep_sec(rows, log, makaleler, kalan)
+    brifler, brif_guclendir = talep_brif_sec(talep_brif_listesi(), log, makaleler, kalan)
+    for sorgu in brif_guclendir:
+        anahtar = "talep:" + (ym.slugify(sorgu) or "sorgu")
+        for b in talep_brif_listesi():
+            if b.get("sorgu") == sorgu and b.get("slug"):
+                anahtar = "talep:" + b["slug"]
+                break
+        _talep_kaydet(log, sorgu, "guclendir", tarih, anahtar=anahtar)
+        print(f"! mevcut makaleyi güçlendir: {sorgu}")
+    if brif_guclendir:
+        save_log(log)
+    made = 0
+    if brifler:
+        print(f"Arama talebi (brif): {len(brifler)} konu denenecek.")
+        brif_konu = []
+        for b in brifler:
+            konu = _brif_konusu(b, cats, products)
+            if not konu:
+                print(f"  ! brif yazılamadı (kategori veya ürün): {b.get('slug')}")
+                continue
+            brif_konu.append(konu)
+        n, dur = _talep_yaz(
+            brif_konu, log, products, key, models, model_idx, ukey, draft, tarih,
+            yedek_acik, kalan, kaynak="brif")
+        made += n
+        if dur:
+            return made
+    kalan_gsc = kalan - made
+    if kalan_gsc <= 0:
+        print(f"Arama talebi bitti: {made} makale.")
+        return made
+    rows, kaynak = talep_ham_sorgular()
+    secilen, guclendir = talep_sec(rows, log, makaleler, kalan_gsc)
     for sorgu in guclendir:
         _talep_kaydet(log, sorgu, "guclendir", tarih)
         print(f"! mevcut makaleyi güçlendir: {sorgu}")
@@ -1608,18 +2003,11 @@ def talep_uret(log, products, cats, articles_dir, key, models, model_idx, ukey, 
         save_log(log)
     if not secilen:
         print(f"Arama talebi ({kaynak}): yazılacak yeni sorgu kalmadı.")
-        return 0
+        print(f"Arama talebi bitti: {made} makale.")
+        return made
     print(f"Arama talebi ({kaynak}): {len(secilen)} sorgu denenecek.")
-    fails = {}
-    for x in log.get("atlanan") or []:
-        if isinstance(x, dict):
-            fails[x.get("anahtar")] = fails.get(x.get("anahtar"), 0) + 1
-    made = 0
+    gsc_konu = []
     for kume in secilen:
-        if made >= kalan:
-            break
-        if fails.get(kume["anahtar"], 0) >= 2:
-            continue
         eslesen = kategori_eslestir(kume["sorgu"], cats, products)
         if not eslesen:
             print(f"  ! kategori yok, sonraki sorgu: {kume['sorgu']}")
@@ -1630,7 +2018,7 @@ def talep_uret(log, products, cats, articles_dir, key, models, model_idx, ukey, 
         if len(plist) < 2:
             print(f"  ! yeterli ürün yok, sonraki sorgu: {kume['sorgu']}")
             continue
-        konu = {
+        gsc_konu.append({
             "key": kume["anahtar"],
             "tip": "talep",
             "cat": cat,
@@ -1642,32 +2030,14 @@ def talep_uret(log, products, cats, articles_dir, key, models, model_idx, ukey, 
             "sorgu": kume["sorgu"],
             "hedef": 1500,
             "kaynak": "talep",
-        }
-        print(f"→ [talep] {konu['title']}")
-        try:
-            res, why = uret(konu, products, key, models, model_idx, ukey, log, draft, tarih)
-        except ym.GeminiError as e:
-            save_log(log)
-            if isinstance(e, ym.GeminiQuotaError) or gecici_api_hatasi(e):
-                _kota_mesaji(e, yedek_acik, made) if isinstance(e, ym.GeminiQuotaError) else _gecici_mesaji(e, made)
-                print("Arama talebi kota/geçici hatada durdu. Düzenli makaleler diskte.")
-                return made
-            raise
-        if res:
-            slug, n, has_img, gun = res
-            _talep_kaydet(log, kume["sorgu"], "yazildi", gun, slug=slug, anahtar=kume["anahtar"])
-            for uye in kume["uyeler"]:
-                if uye == kume["sorgu"]:
-                    continue
-                _talep_kaydet(log, uye, "yazildi", gun, slug=slug, anahtar=_talep_anahtar(uye))
-            save_log(log)
-            made += 1
-            print(f"  ✓ {slug}  ({n} kelime, talep)")
-        else:
-            log.setdefault("atlanan", []).append({"anahtar": kume["anahtar"], "neden": why, "tarih": tarih})
-            save_log(log)
-            print(f"  ✗ atlandı: {why}")
-    print(f"Arama talebi bitti: {made} makale.")
+            "uyeler": kume.get("uyeler") or [],
+        })
+    n, dur = _talep_yaz(
+        gsc_konu, log, products, key, models, model_idx, ukey, draft, tarih,
+        yedek_acik, kalan_gsc, kaynak=kaynak)
+    made += n
+    if not dur:
+        print(f"Arama talebi bitti: {made} makale.")
     return made
 
 

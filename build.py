@@ -310,6 +310,9 @@ def render_markdown(text):
                 in_ol = True
             item = re.sub(r"^\d+\.\s", "", s)
             out.append(f"<li>{_inline(item)}</li>")
+        elif s.startswith("> "):
+            close_lists()
+            out.append(f'<aside class="aeo-answer"><p>{_inline(s[2:])}</p></aside>')
         elif s.startswith(("- ", "* ", "• ")):
             if not in_ul:
                 close_lists()
@@ -960,8 +963,28 @@ def main():
 
 
     # ---- hangi hobi sana uygun? (istemci tarafında calisan quiz) ----
+    hangi_hobi_sss = [
+        {
+            "q": "Hobi önerileri nereden başlar?",
+            "a": "Hobi önerileri, evde ne kadar yerin ve haftada kaç boş akşamın olduğuna göre daralır. Tek bir doğru hobi yok. Kısa testi, sessiz el işi, hareket, mutfak ya da dışarı çıkan uğraşlar arasından iki üç kapı açmak için kullan. Beğendiğin kapının malzeme notu ilgili rehberde durur.",
+        },
+        {
+            "q": "Yeni hobi önerileri arasından hangisine bakmalıyım?",
+            "a": "Yeni hobi önerileri içinde ilk hafta tek bir deneme seç. Örgü, kutu oyunu, filtre kahve ya da evde yoga gibi az alet isteyen işler, büyük setlerden daha çabuk cevap verir. Sıkılırsan seti büyütmek zorunda değilsin. Aynı hafta üç hobi birden açmak malzemeyi rafta unutturur.",
+        },
+        {
+            "q": "Değişik hobi önerileri bu sayfada çıkar mı?",
+            "a": "Test, yaygın ve evde başlanan uğraşları öne alır. Çok uç bir dal arıyorsan kategori sayfalarına geç: masaüstü oyun, el sanatları, bahçe ya da teknoloji. Bu sayfa kişilik etiketi dağıtmaz. Sana uymayan seçeneği elemek, uzun bir listeyi ezberlemekten daha işe yarar.",
+        },
+        {
+            "q": "Testin sonucu bir yere kaydolur mu?",
+            "a": "Hayır. Beş soru tarayıcıda kalır, cevaplar bir sunucuya gitmez. Sayfayı yenilersen test başa döner. Öneri hoşuna gittiyse ilgili rehbere geçip ilk malzemeye bakman yeterli. Hesap açmana gerek yok.",
+        },
+    ]
     render("quiz.html", os.path.join(SITE, "hangi-hobi", "index.html"), {
         "canonical_path": "/hangi-hobi/",
+        "faqs": hangi_hobi_sss,
+        "jsonld": jsonld(as_graph(faq_ld(hangi_hobi_sss))),
     })
     # ---- rehberler (tüm makaleler) ----
     render("guides.html", os.path.join(SITE, "rehberler", "index.html"), {
@@ -998,6 +1021,8 @@ def main():
               f'<title>Yönlendiriliyor…</title><link rel="canonical" href="{BASE_URL}{new}">'
               f'<meta http-equiv="refresh" content="0;url={new}"><meta name="robots" content="noindex">'
               f'</head><body><a href="{new}">Devam et</a></body></html>')
+
+    planli_yer_tutucular({a["slug"] for a in articles})
 
     # Panel: tahmin edilemeyen yol, noindex. Site haritası, menü ve robots
     # bu yolu yazmaz. /dashboard/ disallow olarak kalır.
@@ -1126,7 +1151,47 @@ REDIRECTS = {
         "/makale/dj-seti-adi/",
     "/makale/akvaryum-balik-malzemeleri/":
         "/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/",
+    "/kategori/spor-fitness/masa-oyunlari/":
+        "/kategori/koleksiyon/masaustu-oyun/",
 }
+
+
+# Yayınlanmamış brif slug'ları. Makale dosyası yokken noindex yer tutucu
+# yazılır; iç link böylece boş hedefe düşmez. Kalıcı yönlendirme değildir.
+# Makale gelince bu sayfa üretilmez ve site haritasına hiç girmez.
+PLANLI_MAKALELER = (
+    "erkekler-icin-hobiler",
+    "kadinlar-icin-evde-yapilacak-hobiler",
+    "yetiskin-hobi-setleri",
+    "hobi-seti-matkap-gravur-rehberi",
+    "punch-nakisi-nasil-yapilir-baslangic-seti",
+    "amigurumi-baslangic-seti",
+    "hobi-odasi-nasil-kurulur",
+    "hobi-esyalari-nereden-alinir",
+    "en-iyi-strateji-kutu-oyunlari",
+    "yeni-baslayanlar-icin-kutu-oyunlari",
+    "yilbasi-hediyesi-kutu-oyunlari",
+    "sevgiliyle-evde-yapilacak-hobiler",
+    "emekliler-icin-hobiler",
+)
+
+
+def planli_yer_tutucular(yayinda):
+    for slug in PLANLI_MAKALELER:
+        if slug in yayinda:
+            continue
+        yol = f"/makale/{slug}/"
+        write(
+            os.path.join(SITE, "makale", slug, "index.html"),
+            '<!DOCTYPE html><html lang="tr"><head><meta charset="utf-8">'
+            f"<title>{slug.replace('-', ' ')}</title>"
+            f'<link rel="canonical" href="{BASE_URL}{yol}">'
+            '<meta name="robots" content="noindex,follow">'
+            "</head><body>"
+            "<p>Bu rehber sırada. Yayınlanınca aynı adreste duracak. "
+            '<a href="/">Ana sayfaya dön</a>.</p>'
+            "</body></html>",
+        )
 
 
 def load_starter_plans():

@@ -194,6 +194,8 @@ h1,h2,h3,h4{font-family:var(--display);line-height:1.12;letter-spacing:-.02em;ma
 .article-body h2{font-size:clamp(1.55rem,4.4vw,1.95rem);margin:2.1em 0 .55em}
 .article-body h3{font-size:1.32rem;margin:1.8em 0 .4em}
 .article-body p,.article-body ul,.article-body ol{margin:0 0 1.1em}
+.aeo-answer{margin:0 0 1.25rem;padding:14px 16px;border-left:4px solid var(--accent);background:var(--surface);border-radius:12px}
+.aeo-answer p{margin:0}
 .article-body li{margin-bottom:.35em}
 .article-body a.aff-link{display:inline-block;padding:9px 16px;border-radius:12px;background:var(--accent-dark);color:#fff;font:700 .95rem var(--display);text-decoration:none}
 .article-body a.aff-link:hover{filter:brightness(.92)}

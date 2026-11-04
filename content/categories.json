@@ -194,6 +194,18 @@
         "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2c/Candle_light_projected_through_a_glass_orb.jpg/960px-Candle_light_projected_through_a_glass_orb.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
+        "id": "diamond-painting",
+        "name": "Diamond Painting",
+        "slug": "diamond-painting",
+        "description": "Diamond painting seti, kalem ve ışık pedi.",
+        "meta_title": "Diamond Painting Rehberi | Hobi Bul",
+        "meta_description": "Diamond painting nedir, nasıl yapılır, set ve kalem seçerken neye bakılır. Ürün sayfası yoksa arama linki.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg/960px-Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg/960px-Ambigram_Escher_and_tessellation_background_-_photomontage_with_reversible_hands.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
         "id": "deri-isleri",
         "name": "Deri İşçiliği",
         "slug": "deri-isleri",
@@ -502,10 +514,22 @@
         "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/19/Wooden_Antique_Table_Lamp.jpg/960px-Wooden_Antique_Table_Lamp.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
       },
       {
+        "id": "puzzle",
+        "name": "Puzzle",
+        "slug": "puzzle",
+        "description": "Puzzle masası, yapıştırıcı, halı ve çerçeve.",
+        "meta_title": "Puzzle Aksesuarları | Hobi Bul",
+        "meta_description": "Puzzle masası, yapıştırıcı, halı ve çerçeve seçerken neye bakılır. Arama linkleri, uydurulmuş ölçü yok.",
+        "images": [
+          "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Board_game_pieces.jpg/960px-Board_game_pieces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+        ],
+        "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4f/Board_game_pieces.jpg/960px-Board_game_pieces.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
+      },
+      {
         "id": "masaustu-oyun",
         "name": "Masaüstü & Minyatür Oyunlar",
         "slug": "masaustu-oyun",
-        "description": "Masaüstü oyunlar, minyatür boyama ve aksesuarlar.",
+        "description": "Kutu oyunları, masaüstü rol oyunları ve minyatür boyama.",
         "meta_title": "Masaüstü & Minyatür Oyunlar Rehberi | Hobi Bul",
         "meta_description": "Masaüstü oyun ve minyatür boyama hobisi için temel setleri seçtik. Öne çıkanlar: Catan, Warhammer Boya Seti, Zar Seti. Karşılaştırma yeni başlayan içindir.",
         "images": [
@@ -647,14 +671,6 @@
           "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b6/2017_US_Open_Tennis_-_Qualifying_Rounds_-_Viktoriya_Tomova_%28BUL%29_def._Polona_Hercog_%28SLO%29_%2836916572131%29.jpg/960px-2017_US_Open_Tennis_-_Qualifying_Rounds_-_Viktoriya_Tomova_%28BUL%29_def._Polona_Hercog_%28SLO%29_%2836916572131%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
         ],
         "hero": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/Rich%C3%A8l_Hogenkamp_-_Masters_de_Madrid_2015_-_11.jpg/960px-Rich%C3%A8l_Hogenkamp_-_Masters_de_Madrid_2015_-_11.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail"
-      },
-      {
-        "id": "masa-oyunlari",
-        "name": "Masa Oyunları & Strateji",
-        "slug": "masa-oyunlari",
-        "description": "Catan, Risk, satranç gibi strateji ve masa oyunları için ekipman ve oyun önerileri.",
-        "meta_title": "Masa Oyunları & Strateji Rehberi | Hobi Bul",
-        "meta_description": "Catan, Risk ve satranç gibi strateji ve masa oyunları için ekipman ve oyun önerileri. Yeni başlayanlar için seçim rehberi."
       }
     ],
     "images": [

@@ -6,7 +6,7 @@ meta_title: "Evde El Sanatları: 8 Hobi Fikri | Hobi Bul"
 meta_description: "Evde başlayabileceğin 8 el sanatı hobisi ve gerekli malzemeler: örgü, takı, ahşap ve resim için ürün önerileri ve satın alma bağlantıları."
 excerpt: "Örgüden sulu boyaya, ahşap oymacılığından takı tasarımına evde başlayabileceğin 8 el sanatı hobisini ve her biri için ihtiyacın olan malzemeleri keşfet."
 date: "2026-10-27"
-updated: "2026-10-29"
+updated: "2026-11-04"
 image: "/img/makale/el-sanatlari.webp"
 image_alt: "El sanatları için fırça, ip ve yapıştırıcılar"
 image_credit: "Unsplash"
@@ -17,6 +17,8 @@ image_source: ""
 ## Zihnini susturmanın en iyi yolu: Ellerini çalıştırmak
 
 Akşam eve geldiğinde telefonun ışığından yoruluyor, bitmek bilmeyen bildirimler arasında kaybolduğunu hissediyorsan ellerinle somut bir şeyler üretmenin vakti gelmiş demektir. Bir şeyler örmek, boyamak ya da ahşaba şekil vermek sadece bir boş zaman aktivitesi değil; zihnini dinlendiren ve günün stresini kapıda bırakan bir kaçış noktasıdır. Üstelik bunun için profesyonel bir atölyeye veya pahalı kurslara ihtiyacın yok; evinin bir köşesinde, doğru malzemelerle hemen başlayabilirsin.
+
+Evde yapılacak el işi hobiler arayanlar için aşağıdaki sekiz başlık, malzeme ve kime uyduğuyla duruyor. Daha geniş ev listesi [evde yapılacak hobiler](/makale/evde-yapilacak-hobiler/) sayfasında; bu sayfa el işinin kendisinde kalır.
 
 Aşağıda evde rahatça yapabileceğin 8 farklı hobiye değindim. İlgini çeken alana göre [örgü ve tığ](/kategori/el-sanatlari/orgu-tig/), [resim ve boyama](/kategori/el-sanatlari/resim-boyama/) veya [takı yapımı](/kategori/el-sanatlari/taki-yapimi/) gibi alt sayfalara göz atabilir, hepsini kapsayan [el sanatları](/kategori/el-sanatlari/) kategorisinde daha fazla detay bulabilirsin.
 

@@ -1,10 +1,20 @@
 {% extends "base.html" %}
-{% block title %}Hangi Hobi Sana Uygun? | {{ site.site_name }}{% endblock %}
-{% block description %}5 kısa soruyla sana uygun olabilecek hobileri bul.{% endblock %}
+{% block title %}Hobi Önerileri: Hangi Hobi Sana Uygun? | {{ site.site_name }}{% endblock %}
+{% block description %}Yeni hobi önerileri için beş kısa soru. Cevap tarayıcıda kalır; sana uyan iki üç hobi ve ilgili rehber çıkar. Hobi önerileri testi hesap açmaz.{% endblock %}
+{% block jsonld %}{% if jsonld %}<script type="application/ld+json">{{ jsonld|safe }}</script>{% endif %}{% endblock %}
 {% block content %}
-<nav class="breadcrumb" aria-label="breadcrumb"><a href="/">Ana Sayfa</a> <span>›</span> <span class="current">Hangi Hobi Sana Uygun?</span></nav>
+<nav class="breadcrumb" aria-label="breadcrumb"><a href="/">Ana Sayfa</a> <span>›</span> <span class="current">Hobi önerileri</span></nav>
 <h1 class="page-title">Hangi hobi sana uygun?</h1>
-<p class="lead">5 kısa soru, sana uygun olabilecek 2-3 hobi önersin. Cevapların hiçbir yere gönderilmez.</p>
+<p class="lead">Hobi önerileri burada beş kısa soruya iner. Yeni hobi önerileri arasından 2-3 kapı açılır. Cevapların hiçbir yere gönderilmez.</p>
 <div id="hb-quiz" class="quiz-box"></div>
+{% if faqs %}
+<section class="quiz-faq">
+<h2>Sıkça Sorulan Sorular</h2>
+{% for item in faqs %}
+<h3>{{ item.q }}</h3>
+<p>{{ item.a }}</p>
+{% endfor %}
+</section>
+{% endif %}
 {% endblock %}
 {% block scripts %}<script src="/js/quiz.js" defer></script>{% endblock %}
