@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-03",
+ "generated_at": "2026-11-04",
  "period_days": 30,
  "visitors_daily": [
   {
@@ -28,17 +28,17 @@
   },
   {
    "date": "2026-11-03",
-   "users": 1
+   "users": 2
   }
  ],
  "channels": [
   {
    "name": "Direct",
-   "sessions": 68
+   "sessions": 70
   },
   {
    "name": "Organic Search",
-   "sessions": 14
+   "sessions": 17
   },
   {
    "name": "Unassigned",
@@ -77,6 +77,12 @@
    "views": 3
   },
   {
+   "path": "/makale/lego-model-araba/",
+   "slug": "lego-model-araba",
+   "title": "Lego model araba",
+   "views": 3
+  },
+  {
    "path": "/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/",
    "slug": "akvaryum-ekipmani-secimi-tank-filtre-isitici",
    "title": "Akvaryum Ekipmanı Seçimi: Tank, Filtre, Isıtıcı ve Hava Pompası",
@@ -98,12 +104,6 @@
    "path": "/makale/dj-seti-adi/",
    "slug": "dj-seti-adi",
    "title": "Dj seti adı",
-   "views": 2
-  },
-  {
-   "path": "/makale/drone-secimi-yeni-baslayanlar-icin/",
-   "slug": "drone-secimi-yeni-baslayanlar-icin",
-   "title": "Drone Seçimi: Yeni Başlayanlar İçin Oyuncak Sınıfı ve DJI Ayrımı",
    "views": 2
   }
  ]
