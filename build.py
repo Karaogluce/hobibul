@@ -12,9 +12,7 @@ import re
 import shutil
 import html as html_mod
 import hashlib
-import struct
 import sys
-import zlib
 from datetime import datetime
 from urllib.parse import urlencode, quote as urlquote
 
@@ -786,102 +784,55 @@ def article_ld(a):
     }
 
 
-def _png_rgba(size, pixel):
-    """Saf Python PNG (8-bit RGBA). pixel(x, y, size) -> (r, g, b, a)."""
-    raw = bytearray()
-    for y in range(size):
-        raw.append(0)
-        for x in range(size):
-            raw.extend(pixel(x, y, size))
-
-    def chunk(tag, data):
-        return struct.pack(">I", len(data)) + tag + data + struct.pack(">I", zlib.crc32(tag + data) & 0xFFFFFFFF)
-
-    ihdr = struct.pack(">IIBBBBB", size, size, 8, 6, 0, 0, 0)
-    return b"\x89PNG\r\n\x1a\n" + chunk(b"IHDR", ihdr) + chunk(b"IDAT", zlib.compress(bytes(raw), 9)) + chunk(b"IEND", b"")
-
-
-def _favicon_pixel(x, y, n):
-    """favicon.svg ile aynı yeşil hedef işareti. Köşeler saydam."""
-    px, py = x + 0.5, y + 0.5
-    radius = n * 0.25
-    half = n / 2
-    qx = abs(px - half) - (half - radius)
-    qy = abs(py - half) - (half - radius)
-    dist = (max(qx, 0) ** 2 + max(qy, 0) ** 2) ** 0.5 + min(max(qx, qy), 0)
-    if dist > 0.8:
-        return (0, 0, 0, 0)
-    alpha = 255 if dist <= 0 else int(255 * (1 - dist / 0.8))
-    t = (px + py) / (2 * n)
-    r = int(22 + (15 - 22) * t)
-    g = int(163 + (118 - 163) * t)
-    b = int(74 + (110 - 74) * t)
-    scale = n / 48.0
-    center = ((px - half) ** 2 + (py - half) ** 2) ** 0.5
-    stroke = max(1.2, 2.5 * scale)
-    white = center <= 2.6 * scale
-    for ring in (13.0, 6.5):
-        if abs(center - ring * scale) <= stroke / 2:
-            white = True
-            break
-    if white:
-        return (255, 255, 255, alpha)
-    return (r, g, b, alpha)
+OG_FONT_CIFTLERI = (
+    (r"C:\Windows\Fonts\ariblk.ttf", r"C:\Windows\Fonts\arial.ttf"),
+    ("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf", "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"),
+)
 
 
 def write_og_image(path):
-    """1200x630 markalı paylaşım görseli. Yazı tipi yoksa mevcut dosyayı bırakır."""
-    font_bold = "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
-    font_reg = "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
+    """1200x630 paylaşım görseli. İşaret static/img/logo-mark.png'den gelir.
+
+    Pillow ya da yazı tipi yoksa mevcut dosya korunur; CI'da Pillow kurulu değil.
+    """
+    mark_path = os.path.join(STATIC, "img", "logo-mark.png")
     try:
-        from PIL import Image, ImageDraw, ImageFont
+        from PIL import Image, ImageDraw, ImageFont, ImageFilter
     except ImportError:
         if os.path.exists(path):
             return
         raise
-    if not (os.path.exists(font_bold) and os.path.exists(font_reg)):
+    font_bold = font_reg = None
+    for bold, reg in OG_FONT_CIFTLERI:
+        if os.path.exists(bold) and os.path.exists(reg):
+            font_bold, font_reg = bold, reg
+            break
+    if not (font_bold and os.path.exists(mark_path)):
         if os.path.exists(path):
             return
-        raise RuntimeError("OG görseli için DejaVu yazı tipi yok")
+        raise RuntimeError("OG görseli için logo-mark.png veya yazı tipi yok")
     w, h = 1200, 630
-    img = Image.new("RGB", (w, h), "#0b0d1e")
+    img = Image.new("RGB", (w, h), "#0b0d1e").convert("RGBA")
     glow = Image.new("RGBA", (w, h), (0, 0, 0, 0))
     gd = ImageDraw.Draw(glow)
-    gd.ellipse((40, 20, 640, 610), fill=(22, 163, 74, 58))
-    gd.ellipse((720, -120, 1320, 420), fill=(15, 118, 110, 46))
-    img = Image.alpha_composite(img.convert("RGBA"), glow).convert("RGB")
+    gd.ellipse((-160, 40, 520, 720), fill=(251, 129, 10, 120))
+    gd.ellipse((700, -180, 1400, 480), fill=(17, 99, 247, 120))
+    img = Image.alpha_composite(img, glow.filter(ImageFilter.GaussianBlur(150)))
+    mark = Image.open(mark_path).convert("RGBA").resize((330, 330), Image.LANCZOS)
+    img.paste(mark, (104, 150), mark)
     draw = ImageDraw.Draw(img)
-    cx, cy = 210, 300
-    draw.rounded_rectangle((cx - 118, cy - 118, cx + 118, cy + 118), radius=40, fill="#16a34a")
-    draw.ellipse((cx - 78, cy - 78, cx + 78, cy + 78), outline="white", width=10)
-    draw.ellipse((cx - 40, cy - 40, cx + 40, cy + 40), outline="white", width=10)
-    draw.ellipse((cx - 12, cy - 12, cx + 12, cy + 12), fill="white")
-    title_font = ImageFont.truetype(font_bold, 92)
-    sub_font = ImageFont.truetype(font_reg, 36)
-    host_font = ImageFont.truetype(font_reg, 28)
-    draw.text((390, 210), "Hobi Bul", font=title_font, fill="white")
-    draw.text((394, 330), "Hobini bul, ekipmanını seç.", font=sub_font, fill="#d7f5e3")
-    draw.text((394, 400), "hobibul.com.tr", font=host_font, fill="#94a3b8")
+    draw.text((480, 232), "Hobi Bul", font=ImageFont.truetype(font_bold, 104), fill="white", anchor="lm")
+    draw.text((484, 330), "Hobini bul, ekipmanını seç.",
+              font=ImageFont.truetype(font_reg, 38), fill="#e3e9f2", anchor="lm")
+    draw.text((484, 398), "hobibul.com.tr", font=ImageFont.truetype(font_reg, 30), fill="#93a4bd", anchor="lm")
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    img.save(path, "PNG", optimize=True)
+    img.convert("RGB").save(path, "PNG", optimize=True)
 
 
 def write_favicon(path):
-    """Kök /favicon.ico. PNG gömülü ICO; dış kütüphane yok."""
-    sizes = (16, 32, 48)
-    blobs = [_png_rgba(s, _favicon_pixel) for s in sizes]
-    count = len(blobs)
-    header = struct.pack("<HHH", 0, 1, count)
-    entries = b""
-    payload = b""
-    offset = 6 + 16 * count
-    for size, blob in zip(sizes, blobs):
-        entries += struct.pack("<BBBBHHII", size, size, 0, 0, 1, 32, len(blob), offset)
-        payload += blob
-        offset += len(blob)
+    """Kök /favicon.ico, static/favicon.ico'dan kopyalanır (16/32/48)."""
     os.makedirs(os.path.dirname(path), exist_ok=True)
-    with open(path, "wb") as f:
-        f.write(header + entries + payload)
+    shutil.copyfile(os.path.join(STATIC, "favicon.ico"), path)
 
 
 # ---------------------------------------------------------------- build

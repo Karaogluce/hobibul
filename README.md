@@ -44,6 +44,20 @@ python -m http.server 8000
 
 Gereksinim: Python 3 + Jinja2 (`pip install jinja2`).
 
+### Marka görselleri
+
+| Dosya | Kullanım |
+| --- | --- |
+| `static/img/logo.svg` | Üst menü logosu: pusula/büyüteç işareti + "HobiBul" yazısı (turuncu `#fb810a` → mavi `#1163f7`) |
+| `static/img/favicon.svg` | Sekme ikonu (SVG) |
+| `static/favicon.ico` | Sekme/kısayol ikonu, 16/32/48 px; `build.py` bunu kök dizine kopyalar |
+| `static/img/logo-mark.png` | 512 px şeffaf işaret; OG görselinin kaynağı |
+| `static/img/og-default.png` | 1200×630 paylaşım görseli |
+
+`build.py` favicon'u yeniden çizmez, `static/favicon.ico`'yu olduğu gibi kopyalar. OG görseli
+Pillow ve Arial Black/DejaVu varsa yeniden üretir; yoksa (CI'da Pillow kurulu değil) commit'li
+dosya korunur.
+
 ## Affiliate link yöneticisi
 
 Tüm ürün linkleri `content/products.json` içindeki `asin` (varsa `/dp/ASIN`) veya
@@ -199,7 +213,9 @@ Eksik `GEMINI_API_KEY` hâlâ kırmızı fail. Üretilen dosyalar her çalışma
 
 Sıra ticari niyettedir: önce `content/konu_havuzu.json` içinde `tip_onerisi: "ticari"` olan konular, sonra her alt
 kategori için bir başlangıç seti. `nedir`, `nasıl yazılır`, il adı ve yabancı dil sorguları havuzdan ve Google
-önerilerinden elenir. Kapıdan geçen metin en az yaklaşık 1500 kelimedir (ticari konularda 1550); hedef 1650–2000.
+önerilerinden elenir. Aynı alt kategoriye art arda günlerde yazı eklenmez; son iki günde üretim yapılan grup
+kuyrukta taze grupların arkasına düşer. Başlıktaki belirgin kelimelerle eşleşmeyen ürünler makaleye alınmaz,
+böylece "lego model ai" gibi otomatik tamamlama artıkları ve başlıkla ilgisiz setler elenir. Kapıdan geçen metin en az yaklaşık 1500 kelimedir (ticari konularda 1550); hedef 1650–2000.
 Kısa kalan veya `finishReason: MAX_TOKENS` ile kesilen taslak, reddedilmeden önce eksik bölümleri tamamlayan bir devam çağrısından geçer. Alt sınır düşürülmez.
 
 Kurulum (bir kerelik): GitHub → Settings → Secrets and variables → Actions
