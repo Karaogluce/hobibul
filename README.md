@@ -179,11 +179,16 @@ düzenleme; değişiklikleri `templates/`, `static/` ve `content/` altında yap.
 
 `.github/workflows/gunluk-makale.yml` her 30 dakikada bir (UTC **:07** ve **:37**) `otomatik.py` çalıştırır.
 `*/30` dakika :00 ve :30'a denk gelir; GitHub Actions bu dilimleri yük altında geciktirir veya düşürür.
-Hedef, Türkiye takvim gününde (Europe/Istanbul) **3 yayınlanmış makale**dir. Betik
+Hedef, Türkiye takvim gününde (Europe/Istanbul) **3 yayınlanmış makale** ve bunların üstüne
+**2 arama-talebi makalesi**dir (toplam 5). Talep akışı düzenli 3 bittikten sonra çalışır;
+`GSC_HEDEF` ile değişir (varsayılan 2). Kaynak `content/analytics_gsc.json` (gösterim, sonra
+tıklama); dosya yoksa `content/gsc_seed_queries.json`. Yakın sorgular tek hedefte birleşir.
+Sorgu daha önce yazıldıysa veya mevcut bir makale onu zaten karşılıyorsa yeni yazı açılmaz;
+ikinci durumda loga `mevcut makaleyi güçlendir` düşer. Kota dolarsa talep akışı durur, düzenli
+makaleler kalır. Betik
 `content/uretim_log.json` içindeki `makaleler` kayıtlarının `tarih` alanından bugün üretilenleri sayar
 ve yalnızca kalanı yazar (`3 - bugün`). Kayıtta tarih yoksa üretim anındaki İstanbul günü yazılır.
-Gün doluysa `Bugünün 3 makalesi tamam` deyip çıkar; Gemini çağrılmaz. Elle tetikte de varsayılan adet 3,
-tavan 3'tür.
+Düzenli gün doluysa `Bugünün 3 makalesi tamam` denir; arama talebi kotası açıksa Gemini yalnızca o akış için çağrılır. Elle tetikte düzenli tavan yine 3'tür.
 
 Her biten makale hemen diske ve loga yazılır. Gemini 503/UNAVAILABLE, zaman aşımı, bağlantı hatası
 veya 429 kotasında bitenler korunur ve iş **exit 0** ile biter; sonraki tur kaldığı yerden devam eder.
