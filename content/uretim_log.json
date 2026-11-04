@@ -24,7 +24,10 @@
   "sss:teknoloji:drone:drone-nasil-ucurulur",
   "nasil_yapilir:teknoloji:raspberry-pi-elektronik:raspberry-pi-ile-linux-ve-elektronik-uygulamalari",
   "ticari:koleksiyon:lego-model:lego-model-ai",
-  "hatalar:muzik:gitar"
+  "hatalar:muzik:gitar",
+  "ticari:muzik:dj-produksiyon:dj-seti-baslangic",
+  "kontrol_listesi:evcil-hayvan:akvaryum:akvaryum-balik-malzemeleri",
+  "sss:teknoloji:drone"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -48,7 +51,10 @@
   "6w0NhcEXKns",
   "rZKdS0wI8Ks",
   "S8bde3hkBR8",
-  "fWzqFbKe9Wo"
+  "fWzqFbKe9Wo",
+  "JhYnL-BiP18",
+  "YmuOFJ7oa3E",
+  "XYrjl3j7smo"
  ],
  "atlanan": [
   {
@@ -695,6 +701,36 @@
    "anahtar": "sss:evcil-hayvan:akvaryum:akvaryum-balik-kokusu-nasil-giderilir",
    "neden": "yetersiz H2 bölümü",
    "tarih": "2026-11-03"
+  },
+  {
+   "anahtar": "ticari:muzik:dj-produksiyon:dj-seti-al",
+   "neden": "kısa (590 kelime, güvenlik tabanı 600)",
+   "tarih": "2026-11-04"
+  },
+  {
+   "anahtar": "sss:yemek-mutfak:kahve:barista-kahve-boykot-mu",
+   "neden": "kısa (579 kelime, güvenlik tabanı 600)",
+   "tarih": "2026-11-04"
+  },
+  {
+   "anahtar": "sss:evcil-hayvan:akvaryum:akvaryum-balik-kokusu-nasil-giderilir",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-04"
+  },
+  {
+   "anahtar": "hatalar:teknoloji:drone",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-04"
+  },
+  {
+   "anahtar": "sss:bahce-bitki:bonsai:bonsai-saksisi-nasil-olmali",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-04"
+  },
+  {
+   "anahtar": "hatalar:yemek-mutfak:kahve",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-04"
   }
  ],
  "makaleler": [
@@ -807,6 +843,21 @@
    "anahtar": "hatalar:muzik:gitar",
    "tarih": "2026-11-03",
    "slug": "gitar-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir"
+  },
+  {
+   "anahtar": "ticari:muzik:dj-produksiyon:dj-seti-baslangic",
+   "tarih": "2026-11-04",
+   "slug": "dj-seti-baslangic"
+  },
+  {
+   "anahtar": "kontrol_listesi:evcil-hayvan:akvaryum:akvaryum-balik-malzemeleri",
+   "tarih": "2026-11-04",
+   "slug": "akvaryum-balik-malzemeleri"
+  },
+  {
+   "anahtar": "sss:teknoloji:drone",
+   "tarih": "2026-11-04",
+   "slug": "drone-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber"
   }
  ]
 }
