@@ -5,7 +5,7 @@
     "slug": "yilbasi-hediyesi-kutu-oyunlari",
     "h1": "Yılbaşı Hediyesi Kutu Oyunları: Kime Hangi Oyun? (2026)",
     "meta_title": "Yılbaşı Hediyesi Kutu Oyunları 2026: Kime Hangi Oyun?",
-    "meta_description": "Yılbaşı için kutu oyunu önerileri: çiftlere, ailelere, arkadaş grubuna ve oyun meraklılarına göre hediye seçimi. URL'de yıl yok.",
+    "meta_description": "Yılbaşı için Türkiye'de satılan kutu oyunları: iki kişiye Sky Team, aileye Catan ve Carcassonne, kalabalığa Codenames.",
     "sorgu": "yılbaşı kutu oyunu önerileri",
     "terimler": [
       "yılbaşı kutu oyunu önerileri",
@@ -16,14 +16,18 @@
     "alt": "masaustu-oyun",
     "tip": "ticari",
     "urunler": [
-      "patchwork-kutu",
-      "dixit-kutu",
-      "kingdomino-kutu",
-      "carcassonne-kutu"
+      "sky-team",
+      "catan-kutu",
+      "carcassonne-kutu",
+      "bi-paket-cips",
+      "ticket-to-ride-europe",
+      "codenames-kutu"
     ],
     "yasak": [
-      "Slug ve URL içinde yıl yazma. H1'de 2026 kalabilir.",
-      "Fiyat yazma."
+      "URL'de yıl yazma.",
+      "content/kutu_oyunlari_tr.json dışında oyun yazma.",
+      "Kişi ve süreyi bu listeden al.",
+      "Aynı uyarıyı her bölümde tekrarlama."
     ],
     "zorunlu_linkler": [
       "/makale/en-iyi-kutu-oyunlari-2026/",
@@ -34,7 +38,9 @@
     ],
     "brief_baslik": "# Brief #18:",
     "brief_dosya": "2026-11-04-briefs-7-20.md",
-    "brief": "yilbasi-hediyesi-kutu-oyunlari"
+    "brief": "yilbasi-hediyesi-kutu-oyunlari",
+    "oyun_listesi": "kutu_oyunlari_tr.json",
+    "oyun_grup": "yilbasi"
   },
   {
     "rank": 6,
@@ -313,7 +319,7 @@
     "slug": "en-iyi-strateji-kutu-oyunlari",
     "h1": "En İyi Strateji Kutu Oyunları: Catan, Carcassonne ve Sonrası",
     "meta_title": "En İyi Strateji ve Zeka Kutu Oyunları",
-    "meta_description": "En iyi strateji kutu oyunları: Catan, Carcassonne ve Ticket to Ride. Kişi sayısı kutudaki yazıya göre; bu sayfa strateji listesidir.",
+    "meta_description": "Türkiye'de satılan strateji kutu oyunları: Catan, Carcassonne, Splendor, Wingspan, Heat ve Terraforming Mars.",
     "sorgu": "en iyi strateji kutu oyunları",
     "terimler": [
       "en iyi strateji kutu oyunları",
@@ -327,10 +333,16 @@
     "urunler": [
       "catan-kutu",
       "carcassonne-kutu",
-      "ticket-to-ride-europe"
+      "splendor",
+      "wingspan",
+      "heat-tam-gaz",
+      "terraforming-mars",
+      "7-wonders"
     ],
     "yasak": [
-      "Kişi sayısını kutu metninde olmayan biçimde yazma. /makale/en-iyi-kutu-oyunlari-2026/ kişi sayısına göredir; bu sayfayı onun kopyası yapma."
+      "content/kutu_oyunlari_tr.json dışında oyun yazma.",
+      "Kişi ve süreyi listeden al.",
+      "En iyi kutu oyunları yazısının kişi sayısı listesini kopyalama."
     ],
     "zorunlu_linkler": [
       "/makale/en-iyi-kutu-oyunlari-2026/",
@@ -338,7 +350,9 @@
     ],
     "brief_baslik": "# Brief #16:",
     "brief_dosya": "2026-11-04-briefs-7-20.md",
-    "brief": "en-iyi-strateji-kutu-oyunlari"
+    "brief": "en-iyi-strateji-kutu-oyunlari",
+    "oyun_listesi": "kutu_oyunlari_tr.json",
+    "oyun_grup": "strateji"
   },
   {
     "rank": 17,
@@ -346,7 +360,7 @@
     "slug": "yeni-baslayanlar-icin-kutu-oyunlari",
     "h1": "Yeni Başlayanlar İçin Kutu Oyunları: Nereden Başlamalı?",
     "meta_title": "Kutu Oyunları Nelerdir? Yeni Başlayan Rehberi",
-    "meta_description": "Kutu oyunları nelerdir: parti, aile ve strateji. Yeni başlayan ilk kutuyu nasıl seçer, hangi oyun kuralları bir akşamda oturur.",
+    "meta_description": "İlk kutu oyunu için Türkiye'de satılan seçenekler: Captain Flip, Beşte Beş, Carcassonne, Splendor ve Ticket to Ride Europe.",
     "sorgu": "kutu oyunları yeni başlayanlar",
     "terimler": [
       "kutu oyunları nelerdir",
@@ -357,12 +371,18 @@
     "alt": "masaustu-oyun",
     "tip": "ticari",
     "urunler": [
-      "kingdomino-kutu",
-      "azul-kutu",
-      "catan-junior"
+      "captain-flip",
+      "beste-bes",
+      "hop",
+      "carcassonne-kutu",
+      "splendor",
+      "ticket-to-ride-europe",
+      "cascadia"
     ],
     "yasak": [
-      "Sorguyu çöp sanıp konuyu değiştirme. nelerdir kalıbı bu brifin terimidir."
+      "content/kutu_oyunlari_tr.json dışında oyun yazma.",
+      "Kişi ve süreyi listeden al.",
+      "nelerdir kalıbını çöp sanıp konuyu değiştirme."
     ],
     "zorunlu_linkler": [
       "/makale/en-iyi-kutu-oyunlari-2026/",
@@ -371,7 +391,9 @@
     ],
     "brief_baslik": "# Brief #17:",
     "brief_dosya": "2026-11-04-briefs-7-20.md",
-    "brief": "yeni-baslayanlar-icin-kutu-oyunlari"
+    "brief": "yeni-baslayanlar-icin-kutu-oyunlari",
+    "oyun_listesi": "kutu_oyunlari_tr.json",
+    "oyun_grup": "yeni"
   },
   {
     "rank": 19,

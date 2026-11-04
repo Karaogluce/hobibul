@@ -23,6 +23,24 @@
     "ay1": "Kendi küçük bir fikrini, öğrendiğin parçaları birleştirerek uygulamayı dene.",
     "yukselt": "Başlangıç kitinin bir parçası projenin darboğazı olduğunda (yetersiz güç, bellek, hassasiyet) o parçayı yükselt."
   },
+  "masaustu-oyun": {
+    "gun1": "Kutuyu birlikte açın, kuralları bir kez okuyup bir el bitirin. İlk akşamı ek paketle uzatmayın.",
+    "hafta1": "Aynı oyunu bir kez daha kurun. Masaya farklı biri oturduysa, kişi sayısının oyunu nasıl değiştirdiğine bakın.",
+    "ay1": "Kiminle oynadığınız netleşince ikinci kutuyu ona göre seçin: iki kişi, aile ya da kalabalık aynı kutu değildir.",
+    "yukselt": "İlk oyun akşamları rahat oturunca daha uzun bir kutuya ya da ek pakete geçin. Sırf rafta dursun diye alma."
+  },
+  "puzzle": {
+    "gun1": "Bir oturuşta ilerleyebileceğiniz bir puzzle seçin ve parçaları bir altlıkta toplayın.",
+    "hafta1": "Yarım kalan işi masada bırakmak yerine altlıkla kaldırın. Her akşam dağıtıp yeniden kurmayın.",
+    "ay1": "Bitmiş işi ölçün. Çerçeveyi bu ölçüden önce almayın.",
+    "yukselt": "Yapıştırıcı ve çerçeve, bitmiş ve duvarda görmek istediğiniz iş içindir. Beğenmediğiniz deseni yapıştırmayın."
+  },
+  "diamond-painting": {
+    "gun1": "Tek renkle küçük bir köşe yapın. Tepsiyi açık bırakıp masadan kalkmayın.",
+    "hafta1": "Aynı sette birkaç kısa oturuş yapın. İkinci tuvali, ilki oturmadan açmayın.",
+    "ay1": "Kare mi yuvarlak mı, koyu zeminde kodu seçebiliyor musunuz, ona bakın.",
+    "yukselt": "Işık pedini, masa lambasıyla kodu seçemediğinizde alın. Küçük ped büyük tuvali taşımaz."
+  },
   "koleksiyon": {
     "gun1": "Elindekileri tek bir yerde, basit bir listede (kağıt veya not uygulaması) kayıt altına al.",
     "hafta1": "Hangi alt dala (dönem, tema, marka) yöneldiğini gözlemle, dağınık almaktan kaçın.",
