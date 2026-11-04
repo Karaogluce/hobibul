@@ -3166,7 +3166,8 @@
           "İki kişilik akşama kurulmuyor"
         ],
         "query": "Catan kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/catan/"
       },
       {
         "id": "carcassonne-kutu",
@@ -3181,7 +3182,8 @@
           "Yaş sınırı 8+"
         ],
         "query": "Carcassonne kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/carcassonne/"
       },
       {
         "id": "patchwork-kutu",
@@ -3247,7 +3249,8 @@
           "Yaş sınırı 8+"
         ],
         "query": "Ticket to Ride Europe kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/ticket-to-ride-europe/"
       },
       {
         "id": "kingdomino-kutu",
@@ -3296,7 +3299,8 @@
           "Yaş sınırı 14+"
         ],
         "query": "Codenames kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/codenames/"
       },
       {
         "id": "catan-junior",
@@ -3329,7 +3333,8 @@
           "Üçüncü kişi bu kutuya oturamıyor"
         ],
         "query": "Sky Team kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/sky-team/"
       },
       {
         "id": "codenames-duet",
@@ -3344,7 +3349,8 @@
           "Yaş sınırı 14+"
         ],
         "query": "Codenames Duet kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/codenames-duet/"
       },
       {
         "id": "splendor",
@@ -3359,7 +3365,8 @@
           "Yaş sınırı 10+"
         ],
         "query": "Splendor kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/splendor/"
       },
       {
         "id": "cascadia",
@@ -3374,7 +3381,8 @@
           "Yaş sınırı 10+"
         ],
         "query": "Cascadia kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/cascadia/"
       },
       {
         "id": "evvel-zaman",
@@ -3389,7 +3397,8 @@
           "Yaş sınırı 10+"
         ],
         "query": "Evvel Zaman kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/evvel-zaman/"
       },
       {
         "id": "captain-flip",
@@ -3404,7 +3413,8 @@
           "Yaş sınırı 8+"
         ],
         "query": "Captain Flip kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/captain-flip/"
       },
       {
         "id": "beste-bes",
@@ -3419,7 +3429,8 @@
           "Yaş sınırı 8+"
         ],
         "query": "Beşte Beş kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/beste-bes/"
       },
       {
         "id": "pandemic",
@@ -3434,7 +3445,8 @@
           "Yaş sınırı 8+"
         ],
         "query": "Pandemic kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/pandemic/"
       },
       {
         "id": "machi-koro",
@@ -3449,7 +3461,8 @@
           "Yaş sınırı 8+"
         ],
         "query": "Machi Koro kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/machi-koro/"
       },
       {
         "id": "bi-paket-cips",
@@ -3464,7 +3477,8 @@
           "Yaş sınırı 8+"
         ],
         "query": "Bi' Paket Cips kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/bi-paket-cips/"
       },
       {
         "id": "hop",
@@ -3479,7 +3493,8 @@
           "Yaş sınırı 8+"
         ],
         "query": "Hop! kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/hop/"
       },
       {
         "id": "frekans",
@@ -3494,7 +3509,8 @@
           "Yaş sınırı 14+"
         ],
         "query": "Frekans kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/frekans/"
       },
       {
         "id": "bang",
@@ -3509,7 +3525,8 @@
           "Yaş sınırı 10+"
         ],
         "query": "BANG! kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/bang/"
       },
       {
         "id": "munchkin",
@@ -3524,7 +3541,8 @@
           "Yaş sınırı 16+"
         ],
         "query": "Munchkin kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/munchkin/"
       },
       {
         "id": "7-wonders",
@@ -3539,7 +3557,8 @@
           "Yaş sınırı 14+"
         ],
         "query": "7 Wonders kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/7-wonders/"
       },
       {
         "id": "wingspan",
@@ -3554,7 +3573,8 @@
           "Yaş sınırı 14+"
         ],
         "query": "Wingspan kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/wingspan/"
       },
       {
         "id": "heat-tam-gaz",
@@ -3569,7 +3589,8 @@
           "Yaş sınırı 10+"
         ],
         "query": "Heat: Tam Gaz kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/heat-tam-gaz/"
       },
       {
         "id": "terraforming-mars",
@@ -3584,7 +3605,8 @@
           "Yaş sınırı 14+"
         ],
         "query": "Terraforming Mars kutu oyunu",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "url": "https://neotroygames.com/urun/terraforming-mars/"
       }
     ],
     "_ek": [
