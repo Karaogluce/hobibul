@@ -606,8 +606,13 @@ def _oyun_listesi_satiri(brief):
         if grup and grup not in (g.get("grup") or []):
             continue
         satirlar.append(
-            f"- {g.get('ad')} | kişi {g.get('oyuncu')} | süre {g.get('sure')} | yaş {g.get('yas')} | id {g.get('id')} | {g.get('ozet')}"
+            f"- {g.get('ad')} | kişi {g.get('oyuncu')} | süre {g.get('sure')} | yaş {g.get('yas')} | "
+            f"satın al: [Satın Al: {g.get('ad')}]({g.get('url')}) | {g.get('ozet')}"
         )
+    satirlar.append(
+        "Satın alma linki yukarıdaki Neo Troy ürün sayfası olsun. aff:// ve Amazon arama linki yazma. "
+        "rel elle yazma; build nofollow ekler."
+    )
     return "\n".join(satirlar)
 
 

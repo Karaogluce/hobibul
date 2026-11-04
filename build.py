@@ -215,17 +215,26 @@ def _esc(text):
     return html_mod.escape(text, quote=False)
 
 
+def _duz_magaza(url):
+    """Ortaklık etiketi olmayan mağaza sayfası. Şimdilik Neo Troy ürün adresi."""
+    return "neotroygames.com/urun/" in str(url or "")
+
+
 def _make_link(label, url):
     if url.startswith("aff://"):
         pid = url[6:]
         target = resolve_aff(pid)
         if target == "#":
             return label
+        if _duz_magaza(target):
+            return f'<a href="{target}" rel="nofollow">{_esc(label)}</a>'
         net = product_map.get(pid, {}).get("network", "amazon_tr")
         return (f'<a class="aff-link" href="{target}" data-aff-link="{pid}" '
                 f'data-network="{net}" target="_blank" '
                 f'rel="nofollow sponsored noopener">{_esc(label)}</a>')
     if url.startswith(("http://", "https://")):
+        if _duz_magaza(url):
+            return f'<a href="{url}" rel="nofollow">{_esc(label)}</a>'
         return f'<a href="{url}" target="_blank" rel="noopener">{_esc(label)}</a>'
     return f'<a href="{url}">{_esc(label)}</a>'
 
