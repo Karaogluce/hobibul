@@ -95,6 +95,80 @@ class SecimTest(unittest.TestCase):
             "ideal yoga matı ölçüleri",
         ])
 
+    def test_brif_kuyrugu_yilbasi_ile_baslar_ve_gsc_den_once_gelir(self):
+        otomatik._BRIEF_CACHE = None
+        liste = otomatik.talep_brif_listesi()
+        self.assertEqual(liste[0]["slug"], "yilbasi-hediyesi-kutu-oyunlari")
+        self.assertEqual(liste[0]["oncelik"], 1)
+        sec, guc = otomatik.talep_brif_sec(liste, {"talep": [], "done": []}, [], 2)
+        self.assertEqual(guc, [])
+        self.assertEqual([b["slug"] for b in sec], [
+            "yilbasi-hediyesi-kutu-oyunlari",
+            "erkekler-icin-hobiler",
+        ])
+
+    def test_yayindaki_brif_slugi_gecilir(self):
+        briefs = [
+            {"slug": "yilbasi-hediyesi-kutu-oyunlari", "oncelik": 1,
+             "sorgu": "yılbaşı kutu oyunu önerileri", "h1": "Yılbaşı Hediyesi Kutu Oyunları",
+             "zorunlu_linkler": []},
+            {"slug": "erkekler-icin-hobiler", "oncelik": 2,
+             "sorgu": "erkekler için hobiler", "h1": "Erkekler İçin Hobiler ve Hobi Setleri",
+             "zorunlu_linkler": []},
+        ]
+        mak = [{"slug": "yilbasi-hediyesi-kutu-oyunlari", "baslik": "Yılbaşı Hediyesi Kutu Oyunları"}]
+        sec, _ = otomatik.talep_brif_sec(briefs, {"talep": [], "done": []}, mak, 2)
+        self.assertEqual([b["slug"] for b in sec], ["erkekler-icin-hobiler"])
+
+    def test_ayni_konu_guclendir_slotu_doldurmaz(self):
+        briefs = [
+            {"slug": "bonsai-kopya", "oncelik": 1, "sorgu": "bonsai başlangıç seti",
+             "h1": "Bonsai Başlangıç Seti: Makas ve Tel", "zorunlu_linkler": []},
+            {"slug": "erkekler-icin-hobiler", "oncelik": 2, "sorgu": "erkekler için hobiler",
+             "h1": "Erkekler İçin Hobiler ve Hobi Setleri", "zorunlu_linkler": []},
+        ]
+        mak = [{"slug": "bonsai-baslangic-seti-makas-tel-ve-toprak",
+                "baslik": "Bonsai Başlangıç Seti: Makas, Tel ve Toprak"}]
+        sec, guc = otomatik.talep_brif_sec(briefs, {"talep": [], "done": []}, mak, 2)
+        self.assertIn("bonsai başlangıç seti", guc)
+        self.assertEqual([b["slug"] for b in sec], ["erkekler-icin-hobiler"])
+
+    def test_brif_bitince_gsc_secimi_ayri_kalir(self):
+        briefs = [{"slug": "yilbasi-hediyesi-kutu-oyunlari", "oncelik": 1,
+                   "sorgu": "yılbaşı kutu oyunu önerileri", "h1": "Yılbaşı",
+                   "zorunlu_linkler": []}]
+        mak = [{"slug": "yilbasi-hediyesi-kutu-oyunlari", "baslik": "Yılbaşı"}]
+        sec, guc = otomatik.talep_brif_sec(briefs, {"talep": [], "done": []}, mak, 2)
+        self.assertEqual(sec, [])
+        self.assertEqual(guc, [])
+        rows = [{"query": "robotik kodlama robotu", "impressions": 3, "clicks": 1, "sira": 0}]
+        gsc, _ = otomatik.talep_sec(rows, {"talep": [], "done": []}, [], 1)
+        self.assertEqual(gsc[0]["sorgu"], "robotik kodlama robotu")
+
+    def test_kadin_brifi_ev_hubi_ile_cakismaz(self):
+        brief = {
+            "slug": "kadinlar-icin-evde-yapilacak-hobiler",
+            "sorgu": "evde yapılacak hobiler kadın",
+            "h1": "Kadınlar İçin Evde Yapılacak 20 Hobi (Başlangıç Malzemeleriyle)",
+            "zorunlu_linkler": ["/makale/evde-yapilacak-hobiler/"],
+        }
+        makale = {"slug": "evde-yapilacak-hobiler",
+                  "baslik": "Evde Yapılacak Hobiler: 30 Fikir ve İlk Malzeme"}
+        self.assertFalse(otomatik.brif_makaleyle_cakisir(brief, makale))
+
+    def test_brif_promptu_slug_ve_sss_basligini_tasir(self):
+        otomatik._BRIEF_CACHE = None
+        metin = otomatik._brief_prompt({
+            "brief": "yilbasi-hediyesi-kutu-oyunlari",
+            "title": "Yılbaşı Hediyesi Kutu Oyunları: Kime Hangi Oyun? (2026)",
+            "slug": "yilbasi-hediyesi-kutu-oyunlari",
+            "tip": "talep",
+        })
+        self.assertIn("yilbasi-hediyesi-kutu-oyunlari", metin)
+        self.assertIn("URL'ye yıl ekleme", metin)
+        self.assertIn("## Sıkça Sorulan Sorular", metin)
+        self.assertIn("# Brief #18:", metin)
+
     def test_talep_makaleleri_duzenli_kotayi_doldurmaz(self):
         log = {"done": [], "makaleler": [
             {"anahtar": "talep:akvaryum-cesitleri", "tarih": "2026-11-04", "slug": "a"},

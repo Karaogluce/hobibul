@@ -210,6 +210,19 @@ class KuyrukTest(_GeciciMakaleler):
         self.assertNotIn("kamp çadırı fiyatları", sorgular)
         self.assertNotIn("matara bakım rehberi", sorgular)
 
+    def test_oncelikli_brif_adil_siranin_onune_gecer(self):
+        pool = [
+            havuz_kaydi("kamp çadırı nasıl seçilir", "outdoor", "cadir", tip="ticari"),
+            dict(havuz_kaydi("kamp çadırı nedir", "outdoor", "matara", tip="ticari"),
+                 oncelik=1, brief="yok-boyle-brif", h1="Yılbaşı Hediyesi Matara Rehberi",
+                 slug="yilbasi-hediyesi-matara"),
+        ]
+        sira = self.kuyruk(urunler(outdoor__cadir=3, outdoor__matara=3), pool=pool)
+        self.assertEqual(sira[0]["slug"], "yilbasi-hediyesi-matara")
+        self.assertEqual(sira[0]["title"], "Yılbaşı Hediyesi Matara Rehberi")
+        self.assertEqual(sira[0]["oncelik"], 1)
+        self.assertIn("kamp çadırı nasıl seçilir", {k.get("sorgu") for k in sira[1:]})
+
     def test_uygun_havuz_konusu_kuyrukta_one_gelir(self):
         pool = [havuz_kaydi("kamp çadırı nasıl seçilir", "outdoor", "cadir", tip="ticari")]
         sira = self.kuyruk(urunler(outdoor__cadir=3), pool=pool)

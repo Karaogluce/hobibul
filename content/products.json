@@ -1158,6 +1158,57 @@
         "query": "leather skiving knife",
         "network": "amazon_tr"
       }
+    ],
+    "diamond-painting": [
+      {
+        "id": "diamond-painting-set",
+        "name": "Diamond Painting Başlangıç Seti",
+        "brand": "",
+        "desc": "Basılı tuval, renk kodlu taş ve tepsi içeren başlangıç seti. Parça sayısı kutuya göre değişir; sayı uydurulmaz.",
+        "pros": [
+          "Tuval, taş ve tepsi bir arada gelir",
+          "Renk kodu tuvalin üzerindedir",
+          "Tek oturuşta küçük bir köşe biter"
+        ],
+        "cons": [
+          "Parça sayısı kutuda yazmıyorsa tahmin etme",
+          "Küçük taşlar yerde kaybolur"
+        ],
+        "query": "diamond painting set",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "diamond-painting-pen",
+        "name": "Diamond Painting Kalemi",
+        "brand": "",
+        "desc": "Tek taş veya çoklu uç takılabilen yerleştirme kalemi. Uç ölçüsü kutuda yazar.",
+        "pros": [
+          "Tek tek yerleştirmek yavaş ama kontrollüdür",
+          "Yedek uç çoğu sette ayrı durur"
+        ],
+        "cons": [
+          "Çoklu uç ilk günde taşı saçar",
+          "Mum bitince taş tutmaz"
+        ],
+        "query": "diamond painting pen",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "diamond-painting-lightpad",
+        "name": "Diamond Painting Işık Pedi",
+        "brand": "",
+        "desc": "Tuvalin altına konan ışıklı pano. Kutu boyutunu yazmıyorsa ölçü iddia etme.",
+        "pros": [
+          "Koyu tuvalde kodu okumayı kolaylaştırır",
+          "Masa lambasından daha düz ışık verir"
+        ],
+        "cons": [
+          "Küçük ped büyük tuvali taşımaz",
+          "Kablo masa kenarında takılır"
+        ],
+        "query": "diamond painting light pad",
+        "network": "amazon_tr"
+      }
     ]
   },
   "muzik": {
@@ -3100,6 +3151,176 @@
         ],
         "query": "Vallejo model color",
         "network": "amazon_tr"
+      },
+      {
+        "id": "catan-kutu",
+        "name": "Catan",
+        "brand": "Catan Studio",
+        "desc": "Kaynak toplama ve yerleşme oyunu. Temel kutu 3 veya 4 kişi içindir.",
+        "pros": [
+          "Takas masayı konuşturur",
+          "Kurallar bir akşamda oturur",
+          "Ek kutuyla kişi sayısı artar"
+        ],
+        "cons": [
+          "Temel kutu 2 kişiye göre değildir",
+          "Zar, planı bozabilir"
+        ],
+        "query": "Catan kutu oyunu",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "carcassonne-kutu",
+        "name": "Carcassonne",
+        "brand": "Z-Man Games",
+        "desc": "Fayans döşeyerek şehir, yol ve manastır kurulan oyun. Kutuda 2-5 kişi yazar.",
+        "pros": [
+          "İki kişiyle de kurulur",
+          "Turlar kısadır",
+          "Puan hesabı tahtanın üstünde görünür"
+        ],
+        "cons": [
+          "Çok kişi olunca masa kalabalıklaşır",
+          "Kurallar sade, derinlik sınırlıdır"
+        ],
+        "query": "Carcassonne board game",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "patchwork-kutu",
+        "name": "Patchwork",
+        "brand": "Lookout Games",
+        "desc": "Yalnızca iki kişilik yama ve düğme oyunu.",
+        "pros": [
+          "İki kişi için tasarlanmıştır",
+          "Kutu küçüktür",
+          "Tur sayısı bellidir"
+        ],
+        "cons": [
+          "Üçüncü kişi masaya oturamaz",
+          "Tema soyuttur"
+        ],
+        "query": "Patchwork board game",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "7-wonders-duel",
+        "name": "7 Wonders Duel",
+        "brand": "Repos Production",
+        "desc": "İki kişilik kart ve taslak oyunu. Üçüncü oyuncu için kutu yoktur.",
+        "pros": [
+          "Yalnızca iki kişiliktir",
+          "Partiler Catan'dan kısadır",
+          "Asker, bilim ve sivil yollar ayrılır"
+        ],
+        "cons": [
+          "Kalabalık aile masasına uymaz",
+          "Kart metinleri ilk oyunda yavaşlatır"
+        ],
+        "query": "7 Wonders Duel",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "azul-kutu",
+        "name": "Azul",
+        "brand": "Plan B Games",
+        "desc": "Fayans seçip duvar deseni kurulan oyun. Kutu 2-4 kişi yazar.",
+        "pros": [
+          "İki kişiyle de oynanır",
+          "Turlar hızlıdır",
+          "Puan desenin kendisindedir"
+        ],
+        "cons": [
+          "Renk körlüğünde fayanslar karışabilir",
+          "Şans, ortak havuzdan gelir"
+        ],
+        "query": "Azul board game",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "ticket-to-ride-europe",
+        "name": "Ticket to Ride Europe",
+        "brand": "Days of Wonder",
+        "desc": "Tren yolu bağlama oyunu. Avrupa haritası 2-5 kişi içindir.",
+        "pros": [
+          "İki kişiyle de kurulur",
+          "Hedef kartları gizlidir",
+          "Harita okuması sadedir"
+        ],
+        "cons": [
+          "Masa geniş ister",
+          "Uzun partide dikkat dağılır"
+        ],
+        "query": "Ticket to Ride Europe",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "kingdomino-kutu",
+        "name": "Kingdomino",
+        "brand": "Blue Orange",
+        "desc": "Domino krallık kurma oyunu. Kutu 2-4 kişi yazar.",
+        "pros": [
+          "Kurulum kısadır",
+          "Çocuklu masada turlar kısa sürer",
+          "Puan hesabı kareler üzerindedir"
+        ],
+        "cons": [
+          "Derin strateji arayana sığ gelir",
+          "Aynı tahta üst üste tekrar hissedilebilir"
+        ],
+        "query": "Kingdomino",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "dixit-kutu",
+        "name": "Dixit",
+        "brand": "Libellud",
+        "desc": "Resimli kartla ipucu veren anlatım oyunu. Kalabalık masa için uygundur, iki kişilik değildir.",
+        "pros": [
+          "Konuşma ve hayal öndedir",
+          "Kartlar tekrar kullanılabilir",
+          "Kurallar kısadır"
+        ],
+        "cons": [
+          "İki kişiyle kurulmaz",
+          "Sessiz masada kartlar boşa düşer"
+        ],
+        "query": "Dixit board game",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "codenames-kutu",
+        "name": "Codenames",
+        "brand": "Czech Games Edition",
+        "desc": "İki takımın kelime ipucu verdiği parti oyunu.",
+        "pros": [
+          "Kalabalıkta herkes söz alır",
+          "Kurulum bir dakikadır",
+          "Tekrar oynanır"
+        ],
+        "cons": [
+          "İki kişiye göre değildir",
+          "Kelime bilgisi masayı böler"
+        ],
+        "query": "Codenames board game",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "catan-junior",
+        "name": "Catan Junior",
+        "brand": "Catan Studio",
+        "desc": "Çocuklar için sadeleştirilmiş Catan. Temel Catan'dan ayrı bir kutudur.",
+        "pros": [
+          "Kurallar temel kutudan kısadır",
+          "Parçalar büyüktür",
+          "Aile masasında turlar kısa sürer"
+        ],
+        "cons": [
+          "Yetişkin strateji gecesi için sığdır",
+          "Temel Catan'ın yerine geçmez"
+        ],
+        "query": "Catan Junior",
+        "network": "amazon_tr"
       }
     ],
     "_ek": [
@@ -3237,6 +3458,72 @@
         "query": "LEGO Kiraz Çiçekleri 40725",
         "network": "amazon_tr",
         "asin": "B0CFW1NHPC"
+      }
+    ],
+    "puzzle": [
+      {
+        "id": "puzzle-mat",
+        "name": "Puzzle Altlığı",
+        "brand": "",
+        "desc": "Parçaları üzerinde toplayıp katlanan veya rulo yapılan altlık. Ölçü kutuda yoksa santim yazma.",
+        "pros": [
+          "Yarım kalan işi masadan kaldırmayı sağlar",
+          "Parçalar kaymayı azaltır"
+        ],
+        "cons": [
+          "Altlık, yapıştırıcı değildir",
+          "Çok büyük puzzle tek rulo sığmayabilir"
+        ],
+        "query": "puzzle mat roll up",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "puzzle-yapistirici",
+        "name": "Puzzle Yapıştırıcısı",
+        "brand": "",
+        "desc": "Bitmiş puzzle'ın ön yüzüne sürülen yapıştırıcı. Duvara asmadan önce kuruma notu kutudadır.",
+        "pros": [
+          "Çerçevelemeden önce parçayı sabitler",
+          "Fırça çoğu şişenin kapağındadır"
+        ],
+        "cons": [
+          "Yapıştıktan sonra söküp yeniden kuramazsın",
+          "İnce sürülmezse yüzey dalgalanır"
+        ],
+        "query": "puzzle glue",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "puzzle-cerceve",
+        "name": "Puzzle Çerçevesi",
+        "brand": "",
+        "desc": "Bitmiş puzzle için çerçeve. İç ölçü kutuda yazıyorsa ona bak; yoksa tahmin etme.",
+        "pros": [
+          "Duvara asılacak işi düz tutar",
+          "Cam, tozu keser"
+        ],
+        "cons": [
+          "Yanlış iç ölçü puzzle'ı sıkıştırır",
+          "Cam yansıması deseni kapatabilir"
+        ],
+        "query": "puzzle frame",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "puzzle-hali",
+        "name": "Puzzle Halısı",
+        "brand": "",
+        "desc": "Parçaların üstünde durduğu keçe veya köpük halı. Rulodan ayrı bir üründür.",
+        "pros": [
+          "Masa yokken yerde çalışmayı düzleştirir",
+          "Parça kaymasını azaltır"
+        ],
+        "cons": [
+          "Halı, taşıma rulolarının yerine geçmez",
+          "Evcil hayvan tüyü desene yapışır"
+        ],
+        "query": "puzzle felt mat",
+        "network": "amazon_tr"
       }
     ]
   },
@@ -4468,6 +4755,38 @@
           "İplik az"
         ],
         "query": "sewing accessory kit",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "punch-needle",
+        "name": "Punch Nakış İğnesi",
+        "brand": "",
+        "desc": "Kumaşa ilmek geçiren punch iğnesi. İp kalınlığı ve uç ölçüsü kutuya göre değişir; sayı uydurulmaz.",
+        "pros": [
+          "Dikiş makinesi gerekmez",
+          "Küçük motifi kasnakta çıkarır"
+        ],
+        "cons": [
+          "Kumaş gerilmezse ilmek dağılır",
+          "İnce kumaşta delik büyüyebilir"
+        ],
+        "query": "punch needle embroidery",
+        "network": "amazon_tr"
+      },
+      {
+        "id": "nakis-kasnak",
+        "name": "Nakış Kasnağı",
+        "brand": "",
+        "desc": "Kumaşı geren nakış kasnağı. Çap kutuda yazar; santim uydurulmaz.",
+        "pros": [
+          "Kumaşı gergin tutar",
+          "Elde ya da masada durur"
+        ],
+        "cons": [
+          "Çok sıkılırsa kumaş iz bırakır",
+          "Kalın kumaşta vida yetmeyebilir"
+        ],
+        "query": "embroidery hoop",
         "network": "amazon_tr"
       }
     ],
