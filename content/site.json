@@ -10,6 +10,7 @@
   },
   "amazon_tag": "hobibulsite-21",
   "dashboard_password": "hobibul123",
+  "dashboard_path": "/panel-f082a1b2dc0e36c096e44d1b47e6eab6/",
   "analytics": {
     "provider": "supabase",
     "supabase_url": "https://jwxnpzgggrteaztahwmb.supabase.co",

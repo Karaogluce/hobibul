@@ -10,7 +10,7 @@ kapsayan SEO uyumlu statik site + trafik/affiliate tıklama analitiği paneli.
 - **SEO:** her sayfa için özgün meta title/description, kanonik URL, breadcrumb, JSON-LD, `sitemap.xml`, `robots.txt`.
 - **IndexNow:** yeni/değişen sayfalar Bing, Yandex, Seznam ve Naver'a sitemap beklemeden anında bildirilir.
 - **Çoklu affiliate ağı desteği:** Amazon (aktif), Amazon TR / Trendyol / Hepsiburada (ID eklemeye hazır).
-- **Analitik paneli:** kaynakta `templates/dashboard.html` durur; `build.py` bunu `docs/` altına yazmaz. Tahmin edilebilir `/dashboard/` adresi yayınlanmaz.
+- **Analitik paneli:** `content/site.json` → `dashboard_path` altına üretilir. Menüde, site haritasında ve `robots.txt` içinde bu yol yoktur. `/dashboard/` disallow olarak kalır.
 - **3 detaylı başlangıç makalesi** (1200+ kelime, H2/H3, gömülü affiliate linkleri).
 - **Footer'da yasal affiliate açıklaması.**
 
@@ -143,7 +143,7 @@ Panelde ayrı bir "HTTP yönlendir / 301" kuralı varsa kapat; o kural `http://`
    }
    ```
 5. `python build.py` ile yeniden üretin ve GitHub'a push'layın.
-6. Panel sayfası siteyle birlikte yayınlanmaz. Görüntülenme ve tıklama verisi Supabase'te durur; herkese açık `docs/` içinde `/dashboard/` yoktur.
+6. Paneli `content/site.json` içindeki `dashboard_path` adresinden açın. Adres menüde yoktur; girişte mevcut panel parolası sorulur.
 
 > Not: anon anahtar herkese açık olduğundan teknik olarak isteyen sahte olay yazabilir.
 > Küçük bir site için önemsizdir; ciddi ölçeğe ulaştığınızda yazmayı bir sunucuya taşıyın.
@@ -224,7 +224,7 @@ Sıradaki konuları görmek için: `python otomatik.py --konu-listesi`
 
 `fetch_analytics.py` + `.github/workflows/analytics.yml`, GA4'ten günlük veriyi **sunucu
 tarafında** (GitHub Actions) çekip `content/analytics_ga4.json`'a yazar; panel bu dosyayı okur.
-Servis hesabı anahtarı hiçbir zaman tarayıcıya/koda konmaz. Kurulum adımları aşağıda. Panel sayfası yayınlanmadığı için GA4 notu bu dosyada durur.
+Servis hesabı anahtarı hiçbir zaman tarayıcıya/koda konmaz. Kurulum adımları aşağıda. Panel bu dosyayı okur; adresi sitede linklenmez.
 
 Secrets (GitHub → Settings → Secrets and variables → Actions):
 - `GA4_PROPERTY_ID` — GA4 mülk numarası (örn. 123456789)
