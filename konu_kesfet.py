@@ -51,7 +51,10 @@ PRIORITY = re.compile(r"nasıl|nedir|listesi|malzemeleri|için en iyi", re.I)
 AKIL_ARGO = ("ula", "yaa", "abi", "amk", "ya işte", "nolur", "pls")
 AKIL_ARGO_RE = re.compile(
     r"(?<![\w])(?:" + "|".join(re.escape(k) for k in AKIL_ARGO) + r")(?![\w])", re.I)
-AKIL_META = re.compile(r"\b(?:ad[ıi]|ismi|ne demek|nasıl yazılır|nasil yazilir)\s*$", re.I)
+# "dj seti adı" sonda biter; "lego model ai" başlığın içinde tek başına kalır.
+AKIL_META = re.compile(
+    r"\b(?:ad[ıi]|ismi|ne demek|nasıl yazılır|nasil yazilir)\s*$|\bai\b",
+    re.I)
 # Sorunun başında geçen, konuyla çelişmeyen genel bağlam kelimeleri.
 AKIL_BAGLAM = {"evde", "yeni", "en", "iyi", "ilk", "nasıl", "nasil", "hangi", "için", "icin"}
 MAX_PER_SUB = 15

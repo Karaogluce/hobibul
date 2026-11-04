@@ -4,7 +4,7 @@ slug: "kedi-bakim-seti-tirmalama-firca-ve-oyuncak"
 category: "evcil-hayvan"
 subcategory: "kedi-bakimi"
 date: "2026-10-28"
-updated: "2026-10-29"
+updated: "2026-11-04"
 meta_title: "Kedi Bakım Seti: Tırmalama, Fırça, Oyuncak | Hobi Bul"
 meta_description: "Kedi bakım seti: SmartCat tırmalama, KONG fırça, GoCat olta, Catit pist ve Petstages kule. Kum kabı sayfası doğrulanmadı."
 excerpt: "Önce tırmalama direği, sonra fırça. Oyuncak üçüncü. Kum kabının temiz ürün sayfası bu turda yok."
@@ -83,7 +83,7 @@ Sürekli yanında olamayacağın bir oyun aracı arıyorsan olta sana gelmez. Ke
 
 ## Kum ve Su Kabında Nelere Dikkat Etmeli?
 
-Şu an için önerdiğim setlerde kum kabı sayfası bulunmuyor ama bu konuda işini kolaylaştıracak birkaç ipucu verebilirim. Kum kabını mutlaka tırmalama direğinden uzak bir yere koy; kedin tırmalarken kumların sisal arasına dolmasını istemezsin. Ayrıca kum kabının kedinin içinde 360 derece dönebileceği kadar geniş olduğundan emin olmalısın. Su kabı olarak da ağır seramikleri tercih edersen, oyun sırasında devrilme riskini azaltırsın. Eğer hafif plastik bir kap kullanıyorsan, onu direğin yakınına koyma; su dökülürse sisal ıslanır ve koku yapar.
+Şu an için önerdiğim setlerde kum kabı sayfası bulunmuyor ama bu konuda işini kolaylaştıracak birkaç ipucu verebilirim. Kum kabını mutlaka tırmalama direğinden uzak bir yere koy; kedin tırmalarken kumların sisal arasına dolmasını istemezsin. Ayrıca kum kabının kedinin içinde 360 derece dönebileceği kadar geniş olduğundan emin olmalısın. Mama ve su kabını kumun yanına koyma; kedi yediği yerin dibine tuvaletini yapmak istemez. Topakları günde bir, mümkünse iki kez al. Akşam GoCat ile kısa bir oyun, ardından ZoomGroom ile tarama, gevşek tüyü odaya yayılmadan toplar. Su kabı olarak da ağır seramikleri tercih edersen, oyun sırasında devrilme riskini azaltırsın. Eğer hafif plastik bir kap kullanıyorsan, onu direğin yakınına koyma; su dökülürse sisal ıslanır ve koku yapar.
 
 ## Sık Sorulan Sorular
 

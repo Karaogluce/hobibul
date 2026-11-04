@@ -251,6 +251,46 @@ subcategory: cadir
         self.assertNotIn("çadır nasıl sökülür", [k.get("sorgu") for k in sira])
         self.assertEqual(rapor["benzer"], 1)
 
+    def test_bozuk_baslik_kuyruga_girmez(self):
+        pool = [
+            havuz_kaydi("çadır modeli ai", "outdoor", "cadir", tip="ticari"),
+            havuz_kaydi("çadır seti adı", "outdoor", "cadir", tip="nasil_yapilir"),
+            havuz_kaydi("çadır nasıl kurulur", "outdoor", "cadir", tip="nasil_yapilir"),
+        ]
+        rapor = {}
+        sira = self.kuyruk(urunler(outdoor__cadir=3), pool=pool, rapor=rapor)
+        sorgular = {k.get("sorgu") for k in sira}
+        basliklar = {k.get("title") for k in sira}
+        self.assertNotIn("çadır modeli ai", sorgular)
+        self.assertNotIn("çadır seti adı", sorgular)
+        self.assertNotIn("Çadır modeli ai", basliklar)
+        self.assertNotIn("Çadır seti adı", basliklar)
+        self.assertIn("çadır nasıl kurulur", sorgular)
+        self.assertGreaterEqual(rapor.get("bozuk_baslik", 0), 2)
+
+    def test_ayni_baslangic_sablonu_yayinlanmis_baslikla_elenir(self):
+        metin = """---
+title: "Kamp Çadırı Başlangıç Seti: Direk, Taban ve Rüzgar"
+category: outdoor
+subcategory: cadir
+---
+"""
+        with open(os.path.join(self.articles, "cadir-baslangic.md"), "w", encoding="utf-8") as f:
+            f.write(metin)
+        rapor = {}
+        sira = self.kuyruk(urunler(outdoor__cadir=3), rapor=rapor)
+        basliklar = [k.get("title") for k in sira]
+        self.assertFalse(any("Başlangıç Seti: İlk Alınacaklar" in (b or "") for b in basliklar))
+        self.assertTrue(any("Yeni Başlayanlar Rehberi" in (b or "") for b in basliklar))
+        self.assertGreaterEqual(rapor.get("benzer", 0), 1)
+
+    def test_baslik_bozuk_kurallari(self):
+        self.assertEqual(otomatik.baslik_bozuk("dj seti başlangıç"), "kucuk-harf")
+        self.assertEqual(otomatik.baslik_bozuk("Kısa"), "kisa")
+        self.assertEqual(otomatik.baslik_bozuk("Lego model ai"), "artefakt")
+        self.assertEqual(otomatik.baslik_bozuk("Dj seti adı"), "artefakt")
+        self.assertIsNone(otomatik.baslik_bozuk("Çadır Nasıl Kurulur?"))
+
     def test_kuyruk_deterministik(self):
         pool = [
             havuz_kaydi("kamp çadırı nasıl seçilir", "outdoor", "cadir", tip="ticari"),

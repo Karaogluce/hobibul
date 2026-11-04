@@ -4,7 +4,7 @@ slug: "en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions"
 category: "koleksiyon"
 subcategory: "lego-model"
 date: "2026-10-28"
-updated: "2026-10-29"
+updated: "2026-11-04"
 meta_title: "En İyi LEGO Setleri: Bonsai ve Speed Champions | Hobi Bul"
 meta_description: "Yetişkin LEGO setleri: Bonsai 10281, Mini Bonsai 10373, Sukulent 10309, Supra 77260 ve Zaman Makinesi 77256. Vitrin için seç."
 excerpt: "İlk yetişkin setini parçası dağılmayan bir vitrine göre seç. Canlı bonsai ile LEGO bonsai aynı raf değildir."
@@ -88,7 +88,9 @@ Bir diğer efsane ise 77256 kodlu Geleceğe Dönüş zaman makinesi. Kutudan hem
 
 ## Kurulum ve Uzun Ömürlü Kullanım İçin İpuçları
 
-Kutuyu halının üzerinde açma hatasına düşme; o minik parçalar halının tüyleri arasında kaybolursa bulması imkansız olur. Geniş bir tepsi veya düz bir masa her zaman hayat kurtarır. Özellikle 10309 Sukulentler gibi çok kitapçıklı setlerde, poşetleri kitapçıklara göre ayırmak işini çok kolaylaştırır. 
+Kutuyu halının üzerinde açma hatasına düşme; o minik parçalar halının tüyleri arasında kaybolursa bulması imkansız olur. Geniş bir tepsi veya düz bir masa her zaman hayat kurtarır. Özellikle 10309 Sukulentler gibi çok kitapçıklı setlerde, poşetleri kitapçıklara göre ayırmak işini çok kolaylaştırır.
+
+Speed Champions araçlarını rafa tam düz koymak yerine hafif çapraz yerleştirirsen jant ve yan profil daha net görünür. Supra'yı sergilerken krom jantı ve gövde grafiğini gösteren açıyı seç. Botanik modellerde simetriyi zorlama; bonsainin kıvrımlı dalı birkaç kitabın yanında daha sakin durur, sukulentleri tek köşeye yığmak yerine masaya dağıtabilirsin. 
 
 Tozlanma konusuna gelirsek, sert fırçalar kullanmaktan kaçınmalısın çünkü pimli bağlantıları yerinden oynatabilirsin. Yumuşak bir makyaj fırçası veya toz alma püskülü yeterli olacaktır. Modelleri asla suyla yıkama, çünkü bu setlerin hiçbirinde suya dayanıklılık gibi bir durum söz konusu değil.
 
@@ -107,6 +109,9 @@ Tekerlekleri döner ancak bunlar motorlu veya uzaktan kumandalı araçlar değil
 
 **Yedek parçaları nasıl saklamalıyım?**
 Bonsai setindeki yedek yaprakları kendi kutusunda veya kilitli bir poşette saklaman en iyisi. Saksının dibine koyarsan temizlik yaparken kaybolabilirler.
+
+**10281'de yaprak değiştirmek zor mu?**
+Ana dal durur. Yeşil yaprak öbeklerini veya pembe kiraz çiçeklerini dal ucundan çekip diğer rengi yerine takarsın. İkisini aynı anda takamazsın.
 
 ## İhtiyacına Göre Seçim Tablosu
 
