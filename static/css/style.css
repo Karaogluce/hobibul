@@ -160,6 +160,7 @@ h1,h2,h3,h4{font-family:var(--display);line-height:1.12;letter-spacing:-.02em;ma
 .btn-aff.secondary{background:#0f172a}
 .shop-ctas{margin:0 0 22px;padding:16px;border-radius:var(--r-md);background:var(--surface);border:1px solid var(--line)}
 .shop-ctas p{margin:0 0 12px;color:var(--muted)}
+.shop-offer p{color:var(--ink);font-weight:600}
 .shop-cta-row{display:flex;flex-wrap:wrap;gap:10px}
 
 /* ---- makale sayfası ---- */

@@ -41,7 +41,7 @@ Analitik izni açıksa sayfa görüntülemesi ve ortaklık bağlantısı tıklam
 Bazı bağlantılar satış ortağı bağlantısıdır. Tıklayınca ilgili mağazaya gidersin. O andan sonra mağazanın ve ağın kendi çerezleri çalışabilir. Bunlar bizim çerezimiz değildir. Fiyat sana yansımaz. Ayrıntılı liste [affiliate açıklamasında](/affiliate-aciklamasi/).
 
 - **Amazon Associates.** Amazon.com.tr bağlantılarında Amazon’un ortaklık etiketi vardır. Amazon, tıklamayı komisyon kaydı için işaretleyebilir.
-- **Admitad.** AliExpress ve Geekbuying için bazı düğmeler Admitad deeplink’inden geçer. Admitad, yönlendirmeyi kendi kaydında tutabilir.
+- **Admitad.** AliExpress, Geekbuying ve eşleşen video konularında Wondershare için bazı düğmeler Admitad deeplink’inden geçer. Admitad, yönlendirmeyi kendi kaydında tutabilir.
 - **Gelir Ortakları.** Trendyol ve Hepsiburada bağlantıları bu ağ üzerinden kurulabilir. Böyle bir bağlantıya tıkladığında Gelir Ortakları ile ilgili mağaza, komisyon için çerez kullanabilir. Her mağaza düğmesi şu an komisyon üretmez; etiketsiz düz arama linki komisyon yazmaz.
 
 ## Google AdSense henüz yok

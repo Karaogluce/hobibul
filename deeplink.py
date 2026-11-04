@@ -119,7 +119,58 @@ def shop_ctas_for(cat, sub="", links=None):
             "target_url": target,
             "track_id": f"{key}:{keyword_slug(keyword)}",
         })
-    return {"lead": _lead(out) if out else "", "links": out}
+    offers = []
+    ws = networks.get("wondershare") or {}
+    if spec.get("wondershare") and ws.get("type") == "deeplink" and ws.get("active", True):
+        offers = _wondershare_offers(spec.get("wondershare"), ws)
+    return {"lead": _lead(out) if out else "", "links": out, "offers": offers}
+
+
+def _as_product_list(value):
+    if value is None or value == "":
+        return []
+    if isinstance(value, list):
+        return value
+    return [value]
+
+
+def _wondershare_offers(value, net):
+    """Filmora / UniConverter / PDFelement. Değer ürün kimliği, liste veya {product, lead}."""
+    catalog = net.get("products") or {}
+    raw = _as_product_list(value)
+    offers = []
+    custom_lead = False
+    for item in raw:
+        if isinstance(item, str):
+            pid, lead = item.strip(), ""
+        elif isinstance(item, dict):
+            pid = str(item.get("product") or "").strip()
+            lead = str(item.get("lead") or "").strip()
+            if lead:
+                custom_lead = True
+        else:
+            continue
+        prod = catalog.get(pid) or {}
+        target = str(prod.get("url") or "").strip()
+        href = admitad_deeplink(net.get("base_url", ""), target)
+        if not href:
+            continue
+        label = prod.get("label") or pid
+        offers.append({
+            "network": "wondershare",
+            "name": net.get("name") or "Wondershare",
+            "label": label,
+            "locative": net.get("locative") or "Wondershare'de",
+            "keyword": pid,
+            "lead": lead or prod.get("lead") or label,
+            "href": href,
+            "target_url": target,
+            "track_id": f"wondershare:{pid}",
+        })
+    if len(offers) > 1 and not custom_lead:
+        kisa = [o["label"].replace("Wondershare ", "") for o in offers]
+        offers[0]["lead"] = "Videolarını düzenlemek ve dönüştürmek için: Wondershare " + " ve ".join(kisa)
+    return offers
 
 
 def _self_check():
@@ -144,12 +195,32 @@ def _self_check():
     assert [c["network"] for c in drone["links"]] == ["aliexpress", "geekbuying"]
     assert drone["links"][0]["label"] == "AliExpress'te bak"
     assert drone["links"][1]["label"] == "Geekbuying'de bak"
-    for c in drone["links"]:
+    assert [c["keyword"] for c in drone["offers"]] == ["filmora"]
+    assert drone["offers"][0]["lead"] == "Videolarını düzenlemek için: Wondershare Filmora"
+    assert drone["offers"][0]["href"].startswith(
+        "https://kjuzv.com/g/8u3trxihmwa8d7abb5f6ef655e4ac9/?ulp=")
+    assert unquote(drone["offers"][0]["href"].split("ulp=", 1)[1]) == "https://filmora.wondershare.com/"
+    for c in drone["links"] + drone["offers"]:
         assert c["href"].count("ulp=") == 1
         assert unquote(c["href"].split("ulp=", 1)[1]) == c["target_url"]
 
+    foto = shop_ctas_for("sanat", "fotografcilik", links)
+    assert foto["links"] == []
+    assert [c["keyword"] for c in foto["offers"]] == ["filmora"]
+    vlog = shop_ctas_for("seyahat-gezi", "vlog", links)
+    assert [c["keyword"] for c in vlog["offers"]] == ["filmora", "uniconverter"]
+    assert "UniConverter" in vlog["offers"][0]["lead"]
+    dj = shop_ctas_for("muzik", "dj-produksiyon", links)
+    assert dj["offers"][0]["lead"].startswith("Çektiğin set videosunu")
+    assert shop_ctas_for("sanat", "", links)["offers"] == []
+    assert shop_ctas_for("teknoloji", "", links)["offers"] == []
+    assert shop_ctas_for("muzik", "gitar", links)["offers"] == []
     assert shop_ctas_for("spor-fitness", "yoga-pilates", links)["links"] == []
+    assert shop_ctas_for("spor-fitness", "yoga-pilates", links)["offers"] == []
     assert shop_ctas_for("outdoor", "kampcilik", links)["links"] == []
+    pdf = _wondershare_offers("pdfelement", links["networks"]["wondershare"])
+    assert pdf[0]["target_url"] == "https://pdf.wondershare.com/"
+    assert shop_ctas_for("yazi-edebiyat", "blog-yazarligi", links)["offers"] == []
     fishing = shop_ctas_for("outdoor", "balikcilik", links)
     assert [c["network"] for c in fishing["links"]] == ["aliexpress"]
     pc = shop_ctas_for("teknoloji", "oyun-pc-modlama", links)
