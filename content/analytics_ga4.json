@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-04",
+ "generated_at": "2026-11-05",
  "period_days": 30,
  "visitors_daily": [
   {
@@ -29,20 +29,28 @@
   {
    "date": "2026-11-03",
    "users": 2
+  },
+  {
+   "date": "2026-11-04",
+   "users": 2
+  },
+  {
+   "date": "2026-11-05",
+   "users": 1
   }
  ],
  "channels": [
   {
    "name": "Direct",
-   "sessions": 70
+   "sessions": 77
   },
   {
    "name": "Organic Search",
-   "sessions": 17
+   "sessions": 18
   },
   {
    "name": "Unassigned",
-   "sessions": 1
+   "sessions": 2
   }
  ],
  "top_pages": [
@@ -55,13 +63,19 @@
   {
    "path": "/makale/en-iyi-lego-setleri-yetiskin-icin-bonsai-sukulent-ve-speed-champions/",
    "slug": "en-iyi-lego-setleri-yetiskin-icin-bonsai-sukulent-ve-speed-champions",
-   "title": "En İyi LEGO Setleri: Yetişkin İçin Bonsai, Sukulent ve Speed Champions",
+   "title": "en-iyi-lego-setleri-yetiskin-icin-bonsai-sukulent-ve-speed-champions",
    "views": 4
+  },
+  {
+   "path": "/makale/2-kisilik-kutu-oyunlari/",
+   "slug": "2-kisilik-kutu-oyunlari",
+   "title": "2 Kişilik Kutu Oyunları: Türkiye'de Satılan Kutular",
+   "views": 3
   },
   {
    "path": "/makale/akvaryum-kurulumu-baslangic-seti/",
    "slug": "akvaryum-kurulumu-baslangic-seti",
-   "title": "Akvaryum Kurulumu Başlangıç Seti",
+   "title": "Akvaryum Kurulumu: Tetra Starter Line 54 L Seti",
    "views": 3
   },
   {
@@ -79,7 +93,7 @@
   {
    "path": "/makale/lego-model-araba/",
    "slug": "lego-model-araba",
-   "title": "Lego model araba",
+   "title": "lego-model-araba",
    "views": 3
   },
   {
@@ -91,19 +105,13 @@
   {
    "path": "/makale/bonsai-baslangic-seti-ilk-alinacaklar-2026/",
    "slug": "bonsai-baslangic-seti-ilk-alinacaklar-2026",
-   "title": "Bonsai Başlangıç Seti: İlk Alınacaklar (2026)",
+   "title": "bonsai-baslangic-seti-ilk-alinacaklar-2026",
    "views": 2
   },
   {
    "path": "/makale/deri-isciligi-baslangic-seti-ilk-alinacaklar-2026/",
    "slug": "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026",
    "title": "Deri İşçiliği Başlangıç Seti: İlk Alınacaklar (2026)",
-   "views": 2
-  },
-  {
-   "path": "/makale/dj-seti-adi/",
-   "slug": "dj-seti-adi",
-   "title": "Dj seti adı",
    "views": 2
   }
  ]
