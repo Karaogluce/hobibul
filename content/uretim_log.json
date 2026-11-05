@@ -27,7 +27,11 @@
   "hatalar:muzik:gitar",
   "ticari:muzik:dj-produksiyon:dj-seti-baslangic",
   "kontrol_listesi:evcil-hayvan:akvaryum:akvaryum-balik-malzemeleri",
-  "sss:teknoloji:drone"
+  "sss:teknoloji:drone",
+  "sss:yemek-mutfak:kahve",
+  "rehber:teknoloji:raspberry-pi-elektronik",
+  "rehber:muzik:dj-produksiyon",
+  "talep:yilbasi-hediyesi-kutu-oyunlari"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -54,7 +58,11 @@
   "fWzqFbKe9Wo",
   "JhYnL-BiP18",
   "YmuOFJ7oa3E",
-  "XYrjl3j7smo"
+  "XYrjl3j7smo",
+  "CvmuGZvg36I",
+  "Ky0B3cBJGKo",
+  "2Rtc0Cdhmc4",
+  "pm7QgL2pnSQ"
  ],
  "atlanan": [
   {
@@ -731,6 +739,41 @@
    "anahtar": "hatalar:yemek-mutfak:kahve",
    "neden": "yetersiz H2 bölümü",
    "tarih": "2026-11-04"
+  },
+  {
+   "anahtar": "hatalar:yemek-mutfak:kahve",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-05"
+  },
+  {
+   "anahtar": "sss:muzik:gitar",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-05"
+  },
+  {
+   "anahtar": "hatalar:teknoloji:drone",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-05"
+  },
+  {
+   "anahtar": "sss:bahce-bitki:bonsai:bonsai-saksisi-nasil-olmali",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-05"
+  },
+  {
+   "anahtar": "yeni_baslayan:koleksiyon:lego-model",
+   "neden": "konuyla eşleşen Unsplash görseli bulunamadı",
+   "tarih": "2026-11-05"
+  },
+  {
+   "anahtar": "talep:erkekler-icin-hobiler",
+   "neden": "kısa (1084 kelime, güvenlik tabanı 1500)",
+   "tarih": "2026-11-05"
+  },
+  {
+   "anahtar": "talep:akvaryum-cesitleri",
+   "neden": "kısa (984 kelime, güvenlik tabanı 1500)",
+   "tarih": "2026-11-05"
   }
  ],
  "makaleler": [
@@ -858,6 +901,35 @@
    "anahtar": "sss:teknoloji:drone",
    "tarih": "2026-11-04",
    "slug": "drone-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber"
+  },
+  {
+   "anahtar": "sss:yemek-mutfak:kahve",
+   "tarih": "2026-11-05",
+   "slug": "kahve-barista-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber"
+  },
+  {
+   "anahtar": "rehber:teknoloji:raspberry-pi-elektronik",
+   "tarih": "2026-11-05",
+   "slug": "en-iyi-raspberry-pi-elektronik-ekipmanlari-2026-alim-rehberi"
+  },
+  {
+   "anahtar": "rehber:muzik:dj-produksiyon",
+   "tarih": "2026-11-05",
+   "slug": "en-iyi-dj-produksiyon-ekipmanlari-2026-alim-rehberi"
+  },
+  {
+   "anahtar": "talep:yilbasi-hediyesi-kutu-oyunlari",
+   "tarih": "2026-11-05",
+   "slug": "yilbasi-hediyesi-kutu-oyunlari"
+  }
+ ],
+ "talep": [
+  {
+   "sorgu": "yılbaşı kutu oyunu önerileri",
+   "anahtar": "talep:yilbasi-hediyesi-kutu-oyunlari",
+   "durum": "yazildi",
+   "tarih": "2026-11-05",
+   "slug": "yilbasi-hediyesi-kutu-oyunlari"
   }
  ]
 }
