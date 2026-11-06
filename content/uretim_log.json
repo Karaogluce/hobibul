@@ -31,7 +31,9 @@
   "sss:yemek-mutfak:kahve",
   "rehber:teknoloji:raspberry-pi-elektronik",
   "rehber:muzik:dj-produksiyon",
-  "talep:yilbasi-hediyesi-kutu-oyunlari"
+  "talep:yilbasi-hediyesi-kutu-oyunlari",
+  "sss:muzik:gitar",
+  "hatalar:teknoloji:_main"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -62,7 +64,9 @@
   "CvmuGZvg36I",
   "Ky0B3cBJGKo",
   "2Rtc0Cdhmc4",
-  "pm7QgL2pnSQ"
+  "pm7QgL2pnSQ",
+  "ICCba5VvjCQ",
+  "rI_PQgrh9f8"
  ],
  "atlanan": [
   {
@@ -931,6 +935,16 @@
    "anahtar": "talep:yilbasi-hediyesi-kutu-oyunlari",
    "tarih": "2026-11-05",
    "slug": "yilbasi-hediyesi-kutu-oyunlari"
+  },
+  {
+   "anahtar": "sss:muzik:gitar",
+   "tarih": "2026-11-06",
+   "slug": "gitar-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber"
+  },
+  {
+   "anahtar": "hatalar:teknoloji:_main",
+   "tarih": "2026-11-06",
+   "slug": "teknoloji-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir"
   }
  ],
  "talep": [
