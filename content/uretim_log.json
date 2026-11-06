@@ -33,7 +33,9 @@
   "rehber:muzik:dj-produksiyon",
   "talep:yilbasi-hediyesi-kutu-oyunlari",
   "sss:muzik:gitar",
-  "hatalar:teknoloji:_main"
+  "hatalar:teknoloji:_main",
+  "sss:teknoloji:_main",
+  "talep:kadinlar-icin-evde-yapilacak-hobiler"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -66,7 +68,9 @@
   "2Rtc0Cdhmc4",
   "pm7QgL2pnSQ",
   "ICCba5VvjCQ",
-  "rI_PQgrh9f8"
+  "rI_PQgrh9f8",
+  "vaz_CQSvTMw",
+  "Z8gSyHq9pdI"
  ],
  "atlanan": [
   {
@@ -945,6 +949,16 @@
    "anahtar": "hatalar:teknoloji:_main",
    "tarih": "2026-11-06",
    "slug": "teknoloji-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir"
+  },
+  {
+   "anahtar": "sss:teknoloji:_main",
+   "tarih": "2026-11-06",
+   "slug": "teknoloji-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber"
+  },
+  {
+   "anahtar": "talep:kadinlar-icin-evde-yapilacak-hobiler",
+   "tarih": "2026-11-06",
+   "slug": "kadinlar-icin-evde-yapilacak-hobiler"
   }
  ],
  "talep": [
@@ -954,6 +968,13 @@
    "durum": "yazildi",
    "tarih": "2026-11-05",
    "slug": "yilbasi-hediyesi-kutu-oyunlari"
+  },
+  {
+   "sorgu": "evde yapılacak hobiler kadın",
+   "anahtar": "talep:kadinlar-icin-evde-yapilacak-hobiler",
+   "durum": "yazildi",
+   "tarih": "2026-11-06",
+   "slug": "kadinlar-icin-evde-yapilacak-hobiler"
   }
  ]
 }
