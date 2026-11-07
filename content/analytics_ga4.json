@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-06",
+ "generated_at": "2026-11-07",
  "period_days": 30,
  "visitors_daily": [
   {
@@ -40,7 +40,11 @@
   },
   {
    "date": "2026-11-06",
-   "users": 1
+   "users": 2
+  },
+  {
+   "date": "2026-11-07",
+   "users": 2
   }
  ],
  "channels": [
@@ -50,11 +54,11 @@
   },
   {
    "name": "Organic Search",
-   "sessions": 18
+   "sessions": 20
   },
   {
    "name": "Unassigned",
-   "sessions": 2
+   "sessions": 4
   }
  ],
  "top_pages": [
