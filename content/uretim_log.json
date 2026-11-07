@@ -38,7 +38,8 @@
   "talep:kadinlar-icin-evde-yapilacak-hobiler",
   "yeni_baslayan:koleksiyon:lego-model",
   "yeni_baslayan:muzik:dj-produksiyon",
-  "rehber:bahce-bitki:bonsai"
+  "rehber:bahce-bitki:bonsai",
+  "talep:yetiskin-hobi-setleri"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -76,7 +77,8 @@
   "Z8gSyHq9pdI",
   "l1cAC-5vixs",
   "tpT0nu-9D_E",
-  "HtcGUNVv_DA"
+  "HtcGUNVv_DA",
+  "ikDsTxHn9-g"
  ],
  "atlanan": [
   {
@@ -1010,6 +1012,11 @@
    "anahtar": "rehber:bahce-bitki:bonsai",
    "tarih": "2026-11-07",
    "slug": "en-iyi-bonsai-ekipmanlari-2026-alim-rehberi"
+  },
+  {
+   "anahtar": "talep:yetiskin-hobi-setleri",
+   "tarih": "2026-11-07",
+   "slug": "yetiskin-hobi-setleri"
   }
  ],
  "talep": [
@@ -1040,6 +1047,13 @@
    "durum": "guclendir",
    "tarih": "2026-11-07",
    "slug": ""
+  },
+  {
+   "sorgu": "yetişkin hobi setleri",
+   "anahtar": "talep:yetiskin-hobi-setleri",
+   "durum": "yazildi",
+   "tarih": "2026-11-07",
+   "slug": "yetiskin-hobi-setleri"
   }
  ]
 }
