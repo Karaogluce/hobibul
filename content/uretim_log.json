@@ -35,7 +35,10 @@
   "sss:muzik:gitar",
   "hatalar:teknoloji:_main",
   "sss:teknoloji:_main",
-  "talep:kadinlar-icin-evde-yapilacak-hobiler"
+  "talep:kadinlar-icin-evde-yapilacak-hobiler",
+  "yeni_baslayan:koleksiyon:lego-model",
+  "yeni_baslayan:muzik:dj-produksiyon",
+  "rehber:bahce-bitki:bonsai"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -70,7 +73,10 @@
   "ICCba5VvjCQ",
   "rI_PQgrh9f8",
   "vaz_CQSvTMw",
-  "Z8gSyHq9pdI"
+  "Z8gSyHq9pdI",
+  "l1cAC-5vixs",
+  "tpT0nu-9D_E",
+  "HtcGUNVv_DA"
  ],
  "atlanan": [
   {
@@ -792,6 +798,36 @@
    "anahtar": "talep:akvaryum-cesitleri",
    "neden": "kısa (1004 kelime, güvenlik tabanı 1500)",
    "tarih": "2026-11-05"
+  },
+  {
+   "anahtar": "sss:bahce-bitki:bonsai:bonsai-nasil-toprak-sever",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-07"
+  },
+  {
+   "anahtar": "hatalar:koleksiyon:lego-model",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-07"
+  },
+  {
+   "anahtar": "ticari:evcil-hayvan:akvaryum:baslangic",
+   "neden": "aynı kelimeyle başlayan cümle çok",
+   "tarih": "2026-11-07"
+  },
+  {
+   "anahtar": "hatalar:muzik:dj-produksiyon",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-07"
+  },
+  {
+   "anahtar": "talep:yetiskin-hobi-setleri",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-11-07"
+  },
+  {
+   "anahtar": "talep:hobi-dunyasinda-en-iyi-koleksiyon-urunlerini-nereden-bulabilirim",
+   "neden": "kısa (982 kelime, güvenlik tabanı 1500)",
+   "tarih": "2026-11-07"
   }
  ],
  "makaleler": [
@@ -959,6 +995,21 @@
    "anahtar": "talep:kadinlar-icin-evde-yapilacak-hobiler",
    "tarih": "2026-11-06",
    "slug": "kadinlar-icin-evde-yapilacak-hobiler"
+  },
+  {
+   "anahtar": "yeni_baslayan:koleksiyon:lego-model",
+   "tarih": "2026-11-07",
+   "slug": "lego-model-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar"
+  },
+  {
+   "anahtar": "yeni_baslayan:muzik:dj-produksiyon",
+   "tarih": "2026-11-07",
+   "slug": "dj-produksiyon-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar"
+  },
+  {
+   "anahtar": "rehber:bahce-bitki:bonsai",
+   "tarih": "2026-11-07",
+   "slug": "en-iyi-bonsai-ekipmanlari-2026-alim-rehberi"
   }
  ],
  "talep": [
@@ -975,6 +1026,20 @@
    "durum": "yazildi",
    "tarih": "2026-11-06",
    "slug": "kadinlar-icin-evde-yapilacak-hobiler"
+  },
+  {
+   "sorgu": "en iyi çadır markaları",
+   "anahtar": "talep:en-iyi-cadir-markalari",
+   "durum": "guclendir",
+   "tarih": "2026-11-07",
+   "slug": ""
+  },
+  {
+   "sorgu": "ideal yoga matı ölçüleri",
+   "anahtar": "talep:ideal-yoga-mati-olculeri",
+   "durum": "guclendir",
+   "tarih": "2026-11-07",
+   "slug": ""
   }
  ]
 }
