@@ -39,7 +39,9 @@
   "yeni_baslayan:koleksiyon:lego-model",
   "yeni_baslayan:muzik:dj-produksiyon",
   "rehber:bahce-bitki:bonsai",
-  "talep:yetiskin-hobi-setleri"
+  "talep:yetiskin-hobi-setleri",
+  "hatalar:koleksiyon:lego-model",
+  "hatalar:muzik:dj-produksiyon"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -78,7 +80,9 @@
   "l1cAC-5vixs",
   "tpT0nu-9D_E",
   "HtcGUNVv_DA",
-  "ikDsTxHn9-g"
+  "ikDsTxHn9-g",
+  "NBfHoiEgTa4",
+  "rQ4_6TSliRg"
  ],
  "atlanan": [
   {
@@ -1017,6 +1021,16 @@
    "anahtar": "talep:yetiskin-hobi-setleri",
    "tarih": "2026-11-07",
    "slug": "yetiskin-hobi-setleri"
+  },
+  {
+   "anahtar": "hatalar:koleksiyon:lego-model",
+   "tarih": "2026-11-08",
+   "slug": "lego-model-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir"
+  },
+  {
+   "anahtar": "hatalar:muzik:dj-produksiyon",
+   "tarih": "2026-11-08",
+   "slug": "dj-produksiyon-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir"
   }
  ],
  "talep": [
