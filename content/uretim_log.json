@@ -42,7 +42,10 @@
   "talep:yetiskin-hobi-setleri",
   "hatalar:koleksiyon:lego-model",
   "hatalar:muzik:dj-produksiyon",
-  "sss:koleksiyon:lego-model"
+  "sss:koleksiyon:lego-model",
+  "sss:muzik:dj-produksiyon",
+  "sss:bahce-bitki:bonsai:bonsai-nasil-toprak-sever",
+  "rehber:evcil-hayvan:akvaryum"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -84,7 +87,10 @@
   "ikDsTxHn9-g",
   "NBfHoiEgTa4",
   "rQ4_6TSliRg",
-  "NGC14MIxTEw"
+  "NGC14MIxTEw",
+  "pNs2Rubybng",
+  "BduDcrySLKM",
+  "_LWxQJFgpyo"
  ],
  "atlanan": [
   {
@@ -1053,6 +1059,21 @@
    "anahtar": "sss:koleksiyon:lego-model",
    "tarih": "2026-11-08",
    "slug": "lego-model-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber"
+  },
+  {
+   "anahtar": "sss:muzik:dj-produksiyon",
+   "tarih": "2026-11-09",
+   "slug": "dj-produksiyon-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber"
+  },
+  {
+   "anahtar": "sss:bahce-bitki:bonsai:bonsai-nasil-toprak-sever",
+   "tarih": "2026-11-09",
+   "slug": "bonsai-nasil-toprak-sever"
+  },
+  {
+   "anahtar": "rehber:evcil-hayvan:akvaryum",
+   "tarih": "2026-11-09",
+   "slug": "en-iyi-akvaryum-balik-ekipmanlari-2026-alim-rehberi"
   }
  ],
  "talep": [
