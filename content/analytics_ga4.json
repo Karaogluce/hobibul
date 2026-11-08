@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-07",
+ "generated_at": "2026-11-08",
  "period_days": 30,
  "visitors_daily": [
   {
@@ -44,17 +44,25 @@
   },
   {
    "date": "2026-11-07",
-   "users": 2
+   "users": 4
+  },
+  {
+   "date": "2026-11-08",
+   "users": 1
   }
  ],
  "channels": [
   {
    "name": "Direct",
-   "sessions": 80
+   "sessions": 81
   },
   {
    "name": "Organic Search",
-   "sessions": 20
+   "sessions": 21
+  },
+  {
+   "name": "AI Assistant",
+   "sessions": 4
   },
   {
    "name": "Unassigned",
@@ -62,6 +70,12 @@
   }
  ],
  "top_pages": [
+  {
+   "path": "/makale/2-kisilik-kutu-oyunlari/",
+   "slug": "2-kisilik-kutu-oyunlari",
+   "title": "2 Kişilik Kutu Oyunları: Türkiye'de Satılan Kutular",
+   "views": 5
+  },
   {
    "path": "/makale/en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma/",
    "slug": "en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma",
@@ -73,12 +87,6 @@
    "slug": "en-iyi-lego-setleri-yetiskin-icin-bonsai-sukulent-ve-speed-champions",
    "title": "en-iyi-lego-setleri-yetiskin-icin-bonsai-sukulent-ve-speed-champions",
    "views": 4
-  },
-  {
-   "path": "/makale/2-kisilik-kutu-oyunlari/",
-   "slug": "2-kisilik-kutu-oyunlari",
-   "title": "2 Kişilik Kutu Oyunları: Türkiye'de Satılan Kutular",
-   "views": 3
   },
   {
    "path": "/makale/akvaryum-kurulumu-baslangic-seti/",
