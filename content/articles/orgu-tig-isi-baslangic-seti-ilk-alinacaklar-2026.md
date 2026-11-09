@@ -104,6 +104,30 @@ Alüminyum gereçler, Boye setinde olduğu gibi hafiftir ve pürüzsüz yüzeyle
 
 Knit Picks setindeki gibi ahşap malzemeler ilmeği metal kadar kaydırmaz, hafif tutuşuyla acemilik evresinde ilmek kaçırma endişesini azaltır. Özellikle geniş modellerde veya misinalı işlerde ahşap uçlar kontrolü artırır. Yine de ahşap şişlerin sert bükülmelerde metal kadar dayanıklı olmadığını ve dikkatli kullanılması gerektiğini bilmelisin. Başlangıçta temel alüminyum gereçlerle elini alıştırıp daha sonra ahşap setlere geçiş yapabilirsin. Bu notların bir arada durduğu yer [El Sanatları & DIY](/kategori/el-sanatlari/).
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Örgü tığı için Amazon.com.tr sayfasında [11'li Silikon Saplı Tığ Seti - Taşıma Çantalı Tığ Seti - Örgü Amigurumi Hobi Seti](https://www.amazon.com.tr/dp/B0HJH4932Z?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Etimo Mind Tığ Seti | 14 Adet Örgü Tığı](https://www.amazon.com.tr/dp/B0GWJH8MSX?tag=hobibulsite-21).
+
+Listenin devamında [Hello%100 Pamuk İp Seti – 12 x 25g Pastel Renk Yumak, Örgü, Tığ İşi, Amigurumi ve Punch](https://www.amazon.com.tr/dp/B0FSKX3FZR?tag=hobibulsite-21) var.
+
+Örgü ipi için Amazon.com.tr sayfasında [Bambonita Örgü İpi Pudra Bej%60 Bambu%40 Organik Pamuk 100g 250m (71076)](https://www.amazon.com.tr/dp/B0H87JY7QT?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Değiştirilebilir Uçlu Örgü Şiş Seti – Fermuarlı Taşıma Çantalı Şiş Seti - Misinalı Seti](https://www.amazon.com.tr/dp/B0HJ855KB2?tag=hobibulsite-21).
+
+Listenin devamında [11'li Silikon Saplı Tığ Seti - Taşıma Çantalı Tığ Seti - Örgü Amigurumi Hobi Seti](https://www.amazon.com.tr/dp/B0HJH4932Z?tag=hobibulsite-21) var.
+
+Örgü ipi için Amazon.com.tr sayfasında [Hello%100 Pamuk İp Seti – 12 x 25g Pastel Renk Yumak, Örgü, Tığ İşi, Amigurumi ve Punch](https://www.amazon.com.tr/dp/B0FSKX3FZR?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Değiştirilebilir Uçlu Örgü Şiş Seti – Fermuarlı Taşıma Çantalı Şiş Seti - Misinalı Seti](https://www.amazon.com.tr/dp/B0HJ855KB2?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Örgüye şişle mi yoksa tığla mı başlamak daha kolaydır?
@@ -119,3 +143,4 @@ Girintisi çıkıntısı az, düz geometrik formlar seçilmelidir. Örgü bandan
 Sıra başını, dönüşleri veya artırma yerlerini gözle takip etmek yeni başlayan biri için güçtür. Clover Kilitli İlmek Belirleyici gibi renk kodlu ve kilitli parçalar, örgü sırasında nerede işlem yapacağını işaretleyerek sökme zahmetinden kurtarır.
 
 Elini yormayacak ergonomik bir tığ veya hafif bir şiş takımı edinip Lion Brand Vanna's Choice gibi yumuşak dokulu açık renk bir iple küçük bir bandana örerek ilk denemeni yapabilirsin.
+

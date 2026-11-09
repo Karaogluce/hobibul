@@ -62,6 +62,20 @@ Hevesle yola çıkıp amfi, kablo, pena, yedek tel ve askı gibi yan maliyetleri
 
 İhtiyaç listesini kağıt üzerinde netleştirip fiyat araştırmasını ona göre yapmak en mantıklı yoldur. İhtiyacın olmayan düzeyde ekstralara baştan para dökme; temel ihtiyaçlarını karşılayacak parçalarla başla.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Gitar için Amazon.com.tr sayfasında [Ibanez GRGR131EX-BKF GIO Stealth Serisi Elektrikli Gitar - Siyah Düz | Şık Tamamen](https://www.amazon.com.tr/dp/B08SJ4F268?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Ibanez GRGR131EX-BKF GIO Stealth Serisi Elektrikli Gitar - Siyah Düz | Şık Tamamen](https://www.amazon.com.tr/dp/B08SJ4F268?tag=hobibulsite-21).
+
+Listenin devamında [Blackstar IDCORE10V4 Combo Amplifikatör | Güç Azaltma ve 4 kanallı USB-C Çıkışlı Watt](https://www.amazon.com.tr/dp/B0CRZB9PF9?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Akustik gitar teli elektro gitara takılır mı?
@@ -74,3 +88,4 @@ Elektro gitarlar için genellikle standart ölçü olan setler parmakları yorma
 Akor basarken parmak uçlarını dik basmaya ve tellere tam basarken diğer tellere değdirmemeye özen göstermelisin. Her gün on beş dakika sadece geçiş egzersizleri yapmak kas hafızasını hızla geliştirir.
 
 Doğru ekipmanı seçmek ve temel kurallara sadık kalmak müzik yolculuğunu keyifli kılar; bu yüzden acele etmeden, kendi seviyene uygun parçalarla ilerle.
+

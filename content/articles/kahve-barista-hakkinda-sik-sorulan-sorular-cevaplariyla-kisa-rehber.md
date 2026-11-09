@@ -61,6 +61,20 @@ Kahve öğütücü seçerken bıçaklı modeller yerine çapaklı öğütücüle
 
 Hario V60 Dripper kullanarak elle demleme yapmak, kahvenin tüm aromalarını bardakta hissetmenizi sağlayan pratik bir yöntemdir. [Satın Al: Hario V60 Dripper](aff://hario-v60-dripper) spiral kanallı seramik filtre kahve demleyici yapısıyla temiz bir fincan çıkarmanıza ve demleme sürecini tamamen kontrol etmenize olanak tanır; ayrıca uygun fiyatlıdır. Tabii ki filtre kağıdı gerekir ve tekniğe duyarlı olduğu için birkaç deneme yaparak el alışkanlığı kazanmanız gerekebilir. Süreci el yordamıyla yönetmeyi sevenler için mantıklıdır; ancak sabahları tek tuşla kahve hazırlamak isteyenlere uymaz.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Kahve öğütücü için Amazon.com.tr sayfasında [Sinbo SCM-2982 Elektrikli Kahve ve Baharat Öğütücü – 200W Motor, 2 Hazneli (4 + 2](https://www.amazon.com.tr/dp/B0DZ6S3GV5?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Sinbo SCM-2982 Elektrikli Kahve ve Baharat Öğütücü – 200W Motor, 2 Hazneli (4 + 2](https://www.amazon.com.tr/dp/B0DZ6S3GV5?tag=hobibulsite-21).
+
+Listenin devamında [Hario V60 02 Dripper Filtresi (100 Adet)](https://www.amazon.com.tr/dp/B001U7EOYA?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Kahve çeşitleri nelerdir?
@@ -70,3 +84,4 @@ Kahve çeşitleri temel olarak espresso, filtre kahve, Türk kahvesi ve çözün
 Markanın güncel durumu hakkında net bilgi sahibi olmak için resmi açıklamaları ve güvenilir kaynakları doğrudan takip etmeniz en doğrusudur.
 
 Ekipman seçerken acele etmeyin; önce en çok hangi kahve türünü sevdiğinizi belirleyin, ardından bütçenize uygun parçaları yavaşça tamamlayın.
+

@@ -100,6 +100,26 @@ Bütçe paketini seçtiğinde kablo çekme veya çatıya tırmanma derdin olmaz;
 
 Orta pakete geçtiğinde rüzgar ve yağmur gibi dinamik değişkenler denkleme dahil olur. Fırtınanın geliş yönünü izlemek ve bahçenin aldığı suyu milimetre cinsinden bilmek meteoroloji hobisini derinleştirir. Üst paket ise yerel gözlemini küresel bir veri noktasına çevirerek seni uluslararası amatör meteoroloji ağının aktif bir parçası haline getirir. Bu notların bir arada durduğu yer [Bilim & Astronomi notları](/kategori/bilim-astronomi/).
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Hava istasyonu için Amazon.com.tr sayfasında [ThermoPro TP280B 17.8 cm Ekranlı, Wi-Fi Destekli Akıllı İç ve Dış Mekan Hava Tahmin](https://www.amazon.com.tr/dp/B09T3JBBSK?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Wellhise HTC-2 Saatli Dijital Termometre ve Nem Ölçer İç ve Dış Mekan Problu](https://www.amazon.com.tr/dp/B09HLZT441?tag=hobibulsite-21).
+
+Listenin devamında [Xiaomi Mijia Miaomiao Dijital Termometre LCD Ekranlı Isı Nem Ölçer](https://www.amazon.com.tr/dp/B083Y1D8WB?tag=hobibulsite-21) var.
+
+Hava istasyonu için Amazon.com.tr sayfasında [ThermoPro TP280B 17.8 cm Ekranlı, Wi-Fi Destekli Akıllı İç ve Dış Mekan Hava Tahmin](https://www.amazon.com.tr/dp/B09T3JBBSK?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Wellhise HTC-2 Saatli Dijital Termometre ve Nem Ölçer İç ve Dış Mekan Problu](https://www.amazon.com.tr/dp/B09HLZT441?tag=hobibulsite-21).
+
+Listenin devamında [Xiaomi Mijia Miaomiao Dijital Termometre LCD Ekranlı Isı Nem Ölçer](https://www.amazon.com.tr/dp/B083Y1D8WB?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Telefonumdaki hava durumu için en iyi uygulama varken fiziksel istasyona gerek var mı?
@@ -119,3 +139,4 @@ Giriş ve orta seviye meteoroloji istasyonları genellikle sıcaklık, nem, rüz
 WiFi bağlantısına ve ağ modülüne sahip olan Ambient Weather WS-2902C gibi modeller, topladığın verileri Weather Underground ve benzeri uluslararası ağlara otomatik olarak yükler. Bu sayede istasyonun küresel harita üzerinde bağımsız bir meteoroloji noktası olarak görünür. Hem sen dünyanın neresinde olursan ol evinin verilerine telefonundan ulaşırsın hem de çevrendeki diğer hava gözlemcileri senin verilerinden faydalanabilir.
 
 Balkon veya bahçenin fiziksel sınırlarını belirleyip bütçene uygun bir sensör paketi seçtikten sonra doğru gölge ve hava akımı noktasını bularak ilk ölçümlerine hemen başlayabilirsin.
+

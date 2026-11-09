@@ -25,7 +25,8 @@ CONTENT = os.path.join(BASE, "content")
 CIKTI = os.path.join(CONTENT, "cok_satan")
 ARTICLES = os.path.join(CONTENT, "articles")
 
-# Site kategorisine karşılık gelen Amazon.com.tr çok satanlar yolları.
+# Hobi karşılığı sabit. Mutfak, mama ve genel elektronik bu akışa girmez.
+# Yollar Amazon.com.tr çok satanlar menüsündeki alt kategorilerdir.
 LISTELER = (
     {
         "id": "kitap",
@@ -36,46 +37,71 @@ LISTELER = (
         "zorunlu": True,
     },
     {
-        "id": "oyuncak",
-        "yol": "/gp/bestsellers/toys",
-        "ad": "Oyuncak",
+        "id": "kutu-oyun",
+        "yol": "/gp/bestsellers/toys/12923340031",
+        "ad": "Kutu Oyunu",
         "cat": "koleksiyon",
         "sub": "masaustu-oyun",
+        "ipucu": [["oyun"], ["kutu"], ["monopoly"], ["tabu"]],
+    },
+    {
+        "id": "puzzle",
+        "yol": "/gp/bestsellers/toys/12923346031",
+        "ad": "Puzzle",
+        "cat": "koleksiyon",
+        "sub": "puzzle",
+        "ipucu": [["yapboz"], ["jigsaw"], ["puzzle"]],
+        "red": ["yapıştırıcı", "çerçeve", "poster"],
+    },
+    {
+        "id": "lego",
+        "yol": "/gp/bestsellers/toys/12923347031",
+        "ad": "LEGO ve model",
+        "cat": "koleksiyon",
+        "sub": "lego-model",
+        "ipucu": [["lego"], ["yapı"], ["blok"], ["model"]],
+    },
+    {
+        "id": "el-isi",
+        "yol": "/gp/bestsellers/toys/12923343031",
+        "ad": "Sanat ve El İşi",
+        "cat": "el-sanatlari",
+        "sub": "resim-boyama",
+        "ipucu": [["boya"], ["fırça"], ["kalem"], ["tuval"], ["hobi"], ["el işi"]],
     },
     {
         "id": "muzik",
-        "yol": "/gp/bestsellers/musical-instruments",
-        "ad": "Müzik aletleri",
+        "yol": "/gp/bestsellers/musical-instruments/21428844031",
+        "ad": "Müzik aleti",
         "cat": "muzik",
         "sub": "gitar",
+        "ipucu": [["gitar"], ["tel"], ["amfi"], ["pena"], ["akort"]],
     },
     {
-        "id": "bahce",
-        "yol": "/gp/bestsellers/garden",
-        "ad": "Bahçe",
+        "id": "bahce-alet",
+        "yol": "/gp/bestsellers/garden/21440344031",
+        "ad": "Bahçe Aleti",
         "cat": "bahce-bitki",
         "sub": "bahcecilik",
+        "ipucu": [["makas"], ["hortum"], ["budama"], ["kürek"], ["testere"], ["tırpan"], ["sulama"], ["bel"]],
     },
     {
-        "id": "evcil",
-        "yol": "/gp/bestsellers/pet-supplies",
-        "ad": "Evcil hayvan",
-        "cat": "evcil-hayvan",
-        "sub": "kedi-bakimi",
+        "id": "kamp",
+        "yol": "/gp/bestsellers/sporting-goods/13484282031",
+        "ad": "Kamp ve outdoor",
+        "cat": "outdoor",
+        "sub": "kampcilik",
+        "ipucu": [["çadır"], ["uyku tulumu"], ["uyku mat"], ["yürüyüş baton"]],
+        "red": ["anahtarlık", "tornavida", "şişe açacağı"],
     },
     {
-        "id": "elektronik",
-        "yol": "/gp/bestsellers/electronics",
-        "ad": "Elektronik",
-        "cat": "teknoloji",
-        "sub": "",
-    },
-    {
-        "id": "mutfak",
-        "yol": "/gp/bestsellers/kitchen",
-        "ad": "Mutfak",
-        "cat": "yemek-mutfak",
-        "sub": "yemek-pisirme",
+        "id": "foto",
+        "yol": "/gp/bestsellers/electronics/13709883031",
+        "ad": "Fotoğraf",
+        "cat": "sanat",
+        "sub": "fotografcilik",
+        "ipucu": [["fotoğraf makinesi"], ["aynasız"], ["drone"], ["eos"], ["alpha"]],
+        "red": ["güvenlik", "temizlik", "microsd", "kulaklık", "kılıf"],
     },
 )
 
@@ -89,11 +115,25 @@ def hafta_kimligi(gun=None):
 
 
 def liste_cek(oturum, tanim, limit=3):
+    """Alt kategoriden ilk ürünler. İpucu uymayan ad (termos, mama) yazıya girmez."""
     url = amazon_tr.HOST + tanim["yol"]
     html, _final = oturum.getir(url)
-    urunler = amazon_tr.cok_satanlari_ayikla(html, limit=limit)
-    if len(urunler) < 1:
-        raise amazon_tr.AmazonEngel(url, "liste bos")
+    ham = amazon_tr.cok_satanlari_ayikla(html, limit=15)
+    ipucu = tanim.get("ipucu") or []
+    red = tuple(amazon_tr.fold(x) for x in (tanim.get("red") or ()))
+    if ipucu:
+        urunler = []
+        for u in ham:
+            if not amazon_tr.tip_uyuyor(u["ad"], ipucu):
+                continue
+            if any(k in amazon_tr.fold(u["ad"]) for k in red):
+                continue
+            urunler.append(u)
+    else:
+        urunler = list(ham)
+    urunler = urunler[:limit]
+    if len(urunler) < (1 if tanim.get("zorunlu") else 2):
+        raise amazon_tr.AmazonEngel(url, "kategori uyumsuz" if ipucu else "liste bos")
     return urunler
 
 
@@ -120,20 +160,29 @@ def _slug(metin):
     return otomatik.ym.slugify(metin)
 
 
-def yazi_metni(liste, hafta):
+_AY = ["", "Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran",
+       "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"]
+
+
+def tarih_yaz(iso):
+    yil, ay, gun = (int(x) for x in str(iso).split("-"))
+    return f"{gun} {_AY[ay]} {yil}"
+
+
+def yazi_metni(liste, hafta, gun_yazi):
     """Yalnızca listedeki ad, sıra ve yazarı kullanır. Ölçü ve fiyat yazılmaz."""
     ad = liste["ad"]
     urunler = liste["urunler"][:3]
     if liste["id"] == "kitap":
         giris = (
-            f"Amazon.com.tr kitap çok satanlar listesinin {hafta} haftası çekiminde "
+            f"Amazon.com.tr kitap çok satanlar listesinin {gun_yazi} haftası çekiminde "
             f"ilk üç sıra şöyle duruyor. Sıra haftalık değişir. Burada yalnızca bu çekimde "
             f"görünen ad, yazar satırı ve ürün bağlantısı var."
         )
     else:
         giris = (
-            f"Amazon.com.tr {ad.lower()} çok satanlar listesinin {hafta} haftası çekiminde "
-            f"ilk üç ürünün adı aşağıda. Sıra, o sayfanın bu çekimdeki hali."
+            f"Amazon.com.tr {ad.lower()} çok satanlar sayfasının {gun_yazi} çekiminde, "
+            f"adı bu kategoriye uyan ilk üç kayıt aşağıda. Sayı, sayfadaki sıradır."
         )
     bloklar = [giris, ""]
     for u in urunler:
@@ -156,16 +205,17 @@ def yazi_metni(liste, hafta):
 
 def yazi_yaz(liste, hafta, bugun):
     urunler = liste["urunler"][:3]
+    gun_yazi = tarih_yaz(bugun)
     if liste["id"] == "kitap":
-        baslik = f"Bu Haftanın En Çok Satan 3 Kitabı ({hafta})"
+        baslik = f"Bu Haftanın En Çok Satan 3 Kitabı ({gun_yazi})"
         slug = _slug(f"bu-haftanin-en-cok-satan-kitaplari-{hafta}")
         odak = "en çok satan kitaplar"
     else:
-        baslik = f"Bu Haftanın En Çok Satan 3 {liste['ad']} Ürünü ({hafta})"
+        baslik = f"Bu Haftanın En Çok Satan 3 {liste['ad']} Ürünü ({gun_yazi})"
         slug = _slug(f"en-cok-satan-{liste['id']}-{hafta}")
         odak = f"en çok satan {liste['ad'].lower()}"
     ozet_ad = ", ".join(u["ad"] for u in urunler[:3])
-    aciklama = f"{hafta} Amazon.com.tr {liste['ad'].lower()} çok satanlar: {ozet_ad}."
+    aciklama = f"{gun_yazi} Amazon.com.tr {liste['ad'].lower()} çok satanlar: {ozet_ad}."
     if len(aciklama) > 160:
         aciklama = aciklama[:157].rsplit(" ", 1)[0] + "."
     yol = os.path.join(ARTICLES, slug + ".md")
@@ -195,7 +245,7 @@ def yazi_yaz(liste, hafta, bugun):
     ]
     os.makedirs(ARTICLES, exist_ok=True)
     with open(yol, "w", encoding="utf-8", newline="\n") as f:
-        f.write("\n".join(fm) + yazi_metni(liste, hafta))
+        f.write("\n".join(fm) + yazi_metni(liste, hafta, gun_yazi))
     return slug, True
 
 
@@ -215,15 +265,10 @@ def calistir(yaz=False, bugun=None, oturum=None):
         satir = dict(tanim)
         satir["urunler"] = urunler
         adlar = " ".join(u["ad"] for u in urunler).lower()
-        if satir["cat"] == "evcil-hayvan":
-            if "köpek" in adlar or "kopek" in adlar:
-                satir["sub"] = "kopek-bakimi"
-            elif "kedi" in adlar:
-                satir["sub"] = "kedi-bakimi"
-            else:
-                satir["sub"] = ""
-        if satir["id"] == "elektronik" and "drone" not in adlar:
-            satir["sub"] = ""
+        if satir["id"] == "foto" and "drone" in adlar and "foto" not in adlar and "kamera" not in adlar:
+            satir["cat"] = "teknoloji"
+            satir["sub"] = "drone"
+            satir["ad"] = "Drone"
         kayit["listeler"].append({k: satir[k] for k in ("id", "ad", "cat", "sub", "yol", "urunler")})
         print(f"✓ {tanim['id']}: " + " | ".join(f"#{u['sira']} {u['ad']}" for u in urunler))
     yol = os.path.join(CIKTI, hafta + ".json")

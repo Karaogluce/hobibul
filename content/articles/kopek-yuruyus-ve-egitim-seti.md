@@ -112,6 +112,24 @@ Koşumu ilk kez kullanacaksan, kapı önünde o telaşla giydirmeye çalışma. 
 
 Eve geldiğinde enerji hala tavan yapmışsa, Outward Hound puzzle içine birkaç ödül sakla. Sakinleşmek istiyorsa Benebone'u önüne koyabilirsin. Eğer hava yağmurluysa, tüylerinin kurumasını bekleyip Hertzko ile üzerinden geçmek düğüm oluşmasını engeller. Koşum ıslanırsa mutlaka evde kurut; nemli koşumu ertesi sabah tekrar takarsan köpeğinin koltuk altları tahriş olabilir.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Köpek tasması için Amazon.com.tr sayfasında [Flexi New Classic 5 m Şerit Large Otomatik Köpek Tasması](https://www.amazon.com.tr/dp/B0719VZR6S?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Busstier Peluş Sesli Ördek Evcil Hayvan Oyuncağı - Köpekler İçin Sesli ve Dayanıklı](https://www.amazon.com.tr/dp/B0DJYTV8FW?tag=hobibulsite-21).
+
+Listenin devamında [DUFFA Metal Düz Kedi Ve Köpek Tarağı, Pet Kuaför Tarağı, Tüy Kesmek İçin Tarak, Köpek](https://www.amazon.com.tr/dp/B0H15KDC47?tag=hobibulsite-21) var.
+
+Köpek koşumu için Amazon.com.tr sayfasında [HALTI çekme önleyici koşum takımı - tasma kayışından çekmeyi durduracak profesyonel](https://www.amazon.com.tr/dp/B0F38JTPZ2?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Flexi New Classic 5 m Şerit Large Otomatik Köpek Tasması](https://www.amazon.com.tr/dp/B0719VZR6S?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 **Yürüyüşte boyun tasması mı, göğüs tasması mı?**
@@ -132,3 +150,4 @@ Hayır. Flexi'nin doğası gereği ip hep gergin olduğu için köpek "çekersem
 | Tam Set | Tüm Ürünler | Park gezisinden tüy bakımına kadar her şeyi çözmek isteyenler. |
 
 Kısacası, yürüyüşü Ruffwear ile güvene alıp, parktaki serbestliği Flexi ile sağlayabilirsin. Eve döndüğünde ise zeka oyuncağı ve çiğneme ürünleriyle günü huzurla kapatabilirsin. Unutma, her köpeğin hızı ve öğrenme süreci farklıdır; sabırlı ol ve ödül mamalarını yanından eksik etme.
+

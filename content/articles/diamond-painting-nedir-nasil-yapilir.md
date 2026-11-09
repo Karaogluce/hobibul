@@ -49,6 +49,22 @@ Fırçanın akışını seven kişi burada boya bulamaz. O zaman resim kategoris
 
 İkinci tuvali, ilk köşe düzgün oturunca düşünün. Köşe dağınıksa eksik olan şey yeni bir tablo değil, aynı tepsi ve tek uçtur. Hediye alacaksanız parça sayısı ve taş şekli kapakta okunsun. Kalem sette varsa ikincisini almayın. Hediye notuna "tek uçla başla" yazmak, kutuyu açan kişiyi hız yarışından korur.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Diamond painting için Amazon.com.tr sayfasında [Bardak Temalı Elmas Boyama Seti Bardak Altlığı](https://www.amazon.com.tr/dp/B0H778QSD5?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Rich 12'Li 60 Cc Master-Mix Akrilik Set](https://www.amazon.com.tr/dp/B08BZSWNVK?tag=hobibulsite-21).
+
+Listenin devamında [Bardak Temalı Elmas Boyama Seti Bardak Altlığı](https://www.amazon.com.tr/dp/B0H778QSD5?tag=hobibulsite-21) var.
+
+Boya seti için Amazon.com.tr sayfasında [Rich 12'Li 60 Cc Master-Mix Akrilik Set](https://www.amazon.com.tr/dp/B08BZSWNVK?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->
+
+
 ## Sıkça Sorulan Sorular
 
 **Diamond painting nedir?**

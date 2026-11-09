@@ -71,3 +71,16 @@ Tellere baskı uyguladıkça parmak uçlarındaki deri zamanla sertleşir ve par
 Temel akor geçişlerini ve sabit ritim vuruşlarını oturtmak başlangıçta her zaman daha hızlı sonuç verir. Akor geçişleri akıcı hale geldikten sonra telleri tek tek çekmeye dayalı arpej çalışmalarına geçmek çok daha sağlam ilerlemeni sağlar.
 
 Kendi dinleme alışkanlığına uyan gitarı seç, temel birkaç akorla işe başla ve her gün küçük de olsa vakit ayırarak parmaklarını alıştır.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Gitar için Amazon.com.tr sayfasında [Ibanez GRGR131EX-BKF GIO Stealth Serisi Elektrikli Gitar - Siyah Düz | Şık Tamamen](https://www.amazon.com.tr/dp/B08SJ4F268?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Ibanez GRGR131EX-BKF GIO Stealth Serisi Elektrikli Gitar - Siyah Düz | Şık Tamamen](https://www.amazon.com.tr/dp/B08SJ4F268?tag=hobibulsite-21).
+
+Listenin devamında [Blackstar IDCORE10V4 Combo Amplifikatör | Güç Azaltma ve 4 kanallı USB-C Çıkışlı Watt](https://www.amazon.com.tr/dp/B0CRZB9PF9?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->

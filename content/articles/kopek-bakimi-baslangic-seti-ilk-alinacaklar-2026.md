@@ -114,6 +114,26 @@ Bu zeka aktivitelerini komut çalışmalarının içine yerleştirmek aranızdak
 
 Köpekle evde paylaşılan zamanın sadece başını okşamaktan ibaret olmadığını unutmamak gerekir. Problem çözmeye dayalı oyunlar köpeğin sana olan dikkatini keskinleştirirken ilgisizlikten doğan havlama ve kapı tırmalama gibi sorunları kendiliğinden söndürür. Zihinsel aktiviteleri rutine bağlanan köpeklerin çevre şartlarına ve yeni kurallara alışması çok daha süratli olur.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Köpek tasması için Amazon.com.tr sayfasında [Flexi New Classic 5 m Şerit Large Otomatik Köpek Tasması](https://www.amazon.com.tr/dp/B0719VZR6S?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Flexi New Classic XS Beden Siyah 3MT İpli Tasma](https://www.amazon.com.tr/dp/B00O3B0X7M?tag=hobibulsite-21).
+
+Listenin devamında [Busstier Peluş Sesli Ördek Evcil Hayvan Oyuncağı - Köpekler İçin Sesli ve Dayanıklı](https://www.amazon.com.tr/dp/B0DJYTV8FW?tag=hobibulsite-21) var.
+
+Köpek tarağı için Amazon.com.tr sayfasında [DUFFA Metal Düz Kedi Ve Köpek Tarağı, Pet Kuaför Tarağı, Tüy Kesmek İçin Tarak, Köpek](https://www.amazon.com.tr/dp/B0H15KDC47?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [HALTI çekme önleyici koşum takımı - tasma kayışından çekmeyi durduracak profesyonel](https://www.amazon.com.tr/dp/B0F38JTPZ2?tag=hobibulsite-21).
+
+Listenin devamında [Flexi New Classic 5 m Şerit Large Otomatik Köpek Tasması](https://www.amazon.com.tr/dp/B0719VZR6S?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Köpek bakımı zor mu ve ilk aylarda nelere alışmak gerekir?
@@ -129,3 +149,4 @@ En sık atlanan konu zihinsel uyarımın gücüdür. Çoğu hayvan sahibi köpe�
 Tarama aralıkları köpeğin kürk yapısına göre değişmekle birlikte genel olarak haftada iki ya da üç kez fırçalama yapmak idealdir. Yoğun alt kürke sahip ırklarda ise bu seansları günlük rutine dönüştürmek gerekir. Hertzko gibi ince telli taraklarla yapılan düzenli fırçalamalar, dökülen kılların koltuklara yayılmasını önlerken köpeğin derisindeki hava sirkülasyonunu destekler ve düğüm oluşumunu engeller.
 
 İlk günden itibaren yürüyüş kontrolünü elinde tutmak ve evdeki eşyaları korumak istiyorsan, çift klipsli bir göğüs aparatı ile çene yapısına uygun sert bir çiğneme oyuncağını hazırlık sepetinin merkezine yerleştirmelisin.
+

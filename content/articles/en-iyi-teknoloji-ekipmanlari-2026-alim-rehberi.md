@@ -41,6 +41,16 @@ Elektronik devreler kurmak, sensörler bağlamak ve fiziksel programlamayı öğ
 
 Eğer temel elektronik devreler kurup sensörlerle çalışmak istiyorsan Arduino Uno R3 senin için en doğru başlangıç noktasıdır. Daha karmaşık yazılım projeleri, sunucu yönetimi veya masaüstü kullanımına benzer bir deneyim arıyorsan Raspberry Pi 5 (8GB) tercih etmelisin. Tasarımlarını somut nesnelere dönüştürmek ve kendi plastik parçalarını basmak istiyorsan Creality Ender 3 V3 3D Yazıcı işini görecektir. Havadan görüntüler almak ve dış mekan çekimleri yapmak istiyorsan DJI Mini 4K Drone modeline yönelmelisin.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Arduino için Amazon.com.tr sayfasında [Arduino Tabanlı UNO R3 Geliştirme Kartı (CH340)](https://www.amazon.com.tr/dp/B08YDLWQYP?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Hangi tek kart bilgisayar projeler için daha uygundur?
@@ -56,3 +66,4 @@ DJI Mini 4K Drone modeli 249 gramın altında olduğu için lisans zorunluluğu 
 Geniş topluluk desteği ve kolay kullanımı ile Arduino Uno R3 Mikrodenetleyici elektronik öğrenmek için idealdir.
 
 İhtiyacın olan donanımı belirledikten sonra projelerine başlamak için güncel stokları ve detayları Amazon üzerinden kontrol edebilirsin.
+

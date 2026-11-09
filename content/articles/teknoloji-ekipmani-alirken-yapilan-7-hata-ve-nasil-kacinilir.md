@@ -75,6 +75,16 @@ Bir fikri çalışır bir prototipe dönüştürürken elektronik devre ile o de
 
 Elektronik parçaların yerleşimini planlarken açık kaynaklı çizimlerden ve modelleme araçlarından yararlanmak büyük bir avantaj sağlar. Devre şemasını çizerken parçaların hangi kutunun içine nasıl oturacağını hesaba katarsan, hem gereksiz parça alımını önlersin hem de ortaya çıkardığın ürün çok daha dayanıklı hale gelir. Tasarımı montaj bittikten sonra düşünülecek bir detay değil, sistemin doğrudan bir parçası olarak görmelisin.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Arduino için Amazon.com.tr sayfasında [Arduino Tabanlı UNO R3 Geliştirme Kartı (CH340)](https://www.amazon.com.tr/dp/B08YDLWQYP?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Hobi elektroniğine başlarken ilk ekipman ne olmalı?
@@ -89,3 +99,4 @@ Açık kaynak ekosisteminde devre şemaları, örnek kodlar ve hata çözümleri
 ---
 
 İhtiyacın olan cihazı özellik listelerinin uzunluğuna göre değil, bu hafta sonu masaya oturduğunda bitirmek istediğin işin sınırlarına göre belirle.
+

@@ -94,6 +94,20 @@ Dönemsel olarak market raflarında karşımıza çıkan hobi ürünleri büyük
 
 Eğer hobiyi sadece bir akşamlık eğlence olarak görmüyorsanız, online platformlardaki alternatifleri değerlendirmek daha tatmin edici sonuçlar verir. Özellikle taşların eksik çıkması gibi durumlarda online satıcıların destek sağlama ihtimali daha yüksektir.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Boya seti için Amazon.com.tr sayfasında [Rich 12'Li 60 Cc Master-Mix Akrilik Set](https://www.amazon.com.tr/dp/B08BZSWNVK?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [ulutaş & sanat Şövale Ahşap Resim Sehpası](https://www.amazon.com.tr/dp/B09KXTGMDR?tag=hobibulsite-21).
+
+Listenin devamında [Rich 12'Li 60 Cc Master-Mix Akrilik Set](https://www.amazon.com.tr/dp/B08BZSWNVK?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->
+
+
 ## Sıkça Sorulan Sorular
 
 **Yetişkinler için en iyi hobi seti hangisi?**

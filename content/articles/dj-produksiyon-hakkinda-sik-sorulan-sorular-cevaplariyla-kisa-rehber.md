@@ -38,6 +38,18 @@ Kontrol cihazı seçerken masandaki yer durumunu ve ekipmanı sürekli taşıyı
 
 Gövde boyutunu olabildiğince ufak tutmak istediğinde [Satın Al: Numark MixTrack Go DJ Kontrol](aff://numark-mixtrack-go) öne çıkar. 0,6 kg ağırlığındaki ve 324 mm genişliğindeki gövdesi çantaya rahatça sığar; Bluetooth ve USB-C bağlantıları da farklı cihazlarla esnek kullanım sağlar. 2 deck düzeninde çalışan bu ünitede kapasitif jog tekerlekleri, 8 pad, anlık kanal ayrımı sağlayan Stems ve geçişleri pratikleştiren Smart Fader kontrolleri yer alır. Ancak jog tekerleklerinin küçük olması büyük deck hissi arayanları tatmin etmeyebilir. Ayrıca üzerindeki 8 pad, Numark Party Mix III modelinin sunduğu pad sayısından daha azdır. Masada geniş yüzey ve büyük tekerlek direnci isteyen birine bu gövde küçük gelecektir.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Dj kontrol için Amazon.com.tr sayfasında [Pioneer DJ Pioneer DDJ-FLX4 Taşınabilir 2 Kanallı DJ Controller](https://www.amazon.com.tr/dp/B0BK25SY9G?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Pioneer DJ Pioneer DDJ-FLX4 Taşınabilir 2 Kanallı DJ Controller](https://www.amazon.com.tr/dp/B0BK25SY9G?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### dj liğe yeni başlayanlar için en mantıklı cihaz hangisidir?
@@ -65,3 +77,4 @@ Hoparlörlerden temiz ve dinamik bir çıkış almak için WAV, AIFF veya en az 
 Sıradaki parçayı dışarıya vermeden önce ana parçayla aynı tempoda ve ölçüde buluşturmak için kulaklıkla ön dinleme (cue) yapmak şarttır. Sadece odadaki ya da kabindeki hoparlör sesine güvenerek crossfader açmaya çalışmak, ufak bir tempo uyuşmazlığında bile parçaların birbirine dolanmasına ve dinleyiciyi rahatsız eden bir ritim kaymasına yol açar.
 
 Masandaki alanı ve taşınabilirlik beklentini netleştirdikten sonra, yazılım desteği sunan iki kanallı bir kontrol cihazıyla düzenli miks pratiklerine başlayabilirsin.
+

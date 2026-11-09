@@ -112,6 +112,28 @@ Antrenman bittiğinde dambılları orta yerde bırakma, gece karanlıkta ayağı
 | **Orta Seviye** | + Mat | Tek bir dambıl çiftiyle tüm antrenmanı çözmek isteyenler. |
 | **Tam Teçhizat** | Bowflex/PowerBlock + Mat + | Hızlı ağırlık değişimi ve tam kapsamlı ev antrenmanı arayanlar. |
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Dambıl için Amazon.com.tr sayfasında [Çok Fonksiyonlu Dambıl Seti 30 KG - Ayarlanabilir Ağırlık Seti](https://www.amazon.com.tr/dp/B0HQ4394BB?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Ecgspor 20 KG Dambıl Seti ve Ağırlık Seti Vücut Geliştirme Aleti](https://www.amazon.com.tr/dp/B09G6TDLZW?tag=hobibulsite-21).
+
+Listenin devamında [Direnç Bandı Kas Geliştirme Lastiği Fitness Pilates Cross Training Bant Yoga Push Up](https://www.amazon.com.tr/dp/B0DTP7RDM2?tag=hobibulsite-21) var.
+
+Direnç bandı için Amazon.com.tr sayfasında [USR CORD501 5 li Direnç Bandı Seti](https://www.amazon.com.tr/dp/B0F7HZ58DC?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Delta Konfor Zemin 10 MM Taşıma Askılı Pilates Minderi Yoga Matı, Siyah | Foam Köpük](https://www.amazon.com.tr/dp/B079K62BBS?tag=hobibulsite-21).
+
+Listenin devamında [Çok Fonksiyonlu Dambıl Seti 30 KG - Ayarlanabilir Ağırlık Seti](https://www.amazon.com.tr/dp/B0HQ4394BB?tag=hobibulsite-21) var.
+
+Direnç bandı için Amazon.com.tr sayfasında [Direnç Bandı Kas Geliştirme Lastiği Fitness Pilates Cross Training Bant Yoga Push Up](https://www.amazon.com.tr/dp/B0DTP7RDM2?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 **Sabit dambıl mı yoksa ayarlanabilir olan mı daha iyi?**
@@ -125,3 +147,4 @@ TheraBand bantlar lateks içerdiği için kesinlikle kullanma. Isınma hareketle
 
 **Mat almasam olmaz mı?**
 Halıda çalışıyorsan belki idare edebilirsin ama parke gibi sert zeminlerde dizlerini ve dambılın mekanizmasını korumak için mat alman iyi olur.
+

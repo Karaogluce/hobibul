@@ -77,6 +77,20 @@ Akvaryum hobisine sıfırdan adım atıyorsan ve filtre, ısıtıcı ya da aydı
 
 Hali hazırda bir tankın varsa ve iç filtrenin temizliğinden memnun kalmıyorsan, sepetli yapısıyla Fluval 207 dış filtreye geçmek su berraklığında ciddi bir rahatlama sağlar. Su sıcaklığını hassas biçimde sabitlemek istediğinde Eheim Jager ısıtıcıyı, suyun oksijen dengesini ve yüzey hareketliliğini desteklemek istediğinde ise Tetra APS 150 hava pompasını sistemine ekleyebilirsin. Aynı akvaryum işinin devamı [Hava Pompası](/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/) rehberinde.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Akvaryum filtresi için Amazon.com.tr sayfasında [VENUS AQUA Venusaqua Vs-410F Akvaryum Iç Filtresi 400 Lt/h 4W](https://www.amazon.com.tr/dp/B0DTF9YSB5?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Tetra HT 50 ısıtıcı, 25 – 60 L akvaryumlar için, sıcaklık ayar düğmesi ile farklı](https://www.amazon.com.tr/dp/B0DDXS3NWZ?tag=hobibulsite-21).
+
+Listenin devamında [VENUS AQUA Venusaqua Vs-410F Akvaryum Iç Filtresi 400 Lt/h 4W](https://www.amazon.com.tr/dp/B0DTF9YSB5?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Akvaryumda iç filtre mi yoksa dış filtre mi tercih edilmeli?
@@ -92,3 +106,4 @@ Hava pompası akvaryum suyuna oksijen kazandırmak ve yüzeyde hareket oluşturm
 Akvaryum ısıtıcılarının gücü belirli su kapasitelerine göre tasarlanır. Büyük bir tanka düşük kapasiteli bir ısıtıcı takarsan cihaz suyu hedef sıcaklığa ulaştıramaz; bu nedenle doğrudan akvaryumunun su hacmine uygun boyutu tercih etmen gerekir.
 
 Tankının ölçülerine ve balıklarının ihtiyacına uygun ekipmanları bir araya getirdiğinde, su dengesini çok daha rahat korur ve uzun vadeli bakım işlerini hafifletmiş olursun.
+

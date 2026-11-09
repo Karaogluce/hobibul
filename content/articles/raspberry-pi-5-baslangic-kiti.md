@@ -103,3 +103,18 @@ Güç verirken telefon şarj cihazlarını bir kenara bırak ve ya resmi adaptö
 | **Eksiksiz Set** | [GeeekPi Pi 5 Kiti](aff://geeekpi-pi5-baslangic-kiti) | Parça aramakla uğraşmadan doğrudan masaüstü bilgisayar kuracaklar. |
 
 Kısacası, eğer Linux dünyasına girmek ve güçlü bir kartla projeler yapmak istiyorsan Pi 5 8GB en iyi yol. Ama soğutucu ve adaptörü sakın ihmal etme. Sadece hobi amaçlı küçük devreler kuracaksan Uno ile başlamak hem cüzdanını hem de seni daha az yorar.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Raspberry pi için Amazon.com.tr sayfasında [Raspberry Pi 5 8GB](https://www.amazon.com.tr/dp/B0CS2Z72FY?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Arduino Tabanlı UNO R3 Geliştirme Kartı (CH340)](https://www.amazon.com.tr/dp/B08YDLWQYP?tag=hobibulsite-21).
+
+Listenin devamında [Raspberry Pi 5 için 27 W USB-C Güç Adaptörü](https://www.amazon.com.tr/dp/B0FPX3B3GD?tag=hobibulsite-21) var.
+
+Raspberry pi için Amazon.com.tr sayfasında [Raspberry Pi Aktif Soğutucu](https://www.amazon.com.tr/dp/B0CLXZBR5P?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->

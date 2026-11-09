@@ -111,6 +111,30 @@ Deney setleri arasından seçim yaparken bütçene ve çalışmayı yürütecek 
 
 Bütçe dostu paketler genellikle kırılmayan parçalara ve tekil çarpıcı deneylere odaklanır. Orta düzeydeki tercihler renkli reaksiyonlarla merak uyandırmayı hedefler. Üst pakette ise borosilikat cam kaplar ve yüzlerce farklı deneye kapı açan zengin rehber kitapçıklar yer alır. Kendi ihtiyacına göre bu üç seviyeden birini temel alarak yola çıkabilirsin.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Kimya deney seti için Amazon.com.tr sayfasında [Clementoni Bilim ve Oyun Süper Kimya](https://www.amazon.com.tr/dp/B0F7T3BTM3?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Liscianigiochi Bilim Seti](https://www.amazon.com.tr/dp/B0CFYBXSGR?tag=hobibulsite-21).
+
+Listenin devamında [Kenly Eğitici Çocuk Mikroskop Kiti LED Işıklı Zoomlu 100x 400x 1200x Büyütmeli Bilim](https://www.amazon.com.tr/dp/B0H15ZDY7M?tag=hobibulsite-21) var.
+
+Bilim seti için Amazon.com.tr sayfasında [Çocuklar İçin 10'lu Bilim ve Deney Seti – Eğitici STEM Oyuncakları, Elektrik, Motor,](https://www.amazon.com.tr/dp/B0HPW7Q18G?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Clementoni Bilim ve Oyun - Yanardağlar ve Volkanik Patlamalar](https://www.amazon.com.tr/dp/B0BH4GW9SV?tag=hobibulsite-21).
+
+Listenin devamında [Clementoni Bilim ve Oyun Süper Kimya](https://www.amazon.com.tr/dp/B0F7T3BTM3?tag=hobibulsite-21) var.
+
+Bilim seti için Amazon.com.tr sayfasında [Kenly Eğitici Çocuk Mikroskop Kiti LED Işıklı Zoomlu 100x 400x 1200x Büyütmeli Bilim](https://www.amazon.com.tr/dp/B0H15ZDY7M?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Clementoni Bilim ve Oyun - Yanardağlar ve Volkanik Patlamalar](https://www.amazon.com.tr/dp/B0BH4GW9SV?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Evde kimya deneyi yapmak tehlikeli midir?
@@ -126,3 +150,4 @@ Borosilikat cam, normal camlara kıyasla ani ısı değişimlerine ve kimyasal a
 Thames & Kosmos Ooze Labs gibi hazır kitlerdeki reaktifler bittiğinde kılavuzda belirtilen alternatif ev malzemelerine yönelebilirsin. Birçok temel deney sirke, karbonat, nişasta ve sofra tuzu gibi mutfak ürünleriyle tekrarlanabilir. Daha ileri düzey deneyler içinse biten kimyasalların güvenli alternatiflerini temin ederek deney ortamını canlı tutabilirsin.
 
 Eğer kimyayı sadece eğlenceli bir oyun değil derin bir bilimsel uğraş olarak öğrenmek istiyorsan, geniş deney yelpazesi ve profesyonel rehberiyle Thames & Kosmos Chem C2000 setini tercih etmelisin.
+

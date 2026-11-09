@@ -70,3 +70,16 @@ Normal yapıştırıcılar ve silikonlar küflenmeyi önlemek için kimyasal kat
 
 ---
 Canlı yükünü ve tankının hacmini baştan hesaplayıp filtrasyonu bu dengeye göre kurarsan su değerlerin hızla oturur. Fazla masraftan kaçınmak ve canlı kaybı yaşamamak için acele etmeden, hacmine uygun ekipmanlarla sistemi çalıştırman yeterlidir.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Akvaryum filtresi için Amazon.com.tr sayfasında [VENUS AQUA Venusaqua Vs-410F Akvaryum Iç Filtresi 400 Lt/h 4W](https://www.amazon.com.tr/dp/B0DTF9YSB5?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Tetra HT 50 ısıtıcı, 25 – 60 L akvaryumlar için, sıcaklık ayar düğmesi ile farklı](https://www.amazon.com.tr/dp/B0DDXS3NWZ?tag=hobibulsite-21).
+
+Listenin devamında [VENUS AQUA Venusaqua Vs-410F Akvaryum Iç Filtresi 400 Lt/h 4W](https://www.amazon.com.tr/dp/B0DTF9YSB5?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->

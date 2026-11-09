@@ -121,3 +121,18 @@ Bitkiler ışığı fotosentez için kullanır; bu yüzden aydınlatma süresi v
 | **İleri Seviye** | Tetra seti + gerektiğinde ; set dışı kurulumda [Eheim Jager](aff://eheim-jager-akvaryum-isiticisi) | Canlı yüküne göre filtrasyonu yükseltmeyi veya ayrı tank kurmayı planlayanlar. |
 
 Özetle; Tetra setindeki tankı sağlam bir yere yerleştir, ekipmanlarını kur ve suyun oturması için balıkları bir süre daha akvaryumcuda bırak. Acele etmezsen çok daha sağlıklı bir hobin olur.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Akvaryum filtresi için Amazon.com.tr sayfasında [VENUS AQUA Venusaqua Vs-410F Akvaryum Iç Filtresi 400 Lt/h 4W](https://www.amazon.com.tr/dp/B0DTF9YSB5?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Tetra HT 50 ısıtıcı, 25 – 60 L akvaryumlar için, sıcaklık ayar düğmesi ile farklı](https://www.amazon.com.tr/dp/B0DDXS3NWZ?tag=hobibulsite-21).
+
+Listenin devamında [Jeneca GH-09 Kaplumbağa Akvaryumu](https://www.amazon.com.tr/dp/B0HMWTZXS6?tag=hobibulsite-21) var.
+
+Akvaryum filtresi için Amazon.com.tr sayfasında [VENUS AQUA Venusaqua Vs-410F Akvaryum Iç Filtresi 400 Lt/h 4W](https://www.amazon.com.tr/dp/B0DTF9YSB5?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->

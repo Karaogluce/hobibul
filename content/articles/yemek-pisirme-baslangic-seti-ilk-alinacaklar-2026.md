@@ -116,6 +116,24 @@ Orta pakete eklenen OXO spatula, yapışmaz tavanın çizilmesini önleyerek kul
 
 Üst pakette ise devreye giren Zwilling bıçak, Alman çeliğinin tokluğunu tezgahına taşır. Yanına eklenen Microplane zester sayesinde narenciye kabukları, baharatlar ve sert peynirlerle tariflerine derinlik katabilirsin. İhtiyacına uygun paketi seçerken mutfakta ne sıklıkla yemek yapacağını hesaba katman faydalı olur.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Mutfak bıçağı için Amazon.com.tr sayfasında [WMF Touch 2 Parça Mutfak Bıçağı Seti, Aşçı Bıçağı ve Sebze Bıçağı, Özel Bıçak Çeliği,](https://www.amazon.com.tr/dp/B00BD1DKIE?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Tefal Titanyum 1X SimpleCook 30 Cm Difüzyon Tabanlı Tava - 2100118538](https://www.amazon.com.tr/dp/B09K447JJY?tag=hobibulsite-21).
+
+Listenin devamında [MallArt® Ahşap Saplı Paslanmaz Çelik Spatula – 24cm Eğilimli Çok Amaçlı Mutfak](https://www.amazon.com.tr/dp/B0FB98S64J?tag=hobibulsite-21) var.
+
+Mutfak bıçağı için Amazon.com.tr sayfasında [Zwilling 2 Parça Bıçak Seti](https://www.amazon.com.tr/dp/B06Y2H4VR8?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Tefal SimpleCook 1X Difüzyon Tabanlı 3'lü Tava Seti - 20/24/28 cm](https://www.amazon.com.tr/dp/B0BKR695VZ?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Başlangıç seviyesinde bir yemek pişirme robotu almak mantıklı mı?
@@ -131,3 +149,4 @@ Bulaşık makinelerinde kullanılan deterjanlar aşındırıcı kimyasallar içe
 On parçalık bıçak bloklarının içindeki soyma, ekmek veya kemik sıyırma bıçaklarının çoğu günlük hayatta nadiren kullanılır. Aynı bütçeyi kullanmayacağın beş farklı bıçağa bölmek yerine, işlerin neredeyse tamamını tek başına yapabilen kaliteli bir şef bıçağına yatırmak kesim performansını doğrudan artırır.
 
 Mutfakta ustalaşmanın yolu tezgaha yığılan onlarca aletten değil, eline tam oturan keskin bir şef bıçağı ile ısısını iyi kontrol ettiğin yapışmaz bir tavaya güvenmekten geçer.
+

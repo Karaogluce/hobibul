@@ -67,6 +67,18 @@ Gereksiz teknik detaylara boğulmak ya da modern araçları tamamen görmezden g
 - **Neden sorun:** DJ'liğe başlarken video sitelerinden düşük kaliteli ses dosyaları indirip arşive eklemek ilk başta kolay gelse de, o parçaları biraz daha güçlü bir hoparlöre verdiğinde tizlerin dağıldığını ve basların bozulduğunu fark edersin.
 - **Ne yapmalı:** Müzik kütüphaneni ilk günden itibaren yüksek kaliteli dosya formatlarıyla kurmaya çalışmalısın. Aradığın ister eski bir nostaljik şarkı ister yeni bir parça olsun, elinden geldiğince temiz ve sıkıştırılmamış kopyaları toplamalısın; aksi halde ses seviyesi arttığında dinleyiciyi rahatsız eden bozulmalarla karşılaşırsın.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Dj kontrol için Amazon.com.tr sayfasında [Pioneer DJ Pioneer DDJ-FLX4 Taşınabilir 2 Kanallı DJ Controller](https://www.amazon.com.tr/dp/B0BK25SY9G?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Pioneer DJ Pioneer DDJ-FLX4 Taşınabilir 2 Kanallı DJ Controller](https://www.amazon.com.tr/dp/B0BK25SY9G?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### En iyi kontrol cihazı aramasıyla doğrudan sonuca ulaşabilir miyim?
@@ -84,3 +96,4 @@ Kontrol cihazları tek başına müzik çalmaz. Cihazı bağlayacağın bir diz�
 ---
 
 Önce müzik arşivini düzene sokup iki kanallı temel bir kontrol cihazıyla kulak hassasiyetini geliştir; profesyonel kulüp sistemlerini ise sahnede çalacak aşamaya geldiğinde düşünürsün.
+

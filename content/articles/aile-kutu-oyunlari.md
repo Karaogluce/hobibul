@@ -6,70 +6,48 @@ subcategory: "masaustu-oyun"
 date: "2026-11-04"
 updated: "2026-11-09"
 meta_title: "Aile Kutu Oyunları: Türkiye'deki Seçim | Hobi Bul"
-meta_description: "Çocuklu masa için satılan kutular: Captain Flip, Carcassonne, Ticket to Ride Europe, Hop, Machi Koro ve Catan. Yaşlar sayfadan."
-excerpt: "Çocuklu masa için satılan kutular: Captain Flip, Carcassonne, Ticket to Ride Europe, Hop, Machi Koro ve Catan. Yaşlar sayfadan."
+meta_description: "Amazon.com.tr başlığı tutan kutu oyunları: Monopoly Türkiye Sürümü Kutu Oyunu, Cluedo Kutu Oyunu, 2-6 Oyuncu İçin Yeniden Tasarlanmış Cluedo Oyunu,."
+excerpt: "Amazon.com.tr başlığı tutan kutu oyunları: Monopoly Türkiye Sürümü Kutu Oyunu, Cluedo Kutu Oyunu, 2-6 Oyuncu İçin Yeniden Tasarlanmış Cluedo Oyunu,."
 focus_keyword: "aile kutu oyunları"
 draft: "false"
 ---
-Aile masasında önce yaş ve süre konuşulur. 8+ diye işaretlediği kısa kutular, 14+ ve bir saati aşan oyunlardan ayrı durur. Aşağıdakilerin hepsi o sitede satılıyor. Yaş, kişi ve süre ürün sayfasındaki satır.
+Aile masasında kutu, yaş ve kişi sayısı başlıkta yazıyorsa ona göre durur. Bu listedekiler Amazon.com.tr ürün sayfası. Kalabalık strateji gecesi için [en iyi kutu oyunları](/makale/en-iyi-kutu-oyunlari-2026/), yalnız iki kişi için [2 kişilik liste](/makale/2-kisilik-kutu-oyunlari/).
 
-> Çocuklu kısa akşam için Captain Flip 8+, 2-5 kişi, 20 dakika. Carcassonne ve Ticket to Ride Europe de 8+ ve 2-5 kişi, 30-60 dakika. Catan 10+ ve 3-4 kişi. Munchkin 16+, bu masanın kutusu değil.
+## Kutular
 
-İki yetişkin yalnız oturuyorsa [2 kişilik kutu oyunları](/makale/2-kisilik-kutu-oyunlari/) daha dar bir liste. Kalabalık ve strateji tarafı [en iyi kutu oyunları](/makale/en-iyi-kutu-oyunlari-2026/) yazısında. Kategori [masaüstü oyunlar](/kategori/koleksiyon/masaustu-oyun/). Aynı masaüstü işinin devamı [Kime Hangi Oyun](/makale/yilbasi-hediyesi-kutu-oyunlari/) rehberinde.
+### Monopoly Türkiye Sürümü Kutu Oyunu
 
-## Sekiz yaşla açılan kısa kutular
+[Monopoly Türkiye Sürümü Kutu Oyunu](https://www.amazon.com.tr/dp/B00MUTZ0MW?tag=hobibulsite-21) Amazon.com.tr üzerinde duruyor; başlık 2-6 oyuncu diyor, yaş satırı 8+.
 
-Captain Flip korsan tayfası seçilen bir oyun. 2-5 kişi, 20 dakika, 8+. Karar bir kez veriliyor, o yüzden tur uzamıyor. Yedi denize açılma hikâyesi çocuğa yakın. Daha uzun bir ekonomi isteyen yetişkin aynı akşam sıkılabilir. 
+### Cluedo Kutu Oyunu, 2-6 Oyuncu İçin Yeniden Tasarlanmış Cluedo Oyunu, Gizem Çözme
 
-Hop! renk ve sayı eşine, doğru anda araya girilen bir kart oyunu. 2-7 kişi, 10 dakika, 8+. Sıra size gelmeden de oyuna dahil olabiliyorsunuz. On dakika, yemekten sonra kalkıp dağılacak bir masa için biçilmiş. Aynı kartı bütün gece çevirmek isteyen kişiye yetmez. 
+[Cluedo Kutu Oyunu, 2-6 Oyuncu İçin Yeniden Tasarlanmış Cluedo Oyunu, Gizem Çözme](https://www.amazon.com.tr/dp/B0C641D51Y?tag=hobibulsite-21) Amazon.com.tr üzerinde duruyor; başlık 2-6 oyuncu diyor.
 
-Bi' Paket Cips, cips pullarıyla hedef tutturma oyunu. 2-6 kişi, 15 dakika, 8+. Türkçe adı var. Tahmin ve risk var. İki kişiyle de kuruluyor ama gülmek için üç dört kişi daha iyi. Çok sessiz bir masada pullar boşa düşer. 
+### ASMODEE DiXit Yeni! Hayalini Anlat, Çok Renkli
 
-## Bir saate yaklaşan aile kutuları
+[ASMODEE DiXit Yeni! Hayalini Anlat, Çok Renkli](https://www.amazon.com.tr/dp/B09SVFWV4G?tag=hobibulsite-21) Amazon.com.tr üzerinde duruyor.
 
-Carcassonne karo döşeme. 2-5 kişi, 30-60 dakika, 8+. Çocuk puanı haritanın üstünde görebiliyor. Beş kişi olunca masa kalabalıklaşıyor. Kuralları sade. 3. baskıyı satıyor. 
+### Risk Kutu Oyunu
 
-Ticket to Ride Europe tren yolu. 2-5 kişi, 30-60 dakika, 8+. Metin İstanbul'u da sayıyor, bu yüzden Türkiye'deki masada tanıdık bir durak var. Harita yer ister. Dar bir mutfak masasında erteleyin. Geniş masa ve herkesin oturmaya razı olduğu bir akşamdaysanız aileye uyar. [Satın Al: Ticket to Ride Europe](aff://ticket-to-ride-europe)
+[Risk Kutu Oyunu](https://www.amazon.com.tr/dp/B07CKCKN6R?tag=hobibulsite-21) Amazon.com.tr üzerinde duruyor; başlık 2-5 oyuncu diyor, yaş satırı 10+, başlıkta Türkçe geçiyor.
 
-Machi Koro'da şehri büyütüp zarın getirdiği gelirle yarışıyorsunuz. 2-4 kişi, 30-60 dakika, 8+. Dörtten fazla kişi sığmıyor. Şehir kurma fikri çocukla yetişkinin aynı masada kalmasına yardım ediyor. Daha sessiz bir ekosistem isteyen Cascadia'ya bakabilir. O 1-4 kişi, 30-60 dakika, 10+. Tek kişi de oynanıyor. Yaş 10+. 
+### Hasbro Gaming Tabu XL Kutu Oyunu, 4 Farklı Oyun Alternatifi, Klasik Oyunun Yanı Sıra
 
-Pandemic birlikte oynanıyor. Kimse kimseyi elemiyor. 2-4 kişi, 30-60 dakika, 8+. Dört salgını durdurmaya çalışıyorsunuz. Rekabet isteyen çocuk bu kutuda rakip arar ve bulamaz. O akşam Hop ya da Bi' Paket Cips daha doğru. [Satın Al: Pandemic](aff://pandemic)
+[Hasbro Gaming Tabu XL Kutu Oyunu, 4 Farklı Oyun Alternatifi, Klasik Oyunun Yanı Sıra](https://www.amazon.com.tr/dp/B002E2LUM4?tag=hobibulsite-21) Amazon.com.tr üzerinde duruyor.
 
-## On yaş ve Catan
+### Ticket to Ride Europe
 
-Catan 3-4 kişi, 30-60 dakika, 10+. Kaynak takası masayı konuşturuyor. İki kişiye kurulmuyor. Sekiz yaşındaki çocuğu temel kutuya zorlamak, sayfadaki yaşın altında kalmak demek. Üç dört kişi ve yaş tutuyorsa hâlâ aile masasının bilinen kutusu. 
+[Ticket to Ride Europe](https://www.amazon.com.tr/dp/0975277367?tag=hobibulsite-21) Amazon.com.tr üzerinde duruyor.
 
-Splendor 2-4 kişi, 30-60 dakika, 10+. Ticaret sakin. Konuşarak bağırarak oynanan bir parti değil. On yaş tutuyorsa ve çocuk bir süre sessizce kart dizmeye razıysa uyar. 
+### Z-Man Games Pandemic
 
-| Oyun | Kişi | Süre | Zorluk |
-| --- | --- | --- | --- |
-| Hop! | 2-7 | 10 dk | çok kısa kart |
-| Bi' Paket Cips | 2-6 | 15 dk | tahmin |
-| Captain Flip | 2-5 | 20 dk | kısa tayfa |
-| Carcassonne | 2-5 | 30-60 dk | karo |
-| Ticket to Ride Europe | 2-5 | 30-60 dk | tren |
-| Machi Koro | 2-4 | 30-60 dk | şehir ve zar |
-| Cascadia | 1-4 | 30-60 dk | habitat, 10+ |
-| Pandemic | 2-4 | 30-60 dk | birlikte |
-| Catan | 3-4 | 30-60 dk | ticaret, 10+ |
-| Splendor | 2-4 | 30-60 dk | ticaret, 10+ |
+[Z-Man Games Pandemic](https://www.amazon.com.tr/dp/B00A2HD40E?tag=hobibulsite-21) Amazon.com.tr üzerinde duruyor.
 
-Zorluk bir puan değil. Sayfanın anlattığı oyun türü. Yaş, özellik satırındaki gibi.
+### Pandemik: Legacy - Season Zero - TR
 
-Munchkin 16+ ve 60-120 dakika. BANG! 4-7 kişi. 7 Wonders 14+ ve 3-7 kişi. Bunlar çocuklu kısa akşamın kutusu değil. Yetişkin geceye kalırlarsa [genel rehberde](/makale/en-iyi-kutu-oyunlari-2026/) duruyorlar.
-
-Üç kişisiniz ve on dakika istiyorsanız Hop. Yirmi dakika ve bir hikâye istiyorsanız Captain Flip. Bir saatlik harita istiyorsanız Carcassonne ya da Ticket to Ride Europe. Yaş on tutuyorsa ve takas konuşulacaksa Catan.
+[Pandemik: Legacy - Season Zero - TR](https://www.amazon.com.tr/dp/B08F73L5BM?tag=hobibulsite-21) Amazon.com.tr üzerinde duruyor.
 
 ## Sıkça Sorulan Sorular
 
-**Aile kutu oyununda ilk kutu hangisi?**
-Sekiz yaş ve kısa süre için Captain Flip ya da Hop. Biraz daha uzun oturacaksanız Carcassonne. Catan'ı, yaş 10 ve kişi sayısı 3-4 olmadan ilk kutu yapmayın.
-
-**Catan çocukla oynanır mı?**
-temel kutuyu 10+ ve 3-4 kişi diye yazıyor. Altındaysa Captain Flip, Hop, Carcassonne veya Ticket to Ride Europe 8+.
-
-**İki yetişkin ve bir çocuk hangi aralığa girer?**
-Üç kişi, 2-4 ya da 2-5 yazan kutulara uyar: Carcassonne, Ticket to Ride Europe, Captain Flip, Machi Koro, Splendor, Cascadia. Catan da 3-4. Hop 2-7.
-
-**Parti oyunu aile sayılır mı?**
-Bi' Paket Cips 8+ ve 15 dakika, aileye girebilir. Codenames 14+ ve 4-8+. Munchkin 16+. Yaş tutmuyorsa parti kutusunu çocuk masasına koymayın.
+**Satın alma linki nereye gider?**
+Amazon.com.tr üzerinde, başlığında oyun adı duran ürün sayfasına.

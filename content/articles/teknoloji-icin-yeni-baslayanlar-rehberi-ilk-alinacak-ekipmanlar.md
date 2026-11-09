@@ -49,6 +49,18 @@ Projelerini dışarı taşımak, havadan çekimler yapmak veya uçuş dinamikler
 
 Bir diğer hata ise projenin gereksinimlerini araştırmadan ekipman sipariş etmektir. Örneğin bir [Raspberry Pi 5 (8GB)](aff://raspberry-pi-5) alıp gerekli soğutma elemanlarını unutmak cihazın aşırı ısınmasına yol açar. Benzer şekilde [Creality Ender 3 V3 3D Yazıcı](aff://creality-ender-3-v3) alıp kalibrasyon ayarlarını atlamak sürekli hatalı baskılarla sonuçlanır. Teknoloji iyi yönleri ve sunduğu imkanlar kadar, sabırlı olmanı gerektiren zorluklarıyla da bir bütündür.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Arduino için Amazon.com.tr sayfasında [Arduino Tabanlı UNO R3 Geliştirme Kartı (CH340)](https://www.amazon.com.tr/dp/B08YDLWQYP?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Raspberry Pi 5 8GB](https://www.amazon.com.tr/dp/B0CS2Z72FY?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Hangi hobi ekipmanıyla başlamalıyım?
@@ -64,3 +76,4 @@ Bir diğer hata ise projenin gereksinimlerini araştırmadan ekipman sipariş et
 İşe en ucuz ve temel kartlarla başlayıp, becerilerin ilerledikçe [Raspberry Pi 5 (8GB)](aff://raspberry-pi-5) veya 3D yazıcı gibi daha kapsamlı donanımlara bütçe ayırmak en sağlıklı yöntemdir.
 
 Bütçene uygun ilk parçayı seç, masanı kur ve sabırla küçük adımlarla ilerlemeye başla.
+

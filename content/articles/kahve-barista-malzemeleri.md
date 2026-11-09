@@ -37,6 +37,22 @@ Hafta içi yoğun temposunda hızlıca kahve hazırlamak isteyenler ile hafta so
 
 Mevsim geçişleri de demleme alışkanlıklarını doğrudan etkiler; örneğin yaz aylarında sıcak filtre kahve yerine soğuk demleme yöntemlerine ağırlık verebilirsin. Kapsül kahve nasıl seçilir diye merak ediyorsan, pratiklik odaklı günlerde manuel ekipmanlar yerine tek tuşla çalışan sistemlerin daha mantıklı geleceğini fark edersin. Filtre kahve nasıl seçilir sorusu ise tamamen damak zekatına ve asidite beklentine dayanır; orta gövdeli ve dengeli tatlar arıyorsan Brezilya veya Kolombiya kökenli çekirdekler işini görür. Deneyim seviyen henüz başlangıç aşamasındaysa, karmaşık reçetelerle uğraşmak yerine temel oranları öğreten sade bir setle yola çıkman daha uygundur.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Kahve öğütücü için Amazon.com.tr sayfasında [Sinbo SCM-2982 Elektrikli Kahve ve Baharat Öğütücü – 200W Motor, 2 Hazneli (4 + 2](https://www.amazon.com.tr/dp/B0DZ6S3GV5?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Hario V60 02 Dripper Filtresi (100 Adet)](https://www.amazon.com.tr/dp/B001U7EOYA?tag=hobibulsite-21).
+
+Listenin devamında [Sinbo SCM-2982 Elektrikli Kahve ve Baharat Öğütücü – 200W Motor, 2 Hazneli (4 + 2](https://www.amazon.com.tr/dp/B0DZ6S3GV5?tag=hobibulsite-21) var.
+
+V60 için Amazon.com.tr sayfasında [Hario V60 02 Dripper Filtresi (100 Adet)](https://www.amazon.com.tr/dp/B001U7EOYA?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 Hangi öğütme kademesini seçmeliyim?
@@ -55,3 +71,4 @@ Başlangıç için hangi ekipman yeterlidir?
 Basit bir manuel dripper, uygun bir öğütücü ve hassas tartı, evde nitelikli kahve demlemeyi öğrenmek için fazlasıyla yeterlidir.
 
 İhtiyacına uygun temel ekipmanları belirleyip bütçeni göz önünde bulundurarak yola çıkarsan kısa sürede en iyi sonucu elde edersin.
+

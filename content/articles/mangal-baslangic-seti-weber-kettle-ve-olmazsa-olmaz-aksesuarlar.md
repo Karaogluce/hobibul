@@ -104,6 +104,28 @@ Termometrenin ucunu etin en kalın yerine, kemiğe değmeyecek şekilde yerleşt
 
 Yangın emniyeti için kömürler tamamen sönmeden mangalı kapalı alana taşıma. Külleri temizlemek için de tamamen soğumasını bekle; sıcak kül poşeti delip yangın çıkarabilir. Sabırlı olursan, suyla söndürmeye çalışıp ızgarayı ve emayeyi şoka sokmaktan da kurtulmuş olursun.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Mangal için Amazon.com.tr sayfasında [ReHome Guruss Travel-X Taşınabilir Kömürlü Mangal | Tekerlekli, Siyah | 51 × 37 cm](https://www.amazon.com.tr/dp/B0CC935C4N?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Bodyguard Barbekü BBQ Mangal Örtüsü, Gazlı, Kömürlü Grill Koruma Brandası, Su geçirmez,](https://www.amazon.com.tr/dp/B0F8RJ21YW?tag=hobibulsite-21).
+
+Listenin devamında [ThermoPro TP03H Su Geçirmez Katlanabilir Hızlı Sonuç Gıda Pişirme Termometresi](https://www.amazon.com.tr/dp/B07Y51PCW7?tag=hobibulsite-21) var.
+
+Et termometresi için Amazon.com.tr sayfasında [ThermoPro TP01H Et Termometresi Gıda Sıcaklık Probu Mutfak Pişirme Yağ Şeker](https://www.amazon.com.tr/dp/B082Y114R5?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Bluefox Paslanmaz Çelik Izgara Mangal Temizleme Fırçası | Kazıyıcılı, 360º Kapsamlı, 3](https://www.amazon.com.tr/dp/B095PQ83MM?tag=hobibulsite-21).
+
+Listenin devamında [ReHome Guruss Travel-X Taşınabilir Kömürlü Mangal | Tekerlekli, Siyah | 51 × 37 cm](https://www.amazon.com.tr/dp/B0CC935C4N?tag=hobibulsite-21) var.
+
+Et termometresi için Amazon.com.tr sayfasında [ThermoPro TP03H Su Geçirmez Katlanabilir Hızlı Sonuç Gıda Pişirme Termometresi](https://www.amazon.com.tr/dp/B07Y51PCW7?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Kettle mangal almak gerçekten gerekli mi?
@@ -127,3 +149,4 @@ Bunun net bir süresi yok. Ancak fırça kılları dökülmeye başladıysa veya
 | **Tam Set** | Standart Paket + | Mangalı düzenli bir hobi haline getiren ve ekipmanına iyi bakmak isteyenlere. |
 
 Yeni setinle ilk denemende çok pahalı etlerle başlamamanı öneririm. Önce tavuk kanat veya köfte gibi ürünlerle mangalın hava deliklerine ve ısısına alış, ardından termometrenin gücünü kullanarak daha kalın parçalara geçiş yaparsın. Afiyet olsun!
+

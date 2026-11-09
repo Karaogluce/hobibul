@@ -4,6 +4,7 @@
 Çok satanlar listesi ve ürün sayfası. Captcha veya 503 olursa istisna yerine
 yumuşak hata döner; engeli aşmaya çalışmaz.
 """
+import html as html_lib
 import http.cookiejar
 import re
 import time
@@ -60,8 +61,9 @@ def _engel_mi(status, body):
 
 
 class Oturum:
-    def __init__(self, bekle=0.35):
+    def __init__(self, bekle=0.8, deneme=3):
         self.bekle = bekle
+        self.deneme = deneme
         self.jar = http.cookiejar.CookieJar()
         self.opener = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(self.jar))
         self.hazir = False
@@ -77,41 +79,55 @@ class Oturum:
         return self._iste(url, referer)
 
     def _iste(self, url, referer=None):
-        ara = self.bekle - (time.time() - self.son)
-        if ara > 0:
-            time.sleep(ara)
-        headers = {
-            "User-Agent": UA,
-            "Accept": "text/html,application/xhtml+xml",
-            "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.8",
-        }
-        if referer:
-            headers["Referer"] = referer
-        req = urllib.request.Request(url, headers=headers)
-        try:
-            with self.opener.open(req, timeout=25) as resp:
-                status = getattr(resp, "status", 200) or 200
-                body = resp.read().decode("utf-8", "replace")
-                final = resp.geturl()
-        except urllib.error.HTTPError as e:
-            self.son = time.time()
-            body = ""
+        son_hata = None
+        for deneme in range(self.deneme):
+            ara = self.bekle - (time.time() - self.son)
+            if ara > 0:
+                time.sleep(ara)
+            if deneme:
+                time.sleep(1.5 * deneme)
+            headers = {
+                "User-Agent": UA,
+                "Accept": "text/html,application/xhtml+xml",
+                "Accept-Language": "tr-TR,tr;q=0.9,en;q=0.8",
+            }
+            if referer:
+                headers["Referer"] = referer
+            req = urllib.request.Request(url, headers=headers)
             try:
-                body = e.read().decode("utf-8", "replace")
-            except Exception:
+                with self.opener.open(req, timeout=25) as resp:
+                    status = getattr(resp, "status", 200) or 200
+                    body = resp.read().decode("utf-8", "replace")
+                    final = resp.geturl()
+            except urllib.error.HTTPError as e:
+                self.son = time.time()
                 body = ""
-            neden = _engel_mi(e.code, body) or f"http {e.code}"
-            raise AmazonEngel(url, neden) from e
-        except (urllib.error.URLError, TimeoutError) as e:
+                try:
+                    body = e.read().decode("utf-8", "replace")
+                except Exception:
+                    body = ""
+                neden = _engel_mi(e.code, body) or f"http {e.code}"
+                son_hata = AmazonEngel(url, neden)
+                if e.code in (429, 503) and deneme + 1 < self.deneme:
+                    continue
+                raise son_hata from e
+            except (urllib.error.URLError, TimeoutError) as e:
+                self.son = time.time()
+                son_hata = AmazonEngel(url, "baglanti")
+                if deneme + 1 < self.deneme:
+                    continue
+                raise son_hata from e
             self.son = time.time()
-            raise AmazonEngel(url, "baglanti") from e
-        self.son = time.time()
-        if "/gp/bestsellers" in url:
-            self.hazir = True
-        neden = _engel_mi(status, body)
-        if neden:
-            raise AmazonEngel(final or url, neden)
-        return body, final or url
+            if "/gp/bestsellers" in url:
+                self.hazir = True
+            neden = _engel_mi(status, body)
+            if neden:
+                son_hata = AmazonEngel(final or url, neden)
+                if deneme + 1 < self.deneme and neden != "captcha":
+                    continue
+                raise son_hata
+            return body, final or url
+        raise son_hata or AmazonEngel(url, "bos")
 
 
 def cok_satanlari_ayikla(html, limit=3):
@@ -143,11 +159,11 @@ def cok_satanlari_ayikla(html, limit=3):
         if not adlar:
             continue
         yazar = ""
-        ad = adlar[0].split("|")[0].strip()
+        ad = html_lib.unescape(adlar[0].split("|")[0].strip())
         if len(ad) > 160:
             ad = ad[:160].rsplit(" ", 1)[0].rstrip(" ,;:-–")
         if len(adlar) >= 2 and "line-clamp-1" in chunk:
-            yazar = adlar[1].split("|")[0].strip()
+            yazar = html_lib.unescape(adlar[1].split("|")[0].strip())
         yol = ""
         href = re.search(r'href="([^"]*/dp/' + re.escape(asin) + r'[^"]*)"', chunk)
         if href:
@@ -239,7 +255,14 @@ def arama_adaylari(html, limit=8):
         if not asin_m or not h2:
             continue
         ad = re.sub(r"<[^>]+>", "", h2.group(1))
-        ad = re.sub(r"\s+", " ", ad).strip()
+        ad = html_lib.unescape(re.sub(r"\s+", " ", ad).strip())
+        if len(ad) < 18:
+            for uzun in re.findall(r'(?:alt|aria-label)="([^"]{18,200})"', parca):
+                uzun = html_lib.unescape(re.sub(r"\s+", " ", uzun).strip())
+                if "amazon" in uzun.lower():
+                    continue
+                ad = uzun
+                break
         if not ad:
             continue
         out.append({"asin": asin_m.group(1), "ad": ad})
@@ -277,6 +300,71 @@ def oyun_bul(oturum, ad):
             continue
         return {"asin": aday["asin"], "ad": aday["ad"], "baslik": baslik, "url": dp}
     return None
+
+
+def tip_uyuyor(baslik, gruplar, kitap_olur=False):
+    """Başlık, gruplardan birinin bütün kelimelerini taşıyor mu.
+
+    Birebir marka aranmaz. 'yoga matı' aranıyorsa başlıkta yoga ve mat geçer.
+    Kitap ve Prime Video sayfası, konu kitap değilse elenir.
+    """
+    hedef = fold(baslik)
+    if not hedef or hedef.startswith("prime video"):
+        return False
+    if not kitap_olur and "amazon.com.tr: kitap" in hedef:
+        return False
+    for grup in gruplar:
+        kelimeler = [fold(k) for k in grup if fold(k)]
+        if kelimeler and all(k in hedef for k in kelimeler):
+            return True
+    return False
+
+
+def ara(oturum, sorgu, limit=8):
+    url = HOST + "/s?" + urllib.parse.urlencode({"k": sorgu})
+    html, _final = oturum.getir(url, referer=HOST + "/gp/bestsellers")
+    return arama_adaylari(html, limit=limit)
+
+
+def tip_bul(oturum, sorgular, gruplar, limit=4, kitap_olur=False, ekstra_red=()):
+    """Sorguları sırayla dener. Başlığı tipe uyan ilk ürünleri doğrular.
+
+    Dönüş: doğrulanmış ürün listesi. Engel, o sorguyu atlar.
+    """
+    bulunan = []
+    gorulen = set()
+    red = tuple(fold(x) for x in ekstra_red)
+    for sorgu in sorgular:
+        try:
+            adaylar = ara(oturum, sorgu, limit=12)
+        except AmazonEngel:
+            continue
+        for aday in adaylar:
+            if aday["asin"] in gorulen:
+                continue
+            if not tip_uyuyor(aday["ad"], gruplar, kitap_olur=kitap_olur):
+                continue
+            if any(k in fold(aday["ad"]) for k in red):
+                continue
+            try:
+                baslik, dp = urun_basligi(oturum, aday["asin"])
+            except AmazonEngel:
+                continue
+            if not tip_uyuyor(baslik, gruplar, kitap_olur=kitap_olur):
+                continue
+            if any(k in fold(baslik) for k in red):
+                continue
+            gorulen.add(aday["asin"])
+            bulunan.append({
+                "asin": aday["asin"],
+                "ad": aday["ad"],
+                "baslik": baslik,
+                "url": dp,
+                "sorgu": sorgu,
+            })
+            if len(bulunan) >= limit:
+                return bulunan
+    return bulunan
 
 
 def urun_bul(oturum, ad, marka=""):

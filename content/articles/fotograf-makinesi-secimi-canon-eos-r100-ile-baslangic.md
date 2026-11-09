@@ -116,3 +116,16 @@ Her zaman değil. Eğer çok hızlı hareket eden nesneleri çekiyorsan, Full HD
 | | Sadece Profesyonel Gövde | Bütçesi olan ve lensi ayrıca seçecek olanlara. |
 
 Eğer bu işe yeni giriyorsan, maceraya atılmadan **Canon EOS R100 Travel Kit** ile başlaman en güvenli yol olur. Her şeyi tek kutuda çözersin, teknik detaylarla boğulmak yerine fotoğraf çekmeye odaklanırsın. Elindeki kart dolduğunda ise fotoğrafları bilgisayara aktarmayı sakın unutma!
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Fotoğraf makinesi için Amazon.com.tr sayfasında [myFirst Camera 3 Çocuklar İçin Dijital Kamera | 16 MP Fotoğraf | Full HD Video | Selfie](https://www.amazon.com.tr/dp/B07XNPY9XJ?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [KOBB KBL16T 160CM Su Terazili Profesyonel Alüminyum Lazer Tripod](https://www.amazon.com.tr/dp/B098R4SJCN?tag=hobibulsite-21).
+
+Listenin devamında [myFirst Camera 3 Çocuklar İçin Dijital Kamera | 16 MP Fotoğraf | Full HD Video | Selfie](https://www.amazon.com.tr/dp/B07XNPY9XJ?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->

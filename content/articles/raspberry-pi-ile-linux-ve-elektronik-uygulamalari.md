@@ -45,6 +45,22 @@ Donanım projelerinde karşılaşılan sorunların büyük bir kısmı yetersiz 
 
 Güç seçiminde standart telefon şarj cihazları kullanmak sistem kararsızlığı yaratır; bu yüzden resmi adaptör tercih etmek her zaman daha güvenlidir. Kod yazarken yetki sorunları yaşamamak adına komutları yanlış kullanıcı grubuyla çalıştırmamaya özen göstermelisin.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Raspberry pi için Amazon.com.tr sayfasında [Raspberry Pi 5 8GB](https://www.amazon.com.tr/dp/B0CS2Z72FY?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Arduino Tabanlı UNO R3 Geliştirme Kartı (CH340)](https://www.amazon.com.tr/dp/B08YDLWQYP?tag=hobibulsite-21).
+
+Listenin devamında [Raspberry Pi 5 8GB](https://www.amazon.com.tr/dp/B0CS2Z72FY?tag=hobibulsite-21) var.
+
+Arduino için Amazon.com.tr sayfasında [Arduino Tabanlı UNO R3 Geliştirme Kartı (CH340)](https://www.amazon.com.tr/dp/B08YDLWQYP?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Raspberry Pi 5 ile önceki modeller arasındaki temel fark nedir?
@@ -57,3 +73,4 @@ Kararlı bir sistem performansı ve donanım güvenliği için resmi güç adapt
 Kodlama ve elektronik projeleri için geniş topluluk desteği sunan, kullanımı kolay anlık sensör okumaları ve düşük güç tüketimi gerektiren basit devreler için uygundur. Ancak kablosuz bağlantıya ihtiyacın yoksa ve işlem gücü sınırlı olan bu kartın yerine tam bir masaüstü işletim sistemi çalıştırıp ağ bağlantılı projeler üretmek istiyorsan Raspberry Pi tercih etmelisin.
 
 Projeye başlamadan önce [Satın Al: Raspberry Pi 5 (8GB)](aff://raspberry-pi-5) tercih ederek uzun vadeli ve güçlü bir sistem altyapısı kurabilirsin.
+

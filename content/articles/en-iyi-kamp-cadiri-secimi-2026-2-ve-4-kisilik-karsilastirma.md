@@ -84,6 +84,24 @@ Kamp alanında diğer çadırlarla arana biraz mesafe koymak hem senin hem de ko
 
 Sundome 4'ün su geçirmez dikiş iddiası, dikiş yerlerinden sızıntı yapmayacağı anlamına gelir. Ancak Monodome A gibi 2 mevsimlik bir modelle sağanağa yakalanırsan çok yüksek bir koruma beklememen gerekir. En önemlisi, kamp bittikten sonra çadırı asla ıslak paketleme. Eve gidince mutlaka kurut, yoksa bir sonraki kampında kötü bir küf kokusuyla karşılaşırsın.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Kamp çadırı için Amazon.com.tr sayfasında [PİKAS Rovos 12 Kişilik XXL Şişme Kamp Çadırı | 4 Mevsim Büyük Aile Çadırı | Su Geçirmez](https://www.amazon.com.tr/dp/B0H4LZRW9W?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Kamp Yalıtımlı Mat Outdoor Piknik Çadır Katlanabilir Uyku Matı Yalıtımlı Köpük](https://www.amazon.com.tr/dp/B0FP2SRTZN?tag=hobibulsite-21).
+
+Listenin devamında [Rox 153Rox0103 Tekli Portatif Kamp Ocak Gri (Ekstra Gaz Girişli) 5 Adet Gaz Kartuş](https://www.amazon.com.tr/dp/B0GYPV7V53?tag=hobibulsite-21) var.
+
+Kamp çadırı için Amazon.com.tr sayfasında [PİKAS Rovos 12 Kişilik XXL Şişme Kamp Çadırı | 4 Mevsim Büyük Aile Çadırı | Su Geçirmez](https://www.amazon.com.tr/dp/B0H4LZRW9W?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Kamp Yalıtımlı Mat Outdoor Piknik Çadır Katlanabilir Uyku Matı Yalıtımlı Köpük](https://www.amazon.com.tr/dp/B0FP2SRTZN?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 **2 kişilik çadırda iki kişi rahat eder mi?**
@@ -107,3 +125,4 @@ Kesinlikle iyi bir mat. Çadır seni rüzgardan ve yağmurdan korur ama mat seni
 | Tam Set | Sundome 4 + Z Lite + | Kamp alanında hem rahat uyumak hem de aydınlık kalmak isteyenler için. |
 
 Benim tavsiyem, eğer bütçen uygunsa Coleman Sundome 4 ile başlaman. İki kişi için sunduğu alan ve kolay kurulumu sayesinde ilk kamp deneyimin çok daha keyifli geçer. Diğer ekipman ihtiyaçların için [outdoor kategorimize](/kategori/outdoor/) de bakabilirsin.
+

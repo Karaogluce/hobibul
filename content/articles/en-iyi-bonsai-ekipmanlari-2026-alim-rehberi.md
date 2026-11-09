@@ -49,6 +49,22 @@ Sınırlı saksı toprağındaki besin maddeleri zamanla tükenir ve ağacın sa
 
 Eğer evdeki ilk bonsai bitkisi ile ilgileniyorsan ve elinde henüz hiçbir bakım ekipmanı yoksa, işe temel bir alet seti ve hazır toprak karışımıyla başlamak mantıklıdır. Çok amaçlı setler, dal kısaltma ve saksı değiştirme gibi rutin işlerde zamandan kazanmanı sağlar; BestAlice 6 Parça Karbon Çelik Bonsai Alet Seti ile Compo 1602 Bonsai Toprağı 5 L ikilisi başlangıç aşamasının yükünü rahatça taşır. Ağacının gövdesine belirgin bir kavis vermek ve dalları sabitlemek gibi şekillendirme niyetin varsa DZDSBB 5 Kalınlıkta Eloksallı Alüminyum Bonsai Teli setine yönelmelisin. Daha ileri düzeyde temiz ve iz bırakmayan dal kesimleri arıyorsan Wazakura Ashinaga Bonsai Makası ve İçbükey Dal Kesici Seti uzun ömürlü bir yatırım sunar. Bitkinin besin ihtiyacını karşılamak için ise Genta Prestige Bonsai Sıvı Bitki Besini 500 ml bakım rutininin düzenli bir parçası haline gelecektir.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Bonsai makası için Amazon.com.tr sayfasında [Transformacion Profesyonel 2’li Mini Budama Seti](https://www.amazon.com.tr/dp/B0GNMB7H6P?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Bonsai ve Amigurumi için alüminyum Tel, Gümüş Renk (3alüm5)](https://www.amazon.com.tr/dp/B0DVRCVYQ3?tag=hobibulsite-21).
+
+Listenin devamında [Ekodoğa Bonsai Toprağı 2,5 Lt Özel Karışım Ağacı Bonzai Bakımı Torf Çiçek Toprağı](https://www.amazon.com.tr/dp/B0G2SF29T7?tag=hobibulsite-21) var.
+
+Bonsai makası için Amazon.com.tr sayfasında [Transformacion Profesyonel 2’li Mini Budama Seti](https://www.amazon.com.tr/dp/B0GNMB7H6P?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 Bonsai saksısı seçerken nelere dikkat etmeliyim?
@@ -62,3 +78,4 @@ Sıradan topraklar suyu uzun süre tuttuğu için saksıdaki dar alanda kökleri
 
 Budama yaparken kesilen yerlere macun sürmek şart mı?
 Kalın dallar kesildikten sonra ağacın su kaybını önlemek ve dış etkenlerden korumak için yara macunu kullanılabilir, ancak ince budamalarda bitki kendi kendine iyileşebilir.
+

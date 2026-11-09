@@ -106,6 +106,28 @@ Yeni ayakkabını alır almaz hemen çok uzun koşulara çıkma. İlk gün yirmi
 
 Yağmurlu havalarda bu modellerin su geçirmezlik özelliği olmadığını unutma. Islak asfaltta kaymamak için adımlarını biraz daha kısa tutmaya çalış. Eğer gerçekten su geçirmeyen bir şey arıyorsan, yine trekking rehberindeki botlara bakman gerekecek. Bu notların bir arada durduğu yer [Spor & Fitness notları](/kategori/spor-fitness/).
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Koşu ayakkabısı için Amazon.com.tr sayfasında [Under Armour Ua Assert 11 Erkek Koşu Ayakkabısı White/White/Black 43](https://www.amazon.com.tr/dp/B0F344HR32?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Under Armour Erkek Charged Surge 4 Koşu Ayakkabısı, (100) Beyaz/Halo Gri/Siyah, 42.5 EU](https://www.amazon.com.tr/dp/B0BZXLRS2J?tag=hobibulsite-21).
+
+Listenin devamında [Nike Koşu Kemeri Akıllı Telefon, Anahtarlar, Koşu, Antrenman, Fitness, Koşu](https://www.amazon.com.tr/dp/B0FY26BQQR?tag=hobibulsite-21) var.
+
+Koşu kemeri için Amazon.com.tr sayfasında [adidas Terrex Trail Running Techrock Belt](https://www.amazon.com.tr/dp/B0DHGM9RQ6?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Bix TSW6 48mm Super Retina 1.6” AMOLED GPS Akıllı Saat Siyah – AI Yapay Zeka Destekli,](https://www.amazon.com.tr/dp/B0GNMXW6SD?tag=hobibulsite-21).
+
+Listenin devamında [Under Armour Ua Assert 11 Erkek Koşu Ayakkabısı White/White/Black 43](https://www.amazon.com.tr/dp/B0F344HR32?tag=hobibulsite-21) var.
+
+Koşu kemeri için Amazon.com.tr sayfasında [Nike Koşu Kemeri Akıllı Telefon, Anahtarlar, Koşu, Antrenman, Fitness, Koşu](https://www.amazon.com.tr/dp/B0FY26BQQR?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 **İki farklı ayakkabıyı aynı anda kullanabilir miyim?**
@@ -128,3 +150,4 @@ Fiyatlar ve stoklar sürekli değiştiği için senin için mantıklı olabilece
 | **Veri ve Destek** | ve [Forerunner 55](aff://garmin-forerunner-55) | Ayak desteği arayan ve gelişimini saatle izlemek isteyenlere. |
 
 İlk bütçeni ayakkabıya ayırırken teknik verisi yazmayan tabanlara çok güvenme. Duramo sayfasını aç, bedenin varsa değerlendir. Eğer ayağın dar ise Pegasus'a, daha fazla destek ve ağırlık arıyorsan Kayano'ya yönelmek en mantıklısı olur.
+

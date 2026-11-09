@@ -128,3 +128,32 @@ Her şeyin en pahalısını almak zorunda değilsin. Önce seni dışarıda tuta
 ## İşin özü: Basit başla
 
 Kamp yapmak aslında hayatı biraz sadeleştirmek demek. O yüzden ilk gecende çok karmaşık sistemlere girmeden, seni sıcak ve kuru tutacak sağlam ekipmanlarla yola çık. En iyi ekipman, depoda duran değil, seni doğaya çıkaran ekipmandır. Hazırlığını yap, hava durumuna bak ve yola çık. Eksik kalan bir şey olursa da dert etme; kampta her şeyin bir çözümü bulunur.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Kamp çadırı için Amazon.com.tr sayfasında [PİKAS Rovos 12 Kişilik XXL Şişme Kamp Çadırı | 4 Mevsim Büyük Aile Çadırı | Su Geçirmez](https://www.amazon.com.tr/dp/B0H4LZRW9W?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [4 Kişilik Otomatik Kamp Çadırı, Altıgen, Çift Kapılı, 240 x 240 x 160 cm](https://www.amazon.com.tr/dp/B0HNN1TS37?tag=hobibulsite-21).
+
+Listenin devamında [Kamp Yalıtımlı Mat Outdoor Piknik Çadır Katlanabilir Uyku Matı Yalıtımlı Köpük](https://www.amazon.com.tr/dp/B0FP2SRTZN?tag=hobibulsite-21) var.
+
+Uyku matı için Amazon.com.tr sayfasında [Kamp Yalıtımlı Mat Outdoor Piknik Çadır Katlanabilir Uyku Matı Yalıtımlı Köpük](https://www.amazon.com.tr/dp/B0FP2NQPW2?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Rox 153Rox0103 Tekli Portatif Kamp Ocak Gri (Ekstra Gaz Girişli) 5 Adet Gaz Kartuş](https://www.amazon.com.tr/dp/B0GYPV7V53?tag=hobibulsite-21).
+
+Listenin devamında [Portatif Kamp Ocağı 2.3kW Kırmızı | Taşınabilir Tekli Gazlı Ocak | Rüzgar Geçirmez](https://www.amazon.com.tr/dp/B0GP16YPNQ?tag=hobibulsite-21) var.
+
+Kamp feneri için Amazon.com.tr sayfasında [6'sı 1 Arada Anahtarlık Fener, COB LED Mini El Feneri, Type-C Şarjlı, 7 Aydınlatma](https://www.amazon.com.tr/dp/B0HDRBC2HG?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Orret Home Çok Fonksiyonlu Mini El Feneri – COB Anahtarlık Tipi, 6 Modlu 800 Lümen](https://www.amazon.com.tr/dp/B0FKB9QMS4?tag=hobibulsite-21).
+
+Listenin devamında [CATA Poyraz Şarjlı Led Kafa Feneri Ayarlanabilir Zoom Özellikli 3 Modlu Beyaz Işık](https://www.amazon.com.tr/dp/B0BMQDDQLL?tag=hobibulsite-21) var.
+
+Kamp çadırı için Amazon.com.tr sayfasında [PİKAS Rovos 12 Kişilik XXL Şişme Kamp Çadırı | 4 Mevsim Büyük Aile Çadırı | Su Geçirmez](https://www.amazon.com.tr/dp/B0H4LZRW9W?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Kamp Yalıtımlı Mat Outdoor Piknik Çadır Katlanabilir Uyku Matı Yalıtımlı Köpük](https://www.amazon.com.tr/dp/B0FP2SRTZN?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->

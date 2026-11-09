@@ -49,6 +49,20 @@ Geleneksel nota eğitimi yerine gitar tab sistemini öğrenmek şarkıları doğ
 
 Şarkılara eşlik edebilmek için öncelikle Em, Am, C ve D gibi temel açık pozisyon akorları üzerinde durmalısın. F gibi bareli formlar ilk etapta parmaklarını yorabilir ve hemen temiz ses vermeyebilir; bu yüzden motivasyonunu düşürmeden önce açık akorlar arasındaki geçiş hızını oturtmaya bakmalısın. Repertuarına yeni parçalar ekledikçe sağ el ritim kalıpların da kendiliğinden akıcı hale gelir. Bu notların bir arada durduğu yer [Müzik notları](/kategori/muzik/).
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Gitar için Amazon.com.tr sayfasında [Ibanez GRGR131EX-BKF GIO Stealth Serisi Elektrikli Gitar - Siyah Düz | Şık Tamamen](https://www.amazon.com.tr/dp/B08SJ4F268?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Ibanez GRGR131EX-BKF GIO Stealth Serisi Elektrikli Gitar - Siyah Düz | Şık Tamamen](https://www.amazon.com.tr/dp/B08SJ4F268?tag=hobibulsite-21).
+
+Listenin devamında [Blackstar IDCORE10V4 Combo Amplifikatör | Güç Azaltma ve 4 kanallı USB-C Çıkışlı Watt](https://www.amazon.com.tr/dp/B0CRZB9PF9?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Gitar nasıl çalınır, sıfırdan başlayan biri ne yapmalı?
@@ -86,3 +100,4 @@ Elektro gitarda manyetik çekimi sağlayan nikel kaplı teller kullanılır. Sta
 Temponu düşürüp iki akor arasında sağ elini hiç durdurmadan sol el parmaklarını aynı anda kaldırmaya odaklanmalısın. Parmaklarını tellere sırayla yerleştirmek yerine, elini havada akorun basılış kalıbına sokup tek hamlede klavyeye indirmek geçişleri hızlandırır.
 
 Günde kısa da olsa düzenli pratik yap, parmak uçlarının sertleşmesine fırsat tanı ve geçişlerde ritmi hiç bozmadan akıcı çalmaya odaklan.
+

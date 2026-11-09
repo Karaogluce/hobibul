@@ -45,6 +45,18 @@ Aynı DJ işinin devamı [Prodüksiyon Ekipmanları](/makale/en-iyi-dj-produksiy
 
 Bir diğer yaygın hata ise profesyonel stüdyolarda kullanılan devasa cihazları küçük ev odalarına sığdırmaya çalışmaktır. [Satın Al: Numark MixTrack Go DJ Kontrol](aff://numark-mixtrack-go) gibi kompakt bir modelin sunduğu 324 mm gövde uzunluğu, dar masalar için hayat kurtarır. Büyük jog tekerlekleri her zaman iyi sonuç vermez; parmak alışkanlığı kazanana kadar küçük ve kontrollü yüzeyler hata yapma payını en aza indirir.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Dj kontrol için Amazon.com.tr sayfasında [Pioneer DJ Pioneer DDJ-FLX4 Taşınabilir 2 Kanallı DJ Controller](https://www.amazon.com.tr/dp/B0BK25SY9G?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Pioneer DJ Pioneer DDJ-FLX4 Taşınabilir 2 Kanallı DJ Controller](https://www.amazon.com.tr/dp/B0BK25SY9G?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 DJ'liğe yeni başlayanların aklına takılan ilk soru genellikle hangi yazılımın daha kolay öğrenileceğidir. 
@@ -59,3 +71,4 @@ Giriş seviyesi kontrol cihazlarının neredeyse tamamı çalışmak için bir d
 Parçaların vokallerini ve enstrümanlarını canlı olarak birbirinden ayırmanı sağlayan stems özelliği, geçişleri yumuşatmak için oldukça pratiktir ve [Satın Al: Numark MixTrack Go DJ Kontrol](aff://numark-mixtrack-go) gibi modellerde bu özellik yer alır.
 
 İhtiyacına uygun olan kontrol cihazını seç, masandaki kablo kalabalığını düzenle ve ilk çalma listeni oluşturarak pratik yapmaya başla.
+

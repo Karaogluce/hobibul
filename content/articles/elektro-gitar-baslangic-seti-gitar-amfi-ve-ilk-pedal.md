@@ -99,6 +99,24 @@ Her gün sadece 20 dakika çalışmak, pazar günü oturup 3 saat çalmaktan ço
 
 Kabloyu gitarın üzerinde takılı bırakıp gitara duvara yaslama. Kablo ucu kırılabilir ya da daha kötüsü gitarın jak girişi zarar görebilir. Çalışman bittiğinde kabloyu çıkar ve gitarı varsa bir standa, yoksa güvenli bir köşeye koy.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Gitar için Amazon.com.tr sayfasında [Ibanez GRGR131EX-BKF GIO Stealth Serisi Elektrikli Gitar - Siyah Düz | Şık Tamamen](https://www.amazon.com.tr/dp/B08SJ4F268?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Blackstar IDCORE10V4 Combo Amplifikatör | Güç Azaltma ve 4 kanallı USB-C Çıkışlı Watt](https://www.amazon.com.tr/dp/B0CRZB9PF9?tag=hobibulsite-21).
+
+Listenin devamında [Daddario Exl120 Elektro Gitar Tel Seti, Xl, 9-42, Nickel Wound, Su | XL nikel elektro](https://www.amazon.com.tr/dp/B0002H0A7E?tag=hobibulsite-21) var.
+
+Akort aleti için Amazon.com.tr sayfasında [Chroma Akort Cihazı Aleti Tuner (Tüm Enstrümanlara Uygun) Saz Gitar Keman Ukulele Akord](https://www.amazon.com.tr/dp/B0HPL4B4TP?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Ibanez GRGR131EX-BKF GIO Stealth Serisi Elektrikli Gitar - Siyah Düz | Şık Tamamen](https://www.amazon.com.tr/dp/B08SJ4F268?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 **Neden hemen pedal almamalıyım?**
@@ -119,3 +137,4 @@ Eğer teller kararmışsa, parmaklarında siyah lekeler bırakıyorsa veya gitar
 | **Eksiksiz Set** | Üstteki sete ek olarak | Bütçesi geniş olan ve distortion sesini hemen isteyenlere. |
 
 Kısacası, önceliğin her zaman iyi bir gitar ve o gitarın sesini yansıtacak kaliteli bir amfi olmalı. Fender Player Strat ve Boss Katana 50 ikilisi seni profesyonel seviyeye kadar taşıyacak bir kombinasyon. Diğer her şey (pedallar, aksesuarlar) zamanla eklenebilir.
+

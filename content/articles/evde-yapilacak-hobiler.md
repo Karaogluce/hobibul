@@ -71,6 +71,26 @@ Tek başına kalan akşamda örgü, diamond painting, filtre kahve, bonsai, resi
 
 Üç soru yeter. Yer var mı. Gürültü komşuyu rahatsız eder mi. İkinci kişi gelecek mi. Üçü de darsa örgü, resim ya da filtre kahve ile başlayın. Üçü de geniş olsa bile bir kapı seçin. Hafta bitmeden ikinciye geçmeyin. Geçerseniz ilkinin neden yarım kaldığını göremezsiniz.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Örgü tığı için Amazon.com.tr sayfasında [11'li Silikon Saplı Tığ Seti - Taşıma Çantalı Tığ Seti - Örgü Amigurumi Hobi Seti](https://www.amazon.com.tr/dp/B0HJH4932Z?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Rich 12'Li 60 Cc Master-Mix Akrilik Set](https://www.amazon.com.tr/dp/B08BZSWNVK?tag=hobibulsite-21).
+
+Listenin devamında [Bardak Temalı Elmas Boyama Seti Bardak Altlığı](https://www.amazon.com.tr/dp/B0H778QSD5?tag=hobibulsite-21) var.
+
+Örgü tığı için Amazon.com.tr sayfasında [11'li Silikon Saplı Tığ Seti - Taşıma Çantalı Tığ Seti - Örgü Amigurumi Hobi Seti](https://www.amazon.com.tr/dp/B0HJH4932Z?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Rich 12'Li 60 Cc Master-Mix Akrilik Set](https://www.amazon.com.tr/dp/B08BZSWNVK?tag=hobibulsite-21).
+
+Listenin devamında [Bardak Temalı Elmas Boyama Seti Bardak Altlığı](https://www.amazon.com.tr/dp/B0H778QSD5?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->
+
+
 ## Sıkça Sorulan Sorular
 
 **Evde yapılacak hobiler nelerdir?**

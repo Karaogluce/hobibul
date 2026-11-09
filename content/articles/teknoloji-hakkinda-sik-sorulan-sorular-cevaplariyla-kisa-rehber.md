@@ -25,6 +25,18 @@ Masanızda elektronik devreler kurmaya karar verdiğinizde karşınıza çıkan 
 
 Fiziksel prototipler üretmek ve tasarımlarınızı masanızda somut nesnelere dönüştürmek istiyorsanız, doğru cihazı seçmek tüm süreci doğrudan etkiler. Atölyenizde parça basarken sorun yaşamamak adına [Satın Al: Creality Ender 3 V3 3D Yazıcı](aff://creality-ender-3-v3) hızlı baskı kabiliyeti ve kolay kurulumu sayesinde tercih edilebilir. Tabii ki bu tür cihazlar düzenli kalibrasyon ister ve filament malzemesi ayrı olarak alınır; doğrudan kutudan çıktığı gibi pürüzsüz sonuçlar beklememek gerekir. Eğer amacınız mekanik parça üretmek değil de havadan yüksek çözünürlüklü görüntüler almaksa, [Satın Al: DJI Mini 4K Drone](aff://dji-mini-4k) kompakt yapısı ve kararlı uçuş özellikleriyle dış mekan çekimleri için pratik bir alternatif sunar. 249 gramın altında olduğu için lisans derdi olmadan uçurabileceğiniz bu cihaz, 4K kamerasıyla net görüntüler yakalamanızı sağlar. Yine de rüzgarlı havalarda hassas davranabildiğini ve pil süresinin sınırlı olduğunu göz önünde bulundurarak uçuş planı yapmalısınız.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Arduino için Amazon.com.tr sayfasında [Arduino Tabanlı UNO R3 Geliştirme Kartı (CH340)](https://www.amazon.com.tr/dp/B08YDLWQYP?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Raspberry Pi 5 8GB](https://www.amazon.com.tr/dp/B0CS2Z72FY?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### teknoloji tasarım nedir?
@@ -54,3 +66,4 @@ Hazırlanan projelerin rapor veya dosyalarının ön yüzü için kullanılan bu
 ## Hâlâ Aklında Soru Var mı?
 
 Yeni bir hobiye başlarken projenizin kapsamına uygun donanımı seçmek işinizi büyük ölçüde kolaylaştırır. Eğer basit sensörler ve otomasyon kodlarıyla uğraşacaksanız Arduino Uno R3 işinizi rahatlıkla görür; ancak daha ağır işler ve sunucu projeleri için Raspberry Pi 5 tercih etmelisiniz. Fiziksel üretim için Creality Ender 3 V3 modelini, hava çekimleri için ise DJI Mini 4K drone'u değerlendirebilirsiniz.
+

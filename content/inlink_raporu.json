@@ -3,9 +3,9 @@
  "ozet": {
   "makale": 68,
   "kategori": 82,
-  "yetim_makale": 29,
-  "yetim_kategori": 19,
-  "yetim": 48,
+  "yetim_makale": 30,
+  "yetim_kategori": 21,
+  "yetim": 51,
   "makalesiz_kategori": 37,
   "sitemap_linksiz": [],
   "uc_tik_disi": [],
@@ -23,6 +23,18 @@
    "govde_gelen": 0,
    "toplam_gelen": 5,
    "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/kategori/koleksiyon/",
+   "tur": "kategori",
+   "baslik": "Koleksiyon",
+   "kategori": "koleksiyon",
+   "alt_kategori": "",
+   "govde_gelen": 0,
+   "toplam_gelen": 162,
+   "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -53,7 +65,7 @@
   {
    "yol": "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
    "tur": "makale",
-   "baslik": "Bu Haftanın En Çok Satan 3 Kitabı (2026-W46)",
+   "baslik": "Bu Haftanın En Çok Satan 3 Kitabı (9 Kasım 2026)",
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
@@ -99,9 +111,9 @@
    "govde_kaynaklar": []
   },
   {
-   "yol": "/makale/en-cok-satan-bahce-2026-w46/",
+   "yol": "/makale/en-cok-satan-bahce-alet-2026-w46/",
    "tur": "makale",
-   "baslik": "Bu Haftanın En Çok Satan 3 Bahçe Ürünü (2026-W46)",
+   "baslik": "Bu Haftanın En Çok Satan 3 Bahçe Aleti (9 Kasım 2026)",
    "kategori": "bahce-bitki",
    "alt_kategori": "bahcecilik",
    "govde_gelen": 0,
@@ -111,11 +123,11 @@
    "govde_kaynaklar": []
   },
   {
-   "yol": "/makale/en-cok-satan-evcil-2026-w46/",
+   "yol": "/makale/en-cok-satan-el-isi-2026-w46/",
    "tur": "makale",
-   "baslik": "Bu Haftanın En Çok Satan 3 Evcil hayvan Ürünü (2026-W46)",
-   "kategori": "evcil-hayvan",
-   "alt_kategori": "kedi-bakimi",
+   "baslik": "Bu Haftanın En Çok Satan 3 Sanat ve El İşi Ürünü (9 Kasım 2026)",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "resim-boyama",
    "govde_gelen": 0,
    "toplam_gelen": 162,
    "tik": 1,
@@ -123,11 +135,11 @@
    "govde_kaynaklar": []
   },
   {
-   "yol": "/makale/en-cok-satan-mutfak-2026-w46/",
+   "yol": "/makale/en-cok-satan-kutu-oyun-2026-w46/",
    "tur": "makale",
-   "baslik": "Bu Haftanın En Çok Satan 3 Mutfak Ürünü (2026-W46)",
-   "kategori": "yemek-mutfak",
-   "alt_kategori": "yemek-pisirme",
+   "baslik": "Bu Haftanın En Çok Satan 3 Kutu Oyunu (9 Kasım 2026)",
+   "kategori": "koleksiyon",
+   "alt_kategori": "masaustu-oyun",
    "govde_gelen": 0,
    "toplam_gelen": 162,
    "tik": 1,
@@ -153,7 +165,7 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "orgu-tig",
    "govde_gelen": 0,
-   "toplam_gelen": 9,
+   "toplam_gelen": 10,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -177,7 +189,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 0,
-   "toplam_gelen": 8,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -224,6 +236,18 @@
    "baslik": "Teknoloji Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
    "kategori": "teknoloji",
    "alt_kategori": "",
+   "govde_gelen": 0,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/yilbasi-hediyesi-kutu-oyunlari/",
+   "tur": "makale",
+   "baslik": "Yılbaşı Hediyesi Kutu Oyunları: Kime Hangi Oyun? (2026)",
+   "kategori": "koleksiyon",
+   "alt_kategori": "masaustu-oyun",
    "govde_gelen": 0,
    "toplam_gelen": 7,
    "tik": 2,
@@ -279,11 +303,25 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "kedi-bakimi",
    "govde_gelen": 1,
-   "toplam_gelen": 6,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/"
+   ]
+  },
+  {
+   "yol": "/kategori/koleksiyon/masaustu-oyun/",
+   "tur": "kategori",
+   "baslik": "Masaüstü & Minyatür Oyunlar",
+   "kategori": "koleksiyon",
+   "alt_kategori": "masaustu-oyun",
+   "govde_gelen": 1,
+   "toplam_gelen": 11,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/en-iyi-kutu-oyunlari-2026/"
    ]
   },
   {
@@ -447,7 +485,7 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "yemek-pisirme",
    "govde_gelen": 1,
-   "toplam_gelen": 6,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -588,7 +626,7 @@
    "alt_kategori": "kahve",
    "govde_gelen": 1,
    "toplam_gelen": 9,
-   "tik": 2,
+   "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/"
@@ -601,7 +639,7 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "kopek-bakimi",
    "govde_gelen": 1,
-   "toplam_gelen": 4,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -615,8 +653,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "toplam_gelen": 9,
-   "tik": 1,
+   "toplam_gelen": 8,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
@@ -643,8 +681,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "diamond-painting",
    "govde_gelen": 1,
-   "toplam_gelen": 10,
-   "tik": 1,
+   "toplam_gelen": 7,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/diamond-painting-nedir-nasil-yapilir/"
@@ -919,16 +957,15 @@
    "baslik": "2 Kişilik Kutu Oyunları: Türkiye'de Satılan Kutular",
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
-   "govde_gelen": 4,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "govde_gelen": 3,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/aile-kutu-oyunlari/",
     "/makale/en-iyi-kutu-oyunlari-2026/",
-    "/makale/evde-yapilacak-hobiler/",
-    "/makale/yilbasi-hediyesi-kutu-oyunlari/"
+    "/makale/evde-yapilacak-hobiler/"
    ],
    "makale_sayisi": null
   },
@@ -956,8 +993,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 4,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -975,8 +1012,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 2,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1038,7 +1075,7 @@
   {
    "yol": "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
    "tur": "makale",
-   "baslik": "Bu Haftanın En Çok Satan 3 Kitabı (2026-W46)",
+   "baslik": "Bu Haftanın En Çok Satan 3 Kitabı (9 Kasım 2026)",
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
@@ -1089,8 +1126,8 @@
    "kategori": "muzik",
    "alt_kategori": "dj-produksiyon",
    "govde_gelen": 2,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 10,
+   "toplam_gelen": 10,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1225,9 +1262,9 @@
    "makale_sayisi": null
   },
   {
-   "yol": "/makale/en-cok-satan-bahce-2026-w46/",
+   "yol": "/makale/en-cok-satan-bahce-alet-2026-w46/",
    "tur": "makale",
-   "baslik": "Bu Haftanın En Çok Satan 3 Bahçe Ürünü (2026-W46)",
+   "baslik": "Bu Haftanın En Çok Satan 3 Bahçe Aleti (9 Kasım 2026)",
    "kategori": "bahce-bitki",
    "alt_kategori": "bahcecilik",
    "govde_gelen": 0,
@@ -1239,13 +1276,13 @@
    "makale_sayisi": null
   },
   {
-   "yol": "/makale/en-cok-satan-evcil-2026-w46/",
+   "yol": "/makale/en-cok-satan-el-isi-2026-w46/",
    "tur": "makale",
-   "baslik": "Bu Haftanın En Çok Satan 3 Evcil hayvan Ürünü (2026-W46)",
-   "kategori": "evcil-hayvan",
-   "alt_kategori": "kedi-bakimi",
+   "baslik": "Bu Haftanın En Çok Satan 3 Sanat ve El İşi Ürünü (9 Kasım 2026)",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "resim-boyama",
    "govde_gelen": 0,
-   "icerik_gelen": 10,
+   "icerik_gelen": 11,
    "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
@@ -1253,13 +1290,13 @@
    "makale_sayisi": null
   },
   {
-   "yol": "/makale/en-cok-satan-mutfak-2026-w46/",
+   "yol": "/makale/en-cok-satan-kutu-oyun-2026-w46/",
    "tur": "makale",
-   "baslik": "Bu Haftanın En Çok Satan 3 Mutfak Ürünü (2026-W46)",
-   "kategori": "yemek-mutfak",
-   "alt_kategori": "yemek-pisirme",
+   "baslik": "Bu Haftanın En Çok Satan 3 Kutu Oyunu (9 Kasım 2026)",
+   "kategori": "koleksiyon",
+   "alt_kategori": "masaustu-oyun",
    "govde_gelen": 0,
-   "icerik_gelen": 10,
+   "icerik_gelen": 9,
    "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
@@ -1273,8 +1310,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 2,
-   "icerik_gelen": 10,
-   "toplam_gelen": 10,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1338,7 +1375,7 @@
    "baslik": "En İyi Kutu Oyunları 2026: Türkiye'de Satılanlar",
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
-   "govde_gelen": 4,
+   "govde_gelen": 5,
    "icerik_gelen": 8,
    "toplam_gelen": 8,
    "tik": 2,
@@ -1347,7 +1384,8 @@
     "/makale/2-kisilik-kutu-oyunlari/",
     "/makale/aile-kutu-oyunlari/",
     "/makale/evde-yapilacak-hobiler/",
-    "/makale/puzzle-aksesuarlari-masa-yapistirici-cerceve/"
+    "/makale/puzzle-aksesuarlari-masa-yapistirici-cerceve/",
+    "/makale/yilbasi-hediyesi-kutu-oyunlari/"
    ],
    "makale_sayisi": null
   },
@@ -1427,9 +1465,9 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "kahve",
    "govde_gelen": 2,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
-   "tik": 2,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
+   "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/evde-pizza-firini-g3-ferrari-delizia-ile-baslangic/",
@@ -1480,8 +1518,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "orgu-tig",
    "govde_gelen": 2,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1577,8 +1615,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "orgu-tig",
    "govde_gelen": 0,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 10,
+   "toplam_gelen": 10,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1593,7 +1631,7 @@
    "govde_gelen": 1,
    "icerik_gelen": 9,
    "toplam_gelen": 9,
-   "tik": 2,
+   "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/"
@@ -1607,8 +1645,8 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "kahve",
    "govde_gelen": 2,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1642,8 +1680,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "kedi-bakimi",
    "govde_gelen": 2,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1673,8 +1711,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "kopek-bakimi",
    "govde_gelen": 1,
-   "icerik_gelen": 4,
-   "toplam_gelen": 4,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1740,9 +1778,9 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
-   "tik": 1,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
@@ -1772,8 +1810,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 0,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1962,8 +2000,8 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "yemek-pisirme",
    "govde_gelen": 2,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1979,9 +2017,9 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "diamond-painting",
    "govde_gelen": 1,
-   "icerik_gelen": 10,
-   "toplam_gelen": 10,
-   "tik": 1,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/diamond-painting-nedir-nasil-yapilir/"
@@ -1994,15 +2032,12 @@
    "baslik": "Yılbaşı Hediyesi Kutu Oyunları: Kime Hangi Oyun? (2026)",
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
-   "govde_gelen": 2,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
+   "govde_gelen": 0,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/2-kisilik-kutu-oyunlari/",
-    "/makale/aile-kutu-oyunlari/"
-   ],
+   "govde_kaynaklar": [],
    "makale_sayisi": null
   },
   {
@@ -2121,7 +2156,7 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "",
    "govde_gelen": 2,
-   "icerik_gelen": 9,
+   "icerik_gelen": 10,
    "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
@@ -2129,7 +2164,7 @@
     "/makale/evde-el-sanatlari-hobileri/",
     "/makale/orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026/"
    ],
-   "makale_sayisi": 7
+   "makale_sayisi": 8
   },
   {
    "yol": "/kategori/el-sanatlari/orgu-tig/",
@@ -2187,8 +2222,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "resim-boyama",
    "govde_gelen": 4,
-   "icerik_gelen": 11,
-   "toplam_gelen": 11,
+   "icerik_gelen": 12,
+   "toplam_gelen": 12,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2197,7 +2232,7 @@
     "/makale/evde-yapilacak-hobiler/",
     "/makale/yetiskin-hobi-setleri/"
    ],
-   "makale_sayisi": 0
+   "makale_sayisi": 1
   },
   {
    "yol": "/kategori/el-sanatlari/mum-sabun/",
@@ -2446,16 +2481,13 @@
    "baslik": "Koleksiyon",
    "kategori": "koleksiyon",
    "alt_kategori": "",
-   "govde_gelen": 2,
-   "icerik_gelen": 12,
+   "govde_gelen": 0,
+   "icerik_gelen": 13,
    "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/2-kisilik-kutu-oyunlari/",
-    "/makale/en-iyi-kutu-oyunlari-2026/"
-   ],
-   "makale_sayisi": 10
+   "govde_kaynaklar": [],
+   "makale_sayisi": 11
   },
   {
    "yol": "/kategori/koleksiyon/pul-para/",
@@ -2538,18 +2570,15 @@
    "baslik": "Masaüstü & Minyatür Oyunlar",
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
-   "govde_gelen": 4,
-   "icerik_gelen": 10,
-   "toplam_gelen": 10,
+   "govde_gelen": 1,
+   "icerik_gelen": 11,
+   "toplam_gelen": 11,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
-    "/makale/2-kisilik-kutu-oyunlari/",
-    "/makale/aile-kutu-oyunlari/",
-    "/makale/en-iyi-kutu-oyunlari-2026/",
-    "/makale/yilbasi-hediyesi-kutu-oyunlari/"
+    "/makale/en-iyi-kutu-oyunlari-2026/"
    ],
-   "makale_sayisi": 4
+   "makale_sayisi": 5
   },
   {
    "yol": "/kategori/spor-fitness/",
@@ -2771,7 +2800,7 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "",
    "govde_gelen": 2,
-   "icerik_gelen": 9,
+   "icerik_gelen": 8,
    "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
@@ -2779,7 +2808,7 @@
     "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/",
     "/makale/mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar/"
    ],
-   "makale_sayisi": 7
+   "makale_sayisi": 6
   },
   {
    "yol": "/kategori/yemek-mutfak/yemek-pisirme/",
@@ -2788,14 +2817,14 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "yemek-pisirme",
    "govde_gelen": 1,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026/"
    ],
-   "makale_sayisi": 2
+   "makale_sayisi": 1
   },
   {
    "yol": "/kategori/yemek-mutfak/kahve/",
@@ -2931,7 +2960,7 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "",
    "govde_gelen": 3,
-   "icerik_gelen": 9,
+   "icerik_gelen": 8,
    "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
@@ -2940,7 +2969,7 @@
     "/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/",
     "/makale/kopek-yuruyus-ve-egitim-seti/"
    ],
-   "makale_sayisi": 7
+   "makale_sayisi": 6
   },
   {
    "yol": "/kategori/evcil-hayvan/kopek-bakimi/",
@@ -2966,14 +2995,14 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "kedi-bakimi",
    "govde_gelen": 1,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/"
    ],
-   "makale_sayisi": 2
+   "makale_sayisi": 1
   },
   {
    "yol": "/kategori/evcil-hayvan/akvaryum/",

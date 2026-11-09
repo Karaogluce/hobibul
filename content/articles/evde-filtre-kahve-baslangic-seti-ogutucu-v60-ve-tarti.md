@@ -103,6 +103,20 @@ Sana burada ezbere bir tarif vermeyeceğim çünkü en iyi tarif senin damak tad
 
 Su sıcaklığı da çok kritik. Kaynar suyu doğrudan kahvenin üzerine dökme; su kaynadıktan sonra bir dakika kadar beklemesine izin ver. Çok sıcak su kahveyi yakar ve o yanık tadını fincanına taşır. Ve tabii ki kahveni demlemeden hemen önce öğütmeyi alışkanlık haline getir. Önceden öğütüp kavanoza doldurursan, aldığın o kaliteli öğütücünün bir anlamı kalmaz.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Kahve öğütücü için Amazon.com.tr sayfasında [Sinbo SCM-2982 Elektrikli Kahve ve Baharat Öğütücü – 200W Motor, 2 Hazneli (4 + 2](https://www.amazon.com.tr/dp/B0DZ6S3GV5?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Hario V60 02 Dripper Filtresi (100 Adet)](https://www.amazon.com.tr/dp/B001U7EOYA?tag=hobibulsite-21).
+
+Listenin devamında [Sinbo SCM-2982 Elektrikli Kahve ve Baharat Öğütücü – 200W Motor, 2 Hazneli (4 + 2](https://www.amazon.com.tr/dp/B0DZ6S3GV5?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->
+
+
 ## Sıkça Sorulan Sorular
 
 **Sadece bir parça alacak bütçem var, hangisini alayım?**

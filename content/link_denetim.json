@@ -6,7 +6,79 @@
   "bozuk": 98,
   "engel": 1,
   "neo_troy": 19,
-  "not": "bozuk = bulunamadi + neo_troy_yok + yanlis_urun. Kitap veya video sayfasına düşen eşleşmeler doğrulanmış sayılmadı."
+  "not": "bozuk = bulunamadi + neo_troy_yok + yanlis_urun. Kitap veya video sayfasına düşen eşleşmeler doğrulanmış sayılmadı.",
+  "tekrar": {
+   "bulunamadi_tekrar": 85,
+   "engel": 0,
+   "aday": 30,
+   "yok": 55,
+   "ornek": [
+    {
+     "id": "sky-team",
+     "sonuc": "aday",
+     "ad": "21 Days to Glory: The Official Team Sky Book of the 2012 Tour De France"
+    },
+    {
+     "id": "splendor",
+     "sonuc": "aday",
+     "ad": "Splendor Solis: The World's Most Famous Alchemical Manuscript"
+    },
+    {
+     "id": "carcassonne-kutu",
+     "sonuc": "aday",
+     "ad": "Carcassonne: The History and Legacy of the Castles, Campaigns, and Crimes in Fra"
+    },
+    {
+     "id": "cascadia",
+     "sonuc": "aday",
+     "ad": "Mushrooms of Cascadia, Second Edition: An Illustrated Key to the Fungi of the Pa"
+    },
+    {
+     "id": "evvel-zaman",
+     "sonuc": "aday",
+     "ad": "Evvel Zaman Koleksiyoncusu"
+    },
+    {
+     "id": "captain-flip",
+     "sonuc": "aday",
+     "ad": "Captain Flip's Big Adventure: A Story for Kids: How a Brave Dolphin Saved the Da"
+    },
+    {
+     "id": "sunlu-pla-filament",
+     "sonuc": "aday",
+     "ad": "SUNLU PLA+2.0 3D Yazıcı Filamenti, Yükseltme PLA+ Filament 1,75 mm, Daha Sert ve"
+    },
+    {
+     "id": "bi-paket-cips",
+     "sonuc": "aday",
+     "ad": "Lay'S Cips Paketi"
+    },
+    {
+     "id": "aqueon-akvaryum-tanki",
+     "sonuc": "aday",
+     "ad": "Tetra Starter Line 54 l akvaryum komple set"
+    },
+    {
+     "id": "tandy-leather-starter-kit",
+     "sonuc": "aday",
+     "ad": "Tandy Leather Tandy Leather B935 Craftool Konik Damga 6935-00"
+    },
+    {
+     "id": "boss-ds-1",
+     "sonuc": "aday",
+     "ad": "Boss DS-2 Turbo Distortion Compact Pedal"
+    },
+    {
+     "id": "thermarest-z-lite",
+     "sonuc": "aday",
+     "ad": "Therm-a-Rest Prolite Apex Kendiliğinden Şişiren Kamp ve Sırt Çantasıyla Seyahat "
+    }
+   ],
+   "not": "Birebir ad bir kez daha arandı. Engel captcha/503. Aday, adın iki kelimesi sonuçta duruyor. Yok, sayfa açıldı ama ad yok; yerine tip ürünü kondu."
+  },
+  "yerlestirme": {
+   "not": "Birebir ad turu: 85 bulunamadı kaydının tekrarında engel 0, aday 30, yok 55. Yerine tipine uyan /dp ürünü kondu. Kutu listesinde 10 doğrulanmış oyun, her yazıda 8."
+  }
  },
  "kayitlar": [
   {

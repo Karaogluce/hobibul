@@ -47,6 +47,24 @@ Ancak bu adaptör özel olarak yeni nesil kartlar düşünülerek tasarlandığ�
 
 Amacın akıllı ev otomasyonu kurmak, büyük kod blokları derlemek ve aynı anda birkaç servis çalıştırmaksa, güçlü işlemcisiyle [Satın Al: Raspberry Pi 5 (8GB)](aff://raspberry-pi-5) senin için mantıklı bir temel olacaktır. Fakat amacın sadece motor kontrol etmek, butonlardan sinyal almak ve temel elektronik devre mantığını öğrenmekse daha doğru bir tercihtir. Hangi kartı seçersen seç, kararlı bir çalışma ortamı yaratmak adına gibi güç kaynaklarını sistemine dahil etmeyi ihmal etme. Bu notların bir arada durduğu yer [Raspberry Pi & Elektronik](/kategori/teknoloji/raspberry-pi-elektronik/).
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Raspberry pi için Amazon.com.tr sayfasında [Raspberry Pi 5 8GB](https://www.amazon.com.tr/dp/B0CS2Z72FY?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Raspberry Pi 5 için 27 W USB-C Güç Adaptörü](https://www.amazon.com.tr/dp/B0FPX3B3GD?tag=hobibulsite-21).
+
+Listenin devamında [Arduino Tabanlı UNO R3 Geliştirme Kartı (CH340)](https://www.amazon.com.tr/dp/B08YDLWQYP?tag=hobibulsite-21) var.
+
+Raspberry pi için Amazon.com.tr sayfasında [Raspberry Pi 5 8GB](https://www.amazon.com.tr/dp/B0CS2Z72FY?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Arduino Tabanlı UNO R3 Geliştirme Kartı (CH340)](https://www.amazon.com.tr/dp/B08YDLWQYP?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Raspberry Pi 5 için soğutucu şart mı?
@@ -57,3 +75,4 @@ Kart üzerinde dahili Wi-Fi veya Ethernet çipi bulunmaz; internet bağlantısı
 
 ### Resmi adaptör haricinde telefon şarjı kullanılabilir mi?
 Düşük akım veren standart şarj cihazları, kartın portlarına bağlı harici cihazlar çalıştığında yetersiz kalabilir ve sistemin aniden yeniden başlamasına yol açabilir.
+

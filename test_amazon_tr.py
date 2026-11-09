@@ -51,6 +51,14 @@ class AyiklaTest(unittest.TestCase):
             "Splendor Solis: The World's Most Famous Alchemical Manuscript: Amazon.com.tr: Kitap",
             "Splendor", ""))
 
+    def test_tip_eslesmesi(self):
+        self.assertTrue(amazon_tr.tip_uyuyor(
+            "Delta Konfor Yoga Matı", [["yoga", "mat"]]))
+        self.assertFalse(amazon_tr.tip_uyuyor(
+            "Splendor Solis: Amazon.com.tr: Kitap", [["splendor"]]))
+        self.assertTrue(amazon_tr.tip_uyuyor(
+            "Risk Kutu Oyunu", [["risk"], ["kutu", "oyun"]]))
+
     def test_engel(self):
         self.assertEqual(amazon_tr._engel_mi(503, ""), "http 503")
         self.assertEqual(amazon_tr._engel_mi(200, "validateCaptcha"), "captcha")

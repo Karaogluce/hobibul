@@ -176,3 +176,24 @@ Yeni bir hobiye başlarken kendine karşı sabırlı olman gerekiyor. İşte iş
 * **Malzemelerini hazır tut:** Hobine ait malzemeleri tek bir kutuda toplu tutarsan, canın istediğinde hemen başlayabilirsin. Aramakla vakit kaybetmek motivasyonu düşürür.
 
 Hangi yolu seçersen seç, ellerin çalışmaya başladığında zihninin sessizleştiğini göreceksin. Bugün kendine bir malzeme seç ve sadece başla; üretmenin verdiği o eşsiz tatmine ulaştığında neden daha önce başlamadığını düşünebilirsin.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Örgü tığı için Amazon.com.tr sayfasında [11'li Silikon Saplı Tığ Seti - Taşıma Çantalı Tığ Seti - Örgü Amigurumi Hobi Seti](https://www.amazon.com.tr/dp/B0HJH4932Z?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Rich 12'Li 60 Cc Master-Mix Akrilik Set](https://www.amazon.com.tr/dp/B08BZSWNVK?tag=hobibulsite-21).
+
+Listenin devamında [Kargaburun Yuvarlak-Düz-Yan Keski Takı Pense Seti MX-14](https://www.amazon.com.tr/dp/B0GHJ94TXF?tag=hobibulsite-21) var.
+
+Diamond painting için Amazon.com.tr sayfasında [Bardak Temalı Elmas Boyama Seti Bardak Altlığı](https://www.amazon.com.tr/dp/B0H778QSD5?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Hannah 12 parça Boya Fırçası Seti, Çocuklar, Yetişkinler, Yeni Başlayanlar ve](https://www.amazon.com.tr/dp/B0D2P99WMN?tag=hobibulsite-21).
+
+Listenin devamında [ulutaş & sanat Şövale Ahşap Resim Sehpası](https://www.amazon.com.tr/dp/B09KXTGMDR?tag=hobibulsite-21) var.
+
+Örgü tığı için Amazon.com.tr sayfasında [11'li Silikon Saplı Tığ Seti - Taşıma Çantalı Tığ Seti - Örgü Amigurumi Hobi Seti](https://www.amazon.com.tr/dp/B0HJH4932Z?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->

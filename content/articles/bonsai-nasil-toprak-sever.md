@@ -43,6 +43,20 @@ Geçirgenliği yüksek, suyu bekletmeyen bir toprak kullandığında sulama suyu
 
 Saksı hacmi dar olduğundan kökleri yakmamak için besin miktarını çok iyi ayarlamak gerekir. Sıvı ürünler dozu kontrol etmeyi kolaylaştırır; örneğin [Satın Al: Genta Prestige Bonsai Sıvı Bitki Besini 500 ml](aff://biogold-bonsai-gubresi) sulandırılarak uygulanan yapısıyla ölçülü besleme yapmanı sağlar. Ambalajındaki 500 ml hacim düzenli kullanım imkanı sunar. Burada dikkat etmen gereken nokta, kesinlikle ambalaj üzerindeki sulandırma ölçüsüne uymaktır. Ağaç hızlı büyüsün düşüncesiyle gereğinden fazla besin vermek dar saksıdaki kökleri yakıp bitkinin kurumasına yol açabilir.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Bonsai makası için Amazon.com.tr sayfasında [Transformacion Profesyonel 2’li Mini Budama Seti](https://www.amazon.com.tr/dp/B0GNMB7H6P?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Bonsai ve Amigurumi için alüminyum Tel, Gümüş Renk (3alüm5)](https://www.amazon.com.tr/dp/B0DVRCVYQ3?tag=hobibulsite-21).
+
+Listenin devamında [Transformacion Profesyonel 2’li Mini Budama Seti](https://www.amazon.com.tr/dp/B0GNMB7H6P?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Bonsai nasıl toprak sever?
@@ -72,3 +86,4 @@ Toprak yüzeyine parmağınla dokunduğunda nem hissetmiyorsan ve toprağın ren
 ---
 
 Bonsai bakımında ağacın ömrünü belirleyen asıl unsur, köklerin ne kadar rahat nefes alabildiğidir. Saksı altındaki tahliye deliklerini mutlaka açık tut, su tutuculuk ile havalanma dengesini ağacının türüne göre ayarla ve kökleri çamur içinde bırakmayacak süzek karışımları tercih et.
+

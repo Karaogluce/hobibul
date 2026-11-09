@@ -105,6 +105,26 @@ Hangi hobinin sana uygun olduğuna karar verirken bütçeni ve evdeki alanını 
 
 Yazılan tüm bu seçenekler arasından hangisini seçeceğini bilemiyorsan, acele etmeden önce küçük bir deneme yapmalısın. [Hangi hobi](/hangi-hobi/) rehberimiz üzerinden karakterine ve boş zaman miktarına uygun olan alanı kolayca bulabilirsin.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Örgü tığı için Amazon.com.tr sayfasında [11'li Silikon Saplı Tığ Seti - Taşıma Çantalı Tığ Seti - Örgü Amigurumi Hobi Seti](https://www.amazon.com.tr/dp/B0HJH4932Z?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Hello%100 Pamuk İp Seti – 12 x 25g Pastel Renk Yumak, Örgü, Tığ İşi, Amigurumi ve Punch](https://www.amazon.com.tr/dp/B0FSKX3FZR?tag=hobibulsite-21).
+
+Listenin devamında [Değiştirilebilir Uçlu Örgü Şiş Seti – Fermuarlı Taşıma Çantalı Şiş Seti - Misinalı Seti](https://www.amazon.com.tr/dp/B0HJ855KB2?tag=hobibulsite-21) var.
+
+Örgü tığı için Amazon.com.tr sayfasında [11'li Silikon Saplı Tığ Seti - Taşıma Çantalı Tığ Seti - Örgü Amigurumi Hobi Seti](https://www.amazon.com.tr/dp/B0HJH4932Z?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Hello%100 Pamuk İp Seti – 12 x 25g Pastel Renk Yumak, Örgü, Tığ İşi, Amigurumi ve Punch](https://www.amazon.com.tr/dp/B0FSKX3FZR?tag=hobibulsite-21).
+
+Listenin devamında [Değiştirilebilir Uçlu Örgü Şiş Seti – Fermuarlı Taşıma Çantalı Şiş Seti - Misinalı Seti](https://www.amazon.com.tr/dp/B0HJ855KB2?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->
+
+
 ## Sıkça Sorulan Sorular
 
 **Kadınlar evde hangi hobileri yapabilir?**

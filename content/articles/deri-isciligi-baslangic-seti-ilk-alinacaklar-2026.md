@@ -127,6 +127,30 @@ Aletlerin düzenli ve güvenli biçimde durması da verimliliği etkiler. Crafto
 
 Havalandırma konusuna boya ve yapıştırıcı aşamasında iki kat özen göstermelisin. Fiebing's boyalarını uygularken ortama yayılan alkol kokusu uzun süreli maruziyette rahatsızlık verebilir. Pencereleri karşılıklı açarak hava akımı sağlamak ve boyama esnasında eldiven kullanarak kimyasalların cildine doğrudan temasını engellemek sağlıklı bir atölye düzeninin temel kuralıdır.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Deri seti için Amazon.com.tr sayfasında [Tulumba Pres ve 4 Farklı Model Çıtçıt, Kalıbı Deri El Aleti](https://www.amazon.com.tr/dp/B0FGQNL47L?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [El Dikişi İçin Çapraz Delgi/Çatal Deri Zımba Seti 3mm 4 Adet Deri El Aleti](https://www.amazon.com.tr/dp/B0FFSYZRD5?tag=hobibulsite-21).
+
+Listenin devamında [VIP-TEC Yuvarlak Kesim Maket Bıçağı 28 mm Kumaş Deri Kesim](https://www.amazon.com.tr/dp/B0BXBJVNZN?tag=hobibulsite-21) var.
+
+Deri kenar aleti için Amazon.com.tr sayfasında [ipekbazaar Gürgen Kenar Düzeltme Perdahı, Deri Hobi El Aleti](https://www.amazon.com.tr/dp/B0DN635LQG?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Derby Special Koyu Bej Deri Boyası 100 Ml Mont Eşya Çanta Kemer Cüzdan Ayakkabı Deri](https://www.amazon.com.tr/dp/B0FJ6KKZYS?tag=hobibulsite-21).
+
+Listenin devamında [Tulumba Pres ve 4 Farklı Model Çıtçıt, Kalıbı Deri El Aleti](https://www.amazon.com.tr/dp/B0FGQNL47L?tag=hobibulsite-21) var.
+
+Deri bıçağı için Amazon.com.tr sayfasında [VIP-TEC Yuvarlak Kesim Maket Bıçağı 28 mm Kumaş Deri Kesim](https://www.amazon.com.tr/dp/B0BXBJVNZN?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [ipekbazaar Gürgen Kenar Düzeltme Perdahı, Deri Hobi El Aleti](https://www.amazon.com.tr/dp/B0DN635LQG?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Deri işçiliğine başlamak için hangi aletler kesinlikle gereklidir?
@@ -140,3 +164,4 @@ Veg-tan deri ağaç kabukları ve bitkisel tanenlerle işlenirken krom deri kimy
 
 ### Deri boyama işlemi yaparken lekelerin önüne nasıl geçilir?
 Alkol bazlı boyalar deriye çok hızlı nüfuz eder. Lekelenmeyi engellemek için boyayı doğrudan deriye boca etmek yerine sünger ya da yün ponpon yardımıyla dairesel hareketlerle, deriyi hafifçe nemlendirerek uygulamak rengin yüzeye eşit dağılmasını sağlar.
+

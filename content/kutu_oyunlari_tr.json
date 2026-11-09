@@ -1,40 +1,106 @@
 {
-  "tarih": "2026-11-04",
-  "kaynak": "Amazon.com.tr ürün sayfası. Başlık oyun adını taşıyor. Kişi, süre ve yaş önceki kayıttan; yeni sayı uydurulmadı.",
-  "not": "Amazon.com.tr başlığında adı bulunamayan oyun listeden çıkarıldı.",
-  "oyunlar": [
-    {
-      "id": "ticket-to-ride-europe",
-      "ad": "Ticket to Ride Europe",
-      "url": "https://www.amazon.com.tr/dp/0975277367?tag=hobibulsite-21",
-      "oyuncu": "2-5",
-      "sure": "30-60 dk",
-      "yas": "8+",
-      "turkce": true,
-      "grup": [
-        "iki_kisi",
-        "aile",
-        "en_iyi",
-        "yeni",
-        "yilbasi"
-      ],
-      "ozet": "20. yüzyıl başı Avrupa'sında tren yolu bağlama. Sayfa İstanbul'u da güzergâh olarak anıyor.",
-      "asin": "0975277367"
-    },
-    {
-      "id": "pandemic",
-      "ad": "Pandemic",
-      "url": "https://www.amazon.com.tr/dp/B00A2HD40E?tag=hobibulsite-21",
-      "oyuncu": "2-4",
-      "sure": "30-60 dk",
-      "yas": "8+",
-      "turkce": true,
-      "grup": [
-        "iki_kisi",
-        "aile"
-      ],
-      "ozet": "Dört salgını birlikte durdurmaya çalışan kooperatif oyun.",
-      "asin": "B00A2HD40E"
-    }
-  ]
+ "tarih": "2026-11-09",
+ "kaynak": "Amazon.com.tr. Başlık oyun adını veya kutu oyunu ibaresini taşıyor. Kişi ve yaş yalnız başlıktaysa yazıldı.",
+ "oyunlar": [
+  {
+   "id": "asmodee-dixit-yeni-hayalini-anlat-cok-renkli",
+   "ad": "ASMODEE DiXit Yeni! Hayalini Anlat, Çok Renkli",
+   "url": "https://www.amazon.com.tr/dp/B09SVFWV4G?tag=hobibulsite-21",
+   "asin": "B09SVFWV4G",
+   "oyuncu": "",
+   "yas": "",
+   "turkce": false,
+   "baslik": "ASMODEE DiXit Yeni! Hayalini Anlat, Çok Renkli : Amazon.com.tr: Oyuncak"
+  },
+  {
+   "id": "ticket-to-ride-europe",
+   "ad": "Ticket to Ride Europe",
+   "url": "https://www.amazon.com.tr/dp/0975277367?tag=hobibulsite-21",
+   "asin": "0975277367",
+   "oyuncu": "",
+   "yas": "",
+   "turkce": false,
+   "baslik": "Ticket to Ride Europe : Alan, Moon R.: Amazon.com.tr: Oyuncak"
+  },
+  {
+   "id": "z-man-games-pandemic",
+   "ad": "Z-Man Games Pandemic",
+   "url": "https://www.amazon.com.tr/dp/B00A2HD40E?tag=hobibulsite-21",
+   "asin": "B00A2HD40E",
+   "oyuncu": "",
+   "yas": "",
+   "turkce": false,
+   "baslik": "Z-Man Games Pandemic : Amazon.com.tr: Oyuncak"
+  },
+  {
+   "id": "pandemik-legacy-season-zero-tr",
+   "ad": "Pandemik: Legacy - Season Zero - TR",
+   "url": "https://www.amazon.com.tr/dp/B08F73L5BM?tag=hobibulsite-21",
+   "asin": "B08F73L5BM",
+   "oyuncu": "",
+   "yas": "",
+   "turkce": false,
+   "baslik": "Pandemik: Legacy - Season Zero - TR : Amazon.com.tr: Oyuncak"
+  },
+  {
+   "id": "arcane-wonders-air-land-sea-revised-edition-card",
+   "ad": "Arcane Wonders Air, Land & Sea: Revised Edition Card Game",
+   "url": "https://www.amazon.com.tr/dp/B08NVB7BS6?tag=hobibulsite-21",
+   "asin": "B08NVB7BS6",
+   "oyuncu": "",
+   "yas": "",
+   "turkce": false,
+   "baslik": "Arcane Wonders Air, Land &amp; Sea: Revised Edition Card Game : Amazon.com.tr: Oyuncak"
+  },
+  {
+   "id": "risk-kutu-oyunu",
+   "ad": "Risk Kutu Oyunu",
+   "url": "https://www.amazon.com.tr/dp/B07CKCKN6R?tag=hobibulsite-21",
+   "asin": "B07CKCKN6R",
+   "oyuncu": "2-5",
+   "yas": "10+",
+   "turkce": true,
+   "baslik": "Risk Kutu Oyunu | 2-5 Oyuncu İçin Strateji Oyunu | Gençler, Yetişkinler ve Aileler İçin Strateji Masa Oyunu | Fetih ve Dünya Hakimiyeti Temalı Oyun | 10 Yaş ve Üzeri | Türkçe Versiyon : Hasbro: Amazon.com.tr: Oyuncak"
+  },
+  {
+   "id": "monopoly-turkiye-surumu-kutu-oyunu",
+   "ad": "Monopoly Türkiye Sürümü Kutu Oyunu",
+   "url": "https://www.amazon.com.tr/dp/B00MUTZ0MW?tag=hobibulsite-21",
+   "asin": "B00MUTZ0MW",
+   "oyuncu": "2-6",
+   "yas": "8+",
+   "turkce": false,
+   "baslik": "Monopoly Türkiye Sürümü Kutu Oyunu | Aileler ve Çocuklar İçin Eğlenceli Oyun | 8 Yaş ve Üzeri | 2-6 Oyuncu : Hasbro: Amazon.com.tr: Oyuncak"
+  },
+  {
+   "id": "cluedo-kutu-oyunu-2-6-oyuncu-icin-yeniden-tasarl",
+   "ad": "Cluedo Kutu Oyunu, 2-6 Oyuncu İçin Yeniden Tasarlanmış Cluedo Oyunu, Gizem Çözme",
+   "url": "https://www.amazon.com.tr/dp/B0C641D51Y?tag=hobibulsite-21",
+   "asin": "B0C641D51Y",
+   "oyuncu": "2-6",
+   "yas": "",
+   "turkce": false,
+   "baslik": "Cluedo Kutu Oyunu, 2-6 Oyuncu İçin Yeniden Tasarlanmış Cluedo Oyunu, Gizem Çözme Oyunları, Dedektiflik Oyunları, Çocuklar ve Yetişkinler İçin Aile Oyunları : Amazon.com.tr: Oyuncak"
+  },
+  {
+   "id": "hasbro-gaming-tabu-xl-kutu-oyunu-4-farkli-oyun-a",
+   "ad": "Hasbro Gaming Tabu XL Kutu Oyunu, 4 Farklı Oyun Alternatifi, Klasik Oyunun Yanı Sıra",
+   "url": "https://www.amazon.com.tr/dp/B002E2LUM4?tag=hobibulsite-21",
+   "asin": "B002E2LUM4",
+   "oyuncu": "",
+   "yas": "",
+   "turkce": false,
+   "baslik": "Hasbro Gaming Tabu XL Kutu Oyunu, 4 Farklı Oyun Alternatifi, Klasik Oyunun Yanı Sıra Çizerek, Tabu Kuklasıyla Anlatarak ve En Fazla 15 Kelime Kullanarak Tabu Oynayın : Amazon.com.tr: Oyuncak"
+  },
+  {
+   "id": "bomb-busters-kutu-oyunu-turkce-baski",
+   "ad": "Bomb Busters - Kutu Oyunu, Türkçe Baskı",
+   "url": "https://www.amazon.com.tr/dp/B0HJ5G1LFB?tag=hobibulsite-21",
+   "asin": "B0HJ5G1LFB",
+   "oyuncu": "",
+   "yas": "",
+   "turkce": true,
+   "baslik": "Bomb Busters - Kutu Oyunu, Türkçe Baskı : Amazon.com.tr: Oyuncak"
+  }
+ ]
 }

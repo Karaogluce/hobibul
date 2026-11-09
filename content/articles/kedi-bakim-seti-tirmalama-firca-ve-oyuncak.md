@@ -85,6 +85,30 @@ Sürekli yanında olamayacağın bir oyun aracı arıyorsan olta sana gelmez. Ke
 
 Şu an için önerdiğim setlerde kum kabı sayfası bulunmuyor ama bu konuda işini kolaylaştıracak birkaç ipucu verebilirim. Kum kabını mutlaka tırmalama direğinden uzak bir yere koy; kedin tırmalarken kumların sisal arasına dolmasını istemezsin. Ayrıca kum kabının kedinin içinde 360 derece dönebileceği kadar geniş olduğundan emin olmalısın. Mama ve su kabını kumun yanına koyma; kedi yediği yerin dibine tuvaletini yapmak istemez. Topakları günde bir, mümkünse iki kez al. Akşam GoCat ile kısa bir oyun, ardından ZoomGroom ile tarama, gevşek tüyü odaya yayılmadan toplar. Su kabı olarak da ağır seramikleri tercih edersen, oyun sırasında devrilme riskini azaltırsın. Eğer hafif plastik bir kap kullanıyorsan, onu direğin yakınına koyma; su dökülürse sisal ıslanır ve koku yapar.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Kedi tırmalama için Amazon.com.tr sayfasında [Pugalo 90 CM Büyük Kedi Tırmalam tahtası Pugalo Catnipli Uzun Tırmalama tahtası (Gri)](https://www.amazon.com.tr/dp/B0BK9P1PJW?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Pugalo 90 CM Büyük Kedi Tırmalam tahtası Pugalo Catnipli Uzun Tırmalama tahtası](https://www.amazon.com.tr/dp/B0BK9VRLKT?tag=hobibulsite-21).
+
+Listenin devamında [Robeve Şarjlı Buharlı Evcil Hayvan Fırçası, Silikon Yumuşak, Kedi ve Köpek İçin Kedi](https://www.amazon.com.tr/dp/B0D3M9KJLX?tag=hobibulsite-21) var.
+
+Kedi fırçası için Amazon.com.tr sayfasında [Bypet Otomatik Temizlenen Tuşlu Evcil Hayvan Tarağı, Kedi Köpek Tüy Toplayıcı Tarak](https://www.amazon.com.tr/dp/B0DV4QXQDX?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [DUFFA Hareketli Dönebilen Olta Kedi Oyuncağı, Yere Veya Duvara Yapıştırılabilir Olta](https://www.amazon.com.tr/dp/B0H15N8WQ3?tag=hobibulsite-21).
+
+Listenin devamında [Pugalo 90 CM Büyük Kedi Tırmalam tahtası Pugalo Catnipli Uzun Tırmalama tahtası (Gri)](https://www.amazon.com.tr/dp/B0BK9P1PJW?tag=hobibulsite-21) var.
+
+Kedi fırçası için Amazon.com.tr sayfasında [Robeve Şarjlı Buharlı Evcil Hayvan Fırçası, Silikon Yumuşak, Kedi ve Köpek İçin Kedi](https://www.amazon.com.tr/dp/B0D3M9KJLX?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [DUFFA Hareketli Dönebilen Olta Kedi Oyuncağı, Yere Veya Duvara Yapıştırılabilir Olta](https://www.amazon.com.tr/dp/B0H15N8WQ3?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 **Neden kum kabı tavsiyesi yok?**
@@ -111,3 +135,4 @@ Son bir tavsiye: Tırmalama direğini kedinin en çok vakit geçirdiği odaya, m
 ## İlgili rehberler
 
 Evcil hayvan ekipmanlarına genel bakış için [evcil hayvan kategorisine](/kategori/evcil-hayvan/) göz atabilirsin. Köpek tarafı için de [köpek yürüyüş ve eğitim seti](/makale/kopek-yuruyus-ve-egitim-seti/) rehberi işine yarar.
+

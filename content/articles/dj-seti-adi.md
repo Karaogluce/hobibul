@@ -51,6 +51,18 @@ Amazon.com.tr kaydı DDJ-FLX2 adını ve marka olarak AlphaTheta yazar. Ayrınt�
 | Orta | [Satın Al: Pioneer DDJ-FLX4 DJ Kontrol](aff://pioneer-ddj-flx4) | Evde öğrenmek ve yazılım dahil set isteyenlar |
 | Üst | | AlphaTheta ekosistemini incelemek isteyenler |
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Dj kontrol için Amazon.com.tr sayfasında [Pioneer DJ Pioneer DDJ-FLX4 Taşınabilir 2 Kanallı DJ Controller](https://www.amazon.com.tr/dp/B0BK25SY9G?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Pioneer DJ Pioneer DDJ-FLX4 Taşınabilir 2 Kanallı DJ Controller](https://www.amazon.com.tr/dp/B0BK25SY9G?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 Hangi DJ kontrol cihazı başlangıç için daha uygundur?
@@ -69,3 +81,4 @@ Ev kullanımı için ağır bir cihaz almalı mı?
 Eğer cihazı bir kez kurup hiç taşımayacaksan ağırlık sorun olmayabilir; ancak sık yer değiştireceksen kompakt modeller daha mantıklı bir tercihtir.
 
 İhtiyacına uygun olan cihazı belirledikten sonra teknik detayları incele ve masana en uygun modeli seçerek ilk setini kurabilirsin. Evdeki alanını ve taşıma alışkanlıklarını göz önünde bulundurarak [Satın Al: Pioneer DDJ-FLX4 DJ Kontrol](aff://pioneer-ddj-flx4) gibi destekli bir modelle hemen pratik yapmaya başlayabilirsin.
+

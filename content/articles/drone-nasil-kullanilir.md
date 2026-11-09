@@ -53,6 +53,18 @@ Pervaneler plastikten üretilmiş olsa dahi yüksek devirle döndükleri için c
 
 Uçuş boyunca gözünü cihazdan ayırma. Telefona veya ekrana fazla odaklanmak çevredeki elektrik tellerini, ağaç dallarını veya yaklaşan kuşları fark etmeni engeller. Batarya seviyesi azaldığında cihazı gecikmeden geri çağırmalısın; rüzgara karşı dönüş yolunda enerjinin daha hızlı tükeneceğini hesaba katmak gövde kayıplarını engeller.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Drone için Amazon.com.tr sayfasında [E99/E88 Full HD Çift Kamera Katlanabilir Drone – FPV, Otomatik Kalkış/İniş, Çift Batarya](https://www.amazon.com.tr/dp/B0FVJG2VPP?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [E99/E88 Full HD Çift Kamera Katlanabilir Drone – FPV, Otomatik Kalkış/İniş, Çift Batarya](https://www.amazon.com.tr/dp/B0FVJG2VPP?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular: Hâlâ Aklında Soru Var mı?
 
 ### Drone nasıl kullanılır?
@@ -83,3 +95,4 @@ Fırçasız motorların arasına toz, kum veya yabancı cisim kaçıp kaçmadı�
 Tüketici pazarında yazılım dengesi, kamera performansı ve donanım kararlılığı bakımından DJI bilinirliği yüksek bir markadır. Cihazın havada sabit kalma başarısı, uçuşa yeni başlayanların panik yapmadan pratik yapmasını sağlar.
 
 Cihazının teknik sınırlarını ve uçtuğun arazinin rüzgar durumunu tartmadan asla uzun mesafe denemesi yapma.
+

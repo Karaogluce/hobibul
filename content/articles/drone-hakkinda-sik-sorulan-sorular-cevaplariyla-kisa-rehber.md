@@ -56,9 +56,22 @@ Fırçasız veya fırçalı elektrik motorları, pervaneleri yüksek hızda dön
 ### Drone için en iyi hafıza kartı veya drone için en iyi sd kart hangisi?
 Yüksek çözünürlüklü videolar kaydederken kartın yazma hızı büyük önem taşır, aksi takdirde video kayıt sırasında takılmalar yaşanabilir. Cihazının desteklediği sınıf standartlarına uygun, yüksek hızlı ve güvenilir markaların microSD kartlarını tercih etmelisin. Kart kapasitesini seçerken çektiğin görüntülerin boyutunu hesaba katmak işini kolaylaştırır.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Drone için Amazon.com.tr sayfasında [E99/E88 Full HD Çift Kamera Katlanabilir Drone – FPV, Otomatik Kalkış/İniş, Çift Batarya](https://www.amazon.com.tr/dp/B0FVJG2VPP?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [E99/E88 Full HD Çift Kamera Katlanabilir Drone – FPV, Otomatik Kalkış/İniş, Çift Batarya](https://www.amazon.com.tr/dp/B0FVJG2VPP?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 - **Hangi cihazlar için ehliyet gerekmez?** 249 gramın altında kalan hafif sınıf modeller için genellikle ehliyet zorunluluğu bulunmaz.
 - **Uçuş haritasını nereden kontrol edebilirim?** Resmi havacılık otoritelerinin internet sitelerindeki güncel harita sistemlerini kullanabilirsin.
 - **Rüzgarlı havada uçurmak güvenli mi?** Kompakt ve hafif modeller rüzgardan kolay etkilenir, bu yüzden şiddetli havalarda uçuş yapmak risklidir.
 - **Yedek pil almak şart mı?** Çoğu modelin tek pille havada kalış süresi sınırlı olduğundan, uzun çekimler için yedek pil taşımak pratiktir.
+

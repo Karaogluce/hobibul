@@ -89,6 +89,28 @@ Botlarını eve gelince asla kalorifer peteğinin üzerine veya altına koyarak 
 
 Dönüş yolunda batonlarını katlamayı unutma; ucu açıkta kalan batonlar toplu taşımada veya araç bagajında başkalarına zarar verebilir. Çantanı da her turdan sonra boşaltıp havalandırırsan içinde nemden dolayı oluşabilecek kokuların önüne geçersin.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Trekking bot için Amazon.com.tr sayfasında [XStep Erkek Lacivert Kısa Kışlık Trekking Bot, Lacivert, 43](https://www.amazon.com.tr/dp/B0FSN4L3X8?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [HyMark Trekking Hafif Katlanabilir 105-125cm Dağcı Doğa Kamp Yürüyüş Tırmanma Batonu](https://www.amazon.com.tr/dp/B0FH5HCLQQ?tag=hobibulsite-21).
+
+Listenin devamında [CATA Poyraz Şarjlı Led Kafa Feneri Ayarlanabilir Zoom Özellikli 3 Modlu Beyaz Işık](https://www.amazon.com.tr/dp/B0BMQDDQLL?tag=hobibulsite-21) var.
+
+Sırt çantası için Amazon.com.tr sayfasında [HAEGS Küçük, Hafif, Katlanabilir Sırt Çantası, Ultra Hafif Seyahat, Yürüyüş, Kamp,](https://www.amazon.com.tr/dp/B0GX2JZ2PF?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [XStep Erkek Lacivert Kısa Kışlık Trekking Bot, Lacivert, 43](https://www.amazon.com.tr/dp/B0FSN4L3X8?tag=hobibulsite-21).
+
+Listenin devamında [HyMark Trekking Hafif Katlanabilir 105-125cm Dağcı Doğa Kamp Yürüyüş Tırmanma Batonu](https://www.amazon.com.tr/dp/B0FH5HCLQQ?tag=hobibulsite-21) var.
+
+Kafa lambası için Amazon.com.tr sayfasında [CATA Poyraz Şarjlı Led Kafa Feneri Ayarlanabilir Zoom Özellikli 3 Modlu Beyaz Işık](https://www.amazon.com.tr/dp/B0BMQDDQLL?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Gore-Tex bot her zaman iyi midir?
@@ -109,3 +131,4 @@ Maalesef hayır. Bu hacimdeki çantalar sadece günlük su, yemek ve yedek kıya
 | Tam Set | Bot, Baton, + | Doğa yürüyüşlerine sıfırdan ve tam donanımlı başlamak isteyenler. |
 
 Eğer bütçeni tek bir yere ayıracaksan, önceliği Salomon X Ultra 4 botuna ver. Ayağın rahat ettikten sonra diğer eksiklerini zamanla tamamlayabilirsin. Yürüyüşten döndüğünde botlarını oda sıcaklığında kurutmayı ve bir sonraki tur için batonlarının boyunu kontrol etmeyi unutma.
+
