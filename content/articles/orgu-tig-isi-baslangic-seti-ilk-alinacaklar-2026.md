@@ -3,7 +3,7 @@ title: "Örgü & Tığ İşi Başlangıç Seti: İlk Alınacaklar (2026)"
 slug: "orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026"
 category: "el-sanatlari"
 date: "2026-10-29"
-updated: "2026-10-29"
+updated: "2026-11-09"
 meta_title: "Örgü ve Tığ: İlk Alınacaklar 2026 | Hobi Bul"
 meta_description: "Örgü ve tığ işine yeni başlayanlar için doğru şiş, tığ ve ip seçim rehberi. Gereksiz harcama yapmadan temel setinizi kurun ve örmeye hemen başlayın."
 excerpt: "Örgü ve tığ işine yeni başlayanlar için doğru şiş, tığ ve ip seçim rehberi. Gereksiz harcama yapmadan temel setinizi kurun ve örmeye hemen başlayın."
@@ -16,7 +16,6 @@ image_source: ""
 subcategory: "orgu-tig"
 draft: "false"
 ---
-
 Örgü veya tığ işine başlarken onlarca parça içeren karmaşık kutular yerine elini yormayacak bir tığ, yumuşak bir iplik ve birkaç ilmek belirleyici almak seni gereksiz masraftan kurtarır. Eğer doğrudan tığ işiyle başlamak istiyorsan ilk alışverişinde ergonomik gövdesiyle öne çıkan [Satın Al: Clover Amour Tığ (5mm)](aff://clover-amour-hook) modelini ve orta kalınlıkta bir çileyi sepete eklemen işini rahatça görür. 
 
 Hobi raflarında gördüğün setlerin büyük kısmı, aslında hiç kullanmayacağın numaralarda gereçler barındırır. Yeni bir el uğraşına heves ettiğinde motivasyonunu kaçıran en büyük etken, kalitesiz bir alet yüzünden elinin ağrıması ya da ipin sürekli katlarına ayrılmasıdır. Bu yüzden bütçeni tek seferde tüketmek yerine, doğrudan öreceğin ilk parçaya göre temel gereçleri doğru seçmen gerekir.
@@ -103,7 +102,7 @@ Bebekler için bir parça örmeyi planlıyorsan seçim kriterlerin değişir. Be
 
 Alüminyum gereçler, Boye setinde olduğu gibi hafiftir ve pürüzsüz yüzeyleri sayesinde ilmeklerin şiş üzerinde hızla kaymasına yardımcı olur. Fakat ilmek kontrolü henüz oturmamışsa bu kayganlık ilmeklerin kaçmasına sebep olabilir. Clover Amour modelinde ise pürüzsüz alüminyum uç, ergonomik tutamakla desteklenmiştir. Böylece ilmek akarken tığın sapı elinde sağlam kalır.
 
-Knit Picks setindeki gibi ahşap malzemeler ilmeği metal kadar kaydırmaz, hafif tutuşuyla acemilik evresinde ilmek kaçırma endişesini azaltır. Özellikle geniş modellerde veya misinalı işlerde ahşap uçlar kontrolü artırır. Yine de ahşap şişlerin sert bükülmelerde metal kadar dayanıklı olmadığını ve dikkatli kullanılması gerektiğini bilmelisin. Başlangıçta temel alüminyum gereçlerle elini alıştırıp daha sonra ahşap setlere geçiş yapabilirsin.
+Knit Picks setindeki gibi ahşap malzemeler ilmeği metal kadar kaydırmaz, hafif tutuşuyla acemilik evresinde ilmek kaçırma endişesini azaltır. Özellikle geniş modellerde veya misinalı işlerde ahşap uçlar kontrolü artırır. Yine de ahşap şişlerin sert bükülmelerde metal kadar dayanıklı olmadığını ve dikkatli kullanılması gerektiğini bilmelisin. Başlangıçta temel alüminyum gereçlerle elini alıştırıp daha sonra ahşap setlere geçiş yapabilirsin. Bu notların bir arada durduğu yer [El Sanatları & DIY](/kategori/el-sanatlari/).
 
 ## Sık Sorulan Sorular
 

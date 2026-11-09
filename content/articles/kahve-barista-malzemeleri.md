@@ -3,7 +3,7 @@ title: "Kahve Barista Malzemeleri: Öğütücü, V60 ve Hassas Tartı"
 slug: "kahve-barista-malzemeleri"
 category: "yemek-mutfak"
 date: "2026-11-01"
-updated: "2026-11-04"
+updated: "2026-11-09"
 meta_title: "Kahve Barista Malzemeleri: Öğütücü ve V60 | Hobi Bul"
 meta_description: "Kahve barista malzemeleri: De'Longhi öğütücü, Hario V60, hassas tartı, filtre kağıdı ve ince uçlu su ısıtıcısı bir arada."
 excerpt: "Öğütücü, V60 ve tartı olmadan demleme her seferinde başka bir fincan olur. Filtre kağıdı ve ince uçlu kettle listeye eklenir."
@@ -15,8 +15,7 @@ image_credit_url: "https://unsplash.com/@yasinonus?utm_source=hobibul&utm_medium
 subcategory: "kahve"
 draft: "false"
 ---
-
-Sabah evde nitelikli bir fincan demlemek istediğinde, mutfak tezgahında doğru kahve barista malzemeleri bulunması bütün süreci değiştirir. İyi bir kahve elde etmek için hangi çekirdeği seçtiğin kadar, onu nasıl öğüttüğün ve hangi ekipmanla demlediğin de önemlidir. Kahve dünyası içinde kaybolmadan, kendi damak tadına uygun kahve çeşitleri arasından seçim yaparken doğru ekipmanlarla yola çıkmak işini ciddi biçimde kolaylaştırır.
+Sabah evde nitelikli bir fincan demlemek istediğinde, mutfak tezgahında doğru kahve barista malzemeleri bulunması bütün süreci değiştirir. İyi bir kahve elde etmek için hangi çekirdeği seçtiğin kadar, onu nasıl öğüttüğün ve hangi ekipmanla demlediğin de önemlidir. Kahve dünyası içinde kaybolmadan, kendi damak tadına uygun kahve çeşitleri arasından seçim yaparken doğru ekipmanlarla yola çıkmak işini ciddi biçimde kolaylaştırır. Bu notların bir arada durduğu yer [Kahve & Barista](/kategori/yemek-mutfak/kahve/).
 
 ## Neye İhtiyacın Var?
 

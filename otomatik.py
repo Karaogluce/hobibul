@@ -30,6 +30,7 @@ import urllib.parse
 import urllib.request
 
 import deeplink
+import ic_link
 import urun_denetim
 import yeni_makale as ym
 from seo import fit_description, fit_title
@@ -1502,6 +1503,13 @@ def uret(t, products, key, models, model_idx, ukey, log, draft, tarih):
     # Makale diske yazıldığı anda log da yazılır; sonraki madde düşse de bu kayıt kalır.
     makale_kaydi_ekle(log, t["key"], slug, tarih)
     save_log(log)
+    if not draft:
+        try:
+            geri = ic_link.yeni_makaleye_geri_link(slug, ARTICLES, bugun=tarih)
+            if geri:
+                print(f"  ✓ geri link: {geri} eski makale")
+        except Exception as e:
+            print(f"  ! geri link eklenemedi ({type(e).__name__}: {e})")
     return (slug, n, bool(img.get("url")), tarih), None
 
 

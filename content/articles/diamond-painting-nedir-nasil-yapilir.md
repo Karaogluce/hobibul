@@ -4,19 +4,18 @@ slug: "diamond-painting-nedir-nasil-yapilir"
 category: "el-sanatlari"
 subcategory: "diamond-painting"
 date: "2026-11-04"
-updated: "2026-11-04"
+updated: "2026-11-09"
 meta_title: "Diamond Painting Nedir, Nasıl Yapılır? | Hobi Bul"
 meta_description: "Diamond painting, kodlu tuvale taş dizmektir. Başlangıç setinde tuval, taş ve tepsi var. Kalem ve ışık pedi ne zaman gerekir, burada."
 excerpt: "Diamond painting, kodlu tuvale taş dizmektir. Başlangıç setinde tuval, taş ve tepsi var. Kalem ve ışık pedi ne zaman gerekir, burada."
 focus_keyword: "diamond painting nedir"
 draft: "false"
 ---
-
 Diamond painting, basılı bir tuvalin üstündeki renk koduna küçük taş dizmektir. Boya sürmezsiniz. Taşı kalemle alıp koda bırakırsınız. İlk akşam bütün tablo bitmek zorunda değil. Küçük bir köşe, elinizin oturup oturmadığını gösterir.
 
 > Başlangıç setinde tuval, renk kodlu taş ve tepsi bir arada gelir. Kalem tek tek yerleştirince daha kontrollüdür. Çoklu uç ilk günde taşı saçabilir. Işık pedi koyu tuvalde kodu okumayı kolaylaştırır. Küçük ped büyük tuvali taşımaz.
 
-Setler [diamond painting](/kategori/el-sanatlari/diamond-painting/) kategorisinde. El işinin geniş listesi [evde el sanatları](/makale/evde-el-sanatlari-hobileri/) sayfasında. Fırçayla boyamak ayrı bir kapı: [resim ve boyama](/kategori/el-sanatlari/resim-boyama/). Yapboz ise taş dizmek değildir. Onun masası [puzzle aksesuarlarında](/makale/puzzle-aksesuarlari-masa-yapistirici-cerceve/).
+Setler [diamond painting](/kategori/el-sanatlari/diamond-painting/) kategorisinde. El işinin geniş listesi [evde el sanatları](/makale/evde-el-sanatlari-hobileri/) sayfasında. Fırçayla boyamak ayrı bir kapı: [resim ve boyama](/kategori/el-sanatlari/resim-boyama/). Yapboz ise taş dizmek değildir. Onun masası [puzzle aksesuarlarında](/makale/puzzle-aksesuarlari-masa-yapistirici-cerceve/). Aynı Diamond Painting işinin devamı [Hangisi Alınır](/makale/yetiskin-hobi-setleri/) rehberinde.
 
 ## Sette ne var
 

@@ -4,7 +4,7 @@ slug: "elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal"
 category: "muzik"
 subcategory: "gitar"
 date: "2026-10-28"
-updated: "2026-10-29"
+updated: "2026-11-09"
 meta_title: "Elektro Gitar Başlangıç Seti: Gitar, Amfi, Pedal | Hobi Bul"
 meta_description: "Elektro gitara Fender Player Stratocaster, Boss Katana 50 ve DS-1 ile başla. Tel, tuner ve kime uymadığı da bu notlarda."
 excerpt: "Elektro gitarda önce gitar ve amfi. Katana'nın kendi efektleri varken ilk pedal şart değil. DS-1, tek bir distortion isteyince girer."
@@ -19,8 +19,7 @@ starter_label: "Boss Katana 50 başlangıç amfisine bak"
 starter_text: "Başlangıç setinin sesi Boss Katana 50. Gitar olarak Fender Player Stratocaster, ilk pedal olarak Boss DS-1 duruyor. Güncel fiyatı Amazon'da kontrol et."
 draft: "false"
 ---
-
-Elektro gitara başlamaya niyetliysen, en mantıklı başlangıç ikilisi bir Fender Player Stratocaster ve yanına koyacağın bir Boss Katana 50 amfi olur. Bu ikili seni uzun süre götürür ama en büyük hata amfiyi sonraya bırakmak. Elektro gitarın sesi amfisiz çıkmaz, o yüzden bütçeni bu ikisini aynı anda alacak şekilde ayarlamalısın. İlk pedalın ne olacağını merak ediyorsan, Boss DS-1 klasik bir tercihtir ama amfinin içindeki efektleri tam öğrenmeden ona acele etmene gerek yok.
+Elektro gitara başlamaya niyetliysen, en mantıklı başlangıç ikilisi bir Fender Player Stratocaster ve yanına koyacağın bir Boss Katana 50 amfi olur. Bu ikili seni uzun süre götürür ama en büyük hata amfiyi sonraya bırakmak. Elektro gitarın sesi amfisiz çıkmaz, o yüzden bütçeni bu ikisini aynı anda alacak şekilde ayarlamalısın. İlk pedalın ne olacağını merak ediyorsan, Boss DS-1 klasik bir tercihtir ama amfinin içindeki efektleri tam öğrenmeden ona acele etmene gerek yok. Aynı gitar işinin devamı [Gitar Hakkında Sık Sorulan Sorular](/makale/gitar-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/) rehberinde. Gitar için burada kapanan ayrımı [İlk Ritim](/makale/gitar-nasil-calinir/) ayrıca tutuyor.
 
 Akustik gitarla başlamayı düşünenler için [sıfırdan gitar öğrenmek](/makale/sifirdan-gitar-ogrenmek/) yazımız daha açıklayıcı olabilir. Genel olarak tüm cihazlara bakmak istersen [gitar ekipmanları](/kategori/muzik/gitar/) sayfasını da inceleyebilirsin.
 

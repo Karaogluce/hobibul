@@ -4,7 +4,7 @@ slug: "fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic"
 category: "sanat"
 subcategory: "fotografcilik"
 date: "2026-10-28"
-updated: "2026-11-04"
+updated: "2026-11-09"
 meta_title: "Fotoğraf Makinesi: Canon EOS R100 Başlangıç | Hobi Bul"
 meta_description: "Başlangıç fotoğraf makinesi: Canon EOS R100 kit, travel kit 24,1 MP APS-C ve Sony A7 III gövde. Lens kutuda mı, sayfada bak."
 excerpt: "İlk gövdeyi lensi kutuda olan APS-C kit ile al. Tam kare, lenssiz gövde olarak ayrı bir kapı."
@@ -19,7 +19,6 @@ starter_label: "R100 travel kit sayfasına bak"
 starter_text: "İlk set Canon EOS R100 travel kit. Sayfa APS-C, 24,1 MP, kit lens, çanta ve 64 GB kart diyor. Güncel fiyatı açıp kontrol et."
 draft: "false"
 ---
-
 Fotoğraf çekmeye niyetlendiysen ilk hatayı makineyi lenizsiz alarak yapma. Sadece gövdeyi alıp eve geldiğinde, o makine çekmecede öylece yatar çünkü bakacak bir camın olmaz. Eğer yeni başlıyorsan, APS-C sensörlü bir giriş seviyesi ile tam kare (full frame) makineler arasındaki o keskin çizgiyi en baştan anlaman lazım. Bu ayrımı fiyata bakarak değil, kutunun içinden ne çıktığına bakarak yapmalısın.
 
 ## R100 Travel Kit: İlk çekim için her şey içinde olsun dersen
@@ -95,7 +94,7 @@ Makineyi aldığında ISO'yu hemen en sona (25600) dayama. Bu sayı arttıkça f
 
 Telefon arka planı yazılımla bulanıklaştırır. R100'ün 24,1 MP APS-C sensörü aynı etkiyi lens diyaframıyla üretir ve zayıf ışıkta telefon sensöründen daha temiz kalır. Ham dosya için en pahalı bilgisayarı bekleme; başlangıçta birkaç düzine kareyi açıp ışık ve renk düzeltmek için sıradan bir dizüstü yeter.
 
-Hafıza kartını makinede silmeden önce mutlaka bilgisayara kopyala. Kartı formatlamak tüm emeklerini bir saniyede silebilir. Eğer video çekeceksen, 3,5 mm mikrofon girişi ileride işine yarayacak ama ilk haftadan mikrofon peşinde koşmana gerek yok; önce görüntüyü bir oturt.
+Hafıza kartını makinede silmeden önce mutlaka bilgisayara kopyala. Kartı formatlamak tüm emeklerini bir saniyede silebilir. Eğer video çekeceksen, 3,5 mm mikrofon girişi ileride işine yarayacak ama ilk haftadan mikrofon peşinde koşmana gerek yok; önce görüntüyü bir oturt. Bu notların bir arada durduğu yer [Sanat](/kategori/sanat/).
 
 ## Merak edilen birkaç detay
 

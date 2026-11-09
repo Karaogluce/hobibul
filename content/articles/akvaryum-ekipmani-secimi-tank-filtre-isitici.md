@@ -3,7 +3,7 @@ title: "Akvaryum Ekipmanı Seçimi: Tank, Filtre, Isıtıcı ve Hava Pompası"
 slug: "akvaryum-ekipmani-secimi-tank-filtre-isitici"
 category: "evcil-hayvan"
 date: "2026-11-02"
-updated: "2026-11-04"
+updated: "2026-11-09"
 meta_title: "Akvaryum Ekipmanı Seçimi: Tank, Filtre, Isıtıcı | Hobi Bul"
 meta_description: "Akvaryum kurarken hangi tank, filtre, ısıtıcı ve hava pompasını seçmelisin? Oda ve canlı türüne göre karşılaştırmalı rehber."
 excerpt: "Akvaryum kurarken hangi tank, filtre, ısıtıcı ve hava pompasını seçmelisin? Oda ve canlı türüne göre karşılaştırmalı rehber."
@@ -15,8 +15,7 @@ image_credit_url: "https://unsplash.com/@jokostudios?utm_source=hobibul&utm_medi
 subcategory: "akvaryum"
 draft: "false"
 ---
-
-Sucul canlı beslemeye başlarken en sık yapılan hata, rastgele ekipmanları bir araya getirip tankın biyolojik dengesini riske atmaktır. Petshop raflarında gördüğün her filtre ya da aydınlatma senin kuracağın hacme uyum sağlamayabilir. Sağlıklı bir akvaryum düzeni kurmanın yolu, besleyeceğin balık sayısını ve tankın litresini baştan belirleyip bu ölçülere uygun temel malzemeleri seçmekten geçer.
+Sucul canlı beslemeye başlarken en sık yapılan hata, rastgele ekipmanları bir araya getirip tankın biyolojik dengesini riske atmaktır. Petshop raflarında gördüğün her filtre ya da aydınlatma senin kuracağın hacme uyum sağlamayabilir. Sağlıklı bir akvaryum düzeni kurmanın yolu, besleyeceğin balık sayısını ve tankın litresini baştan belirleyip bu ölçülere uygun temel malzemeleri seçmekten geçer. Aynı akvaryum işinin devamı [Akvaryum Balık Ekipmanları](/makale/en-iyi-akvaryum-balik-ekipmanlari-2026-alim-rehberi/) rehberinde. Aynı başlık altındaki diğer rehberler [Akvaryum & Balık](/kategori/evcil-hayvan/akvaryum/) sayfasında.
 
 Hacme uygun filtre seçimi suyun berrak kalmasını sağlarken, sabit sıcaklık sunan bir ısıtıcı da canlıların bağışıklığını korur. Malzeme listeni netleştirmeden alışverişe çıkarsan yetersiz motorlar ya da uyumsuz parçalar yüzünden kısa sürede sorun yaşayabilirsin.
 

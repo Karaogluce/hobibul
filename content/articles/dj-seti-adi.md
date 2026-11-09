@@ -3,7 +3,7 @@ title: "İlk DJ Seti: DDJ-FLX4, MixTrack Go ve FLX2"
 slug: "dj-seti-adi"
 category: "muzik"
 date: "2026-11-01"
-updated: "2026-11-04"
+updated: "2026-11-09"
 meta_title: "İlk DJ Seti: DDJ-FLX4 ve MixTrack Go | Hobi Bul"
 meta_description: "İlk DJ seti: DDJ-FLX4, MixTrack Go ve FLX2. Kutuda yazılım var mı, laptop şart mı ve iki parçayı fader ile nasıl karıştırırsın."
 excerpt: "İlk DJ setinde DDJ-FLX4, MixTrack Go ve FLX2. Yazılım kutuda mı, laptop şart mı, ilk geçiş nasıl yapılır."
@@ -15,8 +15,7 @@ image_credit_url: "https://unsplash.com/@dlxmedia?utm_source=hobibul&utm_medium=
 subcategory: "dj-produksiyon"
 draft: "false"
 ---
-
-Eğer eve ilk kez bir DJ kontrol cihazı alacaksan ve hangi modelle yola çıkacağını merak ediyorsan, [DJ & Prodüksiyon](/kategori/muzik/dj-produksiyon/) kategorisindeki iki kanallı temel seçeneklerle işe başlayabilirsin. Doğrudan masaya kurup hemen çalmaya girişmek istiyorsan [Satın Al: Pioneer DDJ-FLX4 DJ Kontrol](aff://pioneer-ddj-flx4) modeli, yazılımın dahil gelmesi ve öğrenmeyi kolaylaştırması nedeniyle öne çıkar. Serato ile rekordbox arasındaki kutu farkını [DJ kontrol cihazı seçimi](/makale/dj-kontrol-cihazi-secimi-yeni-baslayanlar/) yazısı ayırıyor; burada ilk setin masaya nasıl oturduğu ve ilk geçişin nasıl yapıldığı var.
+Eğer eve ilk kez bir DJ kontrol cihazı alacaksan ve hangi modelle yola çıkacağını merak ediyorsan, [DJ & Prodüksiyon](/kategori/muzik/dj-produksiyon/) kategorisindeki iki kanallı temel seçeneklerle işe başlayabilirsin. Doğrudan masaya kurup hemen çalmaya girişmek istiyorsan [Satın Al: Pioneer DDJ-FLX4 DJ Kontrol](aff://pioneer-ddj-flx4) modeli, yazılımın dahil gelmesi ve öğrenmeyi kolaylaştırması nedeniyle öne çıkar. Serato ile rekordbox arasındaki kutu farkını [DJ kontrol cihazı seçimi](/makale/dj-kontrol-cihazi-secimi-yeni-baslayanlar/) yazısı ayırıyor; burada ilk setin masaya nasıl oturduğu ve ilk geçişin nasıl yapıldığı var. Aynı DJ işinin devamı [Alınacak Ekipmanlar](/makale/dj-produksiyon-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/) rehberinde.
 
 ## Satın Almadan Önce Nelere Bakmalı?
 

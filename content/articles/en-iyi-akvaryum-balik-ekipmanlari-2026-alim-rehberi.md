@@ -15,7 +15,6 @@ image_credit_url: "https://unsplash.com/@huyphan2602?utm_source=hobibul&utm_medi
 subcategory: "akvaryum"
 draft: "false"
 ---
-
 Evde akvaryum kurarken yapılan en yaygın hata, cam tankı hevesle alıp filtre ve ısıtıcı seçimini sonraya bırakmaktır. Oysa suyun dengesini ve balıkların sağlığını belirleyen asıl unsur, baştan kurduğun bu teknik altyapıdır. Sistemin kapasitesi elindeki su hacmine yetersiz geldiğinde atıklar hızla birikir, suyun dengesi bozulur ve canlı kayıpları kaçınılmaz hale gelir.
 
 Ekipman seçerken süslü tanıtımlara takılmak yerine doğrudan tankının su hacmine, besleyeceğin canlı yüküne ve parçaların temizlik kolaylığına bakman gerekir.
@@ -76,7 +75,7 @@ Kutu içeriğinde hava hortumu, çekvalf veya hava taşı gibi tamamlayıcı par
 
 Akvaryum hobisine sıfırdan adım atıyorsan ve filtre, ısıtıcı ya da aydınlatmayı ayrı ayrı seçip uyum derdi yaşamak istemiyorsan Tetra Starter Line 54 L seti tercih edebilirsin. Tek pakette gelen aydınlatması, iç filtresi ve ısıtıcısı sayesinde hızlı bir başlangıç yapmanı sağlar.
 
-Hali hazırda bir tankın varsa ve iç filtrenin temizliğinden memnun kalmıyorsan, sepetli yapısıyla Fluval 207 dış filtreye geçmek su berraklığında ciddi bir rahatlama sağlar. Su sıcaklığını hassas biçimde sabitlemek istediğinde Eheim Jager ısıtıcıyı, suyun oksijen dengesini ve yüzey hareketliliğini desteklemek istediğinde ise Tetra APS 150 hava pompasını sistemine ekleyebilirsin.
+Hali hazırda bir tankın varsa ve iç filtrenin temizliğinden memnun kalmıyorsan, sepetli yapısıyla Fluval 207 dış filtreye geçmek su berraklığında ciddi bir rahatlama sağlar. Su sıcaklığını hassas biçimde sabitlemek istediğinde Eheim Jager ısıtıcıyı, suyun oksijen dengesini ve yüzey hareketliliğini desteklemek istediğinde ise Tetra APS 150 hava pompasını sistemine ekleyebilirsin. Aynı akvaryum işinin devamı [Hava Pompası](/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/) rehberinde.
 
 ## Sık Sorulan Sorular
 

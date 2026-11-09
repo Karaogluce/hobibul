@@ -7,17 +7,16 @@ meta_title: "Sıfırdan Gitar: Ekipman Rehberi 2026 | Hobi Bul"
 meta_description: "Gitar öğrenmeye başlayanlar için rehber: akustik ve elektro gitar, amfi, tel ve tuner önerileri, artılar/eksiler ve satın alma bağlantıları."
 excerpt: "Sıfırdan gitar öğrenmek istiyor ama nereden başlayacağınızı bilmiyor musunuz? Doğru gitar, amfi, tel ve tuner seçimiyle ilk akorlarınızı haftalar içinde çalmaya başlayın. İşte yeni başlayanlar için eksiksiz ekipman rehberi."
 date: "2026-10-27"
-updated: "2026-10-29"
+updated: "2026-11-09"
 image: "/img/makale/gitar-ogrenme.webp"
 image_alt: "Gitar ve amfi ile çalışma alanı"
 image_credit: "Unsplash"
 image_credit_url: "https://unsplash.com/s/photos/guitar-amp"
 image_source: ""
 ---
-
 ## Neden Herkes İlk Enstrüman Olarak Gitarı Seçiyor?
 
-Gitarın bu kadar popüler olmasının aslında çok pratik bir sebebi var: Birkaç temel akoru bastığın an, sevdiğin yüzlerce şarkıya eşlik edebilecek seviyeye geliyorsun. Piyano gibi devasa yer kaplamıyor veya taşınması dert olmuyor; alıp kampa, arkadaş toplantısına ya da odana rahatça götürebiliyorsun. "Benim yeteneğim var mı acaba?" diye düşünerek başlamayı erteleyen çok kişi var ama işin aslı yetenekten ziyade doğru ekipmanla düzenli vakit geçirmekte bitiyor. Eğer elektro gitara merakın varsa [elektro gitar başlangıç seti](/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/) rehberine bakabilirsin. Diğer seçenekler için [gitar ekipmanları](/kategori/muzik/gitar/) sayfasını, genel liste için de [müzik](/kategori/muzik/) kategorisini inceleyebilirsin.
+Gitarın bu kadar popüler olmasının aslında çok pratik bir sebebi var: Birkaç temel akoru bastığın an, sevdiğin yüzlerce şarkıya eşlik edebilecek seviyeye geliyorsun. Piyano gibi devasa yer kaplamıyor veya taşınması dert olmuyor; alıp kampa, arkadaş toplantısına ya da odana rahatça götürebiliyorsun. "Benim yeteneğim var mı acaba?" diye düşünerek başlamayı erteleyen çok kişi var ama işin aslı yetenekten ziyade doğru ekipmanla düzenli vakit geçirmekte bitiyor. Eğer elektro gitara merakın varsa [elektro gitar başlangıç seti](/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/) rehberine bakabilirsin. Diğer seçenekler için [gitar ekipmanları](/kategori/muzik/gitar/) sayfasını, genel liste için de [müzik](/kategori/muzik/) kategorisini inceleyebilirsin. Aynı gitar işinin devamı [Gitar Ekipmanı Alırken Yapılan](/makale/gitar-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/) rehberinde. Gitar için burada kapanan ayrımı [Gitar Nasıl Çalınır](/makale/gitar-nasil-calinir/) ayrıca tutuyor.
 
 ## Başlarken Abartıya Kaçmadan Ne Almalı?
 

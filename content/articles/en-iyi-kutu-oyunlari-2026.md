@@ -4,14 +4,13 @@ slug: "en-iyi-kutu-oyunlari-2026"
 category: "koleksiyon"
 subcategory: "masaustu-oyun"
 date: "2026-11-04"
-updated: "2026-11-04"
+updated: "2026-11-09"
 meta_title: "En İyi Kutu Oyunları 2026: Türkiye'de | Hobi Bul"
 meta_description: "2026'da Türkiye'de Neo Troy vitrinindeki kutu oyunları: Sky Team, Catan, Carcassonne, Splendor, Wingspan, Heat ve Codenames."
 excerpt: "2026'da Türkiye'de Neo Troy vitrinindeki kutu oyunları: Sky Team, Catan, Carcassonne, Splendor, Wingspan, Heat ve Codenames."
 focus_keyword: "en iyi kutu oyunları"
 draft: "false"
 ---
-
 En iyi kutu oyunu, masada kaç kişi olduğuna ve akşamın ne kadar süreceğine göre değişir. Bu liste yurt dışı bloglarından devşirilmedi. Kutular [Neo Troy Games](https://neotroygames.com/) sitesinde duruyor. Ana sayfada öne çıkanlar arasında Sky Team, Catan, Splendor ve Heat var. Kişi, süre ve yaş, ürün sayfasındaki satırdan.
 
 > İki kişiye Sky Team (2 kişi, 20 dakika). Üç dört yetişkine Catan (3-4, 30-60 dakika). Aileye Carcassonne ve Ticket to Ride Europe (2-5, 8+). Kalabalığa Codenames (4-8+, 15 dakika). Uzun strateji gecesine Terraforming Mars (120-240 dakika).
@@ -32,7 +31,7 @@ Carcassonne 2-5 kişi, 30-60 dakika, 8+. Karo çekip haritayı büyütüyorsunuz
 
 Ticket to Ride Europe 2-5 kişi, 30-60 dakika, 8+. Tren yolu. Metin İstanbul'u da anıyor. Masa geniş olmalı. [Satın Al: Ticket to Ride Europe](aff://ticket-to-ride-europe)
 
-Wingspan 1-5 kişi, 30-60 dakika, 14+. Kuş kartlarıyla koleksiyon. Tek kişi de kuruluyor. Yaş 14. Çocuklu kısa akşama göre değil. [Satın Al: Wingspan](aff://wingspan)
+Wingspan 1-5 kişi, 30-60 dakika, 14+. Kuş kartlarıyla koleksiyon. Tek kişi de kuruluyor. Yaş 14. Çocuklu kısa akşama göre değil. [Satın Al: Wingspan](aff://wingspan) Bu notların bir arada durduğu yer [Koleksiyon](/kategori/koleksiyon/).
 
 ## Kalabalık ve kısa parti
 

@@ -7,14 +7,13 @@ meta_title: "Yeni Başlayanlar İçin Kampçılık Rehberi 2026 | Hobi Bul"
 meta_description: "Kampçılığa yeni başlayanlar için kapsamlı rehber: çadır, uyku matı, ocak, fener ve su filtresi önerileri, artılar/eksiler ve satın alma bağlantıları."
 excerpt: "Kampçılığa yeni mi başlıyorsun? Çadırdan ocağa, uyku matından su filtresine kadar ilk kampın için ihtiyacın olan tüm ekipmanları, artıları ve eksileriyle bu rehberde topladık."
 date: "2026-10-27"
-updated: "2026-10-29"
+updated: "2026-11-09"
 image: "/img/makale/kamp-cadiri.webp"
 image_alt: "Ormanda kurulmuş kamp çadırı"
 image_credit: "Unsplash"
 image_credit_url: "https://unsplash.com/s/photos/camping-tent"
 image_source: ""
 ---
-
 ## İlk kampın için devasa bir hazırlığa ihtiyacın yok
 
 İlk kampına gitmek için profesyonel bir dağcı olmana ya da binlerce liralık ekipman yığmana gerek yok. Altında bir araba, kafanı sokacağın bir çadır ve seni sıcak tutacak birkaç parça eşyan varsa o ilk geceyi gayet keyifli geçirebilirsin. Şehirden uzaklaşırken asıl amacın kafa dinlemekse, yanlış seçilmiş bir mat yüzünden uykusuz kalmak veya rüzgarda savrulan bir çadırla uğraşmak tüm hevesini kırabilir. Bu yüzden her şeyi bir anda almak yerine; önce barınma ve uykuya, sonra yemek ve ışık işine odaklanmak en mantıklısı.
@@ -113,7 +112,7 @@ Tüm bu malzemeleri taşıyacak iyi bir çanta, kampın eziyete mi yoksa keyfe m
 
 Aslında tüm seçimini bu soru belirlemeli. Eğer malzemenin hepsini bagaja atıp kamp alanına kadar gideceksen, Coleman Sundome gibi geniş çadırlar ve Triton gibi büyük ocaklar seni çok rahat ettirir. Ağırlık derdin olmadığı için konforu ön planda tutabilirsin.
 
-Ama "ben çantamı takıp birkaç kilometre yürüyeceğim" dersen, o zaman her gramın hesabını yapmalısın. MSR PocketRocket gibi hafif ocaklar, Z Lite gibi hafif matlar burada devreye giriyor. Bir de mevsim faktörü var; ilk etapta bahar ve yaz aylarını tercih etmen en güvenlisi. Kış kampı çok daha farklı bir tecrübe ve ekipman seviyesi istiyor.
+Ama "ben çantamı takıp birkaç kilometre yürüyeceğim" dersen, o zaman her gramın hesabını yapmalısın. MSR PocketRocket gibi hafif ocaklar, Z Lite gibi hafif matlar burada devreye giriyor. Bir de mevsim faktörü var; ilk etapta bahar ve yaz aylarını tercih etmen en güvenlisi. Kış kampı çok daha farklı bir tecrübe ve ekipman seviyesi istiyor. Bu notların bir arada durduğu yer [Outdoor & Doğa](/kategori/outdoor/).
 
 ## Merak edebileceğin birkaç detay
 

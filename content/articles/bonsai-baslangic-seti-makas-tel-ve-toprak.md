@@ -4,7 +4,7 @@ slug: "bonsai-baslangic-seti-makas-tel-ve-toprak"
 category: "bahce-bitki"
 subcategory: "bonsai"
 date: "2026-10-28"
-updated: "2026-11-04"
+updated: "2026-11-09"
 meta_title: "Bonsai Başlangıç Seti: Makas, Tel, Toprak | Hobi Bul"
 meta_description: "Bonsai başlangıç seti: 10 parça alet, alüminyum tel, Compo toprak, ince makas ve Genta sıvı besin. Canlı ağaç LEGO değildir; ölçüye bak."
 excerpt: "Canlı bonsai için önce makas ve süzülen toprak. Tel, dal kalınlaşınca gelir. LEGO bonsai ayrı kutudur."
@@ -19,16 +19,15 @@ starter_label: "6 parça bonsai setine bak"
 starter_text: "İlk canlı bonsai seti BestAlice 6 parça. Karbon çelik aletleri kuru sakla. Parça listesini ve ölçüleri Amazon ürün sayfasında kontrol et."
 draft: "false"
 ---
-
 ## Canlı Bir Bonsaiye Başlarken Neler Lazım?
 
-Canlı bir bonsai bakmaya niyetlendiysen, ağaçtan bile önce iyi süzülen bir toprağa ve temiz kesen bir makasa ihtiyacın var. Hevesle aldığın fidanı mutfak makasıyla budamaya kalkarsan dalları ezer, bitkiye gereksiz yere zarar verirsin. Niyetin bakım derdi olmadan rafa yeşil bir dekor koymaksa, o zaman seni doğrudan [yetişkin LEGO setleri](/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/) tarafına alalım; çünkü canlı bir ağaç düzenli sulama, doğru toprak ve sabır ister. Daha fazla detay ve farklı türler için [bonsai](/kategori/bahce-bitki/bonsai/) kategorisine de uğrayabilirsin.
+Canlı bir bonsai bakmaya niyetlendiysen, ağaçtan bile önce iyi süzülen bir toprağa ve temiz kesen bir makasa ihtiyacın var. Hevesle aldığın fidanı mutfak makasıyla budamaya kalkarsan dalları ezer, bitkiye gereksiz yere zarar verirsin. Niyetin bakım derdi olmadan rafa yeşil bir dekor koymaksa, o zaman seni doğrudan [yetişkin LEGO setleri](/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/) tarafına alalım; çünkü canlı bir ağaç düzenli sulama, doğru toprak ve sabır ister. Daha fazla detay ve farklı türler için [bonsai](/kategori/bahce-bitki/bonsai/) kategorisine de uğrayabilirsin. Aynı bonsai işinin devamı [Bonsai nasıl toprak sever](/makale/bonsai-nasil-toprak-sever/) rehberinde.
 
 Aşağıdaki listede yer alan ürünlerin doğrudan ürün sayfaları yerine pazar yeri arama sonuçları açılabilir; bu yüzden bağlantıya tıkladığında başlığı, parça sayısını ve satıcıyı kontrol etmeyi ihmal etme.
 
 ## BestAlice 6 Parça Set: Her İşe Yetecek Bir Başlangıç mı?
 
-Aletleri tek tek aramak yerine temel parçalar elimin altında dursun diyorsan BestAlice 6 parça set derli toplu bir seçenek. Budama ve dal kesme araçlarının yanında temel bakım işlerinde kullanılabilecek parçalar sunar. Karbon çelik gövdeleri paslanmaz çelik gibi neme dayanıklı kabul etme; her kullanımdan sonra bitki özsuyunu ve nemi temizleyip aletleri kuru saklaman gerekir.
+Aletleri tek tek aramak yerine temel parçalar elimin altında dursun diyorsan BestAlice 6 parça set derli toplu bir seçenek. Budama ve dal kesme araçlarının yanında temel bakım işlerinde kullanılabilecek parçalar sunar. Karbon çelik gövdeleri paslanmaz çelik gibi neme dayanıklı kabul etme; her kullanımdan sonra bitki özsuyunu ve nemi temizleyip aletleri kuru saklaman gerekir. Aynı başlık altındaki diğer rehberler [Bahçe & Bitki](/kategori/bahce-bitki/) sayfasında.
 
 Kime uymaz? Kalın gövdeleri tek hamlede kesecek profesyonel ve ağır iş aletleri arayanlara uymaz. Altı parça başlangıç bakımı için yararlı olsa da her aleti aynı kalınlıktaki dalda kullanmak doğru değildir; ürün sayfasındaki parça listesini ve ölçüleri kontrol et.
 

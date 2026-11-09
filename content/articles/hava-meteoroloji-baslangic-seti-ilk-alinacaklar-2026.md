@@ -3,7 +3,7 @@ title: "Hava & Meteoroloji Başlangıç Seti: İlk Alınacaklar (2026)"
 slug: "hava-meteoroloji-baslangic-seti-ilk-alinacaklar-2026"
 category: "bilim-astronomi"
 date: "2026-10-31"
-updated: "2026-10-31"
+updated: "2026-11-09"
 meta_title: "Hava & Meteoroloji Başlangıç Seti: İlk | Hobi Bul"
 meta_description: "Kendi meteoroloji istasyonunu kurmak isteyenler için hava durumu başlangıç seti rehberi. İlk alınacak cihazlar ve kurulum önerileri. | Hobi Bul"
 excerpt: "Kendi meteoroloji istasyonunu kurmak isteyenler için hava durumu başlangıç seti rehberi. İlk alınacak cihazlar ve kurulum önerileri. | Hobi Bul"
@@ -16,7 +16,6 @@ image_source: ""
 subcategory: "meteoroloji"
 draft: "false"
 ---
-
 Kendi hava durumu istasyonunu kurup balkonundan veya bahçenden gerçek zamanlı veri toplamak istiyorsan, ilk etapta sıcaklık, nem, rüzgar ve yağışı tek merkezden okuyan dengeli bir istasyonla başlamalısın. Doğrudan [Satın Al: AcuRite 01512 Pro Renkli Hava İstasyonu](aff://acurite-01512) modeline yönelebilir, böylece karmaşık montaj süreçlerine boğulmadan temel atmosfer olaylarını evindeki ekrandan takip edebilirsin.
 
 Meteoroloji hobisine başlarken yapılan en büyük hata, akıllı telefonlardaki genel tahminlerin yeterli olacağını varsaymaktır. Bölgesel hava durumu raporları genellikle onlarca kilometre uzaktaki havaalanı veya tepe istasyonlarından alınır. Senin yaşadığın sokaktaki rüzgar koridoru, beton blokların yarattığı ısı adası ya da vadide kalan bahçenin nem oranı resmi istasyonların radarına girmez. Kendi sensörlerini kurduğunda, sabah hissettiğin ayazın kaç dereceye denk geldiğini, fırtınanın tam olarak hangi saatte ne şiddette vurduğunu ve toprağına ne kadar yağış düştüğünü doğrudan kendi ölçümlerinle görürsün.
@@ -99,7 +98,7 @@ Meteoroloji hobisine başlarken bütçeni ve gözlem alanını doğru tanımlama
 
 Bütçe paketini seçtiğinde kablo çekme veya çatıya tırmanma derdin olmaz; sensörü pencere pervazının gölgesine asar ve uygulamadan verileri izlersin. Bu yaklaşım apartman hayatında mikro iklimi anlamanın en pratik başlangıcıdır.
 
-Orta pakete geçtiğinde rüzgar ve yağmur gibi dinamik değişkenler denkleme dahil olur. Fırtınanın geliş yönünü izlemek ve bahçenin aldığı suyu milimetre cinsinden bilmek meteoroloji hobisini derinleştirir. Üst paket ise yerel gözlemini küresel bir veri noktasına çevirerek seni uluslararası amatör meteoroloji ağının aktif bir parçası haline getirir.
+Orta pakete geçtiğinde rüzgar ve yağmur gibi dinamik değişkenler denkleme dahil olur. Fırtınanın geliş yönünü izlemek ve bahçenin aldığı suyu milimetre cinsinden bilmek meteoroloji hobisini derinleştirir. Üst paket ise yerel gözlemini küresel bir veri noktasına çevirerek seni uluslararası amatör meteoroloji ağının aktif bir parçası haline getirir. Bu notların bir arada durduğu yer [Bilim & Astronomi notları](/kategori/bilim-astronomi/).
 
 ## Sık Sorulan Sorular
 

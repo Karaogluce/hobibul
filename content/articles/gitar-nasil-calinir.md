@@ -3,7 +3,7 @@ title: "Gitar Nasıl Çalınır? Tutuş, Temel Akor ve İlk Ritim"
 slug: "gitar-nasil-calinir"
 category: "muzik"
 date: "2026-11-02"
-updated: "2026-11-04"
+updated: "2026-11-09"
 meta_title: "Gitar Nasıl Çalınır? Akor ve Tutuş | Hobi Bul"
 meta_description: "Gitar nasıl çalınır: sandalyede tutuş, perde arkasına basış, iki temel akor ve her gün kısa ritim çalışması. Tel seçimi de burada."
 excerpt: "Tutuş, perde arkasına basış ve iki temel akor. Her gün kısa ritim, haftada bir uzun oturuştan daha hızlı oturur."
@@ -15,7 +15,6 @@ image_credit_url: "https://unsplash.com/@gabrielgurrola?utm_source=hobibul&utm_m
 subcategory: "gitar"
 draft: "false"
 ---
-
 Gitar çalmaya başlamak için saatlerce karmaşık nota teorisine gömülmene gerek yok. Elini klavyeye rahatça yerleştirip perdelerin hemen arkasına dik basmayı kavradığın an, telleri temiz tınlatmaya başlarsın. Başlangıçta işaret ve orta parmağını doğru perdelere koyarak iki temel akor basmak, ardından sağ elinle ritmik vuruşlar yapmak işin temelini kurmana yeter.
 
 İlk haftalarda parmak uçlarının sızlaması son derece olağan bir durumdur. Deri sertleşene kadar parmakların tellere alışırken her gün düzenli aralıklarla çalışmak, haftada bir gün oturup saatlerce pratik yapmaktan çok daha hızlı refleks kazandırır. Kas hafızan geliştikçe tellere hiç bakmadan doğru yerlere basabildiğini fark edeceksin.
@@ -48,7 +47,7 @@ Elektro gitarda dengeli bir gerginlik ve canlı bir tını arıyorsan nikel kapl
 
 Geleneksel nota eğitimi yerine gitar tab sistemini öğrenmek şarkıları doğrudan çalmanı kolaylaştırır. Tab sistemi, gitarın altı telini yatay çizgiler olarak gösterir ve bu çizgiler üzerindeki sayılar basman gereken perde numarasını belirtir. Böylece klasik solfej bilmeden, sadece tellerin sırasına ve sayılara bakarak sevdiğin bir melodiyi kısa sürede çalmaya başlayabilirsin.
 
-Şarkılara eşlik edebilmek için öncelikle Em, Am, C ve D gibi temel açık pozisyon akorları üzerinde durmalısın. F gibi bareli formlar ilk etapta parmaklarını yorabilir ve hemen temiz ses vermeyebilir; bu yüzden motivasyonunu düşürmeden önce açık akorlar arasındaki geçiş hızını oturtmaya bakmalısın. Repertuarına yeni parçalar ekledikçe sağ el ritim kalıpların da kendiliğinden akıcı hale gelir.
+Şarkılara eşlik edebilmek için öncelikle Em, Am, C ve D gibi temel açık pozisyon akorları üzerinde durmalısın. F gibi bareli formlar ilk etapta parmaklarını yorabilir ve hemen temiz ses vermeyebilir; bu yüzden motivasyonunu düşürmeden önce açık akorlar arasındaki geçiş hızını oturtmaya bakmalısın. Repertuarına yeni parçalar ekledikçe sağ el ritim kalıpların da kendiliğinden akıcı hale gelir. Bu notların bir arada durduğu yer [Müzik notları](/kategori/muzik/).
 
 ## Sık Sorulan Sorular
 

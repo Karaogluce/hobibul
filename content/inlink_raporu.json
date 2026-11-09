@@ -1,0 +1,3178 @@
+{
+ "tanim": "govde_gelen, başka bir makalenin gövdesinden gelen benzersiz iç linktir. Üst menü, altbilgi ve ekmek kırıntısı bu sayıda yoktur. yetim: yayındaki makale ya da içinde makalesi olan kategori sayfası, govde_gelen 0 veya 1 ise. Makalesi olmayan kategori sayfası menüden ulaşılır; alakasız gövde linki eklenmez ve makalesiz listesindedir. toplam_gelen, üretilmiş HTML içindeki diğer sayfalardan gelen benzersiz linktir. tik, ana sayfadan tıklama derinliğidir. gsc_oncelik, analytics_gsc.json içinde ortalama pozisyonu 8-20 olan sorguya denk sayfadır; dosya yoksa veya ok değilse boş kalır.",
+ "ozet": {
+  "makale": 64,
+  "kategori": 82,
+  "yetim_makale": 25,
+  "yetim_kategori": 16,
+  "yetim": 41,
+  "makalesiz_kategori": 40,
+  "sitemap_linksiz": [],
+  "uc_tik_disi": [],
+  "gsc_dosyasi": true,
+  "gsc_uygun": false,
+  "gsc_hedef": []
+ },
+ "yetimler": [
+  {
+   "yol": "/makale/dj-produksiyon-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
+   "tur": "makale",
+   "baslik": "DJ & Prodüksiyon Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
+   "kategori": "muzik",
+   "alt_kategori": "dj-produksiyon",
+   "govde_gelen": 0,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/dj-produksiyon-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/",
+   "tur": "makale",
+   "baslik": "DJ & Prodüksiyon Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
+   "kategori": "muzik",
+   "alt_kategori": "dj-produksiyon",
+   "govde_gelen": 0,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/dj-seti-adi/",
+   "tur": "makale",
+   "baslik": "İlk DJ Seti: DDJ-FLX4, MixTrack Go ve FLX2",
+   "kategori": "muzik",
+   "alt_kategori": "dj-produksiyon",
+   "govde_gelen": 0,
+   "toplam_gelen": 3,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/hava-meteoroloji-baslangic-seti-ilk-alinacaklar-2026/",
+   "tur": "makale",
+   "baslik": "Hava & Meteoroloji Başlangıç Seti: İlk Alınacaklar (2026)",
+   "kategori": "bilim-astronomi",
+   "alt_kategori": "meteoroloji",
+   "govde_gelen": 0,
+   "toplam_gelen": 5,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/kadinlar-icin-evde-yapilacak-hobiler/",
+   "tur": "makale",
+   "baslik": "Kadınlar İçin Evde Yapılacak 20 Hobi (Başlangıç Malzemeleriyle)",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "orgu-tig",
+   "govde_gelen": 0,
+   "toplam_gelen": 9,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/kimya-deney-baslangic-seti-ilk-alinacaklar-2026/",
+   "tur": "makale",
+   "baslik": "Kimya & Deney Başlangıç Seti: İlk Alınacaklar (2026)",
+   "kategori": "bilim-astronomi",
+   "alt_kategori": "kimya-deney",
+   "govde_gelen": 0,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/lego-model-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/",
+   "tur": "makale",
+   "baslik": "LEGO & Model İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
+   "kategori": "koleksiyon",
+   "alt_kategori": "lego-model",
+   "govde_gelen": 0,
+   "toplam_gelen": 8,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech/",
+   "tur": "makale",
+   "baslik": "Oyuncu Mouse ve Klavye Seti: Redragon Kumara ve Logitech G213",
+   "kategori": "teknoloji",
+   "alt_kategori": "oyun-pc-modlama",
+   "govde_gelen": 0,
+   "toplam_gelen": 3,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/raspberry-pi-ile-linux-ve-elektronik-uygulamalari/",
+   "tur": "makale",
+   "baslik": "Raspberry Pi ile Linux ve Elektronik: Imager, Terminal ve GPIO",
+   "kategori": "teknoloji",
+   "alt_kategori": "raspberry-pi-elektronik",
+   "govde_gelen": 0,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/teknoloji-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
+   "tur": "makale",
+   "baslik": "Teknoloji Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
+   "kategori": "teknoloji",
+   "alt_kategori": "",
+   "govde_gelen": 0,
+   "toplam_gelen": 14,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/teknoloji-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/",
+   "tur": "makale",
+   "baslik": "Teknoloji Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
+   "kategori": "teknoloji",
+   "alt_kategori": "",
+   "govde_gelen": 0,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/kategori/bilim-astronomi/kimya-deney/",
+   "tur": "kategori",
+   "baslik": "Kimya & Deney",
+   "kategori": "bilim-astronomi",
+   "alt_kategori": "kimya-deney",
+   "govde_gelen": 1,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/kimya-deney-baslangic-seti-ilk-alinacaklar-2026/"
+   ]
+  },
+  {
+   "yol": "/kategori/bilim-astronomi/meteoroloji/",
+   "tur": "kategori",
+   "baslik": "Hava & Meteoroloji",
+   "kategori": "bilim-astronomi",
+   "alt_kategori": "meteoroloji",
+   "govde_gelen": 1,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/hava-meteoroloji-baslangic-seti-ilk-alinacaklar-2026/"
+   ]
+  },
+  {
+   "yol": "/kategori/el-sanatlari/deri-isleri/",
+   "tur": "kategori",
+   "baslik": "Deri İşçiliği",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "deri-isleri",
+   "govde_gelen": 1,
+   "toplam_gelen": 8,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/deri-isciligi-baslangic-seti-ilk-alinacaklar-2026/"
+   ]
+  },
+  {
+   "yol": "/kategori/evcil-hayvan/kedi-bakimi/",
+   "tur": "kategori",
+   "baslik": "Kedi Bakımı",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "kedi-bakimi",
+   "govde_gelen": 1,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/"
+   ]
+  },
+  {
+   "yol": "/kategori/koleksiyon/puzzle/",
+   "tur": "kategori",
+   "baslik": "Puzzle",
+   "kategori": "koleksiyon",
+   "alt_kategori": "puzzle",
+   "govde_gelen": 1,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/puzzle-aksesuarlari-masa-yapistirici-cerceve/"
+   ]
+  },
+  {
+   "yol": "/kategori/outdoor/dagcilik-trekking/",
+   "tur": "kategori",
+   "baslik": "Dağcılık & Trekking",
+   "kategori": "outdoor",
+   "alt_kategori": "dagcilik-trekking",
+   "govde_gelen": 1,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/trekking-bot-secimi-gore-tex-baslangic-botlari/"
+   ]
+  },
+  {
+   "yol": "/kategori/sanat/",
+   "tur": "kategori",
+   "baslik": "Sanat",
+   "kategori": "sanat",
+   "alt_kategori": "",
+   "govde_gelen": 1,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic/"
+   ]
+  },
+  {
+   "yol": "/kategori/sanat/fotografcilik/",
+   "tur": "kategori",
+   "baslik": "Fotoğrafçılık",
+   "kategori": "sanat",
+   "alt_kategori": "fotografcilik",
+   "govde_gelen": 1,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic/"
+   ]
+  },
+  {
+   "yol": "/kategori/spor-fitness/evde-fitness/",
+   "tur": "kategori",
+   "baslik": "Evde Fitness",
+   "kategori": "spor-fitness",
+   "alt_kategori": "evde-fitness",
+   "govde_gelen": 1,
+   "toplam_gelen": 8,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-fitness-icin-ayarlanabilir-dambil-rehberi/"
+   ]
+  },
+  {
+   "yol": "/kategori/spor-fitness/kosu/",
+   "tur": "kategori",
+   "baslik": "Koşu",
+   "kategori": "spor-fitness",
+   "alt_kategori": "kosu",
+   "govde_gelen": 1,
+   "toplam_gelen": 8,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/kosu-ayakkabisi-secimi-yeni-baslayanlar-icin/"
+   ]
+  },
+  {
+   "yol": "/kategori/spor-fitness/yoga-pilates/",
+   "tur": "kategori",
+   "baslik": "Yoga & Pilates",
+   "kategori": "spor-fitness",
+   "alt_kategori": "yoga-pilates",
+   "govde_gelen": 1,
+   "toplam_gelen": 8,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/yoga-mati-secimi-yeni-baslayanlar-icin/"
+   ]
+  },
+  {
+   "yol": "/kategori/teknoloji/3d-yazici/",
+   "tur": "kategori",
+   "baslik": "3D Yazıcı",
+   "kategori": "teknoloji",
+   "alt_kategori": "3d-yazici",
+   "govde_gelen": 1,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini/"
+   ]
+  },
+  {
+   "yol": "/kategori/teknoloji/oyun-pc-modlama/",
+   "tur": "kategori",
+   "baslik": "Oyun & PC Modlama",
+   "kategori": "teknoloji",
+   "alt_kategori": "oyun-pc-modlama",
+   "govde_gelen": 1,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech/"
+   ]
+  },
+  {
+   "yol": "/kategori/yemek-mutfak/ekmek-pasta/",
+   "tur": "kategori",
+   "baslik": "Ekmek & Pasta",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "ekmek-pasta",
+   "govde_gelen": 1,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-pizza-firini-g3-ferrari-delizia-ile-baslangic/"
+   ]
+  },
+  {
+   "yol": "/kategori/yemek-mutfak/mangal-bbq/",
+   "tur": "kategori",
+   "baslik": "Mangal & BBQ",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "mangal-bbq",
+   "govde_gelen": 1,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar/"
+   ]
+  },
+  {
+   "yol": "/kategori/yemek-mutfak/yemek-pisirme/",
+   "tur": "kategori",
+   "baslik": "Yemek Pişirme",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "yemek-pisirme",
+   "govde_gelen": 1,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026/"
+   ]
+  },
+  {
+   "yol": "/makale/akvaryum-kurulumu-baslangic-seti/",
+   "tur": "makale",
+   "baslik": "Akvaryum Kurulumu: Tetra Starter Line 54 L Seti",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "akvaryum",
+   "govde_gelen": 1,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-yapilacak-hobiler/"
+   ]
+  },
+  {
+   "yol": "/makale/deri-isciligi-baslangic-seti-ilk-alinacaklar-2026/",
+   "tur": "makale",
+   "baslik": "Deri İşçiliği Başlangıç Seti: İlk Alınacaklar (2026)",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "deri-isleri",
+   "govde_gelen": 1,
+   "toplam_gelen": 5,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-yapilacak-hobiler/"
+   ]
+  },
+  {
+   "yol": "/makale/drone-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/",
+   "tur": "makale",
+   "baslik": "Drone Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
+   "kategori": "teknoloji",
+   "alt_kategori": "drone",
+   "govde_gelen": 1,
+   "toplam_gelen": 11,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/drone-secimi-yeni-baslayanlar-icin/"
+   ]
+  },
+  {
+   "yol": "/makale/drone-secimi-yeni-baslayanlar-icin/",
+   "tur": "makale",
+   "baslik": "Drone Seçimi: Yeni Başlayanlar İçin Oyuncak Sınıfı ve DJI Ayrımı",
+   "kategori": "teknoloji",
+   "alt_kategori": "drone",
+   "govde_gelen": 1,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic/"
+   ]
+  },
+  {
+   "yol": "/makale/en-iyi-bonsai-ekipmanlari-2026-alim-rehberi/",
+   "tur": "makale",
+   "baslik": "En İyi Bonsai Ekipmanları (2026): Alım Rehberi",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "bonsai",
+   "govde_gelen": 1,
+   "toplam_gelen": 6,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/bonsai-nasil-toprak-sever/"
+   ]
+  },
+  {
+   "yol": "/makale/en-iyi-dj-produksiyon-ekipmanlari-2026-alim-rehberi/",
+   "tur": "makale",
+   "baslik": "En İyi DJ & Prodüksiyon Ekipmanları (2026): Alım Rehberi",
+   "kategori": "muzik",
+   "alt_kategori": "dj-produksiyon",
+   "govde_gelen": 1,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/dj-produksiyon-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/"
+   ]
+  },
+  {
+   "yol": "/makale/en-iyi-teknoloji-ekipmanlari-2026-alim-rehberi/",
+   "tur": "makale",
+   "baslik": "2026 Teknoloji Alımı: Raspberry Pi 5, Ender 3, Mini 4K ve Arduino",
+   "kategori": "teknoloji",
+   "alt_kategori": "",
+   "govde_gelen": 1,
+   "toplam_gelen": 3,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/raspberry-pi-5-baslangic-kiti/"
+   ]
+  },
+  {
+   "yol": "/makale/gitar-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
+   "tur": "makale",
+   "baslik": "Gitar Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
+   "kategori": "muzik",
+   "alt_kategori": "gitar",
+   "govde_gelen": 1,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/sifirdan-gitar-ogrenmek/"
+   ]
+  },
+  {
+   "yol": "/makale/gitar-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/",
+   "tur": "makale",
+   "baslik": "Gitar Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
+   "kategori": "muzik",
+   "alt_kategori": "gitar",
+   "govde_gelen": 1,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/"
+   ]
+  },
+  {
+   "yol": "/makale/kahve-barista-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/",
+   "tur": "makale",
+   "baslik": "Kahve & Barista Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "kahve",
+   "govde_gelen": 1,
+   "toplam_gelen": 9,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/"
+   ]
+  },
+  {
+   "yol": "/makale/kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026/",
+   "tur": "makale",
+   "baslik": "Köpek Bakımı Başlangıç Seti: İlk Alınacaklar (2026)",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "kopek-bakimi",
+   "govde_gelen": 1,
+   "toplam_gelen": 8,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/kopek-yuruyus-ve-egitim-seti/"
+   ]
+  },
+  {
+   "yol": "/makale/lego-model-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
+   "tur": "makale",
+   "baslik": "LEGO & Model Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
+   "kategori": "koleksiyon",
+   "alt_kategori": "lego-model",
+   "govde_gelen": 1,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
+   ]
+  },
+  {
+   "yol": "/makale/lego-model-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/",
+   "tur": "makale",
+   "baslik": "LEGO & Model Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
+   "kategori": "koleksiyon",
+   "alt_kategori": "lego-model",
+   "govde_gelen": 1,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
+   ]
+  },
+  {
+   "yol": "/makale/yetiskin-hobi-setleri/",
+   "tur": "makale",
+   "baslik": "Yetişkin Hobi Setleri: Hangisi Alınır? (Boyama, Maket, Diamond Painting)",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "diamond-painting",
+   "govde_gelen": 1,
+   "toplam_gelen": 10,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/diamond-painting-nedir-nasil-yapilir/"
+   ]
+  }
+ ],
+ "makalesiz": [
+  {
+   "yol": "/kategori/outdoor/balikcilik/",
+   "baslik": "Balıkçılık",
+   "govde_gelen": 0,
+   "toplam_gelen": 5,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/outdoor/bisiklet/",
+   "baslik": "Bisiklet",
+   "govde_gelen": 0,
+   "toplam_gelen": 5,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/outdoor/kaya-tirmanis/",
+   "baslik": "Kaya Tırmanışı",
+   "govde_gelen": 0,
+   "toplam_gelen": 5,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/el-sanatlari/ahsap-isleri/",
+   "baslik": "Ahşap İşleri",
+   "govde_gelen": 0,
+   "toplam_gelen": 7,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/muzik/klavye-piyano/",
+   "baslik": "Klavye & Piyano",
+   "govde_gelen": 0,
+   "toplam_gelen": 5,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/muzik/davul-perkusyon/",
+   "baslik": "Davul & Perküsyon",
+   "govde_gelen": 0,
+   "toplam_gelen": 5,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/muzik/keman-yayli/",
+   "baslik": "Keman & Yaylı Çalgılar",
+   "govde_gelen": 0,
+   "toplam_gelen": 5,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/teknoloji/robotik/",
+   "baslik": "Robotik & Kodlama",
+   "govde_gelen": 0,
+   "toplam_gelen": 5,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/koleksiyon/pul-para/",
+   "baslik": "Pul & Para",
+   "govde_gelen": 0,
+   "toplam_gelen": 6,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/koleksiyon/kart-oyunlari/",
+   "baslik": "Kart Oyunları",
+   "govde_gelen": 0,
+   "toplam_gelen": 6,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/koleksiyon/vintage-antika/",
+   "baslik": "Vintage & Antika",
+   "govde_gelen": 0,
+   "toplam_gelen": 6,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/spor-fitness/yuzme/",
+   "baslik": "Yüzme",
+   "govde_gelen": 0,
+   "toplam_gelen": 7,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/spor-fitness/vucut-gelistirme/",
+   "baslik": "Vücut Geliştirme",
+   "govde_gelen": 0,
+   "toplam_gelen": 7,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/spor-fitness/dovus-sporlari/",
+   "baslik": "Dövüş Sporları",
+   "govde_gelen": 0,
+   "toplam_gelen": 7,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/spor-fitness/raket-sporlari/",
+   "baslik": "Raket Sporları",
+   "govde_gelen": 0,
+   "toplam_gelen": 7,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/sanat/kaligrafi-cizim/",
+   "baslik": "Kaligrafi & Çizim",
+   "govde_gelen": 1,
+   "toplam_gelen": 6,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/sanat/seramik-comlek/",
+   "baslik": "Seramik & Çömlek",
+   "govde_gelen": 0,
+   "toplam_gelen": 5,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/sanat/dikis-nakis/",
+   "baslik": "Dikiş & Nakış",
+   "govde_gelen": 1,
+   "toplam_gelen": 6,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/sanat/heykel/",
+   "baslik": "Heykel & Modelaj",
+   "govde_gelen": 0,
+   "toplam_gelen": 5,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/bahce-bitki/bahcecilik/",
+   "baslik": "Bahçecilik",
+   "govde_gelen": 0,
+   "toplam_gelen": 4,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/bahce-bitki/ev-bitkileri/",
+   "baslik": "Ev Bitkileri",
+   "govde_gelen": 1,
+   "toplam_gelen": 5,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/bahce-bitki/teraryum/",
+   "baslik": "Teraryum & Sukulent",
+   "govde_gelen": 0,
+   "toplam_gelen": 4,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/evcil-hayvan/kus-bakimi/",
+   "baslik": "Kuş Bakımı",
+   "govde_gelen": 0,
+   "toplam_gelen": 4,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/bilim-astronomi/teleskop-astronomi/",
+   "baslik": "Teleskop & Astronomi",
+   "govde_gelen": 0,
+   "toplam_gelen": 4,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/bilim-astronomi/mikroskop/",
+   "baslik": "Mikroskop",
+   "govde_gelen": 0,
+   "toplam_gelen": 4,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/seyahat-gezi/",
+   "baslik": "Seyahat & Gezi",
+   "govde_gelen": 0,
+   "toplam_gelen": 158,
+   "tik": 1
+  },
+  {
+   "yol": "/kategori/seyahat-gezi/backpacking/",
+   "baslik": "Sırt Çantalı Seyahat",
+   "govde_gelen": 0,
+   "toplam_gelen": 4,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/seyahat-gezi/seyahat-fotograf/",
+   "baslik": "Seyahat Fotoğrafçılığı",
+   "govde_gelen": 0,
+   "toplam_gelen": 4,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/seyahat-gezi/karavan/",
+   "baslik": "Karavan & Vanlife",
+   "govde_gelen": 0,
+   "toplam_gelen": 4,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/seyahat-gezi/vlog/",
+   "baslik": "Vlog & İçerik Üretimi",
+   "govde_gelen": 0,
+   "toplam_gelen": 4,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/yazilim-kodlama/",
+   "baslik": "Yazılım & Kodlama",
+   "govde_gelen": 0,
+   "toplam_gelen": 158,
+   "tik": 1
+  },
+  {
+   "yol": "/kategori/yazilim-kodlama/web-gelistirme/",
+   "baslik": "Web Geliştirme",
+   "govde_gelen": 0,
+   "toplam_gelen": 4,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/yazilim-kodlama/oyun-gelistirme/",
+   "baslik": "Oyun Geliştirme",
+   "govde_gelen": 0,
+   "toplam_gelen": 4,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/yazilim-kodlama/veri-bilimi/",
+   "baslik": "Veri Bilimi & Yapay Zeka",
+   "govde_gelen": 0,
+   "toplam_gelen": 4,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/yazilim-kodlama/siber-guvenlik/",
+   "baslik": "Siber Güvenlik",
+   "govde_gelen": 0,
+   "toplam_gelen": 4,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/yazi-edebiyat/",
+   "baslik": "Yazı & Edebiyat",
+   "govde_gelen": 0,
+   "toplam_gelen": 158,
+   "tik": 1
+  },
+  {
+   "yol": "/kategori/yazi-edebiyat/yazarlik/",
+   "baslik": "Yazarlık",
+   "govde_gelen": 0,
+   "toplam_gelen": 4,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/yazi-edebiyat/blog-yazarligi/",
+   "baslik": "Blog Yazarlığı",
+   "govde_gelen": 0,
+   "toplam_gelen": 4,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/yazi-edebiyat/yaratici-yazarlik/",
+   "baslik": "Yaratıcı Yazarlık",
+   "govde_gelen": 0,
+   "toplam_gelen": 4,
+   "tik": 2
+  },
+  {
+   "yol": "/kategori/yazi-edebiyat/okuma/",
+   "baslik": "Okuma & Kitap Kulübü",
+   "govde_gelen": 0,
+   "toplam_gelen": 4,
+   "tik": 2
+  }
+ ],
+ "sayfalar": [
+  {
+   "yol": "/makale/2-kisilik-kutu-oyunlari/",
+   "tur": "makale",
+   "baslik": "2 Kişilik Kutu Oyunları: Türkiye'de Satılan Kutular",
+   "kategori": "koleksiyon",
+   "alt_kategori": "masaustu-oyun",
+   "govde_gelen": 4,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/aile-kutu-oyunlari/",
+    "/makale/en-iyi-kutu-oyunlari-2026/",
+    "/makale/evde-yapilacak-hobiler/",
+    "/makale/yilbasi-hediyesi-kutu-oyunlari/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini/",
+   "tur": "makale",
+   "baslik": "3D Yazıcı Alırken Nelere Bakmalı: Ender 3 V3 vs Bambu Lab A1 Mini",
+   "kategori": "teknoloji",
+   "alt_kategori": "3d-yazici",
+   "govde_gelen": 2,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-yapilacak-hobiler/",
+    "/makale/raspberry-pi-5-baslangic-kiti/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/aile-kutu-oyunlari/",
+   "tur": "makale",
+   "baslik": "Aile Kutu Oyunları: Türkiye'de Çocuklu Masaya Uyanlar",
+   "kategori": "koleksiyon",
+   "alt_kategori": "masaustu-oyun",
+   "govde_gelen": 4,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/2-kisilik-kutu-oyunlari/",
+    "/makale/en-iyi-kutu-oyunlari-2026/",
+    "/makale/evde-yapilacak-hobiler/",
+    "/makale/yilbasi-hediyesi-kutu-oyunlari/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/",
+   "tur": "makale",
+   "baslik": "Akvaryum Ekipmanı Seçimi: Tank, Filtre, Isıtıcı ve Hava Pompası",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "akvaryum",
+   "govde_gelen": 2,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/akvaryum-kurulumu-baslangic-seti/",
+    "/makale/en-iyi-akvaryum-balik-ekipmanlari-2026-alim-rehberi/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/akvaryum-kurulumu-baslangic-seti/",
+   "tur": "makale",
+   "baslik": "Akvaryum Kurulumu: Tetra Starter Line 54 L Seti",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "akvaryum",
+   "govde_gelen": 1,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
+   "tur": "makale",
+   "baslik": "Bonsai Başlangıç Seti: Makas, Tel, Toprak ve Gübre",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "bonsai",
+   "govde_gelen": 2,
+   "icerik_gelen": 12,
+   "toplam_gelen": 12,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/",
+    "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/bonsai-nasil-toprak-sever/",
+   "tur": "makale",
+   "baslik": "Bonsai nasıl toprak sever?",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "bonsai",
+   "govde_gelen": 2,
+   "icerik_gelen": 15,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
+    "/makale/en-iyi-bonsai-ekipmanlari-2026-alim-rehberi/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/deri-isciligi-baslangic-seti-ilk-alinacaklar-2026/",
+   "tur": "makale",
+   "baslik": "Deri İşçiliği Başlangıç Seti: İlk Alınacaklar (2026)",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "deri-isleri",
+   "govde_gelen": 1,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/diamond-painting-nedir-nasil-yapilir/",
+   "tur": "makale",
+   "baslik": "Diamond Painting Nedir, Nasıl Yapılır?",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "diamond-painting",
+   "govde_gelen": 2,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-yapilacak-hobiler/",
+    "/makale/puzzle-aksesuarlari-masa-yapistirici-cerceve/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/dj-kontrol-cihazi-secimi-yeni-baslayanlar/",
+   "tur": "makale",
+   "baslik": "DJ Kontrol Cihazı Seçimi: Yeni Başlayanlar İçin DDJ-FLX4 ve Numark",
+   "kategori": "muzik",
+   "alt_kategori": "dj-produksiyon",
+   "govde_gelen": 2,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/dj-seti-adi/",
+    "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/dj-produksiyon-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
+   "tur": "makale",
+   "baslik": "DJ & Prodüksiyon Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
+   "kategori": "muzik",
+   "alt_kategori": "dj-produksiyon",
+   "govde_gelen": 0,
+   "icerik_gelen": 9,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/dj-produksiyon-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/",
+   "tur": "makale",
+   "baslik": "DJ & Prodüksiyon Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
+   "kategori": "muzik",
+   "alt_kategori": "dj-produksiyon",
+   "govde_gelen": 0,
+   "icerik_gelen": 15,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/dj-produksiyon-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/",
+   "tur": "makale",
+   "baslik": "DJ & Prodüksiyon İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
+   "kategori": "muzik",
+   "alt_kategori": "dj-produksiyon",
+   "govde_gelen": 2,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/dj-kontrol-cihazi-secimi-yeni-baslayanlar/",
+    "/makale/dj-seti-adi/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/dj-seti-adi/",
+   "tur": "makale",
+   "baslik": "İlk DJ Seti: DDJ-FLX4, MixTrack Go ve FLX2",
+   "kategori": "muzik",
+   "alt_kategori": "dj-produksiyon",
+   "govde_gelen": 0,
+   "icerik_gelen": 3,
+   "toplam_gelen": 3,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/drone-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/",
+   "tur": "makale",
+   "baslik": "Drone Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
+   "kategori": "teknoloji",
+   "alt_kategori": "drone",
+   "govde_gelen": 1,
+   "icerik_gelen": 11,
+   "toplam_gelen": 11,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/drone-secimi-yeni-baslayanlar-icin/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/drone-nasil-kullanilir/",
+   "tur": "makale",
+   "baslik": "Drone Nasıl Kullanılır? Mod 2 Kumanda ve İlk Havalanma",
+   "kategori": "teknoloji",
+   "alt_kategori": "drone",
+   "govde_gelen": 2,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/drone-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/",
+    "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/drone-secimi-yeni-baslayanlar-icin/",
+   "tur": "makale",
+   "baslik": "Drone Seçimi: Yeni Başlayanlar İçin Oyuncak Sınıfı ve DJI Ayrımı",
+   "kategori": "teknoloji",
+   "alt_kategori": "drone",
+   "govde_gelen": 1,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/",
+   "tur": "makale",
+   "baslik": "Elektro Gitar Başlangıç Seti: Gitar, Amfi ve İlk Pedal",
+   "kategori": "muzik",
+   "alt_kategori": "gitar",
+   "govde_gelen": 2,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/dj-kontrol-cihazi-secimi-yeni-baslayanlar/",
+    "/makale/sifirdan-gitar-ogrenmek/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/en-iyi-akvaryum-balik-ekipmanlari-2026-alim-rehberi/",
+   "tur": "makale",
+   "baslik": "En İyi Akvaryum & Balık Ekipmanları (2026): Alım Rehberi",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "akvaryum",
+   "govde_gelen": 2,
+   "icerik_gelen": 10,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/",
+    "/makale/akvaryum-kurulumu-baslangic-seti/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/en-iyi-bonsai-ekipmanlari-2026-alim-rehberi/",
+   "tur": "makale",
+   "baslik": "En İyi Bonsai Ekipmanları (2026): Alım Rehberi",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "bonsai",
+   "govde_gelen": 1,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/bonsai-nasil-toprak-sever/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/en-iyi-dj-produksiyon-ekipmanlari-2026-alim-rehberi/",
+   "tur": "makale",
+   "baslik": "En İyi DJ & Prodüksiyon Ekipmanları (2026): Alım Rehberi",
+   "kategori": "muzik",
+   "alt_kategori": "dj-produksiyon",
+   "govde_gelen": 1,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/dj-produksiyon-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma/",
+   "tur": "makale",
+   "baslik": "En İyi Kamp Çadırı Seçimi 2026: 2 ve 4 Kişilik Karşılaştırma",
+   "kategori": "outdoor",
+   "alt_kategori": "kampcilik",
+   "govde_gelen": 2,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/kampcilik-baslangic-rehberi/",
+    "/makale/trekking-bot-secimi-gore-tex-baslangic-botlari/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/en-iyi-kutu-oyunlari-2026/",
+   "tur": "makale",
+   "baslik": "En İyi Kutu Oyunları 2026: Türkiye'de Satılanlar",
+   "kategori": "koleksiyon",
+   "alt_kategori": "masaustu-oyun",
+   "govde_gelen": 4,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/2-kisilik-kutu-oyunlari/",
+    "/makale/aile-kutu-oyunlari/",
+    "/makale/evde-yapilacak-hobiler/",
+    "/makale/puzzle-aksesuarlari-masa-yapistirici-cerceve/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/",
+   "tur": "makale",
+   "baslik": "En İyi LEGO Setleri: Yetişkin İçin Bonsai, Sukulent ve Speed Champions",
+   "kategori": "koleksiyon",
+   "alt_kategori": "lego-model",
+   "govde_gelen": 3,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
+    "/makale/evde-yapilacak-hobiler/",
+    "/makale/lego-model-ai/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/en-iyi-raspberry-pi-elektronik-ekipmanlari-2026-alim-rehberi/",
+   "tur": "makale",
+   "baslik": "En İyi Raspberry Pi & Elektronik Ekipmanları (2026): Alım Rehberi",
+   "kategori": "teknoloji",
+   "alt_kategori": "raspberry-pi-elektronik",
+   "govde_gelen": 2,
+   "icerik_gelen": 12,
+   "toplam_gelen": 12,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/raspberry-pi-5-baslangic-kiti/",
+    "/makale/raspberry-pi-ile-linux-ve-elektronik-uygulamalari/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/en-iyi-teknoloji-ekipmanlari-2026-alim-rehberi/",
+   "tur": "makale",
+   "baslik": "2026 Teknoloji Alımı: Raspberry Pi 5, Ender 3, Mini 4K ve Arduino",
+   "kategori": "teknoloji",
+   "alt_kategori": "",
+   "govde_gelen": 1,
+   "icerik_gelen": 3,
+   "toplam_gelen": 3,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/raspberry-pi-5-baslangic-kiti/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/evde-el-sanatlari-hobileri/",
+   "tur": "makale",
+   "baslik": "Evde Başlayabileceğin 8 Yaratıcı El Sanatı Hobisi ve Gerekli Malzemeler",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "",
+   "govde_gelen": 3,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/diamond-painting-nedir-nasil-yapilir/",
+    "/makale/evde-yapilacak-hobiler/",
+    "/makale/kadinlar-icin-evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/",
+   "tur": "makale",
+   "baslik": "Evde Filtre Kahve Başlangıç Seti: Öğütücü, V60 ve Tartı",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "kahve",
+   "govde_gelen": 2,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-pizza-firini-g3-ferrari-delizia-ile-baslangic/",
+    "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/evde-fitness-icin-ayarlanabilir-dambil-rehberi/",
+   "tur": "makale",
+   "baslik": "Evde Fitness İçin Ayarlanabilir Dambıl Rehberi",
+   "kategori": "spor-fitness",
+   "alt_kategori": "evde-fitness",
+   "govde_gelen": 3,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-yapilacak-hobiler/",
+    "/makale/kosu-ayakkabisi-secimi-yeni-baslayanlar-icin/",
+    "/makale/yoga-mati-secimi-yeni-baslayanlar-icin/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/evde-pizza-firini-g3-ferrari-delizia-ile-baslangic/",
+   "tur": "makale",
+   "baslik": "Evde Pizza Fırını: G3 Ferrari Delizia ile Başlangıç ve Ekmek Yolu",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "ekmek-pasta",
+   "govde_gelen": 3,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/",
+    "/makale/evde-yapilacak-hobiler/",
+    "/makale/mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/evde-yapilacak-hobiler/",
+   "tur": "makale",
+   "baslik": "Evde Yapılacak Hobiler: 30 Fikir ve İlk Malzeme",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "orgu-tig",
+   "govde_gelen": 2,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-el-sanatlari-hobileri/",
+    "/makale/kadinlar-icin-evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic/",
+   "tur": "makale",
+   "baslik": "Fotoğraf Makinesi Seçimi: Yeni Başlayanlar İçin Canon EOS R100",
+   "kategori": "sanat",
+   "alt_kategori": "fotografcilik",
+   "govde_gelen": 2,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/drone-secimi-yeni-baslayanlar-icin/",
+    "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/gitar-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
+   "tur": "makale",
+   "baslik": "Gitar Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
+   "kategori": "muzik",
+   "alt_kategori": "gitar",
+   "govde_gelen": 1,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/sifirdan-gitar-ogrenmek/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/gitar-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/",
+   "tur": "makale",
+   "baslik": "Gitar Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
+   "kategori": "muzik",
+   "alt_kategori": "gitar",
+   "govde_gelen": 1,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/gitar-nasil-calinir/",
+   "tur": "makale",
+   "baslik": "Gitar Nasıl Çalınır? Tutuş, Temel Akor ve İlk Ritim",
+   "kategori": "muzik",
+   "alt_kategori": "gitar",
+   "govde_gelen": 2,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/",
+    "/makale/sifirdan-gitar-ogrenmek/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/hava-meteoroloji-baslangic-seti-ilk-alinacaklar-2026/",
+   "tur": "makale",
+   "baslik": "Hava & Meteoroloji Başlangıç Seti: İlk Alınacaklar (2026)",
+   "kategori": "bilim-astronomi",
+   "alt_kategori": "meteoroloji",
+   "govde_gelen": 0,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/kadinlar-icin-evde-yapilacak-hobiler/",
+   "tur": "makale",
+   "baslik": "Kadınlar İçin Evde Yapılacak 20 Hobi (Başlangıç Malzemeleriyle)",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "orgu-tig",
+   "govde_gelen": 0,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/kahve-barista-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/",
+   "tur": "makale",
+   "baslik": "Kahve & Barista Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "kahve",
+   "govde_gelen": 1,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/kahve-barista-malzemeleri/",
+   "tur": "makale",
+   "baslik": "Kahve Barista Malzemeleri: Öğütücü, V60 ve Hassas Tartı",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "kahve",
+   "govde_gelen": 2,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/",
+    "/makale/kahve-barista-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/kampcilik-baslangic-rehberi/",
+   "tur": "makale",
+   "baslik": "Yeni Başlayanlar İçin Kampçılık Rehberi: İhtiyacın Olan Tüm Ekipmanlar (2026)",
+   "kategori": "outdoor",
+   "alt_kategori": "kampcilik",
+   "govde_gelen": 3,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma/",
+    "/makale/evde-yapilacak-hobiler/",
+    "/makale/trekking-bot-secimi-gore-tex-baslangic-botlari/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/",
+   "tur": "makale",
+   "baslik": "Kedi Bakım Seti: Tırmalama, Fırça, Oyuncak ve Tuvalet Düzeni",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "kedi-bakimi",
+   "govde_gelen": 2,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/akvaryum-kurulumu-baslangic-seti/",
+    "/makale/kopek-yuruyus-ve-egitim-seti/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/kimya-deney-baslangic-seti-ilk-alinacaklar-2026/",
+   "tur": "makale",
+   "baslik": "Kimya & Deney Başlangıç Seti: İlk Alınacaklar (2026)",
+   "kategori": "bilim-astronomi",
+   "alt_kategori": "kimya-deney",
+   "govde_gelen": 0,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026/",
+   "tur": "makale",
+   "baslik": "Köpek Bakımı Başlangıç Seti: İlk Alınacaklar (2026)",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "kopek-bakimi",
+   "govde_gelen": 1,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/kopek-yuruyus-ve-egitim-seti/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/kopek-yuruyus-ve-egitim-seti/",
+   "tur": "makale",
+   "baslik": "Köpek Yürüyüş ve Eğitim Seti: Front Range, Flexi ve Zeka Oyuncağı",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "kopek-bakimi",
+   "govde_gelen": 2,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/",
+    "/makale/kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/kosu-ayakkabisi-secimi-yeni-baslayanlar-icin/",
+   "tur": "makale",
+   "baslik": "Koşu Ayakkabısı Seçimi: Yeni Başlayanlar İçin Yastıklı ve Destekli Modeller",
+   "kategori": "spor-fitness",
+   "alt_kategori": "kosu",
+   "govde_gelen": 2,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-fitness-icin-ayarlanabilir-dambil-rehberi/",
+    "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/lego-model-ai/",
+   "tur": "makale",
+   "baslik": "LEGO Mini Bonsai, Sukulent ve Supra: Üç Masa Üstü Set",
+   "kategori": "koleksiyon",
+   "alt_kategori": "lego-model",
+   "govde_gelen": 2,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/",
+    "/makale/lego-model-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/lego-model-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
+   "tur": "makale",
+   "baslik": "LEGO & Model Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
+   "kategori": "koleksiyon",
+   "alt_kategori": "lego-model",
+   "govde_gelen": 1,
+   "icerik_gelen": 9,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/lego-model-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/",
+   "tur": "makale",
+   "baslik": "LEGO & Model Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
+   "kategori": "koleksiyon",
+   "alt_kategori": "lego-model",
+   "govde_gelen": 1,
+   "icerik_gelen": 9,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/lego-model-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/",
+   "tur": "makale",
+   "baslik": "LEGO & Model İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
+   "kategori": "koleksiyon",
+   "alt_kategori": "lego-model",
+   "govde_gelen": 0,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar/",
+   "tur": "makale",
+   "baslik": "Mangal Başlangıç Seti: Weber Kettle ve Olmazsa Olmaz Aksesuarlar",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "mangal-bbq",
+   "govde_gelen": 2,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-pizza-firini-g3-ferrari-delizia-ile-baslangic/",
+    "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026/",
+   "tur": "makale",
+   "baslik": "Örgü & Tığ İşi Başlangıç Seti: İlk Alınacaklar (2026)",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "orgu-tig",
+   "govde_gelen": 2,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-yapilacak-hobiler/",
+    "/makale/kadinlar-icin-evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech/",
+   "tur": "makale",
+   "baslik": "Oyuncu Mouse ve Klavye Seti: Redragon Kumara ve Logitech G213",
+   "kategori": "teknoloji",
+   "alt_kategori": "oyun-pc-modlama",
+   "govde_gelen": 0,
+   "icerik_gelen": 3,
+   "toplam_gelen": 3,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/puzzle-aksesuarlari-masa-yapistirici-cerceve/",
+   "tur": "makale",
+   "baslik": "Puzzle Aksesuarları: Masa, Yapıştırıcı, Halı ve Çerçeve",
+   "kategori": "koleksiyon",
+   "alt_kategori": "puzzle",
+   "govde_gelen": 2,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/diamond-painting-nedir-nasil-yapilir/",
+    "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/raspberry-pi-5-baslangic-kiti/",
+   "tur": "makale",
+   "baslik": "Raspberry Pi 5 Başlangıç Kiti: 8 GB Kart, 27W Adaptör ve GeeekPi",
+   "kategori": "teknoloji",
+   "alt_kategori": "raspberry-pi-elektronik",
+   "govde_gelen": 3,
+   "icerik_gelen": 10,
+   "toplam_gelen": 10,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini/",
+    "/makale/evde-yapilacak-hobiler/",
+    "/makale/oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/raspberry-pi-ile-linux-ve-elektronik-uygulamalari/",
+   "tur": "makale",
+   "baslik": "Raspberry Pi ile Linux ve Elektronik: Imager, Terminal ve GPIO",
+   "kategori": "teknoloji",
+   "alt_kategori": "raspberry-pi-elektronik",
+   "govde_gelen": 0,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/sifirdan-gitar-ogrenmek/",
+   "tur": "makale",
+   "baslik": "Sıfırdan Gitar Öğrenmek: Doğru Ekipmanla Başla (2026)",
+   "kategori": "muzik",
+   "alt_kategori": "gitar",
+   "govde_gelen": 2,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/",
+    "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/teknoloji-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
+   "tur": "makale",
+   "baslik": "Teknoloji Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
+   "kategori": "teknoloji",
+   "alt_kategori": "",
+   "govde_gelen": 0,
+   "icerik_gelen": 14,
+   "toplam_gelen": 14,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/teknoloji-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/",
+   "tur": "makale",
+   "baslik": "Teknoloji Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
+   "kategori": "teknoloji",
+   "alt_kategori": "",
+   "govde_gelen": 0,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/",
+   "tur": "makale",
+   "baslik": "Teknolojiye Başlangıç Sırası: Arduino, Raspberry Pi, 3D Yazıcı ve Drone",
+   "kategori": "teknoloji",
+   "alt_kategori": "",
+   "govde_gelen": 2,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini/",
+    "/makale/raspberry-pi-5-baslangic-kiti/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/trekking-bot-secimi-gore-tex-baslangic-botlari/",
+   "tur": "makale",
+   "baslik": "Trekking Bot Seçimi: Gore-Tex Başlangıç Botları",
+   "kategori": "outdoor",
+   "alt_kategori": "dagcilik-trekking",
+   "govde_gelen": 2,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/kampcilik-baslangic-rehberi/",
+    "/makale/kosu-ayakkabisi-secimi-yeni-baslayanlar-icin/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026/",
+   "tur": "makale",
+   "baslik": "Yemek Pişirme Başlangıç Seti: İlk Alınacaklar (2026)",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "yemek-pisirme",
+   "govde_gelen": 2,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-pizza-firini-g3-ferrari-delizia-ile-baslangic/",
+    "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/yetiskin-hobi-setleri/",
+   "tur": "makale",
+   "baslik": "Yetişkin Hobi Setleri: Hangisi Alınır? (Boyama, Maket, Diamond Painting)",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "diamond-painting",
+   "govde_gelen": 1,
+   "icerik_gelen": 10,
+   "toplam_gelen": 10,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/diamond-painting-nedir-nasil-yapilir/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/yilbasi-hediyesi-kutu-oyunlari/",
+   "tur": "makale",
+   "baslik": "Yılbaşı Hediyesi Kutu Oyunları: Kime Hangi Oyun? (2026)",
+   "kategori": "koleksiyon",
+   "alt_kategori": "masaustu-oyun",
+   "govde_gelen": 2,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/2-kisilik-kutu-oyunlari/",
+    "/makale/aile-kutu-oyunlari/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/yoga-mati-secimi-yeni-baslayanlar-icin/",
+   "tur": "makale",
+   "baslik": "Yoga Matı Seçimi: Yeni Başlayanlar İçin Kalınlık, Kaymaz Taban ve Kayış",
+   "kategori": "spor-fitness",
+   "alt_kategori": "yoga-pilates",
+   "govde_gelen": 2,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-fitness-icin-ayarlanabilir-dambil-rehberi/",
+    "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/kategori/outdoor/",
+   "tur": "kategori",
+   "baslik": "Outdoor & Doğa",
+   "kategori": "outdoor",
+   "alt_kategori": "",
+   "govde_gelen": 2,
+   "icerik_gelen": 5,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma/",
+    "/makale/kampcilik-baslangic-rehberi/"
+   ],
+   "makale_sayisi": 3
+  },
+  {
+   "yol": "/kategori/outdoor/kampcilik/",
+   "tur": "kategori",
+   "baslik": "Kampçılık",
+   "kategori": "outdoor",
+   "alt_kategori": "kampcilik",
+   "govde_gelen": 2,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma/",
+    "/makale/kampcilik-baslangic-rehberi/"
+   ],
+   "makale_sayisi": 2
+  },
+  {
+   "yol": "/kategori/outdoor/dagcilik-trekking/",
+   "tur": "kategori",
+   "baslik": "Dağcılık & Trekking",
+   "kategori": "outdoor",
+   "alt_kategori": "dagcilik-trekking",
+   "govde_gelen": 1,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/trekking-bot-secimi-gore-tex-baslangic-botlari/"
+   ],
+   "makale_sayisi": 1
+  },
+  {
+   "yol": "/kategori/outdoor/balikcilik/",
+   "tur": "kategori",
+   "baslik": "Balıkçılık",
+   "kategori": "outdoor",
+   "alt_kategori": "balikcilik",
+   "govde_gelen": 0,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/outdoor/bisiklet/",
+   "tur": "kategori",
+   "baslik": "Bisiklet",
+   "kategori": "outdoor",
+   "alt_kategori": "bisiklet",
+   "govde_gelen": 0,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/outdoor/kaya-tirmanis/",
+   "tur": "kategori",
+   "baslik": "Kaya Tırmanışı",
+   "kategori": "outdoor",
+   "alt_kategori": "kaya-tirmanis",
+   "govde_gelen": 0,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/el-sanatlari/",
+   "tur": "kategori",
+   "baslik": "El Sanatları & DIY",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "",
+   "govde_gelen": 2,
+   "icerik_gelen": 9,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-el-sanatlari-hobileri/",
+    "/makale/orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026/"
+   ],
+   "makale_sayisi": 7
+  },
+  {
+   "yol": "/kategori/el-sanatlari/orgu-tig/",
+   "tur": "kategori",
+   "baslik": "Örgü & Tığ İşi",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "orgu-tig",
+   "govde_gelen": 3,
+   "icerik_gelen": 11,
+   "toplam_gelen": 11,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-el-sanatlari-hobileri/",
+    "/makale/kadinlar-icin-evde-yapilacak-hobiler/",
+    "/makale/orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026/"
+   ],
+   "makale_sayisi": 3
+  },
+  {
+   "yol": "/kategori/el-sanatlari/taki-yapimi/",
+   "tur": "kategori",
+   "baslik": "Takı Yapımı",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "taki-yapimi",
+   "govde_gelen": 2,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-el-sanatlari-hobileri/",
+    "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/el-sanatlari/ahsap-isleri/",
+   "tur": "kategori",
+   "baslik": "Ahşap İşleri",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "ahsap-isleri",
+   "govde_gelen": 0,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/el-sanatlari/resim-boyama/",
+   "tur": "kategori",
+   "baslik": "Resim & Boyama",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "resim-boyama",
+   "govde_gelen": 4,
+   "icerik_gelen": 11,
+   "toplam_gelen": 11,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/diamond-painting-nedir-nasil-yapilir/",
+    "/makale/evde-el-sanatlari-hobileri/",
+    "/makale/evde-yapilacak-hobiler/",
+    "/makale/yetiskin-hobi-setleri/"
+   ],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/el-sanatlari/mum-sabun/",
+   "tur": "kategori",
+   "baslik": "Mum & Sabun Yapımı",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "mum-sabun",
+   "govde_gelen": 2,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-yapilacak-hobiler/",
+    "/makale/kadinlar-icin-evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/el-sanatlari/diamond-painting/",
+   "tur": "kategori",
+   "baslik": "Diamond Painting",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "diamond-painting",
+   "govde_gelen": 2,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/diamond-painting-nedir-nasil-yapilir/",
+    "/makale/yetiskin-hobi-setleri/"
+   ],
+   "makale_sayisi": 2
+  },
+  {
+   "yol": "/kategori/el-sanatlari/deri-isleri/",
+   "tur": "kategori",
+   "baslik": "Deri İşçiliği",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "deri-isleri",
+   "govde_gelen": 1,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/deri-isciligi-baslangic-seti-ilk-alinacaklar-2026/"
+   ],
+   "makale_sayisi": 1
+  },
+  {
+   "yol": "/kategori/muzik/",
+   "tur": "kategori",
+   "baslik": "Müzik",
+   "kategori": "muzik",
+   "alt_kategori": "",
+   "govde_gelen": 2,
+   "icerik_gelen": 13,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/gitar-nasil-calinir/",
+    "/makale/sifirdan-gitar-ogrenmek/"
+   ],
+   "makale_sayisi": 11
+  },
+  {
+   "yol": "/kategori/muzik/gitar/",
+   "tur": "kategori",
+   "baslik": "Gitar",
+   "kategori": "muzik",
+   "alt_kategori": "gitar",
+   "govde_gelen": 2,
+   "icerik_gelen": 10,
+   "toplam_gelen": 10,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/",
+    "/makale/sifirdan-gitar-ogrenmek/"
+   ],
+   "makale_sayisi": 5
+  },
+  {
+   "yol": "/kategori/muzik/klavye-piyano/",
+   "tur": "kategori",
+   "baslik": "Klavye & Piyano",
+   "kategori": "muzik",
+   "alt_kategori": "klavye-piyano",
+   "govde_gelen": 0,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/muzik/davul-perkusyon/",
+   "tur": "kategori",
+   "baslik": "Davul & Perküsyon",
+   "kategori": "muzik",
+   "alt_kategori": "davul-perkusyon",
+   "govde_gelen": 0,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/muzik/dj-produksiyon/",
+   "tur": "kategori",
+   "baslik": "DJ & Prodüksiyon",
+   "kategori": "muzik",
+   "alt_kategori": "dj-produksiyon",
+   "govde_gelen": 2,
+   "icerik_gelen": 11,
+   "toplam_gelen": 11,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/dj-kontrol-cihazi-secimi-yeni-baslayanlar/",
+    "/makale/dj-seti-adi/"
+   ],
+   "makale_sayisi": 6
+  },
+  {
+   "yol": "/kategori/muzik/keman-yayli/",
+   "tur": "kategori",
+   "baslik": "Keman & Yaylı Çalgılar",
+   "kategori": "muzik",
+   "alt_kategori": "keman-yayli",
+   "govde_gelen": 0,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/teknoloji/",
+   "tur": "kategori",
+   "baslik": "Teknoloji",
+   "kategori": "teknoloji",
+   "alt_kategori": "",
+   "govde_gelen": 3,
+   "icerik_gelen": 14,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini/",
+    "/makale/oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech/",
+    "/makale/raspberry-pi-5-baslangic-kiti/"
+   ],
+   "makale_sayisi": 12
+  },
+  {
+   "yol": "/kategori/teknoloji/raspberry-pi-elektronik/",
+   "tur": "kategori",
+   "baslik": "Raspberry Pi & Elektronik",
+   "kategori": "teknoloji",
+   "alt_kategori": "raspberry-pi-elektronik",
+   "govde_gelen": 2,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/en-iyi-raspberry-pi-elektronik-ekipmanlari-2026-alim-rehberi/",
+    "/makale/raspberry-pi-5-baslangic-kiti/"
+   ],
+   "makale_sayisi": 3
+  },
+  {
+   "yol": "/kategori/teknoloji/3d-yazici/",
+   "tur": "kategori",
+   "baslik": "3D Yazıcı",
+   "kategori": "teknoloji",
+   "alt_kategori": "3d-yazici",
+   "govde_gelen": 1,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini/"
+   ],
+   "makale_sayisi": 1
+  },
+  {
+   "yol": "/kategori/teknoloji/drone/",
+   "tur": "kategori",
+   "baslik": "Drone",
+   "kategori": "teknoloji",
+   "alt_kategori": "drone",
+   "govde_gelen": 2,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/drone-nasil-kullanilir/",
+    "/makale/drone-secimi-yeni-baslayanlar-icin/"
+   ],
+   "makale_sayisi": 3
+  },
+  {
+   "yol": "/kategori/teknoloji/oyun-pc-modlama/",
+   "tur": "kategori",
+   "baslik": "Oyun & PC Modlama",
+   "kategori": "teknoloji",
+   "alt_kategori": "oyun-pc-modlama",
+   "govde_gelen": 1,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech/"
+   ],
+   "makale_sayisi": 1
+  },
+  {
+   "yol": "/kategori/teknoloji/robotik/",
+   "tur": "kategori",
+   "baslik": "Robotik & Kodlama",
+   "kategori": "teknoloji",
+   "alt_kategori": "robotik",
+   "govde_gelen": 0,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/koleksiyon/",
+   "tur": "kategori",
+   "baslik": "Koleksiyon",
+   "kategori": "koleksiyon",
+   "alt_kategori": "",
+   "govde_gelen": 2,
+   "icerik_gelen": 12,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/2-kisilik-kutu-oyunlari/",
+    "/makale/en-iyi-kutu-oyunlari-2026/"
+   ],
+   "makale_sayisi": 10
+  },
+  {
+   "yol": "/kategori/koleksiyon/pul-para/",
+   "tur": "kategori",
+   "baslik": "Pul & Para",
+   "kategori": "koleksiyon",
+   "alt_kategori": "pul-para",
+   "govde_gelen": 0,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/koleksiyon/lego-model/",
+   "tur": "kategori",
+   "baslik": "LEGO & Model",
+   "kategori": "koleksiyon",
+   "alt_kategori": "lego-model",
+   "govde_gelen": 2,
+   "icerik_gelen": 11,
+   "toplam_gelen": 11,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/",
+    "/makale/lego-model-ai/"
+   ],
+   "makale_sayisi": 5
+  },
+  {
+   "yol": "/kategori/koleksiyon/kart-oyunlari/",
+   "tur": "kategori",
+   "baslik": "Kart Oyunları",
+   "kategori": "koleksiyon",
+   "alt_kategori": "kart-oyunlari",
+   "govde_gelen": 0,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/koleksiyon/vintage-antika/",
+   "tur": "kategori",
+   "baslik": "Vintage & Antika",
+   "kategori": "koleksiyon",
+   "alt_kategori": "vintage-antika",
+   "govde_gelen": 0,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/koleksiyon/puzzle/",
+   "tur": "kategori",
+   "baslik": "Puzzle",
+   "kategori": "koleksiyon",
+   "alt_kategori": "puzzle",
+   "govde_gelen": 1,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/puzzle-aksesuarlari-masa-yapistirici-cerceve/"
+   ],
+   "makale_sayisi": 1
+  },
+  {
+   "yol": "/kategori/koleksiyon/masaustu-oyun/",
+   "tur": "kategori",
+   "baslik": "Masaüstü & Minyatür Oyunlar",
+   "kategori": "koleksiyon",
+   "alt_kategori": "masaustu-oyun",
+   "govde_gelen": 4,
+   "icerik_gelen": 10,
+   "toplam_gelen": 10,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/2-kisilik-kutu-oyunlari/",
+    "/makale/aile-kutu-oyunlari/",
+    "/makale/en-iyi-kutu-oyunlari-2026/",
+    "/makale/yilbasi-hediyesi-kutu-oyunlari/"
+   ],
+   "makale_sayisi": 4
+  },
+  {
+   "yol": "/kategori/spor-fitness/",
+   "tur": "kategori",
+   "baslik": "Spor & Fitness",
+   "kategori": "spor-fitness",
+   "alt_kategori": "",
+   "govde_gelen": 2,
+   "icerik_gelen": 5,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-fitness-icin-ayarlanabilir-dambil-rehberi/",
+    "/makale/kosu-ayakkabisi-secimi-yeni-baslayanlar-icin/"
+   ],
+   "makale_sayisi": 3
+  },
+  {
+   "yol": "/kategori/spor-fitness/kosu/",
+   "tur": "kategori",
+   "baslik": "Koşu",
+   "kategori": "spor-fitness",
+   "alt_kategori": "kosu",
+   "govde_gelen": 1,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/kosu-ayakkabisi-secimi-yeni-baslayanlar-icin/"
+   ],
+   "makale_sayisi": 1
+  },
+  {
+   "yol": "/kategori/spor-fitness/yoga-pilates/",
+   "tur": "kategori",
+   "baslik": "Yoga & Pilates",
+   "kategori": "spor-fitness",
+   "alt_kategori": "yoga-pilates",
+   "govde_gelen": 1,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/yoga-mati-secimi-yeni-baslayanlar-icin/"
+   ],
+   "makale_sayisi": 1
+  },
+  {
+   "yol": "/kategori/spor-fitness/evde-fitness/",
+   "tur": "kategori",
+   "baslik": "Evde Fitness",
+   "kategori": "spor-fitness",
+   "alt_kategori": "evde-fitness",
+   "govde_gelen": 1,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-fitness-icin-ayarlanabilir-dambil-rehberi/"
+   ],
+   "makale_sayisi": 1
+  },
+  {
+   "yol": "/kategori/spor-fitness/yuzme/",
+   "tur": "kategori",
+   "baslik": "Yüzme",
+   "kategori": "spor-fitness",
+   "alt_kategori": "yuzme",
+   "govde_gelen": 0,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/spor-fitness/vucut-gelistirme/",
+   "tur": "kategori",
+   "baslik": "Vücut Geliştirme",
+   "kategori": "spor-fitness",
+   "alt_kategori": "vucut-gelistirme",
+   "govde_gelen": 0,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/spor-fitness/dovus-sporlari/",
+   "tur": "kategori",
+   "baslik": "Dövüş Sporları",
+   "kategori": "spor-fitness",
+   "alt_kategori": "dovus-sporlari",
+   "govde_gelen": 0,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/spor-fitness/raket-sporlari/",
+   "tur": "kategori",
+   "baslik": "Raket Sporları",
+   "kategori": "spor-fitness",
+   "alt_kategori": "raket-sporlari",
+   "govde_gelen": 0,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/sanat/",
+   "tur": "kategori",
+   "baslik": "Sanat",
+   "kategori": "sanat",
+   "alt_kategori": "",
+   "govde_gelen": 1,
+   "icerik_gelen": 3,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic/"
+   ],
+   "makale_sayisi": 1
+  },
+  {
+   "yol": "/kategori/sanat/fotografcilik/",
+   "tur": "kategori",
+   "baslik": "Fotoğrafçılık",
+   "kategori": "sanat",
+   "alt_kategori": "fotografcilik",
+   "govde_gelen": 1,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic/"
+   ],
+   "makale_sayisi": 1
+  },
+  {
+   "yol": "/kategori/sanat/kaligrafi-cizim/",
+   "tur": "kategori",
+   "baslik": "Kaligrafi & Çizim",
+   "kategori": "sanat",
+   "alt_kategori": "kaligrafi-cizim",
+   "govde_gelen": 1,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/sanat/seramik-comlek/",
+   "tur": "kategori",
+   "baslik": "Seramik & Çömlek",
+   "kategori": "sanat",
+   "alt_kategori": "seramik-comlek",
+   "govde_gelen": 0,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/sanat/dikis-nakis/",
+   "tur": "kategori",
+   "baslik": "Dikiş & Nakış",
+   "kategori": "sanat",
+   "alt_kategori": "dikis-nakis",
+   "govde_gelen": 1,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/sanat/heykel/",
+   "tur": "kategori",
+   "baslik": "Heykel & Modelaj",
+   "kategori": "sanat",
+   "alt_kategori": "heykel",
+   "govde_gelen": 0,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/yemek-mutfak/",
+   "tur": "kategori",
+   "baslik": "Yemek & Mutfak",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "",
+   "govde_gelen": 2,
+   "icerik_gelen": 8,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/",
+    "/makale/mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar/"
+   ],
+   "makale_sayisi": 6
+  },
+  {
+   "yol": "/kategori/yemek-mutfak/yemek-pisirme/",
+   "tur": "kategori",
+   "baslik": "Yemek Pişirme",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "yemek-pisirme",
+   "govde_gelen": 1,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026/"
+   ],
+   "makale_sayisi": 1
+  },
+  {
+   "yol": "/kategori/yemek-mutfak/kahve/",
+   "tur": "kategori",
+   "baslik": "Kahve & Barista",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "kahve",
+   "govde_gelen": 2,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/",
+    "/makale/kahve-barista-malzemeleri/"
+   ],
+   "makale_sayisi": 3
+  },
+  {
+   "yol": "/kategori/yemek-mutfak/ekmek-pasta/",
+   "tur": "kategori",
+   "baslik": "Ekmek & Pasta",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "ekmek-pasta",
+   "govde_gelen": 1,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-pizza-firini-g3-ferrari-delizia-ile-baslangic/"
+   ],
+   "makale_sayisi": 1
+  },
+  {
+   "yol": "/kategori/yemek-mutfak/mangal-bbq/",
+   "tur": "kategori",
+   "baslik": "Mangal & BBQ",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "mangal-bbq",
+   "govde_gelen": 1,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar/"
+   ],
+   "makale_sayisi": 1
+  },
+  {
+   "yol": "/kategori/bahce-bitki/",
+   "tur": "kategori",
+   "baslik": "Bahçe & Bitki",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "",
+   "govde_gelen": 2,
+   "icerik_gelen": 5,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
+    "/makale/bonsai-nasil-toprak-sever/"
+   ],
+   "makale_sayisi": 3
+  },
+  {
+   "yol": "/kategori/bahce-bitki/bahcecilik/",
+   "tur": "kategori",
+   "baslik": "Bahçecilik",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "bahcecilik",
+   "govde_gelen": 0,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/bahce-bitki/ev-bitkileri/",
+   "tur": "kategori",
+   "baslik": "Ev Bitkileri",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "ev-bitkileri",
+   "govde_gelen": 1,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/bahce-bitki/bonsai/",
+   "tur": "kategori",
+   "baslik": "Bonsai",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "bonsai",
+   "govde_gelen": 2,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
+    "/makale/bonsai-nasil-toprak-sever/"
+   ],
+   "makale_sayisi": 3
+  },
+  {
+   "yol": "/kategori/bahce-bitki/teraryum/",
+   "tur": "kategori",
+   "baslik": "Teraryum & Sukulent",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "teraryum",
+   "govde_gelen": 0,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/evcil-hayvan/",
+   "tur": "kategori",
+   "baslik": "Evcil Hayvan",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "",
+   "govde_gelen": 3,
+   "icerik_gelen": 8,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/akvaryum-kurulumu-baslangic-seti/",
+    "/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/",
+    "/makale/kopek-yuruyus-ve-egitim-seti/"
+   ],
+   "makale_sayisi": 6
+  },
+  {
+   "yol": "/kategori/evcil-hayvan/kopek-bakimi/",
+   "tur": "kategori",
+   "baslik": "Köpek Bakımı",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "kopek-bakimi",
+   "govde_gelen": 2,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026/",
+    "/makale/kopek-yuruyus-ve-egitim-seti/"
+   ],
+   "makale_sayisi": 2
+  },
+  {
+   "yol": "/kategori/evcil-hayvan/kedi-bakimi/",
+   "tur": "kategori",
+   "baslik": "Kedi Bakımı",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "kedi-bakimi",
+   "govde_gelen": 1,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/"
+   ],
+   "makale_sayisi": 1
+  },
+  {
+   "yol": "/kategori/evcil-hayvan/akvaryum/",
+   "tur": "kategori",
+   "baslik": "Akvaryum & Balık",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "akvaryum",
+   "govde_gelen": 2,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/",
+    "/makale/akvaryum-kurulumu-baslangic-seti/"
+   ],
+   "makale_sayisi": 3
+  },
+  {
+   "yol": "/kategori/evcil-hayvan/kus-bakimi/",
+   "tur": "kategori",
+   "baslik": "Kuş Bakımı",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "kus-bakimi",
+   "govde_gelen": 0,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/bilim-astronomi/",
+   "tur": "kategori",
+   "baslik": "Bilim & Astronomi",
+   "kategori": "bilim-astronomi",
+   "alt_kategori": "",
+   "govde_gelen": 2,
+   "icerik_gelen": 4,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/hava-meteoroloji-baslangic-seti-ilk-alinacaklar-2026/",
+    "/makale/kimya-deney-baslangic-seti-ilk-alinacaklar-2026/"
+   ],
+   "makale_sayisi": 2
+  },
+  {
+   "yol": "/kategori/bilim-astronomi/teleskop-astronomi/",
+   "tur": "kategori",
+   "baslik": "Teleskop & Astronomi",
+   "kategori": "bilim-astronomi",
+   "alt_kategori": "teleskop-astronomi",
+   "govde_gelen": 0,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/bilim-astronomi/mikroskop/",
+   "tur": "kategori",
+   "baslik": "Mikroskop",
+   "kategori": "bilim-astronomi",
+   "alt_kategori": "mikroskop",
+   "govde_gelen": 0,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/bilim-astronomi/kimya-deney/",
+   "tur": "kategori",
+   "baslik": "Kimya & Deney",
+   "kategori": "bilim-astronomi",
+   "alt_kategori": "kimya-deney",
+   "govde_gelen": 1,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/kimya-deney-baslangic-seti-ilk-alinacaklar-2026/"
+   ],
+   "makale_sayisi": 1
+  },
+  {
+   "yol": "/kategori/bilim-astronomi/meteoroloji/",
+   "tur": "kategori",
+   "baslik": "Hava & Meteoroloji",
+   "kategori": "bilim-astronomi",
+   "alt_kategori": "meteoroloji",
+   "govde_gelen": 1,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/hava-meteoroloji-baslangic-seti-ilk-alinacaklar-2026/"
+   ],
+   "makale_sayisi": 1
+  },
+  {
+   "yol": "/kategori/seyahat-gezi/",
+   "tur": "kategori",
+   "baslik": "Seyahat & Gezi",
+   "kategori": "seyahat-gezi",
+   "alt_kategori": "",
+   "govde_gelen": 0,
+   "icerik_gelen": 1,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/seyahat-gezi/backpacking/",
+   "tur": "kategori",
+   "baslik": "Sırt Çantalı Seyahat",
+   "kategori": "seyahat-gezi",
+   "alt_kategori": "backpacking",
+   "govde_gelen": 0,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/seyahat-gezi/seyahat-fotograf/",
+   "tur": "kategori",
+   "baslik": "Seyahat Fotoğrafçılığı",
+   "kategori": "seyahat-gezi",
+   "alt_kategori": "seyahat-fotograf",
+   "govde_gelen": 0,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/seyahat-gezi/karavan/",
+   "tur": "kategori",
+   "baslik": "Karavan & Vanlife",
+   "kategori": "seyahat-gezi",
+   "alt_kategori": "karavan",
+   "govde_gelen": 0,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/seyahat-gezi/vlog/",
+   "tur": "kategori",
+   "baslik": "Vlog & İçerik Üretimi",
+   "kategori": "seyahat-gezi",
+   "alt_kategori": "vlog",
+   "govde_gelen": 0,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/yazilim-kodlama/",
+   "tur": "kategori",
+   "baslik": "Yazılım & Kodlama",
+   "kategori": "yazilim-kodlama",
+   "alt_kategori": "",
+   "govde_gelen": 0,
+   "icerik_gelen": 1,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/yazilim-kodlama/web-gelistirme/",
+   "tur": "kategori",
+   "baslik": "Web Geliştirme",
+   "kategori": "yazilim-kodlama",
+   "alt_kategori": "web-gelistirme",
+   "govde_gelen": 0,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/yazilim-kodlama/oyun-gelistirme/",
+   "tur": "kategori",
+   "baslik": "Oyun Geliştirme",
+   "kategori": "yazilim-kodlama",
+   "alt_kategori": "oyun-gelistirme",
+   "govde_gelen": 0,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/yazilim-kodlama/veri-bilimi/",
+   "tur": "kategori",
+   "baslik": "Veri Bilimi & Yapay Zeka",
+   "kategori": "yazilim-kodlama",
+   "alt_kategori": "veri-bilimi",
+   "govde_gelen": 0,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/yazilim-kodlama/siber-guvenlik/",
+   "tur": "kategori",
+   "baslik": "Siber Güvenlik",
+   "kategori": "yazilim-kodlama",
+   "alt_kategori": "siber-guvenlik",
+   "govde_gelen": 0,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/yazi-edebiyat/",
+   "tur": "kategori",
+   "baslik": "Yazı & Edebiyat",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "",
+   "govde_gelen": 0,
+   "icerik_gelen": 1,
+   "toplam_gelen": 158,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/yazi-edebiyat/yazarlik/",
+   "tur": "kategori",
+   "baslik": "Yazarlık",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "yazarlik",
+   "govde_gelen": 0,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/yazi-edebiyat/blog-yazarligi/",
+   "tur": "kategori",
+   "baslik": "Blog Yazarlığı",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "blog-yazarligi",
+   "govde_gelen": 0,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/yazi-edebiyat/yaratici-yazarlik/",
+   "tur": "kategori",
+   "baslik": "Yaratıcı Yazarlık",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "yaratici-yazarlik",
+   "govde_gelen": 0,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  },
+  {
+   "yol": "/kategori/yazi-edebiyat/okuma/",
+   "tur": "kategori",
+   "baslik": "Okuma & Kitap Kulübü",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "okuma",
+   "govde_gelen": 0,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": 0
+  }
+ ]
+}
