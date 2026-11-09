@@ -36,7 +36,7 @@ Bu ürün kime uymaz dersen; ölçü almadan "bir beden büyük olsun, rahat ets
 - Market işi sıradan koşumlara göre fiyatı biraz daha yüksektir.
 - Beden tablosuna tam uymadığında konforu bozulur.
 
-[Satın Al: Ruffwear Front Range Koşum](aff://ruffwear-front-range-kosum-takimi)
+
 
 ## Flexi Tasma Ne Zaman Kullanılmalı?
 
@@ -87,7 +87,7 @@ Kime uymaz? Boyut seçimine dikkat etmeyenlere uymaz. Küçük köpeğe dev bir 
 - Yenilebilir bir ürün değildir; aşınan ve küçülen parçaları çöpe atman gerekir.
 - Yanlış boy seçimi güvenlik riski oluşturur.
 
-[Satın Al: Benebone Wishbone](aff://benebone-wishbone-cigneme-oyuncagi)
+
 
 ## Yürüyüş Sonrası Bakım: Hertzko Tarak
 
@@ -104,7 +104,7 @@ Kime uymaz? Çok kalın ve aşırı yoğun alt kürkü olan köpeklerde bu tarak
 - Çok yoğun tüylü ırklarda yetersiz kalabilir.
 - Islak tüylerde kullanmak zordur, tüyün kurumasını beklemek gerekir.
 
-[Satın Al: Hertzko Tarak](aff://hertzko-kendi-kendini-temizleyen-tarak)
+
 
 ## Doğru Yürüyüş Rutini Nasıl Kurulur?
 
@@ -127,8 +127,8 @@ Hayır. Flexi'nin doğası gereği ip hep gergin olduğu için köpek "çekersem
 
 | İhtiyaç | Ürün | Kimler İçin? |
 | --- | --- | --- |
-| Kontrollü Yürüyüş | [Ruffwear Koşum](aff://ruffwear-front-range-kosum-takimi) | Çekiştiren veya güvenli bir tutuş arayanlar. |
-| Evde Vakit Geçirme | [Outward Hound](aff://outward-hound-zeka-oyuncagi) & [Benebone](aff://benebone-wishbone-cigneme-oyuncagi) | Enerjisini atamayan, eşyaları kemiren köpekler. |
+| Kontrollü Yürüyüş | | Çekiştiren veya güvenli bir tutuş arayanlar. |
+| Evde Vakit Geçirme | [Outward Hound](aff://outward-hound-zeka-oyuncagi) & | Enerjisini atamayan, eşyaları kemiren köpekler. |
 | Tam Set | Tüm Ürünler | Park gezisinden tüy bakımına kadar her şeyi çözmek isteyenler. |
 
 Kısacası, yürüyüşü Ruffwear ile güvene alıp, parktaki serbestliği Flexi ile sağlayabilirsin. Eve döndüğünde ise zeka oyuncağı ve çiğneme ürünleriyle günü huzurla kapatabilirsin. Unutma, her köpeğin hızı ve öğrenme süreci farklıdır; sabırlı ol ve ödül mamalarını yanından eksik etme.

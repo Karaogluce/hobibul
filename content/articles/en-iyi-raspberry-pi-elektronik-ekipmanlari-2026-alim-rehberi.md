@@ -33,19 +33,19 @@ Ancak bu gücün bazı dezavantajları var. Yük altında çalışırken ısınm
 
 ### Arduino Uno R3 Mikrodenetleyici
 
-Fiziksel butonlar, motorlar, LED'ler ve analog sensörlerle haşır neşir olmak istiyorsan [Satın Al: Arduino Uno R3 Mikrodenetleyici](aff://arduino-uno-r3) en yaygın kullanılan mikrodenetleyici kartı olarak işini görür. Kullanımı son derece kolaydır ve piyasada bu karta uyumlu sayısız sensör bulunur. Geniş topluluk desteği sayesinde daha önce başkasının çözmediği bir devre problemiyle karşılaşma ihtimalin oldukça düşüktür. 
+Fiziksel butonlar, motorlar, LED'ler ve analog sensörlerle haşır neşir olmak istiyorsan en yaygın kullanılan mikrodenetleyici kartı olarak işini görür. Kullanımı son derece kolaydır ve piyasada bu karta uyumlu sayısız sensör bulunur. Geniş topluluk desteği sayesinde daha önce başkasının çözmediği bir devre problemiyle karşılaşma ihtimalin oldukça düşüktür. 
 
 Bununla birlikte, bu kartın üzerinde kablosuz bağlantı özelliği yer almaz. İnternete bağlanmak veya Bluetooth üzerinden veri aktarmak istiyorsan ek modüller kullanman şarttır. Ayrıca işlem gücü ve bellek kapasitesi sınırlıdır. Büyük işletim sistemleri çalıştırmayı veya karmaşık yazılımlar derlemeyi beklememelisin. Sadece basit mantık devreleri ve sensör okumaları yapıyorsan bu kart sana uymayabilir.
 
 ### Raspberry Pi 5 Resmi Adaptör
 
-Kartını kararlı bir şekilde çalıştırmak ve harici donanımlara yeterli akım sağlamak istiyorsan [Satın Al: Raspberry Pi 5 Resmi Adaptör](aff://rpi-power-supply) sistemi güvenle besler. 27W USB-C yapısıyla cihazın ihtiyaç duyduğu enerjiyi iletir ve ani voltaj düşmelerinin önüne geçer. Resmi uyumlu olması, donanımsal çakışma riskini ortadan kaldırır.
+Kartını kararlı bir şekilde çalıştırmak ve harici donanımlara yeterli akım sağlamak istiyorsan sistemi güvenle besler. 27W USB-C yapısıyla cihazın ihtiyaç duyduğu enerjiyi iletir ve ani voltaj düşmelerinin önüne geçer. Resmi uyumlu olması, donanımsal çakışma riskini ortadan kaldırır.
 
 Ancak bu adaptör özel olarak yeni nesil kartlar düşünülerek tasarlandığı için, farklı markalardaki mikrodenetleyicilerle aynı verimle kullanılamaz. Fiyatı standart telefon şarj cihazlarına kıyasla orta seviyededir. Sadece basit bir mikrokontrolcü besleyeceksen bu adaptör bütçeni aşabilir; ancak güçlü bir tek kart bilgisayar kuruyorsan güvenliğin için bu parçayı atlamamalısın.
 
 ## Hangisini Seçmeli?
 
-Amacın akıllı ev otomasyonu kurmak, büyük kod blokları derlemek ve aynı anda birkaç servis çalıştırmaksa, güçlü işlemcisiyle [Satın Al: Raspberry Pi 5 (8GB)](aff://raspberry-pi-5) senin için mantıklı bir temel olacaktır. Fakat amacın sadece motor kontrol etmek, butonlardan sinyal almak ve temel elektronik devre mantığını öğrenmekse [Satın Al: Arduino Uno R3 Mikrodenetleyici](aff://arduino-uno-r3) daha doğru bir tercihtir. Hangi kartı seçersen seç, kararlı bir çalışma ortamı yaratmak adına [Satın Al: Raspberry Pi 5 Resmi Adaptör](aff://rpi-power-supply) gibi güç kaynaklarını sistemine dahil etmeyi ihmal etme. Bu notların bir arada durduğu yer [Raspberry Pi & Elektronik](/kategori/teknoloji/raspberry-pi-elektronik/).
+Amacın akıllı ev otomasyonu kurmak, büyük kod blokları derlemek ve aynı anda birkaç servis çalıştırmaksa, güçlü işlemcisiyle [Satın Al: Raspberry Pi 5 (8GB)](aff://raspberry-pi-5) senin için mantıklı bir temel olacaktır. Fakat amacın sadece motor kontrol etmek, butonlardan sinyal almak ve temel elektronik devre mantığını öğrenmekse daha doğru bir tercihtir. Hangi kartı seçersen seç, kararlı bir çalışma ortamı yaratmak adına gibi güç kaynaklarını sistemine dahil etmeyi ihmal etme. Bu notların bir arada durduğu yer [Raspberry Pi & Elektronik](/kategori/teknoloji/raspberry-pi-elektronik/).
 
 ## Sık Sorulan Sorular
 

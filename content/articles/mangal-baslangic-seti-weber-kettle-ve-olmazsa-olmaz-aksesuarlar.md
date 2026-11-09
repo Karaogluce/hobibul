@@ -60,7 +60,7 @@ Baca oldukça hızlı sonuç veriyor ama kullanırken dikkatli olman lazım. Sap
 - Hacimli bir ürün, saklamak için yer ister.
 - Çalışırken gövdesi aşırı ısınır, çıplak elle dokunulmaz.
 
-[Satın Al: Weber Rapidfire Baca](aff://weber-rapidfire-baca)
+
 
 ## Termometre: Etin Piştiğini Kesmeden Anla
 
@@ -79,7 +79,7 @@ Bu alet özellikle bütün tavuk veya kalın but pişirirken hayat kurtarır. An
 - Pili bittiğinde işlevsiz kalır, yedek pil bulundurmak şart.
 - Kabloları kapak arasına sıkışırsa kolayca bozulabilir.
 
-[Satın Al: ThermoPro TP20 Et Termometresi](aff://thermopro-tp20-et-termometresi)
+
 
 ## Maşa ve Fırça ile Hijyen ve Güvenlik
 
@@ -93,8 +93,8 @@ Temizlik kısmında ise Weber mangal fırçası devreye giriyor. Bir önceki man
 - **Eksi:** Fırçanın sert kılları yapışmaz kaplamalı hassas ızgaraları çizebilir (Kettle'ın çelik ızgarası için uygundur).
 - **Eksi:** Maşa boyu küçük mangallar için biraz fazla uzun kaçabilir.
 
-[Satın Al: OXO Good Grips Mangal Maşası](aff://oxo-good-grips-mangal-masasi)
-[Satın Al: Weber Mangal Fırçası](aff://weber-mangal-fircasi)
+
+
 
 ## İlk Ateşi Yakarken Dikkat Etmen Gerekenler
 
@@ -122,8 +122,8 @@ Bunun net bir süresi yok. Ancak fırça kılları dökülmeye başladıysa veya
 
 | Paket | İçerik | Kime Uygun? |
 | --- | --- | --- |
-| **Ekonomik** | [Weber Kettle 57 cm](aff://weber-original-kettle-57cm) ve [OXO Maşa](aff://oxo-good-grips-mangal-masasi) | İlk kez kaliteli bir mangala geçiş yapanlar için. |
-| **Standart** | Kettle, [Rapidfire Baca](aff://weber-rapidfire-baca) ve [TP20 Termometre](aff://thermopro-tp20-et-termometresi) | Kimyasal kokusu olmadan profesyonel sonuç almak isteyenlere. |
-| **Tam Set** | Standart Paket + [Weber Fırça](aff://weber-mangal-fircasi) | Mangalı düzenli bir hobi haline getiren ve ekipmanına iyi bakmak isteyenlere. |
+| **Ekonomik** | [Weber Kettle 57 cm](aff://weber-original-kettle-57cm) ve | İlk kez kaliteli bir mangala geçiş yapanlar için. |
+| **Standart** | Kettle, ve | Kimyasal kokusu olmadan profesyonel sonuç almak isteyenlere. |
+| **Tam Set** | Standart Paket + | Mangalı düzenli bir hobi haline getiren ve ekipmanına iyi bakmak isteyenlere. |
 
 Yeni setinle ilk denemende çok pahalı etlerle başlamamanı öneririm. Önce tavuk kanat veya köfte gibi ürünlerle mangalın hava deliklerine ve ısısına alış, ardından termometrenin gücünü kullanarak daha kalın parçalara geçiş yaparsın. Afiyet olsun!

@@ -17,7 +17,7 @@ subcategory: "yemek-pisirme"
 draft: "false"
 ---
 
-Mutfakta düzenli yemek yapmaya başlarken onlarca parçalık setler yerine yalnızca keskin bir şef bıçağı, yapışmaz bir tava ve ısıya dayanıklı bir spatula almak yeterlidir. Bütçeni yormadan işe koyulmak istiyorsan, ilk aşamada [Satın Al: Victorinox Fibrox Şef Bıçağı](aff://victorinox-fibrox-sef-bicagi) edinerek doğrama işlerini hızla çözebilirsin.
+Mutfakta düzenli yemek yapmaya başlarken onlarca parçalık setler yerine yalnızca keskin bir şef bıçağı, yapışmaz bir tava ve ısıya dayanıklı bir spatula almak yeterlidir. Bütçeni yormadan işe koyulmak istiyorsan, ilk aşamada edinerek doğrama işlerini hızla çözebilirsin.
 
 Kendi mutfağında vakit geçirmeyi yeni bir alışkanlık haline getirmek istiyorsan, tezgahını gereksiz kalabalıkla doldurmadan ilerlemen gerekir. Genellikle hevesle girilen mağazalarda yirmi dört parçalık tencere takımları, boy boy kepçeler ve süslü bıçak blokları önerilir. Oysa yemek yapmanın temel mantığı basittir: malzemeyi düzgün kesmek, tavada ısıyı doğru kontrol etmek ve malzemeyi tavayı zedelemeden çevirmek. Hobiye yeni başlayan biri için [Yemek Pişirme](/kategori/yemek-mutfak/yemek-pisirme/) serüveni, doğru seçilmiş üç ya da dört sağlam araçla çok daha keyifli ve sürdürülebilir bir hal alır.
 
@@ -50,45 +50,45 @@ Mutfakta işlerin büyük çoğunluğunu üstlenen bu bıçak, profesyonel mutfa
 
 Bununla birlikte çeliği nispeten yumuşak olduğu için yoğun kullanımda sık bileme gerektirir. Sap tasarımı tamamen işlev odaklı ve plastik yapıda olduğundan şık, ağır veya lüks görünümlü bir bıçak arayanlara hitap etmez. Gösterişten uzak, tamamen kesim işine odaklanan kullanıcılar için tasarlanmıştır.
 
-*   **Artılar:** Keskin kenar, ergonomik sap, uygun fiyat.
-*   **Eksiler:** Sık bileme gerekir, basit görünüm.
-*   **Kime uymaz:** Ağır, dövme çelik hissiyatı ve mutfak tezgahında gösterişli bir tasarım arayan kullanıcılara uymaz.
+* **Artılar:** Keskin kenar, ergonomik sap, uygun fiyat.
+* **Eksiler:** Sık bileme gerekir, basit görünüm.
+* **Kime uymaz:** Ağır, dövme çelik hissiyatı ve mutfak tezgahında gösterişli bir tasarım arayan kullanıcılara uymaz.
 
 ### Zwilling Four Star Bıçak
 Alman çeliğinin dayanıklılığı ile öne çıkan bu bıçak, ele alındığında ağırlığı ve dengesiyle güven hissi verir. Dengeli tutuşu sayesinde uzun süreli kesimlerde bile bileği yormaz. Çeliğinin kalitesi sayesinde keskinliğini standart bıçaklara kıyasla daha uzun süre muhafaza eder ve sert gıdalarda dahi takılmadan ilerler. Mutfak hazırlığını bir üst seviyeye taşımak isteyenler için uzun vadeli bir araçtır. Ürünü detaylı incelemek istersen [Satın Al: Zwilling Four Star Bıçak](aff://zwilling-four-star-bicak) seçeneği üzerinden kontrol sağlayabilirsin.
 
 Kalitesine bağlı olarak fiyatı başlangıç bütçesini aşabilir. Ayrıca çeliğin yapısını ve sap dengesini korumak için kesinlikle elde yıkanması önerilir; bulaşık makinesine atıldığında yüzeyinde deformasyonlar oluşabilir. 
 
-*   **Artılar:** Kaliteli çelik, dengeli tutuş, dayanıklı.
-*   **Eksiler:** Fiyatı yüksek, elde yıkama önerilir.
-*   **Kime uymaz:** Bıçağını bulaşık makinesine atmak isteyen veya mutfak ekipmanına yüksek bütçe ayırmak istemeyenlere uymaz.
+* **Artılar:** Kaliteli çelik, dengeli tutuş, dayanıklı.
+* **Eksiler:** Fiyatı yüksek, elde yıkama önerilir.
+* **Kime uymaz:** Bıçağını bulaşık makinesine atmak isteyen veya mutfak ekipmanına yüksek bütçe ayırmak istemeyenlere uymaz.
 
 ### Tefal Daily Cook Tava
 Yumurtadan sebze sotelemeye kadar günlük yemeklerin neredeyse tamamında kullanılan bu tava, yapışmaz yüzeyi sayesinde az yağla bile rahat pişirme imkanı sunar. Gövdesinde yer alan ısı göstergesi, tavanın mühürleme ve pişirme için doğru sıcaklığa ulaştığını kırmızıya dönerek haber verir. Hafif gövdesi tavanın ocaktan tezgaha taşınmasını ve bileği yormadan kullanılmasını sağlar.
 
 Ancak yapışmaz kaplamalar ne kadar özenli kullanılırsa kullanılsın zamanla aşınır. Metal kaşık, çatal veya maşa değdirildiğinde kaplama kolayca çizileceğinden yalnızca silikon veya ahşap gereçlerle kullanılmalıdır. Çok yüksek ısılarda uzun süre susuz bırakılmaması gerekir.
 
-*   **Artılar:** Isı göstergesi, yapışmaz yüzey, hafif.
-*   **Eksiler:** Kaplama zamanla aşınır, metal gereç uygun değil.
-*   **Kime uymaz:** Metal mutfak aletleri kullanmayı alışkanlık haline getirmiş veya ömürlük bir döküm tava performansı bekleyen kullanıcılara uymaz.
+* **Artılar:** Isı göstergesi, yapışmaz yüzey, hafif.
+* **Eksiler:** Kaplama zamanla aşınır, metal gereç uygun değil.
+* **Kime uymaz:** Metal mutfak aletleri kullanmayı alışkanlık haline getirmiş veya ömürlük bir döküm tava performansı bekleyen kullanıcılara uymaz.
 
 ### OXO Good Grips Spatula
 Tavadaki yiyecekleri çevirirken kaplamaya zarar vermemek için tasarlanan bu spatula, ısıya dayanıklı silikon başlığıyla öne çıkar. Yüksek sıcaklıktaki tavalarda bile erime yapmaz ve esnek ucu sayesinde tavanın köşelerindeki sosları ve malzemeleri sıyırmayı kolaylaştırır. Sap kısmında yer alan kaymaz kaplama, elin terli veya yağlıyken bile kontrolü kaybetmeni önler. Temizlik tarafında ise bulaşık makinesinde rahatlıkla yıkanabilir.
 
 Spatulanın silikon başlığı ile sapı tek parça döküm değildir; bu durum birleşim yerinde zamanla sos veya kir birikmesine yol açabileceğinden elde yıkarken özen ister. Ayrıca mutfakta estetiğe önem verenler için renk seçeneğinin az olması sınırlayıcı bir detaydır.
 
-*   **Artılar:** Kaymaz sap, ısıya dayanıklı, bulaşık makinesinde yıkanabilir.
-*   **Eksiler:** Tek parça değil, renk seçeneği az.
-*   **Kime uymaz:** Tek parça döküm silikon ürünleri tercih eden veya renk uyumuna takıntılı olan kullanıcılara uymaz.
+* **Artılar:** Kaymaz sap, ısıya dayanıklı, bulaşık makinesinde yıkanabilir.
+* **Eksiler:** Tek parça değil, renk seçeneği az.
+* **Kime uymaz:** Tek parça döküm silikon ürünleri tercih eden veya renk uyumuna takıntılı olan kullanıcılara uymaz.
 
 ### Microplane Zester
 Yemeklere lezzet katmanın sırrı genellikle küçük dokunuşlarda gizlidir. Paslanmaz çelikten üretilen bu zester, limon ve portakal kabuklarını acı beyaz kısımlarına inmeden incecik rendelemeyi mümkün kılar. Parmesan gibi sert peynirleri, sarımsağı ve taze zencefili püre kıvamında rendelemek için oldukça keskindir. Kolay tutuş sağlayan gövdesi sayesinde kuvvet uygulamadan hızlı sonuç alırsın.
 
 Bu ürünün eksi tarafı, basit bir rende görevine kıyasla fiyatının nispeten yüksek olmasıdır. Ürünün yanında koruyucu bir saklama kapağı gelmediği için çekmecede saklarken diğer eşyalara sürtünmemesine ya da elini kesmemesine dikkat etmen gerekir.
 
-*   **Artılar:** Çok keskin, kolay kullanım, paslanmaz gövde.
-*   **Eksiler:** Pahalı, saklama kapağı yok.
-*   **Kime uymaz:** Yemeklerinde narenciye kabuğu, sert peynir veya taze baharat rendesi kullanmayan, sadece temel rendeleme yapanlara uymaz.
+* **Artılar:** Çok keskin, kolay kullanım, paslanmaz gövde.
+* **Eksiler:** Pahalı, saklama kapağı yok.
+* **Kime uymaz:** Yemeklerinde narenciye kabuğu, sert peynir veya taze baharat rendesi kullanmayan, sadece temel rendeleme yapanlara uymaz.
 
 ## Yemek Pişirme Teknikleri İçin Temel İpuçları
 
@@ -106,9 +106,9 @@ Mutfak alışverişini yaparken ihtiyaçlarına ve bütçene göre parçaları b
 
 | Paket | İçinde ne var | Kime uyar |
 | --- | --- | --- |
-| Bütçe | [Satın Al: Victorinox Fibrox Şef Bıçağı](aff://victorinox-fibrox-sef-bicagi), [Satın Al: Tefal Daily Cook Tava](aff://tefal-daily-cook-tava) | Düşük bütçeyle temel mutfak işlerini halletmek isteyenlere |
-| Orta | [Satın Al: Victorinox Fibrox Şef Bıçağı](aff://victorinox-fibrox-sef-bicagi), [Satın Al: Tefal Daily Cook Tava](aff://tefal-daily-cook-tava), [Satın Al: OXO Good Grips Spatula](aff://oxo-good-grips-spatula) | Tavasını korumak ve güvenli çevirme gereci arayanlara |
-| Üst | [Satın Al: Zwilling Four Star Bıçak](aff://zwilling-four-star-bicak), [Satın Al: Tefal Daily Cook Tava](aff://tefal-daily-cook-tava), [Satın Al: OXO Good Grips Spatula](aff://oxo-good-grips-spatula), [Satın Al: Microplane Zester](aff://microplane-zester) | Kaliteli çelik ve detay lezzet dokunuşları hedefleyenlere |
+| Bütçe |, | Düşük bütçeyle temel mutfak işlerini halletmek isteyenlere |
+| Orta |,, [Satın Al: OXO Good Grips Spatula](aff://oxo-good-grips-spatula) | Tavasını korumak ve güvenli çevirme gereci arayanlara |
+| Üst | [Satın Al: Zwilling Four Star Bıçak](aff://zwilling-four-star-bicak),, [Satın Al: OXO Good Grips Spatula](aff://oxo-good-grips-spatula), [Satın Al: Microplane Zester](aff://microplane-zester) | Kaliteli çelik ve detay lezzet dokunuşları hedefleyenlere |
 
 Bütçe paketinde yer alan Victorinox bıçak ve Tefal tava, mutfakta yapılacak günlük hazırlıkların büyük bölümünü tek başına üstlenir. Sebzeleri doğramak, yumurta kırmak veya pratik tavuk yemekleri pişirmek için bu ikili yeterli zemini hazırlar. 
 

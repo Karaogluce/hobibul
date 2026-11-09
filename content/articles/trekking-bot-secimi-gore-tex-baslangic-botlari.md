@@ -37,15 +37,15 @@ X Ultra 4, hafif bir yapıya sahip olduğu için özellikle günübirlik hızlı
 Su geçirmezlik konusunda Gore-Tex başarılı olsa da suyun botun ağzından girmesini hiçbir membran engelleyemez. Diz boyu bir dereye girersen botun içi su dolar ve membranın o suyu dışarı atması saatler sürer. Bu yüzden her zaman suyun seviyesine dikkat etmelisin. Eğer ayağın çok terliyorsa veya çok sıcak bir havada yürüyeceksen, Gore-Tex olmayan, daha çok nefes alan modellere bakman daha rahat etmeni sağlar.
 
 **Artıları:**
-*   Gore-Tex teknolojisi sayesinde yağmurda ve çamurda ayakların kuru kalır.
-*   Hafif yapısı özellikle uzun mesafelerde diz yorgunluğunu azaltır.
-*   Taban tutuşu, ıslak ve kaygan zeminlerde güven verir.
+* Gore-Tex teknolojisi sayesinde yağmurda ve çamurda ayakların kuru kalır.
+* Hafif yapısı özellikle uzun mesafelerde diz yorgunluğunu azaltır.
+* Taban tutuşu, ıslak ve kaygan zeminlerde güven verir.
 
 **Eksileri:**
-*   Kalıbı dar olduğu için geniş ayaklı kişileri gün sonunda sıkabilir.
-*   Fiyatı, standart market botlarına göre daha yüksektir.
+* Kalıbı dar olduğu için geniş ayaklı kişileri gün sonunda sıkabilir.
+* Fiyatı, standart market botlarına göre daha yüksektir.
 
-[Satın Al: Salomon X Ultra 4 Gore-Tex](aff://salomon-x-ultra-4)
+
 
 ## İnişlerde dizlerini korumak için: Black Diamond Trail Baton
 
@@ -54,15 +54,15 @@ Yokuş aşağı inerken tüm yük dizlerine biner ve bir süre sonra bu durum a�
 Bu baton alüminyum olduğu için sağlamdır ama karbon modeller kadar hafif olmadığını bilmelisin. Boyunu ayarlarken, düz zeminde dirseğin dik açı yapacak şekilde durması en doğrusudur. Yokuş çıkarken batonları biraz kısaltabilir, inerken ise biraz uzatarak destek alabilirsin. Şehir içindeki düz yürüyüşlerde pek ihtiyacın olmaz ama engebeli arazide işini çok kolaylaştırır.
 
 **Artıları:**
-*   Özellikle dik inişlerde dizlere binen yükü azaltır.
-*   Boyu ayarlanabilir olduğu için farklı eğimlere göre optimize edilebilir.
-*   Katlandığında çantanın yanına rahatça asılır, taşıması kolaydır.
+* Özellikle dik inişlerde dizlere binen yükü azaltır.
+* Boyu ayarlanabilir olduğu için farklı eğimlere göre optimize edilebilir.
+* Katlandığında çantanın yanına rahatça asılır, taşıması kolaydır.
 
 **Eksileri:**
-*   Karbon modellere kıyasla daha ağırdır.
-*   Bazı paketlerde kar sepeti ayrı satılabilir, alırken kontrol etmelisin.
+* Karbon modellere kıyasla daha ağırdır.
+* Bazı paketlerde kar sepeti ayrı satılabilir, alırken kontrol etmelisin.
 
-[Satın Al: Black Diamond Trail Baton](aff://bd-trail-poles)
+
 
 ## Çanta seçimi ve gece görüşü
 
@@ -71,17 +71,17 @@ Osprey Daylite Plus, 20 litrelik hacmiyle tam bir günübirlik yürüyüş çant
 Yürüyüş beklediğinden uzun sürerse ve hava kararırsa el feneriyle uğraşmak yerine Petzl Actik Core gibi bir kafa lambası kullanmak hayat kurtarır. 600 lümenlik gücü önünü net görmen için fazlasıyla yeterli. Kırmızı ışık modu ise gece kamp alanında veya haritaya bakarken gözünü yormaz ve başkalarını rahatsız etmez. USB ile şarj edilebilmesi büyük avantaj ama pil kapağının biraz hassas olduğunu unutma, sert davranmamalısın.
 
 **Artıları:**
-*   Daylite Plus, günübirlik ihtiyaçları taşıyacak kadar hafif ve kalitelidir.
-*   Actik Core, hem şarjlı hem de yüksek ışık gücüyle ellerini serbest bırakır.
-*   Kırmızı ışık modu gece görüşünü korur.
+* Daylite Plus, günübirlik ihtiyaçları taşıyacak kadar hafif ve kalitelidir.
+* Actik Core, hem şarjlı hem de yüksek ışık gücüyle ellerini serbest bırakır.
+* Kırmızı ışık modu gece görüşünü korur.
 
 **Eksileri:**
-*   20 litre hacim kamp malzemeleri için yetersizdir ve bel desteği yoktur.
-*   Lamba kapağı hassastır, dikkatli kullanmak gerekir.
+* 20 litre hacim kamp malzemeleri için yetersizdir ve bel desteği yoktur.
+* Lamba kapağı hassastır, dikkatli kullanmak gerekir.
 
-[Satın Al: Osprey Daylite Plus](aff://osprey-daylite-plus)
 
-[Satın Al: Petzl Actik Core](aff://petzl-actik-core)
+
+
 
 ## Ekipmanın ömrünü nasıl uzatırsın?
 
@@ -104,8 +104,8 @@ Maalesef hayır. Bu hacimdeki çantalar sadece günlük su, yemek ve yedek kıya
 
 | Paket | İçerik | Kimin için? |
 | --- | --- | --- |
-| Sadece Bot | [Salomon X Ultra 4](aff://salomon-x-ultra-4) | Eski botunu yenilemek isteyen, diğer eşyaları tam olanlar. |
-| Yürüyüş Paketi | X Ultra 4 + [Black Diamond Trail](aff://bd-trail-poles) | Diz sağlığına önem veren ve düzenli yürüyüş yapanlar. |
-| Tam Set | Bot, Baton, [Daylite Plus](aff://osprey-daylite-plus) + [Actik Core](aff://petzl-actik-core) | Doğa yürüyüşlerine sıfırdan ve tam donanımlı başlamak isteyenler. |
+| Sadece Bot | | Eski botunu yenilemek isteyen, diğer eşyaları tam olanlar. |
+| Yürüyüş Paketi | X Ultra 4 + | Diz sağlığına önem veren ve düzenli yürüyüş yapanlar. |
+| Tam Set | Bot, Baton, + | Doğa yürüyüşlerine sıfırdan ve tam donanımlı başlamak isteyenler. |
 
 Eğer bütçeni tek bir yere ayıracaksan, önceliği Salomon X Ultra 4 botuna ver. Ayağın rahat ettikten sonra diğer eksiklerini zamanla tamamlayabilirsin. Yürüyüşten döndüğünde botlarını oda sıcaklığında kurutmayı ve bir sonraki tur için batonlarının boyunu kontrol etmeyi unutma.

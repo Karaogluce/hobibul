@@ -36,7 +36,7 @@ Bütçene uygun, malzeme kalitesi kanıtlanmış modellere yönelmen gerekir. Ö
 
 Telleri değiştireceğin zaman rastgele bir set alıp geçmek sık yapılan bir başka yanlıştır. Gitar teli nasıl seçilir sorusunun yanıtı, çaldığın enstrümanın türüne ve parmak kaslarının gücüne doğrudan bağlıdır. Akustik gitar teli veya elektro gitar teli seçerken ölçüleri dikkate almazsan parmakların çok çabuk yorulur veya tel sesleri istediğin parlaklıkta çıkmaz.
 
-Yanlış kalınlıktaki teller sapın gerilim dengesini de bozar, bu yüzden enstrümanın köprü ayarlarını olumsuz etkiler. [Satın Al: D'Addario EXL110 Tel Seti](aff://daddario-exl110) parlak tonlu, dayanıklı nikel kaplı elektro gitar teli arayanlar için standart ölçü sunan güvenilir bir seçenektir. Uzun ömürlü olması büyük artıdır ancak her metal tel gibi zamanla oksitlenir ve düzenli değişim gerekir; ayrıca sert kullanımda kopma ihtimali her zaman vardır.
+Yanlış kalınlıktaki teller sapın gerilim dengesini de bozar, bu yüzden enstrümanın köprü ayarlarını olumsuz etkiler. parlak tonlu, dayanıklı nikel kaplı elektro gitar teli arayanlar için standart ölçü sunan güvenilir bir seçenektir. Uzun ömürlü olması büyük artıdır ancak her metal tel gibi zamanla oksitlenir ve düzenli değişim gerekir; ayrıca sert kullanımda kopma ihtimali her zaman vardır.
 
 ## Gitar Akorları ve Tab Okumayı Es Geçmek
 

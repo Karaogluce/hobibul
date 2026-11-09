@@ -49,7 +49,7 @@ Amazon.com.tr kaydı DDJ-FLX2 adını ve marka olarak AlphaTheta yazar. Ayrınt�
 | --- | --- | --- |
 | Bütçe | [Satın Al: Numark MixTrack Go DJ Kontrol](aff://numark-mixtrack-go) | Seyahat eden ve hafif bir cihaz arayanlar |
 | Orta | [Satın Al: Pioneer DDJ-FLX4 DJ Kontrol](aff://pioneer-ddj-flx4) | Evde öğrenmek ve yazılım dahil set isteyenlar |
-| Üst | [Satın Al: Pioneer DJ DDJ-FLX2](aff://pioneer-ddj-flx2) | AlphaTheta ekosistemini incelemek isteyenler |
+| Üst | | AlphaTheta ekosistemini incelemek isteyenler |
 
 ## Sık Sorulan Sorular
 

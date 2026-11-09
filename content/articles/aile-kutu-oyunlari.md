@@ -6,12 +6,12 @@ subcategory: "masaustu-oyun"
 date: "2026-11-04"
 updated: "2026-11-09"
 meta_title: "Aile Kutu Oyunları: Türkiye'deki Seçim | Hobi Bul"
-meta_description: "Çocuklu masa için Neo Troy'da satılan kutular: Captain Flip, Carcassonne, Ticket to Ride Europe, Hop, Machi Koro ve Catan. Yaşlar sayfadan."
-excerpt: "Çocuklu masa için Neo Troy'da satılan kutular: Captain Flip, Carcassonne, Ticket to Ride Europe, Hop, Machi Koro ve Catan. Yaşlar sayfadan."
+meta_description: "Çocuklu masa için satılan kutular: Captain Flip, Carcassonne, Ticket to Ride Europe, Hop, Machi Koro ve Catan. Yaşlar sayfadan."
+excerpt: "Çocuklu masa için satılan kutular: Captain Flip, Carcassonne, Ticket to Ride Europe, Hop, Machi Koro ve Catan. Yaşlar sayfadan."
 focus_keyword: "aile kutu oyunları"
 draft: "false"
 ---
-Aile masasında önce yaş ve süre konuşulur. Neo Troy'un 8+ diye işaretlediği kısa kutular, 14+ ve bir saati aşan oyunlardan ayrı durur. Aşağıdakilerin hepsi o sitede satılıyor. Yaş, kişi ve süre ürün sayfasındaki satır.
+Aile masasında önce yaş ve süre konuşulur. 8+ diye işaretlediği kısa kutular, 14+ ve bir saati aşan oyunlardan ayrı durur. Aşağıdakilerin hepsi o sitede satılıyor. Yaş, kişi ve süre ürün sayfasındaki satır.
 
 > Çocuklu kısa akşam için Captain Flip 8+, 2-5 kişi, 20 dakika. Carcassonne ve Ticket to Ride Europe de 8+ ve 2-5 kişi, 30-60 dakika. Catan 10+ ve 3-4 kişi. Munchkin 16+, bu masanın kutusu değil.
 
@@ -19,27 +19,27 @@ Aile masasında önce yaş ve süre konuşulur. Neo Troy'un 8+ diye işaretledi�
 
 ## Sekiz yaşla açılan kısa kutular
 
-Captain Flip korsan tayfası seçilen bir oyun. 2-5 kişi, 20 dakika, 8+. Karar bir kez veriliyor, o yüzden tur uzamıyor. Yedi denize açılma hikâyesi çocuğa yakın. Daha uzun bir ekonomi isteyen yetişkin aynı akşam sıkılabilir. [Satın Al: Captain Flip](aff://captain-flip)
+Captain Flip korsan tayfası seçilen bir oyun. 2-5 kişi, 20 dakika, 8+. Karar bir kez veriliyor, o yüzden tur uzamıyor. Yedi denize açılma hikâyesi çocuğa yakın. Daha uzun bir ekonomi isteyen yetişkin aynı akşam sıkılabilir. 
 
-Hop! renk ve sayı eşine, doğru anda araya girilen bir kart oyunu. 2-7 kişi, 10 dakika, 8+. Sıra size gelmeden de oyuna dahil olabiliyorsunuz. On dakika, yemekten sonra kalkıp dağılacak bir masa için biçilmiş. Aynı kartı bütün gece çevirmek isteyen kişiye yetmez. [Satın Al: Hop!](aff://hop)
+Hop! renk ve sayı eşine, doğru anda araya girilen bir kart oyunu. 2-7 kişi, 10 dakika, 8+. Sıra size gelmeden de oyuna dahil olabiliyorsunuz. On dakika, yemekten sonra kalkıp dağılacak bir masa için biçilmiş. Aynı kartı bütün gece çevirmek isteyen kişiye yetmez. 
 
-Bi' Paket Cips, cips pullarıyla hedef tutturma oyunu. 2-6 kişi, 15 dakika, 8+. Türkçe adı var. Tahmin ve risk var. İki kişiyle de kuruluyor ama gülmek için üç dört kişi daha iyi. Çok sessiz bir masada pullar boşa düşer. [Satın Al: Bi' Paket Cips](aff://bi-paket-cips)
+Bi' Paket Cips, cips pullarıyla hedef tutturma oyunu. 2-6 kişi, 15 dakika, 8+. Türkçe adı var. Tahmin ve risk var. İki kişiyle de kuruluyor ama gülmek için üç dört kişi daha iyi. Çok sessiz bir masada pullar boşa düşer. 
 
 ## Bir saate yaklaşan aile kutuları
 
-Carcassonne karo döşeme. 2-5 kişi, 30-60 dakika, 8+. Çocuk puanı haritanın üstünde görebiliyor. Beş kişi olunca masa kalabalıklaşıyor. Kuralları sade. Neo Troy 3. baskıyı satıyor. [Satın Al: Carcassonne](aff://carcassonne-kutu)
+Carcassonne karo döşeme. 2-5 kişi, 30-60 dakika, 8+. Çocuk puanı haritanın üstünde görebiliyor. Beş kişi olunca masa kalabalıklaşıyor. Kuralları sade. 3. baskıyı satıyor. 
 
 Ticket to Ride Europe tren yolu. 2-5 kişi, 30-60 dakika, 8+. Metin İstanbul'u da sayıyor, bu yüzden Türkiye'deki masada tanıdık bir durak var. Harita yer ister. Dar bir mutfak masasında erteleyin. Geniş masa ve herkesin oturmaya razı olduğu bir akşamdaysanız aileye uyar. [Satın Al: Ticket to Ride Europe](aff://ticket-to-ride-europe)
 
-Machi Koro'da şehri büyütüp zarın getirdiği gelirle yarışıyorsunuz. 2-4 kişi, 30-60 dakika, 8+. Dörtten fazla kişi sığmıyor. Şehir kurma fikri çocukla yetişkinin aynı masada kalmasına yardım ediyor. Daha sessiz bir ekosistem isteyen Cascadia'ya bakabilir. O 1-4 kişi, 30-60 dakika, 10+. Tek kişi de oynanıyor. Yaş 10+. [Satın Al: Machi Koro](aff://machi-koro) [Satın Al: Cascadia](aff://cascadia)
+Machi Koro'da şehri büyütüp zarın getirdiği gelirle yarışıyorsunuz. 2-4 kişi, 30-60 dakika, 8+. Dörtten fazla kişi sığmıyor. Şehir kurma fikri çocukla yetişkinin aynı masada kalmasına yardım ediyor. Daha sessiz bir ekosistem isteyen Cascadia'ya bakabilir. O 1-4 kişi, 30-60 dakika, 10+. Tek kişi de oynanıyor. Yaş 10+. 
 
 Pandemic birlikte oynanıyor. Kimse kimseyi elemiyor. 2-4 kişi, 30-60 dakika, 8+. Dört salgını durdurmaya çalışıyorsunuz. Rekabet isteyen çocuk bu kutuda rakip arar ve bulamaz. O akşam Hop ya da Bi' Paket Cips daha doğru. [Satın Al: Pandemic](aff://pandemic)
 
 ## On yaş ve Catan
 
-Catan 3-4 kişi, 30-60 dakika, 10+. Kaynak takası masayı konuşturuyor. İki kişiye kurulmuyor. Sekiz yaşındaki çocuğu temel kutuya zorlamak, sayfadaki yaşın altında kalmak demek. Üç dört kişi ve yaş tutuyorsa hâlâ aile masasının bilinen kutusu. [Satın Al: Catan](aff://catan-kutu)
+Catan 3-4 kişi, 30-60 dakika, 10+. Kaynak takası masayı konuşturuyor. İki kişiye kurulmuyor. Sekiz yaşındaki çocuğu temel kutuya zorlamak, sayfadaki yaşın altında kalmak demek. Üç dört kişi ve yaş tutuyorsa hâlâ aile masasının bilinen kutusu. 
 
-Splendor 2-4 kişi, 30-60 dakika, 10+. Ticaret sakin. Konuşarak bağırarak oynanan bir parti değil. On yaş tutuyorsa ve çocuk bir süre sessizce kart dizmeye razıysa uyar. [Satın Al: Splendor](aff://splendor)
+Splendor 2-4 kişi, 30-60 dakika, 10+. Ticaret sakin. Konuşarak bağırarak oynanan bir parti değil. On yaş tutuyorsa ve çocuk bir süre sessizce kart dizmeye razıysa uyar. 
 
 | Oyun | Kişi | Süre | Zorluk |
 | --- | --- | --- | --- |
@@ -66,7 +66,7 @@ Munchkin 16+ ve 60-120 dakika. BANG! 4-7 kişi. 7 Wonders 14+ ve 3-7 kişi. Bunl
 Sekiz yaş ve kısa süre için Captain Flip ya da Hop. Biraz daha uzun oturacaksanız Carcassonne. Catan'ı, yaş 10 ve kişi sayısı 3-4 olmadan ilk kutu yapmayın.
 
 **Catan çocukla oynanır mı?**
-Neo Troy temel kutuyu 10+ ve 3-4 kişi diye yazıyor. Altındaysa Captain Flip, Hop, Carcassonne veya Ticket to Ride Europe 8+.
+temel kutuyu 10+ ve 3-4 kişi diye yazıyor. Altındaysa Captain Flip, Hop, Carcassonne veya Ticket to Ride Europe 8+.
 
 **İki yetişkin ve bir çocuk hangi aralığa girer?**
 Üç kişi, 2-4 ya da 2-5 yazan kutulara uyar: Carcassonne, Ticket to Ride Europe, Captain Flip, Machi Koro, Splendor, Cascadia. Catan da 3-4. Hop 2-7.

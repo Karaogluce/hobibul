@@ -38,7 +38,7 @@ Tetra’nın bu seti cam tankı ve temel teknik ekipmanı tek pakette sunar. Kut
 - Boş bir tanka göre daha yüksek başlangıç bütçesi ister.
 - Hacmi nedeniyle büyük türler ve kalabalık stok için uygun değildir.
 
-[Satın Al: Tetra Starter Line LED 54 L Komple Set](aff://aqueon-akvaryum-tanki)
+
 
 ## Fluval 207 Dış Filtre Bu Tanka Uygun mu?
 
@@ -57,7 +57,7 @@ Su çıkışını doğrudan balıkların dinlendiği bölgeye değil, tank camı
 - Fiyatı temel iç filtrelere göre yüksektir.
 - Hortum bağlantıları ve akıntı ayarı dikkatli kurulum ister.
 
-[Satın Al: Fluval 207 Dış Filtre](aff://fluval-307-dis-filtre)
+
 
 ## Isı Dengesi: Eheim Jager Ne Zaman Gerekir?
 
@@ -116,8 +116,8 @@ Bitkiler ışığı fotosentez için kullanır; bu yüzden aydınlatma süresi v
 
 | Paket Seviyesi | Neler Var? | Kimler İçin? |
 | --- | --- | --- |
-| **Ekonomik** | [Tetra Starter Line 54 L](aff://aqueon-akvaryum-tanki) | Tank, LED, iç filtre ve ısıtıcıyı tek pakette isteyenler. |
+| **Ekonomik** | | Tank, LED, iç filtre ve ısıtıcıyı tek pakette isteyenler. |
 | **Dengeli** | Tetra seti + bağımsız termometre; gerektiğinde [Tetra APS 150](aff://tetra-whisper-hava-pompasi) | Sıcaklığı ayrıca izlemek ve havalandırmayı ihtiyaca göre eklemek isteyenler. |
-| **İleri Seviye** | Tetra seti + gerektiğinde [Fluval 207](aff://fluval-307-dis-filtre); set dışı kurulumda [Eheim Jager](aff://eheim-jager-akvaryum-isiticisi) | Canlı yüküne göre filtrasyonu yükseltmeyi veya ayrı tank kurmayı planlayanlar. |
+| **İleri Seviye** | Tetra seti + gerektiğinde ; set dışı kurulumda [Eheim Jager](aff://eheim-jager-akvaryum-isiticisi) | Canlı yüküne göre filtrasyonu yükseltmeyi veya ayrı tank kurmayı planlayanlar. |
 
 Özetle; Tetra setindeki tankı sağlam bir yere yerleştir, ekipmanlarını kur ve suyun oturması için balıkları bir süre daha akvaryumcuda bırak. Acele etmezsen çok daha sağlıklı bir hobin olur.

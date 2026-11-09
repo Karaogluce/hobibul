@@ -33,10 +33,10 @@ Bütün ekipmanları tek tek araştırıp birbiriyle eşleştirmekle uğraşmak 
 
 Canlı popülasyonunu zamanla artırmayı planlıyorsan bu set bir noktadan sonra yetersiz gelebilir. Canlı yükün fazlalaştığında paketteki iç filtreyi daha yüksek kapasiteli bir filtrasyon sistemiyle değiştirmen gerekebilir. Ayrıca sadece boş bir cam tank almaya kıyasla ilk alımda daha yüksek bir bütçe ayırman gerekir.
 
-*   **Artılar:** 54 litre cam tank; LED, iç filtre ve ısıtıcı dahil; Başlangıç aksesuarlarıyla komple set
-*   **Eksiler:** Boş tanktan daha yüksek başlangıç bütçesi; Canlı yükü arttığında ekipman yükseltmesi gerekebilir
+* **Artılar:** 54 litre cam tank; LED, iç filtre ve ısıtıcı dahil; Başlangıç aksesuarlarıyla komple set
+* **Eksiler:** Boş tanktan daha yüksek başlangıç bütçesi; Canlı yükü arttığında ekipman yükseltmesi gerekebilir
 
-[Satın Al: Tetra Starter Line LED 54 L Akvaryum Komple Set](aff://aqueon-akvaryum-tanki)
+
 
 ### Fluval 207 Performance Dış Filtre
 
@@ -44,10 +44,10 @@ Küçük ve orta boy akvaryumlarda su berraklığını korumak istiyorsan, çok 
 
 Akvaryumun çevresinde harici bir filtre gövdesi konumlandıracak alanın yoksa veya hortum ve bağlantı kurulumlarıyla uğraşmak istemiyorsan bu model sana göre olmayabilir. Ayrıca bir iç filtreye göre başlangıç maliyetinin daha yüksek olduğunu da hesaba katmalısın.
 
-*   **Artılar:** Çok kademeli filtrasyon; Kompakt dış filtre gövdesi; Bakım için ayrılabilir sepetler
-*   **Eksiler:** Başlangıç maliyeti iç filtreden yüksek; Hortum ve bağlantı kurulumu ister
+* **Artılar:** Çok kademeli filtrasyon; Kompakt dış filtre gövdesi; Bakım için ayrılabilir sepetler
+* **Eksiler:** Başlangıç maliyeti iç filtreden yüksek; Hortum ve bağlantı kurulumu ister
 
-[Satın Al: Fluval 207 Performance Dış Filtre](aff://fluval-307-dis-filtre)
+
 
 ### Eheim Jager Akvaryum Isıtıcısı
 
@@ -55,8 +55,8 @@ Ortam sıcaklığının düştüğü dönemlerde suyun soğumasını engelleyen,
 
 Darbeye dayanıklı camdan üretilmiş olsa da nihayetinde cam bir yüzeye sahip olduğu için sert fiziksel darbelerde kırılma riski taşır. Ayrıca tankının su hacmine uygun boyutu seçmediğin takdirde suyu istenen derecede tutmakta zorlanabilir.
 
-*   **Artılar:** Hassas sıcaklık kontrolü; Darbeye dayanıklı cam; Uzun ömürlü güvenilirlik
-*   **Eksiler:** Boyut seçimi tank hacmine göre şart; Cam yüzeyi kırılgan
+* **Artılar:** Hassas sıcaklık kontrolü; Darbeye dayanıklı cam; Uzun ömürlü güvenilirlik
+* **Eksiler:** Boyut seçimi tank hacmine göre şart; Cam yüzeyi kırılgan
 
 [Satın Al: Eheim Jager Akvaryum Isıtıcısı](aff://eheim-jager-akvaryum-isiticisi)
 
@@ -66,8 +66,8 @@ Akvaryumda hava taşı veya havalandırma ekipmanlarıyla birlikte kullanılmak 
 
 Kutu içeriğinde hava hortumu, çekvalf veya hava taşı gibi tamamlayıcı parçalar yer almadığından, bu ekipmanları ayrıca kontrol edip temin etmen gerekir. Büyük hacimli akvaryumlar için hava çıkış kapasitesi yetersiz kalabileceğinden tankının boyutuna uygun model seçtiğinden emin olmalısın.
 
-*   **Artılar:** Kompakt tasarım; Kurulumu kolay; Hava hortumu ve taşıyla kullanılabilir
-*   **Eksiler:** Hortum, çekvalf ve hava taşı ayrı kontrol edilmeli; Tank hacmine uygun model seçilmeli
+* **Artılar:** Kompakt tasarım; Kurulumu kolay; Hava hortumu ve taşıyla kullanılabilir
+* **Eksiler:** Hortum, çekvalf ve hava taşı ayrı kontrol edilmeli; Tank hacmine uygun model seçilmeli
 
 [Satın Al: Tetra APS 150 Hava Pompası](aff://tetra-whisper-hava-pompasi)
 

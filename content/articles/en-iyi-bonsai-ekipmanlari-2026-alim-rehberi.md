@@ -27,11 +27,11 @@ Ekipman seçimi yaparken bitkinin mevcut boyutu ve senin bakım tecrüben en ön
 
 ### BestAlice 6 Parça Karbon Çelik Bonsai Alet Seti
 
-Evdeki saksılarda dal kesme, budama ve temel kök bakım işlerini tek seferde halletmek istiyorsan bu set başlangıç için pratik bir alternatif sunar. Karbon çelik aletler farklı bakım işleri için ayrı uçlara sahip olduğu için elinin altındaki işe uygun parçayı hemen bulabilirsin. Altı parçalı bu temel set, [Satın Al: BestAlice 6 Parça Karbon Çelik Bonsai Alet Seti](aff://bonsai-alet-seti-10-parca) bağlantısı üzerinden incelenebilir. Karbon çeliğin nemli ortamlarda paslanma yapabileceğini unutmamak ve kullandıktan sonra iyice kurulamak gerekir. Profesyonel düzeyde çok kalın dal kesim işleriyle uğraşıyorsan bu setin kapasitesi sana sınırlı gelebilir.
+Evdeki saksılarda dal kesme, budama ve temel kök bakım işlerini tek seferde halletmek istiyorsan bu set başlangıç için pratik bir alternatif sunar. Karbon çelik aletler farklı bakım işleri için ayrı uçlara sahip olduğu için elinin altındaki işe uygun parçayı hemen bulabilirsin. Altı parçalı bu temel set, bağlantısı üzerinden incelenebilir. Karbon çeliğin nemli ortamlarda paslanma yapabileceğini unutmamak ve kullandıktan sonra iyice kurulamak gerekir. Profesyonel düzeyde çok kalın dal kesim işleriyle uğraşıyorsan bu setin kapasitesi sana sınırlı gelebilir.
 
 ### DZDSBB 5 Kalınlıkta Eloksallı Alüminyum Bonsai Teli
 
-Bonsai ağaç dallarını istediğin yöne eğip bükmek ve estetik bir form kazandırmak için tel sarma yöntemi sıkça kullanılır. 1,0 ile 3,0 mm arasında beş farklı kalınlıkta sunulan eloksallı alüminyum tel seti, farklı dallara göre esnek bir kullanım sağlar. Yumuşak ve şekillendirilebilir yapısı sayesinde dalı kırmadan yön vermen kolaylaşır; bu seti incelemek için [Satın Al: DZDSBB 5 Kalınlıkta Eloksallı Alüminyum Bonsai Teli](aff://bonsai-aluminyum-teli) seçeneğine göz atabilirsin. Kalın ve sert dallar için tel kalınlığını doğru seçmen şarttır, aksi takdirde tel dalı tutamaz. Tellerin dal gelişimini engellememesi ve kabukta derin izler bırakmaması için düzenli olarak kontrol edilmesi gerekir.
+Bonsai ağaç dallarını istediğin yöne eğip bükmek ve estetik bir form kazandırmak için tel sarma yöntemi sıkça kullanılır. 1,0 ile 3,0 mm arasında beş farklı kalınlıkta sunulan eloksallı alüminyum tel seti, farklı dallara göre esnek bir kullanım sağlar. Yumuşak ve şekillendirilebilir yapısı sayesinde dalı kırmadan yön vermen kolaylaşır; bu seti incelemek için seçeneğine göz atabilirsin. Kalın ve sert dallar için tel kalınlığını doğru seçmen şarttır, aksi takdirde tel dalı tutamaz. Tellerin dal gelişimini engellememesi ve kabukta derin izler bırakmaması için düzenli olarak kontrol edilmesi gerekir.
 
 ### Compo 1602 Bonsai Toprağı 5 L
 
@@ -39,7 +39,7 @@ Sıradan saksı toprağı bonsai çiçeği veya diğer minyatür ağaçlar için
 
 ### Wazakura Ashinaga Bonsai Makası ve İçbükey Dal Kesici Seti
 
-Japonya’da üretilen bu iki parçalı set, detaylı budama ve temiz kesimler yapman için tasarlanmıştır. Uzun saplı Ashinaga makas ve içbükey dal kesici, [Satın Al: Wazakura Ashinaga Bonsai Makası ve İçbükey Dal Kesici Seti](aff://bonsai-budama-makasi) adresinden incelenebilir. İçbükey kesiciler, daldan geriye çıkıntı kalmayacak şekilde kesim yapmanı sağlar ve bitkinin kabuğunun yarayı hızlıca kapatmasına yardımcı olur. Tekli makaslara kıyasla daha yüksek bir bütçe gerektirdiğinden, hobiye yeni başlayanlar için ilk etapta fazla gelebilir. Kesilecek dalın kalınlığı aletin ölçüsüne göre değerlendirilmeli, zorlayıcı kalınlıklardan kaçınılmalıdır.
+Japonya’da üretilen bu iki parçalı set, detaylı budama ve temiz kesimler yapman için tasarlanmıştır. Uzun saplı Ashinaga makas ve içbükey dal kesici, adresinden incelenebilir. İçbükey kesiciler, daldan geriye çıkıntı kalmayacak şekilde kesim yapmanı sağlar ve bitkinin kabuğunun yarayı hızlıca kapatmasına yardımcı olur. Tekli makaslara kıyasla daha yüksek bir bütçe gerektirdiğinden, hobiye yeni başlayanlar için ilk etapta fazla gelebilir. Kesilecek dalın kalınlığı aletin ölçüsüne göre değerlendirilmeli, zorlayıcı kalınlıklardan kaçınılmalıdır.
 
 ### Genta Prestige Bonsai Sıvı Bitki Besini 500 ml
 

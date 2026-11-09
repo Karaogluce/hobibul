@@ -50,7 +50,7 @@ Coleman Sundome 4, yaklaşık 10 dakikada kurulabilen bir başlangıç modeli. D
 
 Sert rüzgar beklenen açık arazilerde ise dikkatli olman lazım, çünkü ürün verileri sert rüzgarlarda performansının sınırlı olduğunu söylüyor. Etiketi 4 kişilik olsa da, dört yetişkin bu çadırda biraz sıkışık kalabilir; en rahatı iki veya üç kişi kullanmak. Bir de unutma, yağmur dikişlerden sızmasa bile çadırı çukur bir yere kurarsan su alttan girebilir.
 
-[Satın Al: Coleman Sundome 4 Kişilik Çadır](aff://coleman-sundome-4)
+
 
 ## İki model arasındaki temel farklar
 
@@ -64,7 +64,7 @@ Tek başıma kalacağım diyorsan bile 2 kişilik bir çadır her zaman daha iyi
 
 Yalıtım performansı iyi olsa da çok yumuşak bir yatak konforu bekleme. Eğer belin hassassa veya mutlaka şişme yatak konforu arıyorsan bu mat seni mutlu etmeyebilir. Ama "kurulumla uğraşmayayım, beni yerden korusun yeter" diyorsan en pratik çözümlerden biridir.
 
-[Satın Al: Therm-a-Rest Z Lite Uyku Matı](aff://thermarest-z-lite)
+
 
 ## Çadır içi aydınlatma: Etekcity LED Fener
 
@@ -72,7 +72,7 @@ Hava karardığında çadırın içinde eşya bulmak ya da fermuarı çekmek tam
 
 Bu fener sağanak yağmur altında dışarıda bırakılacak bir ürün değil, daha çok iç mekan kullanımı için düşünülmüş. Çok geniş arazileri aydınlatmaz ama çadırın içini ve önündeki masayı görmene fazlasıyla yeter.
 
-[Satın Al: Etekcity LED Kamp Feneri](aff://etekcity-lantern)
+
 
 ## Kurulum yaparken dikkat etmen gerekenler
 
@@ -103,7 +103,7 @@ Kesinlikle iyi bir mat. Çadır seni rüzgardan ve yağmurdan korur ama mat seni
 | Paket | İçerik | Kimler İçin? |
 | --- | --- | --- |
 | Ekonomik | [Andoutdoor Monodome A](aff://andoutdoor-monodome-a) | Az eşyalı, kısa ve ılık yaz kampları için. |
-| Standart | [Coleman Sundome 4](aff://coleman-sundome-4) + [Z Lite Mat](aff://thermarest-z-lite) | Konfor ve yalıtım arayan, araçla kampa gidenler için. |
-| Tam Set | Sundome 4 + Z Lite + [Etekcity Fener](aff://etekcity-lantern) | Kamp alanında hem rahat uyumak hem de aydınlık kalmak isteyenler için. |
+| Standart | + | Konfor ve yalıtım arayan, araçla kampa gidenler için. |
+| Tam Set | Sundome 4 + Z Lite + | Kamp alanında hem rahat uyumak hem de aydınlık kalmak isteyenler için. |
 
 Benim tavsiyem, eğer bütçen uygunsa Coleman Sundome 4 ile başlaman. İki kişi için sunduğu alan ve kolay kurulumu sayesinde ilk kamp deneyimin çok daha keyifli geçer. Diğer ekipman ihtiyaçların için [outdoor kategorimize](/kategori/outdoor/) de bakabilirsin.

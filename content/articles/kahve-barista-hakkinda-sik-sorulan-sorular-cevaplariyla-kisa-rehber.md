@@ -55,7 +55,7 @@ Kahve makinesi seçimi yaparken günlük içim alışkanlıklarınızı ve mutfa
 
 ### Kahve öğütücü nasıl seçilir?
 
-Kahve öğütücü seçerken bıçaklı modeller yerine çapaklı öğütücülere bakmak homojen bir öğütme boyutu elde etmenizi sağlar. [Satın Al: De’Longhi Dedica KG 521.M Kahve Öğütücü](aff://baratza-encore-ogutucu) filtre kahve ve farklı demleme yöntemleri için 18 öğütme kademesi sunan kompakt elektrikli kahve öğütücü olarak bu süreci yönetmenizi kolaylaştırır. Kompakt gövdesi tezgahta çok yer kaplamaz ve porsiyon ayarı yapmanıza izin verir; ancak fiyatı başlangıç el değirmenlerinden yüksektir ve öğütme kabı düzenli temizlik ister. Bu cihaz, bütçesini esnetip elektrikli konfora geçmek isteyenlere uyar; ancak sadece ayda bir kahve öğüten biri için fazla gelebilir. Aynı kahve işinin devamı [Hassas Tartı](/makale/kahve-barista-malzemeleri/) rehberinde.
+Kahve öğütücü seçerken bıçaklı modeller yerine çapaklı öğütücülere bakmak homojen bir öğütme boyutu elde etmenizi sağlar. filtre kahve ve farklı demleme yöntemleri için 18 öğütme kademesi sunan kompakt elektrikli kahve öğütücü olarak bu süreci yönetmenizi kolaylaştırır. Kompakt gövdesi tezgahta çok yer kaplamaz ve porsiyon ayarı yapmanıza izin verir; ancak fiyatı başlangıç el değirmenlerinden yüksektir ve öğütme kabı düzenli temizlik ister. Bu cihaz, bütçesini esnetip elektrikli konfora geçmek isteyenlere uyar; ancak sadece ayda bir kahve öğüten biri için fazla gelebilir. Aynı kahve işinin devamı [Hassas Tartı](/makale/kahve-barista-malzemeleri/) rehberinde.
 
 ### Hario V60 Dripper nasıl kullanılır?
 

@@ -73,11 +73,11 @@ Yazıcı tek başına çalışmaz; yanına Sunlu PLA filament ve bir alet seti e
 - Alet setinin malzeme kalitesi orta seviyedir, spatula zamanla aşınabilir.
 - Kobra 2 çalışırken gürültülüdür ve topluluk desteği daha sınırlıdır.
 
-[Satın Al: Sunlu PLA Filament](aff://sunlu-pla-filament)
+
 
 [Satın Al: 3D Yazıcı Alet Seti](aff://3d-tool-kit)
 
-[Satın Al: Anycubic Kobra 2](aff://anycubic-kobra-2)
+
 
 ## İlk Baskıda Dikkat Edilecekler
 
@@ -103,7 +103,7 @@ Otomatik seviyeleme isteyip bütçesini daha düşük tutmak isteyenler için ma
 
 | Paket | İçinde ne var | Kime uyar |
 | --- | --- | --- |
-| Bütçe | [Anycubic Kobra 2](aff://anycubic-kobra-2), [Sunlu PLA](aff://sunlu-pla-filament) ve [alet seti](aff://3d-tool-kit) | Uygun fiyata otomatik seviyeleme isteyip sese katlananlar |
+| Bütçe |, ve [alet seti](aff://3d-tool-kit) | Uygun fiyata otomatik seviyeleme isteyip sese katlananlar |
 | Orta | [Bambu Lab A1 Mini](aff://bambu-lab-a1-mini), PLA ve alet seti | Az yer kaplasın, ayarla uğraştırmasın, küçük parça bassın diyenler |
 | Üst | [Ender 3 V3](aff://creality-ender-3-v3), PLA ve alet seti | İşi mekaniğiyle öğrenmek, geniş topluluktan faydalanmak isteyenler |
 

@@ -40,7 +40,7 @@ Cihazda bulunan stems ve Smart Fader özellikleri, parçaların vokallerini ve e
 
 ### Pioneer DJ DDJ-FLX2
 
-FLX serisinin en kompakt üyelerinden biri olan [Satın Al: Pioneer DJ DDJ-FLX2](aff://pioneer-ddj-flx2) modeli, AlphaTheta markası altında kullanıcılarla buluşur. Ayrıntılı kanal listesi olmasa da, FLX ailesinin pratik ve sade tasarım dilini korur. 
+FLX serisinin en kompakt üyelerinden biri olan modeli, AlphaTheta markası altında kullanıcılarla buluşur. Ayrıntılı kanal listesi olmasa da, FLX ailesinin pratik ve sade tasarım dilini korur. 
 
 Sayfayı açıp temel özelliklerine göz attığında, karmaşık detaylardan arındırılmış yalın bir kontrolcü görebilirsin. Özellik listesinin diğer büyük modellere kıyasla daha ince olması, bu cihazı özellikle en temel miks denemelerini yapmak isteyenler için cazip kılar.
 

@@ -43,7 +43,7 @@ Boyutları yazmasa da 6 mm kalınlığında yoğun sünger malzemeden üretilmi�
 - Ürün sayfasında en ve boy ölçüsü açıkça yazmıyor.
 - Belirli bir markası veya logosu yok.
 
-[Satın Al: 6 mm Kaymaz Yoga Matı](aff://yoga-mat-6mm-kaymaz)
+
 
 ## Buffer 140 cm: Kısa Alanlar İçin Alternatif
 
@@ -130,8 +130,8 @@ Dizlerinde hassasiyet varsa veya sert parkede çalışıyorsan 6 mm matlar daha 
 
 | Paket | Ürün İÇeriği | Kimler İçin Uygun? |
 | --- | --- | --- |
-| Başlangıç | [6 mm kaymaz mat](aff://yoga-mat-6mm-kaymaz) | Bütçesini korumak isteyen, markaya takılmayanlar |
+| Başlangıç | | Bütçesini korumak isteyen, markaya takılmayanlar |
 | Esneklik | 6 mm mat ve [200 cm kayış](aff://yoga-kemeri-pamuk-200) | Bacak ve omuz açmakta zorlanan, destek arayanlar |
-| İleri Seviye | [Liforme](aff://liforme-yoga-mat) veya [Manduka PRO](aff://manduka-pro) + [Gaiam blok](aff://gaiam-yoga-blocks) | Uzun ömürlü kullanım, yüksek tutuculuk ve hizalama arayanlar |
+| İleri Seviye | [Liforme](aff://liforme-yoga-mat) veya [Manduka PRO](aff://manduka-pro) + | Uzun ömürlü kullanım, yüksek tutuculuk ve hizalama arayanlar |
 
 Karar verirken ilk olarak evindeki çalışma alanını ve boyunu dikkate al. Ölçülerinden emin olmadığın bir modele yatırım yapmadan önce zemin ihtiyacını belirlemek en doğrusudur. Temel ihtiyaçlarını 6 mm bir mat ve pamuk kemerle karşılayabilir, pratiğin ilerledikçe üst segment matlara veya bloklara geçiş yapabilirsin.

@@ -16,7 +16,7 @@ image_source: ""
 subcategory: "orgu-tig"
 draft: "false"
 ---
-Örgü veya tığ işine başlarken onlarca parça içeren karmaşık kutular yerine elini yormayacak bir tığ, yumuşak bir iplik ve birkaç ilmek belirleyici almak seni gereksiz masraftan kurtarır. Eğer doğrudan tığ işiyle başlamak istiyorsan ilk alışverişinde ergonomik gövdesiyle öne çıkan [Satın Al: Clover Amour Tığ (5mm)](aff://clover-amour-hook) modelini ve orta kalınlıkta bir çileyi sepete eklemen işini rahatça görür. 
+Örgü veya tığ işine başlarken onlarca parça içeren karmaşık kutular yerine elini yormayacak bir tığ, yumuşak bir iplik ve birkaç ilmek belirleyici almak seni gereksiz masraftan kurtarır. Eğer doğrudan tığ işiyle başlamak istiyorsan ilk alışverişinde ergonomik gövdesiyle öne çıkan modelini ve orta kalınlıkta bir çileyi sepete eklemen işini rahatça görür. 
 
 Hobi raflarında gördüğün setlerin büyük kısmı, aslında hiç kullanmayacağın numaralarda gereçler barındırır. Yeni bir el uğraşına heves ettiğinde motivasyonunu kaçıran en büyük etken, kalitesiz bir alet yüzünden elinin ağrıması ya da ipin sürekli katlarına ayrılmasıdır. Bu yüzden bütçeni tek seferde tüketmek yerine, doğrudan öreceğin ilk parçaya göre temel gereçleri doğru seçmen gerekir.
 
@@ -76,9 +76,9 @@ Hangi seviyede bütçe ayıracağın, bu hobiyi ne kadar sürdüreceğinle doğr
 
 | Paket | İçinde ne var | Kime uyar |
 | --- | --- | --- |
-| Bütçe Paketi | [Satın Al: Boye Alüminyum Şiş Seti](aff://boye-needle-set) ve [Satın Al: Lion Brand Vanna's Choice İplik](aff://lion-brand-yarn) | Düşük harcamayla şiş örgüsünün temel mantığını kavramak isteyenlere. |
-| Orta Paket | [Satın Al: Clover Amour Tığ (5mm)](aff://clover-amour-hook), [Satın Al: Clover Kilitli İlmek Belirleyici](aff://clover-stitch-markers) ve [Satın Al: Lion Brand Vanna's Choice İplik](aff://lion-brand-yarn) | El konforunu koruyarak tığ işi motifler ve küçük aksesuarlar üretmek isteyenlere. |
-| Üst Paket | [Satın Al: Knit Picks Değiştirilebilir Şiş Seti](aff://knit-picks-interchangeable), [Satın Al: Clover Kilitli İlmek Belirleyici](aff://clover-stitch-markers) ve [Satın Al: Lion Brand Vanna's Choice İplik](aff://lion-brand-yarn) | Uzun vadeli projeler planlayan, ahşap dokunuşu ve esnek misina rahatlığı arayanlara. |
+| Bütçe Paketi | ve | Düşük harcamayla şiş örgüsünün temel mantığını kavramak isteyenlere. |
+| Orta Paket |, ve | El konforunu koruyarak tığ işi motifler ve küçük aksesuarlar üretmek isteyenlere. |
+| Üst Paket |, ve | Uzun vadeli projeler planlayan, ahşap dokunuşu ve esnek misina rahatlığı arayanlara. |
 
 ## Yeni Başlayanlar İçin Model Seçimi
 

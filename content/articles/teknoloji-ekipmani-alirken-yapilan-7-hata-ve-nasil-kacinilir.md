@@ -31,7 +31,7 @@ Atölyende veya çalışma masanda bütçeni boşa harcatıp çalışma hevesini
 
 Yalnızca birkaç LED yakıp söndürmek veya tek bir ortam sensöründen veri okumak istediğinde yüksek işlem gücüne sahip mini bilgisayarlar seçmek hem bütçeni yorar hem de sistemi gereksiz yere karmaşıklaştırır. İhtiyacından büyük kartlar daha fazla enerji tüketir, çabuk ısınır ve arkasında işletim sistemi yönetimi gibi ek yazılım yükleri barındırır. 
 
-Temel robotik denemeleri ya da basit otomasyonlar kuracaksan doğrudan mikrodenetleyicilere yönelmen çok daha sağlıklıdır. Kodlama ve temel elektronik projeleri için yaygın kullanılan, zengin sensör uyumu ve geniş topluluk desteğiyle öne çıkan [Satın Al: Arduino Uno R3 Mikrodenetleyici](aff://arduino-uno-r3) kullanımı kolay olduğu için bu tarz başlangıçlarda işini fazlasıyla görür. Buna karşılık projende görüntü işleme gibi yüksek hesaplama gücü veya dahili kablosuz bağlantı arıyorsan, bu kartın sınırlı işlem gücü ve kablosuz bağlantı desteği içermemesi sana yetmeyecektir.
+Temel robotik denemeleri ya da basit otomasyonlar kuracaksan doğrudan mikrodenetleyicilere yönelmen çok daha sağlıklıdır. Kodlama ve temel elektronik projeleri için yaygın kullanılan, zengin sensör uyumu ve geniş topluluk desteğiyle öne çıkan kullanımı kolay olduğu için bu tarz başlangıçlarda işini fazlasıyla görür. Buna karşılık projende görüntü işleme gibi yüksek hesaplama gücü veya dahili kablosuz bağlantı arıyorsan, bu kartın sınırlı işlem gücü ve kablosuz bağlantı desteği içermemesi sana yetmeyecektir.
 
 ### 2. Kutu Dışı Masrafları Hesaba Katmamak
 

@@ -42,7 +42,7 @@ Bu kartın en büyük eksisi, kutusundan soğutucu veya adaptör çıkmaması. "
 
 ## Gücü Sağlama Al: Resmi 27W Adaptör
 
-Kartı çıplak alıyorsan yanına mutlaka [Raspberry Pi Resmi Adaptör](aff://rpi-power-supply) eklemeni öneririm. Resmi parça kullanmak, ucuz bir telefon adaptörüyle risk almaktan çok daha mantıklıdır. 27W gücü sayesinde kartın ihtiyacı olan enerjiyi tam olarak sağlar ve USB-C ucuyla eski tip karmaşalara son verir. 
+Kartı çıplak alıyorsan yanına mutlaka eklemeni öneririm. Resmi parça kullanmak, ucuz bir telefon adaptörüyle risk almaktan çok daha mantıklıdır. 27W gücü sayesinde kartın ihtiyacı olan enerjiyi tam olarak sağlar ve USB-C ucuyla eski tip karmaşalara son verir. 
 
 Şunu unutma: Bu adaptör sadece Pi 5 için öneriliyor. Eğer elinde Pi 4 veya daha eski bir model varsa, uçları aynı görünse de bu adaptörü onlar için kullanma. Ayrıca birazdan bahsedeceğim GeeekPi setini alacaksan, içinden zaten bir adaptör çıkacağı için bunu ekstra olarak almana gerek yok.
 
@@ -53,7 +53,7 @@ Kartı çıplak alıyorsan yanına mutlaka [Raspberry Pi Resmi Adaptör](aff://r
 **Eksileri:**
 - Sadece Pi 5 ile uyumlu, eski kartlarda kullanılmaz.
 
-[Satın Al: Raspberry Pi 5 Resmi Adaptör](aff://rpi-power-supply)
+
 
 ## Her Şey Tek Kutuda: GeeekPi Seti
 
@@ -75,7 +75,7 @@ Setteki adaptör resmi bir Raspberry ürünü değil ama 27W sınıfında işini
 
 Pi 5'i kurup masaüstünü açtıktan sonra bir şeylere fiziksel olarak dokunmak istersen, [Freenove Başlangıç Kiti](aff://freenove-starter-kit) iyi bir kapı açar. İçindeki sensörler ve eğitici dokümanlar sayesinde rastgele kablo bağlayıp kartı yakma riskin azalır. Parça kalitesi orta seviye olsa da öğrenme aşamasında işini fazlasıyla görür.
 
-Eğer niyetin Linux işletim sistemiyle uğraşmak değil de sadece lamba yakmak veya motor döndürmekse, [Arduino Uno R3](aff://arduino-uno-r3) senin için daha doğru bir başlangıç olur. Arduino bir bilgisayar değil, basit bir kontrol kartıdır. Pi 5'e göre çok daha kısıtlı bir belleği vardır ama gerçek zamanlı işlerde daha sadedir. Linux ve tarayıcı istiyorsan Pi 5, sadece elektronik devre kuracaksan Uno mantıklı.
+Eğer niyetin Linux işletim sistemiyle uğraşmak değil de sadece lamba yakmak veya motor döndürmekse, senin için daha doğru bir başlangıç olur. Arduino bir bilgisayar değil, basit bir kontrol kartıdır. Pi 5'e göre çok daha kısıtlı bir belleği vardır ama gerçek zamanlı işlerde daha sadedir. Linux ve tarayıcı istiyorsan Pi 5, sadece elektronik devre kuracaksan Uno mantıklı.
 
 **Artıları:**
 - Freenove seti, sensörleri dokümanlarla birlikte verdiği için öğrenmeyi kolaylaştırıyor.
@@ -86,7 +86,7 @@ Eğer niyetin Linux işletim sistemiyle uğraşmak değil de sadece lamba yakmak
 - Arduino üzerinde bir işletim sistemi (Linux gibi) çalıştıramazsın.
 
 [Satın Al: Freenove Başlangıç Kiti](aff://freenove-starter-kit)
-[Satın Al: Arduino Uno R3](aff://arduino-uno-r3)
+
 
 ## İlk Kurulumda Nelere Dikkat Etmelisin?
 
@@ -98,8 +98,8 @@ Güç verirken telefon şarj cihazlarını bir kenara bırak ve ya resmi adaptö
 
 | Seçenek | İçerik | Kimler Almalı? |
 | --- | --- | --- |
-| **Bütçe Dostu** | [Arduino Uno R3](aff://arduino-uno-r3) ve [Freenove Kit](aff://freenove-starter-kit) | Ekranla işi olmayan, sadece elektroniğe giriş yapacaklar. |
-| **Orta Seviye** | [Pi 5 8GB](aff://raspberry-pi-5) ve [Resmi Adaptör](aff://rpi-power-supply) | Elinde zaten SD kart ve kasa olan, kendi sistemini kuracaklar. |
+| **Bütçe Dostu** | ve [Freenove Kit](aff://freenove-starter-kit) | Ekranla işi olmayan, sadece elektroniğe giriş yapacaklar. |
+| **Orta Seviye** | [Pi 5 8GB](aff://raspberry-pi-5) ve | Elinde zaten SD kart ve kasa olan, kendi sistemini kuracaklar. |
 | **Eksiksiz Set** | [GeeekPi Pi 5 Kiti](aff://geeekpi-pi5-baslangic-kiti) | Parça aramakla uğraşmadan doğrudan masaüstü bilgisayar kuracaklar. |
 
 Kısacası, eğer Linux dünyasına girmek ve güçlü bir kartla projeler yapmak istiyorsan Pi 5 8GB en iyi yol. Ama soğutucu ve adaptörü sakın ihmal etme. Sadece hobi amaçlı küçük devreler kuracaksan Uno ile başlamak hem cüzdanını hem de seni daha az yorar.

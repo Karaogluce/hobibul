@@ -1,249 +1,40 @@
 {
   "tarih": "2026-11-04",
-  "kaynak": "Neo Troy Games ürün sayfaları. Kişi sayısı, süre ve yaş, sayfadaki özellik satırından alındı.",
-  "not": "Listede olmayan oyun yazılmaz. Süre aralığı sayfadaki gibi bırakılır. Türkçe baskı yalnızca sayfa açıkça Türkçe lisans veya Türkçe kural diyorsa işaretlenir.",
+  "kaynak": "Amazon.com.tr ürün sayfası. Başlık oyun adını taşıyor. Kişi, süre ve yaş önceki kayıttan; yeni sayı uydurulmadı.",
+  "not": "Amazon.com.tr başlığında adı bulunamayan oyun listeden çıkarıldı.",
   "oyunlar": [
-    {
-      "id": "sky-team",
-      "ad": "Sky Team",
-      "url": "https://neotroygames.com/urun/sky-team/",
-      "oyuncu": "2",
-      "sure": "20 dk",
-      "yas": "12+",
-      "turkce": true,
-      "grup": ["iki_kisi", "en_iyi", "yilbasi"],
-      "ozet": "İki kişinin birlikte bir yolcu uçağını indirdiği oyun. Sayfa 2024 Spiel des Jahres ödülünü anıyor."
-    },
-    {
-      "id": "codenames-duet",
-      "ad": "Codenames Duet",
-      "url": "https://neotroygames.com/urun/codenames-duet/",
-      "oyuncu": "2+",
-      "sure": "15 dk",
-      "yas": "14+",
-      "turkce": false,
-      "grup": ["iki_kisi", "parti"],
-      "ozet": "Codenames'in birlikte oynanan hali. Sayfa 2 kişiyle de kurulduğunu söylüyor; özellik satırı 2+."
-    },
-    {
-      "id": "splendor",
-      "ad": "Splendor",
-      "url": "https://neotroygames.com/urun/splendor/",
-      "oyuncu": "2-4",
-      "sure": "30-60 dk",
-      "yas": "10+",
-      "turkce": true,
-      "grup": ["iki_kisi", "aile", "en_iyi", "strateji", "yeni", "yilbasi"],
-      "ozet": "Mücevher ticareti ve motor kurma. Sayfa 2014'ün en iyi kutu oyunu seçildiğini yazıyor."
-    },
-    {
-      "id": "carcassonne-kutu",
-      "ad": "Carcassonne",
-      "url": "https://neotroygames.com/urun/carcassonne/",
-      "oyuncu": "2-5",
-      "sure": "30-60 dk",
-      "yas": "8+",
-      "turkce": true,
-      "grup": ["iki_kisi", "aile", "en_iyi", "strateji", "yeni", "yilbasi"],
-      "ozet": "Rastgele karoyu haritaya ekleyerek kale şehrini büyüten oyun. Neo Troy 3. baskıyı satıyor."
-    },
     {
       "id": "ticket-to-ride-europe",
       "ad": "Ticket to Ride Europe",
-      "url": "https://neotroygames.com/urun/ticket-to-ride-europe/",
+      "url": "https://www.amazon.com.tr/dp/0975277367?tag=hobibulsite-21",
       "oyuncu": "2-5",
       "sure": "30-60 dk",
       "yas": "8+",
       "turkce": true,
-      "grup": ["iki_kisi", "aile", "en_iyi", "yeni", "yilbasi"],
-      "ozet": "20. yüzyıl başı Avrupa'sında tren yolu bağlama. Sayfa İstanbul'u da güzergâh olarak anıyor."
-    },
-    {
-      "id": "cascadia",
-      "ad": "Cascadia",
-      "url": "https://neotroygames.com/urun/cascadia/",
-      "oyuncu": "1-4",
-      "sure": "30-60 dk",
-      "yas": "10+",
-      "turkce": true,
-      "grup": ["iki_kisi", "aile", "en_iyi", "yeni"],
-      "ozet": "Habitat karoları ve hayvan pullarıyla ekosistem kurma. Tek kişi de oynanıyor."
-    },
-    {
-      "id": "evvel-zaman",
-      "ad": "Evvel Zaman",
-      "url": "https://neotroygames.com/urun/evvel-zaman/",
-      "oyuncu": "2-4",
-      "sure": "30 dk",
-      "yas": "10+",
-      "turkce": true,
-      "grup": ["iki_kisi", "aile"],
-      "ozet": "Birlikte çözülen saat bulmacası. Sayfa 40 bulmacadan söz ediyor."
-    },
-    {
-      "id": "captain-flip",
-      "ad": "Captain Flip",
-      "url": "https://neotroygames.com/urun/captain-flip/",
-      "oyuncu": "2-5",
-      "sure": "20 dk",
-      "yas": "8+",
-      "turkce": true,
-      "grup": ["iki_kisi", "aile", "en_iyi", "yeni", "yilbasi"],
-      "ozet": "Korsan tayfası seçilen kısa oyun. Karar bir kez veriliyor."
-    },
-    {
-      "id": "beste-bes",
-      "ad": "Beşte Beş",
-      "url": "https://neotroygames.com/urun/beste-bes/",
-      "oyuncu": "2-4",
-      "sure": "15 dk",
-      "yas": "8+",
-      "turkce": true,
-      "grup": ["iki_kisi", "yeni", "yilbasi"],
-      "ozet": "Taşındaki sayıyı yalnızca rakiplerin gördüğü hızlı çıkarım oyunu."
+      "grup": [
+        "iki_kisi",
+        "aile",
+        "en_iyi",
+        "yeni",
+        "yilbasi"
+      ],
+      "ozet": "20. yüzyıl başı Avrupa'sında tren yolu bağlama. Sayfa İstanbul'u da güzergâh olarak anıyor.",
+      "asin": "0975277367"
     },
     {
       "id": "pandemic",
       "ad": "Pandemic",
-      "url": "https://neotroygames.com/urun/pandemic/",
+      "url": "https://www.amazon.com.tr/dp/B00A2HD40E?tag=hobibulsite-21",
       "oyuncu": "2-4",
       "sure": "30-60 dk",
       "yas": "8+",
       "turkce": true,
-      "grup": ["iki_kisi", "aile"],
-      "ozet": "Dört salgını birlikte durdurmaya çalışan kooperatif oyun."
-    },
-    {
-      "id": "machi-koro",
-      "ad": "Machi Koro",
-      "url": "https://neotroygames.com/urun/machi-koro/",
-      "oyuncu": "2-4",
-      "sure": "30-60 dk",
-      "yas": "8+",
-      "turkce": true,
-      "grup": ["aile", "yeni"],
-      "ozet": "Şehir kurup rakibin zarından da gelir almaya çalışan oyun."
-    },
-    {
-      "id": "catan-kutu",
-      "ad": "Catan",
-      "url": "https://neotroygames.com/urun/catan/",
-      "oyuncu": "3-4",
-      "sure": "30-60 dk",
-      "yas": "10+",
-      "turkce": true,
-      "grup": ["aile", "en_iyi", "strateji", "yilbasi"],
-      "ozet": "Köy kurup kaynak takas eden oyun. Temel kutu 3-4 kişi. İki kişilik değildir."
-    },
-    {
-      "id": "bi-paket-cips",
-      "ad": "Bi' Paket Cips",
-      "url": "https://neotroygames.com/urun/bi-paket-cips/",
-      "oyuncu": "2-6",
-      "sure": "15 dk",
-      "yas": "8+",
-      "turkce": true,
-      "grup": ["parti", "aile", "en_iyi", "yilbasi"],
-      "ozet": "Cips pullarıyla hedef kartı tutturmaya çalışan tahmin ve risk oyunu."
-    },
-    {
-      "id": "hop",
-      "ad": "Hop!",
-      "url": "https://neotroygames.com/urun/hop/",
-      "oyuncu": "2-7",
-      "sure": "10 dk",
-      "yas": "8+",
-      "turkce": true,
-      "grup": ["parti", "aile", "yeni"],
-      "ozet": "Renk ve sayı eşine, doğru anda araya girilen kısa kart oyunu."
-    },
-    {
-      "id": "codenames-kutu",
-      "ad": "Codenames",
-      "url": "https://neotroygames.com/urun/codenames/",
-      "oyuncu": "4-8+",
-      "sure": "15 dk",
-      "yas": "14+",
-      "turkce": false,
-      "grup": ["parti", "en_iyi", "yilbasi"],
-      "ozet": "İki takımın kod adıyla ajan bulduğu parti oyunu. Sayfa 45'ten fazla dilde yayınlandığını yazıyor."
-    },
-    {
-      "id": "frekans",
-      "ad": "Frekans",
-      "url": "https://neotroygames.com/urun/frekans/",
-      "oyuncu": "2-12+",
-      "sure": "30-45 dk",
-      "yas": "14+",
-      "turkce": true,
-      "grup": ["parti"],
-      "ozet": "İki takımın aynı ölçekte tahmin yürüttüğü sohbet oyunu."
-    },
-    {
-      "id": "bang",
-      "ad": "BANG!",
-      "url": "https://neotroygames.com/urun/bang/",
-      "oyuncu": "4-7",
-      "sure": "30-60 dk",
-      "yas": "10+",
-      "turkce": true,
-      "grup": ["parti"],
-      "ozet": "Gizli rollü Vahşi Batı oyunu. Dörtten az kişiyle kurulmuyor."
-    },
-    {
-      "id": "munchkin",
-      "ad": "Munchkin",
-      "url": "https://neotroygames.com/urun/munchkin/",
-      "oyuncu": "3-6",
-      "sure": "60-120 dk",
-      "yas": "16+",
-      "turkce": true,
-      "grup": ["parti"],
-      "ozet": "Zindanda canavar kesip birbirinin seviyesini bozan kart oyunu."
-    },
-    {
-      "id": "7-wonders",
-      "ad": "7 Wonders",
-      "url": "https://neotroygames.com/urun/7-wonders/",
-      "oyuncu": "3-7",
-      "sure": "30-60 dk",
-      "yas": "14+",
-      "turkce": true,
-      "grup": ["en_iyi", "strateji"],
-      "ozet": "Yedi antik kentten birini yönetme. Sayfa, Türkçe lisansın Goblin Gaming'de olduğunu yazıyor."
-    },
-    {
-      "id": "wingspan",
-      "ad": "Wingspan",
-      "url": "https://neotroygames.com/urun/wingspan/",
-      "oyuncu": "1-5",
-      "sure": "30-60 dk",
-      "yas": "14+",
-      "turkce": true,
-      "grup": ["en_iyi", "strateji"],
-      "ozet": "Kuş kartlarıyla koleksiyon ve motor kurma. Tek kişi de oynanıyor."
-    },
-    {
-      "id": "heat-tam-gaz",
-      "ad": "Heat: Tam Gaz",
-      "url": "https://neotroygames.com/urun/heat-tam-gaz/",
-      "oyuncu": "1-6",
-      "sure": "60 dk",
-      "yas": "10+",
-      "turkce": true,
-      "grup": ["en_iyi", "strateji", "yilbasi"],
-      "ozet": "1960'lar yarışında el yönetimi. Virajda hız, motoru hararet ettirebiliyor."
-    },
-    {
-      "id": "terraforming-mars",
-      "ad": "Terraforming Mars",
-      "url": "https://neotroygames.com/urun/terraforming-mars/",
-      "oyuncu": "1-5",
-      "sure": "120-240 dk",
-      "yas": "14+",
-      "turkce": true,
-      "grup": ["strateji"],
-      "ozet": "Şirket yönetip Mars'ı dönüştüren uzun strateji oyunu."
+      "grup": [
+        "iki_kisi",
+        "aile"
+      ],
+      "ozet": "Dört salgını birlikte durdurmaya çalışan kooperatif oyun.",
+      "asin": "B00A2HD40E"
     }
   ]
 }

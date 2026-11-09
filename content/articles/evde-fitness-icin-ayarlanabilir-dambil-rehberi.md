@@ -45,7 +45,7 @@ Ancak bu set herkese uymaz. Bütçen kısıtlıysa fiyatı seni biraz zorlayabil
 - Gövdesi ağırdır ve taşıması zordur.
 - Düşürmelere karşı hassastır.
 
-[Satın Al: Bowflex 552 Dambıl](aff://bowflex-552)
+
 
 ## PowerBlock: Sağlam ve Farklı Bir Tasarım
 
@@ -62,7 +62,7 @@ Eğer "elimdeki ağırlık spor salonundaki dambıl hissini versin" diyorsan, Po
 - Tutuş hissi klasik dambıllardan farklıdır.
 - Ağırlık değiştirmek biraz pratik gerektirir.
 
-[Satın Al: PowerBlock Ayarlanabilir Dambıl](aff://powerblock-dumbbells)
+
 
 ## Yes4All: Uygun Fiyatlı Başlangıç
 
@@ -78,7 +78,7 @@ Kutuyu ilk açtığında belirgin bir kauçuk kokusu alabilirsin. Bu durum ürü
 - Kauçuk kokusu rahatsız edici olabilir.
 - Çok ağır antrenmanlar için kilo sınırı düşüktür.
 
-[Satın Al: Yes4All Ayarlanabilir Dambıl Seti](aff://yes4all-dumbbells)
+
 
 ## Antrenmanı Tamamlayan Detaylar: Bant ve Mat
 
@@ -94,7 +94,7 @@ Dambıllarla çalışırken zemini ve dizlerini korumak için kalın bir egzersi
 - Bantlar lateks içerir ve zamanla yıpranabilir.
 - Kalın mat rulo yapıldığında bile hacimli durur.
 
-[Satın Al: TheraBand Direnç Bantları](aff://theraband-bands)
+
 
 [Satın Al: Kalın Egzersiz Matı](aff://exercise-mat)
 
@@ -108,9 +108,9 @@ Antrenman bittiğinde dambılları orta yerde bırakma, gece karanlıkta ayağı
 
 | Paket | İçindekiler | Kime Uygun? |
 | --- | --- | --- |
-| **Bütçe Dostu** | [Yes4All Set](aff://yes4all-dumbbells) + [Kalın Mat](aff://exercise-mat) | Spora yeni başlayan ve çok harcama yapmak istemeyenler. |
-| **Orta Seviye** | [Bowflex 552](aff://bowflex-552) + Mat | Tek bir dambıl çiftiyle tüm antrenmanı çözmek isteyenler. |
-| **Tam Teçhizat** | Bowflex/PowerBlock + Mat + [TheraBand](aff://theraband-bands) | Hızlı ağırlık değişimi ve tam kapsamlı ev antrenmanı arayanlar. |
+| **Bütçe Dostu** | + [Kalın Mat](aff://exercise-mat) | Spora yeni başlayan ve çok harcama yapmak istemeyenler. |
+| **Orta Seviye** | + Mat | Tek bir dambıl çiftiyle tüm antrenmanı çözmek isteyenler. |
+| **Tam Teçhizat** | Bowflex/PowerBlock + Mat + | Hızlı ağırlık değişimi ve tam kapsamlı ev antrenmanı arayanlar. |
 
 ## Sık Sorulan Sorular
 

@@ -545,7 +545,8 @@
         ],
         "query": "Andoutdoor Monodome A 2 kisilik cadir",
         "network": "amazon_tr",
-        "asin": "B09MQGNKHP"
+        "asin": "B09MQGNKHP",
+        "amazon_url": "https://www.amazon.com.tr/dp/B09MQGNKHP?tag=hobibulsite-21"
       }
     ]
   },
@@ -914,7 +915,9 @@
           "Kuruyunca kalıcı"
         ],
         "query": "Liquitex Basics acrylic set",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B09HTQN4PJ",
+        "amazon_url": "https://www.amazon.com.tr/dp/B09HTQN4PJ?tag=hobibulsite-21"
       },
       {
         "id": "winsor-newton-watercolor",
@@ -931,7 +934,9 @@
           "Taşınması hassas"
         ],
         "query": "Winsor Newton Cotman watercolor",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B00004THXI",
+        "amazon_url": "https://www.amazon.com.tr/dp/B00004THXI?tag=hobibulsite-21"
       },
       {
         "id": "princeton-brushes",
@@ -1175,7 +1180,9 @@
           "Küçük taşlar yerde kaybolur"
         ],
         "query": "diamond painting set",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0HKNDB65P",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0HKNDB65P?tag=hobibulsite-21"
       },
       {
         "id": "diamond-painting-pen",
@@ -1229,7 +1236,8 @@
         ],
         "query": "Fender Player Stratocaster",
         "network": "amazon_tr",
-        "asin": "B07CTV5YVZ"
+        "asin": "B07CTV5YVZ",
+        "amazon_url": "https://www.amazon.com.tr/dp/B07CTV5YVZ?tag=hobibulsite-21"
       },
       {
         "id": "yamaha-p45",
@@ -1283,9 +1291,9 @@
         ],
         "query": "Pioneer DDJ-FLX4 controller",
         "network": "amazon_tr",
-        "asin": "B0BK25SY9G",
+        "asin": "B0BLSJZC94",
         "not": "Amazon.com.tr sayfası: 2 kanal, rekordbox DJ dahil, Serato dahil değil, 24-bit, 2 USB-C, listede 2,2 kg.",
-        "amazon_url": "https://www.amazon.com.tr/dp/B0BK25SY9G",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0BLSJZC94?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -1329,7 +1337,8 @@
         ],
         "query": "Fender Player Stratocaster",
         "network": "amazon_tr",
-        "asin": "B07CTV5YVZ"
+        "asin": "B07CTV5YVZ",
+        "amazon_url": "https://www.amazon.com.tr/dp/B07CTV5YVZ?tag=hobibulsite-21"
       },
       {
         "id": "yamaha-f310",
@@ -1348,7 +1357,7 @@
         "query": "Yamaha F310 acoustic guitar",
         "network": "amazon_tr",
         "asin": "B08Z3C1GRM",
-        "amazon_url": "https://www.amazon.com.tr/dp/B08Z3C1GRM",
+        "amazon_url": "https://www.amazon.com.tr/dp/B08Z3C1GRM?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -1372,7 +1381,8 @@
         ],
         "query": "Boss Katana 50 amp",
         "network": "amazon_tr",
-        "asin": "B0D1Z6VHD8"
+        "asin": "B0D1Z6VHD8",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0D1Z6VHD8?tag=hobibulsite-21"
       },
       {
         "id": "daddario-exl110",
@@ -1614,9 +1624,9 @@
         ],
         "query": "Pioneer DDJ-FLX4 controller",
         "network": "amazon_tr",
-        "asin": "B0BK25SY9G",
+        "asin": "B0BLSJZC94",
         "not": "Amazon.com.tr sayfası: 2 kanal, rekordbox DJ dahil, Serato dahil değil, 24-bit, 2 USB-C, listede 2,2 kg.",
-        "amazon_url": "https://www.amazon.com.tr/dp/B0BK25SY9G",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0BLSJZC94?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -1819,7 +1829,8 @@
         ],
         "query": "Numark Party Mix III",
         "network": "amazon_tr",
-        "asin": "B0GYYZHD3T"
+        "asin": "B0GYYZHD3T",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0GYYZHD3T?tag=hobibulsite-21"
       },
       {
         "id": "numark-mixtrack-go",
@@ -1839,7 +1850,7 @@
         "query": "Numark MixTrack Go",
         "network": "amazon_tr",
         "asin": "B0GYYS6B5X",
-        "amazon_url": "https://www.amazon.com.tr/dp/B0GYYS6B5X",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0GYYS6B5X?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -1864,7 +1875,8 @@
         ],
         "query": "Numark Mixtrack Pro FX",
         "network": "amazon_tr",
-        "asin": "B087S28ZRM"
+        "asin": "B087S28ZRM",
+        "amazon_url": "https://www.amazon.com.tr/dp/B087S28ZRM?tag=hobibulsite-21"
       },
       {
         "id": "pioneer-ddj-flx2",
@@ -1911,8 +1923,8 @@
         ],
         "query": "Raspberry Pi 5 8GB",
         "network": "amazon_tr",
-        "asin": "B0CK2FCG1K",
-        "amazon_url": "https://www.amazon.com.tr/dp/B0CK2FCG1K",
+        "asin": "B0CS2Z72FY",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0CS2Z72FY?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -1937,7 +1949,7 @@
         "query": "Creality Ender 3 V3",
         "network": "amazon_tr",
         "asin": "B0D3VCLX5N",
-        "amazon_url": "https://www.amazon.com.tr/dp/B0D3VCLX5N",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0D3VCLX5N?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -1962,7 +1974,7 @@
         "query": "DJI Mini 4K drone",
         "network": "amazon_tr",
         "asin": "B0CXJDDJ9X",
-        "amazon_url": "https://www.amazon.com.tr/dp/B0CXJDDJ9X",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0CXJDDJ9X?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -1985,7 +1997,9 @@
           "Orta-üst fiyat"
         ],
         "query": "Keychron K2 wireless mechanical keyboard",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0FGQG347Z",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0FGQG347Z?tag=hobibulsite-21"
       },
       {
         "id": "arduino-uno-r3",
@@ -2030,8 +2044,8 @@
         ],
         "query": "Raspberry Pi 5 8GB",
         "network": "amazon_tr",
-        "asin": "B0CK2FCG1K",
-        "amazon_url": "https://www.amazon.com.tr/dp/B0CK2FCG1K",
+        "asin": "B0CS2Z72FY",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0CS2Z72FY?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -2079,7 +2093,9 @@
           "Kutu organizasyonu"
         ],
         "query": "Freenove starter kit",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0CJJHXD1W",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0CJJHXD1W?tag=hobibulsite-21"
       },
       {
         "id": "elegoo-sensor-set",
@@ -2142,7 +2158,7 @@
         "query": "Creality Ender 3 V3",
         "network": "amazon_tr",
         "asin": "B0D3VCLX5N",
-        "amazon_url": "https://www.amazon.com.tr/dp/B0D3VCLX5N",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0D3VCLX5N?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -2165,7 +2181,9 @@
           "Parça pahalı"
         ],
         "query": "Bambu Lab A1 Mini",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0FK5TG88M",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0FK5TG88M?tag=hobibulsite-21"
       },
       {
         "id": "sunlu-pla-filament",
@@ -2216,7 +2234,9 @@
           "Spatula aşınabilir"
         ],
         "query": "3D printer tool kit",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B09HGXHJ3J",
+        "amazon_url": "https://www.amazon.com.tr/dp/B09HGXHJ3J?tag=hobibulsite-21"
       }
     ],
     "drone": [
@@ -2237,7 +2257,7 @@
         "query": "DJI Mini 4K drone",
         "network": "amazon_tr",
         "asin": "B0CXJDDJ9X",
-        "amazon_url": "https://www.amazon.com.tr/dp/B0CXJDDJ9X",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0CXJDDJ9X?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -2278,7 +2298,8 @@
         ],
         "query": "DJI Neo drone",
         "network": "amazon_tr",
-        "asin": "B07FTPX71F"
+        "asin": "B07FTPX71F",
+        "amazon_url": "https://www.amazon.com.tr/dp/B07FTPX71F?tag=hobibulsite-21"
       },
       {
         "id": "ryze-tello",
@@ -2295,7 +2316,9 @@
           "Rüzgara hassas"
         ],
         "query": "Ryze Tello drone",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B07CPT5TSL",
+        "amazon_url": "https://www.amazon.com.tr/dp/B07CPT5TSL?tag=hobibulsite-21"
       },
       {
         "id": "drone-propellers",
@@ -2331,7 +2354,9 @@
           "Orta-üst fiyat"
         ],
         "query": "Keychron K2 wireless mechanical keyboard",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0FGQG347Z",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0FGQG347Z?tag=hobibulsite-21"
       },
       {
         "id": "logitech-g502",
@@ -2516,7 +2541,8 @@
         ],
         "query": "GeeekPi Raspberry Pi 5 8GB baslangic kiti",
         "network": "amazon_tr",
-        "asin": "B0D1QQ174C"
+        "asin": "B0D1QQ174C",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0D1QQ174C?tag=hobibulsite-21"
       },
       {
         "id": "mobee-e88-drone",
@@ -2536,7 +2562,7 @@
         "query": "MOBEE E88 drone",
         "network": "amazon_tr",
         "asin": "B0HKNQX9G8",
-        "amazon_url": "https://www.amazon.com.tr/dp/B0HKNQX9G8",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0HKNQX9G8?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -2561,7 +2587,8 @@
         ],
         "query": "Redragon K552 Kumara Türkçe",
         "network": "amazon_tr",
-        "asin": "B09JZBSKS7"
+        "asin": "B09JZBSKS7",
+        "amazon_url": "https://www.amazon.com.tr/dp/B09JZBSKS7?tag=hobibulsite-21"
       },
       {
         "id": "logitech-g213",
@@ -2580,7 +2607,8 @@
         ],
         "query": "Logitech G213 Türkçe Q",
         "network": "amazon_tr",
-        "asin": "B01MXJVMGX"
+        "asin": "B01MXJVMGX",
+        "amazon_url": "https://www.amazon.com.tr/dp/B01MXJVMGX?tag=hobibulsite-21"
       },
       {
         "id": "logitech-g102",
@@ -2599,7 +2627,8 @@
         ],
         "query": "Logitech G102 mouse",
         "network": "amazon_tr",
-        "asin": "B07W4DH8JW"
+        "asin": "B07W4DH8JW",
+        "amazon_url": "https://www.amazon.com.tr/dp/B07W4DH8JW?tag=hobibulsite-21"
       },
       {
         "id": "logitech-g502-hero",
@@ -2619,7 +2648,7 @@
         "query": "Logitech G502 HERO",
         "network": "amazon_tr",
         "asin": "B07GS6ZB7T",
-        "amazon_url": "https://www.amazon.com.tr/dp/B07GS6ZB7T",
+        "amazon_url": "https://www.amazon.com.tr/dp/B07GS6ZB7T?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -3166,8 +3195,7 @@
           "İki kişilik akşama kurulmuyor"
         ],
         "query": "Catan kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/catan/"
+        "network": "amazon_tr"
       },
       {
         "id": "carcassonne-kutu",
@@ -3182,8 +3210,7 @@
           "Yaş sınırı 8+"
         ],
         "query": "Carcassonne kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/carcassonne/"
+        "network": "amazon_tr"
       },
       {
         "id": "patchwork-kutu",
@@ -3240,7 +3267,7 @@
         "id": "ticket-to-ride-europe",
         "name": "Ticket to Ride Europe",
         "brand": "Days of Wonder",
-        "desc": "20. yüzyıl başı Avrupa'sında tren yolu bağlama. Sayfa İstanbul'u da güzergâh olarak anıyor. Neo Troy kaydı: 2-5 kişi, 30-60 dk, 8+.",
+        "desc": "20. yüzyıl başı Avrupa'sında tren yolu bağlama. Sayfa İstanbul'u da güzergâh olarak anıyor. kaydı: 2-5 kişi, 30-60 dk, 8+.",
         "pros": [
           "2-5 kişi",
           "Süre 30-60 dk"
@@ -3250,7 +3277,8 @@
         ],
         "query": "Ticket to Ride Europe kutu oyunu",
         "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/ticket-to-ride-europe/"
+        "asin": "0975277367",
+        "amazon_url": "https://www.amazon.com.tr/dp/0975277367?tag=hobibulsite-21"
       },
       {
         "id": "kingdomino-kutu",
@@ -3299,8 +3327,7 @@
           "Yaş sınırı 14+"
         ],
         "query": "Codenames kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/codenames/"
+        "network": "amazon_tr"
       },
       {
         "id": "catan-junior",
@@ -3333,8 +3360,7 @@
           "Üçüncü kişi bu kutuya oturamıyor"
         ],
         "query": "Sky Team kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/sky-team/"
+        "network": "amazon_tr"
       },
       {
         "id": "codenames-duet",
@@ -3349,8 +3375,7 @@
           "Yaş sınırı 14+"
         ],
         "query": "Codenames Duet kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/codenames-duet/"
+        "network": "amazon_tr"
       },
       {
         "id": "splendor",
@@ -3365,8 +3390,7 @@
           "Yaş sınırı 10+"
         ],
         "query": "Splendor kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/splendor/"
+        "network": "amazon_tr"
       },
       {
         "id": "cascadia",
@@ -3381,8 +3405,7 @@
           "Yaş sınırı 10+"
         ],
         "query": "Cascadia kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/cascadia/"
+        "network": "amazon_tr"
       },
       {
         "id": "evvel-zaman",
@@ -3397,8 +3420,7 @@
           "Yaş sınırı 10+"
         ],
         "query": "Evvel Zaman kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/evvel-zaman/"
+        "network": "amazon_tr"
       },
       {
         "id": "captain-flip",
@@ -3413,8 +3435,7 @@
           "Yaş sınırı 8+"
         ],
         "query": "Captain Flip kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/captain-flip/"
+        "network": "amazon_tr"
       },
       {
         "id": "beste-bes",
@@ -3429,14 +3450,13 @@
           "Yaş sınırı 8+"
         ],
         "query": "Beşte Beş kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/beste-bes/"
+        "network": "amazon_tr"
       },
       {
         "id": "pandemic",
         "name": "Pandemic",
         "brand": "",
-        "desc": "Dört salgını birlikte durdurmaya çalışan kooperatif oyun. Neo Troy kaydı: 2-4 kişi, 30-60 dk, 8+.",
+        "desc": "Dört salgını birlikte durdurmaya çalışan kooperatif oyun. kaydı: 2-4 kişi, 30-60 dk, 8+.",
         "pros": [
           "2-4 kişi",
           "Süre 30-60 dk"
@@ -3446,7 +3466,8 @@
         ],
         "query": "Pandemic kutu oyunu",
         "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/pandemic/"
+        "asin": "B00A2HD40E",
+        "amazon_url": "https://www.amazon.com.tr/dp/B00A2HD40E?tag=hobibulsite-21"
       },
       {
         "id": "machi-koro",
@@ -3461,8 +3482,7 @@
           "Yaş sınırı 8+"
         ],
         "query": "Machi Koro kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/machi-koro/"
+        "network": "amazon_tr"
       },
       {
         "id": "bi-paket-cips",
@@ -3477,8 +3497,7 @@
           "Yaş sınırı 8+"
         ],
         "query": "Bi' Paket Cips kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/bi-paket-cips/"
+        "network": "amazon_tr"
       },
       {
         "id": "hop",
@@ -3493,8 +3512,7 @@
           "Yaş sınırı 8+"
         ],
         "query": "Hop! kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/hop/"
+        "network": "amazon_tr"
       },
       {
         "id": "frekans",
@@ -3509,8 +3527,7 @@
           "Yaş sınırı 14+"
         ],
         "query": "Frekans kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/frekans/"
+        "network": "amazon_tr"
       },
       {
         "id": "bang",
@@ -3525,8 +3542,7 @@
           "Yaş sınırı 10+"
         ],
         "query": "BANG! kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/bang/"
+        "network": "amazon_tr"
       },
       {
         "id": "munchkin",
@@ -3541,8 +3557,7 @@
           "Yaş sınırı 16+"
         ],
         "query": "Munchkin kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/munchkin/"
+        "network": "amazon_tr"
       },
       {
         "id": "7-wonders",
@@ -3557,8 +3572,7 @@
           "Yaş sınırı 14+"
         ],
         "query": "7 Wonders kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/7-wonders/"
+        "network": "amazon_tr"
       },
       {
         "id": "wingspan",
@@ -3573,8 +3587,7 @@
           "Yaş sınırı 14+"
         ],
         "query": "Wingspan kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/wingspan/"
+        "network": "amazon_tr"
       },
       {
         "id": "heat-tam-gaz",
@@ -3589,8 +3602,7 @@
           "Yaş sınırı 10+"
         ],
         "query": "Heat: Tam Gaz kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/heat-tam-gaz/"
+        "network": "amazon_tr"
       },
       {
         "id": "terraforming-mars",
@@ -3605,8 +3617,7 @@
           "Yaş sınırı 14+"
         ],
         "query": "Terraforming Mars kutu oyunu",
-        "network": "amazon_tr",
-        "url": "https://neotroygames.com/urun/terraforming-mars/"
+        "network": "amazon_tr"
       }
     ],
     "_ek": [
@@ -3627,7 +3638,8 @@
         ],
         "query": "LEGO Bonsai 10281",
         "network": "amazon_tr",
-        "asin": "B08G4PCG8F"
+        "asin": "B08G4PCG8F",
+        "amazon_url": "https://www.amazon.com.tr/dp/B08G4PCG8F?tag=hobibulsite-21"
       },
       {
         "id": "lego-mini-bonsai-10373",
@@ -3647,7 +3659,7 @@
         "query": "LEGO Mini Bonsai 10373",
         "network": "amazon_tr",
         "asin": "B0DWDDNK1J",
-        "amazon_url": "https://www.amazon.com.tr/dp/B0DWDDNK1J",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0DWDDNK1J?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -3673,7 +3685,7 @@
         "query": "LEGO Sukulentler 10309",
         "network": "amazon_tr",
         "asin": "B09BNV7VS1",
-        "amazon_url": "https://www.amazon.com.tr/dp/B09BNV7VS1",
+        "amazon_url": "https://www.amazon.com.tr/dp/B09BNV7VS1?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -3699,7 +3711,7 @@
         "query": "LEGO Speed Champions Supra 77260",
         "network": "amazon_tr",
         "asin": "B0FPXF65PH",
-        "amazon_url": "https://www.amazon.com.tr/dp/B0FPXF65PH",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0FPXF65PH?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -3724,7 +3736,8 @@
         ],
         "query": "LEGO Zaman Makinesi 77256",
         "network": "amazon_tr",
-        "asin": "B0FPXDXXYR"
+        "asin": "B0FPXDXXYR",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0FPXDXXYR?tag=hobibulsite-21"
       },
       {
         "id": "lego-kiraz-40725",
@@ -3743,7 +3756,8 @@
         ],
         "query": "LEGO Kiraz Çiçekleri 40725",
         "network": "amazon_tr",
-        "asin": "B0CFW1NHPC"
+        "asin": "B0CFW1NHPC",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0CFW1NHPC?tag=hobibulsite-21"
       }
     ],
     "puzzle": [
@@ -3761,7 +3775,9 @@
           "Çok büyük puzzle tek rulo sığmayabilir"
         ],
         "query": "puzzle mat roll up",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0HPGQHP6X",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0HPGQHP6X?tag=hobibulsite-21"
       },
       {
         "id": "puzzle-yapistirici",
@@ -3777,7 +3793,9 @@
           "İnce sürülmezse yüzey dalgalanır"
         ],
         "query": "puzzle glue",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0FK5TFXTZ",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0FK5TFXTZ?tag=hobibulsite-21"
       },
       {
         "id": "puzzle-cerceve",
@@ -3793,7 +3811,9 @@
           "Cam yansıması deseni kapatabilir"
         ],
         "query": "puzzle frame",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0FVTJCL9J",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0FVTJCL9J?tag=hobibulsite-21"
       },
       {
         "id": "puzzle-hali",
@@ -3809,7 +3829,9 @@
           "Evcil hayvan tüyü desene yapışır"
         ],
         "query": "puzzle felt mat",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B09FM1B38W",
+        "amazon_url": "https://www.amazon.com.tr/dp/B09FM1B38W?tag=hobibulsite-21"
       }
     ]
   },
@@ -3847,7 +3869,9 @@
           "Ağır"
         ],
         "query": "Liforme yoga mat",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B07TCCH2VP",
+        "amazon_url": "https://www.amazon.com.tr/dp/B07TCCH2VP?tag=hobibulsite-21"
       },
       {
         "id": "bowflex-552",
@@ -3934,7 +3958,9 @@
           "Müzik depolama yok"
         ],
         "query": "Garmin Forerunner 55",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0DK7LG6B4",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0DK7LG6B4?tag=hobibulsite-21"
       },
       {
         "id": "flipbelt",
@@ -4004,7 +4030,9 @@
           "Ağır"
         ],
         "query": "Liforme yoga mat",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B07TCCH2VP",
+        "amazon_url": "https://www.amazon.com.tr/dp/B07TCCH2VP?tag=hobibulsite-21"
       },
       {
         "id": "gaiam-yoga-blocks",
@@ -4038,7 +4066,9 @@
           "Başta kaygan"
         ],
         "query": "Manduka PRO yoga mat",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B08SMDR7QG",
+        "amazon_url": "https://www.amazon.com.tr/dp/B08SMDR7QG?tag=hobibulsite-21"
       },
       {
         "id": "yoga-strap",
@@ -4161,7 +4191,9 @@
           "Koku"
         ],
         "query": "exercise mat thick",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0CH6ZCRC3",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0CH6ZCRC3?tag=hobibulsite-21"
       }
     ],
     "yuzme": [
@@ -4578,7 +4610,8 @@
         ],
         "query": "Buffer yoga matı 140x50 6mm",
         "network": "amazon_tr",
-        "asin": "B0GNZW293G"
+        "asin": "B0GNZW293G",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0GNZW293G?tag=hobibulsite-21"
       },
       {
         "id": "yoga-kemeri-pamuk-200",
@@ -4598,7 +4631,7 @@
         "query": "pamuk yoga kemeri 200 cm",
         "network": "amazon_tr",
         "asin": "B0H4RPNFBV",
-        "amazon_url": "https://www.amazon.com.tr/dp/B0H4RPNFBV",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0H4RPNFBV?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -4625,7 +4658,9 @@
           "Pil küçük"
         ],
         "query": "Canon EOS R50 camera",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0FBRN6BPV",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0FBRN6BPV?tag=hobibulsite-21"
       },
       {
         "id": "faber-castell-polychromos",
@@ -4712,7 +4747,9 @@
           "Pil küçük"
         ],
         "query": "Canon EOS R50 camera",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0FBRN6BPV",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0FBRN6BPV?tag=hobibulsite-21"
       },
       {
         "id": "sony-a6400",
@@ -5201,7 +5238,7 @@
         "query": "Canon EOS R100 travel kit",
         "network": "amazon_tr",
         "asin": "B0GP7BJ5M7",
-        "amazon_url": "https://www.amazon.com.tr/dp/B0GP7BJ5M7",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0GP7BJ5M7?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -5561,7 +5598,7 @@
         "query": "Compo 1602 bonsai soil 5 l",
         "network": "amazon_tr",
         "asin": "B00CC3F3EG",
-        "amazon_url": "https://www.amazon.com.tr/dp/B00CC3F3EG",
+        "amazon_url": "https://www.amazon.com.tr/dp/B00CC3F3EG?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -5611,7 +5648,7 @@
         "query": "Genta Prestige bonsai liquid fertilizer 500 ml",
         "network": "amazon_tr",
         "asin": "B0BSNFQJ3Q",
-        "amazon_url": "https://www.amazon.com.tr/dp/B0BSNFQJ3Q",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0BSNFQJ3Q?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -6267,7 +6304,9 @@
           "Küçük boylar düşük ağırlık limitli"
         ],
         "query": "flexi New Classic retractable leash",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0719VZR6S",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0719VZR6S?tag=hobibulsite-21"
       },
       {
         "id": "benebone-wishbone-cigneme-oyuncagi",
@@ -6318,7 +6357,9 @@
           "Çok güçlü çiğneyiciler için uygun değil"
         ],
         "query": "Outward Hound Nina Ottosson puzzle toy",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0B965SF5L",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0B965SF5L?tag=hobibulsite-21"
       }
     ],
     "kedi-bakimi": [
@@ -6476,7 +6517,7 @@
         "query": "Eheim Jager aquarium heater",
         "network": "amazon_tr",
         "asin": "B001MX5X5G",
-        "amazon_url": "https://www.amazon.com.tr/dp/B001MX5X5G",
+        "amazon_url": "https://www.amazon.com.tr/dp/B001MX5X5G?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -6501,7 +6542,7 @@
         "query": "Tetra APS 150 air pump",
         "network": "amazon_tr",
         "asin": "B002X93UOE",
-        "amazon_url": "https://www.amazon.com.tr/dp/B002X93UOE",
+        "amazon_url": "https://www.amazon.com.tr/dp/B002X93UOE?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -7517,7 +7558,9 @@
           "Orta-üst fiyat"
         ],
         "query": "Keychron K2 wireless mechanical keyboard",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B0FGQG347Z",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0FGQG347Z?tag=hobibulsite-21"
       },
       {
         "id": "dell-u2723qe",
@@ -7569,8 +7612,8 @@
         ],
         "query": "Raspberry Pi 5 8GB",
         "network": "amazon_tr",
-        "asin": "B0CK2FCG1K",
-        "amazon_url": "https://www.amazon.com.tr/dp/B0CK2FCG1K",
+        "asin": "B0CS2Z72FY",
+        "amazon_url": "https://www.amazon.com.tr/dp/B0CS2Z72FY?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -8077,7 +8120,9 @@
           "Elde yıkama önerilir"
         ],
         "query": "zwilling four star chef knife",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B003TX1UZO",
+        "amazon_url": "https://www.amazon.com.tr/dp/B003TX1UZO?tag=hobibulsite-21"
       },
       {
         "id": "tefal-daily-cook-tava",
@@ -8111,7 +8156,9 @@
           "Renk seçeneği az"
         ],
         "query": "oxo good grips silicone spatula",
-        "network": "amazon_tr"
+        "network": "amazon_tr",
+        "asin": "B08HV272BN",
+        "amazon_url": "https://www.amazon.com.tr/dp/B08HV272BN?tag=hobibulsite-21"
       },
       {
         "id": "microplane-zester",
@@ -8129,7 +8176,8 @@
         ],
         "query": "microplane zester",
         "network": "amazon_tr",
-        "asin": "B09BB3LTWH"
+        "asin": "B09BB3LTWH",
+        "amazon_url": "https://www.amazon.com.tr/dp/B09BB3LTWH?tag=hobibulsite-21"
       }
     ],
     "kahve": [
@@ -8175,7 +8223,7 @@
         "query": "hario v60 dripper",
         "network": "amazon_tr",
         "asin": "B000P4D5HG",
-        "amazon_url": "https://www.amazon.com.tr/dp/B000P4D5HG",
+        "amazon_url": "https://www.amazon.com.tr/dp/B000P4D5HG?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -8233,7 +8281,8 @@
         ],
         "query": "bodum chambord french press",
         "network": "amazon_tr",
-        "asin": "B00JFVHO40"
+        "asin": "B00JFVHO40",
+        "amazon_url": "https://www.amazon.com.tr/dp/B00JFVHO40?tag=hobibulsite-21"
       }
     ],
     "ekmek-pasta": [
@@ -8253,8 +8302,8 @@
         ],
         "query": "kitchenaid artisan stand mixer",
         "network": "amazon_tr",
-        "asin": "B0DRLCZWWQ",
-        "amazon_url": "https://www.amazon.com.tr/dp/B0DRLCZWWQ",
+        "asin": "B01HK842IA",
+        "amazon_url": "https://www.amazon.com.tr/dp/B01HK842IA?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",
@@ -8349,7 +8398,7 @@
         "query": "weber original kettle 57cm",
         "network": "amazon_tr",
         "asin": "B07KT9FY31",
-        "amazon_url": "https://www.amazon.com.tr/dp/B07KT9FY31",
+        "amazon_url": "https://www.amazon.com.tr/dp/B07KT9FY31?tag=hobibulsite-21",
         "dogrulama": {
           "durum": "dogrulanmis",
           "tarih": "2026-10-31",

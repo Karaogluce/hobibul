@@ -40,7 +40,7 @@ Yavru kedisi olanlar veya bütçesini daha düşük tutmak isteyenler için 80 c
 - Büyük kedilerde tabana ek ağırlık isteyebilir.
 - Fiyatı piyasadaki basit tahtalara göre yüksektir.
 
-[Satın Al: SmartCat Tırmalama Direği](aff://smartcat-tirmalama-diregi)
+
 
 ## Tüy Bakımında Fırça Seçimi
 
@@ -57,7 +57,7 @@ Tüyleri çok uzun olan ve sürekli birbirine karışan kedilerde bu fırça bek
 - Uzun tüylü kedilerde yetersiz kalır.
 - Bazı kediler kauçuk dokusundan hoşlanmayabilir.
 
-[Satın Al: KONG ZoomGroom](aff://kong-zoomgroom-kedi-fircasi)
+
 
 ## Evde Oyun Düzeni: Olta mı, Pist mi?
 
@@ -75,11 +75,11 @@ Sürekli yanında olamayacağın bir oyun aracı arıyorsan olta sana gelmez. Ke
 - Oltada gözetim şarttır, ip kopabilir.
 - Pistin içindeki toplar zamanla kaybolabilir veya aşınabilir.
 
-[Satın Al: GoCat Da Bird](aff://gocat-da-bird-kedi-oyuncagi)
 
-[Satın Al: Catit Senses Pist](aff://catit-senses-oyun-pisti)
 
-[Satın Al: Petstages Kule Oyuncak](aff://petstages-kule-top-oyuncagi)
+
+
+
 
 ## Kum ve Su Kabında Nelere Dikkat Etmeli?
 
@@ -102,8 +102,8 @@ Hangi ürünü alacağına karar veremiyorsan, ihtiyaca göre şöyle düşüneb
 
 | Paket Türü | İçerik | Kimler İçin? |
 | --- | --- | --- |
-| **Temel Bakım** | [ZoomGroom](aff://kong-zoomgroom-kedi-fircasi) | Sadece tüy bakımı ve masaj önceliği olanlar. |
-| **Eşya Koruma** | [SmartCat Direk](aff://smartcat-tirmalama-diregi) + [Da Bird](aff://gocat-da-bird-kedi-oyuncagi) | Kedisi koltukları tırmalayan ve beraber oyun oynamak isteyenler. |
+| **Temel Bakım** | | Sadece tüy bakımı ve masaj önceliği olanlar. |
+| **Eşya Koruma** | + | Kedisi koltukları tırmalayan ve beraber oyun oynamak isteyenler. |
 | **Tam Set** | Tüm Ürünler | Kedi evde yalnız kaldığında da sıkılmasın diyenler. |
 
 Son bir tavsiye: Tırmalama direğini kedinin en çok vakit geçirdiği odaya, mümkünse tırmalamayı sevdiği koltuğun hemen yanına koy. Uzak bir köşeye atarsan kedi oraya gitmeye üşenebilir. Fırçalamayı da bir iş gibi değil, oyun sonrası bir ödül gibi kurgularsan kedinle aran bozulmaz. [Kedi bakımı](/kategori/evcil-hayvan/kedi-bakimi/) kategorisindeki diğer yazılara da göz atarak eksiklerini tamamlayabilirsin.

@@ -82,7 +82,7 @@ Gitarda teller zamanla elindeki ter ve nem yüzünden oksitlenir, sesi matlaşı
 * Sadece elektro gitar içindir, akustik gitara takarsan ses alamazsın.
 * İlk kez tel değiştireceksen, kilitli olmayan burgularda takması biraz pratik ister.
 
-[Satın Al: D'Addario EXL110 Tel Seti](aff://daddario-exl110)
+
 
 ### Snark ST-8 Kromatik Tuner
 
@@ -97,7 +97,7 @@ Gitarın akordu bozuksa ne kadar iyi çalarsan çal, kulağına gelen ses seni s
 * Pili bittiğinde yedek pil bulman gerekebilir (CR2032 kullanır).
 * Plastik yapısı çok sert darbelere karşı biraz hassas olabilir.
 
-[Satın Al: Snark ST-8 Kromatik Tuner](aff://snark-st8)
+
 
 ## Akustik mi Yoksa Elektro mu Almalısın?
 

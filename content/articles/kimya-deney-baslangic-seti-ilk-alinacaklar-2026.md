@@ -16,7 +16,7 @@ image_source: "Unsplash"
 subcategory: "kimya-deney"
 draft: "false"
 ---
-Evde kimyaya sıfırdan başlarken hem temel kavramları kavramak hem de pratik yapmak istiyorsan, kapsamlı ve güvenlik önlemleri alınmış bir paketle yola çıkman gerekir. Eğlenceli reaksiyonlarla pratik bir başlangıç yapmak istersen [Satın Al: Thames & Kosmos Ooze Labs Kimya Seti](aff://thames-kosmos-ooze-labs) modelini değerlendirebilirsin.
+Evde kimyaya sıfırdan başlarken hem temel kavramları kavramak hem de pratik yapmak istiyorsan, kapsamlı ve güvenlik önlemleri alınmış bir paketle yola çıkman gerekir. Eğlenceli reaksiyonlarla pratik bir başlangıç yapmak istersen modelini değerlendirebilirsin.
 
 Bilimsel deneyleri çalışma masasında canlandırmak, ezberlenen formülleri somut gerçeklere dönüştürür. Çoğu kişi internette kimyasal maddelerin tehlikeli olduğu düşüncesiyle çekimser kalır. Oysa doğru ekipman, net bir yönerge kılavuzu ve yaşa uygun içerikle ev ortamında güvenli reaksiyonlar gözlemlemek mümkündür. Kimyaya duyulan merak sadece bir hobi olarak kalmayabilir; öğrencilik yıllarındaki ders başarısını ve ileride seçilecek meslekleri de doğrudan şekillendirir. Doğru bir set seçimi yapabilmek için malzemelerin niteliğini, hedeflenen yaş grubunu ve setin sana ne kadar süre eşlik edeceğini baştan hesaplamalısın.
 
@@ -56,10 +56,10 @@ Piyasada her biri farklı yaşa ve amaca hitap eden deney setleri mevcuttur. Şi
 
 ### Thames & Kosmos Chem C2000 Kimya Seti
 
-İleri düzey kimya bilgisi kazanmak isteyen meraklılar için hazırlanmış, 250'den fazla deney barındıran oldukça kapsamlı bir settir. Kendi güvenlik ekipmanını kutusunda barındırır ve zengin deney kılavuzu sayesinde teorik arka planı güçlü biçimde aktarır. Hem asit-baz kimyasını hem de karmaşık elektrokimyasal süreçleri ele alır. [Satın Al: Thames & Kosmos Chem C2000 Kimya Seti](aff://thames-kosmos-chem-c2000) bağlantısını kullanarak durumunu inceleyebilirsin.
+İleri düzey kimya bilgisi kazanmak isteyen meraklılar için hazırlanmış, 250'den fazla deney barındıran oldukça kapsamlı bir settir. Kendi güvenlik ekipmanını kutusunda barındırır ve zengin deney kılavuzu sayesinde teorik arka planı güçlü biçimde aktarır. Hem asit-baz kimyasını hem de karmaşık elektrokimyasal süreçleri ele alır. bağlantısını kullanarak durumunu inceleyebilirsin.
 
-*   **Artılar:** 250'den fazla deney ile derin öğrenme; Profesyonel düzeyde kılavuz; Güvenlik ekipmanı dahil
-*   **Eksiler:** Fiyatı başlangıç setlerine göre yüksek; Yetişkin gözetimi şart
+* **Artılar:** 250'den fazla deney ile derin öğrenme; Profesyonel düzeyde kılavuz; Güvenlik ekipmanı dahil
+* **Eksiler:** Fiyatı başlangıç setlerine göre yüksek; Yetişkin gözetimi şart
 
 Bu ürün, kimyaya dair sadece eğlenceli ve renkli anlar arayan, uzun odaklanma süresi olmayan küçük yaştaki çocuklara uymaz.
 
@@ -67,8 +67,8 @@ Bu ürün, kimyaya dair sadece eğlenceli ve renkli anlar arayan, uzun odaklanma
 
 Daha eğlenceli, dokunsal ve renkli kimyasal reaksiyonlara odaklanan bir başlangıç setidir. Slime yapımı ve köpüren güvenli karışımlarla küçük yaştaki çocukların kimyaya ilgi duymasını sağlar. İçindeki kimyasallar toksik değildir ve adım adım ilerleyen kolay takip edilebilir deney kartlarıyla birlikte gelir.
 
-*   **Artılar:** Çocuklar için eğlenceli ve renkli; Güvenli, toksik olmayan malzemeler; Kolay takip edilen deney kartları
-*   **Eksiler:** Deney sayısı sınırlı; Malzemeler birkaç kullanımdan sonra tükenir
+* **Artılar:** Çocuklar için eğlenceli ve renkli; Güvenli, toksik olmayan malzemeler; Kolay takip edilen deney kartları
+* **Eksiler:** Deney sayısı sınırlı; Malzemeler birkaç kullanımdan sonra tükenir
 
 Bu ürün, akademik ve lise müfredatına paralel ciddi laboratuvar çalışmaları yapmak isteyen ileri düzey kullanıcılara uymaz.
 
@@ -76,8 +76,8 @@ Bu ürün, akademik ve lise müfredatına paralel ciddi laboratuvar çalışmala
 
 Kimyanın en klasik ve heyecan verici deneylerinden biri olan volkan patlaması simülasyonunu ev ortamına taşır. Tekrar tekrar kullanılabilen dayanıklı bir volkan maketiyle gelir ve kutusunda gerçek volkanik kaya örnekleri barındırır. Jeoloji ve kimyayı birleştiren yapısıyla görsel bir şölen sunar.
 
-*   **Artılar:** Klasik ve ilgi çekici deney; Tekrar kullanılabilir volkan modeli; Gerçek volkanik kaya örnekleri içerir
-*   **Eksiler:** Tek bir ana deney üzerine kurulu; Patlama için ev malzemesi (sirke) gerekir
+* **Artılar:** Klasik ve ilgi çekici deney; Tekrar kullanılabilir volkan modeli; Gerçek volkanik kaya örnekleri içerir
+* **Eksiler:** Tek bir ana deney üzerine kurulu; Patlama için ev malzemesi (sirke) gerekir
 
 Bu ürün, farklı reaksiyon türlerini ve geniş kimyasal analiz yöntemlerini adım adım öğrenmek isteyen meraklılara uymaz.
 
@@ -85,8 +85,8 @@ Bu ürün, farklı reaksiyon türlerini ve geniş kimyasal analiz yöntemlerini 
 
 Okul öncesi çağdaki miniklerin laboratuvar dünyasıyla tanışması için tasarlanmış sağlam bir ekipman paketidir. Gerçek laboratuvar aletlerinin çocuk dostu, kalın ve kırılmaz boyutlarda üretilmiş hallerini içerir. Parçaların yıkanabilir olması uzun süreli hijyenik kullanım imkanı tanır.
 
-*   **Artılar:** Gerçek boyutlu, çocuk dostu aletler; Erken yaşta bilim sevgisi aşılar; Dayanıklı ve yıkanabilir parçalar
-*   **Eksiler:** Basit deneyler, ileri yaşlara hitap etmez; Aktivite kartları sınırlı
+* **Artılar:** Gerçek boyutlu, çocuk dostu aletler; Erken yaşta bilim sevgisi aşılar; Dayanıklı ve yıkanabilir parçalar
+* **Eksiler:** Basit deneyler, ileri yaşlara hitap etmez; Aktivite kartları sınırlı
 
 Bu ürün, reaksiyon denklemleri kurmak ve detaylı kimyasal gözlemler yapmak isteyen 8 yaş üstü öğrencilere uymaz.
 
@@ -94,8 +94,8 @@ Bu ürün, reaksiyon denklemleri kurmak ve detaylı kimyasal gözlemler yapmak i
 
 Kendi deneylerini kendi belirlediği kimyasallarla yapmak isteyen orta ve lise düzeyindeki meraklılar için gerçek laboratuvar standardı sunar. Borosilikat camdan üretilen beher, erlen ve mezür gibi temel kapları barındırır. Isıl direnci ve kimyasal dayanıklılığı ile profesyonel bir deneyim sağlar.
 
-*   **Artılar:** Dayanıklı borosilikat cam; Kimya deneyleri için temel ekipman; Profesyonel laboratuvar kalitesi
-*   **Eksiler:** Kırılgan, dikkatli kullanım gerekir; Küçük çocuklar için uygun değil
+* **Artılar:** Dayanıklı borosilikat cam; Kimya deneyleri için temel ekipman; Profesyonel laboratuvar kalitesi
+* **Eksiler:** Kırılgan, dikkatli kullanım gerekir; Küçük çocuklar için uygun değil
 
 This product is not suitable for beginner users who expect to find ready-made chemicals and step-by-step illustrated experiment cards coming out of the box.
 
@@ -105,9 +105,9 @@ Deney setleri arasından seçim yaparken bütçene ve çalışmayı yürütecek 
 
 | Paket | İçinde ne var | Kime uyar |
 | --- | --- | --- |
-| Bütçe | [Learning Resources İlk Bilim Laboratuvar Seti](aff://learning-resources-primary-science) ve [National Geographic Volkan Deney Seti](aff://national-geographic-volcano-kit) | Okul öncesi çocuklar ve ilk kez deneye dokunacak minikler |
-| Orta | [Thames & Kosmos Ooze Labs Kimya Seti](aff://thames-kosmos-ooze-labs) | Eğlenceli reaksiyonlar ve dokunsal bilim deneyleri arayan ilkokul öğrencileri |
-| Üst | [Thames & Kosmos Chem C2000 Kimya Seti](aff://thames-kosmos-chem-c2000) ve [Eisco Labs Cam Laboratuvar Seti](aff://eisco-glassware-set) | Kapsamlı deneyler yapacak lise öğrencileri ve bilim meraklıları |
+| Bütçe | ve | Okul öncesi çocuklar ve ilk kez deneye dokunacak minikler |
+| Orta | | Eğlenceli reaksiyonlar ve dokunsal bilim deneyleri arayan ilkokul öğrencileri |
+| Üst | ve | Kapsamlı deneyler yapacak lise öğrencileri ve bilim meraklıları |
 
 Bütçe dostu paketler genellikle kırılmayan parçalara ve tekil çarpıcı deneylere odaklanır. Orta düzeydeki tercihler renkli reaksiyonlarla merak uyandırmayı hedefler. Üst pakette ise borosilikat cam kaplar ve yüzlerce farklı deneye kapı açan zengin rehber kitapçıklar yer alır. Kendi ihtiyacına göre bu üç seviyeden birini temel alarak yola çıkabilirsin.
 

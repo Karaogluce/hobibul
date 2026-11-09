@@ -22,7 +22,7 @@ Raspberry Pi ile Linux ve elektronik uygulamaları geliştirmek, masaüstü bilg
 Projeye başlamadan önce çalışma masanda bulundurman gereken temel bileşenler seni uzun süreli hata ayıklama süreçlerinden kurtaracaktır. Donanım gücü yüksek bir kart seçmek, özellikle birden fazla arka plan servisi çalıştıracağın Linux tabanlı projelerde sistemin takılmasını engeller. Kodlama ve sunucu projeleri için [Satın Al: Raspberry Pi 5 (8GB)](aff://raspberry-pi-5) güçlü ve çok amaçlı bir tek kart bilgisayar arıyorsan iyi bir temel oluşturur. Bunun yanında kartın kararlı çalışabilmesi için orijinal besleme kaynaklarına dikkat etmen gerekir.
 
 * 1 adet [Satın Al: Raspberry Pi 5 (8GB)](aff://raspberry-pi-5)
-* 1 adet [Satın Al: Raspberry Pi 5 Resmi Adaptör](aff://rpi-power-supply)
+* 1 adet 
 * En az 32 GB kapasiteli Class 10 MicroSD kart
 * Çift yönlü micro HDMI kablo ve monitör
 * Klavye, fare ve Jumper kabloları
@@ -33,7 +33,7 @@ Projeye başlamadan önce çalışma masanda bulundurman gereken temel bileşenl
 
 ### Raspberry Pi Imager ile İşletim Sistemi Kurulumu
 
-İşletim sistemini MicroSD karta yazdırmak için bilgisayarına Raspberry Pi Imager aracını indirmen gerekir. Programı açtıktan sonra işletim sistemi menüsünden önerilen Linux sürümünü seçip hedef olarak MicroSD kartını belirtebilirsin. Yazma işlemi tamamlandığında kartı doğrudan bilgisayardan çıkarıp karta takarak ilk açılışı gerçekleştirebilirsin. Güç bağlantısını yaparken [Satın Al: Raspberry Pi 5 Resmi Adaptör](aff://rpi-power-supply) kullanmak, voltaj düşmesi kaynaklı çökmelerin önüne geçeceği için kararlı bir kullanım sunar; ancak sadece Pi 5 modeliyle uyumlu olduğunu unutmamalısın.
+İşletim sistemini MicroSD karta yazdırmak için bilgisayarına Raspberry Pi Imager aracını indirmen gerekir. Programı açtıktan sonra işletim sistemi menüsünden önerilen Linux sürümünü seçip hedef olarak MicroSD kartını belirtebilirsin. Yazma işlemi tamamlandığında kartı doğrudan bilgisayardan çıkarıp karta takarak ilk açılışı gerçekleştirebilirsin. Güç bağlantısını yaparken kullanmak, voltaj düşmesi kaynaklı çökmelerin önüne geçeceği için kararlı bir kullanım sunar; ancak sadece Pi 5 modeliyle uyumlu olduğunu unutmamalısın.
 
 ### Linux Terminali ve GPIO Pinlerini Yapılandırma
 
@@ -54,6 +54,6 @@ Raspberry Pi 5, önceki sürümlere kıyasla çok daha güçlü bir işlemciye v
 Kararlı bir sistem performansı ve donanım güvenliği için resmi güç adaptörü kullanılması önerilir. Yetersiz akım sağlayan adaptörler, sistemin yoğun yük altında kapanmasına veya USB cihazların çalışmamasına neden olabilir.
 
 ### Elektronik projeleri için Arduino mu yoksa Raspberry Pi mi tercih etmeliyim?
-Kodlama ve elektronik projeleri için geniş topluluk desteği sunan, kullanımı kolay [Satın Al: Arduino Uno R3 Mikrodenetleyici](aff://arduino-uno-r3) anlık sensör okumaları ve düşük güç tüketimi gerektiren basit devreler için uygundur. Ancak kablosuz bağlantıya ihtiyacın yoksa ve işlem gücü sınırlı olan bu kartın yerine tam bir masaüstü işletim sistemi çalıştırıp ağ bağlantılı projeler üretmek istiyorsan Raspberry Pi tercih etmelisin.
+Kodlama ve elektronik projeleri için geniş topluluk desteği sunan, kullanımı kolay anlık sensör okumaları ve düşük güç tüketimi gerektiren basit devreler için uygundur. Ancak kablosuz bağlantıya ihtiyacın yoksa ve işlem gücü sınırlı olan bu kartın yerine tam bir masaüstü işletim sistemi çalıştırıp ağ bağlantılı projeler üretmek istiyorsan Raspberry Pi tercih etmelisin.
 
 Projeye başlamadan önce [Satın Al: Raspberry Pi 5 (8GB)](aff://raspberry-pi-5) tercih ederek uzun vadeli ve güçlü bir sistem altyapısı kurabilirsin.

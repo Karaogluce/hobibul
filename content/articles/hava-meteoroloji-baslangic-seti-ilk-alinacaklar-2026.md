@@ -16,7 +16,7 @@ image_source: ""
 subcategory: "meteoroloji"
 draft: "false"
 ---
-Kendi hava durumu istasyonunu kurup balkonundan veya bahçenden gerçek zamanlı veri toplamak istiyorsan, ilk etapta sıcaklık, nem, rüzgar ve yağışı tek merkezden okuyan dengeli bir istasyonla başlamalısın. Doğrudan [Satın Al: AcuRite 01512 Pro Renkli Hava İstasyonu](aff://acurite-01512) modeline yönelebilir, böylece karmaşık montaj süreçlerine boğulmadan temel atmosfer olaylarını evindeki ekrandan takip edebilirsin.
+Kendi hava durumu istasyonunu kurup balkonundan veya bahçenden gerçek zamanlı veri toplamak istiyorsan, ilk etapta sıcaklık, nem, rüzgar ve yağışı tek merkezden okuyan dengeli bir istasyonla başlamalısın. Doğrudan modeline yönelebilir, böylece karmaşık montaj süreçlerine boğulmadan temel atmosfer olaylarını evindeki ekrandan takip edebilirsin.
 
 Meteoroloji hobisine başlarken yapılan en büyük hata, akıllı telefonlardaki genel tahminlerin yeterli olacağını varsaymaktır. Bölgesel hava durumu raporları genellikle onlarca kilometre uzaktaki havaalanı veya tepe istasyonlarından alınır. Senin yaşadığın sokaktaki rüzgar koridoru, beton blokların yarattığı ısı adası ya da vadide kalan bahçenin nem oranı resmi istasyonların radarına girmez. Kendi sensörlerini kurduğunda, sabah hissettiğin ayazın kaç dereceye denk geldiğini, fırtınanın tam olarak hangi saatte ne şiddette vurduğunu ve toprağına ne kadar yağış düştüğünü doğrudan kendi ölçümlerinle görürsün.
 
@@ -70,7 +70,7 @@ La Crosse Technology S82950, minimalist tasarımı ve modern bağlantı özellik
 
 Ambient Weather WS-2902C, hobi sınırlarını aşarak yarı profesyonel bir gözlem deneyimi sunan donanımlı bir istasyondur. Ürün üzerinde rüzgar hızı ve yönü, yağış haznesi, sıcaklık ve nem alıcılarının yanı sıra UV endeksi ve güneş radyasyonu sensörleri de bulunur. Güneş radyasyonu ölçümü sayesinde havanın aydınlık düzeyini ve güneş enerjisi yoğunluğunu takip edebilirsin. Cihaz WiFi üzerinden internete bağlanarak verilerini Weather Underground gibi küresel meteoroloji platformlarına anında iletir. Bu sayede hem kendi verilerini dünya haritası üzerinde yayımlayabilir hem de mobil cihazlardan istasyonunu canlı takip edebilirsin. Çok yönlü sensör bloğunun sağlam bir direk üzerine düzgünce monte edilmesi gerekir; ayrıca profesyonel bütçe aralığında konumlanır. Bu cihazı edinmek istersen güncel fiyatı Amazon'da kontrol et.
 
-[Satın Al: Ambient Weather WS-2902C Hava İstasyonu](aff://ambient-weather-ws2902)
+
 
 **Kime uymaz:** Balkonunda montaj direği koyacak yeri olmayan, montaj işleriyle uğraşmak istemeyen ve yalnızca temel iç-dış sıcaklığı öğrenmek isteyen başlangıç seviyesindeki kullanıcılara uymaz.
 
@@ -92,9 +92,9 @@ Meteoroloji hobisine başlarken bütçeni ve gözlem alanını doğru tanımlama
 
 | Paket | İçinde ne var | Kime uyar |
 | --- | --- | --- |
-| Bütçe Paketi | [Satın Al: La Crosse Technology S82950 WiFi Hava İstasyonu](aff://lacrosse-s82950) | Balkonu olan, çatıya direk dikemeyen, temel sıcaklık/nem değerlerini telefonundan izlemek isteyenler |
-| Orta Paket | [Satın Al: AcuRite 01512 Pro Renkli Hava İstasyonu](aff://acurite-01512) | Bahçeli evi olan, rüzgar ve yağmur dahil temel atmosfer olaylarını ekrandan grafiklerle takip etmek isteyenler |
-| Üst Paket | [Satın Al: Ambient Weather WS-2902C Hava İstasyonu](aff://ambient-weather-ws2902) | UV dahil tüm parametreleri ölçüp verilerini küresel ağlarda yayımlamak isteyen ileri düzey meraklılar |
+| Bütçe Paketi | | Balkonu olan, çatıya direk dikemeyen, temel sıcaklık/nem değerlerini telefonundan izlemek isteyenler |
+| Orta Paket | | Bahçeli evi olan, rüzgar ve yağmur dahil temel atmosfer olaylarını ekrandan grafiklerle takip etmek isteyenler |
+| Üst Paket | | UV dahil tüm parametreleri ölçüp verilerini küresel ağlarda yayımlamak isteyen ileri düzey meraklılar |
 
 Bütçe paketini seçtiğinde kablo çekme veya çatıya tırmanma derdin olmaz; sensörü pencere pervazının gölgesine asar ve uygulamadan verileri izlersin. Bu yaklaşım apartman hayatında mikro iklimi anlamanın en pratik başlangıcıdır.
 

@@ -72,7 +72,7 @@ Ancak daha parmakların akorlara alışmadan bu pedalı almanı önermem. Distor
 - Sadece tek bir iş yapar; içinde başka efekt (delay, chorus vb.) yoktur.
 - Amfide zaten drive varsa ilk gün için gereksiz bir harcama olabilir.
 
-[Satın Al: Boss DS-1 Distortion Pedalı](aff://boss-ds-1)
+
 
 ## Küçük Ama Hayati Parçalar: Tel ve Tuner
 
@@ -88,8 +88,8 @@ Snark ST-8, gitarın sapına takılan ve titreşimle çalışan bir cihaz. Telef
 - Teller düzenli bakım ve değişim ister, masrafı süreklidir.
 - Tuner'ın gövdesi biraz narindir, dikkatli kullanmak gerekir.
 
-[Satın Al: D'Addario EXL110 Tel Seti](aff://daddario-exl110)
-[Satın Al: Snark ST-8 Tuner](aff://snark-st8)
+
+
 
 ## Başlarken Dikkat Etmen Gerekenler
 
@@ -114,8 +114,8 @@ Eğer teller kararmışsa, parmaklarında siyah lekeler bırakıyorsa veya gitar
 
 | Seçenek | Neler Var? | Kimin İçin? |
 | --- | --- | --- |
-| **Temel İhtiyaç** | [Katana 50](aff://boss-katana-50), [EXL110](aff://daddario-exl110), [Snark ST-8](aff://snark-st8) | Zaten bir gitarı olan ama sesini düzeltmek isteyenlere. |
+| **Temel İhtiyaç** | [Katana 50](aff://boss-katana-50),, | Zaten bir gitarı olan ama sesini düzeltmek isteyenlere. |
 | **Tam Başlangıç** | [Fender Strat](aff://fender-player-strat), Katana 50, Tel ve Tuner | Sıfırdan, kaliteli bir setle başlamak isteyenlere. |
-| **Eksiksiz Set** | Üstteki sete ek olarak [Boss DS-1](aff://boss-ds-1) | Bütçesi geniş olan ve distortion sesini hemen isteyenlere. |
+| **Eksiksiz Set** | Üstteki sete ek olarak | Bütçesi geniş olan ve distortion sesini hemen isteyenlere. |
 
 Kısacası, önceliğin her zaman iyi bir gitar ve o gitarın sesini yansıtacak kaliteli bir amfi olmalı. Fender Player Strat ve Boss Katana 50 ikilisi seni profesyonel seviyeye kadar taşıyacak bir kombinasyon. Diğer her şey (pedallar, aksesuarlar) zamanla eklenebilir.

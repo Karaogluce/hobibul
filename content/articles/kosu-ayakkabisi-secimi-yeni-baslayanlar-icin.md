@@ -43,7 +43,7 @@ Ancak kadın kalıbı arıyorsan bu link üzerinden numara çevirip almaya çal�
 - Yastıklama ölçüleri belirsiz.
 - Stok durumu bazen kafa karıştırıcı olabiliyor.
 
-[Satın Al: adidas Duramo Speed 2](aff://adidas-duramo-speed-2)
+
 
 ## Nike Pegasus 41: Dar Ama Çok Yönlü
 
@@ -61,7 +61,7 @@ Bağcıkları son deliğe kadar geçirmek bazen ayakkabıyı ayağına daha iyi 
 - Dar kalıbı nedeniyle herkese konforlu gelmeyebilir.
 - Fiyatı başlangıç modellerine göre daha yukarıda.
 
-[Satın Al: Nike Pegasus 41](aff://nike-pegasus-41)
+
 
 ## ASICS Gel-Kayano 30: Destek ve Stabilite
 
@@ -79,7 +79,7 @@ Ağır tabanlı ayakkabılar uzun ve yavaş koşularda seni korur ancak kısa ve
 - Diğer modellere göre daha hantal ve ağır.
 - Fiyatı yüksek bir model.
 
-[Satın Al: ASICS Gel-Kayano 30](aff://asics-gel-kayano)
+
 
 ## Saat ve Kemer Ayakkabının Yerini Tutmaz
 
@@ -96,7 +96,7 @@ Telefon ve anahtarın koşarken sallanmasından rahatsız oluyorsan FlipBelt gib
 - Kemer her vücut tipine aynı rahatlıkta uymayabilir.
 
 [Satın Al: Garmin Forerunner 55](aff://garmin-forerunner-55)
-[Satın Al: FlipBelt Koşu Kemeri](aff://flipbelt)
+
 
 ## İlk İki Haftada Dikkat Etmen Gerekenler
 
@@ -123,8 +123,8 @@ Fiyatlar ve stoklar sürekli değiştiği için senin için mantıklı olabilece
 
 | Paket İsmi | İçerik | Kimler İçin? |
 | --- | --- | --- |
-| **Ekonomik Başlangıç** | [Duramo Speed 2](aff://adidas-duramo-speed-2) | Sadece asfaltta koşacağım, temel bir ayakkabı yeter diyenlere. |
-| **Konfor Odaklı** | [Pegasus 41](aff://nike-pegasus-41) ve [FlipBelt](aff://flipbelt) | Ayağı dar olan ve telefonu kemerde taşımak isteyenlere. |
-| **Veri ve Destek** | [Gel-Kayano 30](aff://asics-gel-kayano) ve [Forerunner 55](aff://garmin-forerunner-55) | Ayak desteği arayan ve gelişimini saatle izlemek isteyenlere. |
+| **Ekonomik Başlangıç** | | Sadece asfaltta koşacağım, temel bir ayakkabı yeter diyenlere. |
+| **Konfor Odaklı** | ve | Ayağı dar olan ve telefonu kemerde taşımak isteyenlere. |
+| **Veri ve Destek** | ve [Forerunner 55](aff://garmin-forerunner-55) | Ayak desteği arayan ve gelişimini saatle izlemek isteyenlere. |
 
 İlk bütçeni ayakkabıya ayırırken teknik verisi yazmayan tabanlara çok güvenme. Duramo sayfasını aç, bedenin varsa değerlendir. Eğer ayağın dar ise Pegasus'a, daha fazla destek ve ağırlık arıyorsan Kayano'ya yönelmek en mantıklısı olur.

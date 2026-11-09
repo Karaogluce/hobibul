@@ -1,12 +1,12 @@
 {
  "tanim": "govde_gelen, başka bir makalenin gövdesinden gelen benzersiz iç linktir. Üst menü, altbilgi ve ekmek kırıntısı bu sayıda yoktur. yetim: yayındaki makale ya da içinde makalesi olan kategori sayfası, govde_gelen 0 veya 1 ise. Makalesi olmayan kategori sayfası menüden ulaşılır; alakasız gövde linki eklenmez ve makalesiz listesindedir. toplam_gelen, üretilmiş HTML içindeki diğer sayfalardan gelen benzersiz linktir. tik, ana sayfadan tıklama derinliğidir. gsc_oncelik, analytics_gsc.json içinde ortalama pozisyonu 8-20 olan sorguya denk sayfadır; dosya yoksa veya ok değilse boş kalır.",
  "ozet": {
-  "makale": 64,
+  "makale": 68,
   "kategori": 82,
-  "yetim_makale": 25,
-  "yetim_kategori": 16,
-  "yetim": 41,
-  "makalesiz_kategori": 40,
+  "yetim_makale": 29,
+  "yetim_kategori": 19,
+  "yetim": 48,
+  "makalesiz_kategori": 37,
   "sitemap_linksiz": [],
   "uc_tik_disi": [],
   "gsc_dosyasi": true,
@@ -15,13 +15,61 @@
  },
  "yetimler": [
   {
+   "yol": "/kategori/bahce-bitki/bahcecilik/",
+   "tur": "kategori",
+   "baslik": "Bahçecilik",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "bahcecilik",
+   "govde_gelen": 0,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/kategori/yazi-edebiyat/",
+   "tur": "kategori",
+   "baslik": "Yazı & Edebiyat",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "",
+   "govde_gelen": 0,
+   "toplam_gelen": 162,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/kategori/yazi-edebiyat/okuma/",
+   "tur": "kategori",
+   "baslik": "Okuma & Kitap Kulübü",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "okuma",
+   "govde_gelen": 0,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Kitabı (2026-W46)",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "okuma",
+   "govde_gelen": 0,
+   "toplam_gelen": 162,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
    "yol": "/makale/dj-produksiyon-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
    "tur": "makale",
    "baslik": "DJ & Prodüksiyon Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
    "kategori": "muzik",
    "alt_kategori": "dj-produksiyon",
    "govde_gelen": 0,
-   "toplam_gelen": 158,
+   "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -33,7 +81,7 @@
    "kategori": "muzik",
    "alt_kategori": "dj-produksiyon",
    "govde_gelen": 0,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -47,6 +95,42 @@
    "govde_gelen": 0,
    "toplam_gelen": 3,
    "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/en-cok-satan-bahce-2026-w46/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Bahçe Ürünü (2026-W46)",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "bahcecilik",
+   "govde_gelen": 0,
+   "toplam_gelen": 162,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/en-cok-satan-evcil-2026-w46/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Evcil hayvan Ürünü (2026-W46)",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "kedi-bakimi",
+   "govde_gelen": 0,
+   "toplam_gelen": 162,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/en-cok-satan-mutfak-2026-w46/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Mutfak Ürünü (2026-W46)",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "yemek-pisirme",
+   "govde_gelen": 0,
+   "toplam_gelen": 162,
+   "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -195,7 +279,7 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "kedi-bakimi",
    "govde_gelen": 1,
-   "toplam_gelen": 5,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -237,7 +321,7 @@
    "kategori": "sanat",
    "alt_kategori": "",
    "govde_gelen": 1,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -363,7 +447,7 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "yemek-pisirme",
    "govde_gelen": 1,
-   "toplam_gelen": 5,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -434,7 +518,7 @@
    "alt_kategori": "bonsai",
    "govde_gelen": 1,
    "toplam_gelen": 6,
-   "tik": 1,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/bonsai-nasil-toprak-sever/"
@@ -504,7 +588,7 @@
    "alt_kategori": "kahve",
    "govde_gelen": 1,
    "toplam_gelen": 9,
-   "tik": 1,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/"
@@ -517,7 +601,7 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "kopek-bakimi",
    "govde_gelen": 1,
-   "toplam_gelen": 8,
+   "toplam_gelen": 4,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -531,7 +615,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "toplam_gelen": 158,
+   "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -545,8 +629,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "toplam_gelen": 158,
-   "tik": 1,
+   "toplam_gelen": 8,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
@@ -702,13 +786,6 @@
    "tik": 2
   },
   {
-   "yol": "/kategori/bahce-bitki/bahcecilik/",
-   "baslik": "Bahçecilik",
-   "govde_gelen": 0,
-   "toplam_gelen": 4,
-   "tik": 2
-  },
-  {
    "yol": "/kategori/bahce-bitki/ev-bitkileri/",
    "baslik": "Ev Bitkileri",
    "govde_gelen": 1,
@@ -747,7 +824,7 @@
    "yol": "/kategori/seyahat-gezi/",
    "baslik": "Seyahat & Gezi",
    "govde_gelen": 0,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1
   },
   {
@@ -782,7 +859,7 @@
    "yol": "/kategori/yazilim-kodlama/",
    "baslik": "Yazılım & Kodlama",
    "govde_gelen": 0,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1
   },
   {
@@ -814,13 +891,6 @@
    "tik": 2
   },
   {
-   "yol": "/kategori/yazi-edebiyat/",
-   "baslik": "Yazı & Edebiyat",
-   "govde_gelen": 0,
-   "toplam_gelen": 158,
-   "tik": 1
-  },
-  {
    "yol": "/kategori/yazi-edebiyat/yazarlik/",
    "baslik": "Yazarlık",
    "govde_gelen": 0,
@@ -837,13 +907,6 @@
   {
    "yol": "/kategori/yazi-edebiyat/yaratici-yazarlik/",
    "baslik": "Yaratıcı Yazarlık",
-   "govde_gelen": 0,
-   "toplam_gelen": 4,
-   "tik": 2
-  },
-  {
-   "yol": "/kategori/yazi-edebiyat/okuma/",
-   "baslik": "Okuma & Kitap Kulübü",
    "govde_gelen": 0,
    "toplam_gelen": 4,
    "tik": 2
@@ -912,8 +975,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 2,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -945,8 +1008,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 2,
-   "icerik_gelen": 12,
-   "toplam_gelen": 12,
+   "icerik_gelen": 13,
+   "toplam_gelen": 13,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -962,14 +1025,28 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 2,
-   "icerik_gelen": 15,
-   "toplam_gelen": 158,
+   "icerik_gelen": 17,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
     "/makale/en-iyi-bonsai-ekipmanlari-2026-alim-rehberi/"
    ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Kitabı (2026-W46)",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "okuma",
+   "govde_gelen": 0,
+   "icerik_gelen": 7,
+   "toplam_gelen": 162,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
    "makale_sayisi": null
   },
   {
@@ -1030,7 +1107,7 @@
    "alt_kategori": "dj-produksiyon",
    "govde_gelen": 0,
    "icerik_gelen": 9,
-   "toplam_gelen": 158,
+   "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1043,8 +1120,8 @@
    "kategori": "muzik",
    "alt_kategori": "dj-produksiyon",
    "govde_gelen": 0,
-   "icerik_gelen": 15,
-   "toplam_gelen": 158,
+   "icerik_gelen": 11,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1057,9 +1134,9 @@
    "kategori": "muzik",
    "alt_kategori": "dj-produksiyon",
    "govde_gelen": 2,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
-   "tik": 1,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/dj-kontrol-cihazi-secimi-yeni-baslayanlar/",
@@ -1148,6 +1225,48 @@
    "makale_sayisi": null
   },
   {
+   "yol": "/makale/en-cok-satan-bahce-2026-w46/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Bahçe Ürünü (2026-W46)",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "bahcecilik",
+   "govde_gelen": 0,
+   "icerik_gelen": 8,
+   "toplam_gelen": 162,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/en-cok-satan-evcil-2026-w46/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Evcil hayvan Ürünü (2026-W46)",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "kedi-bakimi",
+   "govde_gelen": 0,
+   "icerik_gelen": 10,
+   "toplam_gelen": 162,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/en-cok-satan-mutfak-2026-w46/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Mutfak Ürünü (2026-W46)",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "yemek-pisirme",
+   "govde_gelen": 0,
+   "icerik_gelen": 10,
+   "toplam_gelen": 162,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
    "yol": "/makale/en-iyi-akvaryum-balik-ekipmanlari-2026-alim-rehberi/",
    "tur": "makale",
    "baslik": "En İyi Akvaryum & Balık Ekipmanları (2026): Alım Rehberi",
@@ -1155,7 +1274,7 @@
    "alt_kategori": "akvaryum",
    "govde_gelen": 2,
    "icerik_gelen": 10,
-   "toplam_gelen": 158,
+   "toplam_gelen": 10,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1173,7 +1292,7 @@
    "govde_gelen": 1,
    "icerik_gelen": 6,
    "toplam_gelen": 6,
-   "tik": 1,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/bonsai-nasil-toprak-sever/"
@@ -1308,9 +1427,9 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "kahve",
    "govde_gelen": 2,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
-   "tik": 1,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/evde-pizza-firini-g3-ferrari-delizia-ile-baslangic/",
@@ -1474,7 +1593,7 @@
    "govde_gelen": 1,
    "icerik_gelen": 9,
    "toplam_gelen": 9,
-   "tik": 1,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/"
@@ -1488,8 +1607,8 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "kahve",
    "govde_gelen": 2,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1523,8 +1642,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "kedi-bakimi",
    "govde_gelen": 2,
-   "icerik_gelen": 5,
-   "toplam_gelen": 5,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1554,8 +1673,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "kopek-bakimi",
    "govde_gelen": 1,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1622,7 +1741,7 @@
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
    "icerik_gelen": 9,
-   "toplam_gelen": 158,
+   "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1637,9 +1756,9 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "icerik_gelen": 9,
-   "toplam_gelen": 158,
-   "tik": 1,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
@@ -1843,8 +1962,8 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "yemek-pisirme",
    "govde_gelen": 2,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1911,7 +2030,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2003,7 +2122,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 9,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2138,7 +2257,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 13,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2231,7 +2350,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 14,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2329,7 +2448,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 12,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2440,7 +2559,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2561,7 +2680,7 @@
    "alt_kategori": "",
    "govde_gelen": 1,
    "icerik_gelen": 3,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2652,15 +2771,15 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "",
    "govde_gelen": 2,
-   "icerik_gelen": 8,
-   "toplam_gelen": 158,
+   "icerik_gelen": 9,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/",
     "/makale/mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar/"
    ],
-   "makale_sayisi": 6
+   "makale_sayisi": 7
   },
   {
    "yol": "/kategori/yemek-mutfak/yemek-pisirme/",
@@ -2669,14 +2788,14 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "yemek-pisirme",
    "govde_gelen": 1,
-   "icerik_gelen": 5,
-   "toplam_gelen": 5,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026/"
    ],
-   "makale_sayisi": 1
+   "makale_sayisi": 2
   },
   {
    "yol": "/kategori/yemek-mutfak/kahve/",
@@ -2734,15 +2853,15 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "",
    "govde_gelen": 2,
-   "icerik_gelen": 5,
-   "toplam_gelen": 158,
+   "icerik_gelen": 6,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
     "/makale/bonsai-nasil-toprak-sever/"
    ],
-   "makale_sayisi": 3
+   "makale_sayisi": 4
   },
   {
    "yol": "/kategori/bahce-bitki/bahcecilik/",
@@ -2751,12 +2870,12 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bahcecilik",
    "govde_gelen": 0,
-   "icerik_gelen": 4,
-   "toplam_gelen": 4,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
-   "makale_sayisi": 0
+   "makale_sayisi": 1
   },
   {
    "yol": "/kategori/bahce-bitki/ev-bitkileri/",
@@ -2812,8 +2931,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "",
    "govde_gelen": 3,
-   "icerik_gelen": 8,
-   "toplam_gelen": 158,
+   "icerik_gelen": 9,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2821,7 +2940,7 @@
     "/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/",
     "/makale/kopek-yuruyus-ve-egitim-seti/"
    ],
-   "makale_sayisi": 6
+   "makale_sayisi": 7
   },
   {
    "yol": "/kategori/evcil-hayvan/kopek-bakimi/",
@@ -2847,14 +2966,14 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "kedi-bakimi",
    "govde_gelen": 1,
-   "icerik_gelen": 5,
-   "toplam_gelen": 5,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/"
    ],
-   "makale_sayisi": 1
+   "makale_sayisi": 2
   },
   {
    "yol": "/kategori/evcil-hayvan/akvaryum/",
@@ -2895,7 +3014,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 4,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2972,7 +3091,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3042,7 +3161,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3111,12 +3230,12 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "",
    "govde_gelen": 0,
-   "icerik_gelen": 1,
-   "toplam_gelen": 158,
+   "icerik_gelen": 3,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
-   "makale_sayisi": 0
+   "makale_sayisi": 1
   },
   {
    "yol": "/kategori/yazi-edebiyat/yazarlik/",
@@ -3167,12 +3286,12 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
-   "icerik_gelen": 4,
-   "toplam_gelen": 4,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
-   "makale_sayisi": 0
+   "makale_sayisi": 1
   }
  ]
 }

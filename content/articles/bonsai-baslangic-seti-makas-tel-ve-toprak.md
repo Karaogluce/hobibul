@@ -40,7 +40,7 @@ Kime uymaz? Kalın gövdeleri tek hamlede kesecek profesyonel ve ağır iş alet
 - Karbon çelik nemli bırakılırsa paslanabilir.
 - Kalın gövde kesimleri için profesyonel ağır iş aletleri gerekir.
 
-[Satın Al: BestAlice 6 Parça Bonsai Alet Seti](aff://bonsai-alet-seti-10-parca)
+
 
 ## DZDSBB Alüminyum Bonsai Teli: Dallara Şekil Verme
 
@@ -57,7 +57,7 @@ Kime uymaz? Ağacın ana gövdesini veya çok sert, kalınlaşmış dallarını 
 - Kalın ve sert dalları tutmakta yetersiz kalır.
 - Renk seçeneği sınırlıdır.
 
-[Satın Al: Bonsai Alüminyum Teli](aff://bonsai-aluminyum-teli)
+
 
 ## Compo Bonsai Toprağı, Hassas Makas ve Genta Sıvı Besin
 
@@ -121,8 +121,8 @@ Bütçene ve ne kadar vakit ayırmak istediğine göre ihtiyaç duyacağın par�
 
 | Paket | İçindekiler | Kimler İçin Uygun? |
 | --- | --- | --- |
-| Başlangıç | [İnce makas](aff://bonsai-budama-makasi) ve [tel](aff://bonsai-aluminyum-teli) | Küçük bir fidanı olan, sadece uç budaması ve hafif şekil verme yapacak kişiler |
-| Orta Düzey | [6 parça set](aff://bonsai-alet-seti-10-parca) ve [Compo toprak](aff://bonsai-jack-toprak-karisimi) | Kendi saksı değişimini yapacak, derli toplu alet çantası arayanlar |
+| Başlangıç | ve | Küçük bir fidanı olan, sadece uç budaması ve hafif şekil verme yapacak kişiler |
+| Orta Düzey | ve [Compo toprak](aff://bonsai-jack-toprak-karisimi) | Kendi saksı değişimini yapacak, derli toplu alet çantası arayanlar |
 | Tam Bakım | Orta paket + [Genta sıvı besin](aff://biogold-bonsai-gubresi) | Hazır bonsai toprağına etiket dozunda sıvı bitki besini eklemek isteyenler |
 
 Canlı bonsaiye başlıyorsan aceleci olma. İlk adımda süzülen bir toprak ve taze sürgünleri ezmeyecek bir makas edinmek yeterli. Şekil verme ve tel sarma işini fidanın yeni yerine alışmasından sonraya bırakırsan ağacını çok daha uzun süre sağlıklı tutarsın.

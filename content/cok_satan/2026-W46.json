@@ -1,0 +1,278 @@
+{
+ "hafta": "2026-W46",
+ "tarih": "2026-11-09",
+ "listeler": [
+  {
+   "id": "kitap",
+   "ad": "Kitap",
+   "cat": "yazi-edebiyat",
+   "sub": "okuma",
+   "yol": "/gp/bestsellers/books",
+   "urunler": [
+    {
+     "sira": 1,
+     "asin": "6052657480",
+     "ad": "Portakal ve Ekmek Bıçağı",
+     "yazar": "Cheong Ye",
+     "yol": "https://www.amazon.com.tr/Portakal-ve-Ekmek-B%C4%B1%C3%A7a%C4%9F%C4%B1-Cheong/dp/6052657480/ref=zg_bs_g_books_d_sccl_1/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/6052657480?tag=hobibulsite-21"
+    },
+    {
+     "sira": 2,
+     "asin": "6259568126",
+     "ad": "Murdle 1",
+     "yazar": "G.T Karber",
+     "yol": "https://www.amazon.com.tr/Murdle-1-G-T-Karber/dp/6259568126/ref=zg_bs_g_books_d_sccl_2/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/6259568126?tag=hobibulsite-21"
+    },
+    {
+     "sira": 3,
+     "asin": "6256756207",
+     "ad": "Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti",
+     "yazar": "Virginia Evans",
+     "yol": "https://www.amazon.com.tr/Muhabbet-Dalda-Goodreads-%C3%96d%C3%BClleri-Finalisti/dp/6256756207/ref=zg_bs_g_books_d_sccl_3/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/6256756207?tag=hobibulsite-21"
+    }
+   ]
+  },
+  {
+   "id": "oyuncak",
+   "ad": "Oyuncak",
+   "cat": "koleksiyon",
+   "sub": "masaustu-oyun",
+   "yol": "/gp/bestsellers/toys",
+   "urunler": [
+    {
+     "sira": 1,
+     "asin": "B0FSSJZ7TQ",
+     "ad": "Magly Manyetik Yapı Blokları – Çocuklar İçin Renkli 3 Boyutlu 72 Parça Manyetik Karo Oyun Seti",
+     "yazar": "",
+     "yol": "https://www.amazon.com.tr/Magly-Manyetik-Yap%C4%B1-Bloklar%C4%B1-%C3%87ocuklar/dp/B0FSSJZ7TQ/ref=zg_bs_g_toys_d_sccl_1/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/B0FSSJZ7TQ?tag=hobibulsite-21"
+    },
+    {
+     "sira": 2,
+     "asin": "B0H1N59P3L",
+     "ad": "Magly Ball Run Parkur Oyunu – Çocuklar İçin Renkli 3 Boyutlu 101 Parça Yapı Seti - Manyetikler ve Yollar",
+     "yazar": "",
+     "yol": "https://www.amazon.com.tr/Magly-Ball-Run-Parkur-Oyunu/dp/B0H1N59P3L/ref=zg_bs_g_toys_d_sccl_2/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/B0H1N59P3L?tag=hobibulsite-21"
+    },
+    {
+     "sira": 3,
+     "asin": "B0BBRZZSMD",
+     "ad": "LEGO Creator Sihirli Tek Boynuzlu At 31140",
+     "yazar": "",
+     "yol": "https://www.amazon.com.tr/LEGO-Boynuzlu-%C3%87ocuklar-Denizat%C4%B1-Yarat%C4%B1c%C4%B1/dp/B0BBRZZSMD/ref=zg_bs_g_toys_d_sccl_3/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/B0BBRZZSMD?tag=hobibulsite-21"
+    }
+   ]
+  },
+  {
+   "id": "muzik",
+   "ad": "Müzik aletleri",
+   "cat": "muzik",
+   "sub": "gitar",
+   "yol": "/gp/bestsellers/musical-instruments",
+   "urunler": [
+    {
+     "sira": 1,
+     "asin": "B09JBVR5B4",
+     "ad": "RODE PSA1+ Stüdyo Aksesuarı",
+     "yazar": "",
+     "yol": "https://www.amazon.com.tr/Profesyonel-uygulamalar%C4%B1-PSA1-s%C3%B6n%C3%BCmlemeli-k%C4%B1lavuzlu/dp/B09JBVR5B4/ref=zg_bs_g_musical-instruments_d_sccl_1/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/B09JBVR5B4?tag=hobibulsite-21"
+    },
+    {
+     "sira": 2,
+     "asin": "B0002H0A7E",
+     "ad": "Daddario Exl120 Elektro Gitar Tel Seti, Xl, 9-42, Nickel Wound, Su",
+     "yazar": "",
+     "yol": "https://www.amazon.com.tr/Daddario-Elektro-elektro-telleri-dayan%C4%B1kl%C4%B1l%C4%B1k/dp/B0002H0A7E/ref=zg_bs_g_musical-instruments_d_sccl_2/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/B0002H0A7E?tag=hobibulsite-21"
+    },
+    {
+     "sira": 3,
+     "asin": "B0DY7N6RZB",
+     "ad": "Lastvoice Portatif Demonte Gitar Standı Sehpası Pena Hediye (GTR-01)",
+     "yazar": "",
+     "yol": "https://www.amazon.com.tr/Lastvoice-Portatif-Demonte-Stand%C4%B1-Sehpas%C4%B1/dp/B0DY7N6RZB/ref=zg_bs_g_musical-instruments_d_sccl_3/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/B0DY7N6RZB?tag=hobibulsite-21"
+    }
+   ]
+  },
+  {
+   "id": "bahce",
+   "ad": "Bahçe",
+   "cat": "bahce-bitki",
+   "sub": "bahcecilik",
+   "yol": "/gp/bestsellers/garden",
+   "urunler": [
+    {
+     "sira": 1,
+     "asin": "B083Y1D8WB",
+     "ad": "Xiaomi Mijia Miaomiao Dijital Termometre LCD Ekranlı Isı Nem Ölçer",
+     "yazar": "",
+     "yol": "https://www.amazon.com.tr/Xiaomi-Miaomiao-Dijital-Termometre-Ekranl%C4%B1/dp/B083Y1D8WB/ref=zg_bs_g_garden_d_sccl_1/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/B083Y1D8WB?tag=hobibulsite-21"
+    },
+    {
+     "sira": 2,
+     "asin": "B01M3SPEZF",
+     "ad": "Einhell Orijinal Başlangıç Seti 4,0 Ah PXC 4512042",
+     "yazar": "",
+     "yol": "https://www.amazon.com.tr/Einhell-18V-Starter-Ba%C5%9Flang%C4%B1%C3%A7-Seti/dp/B01M3SPEZF/ref=zg_bs_g_garden_d_sccl_2/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/B01M3SPEZF?tag=hobibulsite-21"
+    },
+    {
+     "sira": 3,
+     "asin": "B082TD4R4L",
+     "ad": "Einhell Orijinal Starter Kit 2,5 Ah PXC 4512097",
+     "yazar": "",
+     "yol": "https://www.amazon.com.tr/Einhell-18V-Starter-Ba%C5%9Flang%C4%B1%C3%A7-Seti/dp/B082TD4R4L/ref=zg_bs_g_garden_d_sccl_3/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/B082TD4R4L?tag=hobibulsite-21"
+    }
+   ]
+  },
+  {
+   "id": "evcil",
+   "ad": "Evcil hayvan",
+   "cat": "evcil-hayvan",
+   "sub": "kedi-bakimi",
+   "yol": "/gp/bestsellers/pet-supplies",
+   "urunler": [
+    {
+     "sira": 1,
+     "asin": "B0083CUYW6",
+     "ad": "Royal Canin Kısırlaştırılmış Kediler İçin, 37 Kuru Kedi Maması, 4 Kg, renksiz",
+     "yazar": "",
+     "yol": "https://www.amazon.com.tr/Royal-Canin-Sterilised-Kisirla%C5%9Ftirilmi%C5%9F-Mamasi/dp/B0083CUYW6/ref=zg_bs_g_pet-supplies_d_sccl_1/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/B0083CUYW6?tag=hobibulsite-21"
+    },
+    {
+     "sira": 2,
+     "asin": "B0DDSWZVZ7",
+     "ad": "Proline Aktif Karbonlu Kedi Kumu 20 L",
+     "yazar": "",
+     "yol": "https://www.amazon.com.tr/Proline-Aktif-Karbonlu-Kedi-Kumu/dp/B0DDSWZVZ7/ref=zg_bs_g_pet-supplies_d_sccl_2/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/B0DDSWZVZ7?tag=hobibulsite-21"
+    },
+    {
+     "sira": 3,
+     "asin": "B0DDT1H7HD",
+     "ad": "Proline Marsilya Sabunu Kokulu Bentonit Kedi Kumu 20 L",
+     "yazar": "",
+     "yol": "https://www.amazon.com.tr/Proline-Marsilya-Sabunu-Kokulu-Kedi/dp/B0DDT1H7HD/ref=zg_bs_g_pet-supplies_d_sccl_3/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/B0DDT1H7HD?tag=hobibulsite-21"
+    }
+   ]
+  },
+  {
+   "id": "elektronik",
+   "ad": "Elektronik",
+   "cat": "teknoloji",
+   "sub": "",
+   "yol": "/gp/bestsellers/electronics",
+   "urunler": [
+    {
+     "sira": 1,
+     "asin": "B0FCMTJSYJ",
+     "ad": "URUCHI Ekran Koruyucu iPhone 18 Pro Max / 17 Pro Max İle Uyumlu PREMIUM Hizalama Aparatlı ve Takılırken Camın Altında Kesinlikle Toz Bırakmayan Darbelere Karşı",
+     "yazar": "",
+     "yol": "https://www.amazon.com.tr/Hizalama-Tak%C4%B1l%C4%B1rken-Kesinlikle-B%C4%B1rakmayan-Darbelere/dp/B0FCMTJSYJ/ref=zg_bs_g_electronics_d_sccl_1/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/B0FCMTJSYJ?tag=hobibulsite-21"
+    },
+    {
+     "sira": 2,
+     "asin": "B0FQF59PPW",
+     "ad": "Apple AirPods Pro 3 Kablosuz Kulaklık, Aktif Gürültü Engelleme, Kalp Atış Hızı Algılama, Bluetooth Kulaklık, Uzamsal Ses, Yüksek Ses Kalitesi, USB-C ile Şarj",
+     "yazar": "",
+     "yol": "https://www.amazon.com.tr/Apple-Kablosuz-Kulakl%C4%B1k-Engelleme-Bluetooth/dp/B0FQF59PPW/ref=zg_bs_g_electronics_d_sccl_2/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/B0FQF59PPW?tag=hobibulsite-21"
+    },
+    {
+     "sira": 3,
+     "asin": "B0CS9SW937",
+     "ad": "Babilden iPhone 17e / iPhone 16e / iPhone 14 / iPhone 13 / iPhone 13 Pro İle Uyumlu Ekran Koruyucu Hizalama Aparatlı Takılırken Camın Altında Kesinlikle Toz",
+     "yazar": "",
+     "yol": "https://www.amazon.com.tr/iPhone-14-13-Pro-Tak%C4%B1l%C4%B1rken/dp/B0CS9SW937/ref=zg_bs_g_electronics_d_sccl_3/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/B0CS9SW937?tag=hobibulsite-21"
+    }
+   ]
+  },
+  {
+   "id": "mutfak",
+   "ad": "Mutfak",
+   "cat": "yemek-mutfak",
+   "sub": "yemek-pisirme",
+   "yol": "/gp/bestsellers/kitchen",
+   "urunler": [
+    {
+     "sira": 1,
+     "asin": "B0FP4XN8MN",
+     "ad": "Stanley IceFlow Flip Straw Tumbler Pipetli Termos Bardak, 0.89 L",
+     "yazar": "",
+     "yol": "https://www.amazon.com.tr/Stanley-IceFlow-Tumbler-Pipetli-Termos/dp/B0FP4XN8MN/ref=zg_bs_g_kitchen_d_sccl_1/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/B0FP4XN8MN?tag=hobibulsite-21"
+    },
+    {
+     "sira": 2,
+     "asin": "B0GCZGMSDT",
+     "ad": "Philips 5500 Serisi LatteGo Tam Otomatik Espresso Makinesi (EP5547/90) ve Philips Espresso Makinesi Kahve Yağı Çözücü Tablet (CA6704/10)",
+     "yazar": "",
+     "yol": "https://www.amazon.com.tr/Philips-LatteGo-Otomatik-Espresso-Makinesi/dp/B0GCZGMSDT/ref=zg_bs_g_kitchen_d_sccl_2/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/B0GCZGMSDT?tag=hobibulsite-21"
+    },
+    {
+     "sira": 3,
+     "asin": "B0BXYBPBGS",
+     "ad": "Philips 7000 Serisi Buharlı Ütü - 2800W, SteamGlide Plus Taban, 250 g Güçlendirme, 50 g/dk Sürekli Buhar, Otomatik Kapanma, Hızlı Kireç Temizleme (DST7030/20)",
+     "yazar": "",
+     "yol": "https://www.amazon.com.tr/Philips-DST7030-20-Buharl%C4%B1-SteamGlide/dp/B0BXYBPBGS/ref=zg_bs_g_kitchen_d_sccl_3/700-5381273-3160341",
+     "url": "https://www.amazon.com.tr/dp/B0BXYBPBGS?tag=hobibulsite-21"
+    }
+   ]
+  }
+ ],
+ "hatalar": [],
+ "secilen": [
+  {
+   "id": "kitap",
+   "cat": "yazi-edebiyat"
+  },
+  {
+   "id": "mutfak",
+   "cat": "yemek-mutfak"
+  },
+  {
+   "id": "bahce",
+   "cat": "bahce-bitki"
+  },
+  {
+   "id": "evcil",
+   "cat": "evcil-hayvan"
+  }
+ ],
+ "yazilan": [
+  {
+   "slug": "bu-haftanin-en-cok-satan-kitaplari-2026-w46",
+   "yeni": true,
+   "cat": "yazi-edebiyat"
+  },
+  {
+   "slug": "en-cok-satan-mutfak-2026-w46",
+   "yeni": true,
+   "cat": "yemek-mutfak"
+  },
+  {
+   "slug": "en-cok-satan-bahce-2026-w46",
+   "yeni": true,
+   "cat": "bahce-bitki"
+  },
+  {
+   "slug": "en-cok-satan-evcil-2026-w46",
+   "yeni": true,
+   "cat": "evcil-hayvan"
+  }
+ ]
+}

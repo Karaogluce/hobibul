@@ -23,9 +23,9 @@ Başlangıç seti basılı tuval, renk kodlu taş ve tepsi içerir. Kod tuvalin 
 
 Mum, yedek uç ve ışık her kutuda aynı değildir. İçindekiler listesini satın alma sayfasından okuyun. Listede olmayan parçayı varmış gibi düşünmeyin.
 
-Kalem, tek taş ya da çoklu uç takılabilen bir yerleştirme aletidir. Uç ölçüsü kutuda yazar. Tek tek gitmek yavaştır ama kontrol sizdedir. Yedek uç çoğu sette ayrı durur. Çoklu uç ilk günde taşı saçabilir. Mum bitince taş tutmaz. İlk akşam tek uçla kalın. Hız, kodu doğru okuduktan sonra gelir. [Satın Al: Diamond Painting Kalemi](aff://diamond-painting-pen)
+Kalem, tek taş ya da çoklu uç takılabilen bir yerleştirme aletidir. Uç ölçüsü kutuda yazar. Tek tek gitmek yavaştır ama kontrol sizdedir. Yedek uç çoğu sette ayrı durur. Çoklu uç ilk günde taşı saçabilir. Mum bitince taş tutmaz. İlk akşam tek uçla kalın. Hız, kodu doğru okuduktan sonra gelir. 
 
-Işık pedi tuvalin altına konan ışıklı panodur. Kutu boyutunu yazmıyorsa o pedin her tuvali taşıdığını varsaymayın. Koyu zeminde kodu seçmeyi kolaylaştırır ve masa lambasından daha düz bir ışık verir. Küçük ped büyük tuvali taşımaz. Kablo masa kenarında takılabilir. İlk tuval küçükse pedi erteleyebilirsiniz. Koyu zeminde kod kayboluyorsa ikinci alet olarak daha çok işe yarar. [Satın Al: Diamond Painting Işık Pedi](aff://diamond-painting-lightpad)
+Işık pedi tuvalin altına konan ışıklı panodur. Kutu boyutunu yazmıyorsa o pedin her tuvali taşıdığını varsaymayın. Koyu zeminde kodu seçmeyi kolaylaştırır ve masa lambasından daha düz bir ışık verir. Küçük ped büyük tuvali taşımaz. Kablo masa kenarında takılabilir. İlk tuval küçükse pedi erteleyebilirsiniz. Koyu zeminde kod kayboluyorsa ikinci alet olarak daha çok işe yarar. 
 
 ## Nasıl ilerlenir
 

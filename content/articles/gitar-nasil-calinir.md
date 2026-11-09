@@ -41,7 +41,7 @@ Başlangıç seviyesinde bütçeni sarsmayacak dengeli bir ses arıyorsan Yamaha
 
 Elektro gitarda dengeli bir gerginlik ve canlı bir tını arıyorsan nikel kaplı teller işini fazlasıyla görür. Standart ölçüsüyle bilinen D'Addario EXL110, parlak tonları ve dayanıklı yapısıyla öne çıkan bir settir. Nikel kaplaması sayesinde uzun ömürlü bir kullanım sunar. Yine de her ince tel gibi sert çalışlarda ya da aşırı bükmelerde kopabilir ve belirli aralıklarla set olarak yenilenmesi gerekir. "Teli bir kez takayım, aylarca hiç değiştirmeden çalayım" diyenlere uymaz; çünkü zamanla ses parlaklığını kaybeder ve düzenli değişim ister.
 
-[Satın Al: D'Addario EXL110 Tel Seti](aff://daddario-exl110)
+
 
 ## Akorlar, Tablar ve Şarkı Pratikleri
 
@@ -80,7 +80,7 @@ Akustik gitarlarda genellikle bronz alaşımlı çelik teller tercih edilir. Kla
 ### Elektro gitar teli nasıl seçilir?
 Elektro gitarda manyetik çekimi sağlayan nikel kaplı teller kullanılır. Standart ölçüye, uzun kullanım ömrüne ve parlak tonlara ihtiyaç duyuyorsan D'Addario EXL110 dengeli bir performans sunar; fakat sert vuruşlarda kopabileceğini ve belirli aralıklarla değiştirilmesi gerektiğini bilerek kullanmalısın.
 
-[Satın Al: D'Addario EXL110 Tel Seti](aff://daddario-exl110)
+
 
 ### Gitar akor geçişleri nasıl hızlandırılır?
 Temponu düşürüp iki akor arasında sağ elini hiç durdurmadan sol el parmaklarını aynı anda kaldırmaya odaklanmalısın. Parmaklarını tellere sırayla yerleştirmek yerine, elini havada akorun basılış kalıbına sokup tek hamlede klavyeye indirmek geçişleri hızlandırır.

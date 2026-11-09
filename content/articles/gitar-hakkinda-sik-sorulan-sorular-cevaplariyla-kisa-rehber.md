@@ -40,7 +40,7 @@ Gitarından istediğin sesi alamadığında sorun her zaman enstrümanın kendis
 
 Elektro gitar çalıyorsan manyetiklerin tepkisini iyi ileten nikel kaplı teller her zaman öne çıkar. D'Addario EXL110 Tel Seti, parlak tonlu ve dayanıklı yapısıyla standart ölçü arayan elektro gitar kullanıcıları için oldukça dengeli bir seçimdir. Nikel kaplaması sayesinde parlak tonlar üretir ve uzun ömürlü bir kullanım vadeder. Ancak sert çalımlarda her tel gibi kopabilir ve zamanla ton parlaklığını yitireceği için düzenli değişim gerektirir. Tellerini hiç değiştirmeden çok uzun süre aynı parlaklığı korumak istiyorsan veya kopma ihtimaline karşı yedek taşımaktan hoşlanmıyorsan bu set beklentini karşılamayabilir.
 
-Fiyatları merak ediyorsan güncel fiyatı Amazon'da kontrol et: [Satın Al: D'Addario EXL110 Tel Seti](aff://daddario-exl110)
+Fiyatları merak ediyorsan güncel fiyatı Amazon'da kontrol et: 
 
 ## Hâlâ Aklında Soru Var mı? Sıkça Sorulan Sorular
 

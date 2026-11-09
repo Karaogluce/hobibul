@@ -91,7 +91,7 @@ Mixtrack Pro FX ise daha "oturaklı" bir seçenek. 6 inçlik büyük jog’ları
 
 DDJ-FLX2 hakkında şu an elimizde çok kısıtlı bilgi var. Sayfada sadece marka ve model adı geçiyor; kanal sayısı, ağırlık veya hangi yazılımla geldiği belirtilmemiş. Bu yüzden bu cihazı "FLX4’ün ucuz versiyonu" sanıp hemen karar verme. Teknik detayları netleşmeden FLX4 özelliklerini buna yormak yanlış olur.
 
-[Satın Al: Pioneer DDJ-FLX2](aff://pioneer-ddj-flx2)
+
 
 ## İlk Ay Masayı Nasıl Kurmalısın?
 

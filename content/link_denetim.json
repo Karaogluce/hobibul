@@ -1,0 +1,2489 @@
+{
+ "tarih": "2026-11-09",
+ "ozet": {
+  "denetlenen": 158,
+  "dogrulandi": 59,
+  "bozuk": 98,
+  "engel": 1,
+  "neo_troy": 19,
+  "not": "bozuk = bulunamadi + neo_troy_yok + yanlis_urun. Kitap veya video sayfasına düşen eşleşmeler doğrulanmış sayılmadı."
+ },
+ "kayitlar": [
+  {
+   "id": "sky-team",
+   "ad": "Sky Team",
+   "marka": "",
+   "url": "https://neotroygames.com/urun/sky-team/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "2-kisilik-kutu-oyunlari",
+    "en-iyi-kutu-oyunlari-2026",
+    "yilbasi-hediyesi-kutu-oyunlari",
+    "yilbasi-hediyesi-kutu-oyunlari"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "21 Days to Glory: The Official Team Sky Book of the 2012 Tour De France : Brailsford, Team Sky: Amazon.com.tr: Kitap",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "codenames-duet",
+   "ad": "Codenames Duet",
+   "marka": "",
+   "url": "https://neotroygames.com/urun/codenames-duet/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "2-kisilik-kutu-oyunlari"
+   ],
+   "durum": "neo_troy_yok",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "beste-bes",
+   "ad": "Beşte Beş",
+   "marka": "",
+   "url": "https://neotroygames.com/urun/beste-bes/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "2-kisilik-kutu-oyunlari"
+   ],
+   "durum": "neo_troy_yok",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "splendor",
+   "ad": "Splendor",
+   "marka": "",
+   "url": "https://neotroygames.com/urun/splendor/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "2-kisilik-kutu-oyunlari",
+    "aile-kutu-oyunlari",
+    "en-iyi-kutu-oyunlari-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Splendor Florum 2&#x27;li Kahve Fincanı Seti, Çiçek Desenli Porselen, Yeşil Çizgili, 90cc, Altın Yaldızlı 2 kişilik : Amazon.com.tr: Mutfak",
+   "yeni_url": "https://www.amazon.com.tr/dp/B0GFF3J566?tag=hobibulsite-21",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "carcassonne-kutu",
+   "ad": "Carcassonne",
+   "marka": "Z-Man Games",
+   "url": "https://neotroygames.com/urun/carcassonne/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "2-kisilik-kutu-oyunlari",
+    "aile-kutu-oyunlari",
+    "en-iyi-kutu-oyunlari-2026",
+    "yilbasi-hediyesi-kutu-oyunlari",
+    "yilbasi-hediyesi-kutu-oyunlari"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Carcassonne: The History and Legacy of the Castles, Campaigns, and Crimes in France&#x27;s Fabled Walled City : Charles River Editors: Amazon.com.tr: Kitap",
+   "yeni_url": ""
+  },
+  {
+   "id": "ticket-to-ride-europe",
+   "ad": "Ticket to Ride Europe",
+   "marka": "Days of Wonder",
+   "url": "https://neotroygames.com/urun/ticket-to-ride-europe/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "2-kisilik-kutu-oyunlari",
+    "aile-kutu-oyunlari",
+    "en-iyi-kutu-oyunlari-2026",
+    "yilbasi-hediyesi-kutu-oyunlari",
+    "yilbasi-hediyesi-kutu-oyunlari"
+   ],
+   "durum": "dogrulandi",
+   "asin": "0975277367",
+   "baslik": "Ticket to Ride Europe : Alan, Moon R.: Amazon.com.tr: Oyuncak",
+   "yeni_url": "https://www.amazon.com.tr/dp/0975277367?tag=hobibulsite-21"
+  },
+  {
+   "id": "cascadia",
+   "ad": "Cascadia",
+   "marka": "",
+   "url": "https://neotroygames.com/urun/cascadia/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "2-kisilik-kutu-oyunlari",
+    "aile-kutu-oyunlari",
+    "en-iyi-kutu-oyunlari-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Cascadia: Rise, Fall, Rinse, Repeat: Freedom IS Rebellion : Plummer, William: Amazon.com.tr: Kitap",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "evvel-zaman",
+   "ad": "Evvel Zaman",
+   "marka": "",
+   "url": "https://neotroygames.com/urun/evvel-zaman/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "2-kisilik-kutu-oyunlari"
+   ],
+   "durum": "bulunamadi",
+   "asin": "6050844968",
+   "baslik": "Evvel Zaman Koleksiyoncusu : Kayahan Demir: Amazon.com.tr: Kitap",
+   "yeni_url": "https://www.amazon.com.tr/dp/6050844968?tag=hobibulsite-21"
+  },
+  {
+   "id": "pandemic",
+   "ad": "Pandemic",
+   "marka": "",
+   "url": "https://neotroygames.com/urun/pandemic/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "2-kisilik-kutu-oyunlari",
+    "aile-kutu-oyunlari"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B00A2HD40E",
+   "baslik": "Z-Man Games Pandemic : Amazon.com.tr: Oyuncak",
+   "yeni_url": "https://www.amazon.com.tr/dp/B00A2HD40E?tag=hobibulsite-21"
+  },
+  {
+   "id": "captain-flip",
+   "ad": "Captain Flip",
+   "marka": "",
+   "url": "https://neotroygames.com/urun/captain-flip/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "2-kisilik-kutu-oyunlari",
+    "aile-kutu-oyunlari",
+    "en-iyi-kutu-oyunlari-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "B0G2SJC7GZ",
+   "baslik": "Captain Flip&#x27;s Big Adventure: A Story for Kids: How a Brave Dolphin Saved the Day During World War II : B Weaver, Bright: Amazon.com.tr: Kitap",
+   "yeni_url": "https://www.amazon.com.tr/dp/B0G2SJC7GZ?tag=hobibulsite-21"
+  },
+  {
+   "id": "creality-ender-3-v3",
+   "ad": "Creality Ender 3 V3 3D Yazıcı",
+   "marka": "Creality",
+   "url": "https://www.amazon.com.tr/dp/B0D3VCLX5N?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini",
+    "3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini",
+    "en-iyi-teknoloji-ekipmanlari-2026-alim-rehberi",
+    "teknoloji-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+    "teknoloji-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+    "teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+    "teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+    "teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0D3VCLX5N",
+   "baslik": "Creality Ender-3 V3 Core XZ 3D Yazıcı : Amazon.com.tr"
+  },
+  {
+   "id": "bambu-lab-a1-mini",
+   "ad": "Bambu Lab A1 Mini",
+   "marka": "Bambu Lab",
+   "url": "https://www.amazon.com.tr/s?k=Bambu+Lab+A1+Mini&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini",
+    "3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0FK5TG88M",
+   "baslik": "BAMBU LAB A1 MINI 3D PRINTER: Complete Step-by-Step User Guide: Setup to Advanced Projects for Beginners and Seniors : Thompson, David AC.: Amazon.com.tr: Kitap",
+   "yeni_url": "https://www.amazon.com.tr/dp/B0FK5TG88M?tag=hobibulsite-21"
+  },
+  {
+   "id": "sunlu-pla-filament",
+   "ad": "Sunlu PLA Filament (1kg)",
+   "marka": "Sunlu",
+   "url": "https://www.amazon.com.tr/s?k=Sunlu+PLA+Filament+%281kg%29&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini",
+    "3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "SUNLU PLA+2.0 3D Yazıcı Filamenti, Yükseltme PLA+ Filament 1,75 mm, Daha Sert ve Daha Güçlü, Düzgün Sarılmış Pla Plus Filament, Boyutsal Doğruluk +/- 0,02 mm, 1 KG Makara (1 kg), Beyaz : Amazon.com.tr: Bilgisayar",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "3d-tool-kit",
+   "ad": "3D Yazıcı Alet Seti",
+   "marka": "Creality",
+   "url": "https://www.amazon.com.tr/s?k=3D+Yaz%C4%B1c%C4%B1+Alet+Seti&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini",
+    "3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B09HGXHJ3J",
+   "baslik": "Zhehao 16 adet 3D yazıcı anahtarı temizleme seti, 10 başlık temizleme pimi, saklama kutusu, 2 cımbız, 2 bakır tel temizleme fırçası, 2 L şeklinde anahtar aleti, 3D yazıcı aksesuarları için : Amazon.com.tr: Bilgisayar",
+   "yeni_url": "https://www.amazon.com.tr/dp/B09HGXHJ3J?tag=hobibulsite-21",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "anycubic-kobra-2",
+   "ad": "Anycubic Kobra 2",
+   "marka": "Anycubic",
+   "url": "https://www.amazon.com.tr/s?k=Anycubic+Kobra+2&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini",
+    "3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "hop",
+   "ad": "Hop!",
+   "marka": "",
+   "url": "https://neotroygames.com/urun/hop/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "aile-kutu-oyunlari"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Prime Video: Hop",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "bi-paket-cips",
+   "ad": "Bi' Paket Cips",
+   "marka": "",
+   "url": "https://neotroygames.com/urun/bi-paket-cips/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "aile-kutu-oyunlari",
+    "en-iyi-kutu-oyunlari-2026",
+    "yilbasi-hediyesi-kutu-oyunlari",
+    "yilbasi-hediyesi-kutu-oyunlari"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Lay&#x27;S Cips Paketi : Amazon.com.tr: Ofis ve Kırtasiye",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "machi-koro",
+   "ad": "Machi Koro",
+   "marka": "",
+   "url": "https://neotroygames.com/urun/machi-koro/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "aile-kutu-oyunlari"
+   ],
+   "durum": "neo_troy_yok",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "catan-kutu",
+   "ad": "Catan",
+   "marka": "Catan Studio",
+   "url": "https://neotroygames.com/urun/catan/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "aile-kutu-oyunlari",
+    "en-iyi-kutu-oyunlari-2026",
+    "yilbasi-hediyesi-kutu-oyunlari",
+    "yilbasi-hediyesi-kutu-oyunlari"
+   ],
+   "durum": "neo_troy_yok",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "aqueon-akvaryum-tanki",
+   "ad": "Tetra Starter Line LED 54 L Akvaryum Komple Set",
+   "marka": "Tetra",
+   "url": "https://www.amazon.com.tr/dp/B09RPD8HGL?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "akvaryum-ekipmani-secimi-tank-filtre-isitici",
+    "akvaryum-kurulumu-baslangic-seti",
+    "akvaryum-kurulumu-baslangic-seti",
+    "en-iyi-akvaryum-balik-ekipmanlari-2026-alim-rehberi"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Tetra Starter Line 54 l akvaryum komple set – gündüz ve gece lambası LED aydınlatma, iç filtre, ısıtıcı, balık yemi ve su hazırlama cihazı dahil : Amazon.com.tr: Evcil Hayvan Ürünleri",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "fluval-307-dis-filtre",
+   "ad": "Fluval 207 Performance Dış Filtre",
+   "marka": "Fluval",
+   "url": "https://www.amazon.com.tr/dp/B07JHG13WP?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "akvaryum-ekipmani-secimi-tank-filtre-isitici",
+    "akvaryum-kurulumu-baslangic-seti",
+    "akvaryum-kurulumu-baslangic-seti",
+    "en-iyi-akvaryum-balik-ekipmanlari-2026-alim-rehberi"
+   ],
+   "durum": "yanlis_urun",
+   "asin": "B07JHG13WP",
+   "baslik": "Fluval 207 akvaryumlar için dış filtre, 60 ila 220 l, 780 l/sa, 10 W | Akvaryumlar için Ultra Sessiz Çalışma Teneke Kutu Filtresi, eTEC Teknolojisi ile 170,3 litreye kadar : Amazon.com.tr: Spor ve Outdoor"
+  },
+  {
+   "id": "eheim-jager-akvaryum-isiticisi",
+   "ad": "Eheim Jager Akvaryum Isıtıcısı",
+   "marka": "Eheim",
+   "url": "https://www.amazon.com.tr/dp/B001MX5X5G?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "akvaryum-ekipmani-secimi-tank-filtre-isitici",
+    "akvaryum-kurulumu-baslangic-seti",
+    "akvaryum-kurulumu-baslangic-seti",
+    "en-iyi-akvaryum-balik-ekipmanlari-2026-alim-rehberi"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B001MX5X5G",
+   "baslik": "Eheim Jager Akvaryum Isıtıcısı 100 W : Amazon.com.tr: Moda"
+  },
+  {
+   "id": "tetra-whisper-hava-pompasi",
+   "ad": "Tetra APS 150 Hava Pompası",
+   "marka": "Tetra",
+   "url": "https://www.amazon.com.tr/dp/B002X93UOE?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "akvaryum-ekipmani-secimi-tank-filtre-isitici",
+    "akvaryum-kurulumu-baslangic-seti",
+    "akvaryum-kurulumu-baslangic-seti",
+    "en-iyi-akvaryum-balik-ekipmanlari-2026-alim-rehberi"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B002X93UOE",
+   "baslik": "Tetra APS 150 akvaryum hava pompası, sessiz diyaframlı pompa, 80 – 150 l akvaryumlar için, siyah : Amazon.com.tr: Evcil Hayvan Ürünleri"
+  },
+  {
+   "id": "bonsai-alet-seti-10-parca",
+   "ad": "BestAlice 6 Parça Karbon Çelik Bonsai Alet Seti",
+   "marka": "BestAlice",
+   "url": "https://www.amazon.com.tr/dp/B0CF5XV944?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "bonsai-baslangic-seti-makas-tel-ve-toprak",
+    "bonsai-baslangic-seti-makas-tel-ve-toprak",
+    "bonsai-nasil-toprak-sever",
+    "en-iyi-bonsai-ekipmanlari-2026-alim-rehberi"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "BestAlice 6 Adet Bonsai Alet Seti, Karbon Çelik Bonsai Alet Kiti, Bonsai İçbükey Dal Kesici, Uzun Saplı Paslanmaz Çelik Ev Bahçe Yard için Dayanıklı Etli Bahçe El Aletleri : Amazon.com.tr: Yapı Market",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "bonsai-aluminyum-teli",
+   "ad": "DZDSBB 5 Kalınlıkta Eloksallı Alüminyum Bonsai Teli",
+   "marka": "DZDSBB",
+   "url": "https://www.amazon.com.tr/dp/B09SM5FFW3?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "bonsai-baslangic-seti-makas-tel-ve-toprak",
+    "bonsai-baslangic-seti-makas-tel-ve-toprak",
+    "en-iyi-bonsai-ekipmanlari-2026-alim-rehberi"
+   ],
+   "durum": "yanlis_urun",
+   "asin": "B09SM5FFW3",
+   "baslik": "DZDSBB Bonzai alüminyum tel, bonzai tel, esnek demir tel, yaratıcı bonsai kiti, 5 farklı boyutta, eloksallı alüminyum bonsai teli – 1,0 mm, 1,5 mm, 2,0 mm, 2,5 mm, 3,0 mm (50 metre) (siyah) : Amazon.com.tr: Bahçe"
+  },
+  {
+   "id": "bonsai-jack-toprak-karisimi",
+   "ad": "Compo 1602 Bonsai Toprağı 5 L",
+   "marka": "Compo",
+   "url": "https://www.amazon.com.tr/dp/B00CC3F3EG?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "bonsai-baslangic-seti-makas-tel-ve-toprak",
+    "bonsai-baslangic-seti-makas-tel-ve-toprak",
+    "bonsai-nasil-toprak-sever",
+    "en-iyi-bonsai-ekipmanlari-2026-alim-rehberi"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B00CC3F3EG",
+   "baslik": "Compo 1602 Bonsai Toprağı 5 Lt | Mükemmel su dengesi ve optimum havalandırma sağlar. Kaliteli toprak : Amazon.com.tr: Bahçe"
+  },
+  {
+   "id": "biogold-bonsai-gubresi",
+   "ad": "Genta Prestige Bonsai Sıvı Bitki Besini 500 ml",
+   "marka": "Genta",
+   "url": "https://www.amazon.com.tr/dp/B0BSNFQJ3Q?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "bonsai-baslangic-seti-makas-tel-ve-toprak",
+    "bonsai-baslangic-seti-makas-tel-ve-toprak",
+    "bonsai-nasil-toprak-sever",
+    "en-iyi-bonsai-ekipmanlari-2026-alim-rehberi"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0BSNFQJ3Q",
+   "baslik": "Genta Prestige Bonsai Sıvı Bitki Besini Gübre 500 ml : Amazon.com.tr: Bahçe"
+  },
+  {
+   "id": "bonsai-budama-makasi",
+   "ad": "Wazakura Ashinaga Bonsai Makası ve İçbükey Dal Kesici Seti",
+   "marka": "Wazakura",
+   "url": "https://www.amazon.com.tr/dp/B08G836FMN?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "bonsai-baslangic-seti-makas-tel-ve-toprak",
+    "bonsai-nasil-toprak-sever",
+    "en-iyi-bonsai-ekipmanlari-2026-alim-rehberi"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Wazakura Japon Bonsai Alet Seti Japonya&#x27;da Üretilmiştir, Uzun Saplı Ashinaga Makas 8 inç (200 mm) + İçbükey Dal Kesici 8 inç (200 mm) : Amazon.com.tr: Yapı Market",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "tandy-leather-starter-kit",
+   "ad": "Tandy Leather Deri İşleme Seti",
+   "marka": "Tandy Leather",
+   "url": "https://www.amazon.com.tr/s?k=Tandy+Leather+Deri+%C4%B0%C5%9Fleme+Seti&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026",
+    "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Tandy Leather Craftool Mat Damga M885 6885 : Amazon.com.tr: Ofis ve Kırtasiye",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "weaver-veg-tan-leather",
+   "ad": "Weaver Leather Veg-Tan Deri",
+   "marka": "Weaver Leather Supply",
+   "url": "https://www.amazon.com.tr/s?k=Weaver+Leather+Veg-Tan+Deri&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026",
+    "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026",
+    "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Weaver Leather Latigo Deri Kaş Bandı, Kahverengi : Amazon.com.tr: Spor ve Outdoor",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "craftool-leather-knife",
+   "ad": "Craftool Deri Bıçağı",
+   "marka": "Craftool",
+   "url": "https://www.amazon.com.tr/s?k=Craftool+Deri+B%C4%B1%C3%A7a%C4%9F%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026",
+    "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026",
+    "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Tandy Leather Craftool profesyonel saç bıçağı kalemi 88012-00 : Amazon.com.tr: Kişisel Bakım ve Kozmetik",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "seiwa-edge-beveler",
+   "ad": "Seiwa Deri Kenar Aleti",
+   "marka": "Seiwa",
+   "url": "https://www.amazon.com.tr/s?k=Seiwa+Deri+Kenar+Aleti&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026",
+    "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026",
+    "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "fiebings-leather-dye",
+   "ad": "Fiebing's Deri Boyası",
+   "marka": "Fiebing's",
+   "url": "https://www.amazon.com.tr/s?k=Fiebing%27s+Deri+Boyas%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026",
+    "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "diamond-painting-set",
+   "ad": "Diamond Painting Başlangıç Seti",
+   "marka": "",
+   "url": "https://www.amazon.com.tr/s?k=Diamond+Painting+Ba%C5%9Flang%C4%B1%C3%A7+Seti&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "diamond-painting-nedir-nasil-yapilir",
+    "yetiskin-hobi-setleri",
+    "yetiskin-hobi-setleri"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0HKNDB65P",
+   "baslik": "5d Elmas Boncuk Taş Işleme Mozaik Goblen Kit Kanvas Tablo 50X40cm GC86551 Diamond Painting : Amazon.com.tr: Oyuncak",
+   "yeni_url": "https://www.amazon.com.tr/dp/B0HKNDB65P?tag=hobibulsite-21"
+  },
+  {
+   "id": "diamond-painting-pen",
+   "ad": "Diamond Painting Kalemi",
+   "marka": "",
+   "url": "https://www.amazon.com.tr/s?k=Diamond+Painting+Kalemi&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "diamond-painting-nedir-nasil-yapilir"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Diamond Painting Log Book: [Deluxe Edition with Space for Photos] Color Chart Design : Notebooks, Diamond Dot: Amazon.com.tr: Kitap",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "diamond-painting-lightpad",
+   "ad": "Diamond Painting Işık Pedi",
+   "marka": "",
+   "url": "https://www.amazon.com.tr/s?k=Diamond+Painting+I%C5%9F%C4%B1k+Pedi&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "diamond-painting-nedir-nasil-yapilir"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "pioneer-ddj-flx4",
+   "ad": "Pioneer DDJ-FLX4 DJ Kontrol",
+   "marka": "Pioneer",
+   "url": "https://www.amazon.com.tr/dp/B0BK25SY9G?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "dj-kontrol-cihazi-secimi-yeni-baslayanlar",
+    "dj-kontrol-cihazi-secimi-yeni-baslayanlar",
+    "dj-produksiyon-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+    "dj-produksiyon-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+    "dj-produksiyon-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+    "dj-produksiyon-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+    "dj-seti-adi",
+    "dj-seti-adi",
+    "dj-seti-adi",
+    "dj-seti-adi",
+    "en-iyi-dj-produksiyon-ekipmanlari-2026-alim-rehberi"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0BLSJZC94",
+   "baslik": "Pioneer DJ DDJ-FLX4 DJ Kontrol Cihazı : Amazon.com.tr: Müzik Enstrümanları ve DJ",
+   "yeni_url": "https://www.amazon.com.tr/dp/B0BLSJZC94?tag=hobibulsite-21",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "numark-party-mix-iii",
+   "ad": "Numark Party Mix III DJ Kontrol",
+   "marka": "Numark",
+   "url": "https://www.amazon.com.tr/dp/B0GYYZHD3T?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "dj-kontrol-cihazi-secimi-yeni-baslayanlar",
+    "dj-kontrol-cihazi-secimi-yeni-baslayanlar"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0GYYZHD3T",
+   "baslik": "Numark Party Mix III Dahili Işıklı Bluetooth DJ Controller – 2 Deck, 16 Pad, Stems Kontrolü, Beat Assist, Smart Fader, USB-C, Serato DJ Lite &amp; Algoriddim djay Dahil, Başlangıç DJ Seti : Amazon.com.tr: Müzik Enstrümanları ve DJ"
+  },
+  {
+   "id": "numark-mixtrack-go",
+   "ad": "Numark MixTrack Go DJ Kontrol",
+   "marka": "Numark",
+   "url": "https://www.amazon.com.tr/dp/B0GYYS6B5X?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "dj-kontrol-cihazi-secimi-yeni-baslayanlar",
+    "dj-kontrol-cihazi-secimi-yeni-baslayanlar",
+    "dj-produksiyon-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+    "dj-produksiyon-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+    "dj-produksiyon-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+    "dj-produksiyon-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+    "dj-produksiyon-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+    "dj-produksiyon-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+    "dj-produksiyon-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+    "dj-seti-adi",
+    "en-iyi-dj-produksiyon-ekipmanlari-2026-alim-rehberi"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0GYYS6B5X",
+   "baslik": "Numark MixTrack Go Kompakt Bluetooth DJ Controller – 2 Deck, Stems Kontrolü, Smart Fader, Kapasitif Dokunmatik Jog Wheel, USB-C, Serato DJ Lite &amp; Algoriddim djay Dahil, Taşınabilir DJ Mikseri : Amazon.com.tr: Müzik Enstrümanları ve DJ"
+  },
+  {
+   "id": "numark-mixtrack-pro-fx",
+   "ad": "Numark Mixtrack Pro FX DJ Kontrol",
+   "marka": "Numark",
+   "url": "https://www.amazon.com.tr/dp/B087S28ZRM?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "dj-kontrol-cihazi-secimi-yeni-baslayanlar",
+    "dj-kontrol-cihazi-secimi-yeni-baslayanlar"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B087S28ZRM",
+   "baslik": "Numark Mixtrack Pro FX DJ Kontrolör | 2 Deck, 3 Bantlı EQ DJ Mikseri, 16 Pad, 2 Efekt Pedalı, Ses Arabirimi, Serato DJ Lite : Amazon.com.tr: Müzik Enstrümanları ve DJ"
+  },
+  {
+   "id": "pioneer-ddj-flx2",
+   "ad": "Pioneer DJ DDJ-FLX2",
+   "marka": "AlphaTheta",
+   "url": "https://www.amazon.com.tr/dp/B0DK49GW7M?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "dj-kontrol-cihazi-secimi-yeni-baslayanlar",
+    "dj-produksiyon-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+    "dj-produksiyon-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+    "dj-produksiyon-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+    "dj-seti-adi",
+    "en-iyi-dj-produksiyon-ekipmanlari-2026-alim-rehberi"
+   ],
+   "durum": "yanlis_urun",
+   "asin": "B0DK49GW7M",
+   "baslik": "Pioneer DJ DDJ-FLX2 DJ Kontrol Cihazı : Amazon.com.tr: Müzik Enstrümanları ve DJ"
+  },
+  {
+   "id": "dji-mini-4k",
+   "ad": "DJI Mini 4K Drone",
+   "marka": "DJI",
+   "url": "https://www.amazon.com.tr/dp/B0CXJDDJ9X?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "drone-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+    "drone-nasil-kullanilir",
+    "drone-nasil-kullanilir",
+    "drone-secimi-yeni-baslayanlar-icin",
+    "drone-secimi-yeni-baslayanlar-icin",
+    "en-iyi-teknoloji-ekipmanlari-2026-alim-rehberi",
+    "teknoloji-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+    "teknoloji-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+    "teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+    "teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0CXJDDJ9X",
+   "baslik": "DJI Mini 4K - 4K 30 Fps, Drone, Gri | 4k/30fps Video, 3 Eksenli Gimbal, 4× Dijital Zoom, O2 10 Km İletim, 31 Dakika Uçuş, 249 G Altında, (1 Pil) : Amazon.com.tr: Oyuncak"
+  },
+  {
+   "id": "mobee-e88-drone",
+   "ad": "MOBEE E88 Katlanabilir Drone",
+   "marka": "MOBEE",
+   "url": "https://www.amazon.com.tr/dp/B0HKNQX9G8?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "drone-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+    "drone-nasil-kullanilir",
+    "drone-secimi-yeni-baslayanlar-icin",
+    "drone-secimi-yeni-baslayanlar-icin"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0HKNQX9G8",
+   "baslik": "MOBEE E88 4K Çift Kameralı Katlanabilir Drone WiFi APP Kontrollü FPV Quadcopter 2 Bataryalı : Amazon.com.tr: Oyuncak"
+  },
+  {
+   "id": "dji-neo",
+   "ad": "DJI Neo",
+   "marka": "DJI",
+   "url": "https://www.amazon.com.tr/dp/B07FTPX71F?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "drone-secimi-yeni-baslayanlar-icin",
+    "drone-secimi-yeni-baslayanlar-icin"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B07FTPX71F",
+   "baslik": "DJI Neo 4K 100 fps Drone, 12 MP Fotoğraf, 18 Dakika Uçuş Süresi, 135 g, Beyaz : Amazon.com.tr: Oyuncak"
+  },
+  {
+   "id": "ryze-tello",
+   "ad": "Ryze Tello",
+   "marka": "DJI/Ryze",
+   "url": "https://www.amazon.com.tr/s?k=Ryze+Tello&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "drone-secimi-yeni-baslayanlar-icin"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B07CPT5TSL",
+   "baslik": "RCGEEK Drone 8520 Motorlar Çekirdeksiz CW CCW Motor DJI Ryze Tello ile Uyumlu 720 P Kamera FPV RC Quadcopter, 2 Pairs : Amazon.com.tr: Oyuncak",
+   "yeni_url": "https://www.amazon.com.tr/dp/B07CPT5TSL?tag=hobibulsite-21"
+  },
+  {
+   "id": "fender-player-strat",
+   "ad": "Fender Player Stratocaster",
+   "marka": "Fender",
+   "url": "https://www.amazon.com.tr/dp/B07CTV5YVZ?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal",
+    "elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal",
+    "sifirdan-gitar-ogrenmek"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B07CTV5YVZ",
+   "baslik": "Fender Player Stratocaster Black - Maple Elektro Gitar : Amazon.com.tr: Müzik Enstrümanları ve DJ"
+  },
+  {
+   "id": "boss-katana-50",
+   "ad": "Boss Katana 50 Amfi",
+   "marka": "Boss",
+   "url": "https://www.amazon.com.tr/dp/B0D1Z6VHD8?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal",
+    "elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal",
+    "sifirdan-gitar-ogrenmek"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0D1Z6VHD8",
+   "baslik": "BOSS KTN-50 3 Katana 50W 1x12 Combo Elektro Gitar Amfisi : Amazon.com.tr: Müzik Enstrümanları ve DJ"
+  },
+  {
+   "id": "boss-ds-1",
+   "ad": "Boss DS-1 Distortion Pedalı",
+   "marka": "Boss",
+   "url": "https://www.amazon.com.tr/dp/B0002KYY14?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal",
+    "elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Boss DS-2 Turbo Distortion Distortion Pedalı : Amazon.com.tr: Oyuncak",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "daddario-exl110",
+   "ad": "D'Addario EXL110 Tel Seti",
+   "marka": "D'Addario",
+   "url": "https://www.amazon.com.tr/dp/B0002F7K7Y?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal",
+    "elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal",
+    "gitar-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+    "gitar-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+    "gitar-nasil-calinir",
+    "gitar-nasil-calinir",
+    "sifirdan-gitar-ogrenmek"
+   ],
+   "durum": "yanlis_urun",
+   "asin": "B0002F7K7Y",
+   "baslik": "D&#x27;Addario Exl110 Elektro Gitar Teli (10-46) | XL nikel elektro gitar telleri parlak ses, hassas tonlama, yüksek dayanıklılık ve eşit çalma hissi sunar. : Amazon.com.tr: Müzik Enstrümanları ve DJ"
+  },
+  {
+   "id": "snark-st8",
+   "ad": "Snark ST-8 Kromatik Tuner",
+   "marka": "Snark",
+   "url": "https://www.amazon.com.tr/s?k=Snark+ST-8+Kromatik+Tuner&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal",
+    "elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal",
+    "sifirdan-gitar-ogrenmek"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Fishman ACC-TUN-FT2 Kromatik Tuner : Amazon.com.tr: Müzik Enstrümanları ve DJ",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "andoutdoor-monodome-a",
+   "ad": "Andoutdoor Monodome A 2 Kişilik Çadır",
+   "marka": "Andoutdoor",
+   "url": "https://www.amazon.com.tr/dp/B09MQGNKHP?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma",
+    "en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B09MQGNKHP",
+   "baslik": "Andoutdoor Monodome A 2 Kişilik Kamp Çadırı, Koyu Yeşil : Amazon.com.tr"
+  },
+  {
+   "id": "coleman-sundome-4",
+   "ad": "Coleman Sundome 4 Kişilik Çadır",
+   "marka": "Coleman",
+   "url": "https://www.amazon.com.tr/s?k=Coleman+Sundome+4+Ki%C5%9Filik+%C3%87ad%C4%B1r&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma",
+    "en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma",
+    "kampcilik-baslangic-rehberi"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Coleman Instant Skylodge Hızlı ve Kolay Kurulum 4 Kişilik Kamp Çadırı Geniş Kapılı, Yüksek tavan 4 kişilik Çadır : Amazon.com.tr: Spor ve Outdoor",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "thermarest-z-lite",
+   "ad": "Therm-a-Rest Z Lite Uyku Matı",
+   "marka": "Therm-a-Rest",
+   "url": "https://www.amazon.com.tr/s?k=Therm-a-Rest+Z+Lite+Uyku+Mat%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma",
+    "en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma",
+    "kampcilik-baslangic-rehberi"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Therm-a-Rest ProLite Plus Large Şişme Mat : Amazon.com.tr: Spor ve Outdoor",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "etekcity-lantern",
+   "ad": "Etekcity LED Kamp Feneri",
+   "marka": "Etekcity",
+   "url": "https://www.amazon.com.tr/s?k=Etekcity+LED+Kamp+Feneri&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma",
+    "en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma",
+    "kampcilik-baslangic-rehberi"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "wingspan",
+   "ad": "Wingspan",
+   "marka": "",
+   "url": "https://neotroygames.com/urun/wingspan/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "en-iyi-kutu-oyunlari-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Wingspan: A Westbrook Elite Standalone: 2 : Hebert, Cambria: Amazon.com.tr: Kitap",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "codenames-kutu",
+   "ad": "Codenames",
+   "marka": "Czech Games Edition",
+   "url": "https://neotroygames.com/urun/codenames/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "en-iyi-kutu-oyunlari-2026",
+    "yilbasi-hediyesi-kutu-oyunlari",
+    "yilbasi-hediyesi-kutu-oyunlari"
+   ],
+   "durum": "neo_troy_yok",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "heat-tam-gaz",
+   "ad": "Heat: Tam Gaz",
+   "marka": "",
+   "url": "https://neotroygames.com/urun/heat-tam-gaz/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "en-iyi-kutu-oyunlari-2026"
+   ],
+   "durum": "neo_troy_yok",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "7-wonders",
+   "ad": "7 Wonders",
+   "marka": "",
+   "url": "https://neotroygames.com/urun/7-wonders/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "en-iyi-kutu-oyunlari-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Arcane Wonders Air, Land &amp; Sea: Revised Edition Card Game : Amazon.com.tr: Oyuncak",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "terraforming-mars",
+   "ad": "Terraforming Mars",
+   "marka": "",
+   "url": "https://neotroygames.com/urun/terraforming-mars/",
+   "sinif": "neo_troy",
+   "makaleler": [
+    "en-iyi-kutu-oyunlari-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Terraforming Mars: Ares Expedition : Amazon.com.tr: Oyuncak",
+   "yeni_url": "https://www.amazon.com.tr/dp/B08QXCM2MV?tag=hobibulsite-21"
+  },
+  {
+   "id": "lego-bonsai-10281",
+   "ad": "LEGO Botanicals Bonsai Ağacı 10281",
+   "marka": "LEGO",
+   "url": "https://www.amazon.com.tr/dp/B08G4PCG8F?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions",
+    "en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions",
+    "yetiskin-hobi-setleri",
+    "yetiskin-hobi-setleri"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B08G4PCG8F",
+   "baslik": "LEGO Botanicals Bonsai Ağacı 10281 | Yetişkinler için Değiştirilebilir Parçalar İçeren Model Yapım Seti, Sevgililer Günü Hediyesi Fikri (878 Parça) : Amazon.com.tr: Oyuncak"
+  },
+  {
+   "id": "lego-mini-bonsai-10373",
+   "ad": "LEGO Botanicals Mini Bonsai Ağaçları 10373",
+   "marka": "LEGO",
+   "url": "https://www.amazon.com.tr/dp/B0DWDDNK1J?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions",
+    "lego-model-ai",
+    "lego-model-ai",
+    "lego-model-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+    "lego-model-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+    "lego-model-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0DWDDNK1J",
+   "baslik": "LEGO Botanicals Mini Bonsai Ağaçları 10373 | Yetişkinler için Değiştirilebilir Yapraklar İçeren Dekoratif Bitki Modeli Yapım Seti, Hediye Fikri (709 Parça) : Amazon.com.tr: Oyuncak"
+  },
+  {
+   "id": "lego-sukulent-10309",
+   "ad": "LEGO Botanicals Sukulentler 10309",
+   "marka": "LEGO",
+   "url": "https://www.amazon.com.tr/dp/B09BNV7VS1?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions",
+    "en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions",
+    "lego-model-ai",
+    "lego-model-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+    "lego-model-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+    "lego-model-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B09BNV7VS1",
+   "baslik": "LEGO Botanicals Sukulentler 10309 | Yetişkinler için 9 Farklı Bitki ve Saksı İçeren Dekoratif Yapay Çiçek Modeli Yapım Seti, Sevgililer Günü Hediyesi (771 Parça) : Amazon.com.tr: Oyuncak"
+  },
+  {
+   "id": "lego-supra-77260",
+   "ad": "LEGO Speed Champions Toyota Supra MK4 77260",
+   "marka": "LEGO",
+   "url": "https://www.amazon.com.tr/dp/B0FPXF65PH?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions",
+    "lego-model-ai",
+    "lego-model-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+    "lego-model-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+    "lego-model-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0FPXF65PH",
+   "baslik": "LEGO Speed Champions Hızlı ve Öfkeli Toyota Supra MK4 77260 | 10 Yaş ve Üzeri Çocuklar için Troy Lee&#x27;nin Nuclear Gladiator Grafiğini İçeren Oyuncak Yapım Seti, Hediye Fikri (292 Parça) : Amazon.com.tr: Oyuncak"
+  },
+  {
+   "id": "lego-zaman-makinesi-77256",
+   "ad": "LEGO Speed Champions Zaman Makinesi 77256",
+   "marka": "LEGO",
+   "url": "https://www.amazon.com.tr/dp/B0FPXDXXYR?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions",
+    "en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0FPXDXXYR",
+   "baslik": "LEGO Speed Champions Geleceğe Dönüş’ten Zaman Makinesi 77256 | 9 Yaş ve Üzeri Çocuklar için Doktor Brown ve Marty McFly Minifigürleri İçeren Oyuncak Yapım Seti, Hediye Fikri (357 Parça) : Amazon.com.tr: Oyuncak"
+  },
+  {
+   "id": "lego-kiraz-40725",
+   "ad": "LEGO Kiraz Çiçekleri 40725",
+   "marka": "LEGO",
+   "url": "https://www.amazon.com.tr/dp/B0CFW1NHPC?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions",
+    "en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0CFW1NHPC",
+   "baslik": "LEGO Kiraz Çiçekleri Kutlama Hediyesi 40725 – 8 Yaş ve Üzeri Çocuklar için Doğum Günü Hediyesi Fikri, Pastel Tonlarda Çiçeklerle Kaplı 2 Dal İçeren Dekoratif Yaratıcı Oyuncak Yapım Seti (430 Parça) : Amazon.com.tr: Oyuncak"
+  },
+  {
+   "id": "raspberry-pi-5",
+   "ad": "Raspberry Pi 5 (8GB)",
+   "marka": "Raspberry Pi",
+   "url": "https://www.amazon.com.tr/dp/B0CK2FCG1K?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "en-iyi-raspberry-pi-elektronik-ekipmanlari-2026-alim-rehberi",
+    "en-iyi-raspberry-pi-elektronik-ekipmanlari-2026-alim-rehberi",
+    "en-iyi-teknoloji-ekipmanlari-2026-alim-rehberi",
+    "raspberry-pi-5-baslangic-kiti",
+    "raspberry-pi-5-baslangic-kiti",
+    "raspberry-pi-ile-linux-ve-elektronik-uygulamalari",
+    "raspberry-pi-ile-linux-ve-elektronik-uygulamalari",
+    "raspberry-pi-ile-linux-ve-elektronik-uygulamalari",
+    "raspberry-pi-ile-linux-ve-elektronik-uygulamalari",
+    "raspberry-pi-ile-linux-ve-elektronik-uygulamalari",
+    "teknoloji-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+    "teknoloji-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+    "teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+    "teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+    "teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+    "teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0CS2Z72FY",
+   "baslik": "Raspberry Pi 5 8GB : Amazon.com.tr: Bilgisayar",
+   "yeni_url": "https://www.amazon.com.tr/dp/B0CS2Z72FY?tag=hobibulsite-21",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "arduino-uno-r3",
+   "ad": "Arduino Uno R3 Mikrodenetleyici",
+   "marka": "Arduino",
+   "url": "https://www.amazon.com.tr/dp/B008GRTSV6?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "en-iyi-raspberry-pi-elektronik-ekipmanlari-2026-alim-rehberi",
+    "en-iyi-raspberry-pi-elektronik-ekipmanlari-2026-alim-rehberi",
+    "en-iyi-teknoloji-ekipmanlari-2026-alim-rehberi",
+    "raspberry-pi-5-baslangic-kiti",
+    "raspberry-pi-5-baslangic-kiti",
+    "raspberry-pi-5-baslangic-kiti",
+    "raspberry-pi-ile-linux-ve-elektronik-uygulamalari",
+    "teknoloji-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+    "teknoloji-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+    "teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+    "teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+    "teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar"
+   ],
+   "durum": "yanlis_urun",
+   "asin": "B008GRTSV6",
+   "baslik": "Arduino Orjinal UNO R3 : Arduino®: Amazon.com.tr: Bilgisayar"
+  },
+  {
+   "id": "rpi-power-supply",
+   "ad": "Raspberry Pi 5 Resmi Adaptör",
+   "marka": "Raspberry Pi",
+   "url": "https://www.amazon.com.tr/dp/B0CM46P7MC?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "en-iyi-raspberry-pi-elektronik-ekipmanlari-2026-alim-rehberi",
+    "en-iyi-raspberry-pi-elektronik-ekipmanlari-2026-alim-rehberi",
+    "raspberry-pi-5-baslangic-kiti",
+    "raspberry-pi-5-baslangic-kiti",
+    "raspberry-pi-5-baslangic-kiti",
+    "raspberry-pi-ile-linux-ve-elektronik-uygulamalari",
+    "raspberry-pi-ile-linux-ve-elektronik-uygulamalari"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Raspberry Pi 5 Lisanslı USB-C Güç Adaptörü - 27W - Siyah : Amazon.com.tr: Bilgisayar",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "clover-amour-hook",
+   "ad": "Clover Amour Tığ (5mm)",
+   "marka": "Clover",
+   "url": "https://www.amazon.com.tr/s?k=Clover+Amour+T%C4%B1%C4%9F+%285mm%29&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "evde-el-sanatlari-hobileri",
+    "kadinlar-icin-evde-yapilacak-hobiler",
+    "kadinlar-icin-evde-yapilacak-hobiler",
+    "orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026",
+    "orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Clover Tığ, plastik, mavi, 5 mm boyut : Amazon.com.tr: Ev ve Yaşam",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "lion-brand-yarn",
+   "ad": "Lion Brand Vanna's Choice İplik",
+   "marka": "Lion Brand",
+   "url": "https://www.amazon.com.tr/s?k=Lion+Brand+Vanna%27s+Choice+%C4%B0plik&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "evde-el-sanatlari-hobileri",
+    "kadinlar-icin-evde-yapilacak-hobiler",
+    "orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026",
+    "orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026",
+    "orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "darice-bead-set",
+   "ad": "Darice Boncuk Seti",
+   "marka": "Darice",
+   "url": "https://www.amazon.com.tr/s?k=Darice+Boncuk+Seti&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "evde-el-sanatlari-hobileri"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "jewelry-pliers",
+   "ad": "Takı Pense Seti (3'lü)",
+   "marka": "Jewelry",
+   "url": "https://www.amazon.com.tr/s?k=Tak%C4%B1+Pense+Seti+%283%27l%C3%BC%29&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "evde-el-sanatlari-hobileri"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Ergonomik İzole Saplı 3&#x27;lü Pense Takımı - Pense 175 mm/Yan Keski 160 mm/Kargaburun 160 mm : Amazon.com.tr: Yapı Market",
+   "yeni_url": ""
+  },
+  {
+   "id": "dremel-3000",
+   "ad": "Dremel 3000 Döner Alet",
+   "marka": "Dremel",
+   "url": "https://www.amazon.com.tr/s?k=Dremel+3000+D%C3%B6ner+Alet&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "evde-el-sanatlari-hobileri"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Dremel 3000 Çok Amaçlı El Motoru, 130 W, 15 Aksesuarlı : Amazon.com.tr: Yapı Market",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "liquitex-acrylic-set",
+   "ad": "Liquitex Akrilik Boya Seti (24)",
+   "marka": "Liquitex",
+   "url": "https://www.amazon.com.tr/s?k=Liquitex+Akrilik+Boya+Seti+%2824%29&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "evde-el-sanatlari-hobileri"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B09HTQN4PJ",
+   "baslik": "Liquitex Basics Akrilik Boya Seti 24X22Ml : Amazon.com.tr: Ofis ve Kırtasiye",
+   "yeni_url": "https://www.amazon.com.tr/dp/B09HTQN4PJ?tag=hobibulsite-21"
+  },
+  {
+   "id": "princeton-brushes",
+   "ad": "Princeton Fırça Seti",
+   "marka": "Princeton",
+   "url": "https://www.amazon.com.tr/s?k=Princeton+F%C4%B1r%C3%A7a+Seti&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "evde-el-sanatlari-hobileri"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "winsor-newton-watercolor",
+   "ad": "Winsor & Newton Cotman Sulu Boya",
+   "marka": "Winsor & Newton",
+   "url": "https://www.amazon.com.tr/s?k=Winsor+%26+Newton+Cotman+Sulu+Boya&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "evde-el-sanatlari-hobileri"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B00004THXI",
+   "baslik": "Winsor &amp; Newton Cotman Sketchers Pocket Box 1/2 Tablet 12li Sulu Boya : Amazon.com.tr: Oyuncak",
+   "yeni_url": "https://www.amazon.com.tr/dp/B00004THXI?tag=hobibulsite-21"
+  },
+  {
+   "id": "baratza-encore-ogutucu",
+   "ad": "De’Longhi Dedica KG 521.M Kahve Öğütücü",
+   "marka": "De’Longhi",
+   "url": "https://www.amazon.com.tr/dp/B01KPN9K2A?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti",
+    "evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti",
+    "kahve-barista-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+    "kahve-barista-malzemeleri"
+   ],
+   "durum": "yanlis_urun",
+   "asin": "B01KPN9K2A",
+   "baslik": "De&#x27;Longhi Dedica KG 521.M elektrikli kahve değirmeni, aroma fonksiyonlu 2,1” LCD ekran, tam metal gövde, paslanmaz çelik koni öğütücü, ayarlanabilir öğütme ayarı, gümüş : Amazon.com.tr: Mutfak"
+  },
+  {
+   "id": "hario-v60-dripper",
+   "ad": "Hario V60 Dripper",
+   "marka": "Hario",
+   "url": "https://www.amazon.com.tr/dp/B000P4D5HG?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti",
+    "evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti",
+    "kahve-barista-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+    "kahve-barista-malzemeleri"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B000P4D5HG",
+   "baslik": "Hario V60 02 Seramik Dripper (Beyaz) | Daha ağır lezzet için konik şekilli ve spiral kenarlı el yapımı porselen kahve makinesi : Amazon.com.tr: Mutfak"
+  },
+  {
+   "id": "zamanlayicili-kahve-tartisi",
+   "ad": "Zamanlayıcılı Kahve Tartısı 0.1 g",
+   "marka": "",
+   "url": "https://www.amazon.com.tr/dp/B0CJK4ZJ65?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti",
+    "evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti",
+    "kahve-barista-malzemeleri"
+   ],
+   "durum": "engel",
+   "asin": "",
+   "baslik": "",
+   "neden": "http 404"
+  },
+  {
+   "id": "aeropress-kahve-demleyici",
+   "ad": "AeroPress Kahve Demleyici",
+   "marka": "AeroPress",
+   "url": "https://www.amazon.com.tr/s?k=AeroPress+Kahve+Demleyici&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti",
+    "evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Kafiltro Aeropress Uyumlu Kahve Filtresi 360ad. : Amazon.com.tr: Mutfak",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "bodum-chambord-french-press",
+   "ad": "Bodum Chambord French Press",
+   "marka": "Bodum",
+   "url": "https://www.amazon.com.tr/dp/B00JFVHO40?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B00JFVHO40",
+   "baslik": "Bodum CHAMBORD kahve hazırlayıcı (French Press sistemi, akma koruması, paslanmaz çelik çerçeve), paslanmaz çelik, Copper, 1,0L : Amazon.com.tr: Mutfak"
+  },
+  {
+   "id": "bowflex-552",
+   "ad": "Bowflex 552 Ayarlanabilir Dambıl",
+   "marka": "Bowflex",
+   "url": "https://www.amazon.com.tr/s?k=Bowflex+552+Ayarlanabilir+Damb%C4%B1l&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "evde-fitness-icin-ayarlanabilir-dambil-rehberi",
+    "evde-fitness-icin-ayarlanabilir-dambil-rehberi"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Sporsize Ayarlanabilir Tekli Mekanizmalı Dambıl, Standlı Hızlı Ağırlık Ayarlı Ev Tipi Fitness Dambılı, 24 KG ve 40 KG Seçenekleri : Amazon.com.tr: Spor ve Outdoor",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "powerblock-dumbbells",
+   "ad": "PowerBlock Ayarlanabilir Dambıl",
+   "marka": "PowerBlock",
+   "url": "https://www.amazon.com.tr/s?k=PowerBlock+Ayarlanabilir+Damb%C4%B1l&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "evde-fitness-icin-ayarlanabilir-dambil-rehberi"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Çok Fonksiyonlu Dambıl Seti 30 KG - Ayarlanabilir Ağırlık Seti : Amazon.com.tr: Spor ve Outdoor",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "yes4all-dumbbells",
+   "ad": "Yes4All Ayarlanabilir Dambıl Seti",
+   "marka": "Yes4All",
+   "url": "https://www.amazon.com.tr/s?k=Yes4All+Ayarlanabilir+Damb%C4%B1l+Seti&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "evde-fitness-icin-ayarlanabilir-dambil-rehberi",
+    "evde-fitness-icin-ayarlanabilir-dambil-rehberi"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Çok Fonksiyonlu Dambıl Seti 30 KG - Ayarlanabilir Ağırlık Seti : Amazon.com.tr: Spor ve Outdoor",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "theraband-bands",
+   "ad": "TheraBand Direnç Bantları",
+   "marka": "TheraBand",
+   "url": "https://www.amazon.com.tr/s?k=TheraBand+Diren%C3%A7+Bantlar%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "evde-fitness-icin-ayarlanabilir-dambil-rehberi",
+    "evde-fitness-icin-ayarlanabilir-dambil-rehberi"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Theraband çantalı dirençli egzersiz bandı : Amazon.com.tr: Spor ve Outdoor",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "exercise-mat",
+   "ad": "Kalın Egzersiz Matı",
+   "marka": "BalanceFrom",
+   "url": "https://www.amazon.com.tr/s?k=Kal%C4%B1n+Egzersiz+Mat%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "evde-fitness-icin-ayarlanabilir-dambil-rehberi",
+    "evde-fitness-icin-ayarlanabilir-dambil-rehberi"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0CH6ZCRC3",
+   "baslik": "CKSpor 16 mm Pilates Minderi - 180x60 cm Kalın Yoga ve Egzersiz Matı, Kaymaz ve Yumuşak Yüzey, Taşınabilir ve Dayanıklı Spor Matı, Mavi : Amazon.com.tr: Spor ve Outdoor",
+   "yeni_url": "https://www.amazon.com.tr/dp/B0CH6ZCRC3?tag=hobibulsite-21"
+  },
+  {
+   "id": "g3ferrari-delizia",
+   "ad": "G3 Ferrari Delizia Pizza Fırını",
+   "marka": "G3 Ferrari",
+   "url": "https://www.amazon.com.tr/dp/B0H1RP55VC?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "evde-pizza-firini-g3-ferrari-delizia-ile-baslangic",
+    "evde-pizza-firini-g3-ferrari-delizia-ile-baslangic"
+   ],
+   "durum": "yanlis_urun",
+   "asin": "B0H1RP55VC",
+   "baslik": "G3Ferrari Delizia Pizza Makinesi 3 Taş Tabanlı 400°C Pizza Fırını – Pizza Lahmacun Pide fırını Oven (Siyah) : Amazon.com.tr: Mutfak"
+  },
+  {
+   "id": "le-creuset-dokum-tencere",
+   "ad": "Le Creuset Döküm Tencere",
+   "marka": "Le Creuset",
+   "url": "https://www.amazon.com.tr/s?k=Le+Creuset+D%C3%B6k%C3%BCm+Tencere&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "evde-pizza-firini-g3-ferrari-delizia-ile-baslangic",
+    "evde-pizza-firini-g3-ferrari-delizia-ile-baslangic"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "kitchenaid-artisan-mikser",
+   "ad": "KitchenAid Artisan Stand Mikser",
+   "marka": "KitchenAid",
+   "url": "https://www.amazon.com.tr/dp/B0DRLCZWWQ?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "evde-pizza-firini-g3-ferrari-delizia-ile-baslangic",
+    "evde-pizza-firini-g3-ferrari-delizia-ile-baslangic"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B01HK842IA",
+   "baslik": "Kitchenaid Artisan 4, 8 L Stand Mikser 5Ksm175Ps Candy Apple-Eca | Ekşi mayadan beze kadar 5 aksesuar parçası ve sıyırma kenarlı esnek karıştırıcı; ikonik, uzun ömürlü metal tasarım : Amazon.com.tr: Mutfak",
+   "yeni_url": "https://www.amazon.com.tr/dp/B01HK842IA?tag=hobibulsite-21",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "canon-eos-r100-travel",
+   "ad": "Canon EOS R100 Travel Kit",
+   "marka": "Canon",
+   "url": "https://www.amazon.com.tr/dp/B0GP7BJ5M7?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic",
+    "fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0GP7BJ5M7",
+   "baslik": "Canon EOS R100 + RF-S 18-45mm IS STM Travel Kit (Omuz Çantası + 64GB SD Kart) : Amazon.com.tr: Elektronik"
+  },
+  {
+   "id": "canon-eos-r100-kit",
+   "ad": "Canon EOS R100 RF-S 18-45mm Kit",
+   "marka": "Canon",
+   "url": "https://www.amazon.com.tr/dp/B0C65KQ5CH?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic",
+    "fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Canon EOS R100 RF-S 18-45mm Lensli Aynasız Fotoğraf Makinesi : Amazon.com.tr: Elektronik",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "sony-a7-iii-body",
+   "ad": "Sony Alpha 7 III Gövde",
+   "marka": "Sony",
+   "url": "https://www.amazon.com.tr/dp/B07B4L1PQ8?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic",
+    "fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Sony I Sony Alpha 7 III | Full-Frame Aynasız Fotoğraf Makinesi ( 24.2Mp, 0,02sn hızlı odaklama, 4K video kayıt, 5 yönlü sarsıntı önleyici) (Sony Eurasia Garantili) : Amazon.com.tr: Elektronik",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "canon-eos-r50",
+   "ad": "Canon EOS R50",
+   "marka": "Canon",
+   "url": "https://www.amazon.com.tr/s?k=Canon+EOS+R50&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0FBRN6BPV",
+   "baslik": "Canon EOS R50 V Content Creator Kit : Amazon.com.tr: Elektronik",
+   "yeni_url": "https://www.amazon.com.tr/dp/B0FBRN6BPV?tag=hobibulsite-21"
+  },
+  {
+   "id": "yamaha-f310",
+   "ad": "Yamaha F310 Akustik Gitar",
+   "marka": "Yamaha",
+   "url": "https://www.amazon.com.tr/dp/B08Z3C1GRM?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "gitar-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+    "gitar-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+    "gitar-nasil-calinir",
+    "gitar-nasil-calinir",
+    "sifirdan-gitar-ogrenmek"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B08Z3C1GRM",
+   "baslik": "Yamaha F310, 6 Telli Akustik Gitar, Doğal - Ahşap : Amazon.com.tr: Müzik Enstrümanları ve DJ"
+  },
+  {
+   "id": "acurite-01512",
+   "ad": "AcuRite 01512 Pro Renkli Hava İstasyonu",
+   "marka": "AcuRite",
+   "url": "https://www.amazon.com.tr/s?k=AcuRite+01512+Pro+Renkli+Hava+%C4%B0stasyonu&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "hava-meteoroloji-baslangic-seti-ilk-alinacaklar-2026",
+    "hava-meteoroloji-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Bresser Hava istasyonu, kablosuz dış sensörlü, 7&#x27;si 1 arada solar WLAN 4CAST, 6 günlük hava tahmini ve kapsamlı diğer meteorolojik ölçüm verileri : Amazon.com.tr: Bahçe",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "ambient-weather-ws2902",
+   "ad": "Ambient Weather WS-2902C Hava İstasyonu",
+   "marka": "Ambient Weather",
+   "url": "https://www.amazon.com.tr/s?k=Ambient+Weather+WS-2902C+Hava+%C4%B0stasyonu&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "hava-meteoroloji-baslangic-seti-ilk-alinacaklar-2026",
+    "hava-meteoroloji-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Bresser 7002586 Dış Mekan Sensörlü Kablosuz Hava İstasyonu ClearView Hava Merkezi, WiFi ve Rüzgar, Nem, Sıcaklık, Yağış, UV Seviyesi ve Işık Yoğunluğu için 7&#x27;si 1 Arada Profesyonel Sensör : Amazon.com.tr: Bahçe",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "lacrosse-s82950",
+   "ad": "La Crosse Technology S82950 WiFi Hava İstasyonu",
+   "marka": "La Crosse Technology",
+   "url": "https://www.amazon.com.tr/s?k=La+Crosse+Technology+S82950+WiFi+Hava+%C4%B0stasyonu&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "hava-meteoroloji-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "La Crosse Technology MA10001 hava istasyonu başlangıç kiti, mobil uyarılar : Amazon.com.tr: Bahçe",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "boye-needle-set",
+   "ad": "Boye Alüminyum Şiş Seti",
+   "marka": "Boye",
+   "url": "https://www.amazon.com.tr/s?k=Boye+Al%C3%BCminyum+%C5%9Ei%C5%9F+Seti&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kadinlar-icin-evde-yapilacak-hobiler",
+    "orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "KnitPro KP42161 örgü şişleri: değiştirilebilir: Deluxe: 7&#x27;li set ve aksesuar, alüminyum, sınıflandırılmış, 25,7 x 17 x 3,9 cm : Amazon.com.tr: Ev ve Yaşam",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "gsi-bugaboo",
+   "ad": "GSI Outdoors Bugaboo Tencere Seti",
+   "marka": "GSI Outdoors",
+   "url": "https://www.amazon.com.tr/s?k=GSI+Outdoors+Bugaboo+Tencere+Seti&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kampcilik-baslangic-rehberi"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "coleman-triton-2",
+   "ad": "Coleman Triton 2 Gözlü Ocak",
+   "marka": "Coleman",
+   "url": "https://www.amazon.com.tr/s?k=Coleman+Triton+2+G%C3%B6zl%C3%BC+Ocak&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kampcilik-baslangic-rehberi"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "msr-pocketrocket-2",
+   "ad": "MSR PocketRocket 2 Ocak",
+   "marka": "MSR",
+   "url": "https://www.amazon.com.tr/s?k=MSR+PocketRocket+2+Ocak&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kampcilik-baslangic-rehberi"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "CTC MSR PocketRocket Deluxe Kamp Ocağı | Taşınabilir, Kamp Ekipmanı : Amazon.com.tr: Spor ve Outdoor",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "black-diamond-spot-400",
+   "ad": "Black Diamond Spot 400 Kafa Lambası",
+   "marka": "Black Diamond",
+   "url": "https://www.amazon.com.tr/s?k=Black+Diamond+Spot+400+Kafa+Lambas%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kampcilik-baslangic-rehberi"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Black Diamond BD COSMO KAFA LAMBASI (90 LUMEN) : Amazon.com.tr: Spor ve Outdoor",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "sawyer-squeeze",
+   "ad": "Sawyer Squeeze Su Filtresi",
+   "marka": "Sawyer",
+   "url": "https://www.amazon.com.tr/s?k=Sawyer+Squeeze+Su+Filtresi&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kampcilik-baslangic-rehberi"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "osprey-atmos-ag-65",
+   "ad": "Osprey Atmos AG 65 Sırt Çantası",
+   "marka": "Osprey",
+   "url": "https://www.amazon.com.tr/s?k=Osprey+Atmos+AG+65+S%C4%B1rt+%C3%87antas%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kampcilik-baslangic-rehberi"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "smartcat-tirmalama-diregi",
+   "ad": "SmartCat Ultimate Tırmalama Direği",
+   "marka": "SmartCat",
+   "url": "https://www.amazon.com.tr/s?k=SmartCat+Ultimate+T%C4%B1rmalama+Dire%C4%9Fi&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kedi-bakim-seti-tirmalama-firca-ve-oyuncak",
+    "kedi-bakim-seti-tirmalama-firca-ve-oyuncak"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Feandrea Tırmalama Direği, Hamak, Mağara, Sisal Direk, Açık Gri Pct86 W, 1 Adet (1&#x27;li Paket) : Amazon.com.tr: Evcil Hayvan Ürünleri",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "kong-zoomgroom-kedi-fircasi",
+   "ad": "KONG ZoomGroom Kedi Fırçası",
+   "marka": "KONG",
+   "url": "https://www.amazon.com.tr/s?k=KONG+ZoomGroom+Kedi+F%C4%B1r%C3%A7as%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kedi-bakim-seti-tirmalama-firca-ve-oyuncak",
+    "kedi-bakim-seti-tirmalama-firca-ve-oyuncak"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "gocat-da-bird-kedi-oyuncagi",
+   "ad": "GoCat Da Bird Kedi Oyuncağı",
+   "marka": "GoCat",
+   "url": "https://www.amazon.com.tr/s?k=GoCat+Da+Bird+Kedi+Oyunca%C4%9F%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kedi-bakim-seti-tirmalama-firca-ve-oyuncak",
+    "kedi-bakim-seti-tirmalama-firca-ve-oyuncak"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Busstier Kedi Oyuncağı Kapıya Asılan Sesli Kuşlu Elastik Hareketli Zilli İnteraktif Kedi Eğlence ve Av Oyuncağı : Amazon.com.tr: Evcil Hayvan Ürünleri",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "catit-senses-oyun-pisti",
+   "ad": "Catit Senses 2.0 Oyun Pisti",
+   "marka": "Catit",
+   "url": "https://www.amazon.com.tr/s?k=Catit+Senses+2.0+Oyun+Pisti&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kedi-bakim-seti-tirmalama-firca-ve-oyuncak"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Catit Senses 2.0 Play Circuit İnteraktif Kedi Oyunu : Amazon.com.tr: Evcil Hayvan Ürünleri",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "petstages-kule-top-oyuncagi",
+   "ad": "Petstages Tower of Tracks Kule Oyuncağı",
+   "marka": "Petstages",
+   "url": "https://www.amazon.com.tr/s?k=Petstages+Tower+of+Tracks+Kule+Oyunca%C4%9F%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kedi-bakim-seti-tirmalama-firca-ve-oyuncak"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Petstages Orka Silindir İpli Kedi Oyuncağı : Amazon.com.tr: Evcil Hayvan Ürünleri",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "thames-kosmos-ooze-labs",
+   "ad": "Thames & Kosmos Ooze Labs Kimya Seti",
+   "marka": "Thames & Kosmos",
+   "url": "https://www.amazon.com.tr/s?k=Thames+%26+Kosmos+Ooze+Labs+Kimya+Seti&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kimya-deney-baslangic-seti-ilk-alinacaklar-2026",
+    "kimya-deney-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Thames &amp; Kosmos Ooze Labs Chemistry Station Science Experiment Kit, 20 Non-Hazardous Experiments Including Safe Slime, Chromatography, Acids, Bases &amp; More, Multi-Color : Amazon.com.tr: Oyuncak",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "thames-kosmos-chem-c2000",
+   "ad": "Thames & Kosmos Chem C2000 Kimya Seti",
+   "marka": "Thames & Kosmos",
+   "url": "https://www.amazon.com.tr/s?k=Thames+%26+Kosmos+Chem+C2000+Kimya+Seti&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kimya-deney-baslangic-seti-ilk-alinacaklar-2026",
+    "kimya-deney-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "learning-resources-primary-science",
+   "ad": "Learning Resources İlk Bilim Laboratuvar Seti",
+   "marka": "Learning Resources",
+   "url": "https://www.amazon.com.tr/s?k=Learning+Resources+%C4%B0lk+Bilim+Laboratuvar+Seti&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kimya-deney-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "national-geographic-volcano-kit",
+   "ad": "National Geographic Volkan Deney Seti",
+   "marka": "National Geographic",
+   "url": "https://www.amazon.com.tr/s?k=National+Geographic+Volkan+Deney+Seti&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kimya-deney-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "National Geographic Taş Ve Mineral Biriktirme Kiti : Amazon.com.tr: Oyuncak",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "eisco-glassware-set",
+   "ad": "Eisco Labs Cam Laboratuvar Seti",
+   "marka": "Eisco Labs",
+   "url": "https://www.amazon.com.tr/s?k=Eisco+Labs+Cam+Laboratuvar+Seti&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kimya-deney-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "ruffwear-front-range-kosum-takimi",
+   "ad": "Ruffwear Front Range Koşum Takımı",
+   "marka": "Ruffwear",
+   "url": "https://www.amazon.com.tr/s?k=Ruffwear+Front+Range+Ko%C5%9Fum+Tak%C4%B1m%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026",
+    "kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026",
+    "kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026",
+    "kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026",
+    "kopek-yuruyus-ve-egitim-seti",
+    "kopek-yuruyus-ve-egitim-seti"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "flexi-new-classic-otomatik-tasma",
+   "ad": "flexi New Classic Otomatik Tasması",
+   "marka": "flexi",
+   "url": "https://www.amazon.com.tr/s?k=flexi+New+Classic+Otomatik+Tasmas%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026",
+    "kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026",
+    "kopek-yuruyus-ve-egitim-seti"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0719VZR6S",
+   "baslik": "Flexi New Classic 5 m Şerit Large Otomatik Köpek Tasması : Amazon.com.tr: Evcil Hayvan Ürünleri",
+   "yeni_url": "https://www.amazon.com.tr/dp/B0719VZR6S?tag=hobibulsite-21"
+  },
+  {
+   "id": "benebone-wishbone-cigneme-oyuncagi",
+   "ad": "Benebone Wishbone Çiğneme Oyuncağı",
+   "marka": "Benebone",
+   "url": "https://www.amazon.com.tr/s?k=Benebone+Wishbone+%C3%87i%C4%9Fneme+Oyunca%C4%9F%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026",
+    "kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026",
+    "kopek-yuruyus-ve-egitim-seti",
+    "kopek-yuruyus-ve-egitim-seti"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "hertzko-kendi-kendini-temizleyen-tarak",
+   "ad": "Hertzko Kendi Kendini Temizleyen Tarak",
+   "marka": "Hertzko",
+   "url": "https://www.amazon.com.tr/s?k=Hertzko+Kendi+Kendini+Temizleyen+Tarak&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026",
+    "kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026",
+    "kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026",
+    "kopek-yuruyus-ve-egitim-seti"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Kendini Temizleyen Tarak Fırça Geri Çekilebilir Evcil Hayvana Uygun Sıkı Dişli : Amazon.com.tr: Kişisel Bakım ve Kozmetik",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "outward-hound-zeka-oyuncagi",
+   "ad": "Outward Hound Nina Ottosson Zeka Oyuncağı",
+   "marka": "Outward Hound",
+   "url": "https://www.amazon.com.tr/s?k=Outward+Hound+Nina+Ottosson+Zeka+Oyunca%C4%9F%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026",
+    "kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026",
+    "kopek-yuruyus-ve-egitim-seti",
+    "kopek-yuruyus-ve-egitim-seti"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0B965SF5L",
+   "baslik": "Outward Hound Nina Ottosson Lickin&#x27; Layers – Köpekler için interaktif zeka oyuncağı – daha yavaş yeme hızı için : Amazon.com.tr: Oyuncak",
+   "yeni_url": "https://www.amazon.com.tr/dp/B0B965SF5L?tag=hobibulsite-21"
+  },
+  {
+   "id": "adidas-duramo-speed-2",
+   "ad": "adidas Duramo Speed 2 Erkek Koşu Ayakkabısı",
+   "marka": "adidas",
+   "url": "https://www.amazon.com.tr/dp/B0CYTDW332?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "kosu-ayakkabisi-secimi-yeni-baslayanlar-icin",
+    "kosu-ayakkabisi-secimi-yeni-baslayanlar-icin"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "adidas Erkek DURAMO SPEED 2 M Ayakkabı - Düşük Taban (Futbol Dışı) LUCLEM/CBLACK/HALSIL 41 1/3 : Amazon.com.tr: Moda",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "nike-pegasus-41",
+   "ad": "Nike Pegasus 41 Koşu Ayakkabısı",
+   "marka": "Nike",
+   "url": "https://www.amazon.com.tr/s?k=Nike+Pegasus+41+Ko%C5%9Fu+Ayakkab%C4%B1s%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kosu-ayakkabisi-secimi-yeni-baslayanlar-icin",
+    "kosu-ayakkabisi-secimi-yeni-baslayanlar-icin"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "asics-gel-kayano",
+   "ad": "ASICS Gel-Kayano 30",
+   "marka": "ASICS",
+   "url": "https://www.amazon.com.tr/s?k=ASICS+Gel-Kayano+30&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kosu-ayakkabisi-secimi-yeni-baslayanlar-icin",
+    "kosu-ayakkabisi-secimi-yeni-baslayanlar-icin"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "garmin-forerunner-55",
+   "ad": "Garmin Forerunner 55",
+   "marka": "Garmin",
+   "url": "https://www.amazon.com.tr/s?k=Garmin+Forerunner+55&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kosu-ayakkabisi-secimi-yeni-baslayanlar-icin",
+    "kosu-ayakkabisi-secimi-yeni-baslayanlar-icin"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0DK7LG6B4",
+   "baslik": "Engo Garmin Forerunner 55 Uyumlu Ekran Koruyucu Çizilmeye Dayanıklı Akıllı Saat Koruması, 9h Temperli Kırılmaz Esnek Nano Cam, Hd Şeffaf 2 Adet : Amazon.com.tr: Elektronik",
+   "yeni_url": "https://www.amazon.com.tr/dp/B0DK7LG6B4?tag=hobibulsite-21"
+  },
+  {
+   "id": "flipbelt",
+   "ad": "FlipBelt Koşu Kemeri",
+   "marka": "FlipBelt",
+   "url": "https://www.amazon.com.tr/s?k=FlipBelt+Ko%C5%9Fu+Kemeri&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "kosu-ayakkabisi-secimi-yeni-baslayanlar-icin",
+    "kosu-ayakkabisi-secimi-yeni-baslayanlar-icin"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "weber-original-kettle-57cm",
+   "ad": "Weber Original Kettle 57 cm",
+   "marka": "Weber",
+   "url": "https://www.amazon.com.tr/dp/B07KT9FY31?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar",
+    "mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B07KT9FY31",
+   "baslik": "Weber Original Kettle 57 Cm Kömürlü Mangal Siyah E-5710 : Amazon.com.tr: Bahçe"
+  },
+  {
+   "id": "weber-rapidfire-baca",
+   "ad": "Weber Rapidfire Baca",
+   "marka": "Weber",
+   "url": "https://www.amazon.com.tr/s?k=Weber+Rapidfire+Baca&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar",
+    "mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Weber Kompakt Rapidfire Barbekü Şömine Çakmak, 15 cm | İki Güvenlik Saplı Alüminyum Barbekü Yangın Marş Marş | Çelik Barbekü Kömür Brülörü | Weber Barbekü aksesuarları - küçük (7447) [enerji sınıfı A] : Amazon.com.tr: Yapı Market",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "thermopro-tp20-et-termometresi",
+   "ad": "ThermoPro TP20 Et Termometresi",
+   "marka": "ThermoPro",
+   "url": "https://www.amazon.com.tr/s?k=ThermoPro+TP20+Et+Termometresi&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar",
+    "mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "ThermoPro TP01H Et Termometresi Gıda Sıcaklık Probu Mutfak Pişirme Yağ Şeker Termometresi Süt Reçeli Sıcak İçecek Barbekü için Arka Işık ve Kilitleme Fonksiyonlu Anında Okuma : Amazon.com.tr: Mutfak",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "oxo-good-grips-mangal-masasi",
+   "ad": "OXO Good Grips Mangal Maşası",
+   "marka": "OXO",
+   "url": "https://www.amazon.com.tr/s?k=OXO+Good+Grips+Mangal+Ma%C5%9Fas%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar",
+    "mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Kabakoz Paslanmaz Çelik Mangal Maşası, Et Tavuk Izgara Maşa 30 cm, Tek Parça, Premium Kalite : Amazon.com.tr: Mutfak",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "weber-mangal-fircasi",
+   "ad": "Weber Mangal Fırçası",
+   "marka": "Weber",
+   "url": "https://www.amazon.com.tr/s?k=Weber+Mangal+F%C4%B1r%C3%A7as%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar",
+    "mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Weber 18 &quot;Izgara Fırçası/Kazıyıcı : Amazon.com.tr: Bahçe",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "clover-stitch-markers",
+   "ad": "Clover Kilitli İlmek Belirleyici",
+   "marka": "Clover",
+   "url": "https://www.amazon.com.tr/s?k=Clover+Kilitli+%C4%B0lmek+Belirleyici&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026",
+    "orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "knit-picks-interchangeable",
+   "ad": "Knit Picks Değiştirilebilir Şiş Seti",
+   "marka": "Knit Picks",
+   "url": "https://www.amazon.com.tr/s?k=Knit+Picks+De%C4%9Fi%C5%9Ftirilebilir+%C5%9Ei%C5%9F+Seti&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "KnitPro yuvarlak örgü şişi: değiştirilebilir: Özel: Deluxe set, çeşitli : Amazon.com.tr: Ev ve Yaşam",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "redragon-k552-kumara",
+   "ad": "Redragon K552-KR Kumara Mekanik Klavye",
+   "marka": "Redragon",
+   "url": "https://www.amazon.com.tr/dp/B09JZBSKS7?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech",
+    "oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B09JZBSKS7",
+   "baslik": "Redragon K552-KR Kumara Red Switch Rainbow TKL TR Q Mekanik Siyah Kablolu Gaming (Oyuncu) Klavye : Amazon.com.tr: Bilgisayar"
+  },
+  {
+   "id": "logitech-g213",
+   "ad": "Logitech G213 Oyuncu Klavyesi",
+   "marka": "Logitech",
+   "url": "https://www.amazon.com.tr/dp/B01MXJVMGX?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech",
+    "oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B01MXJVMGX",
+   "baslik": "Logitech G G213 RGB Kablolu Oyuncu Klavyesi, LIGHTSYNC Teknolojisi, Sıvı Dökülmesine Dayanıklı, Özel Medya Denetimleri, Türkçe Q Klavye, Siyah : Amazon.com.tr: Bilgisayar"
+  },
+  {
+   "id": "logitech-g102",
+   "ad": "Logitech G102 Oyuncu Mouse",
+   "marka": "Logitech",
+   "url": "https://www.amazon.com.tr/dp/B07W4DH8JW?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech",
+    "oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B07W4DH8JW",
+   "baslik": "Logitech G G102 Kablolu Oyuncu Mouse, LIGHTSYNC RGB Aydınlatma, 8.000 DPI, 6 Programlanabilir Tuş, Siyah : Amazon.com.tr: Bilgisayar"
+  },
+  {
+   "id": "logitech-g502-hero",
+   "ad": "Logitech G502 HERO Oyuncu Mouse",
+   "marka": "Logitech",
+   "url": "https://www.amazon.com.tr/dp/B07GS6ZB7T?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech",
+    "oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B07GS6ZB7T",
+   "baslik": "Logitech G G502 HERO Kablolu Oyuncu Mouse, LIGHTSYNC Teknolojisi, 25.600 DPI, 11 Programlanabilir Tuş, 121 gr Ağırlık, Siyah : Amazon.com.tr: Video Oyunu ve Konsol"
+  },
+  {
+   "id": "keychron-k2",
+   "ad": "Keychron K2 Kablosuz Mekanik Klavye",
+   "marka": "Keychron",
+   "url": "https://www.amazon.com.tr/s?k=Keychron+K2+Kablosuz+Mekanik+Klavye&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0FGQG347Z",
+   "baslik": "Keychron K2 HE Special Edition Siyah%75 Gateron Magnetic Nebula Manyetik Switch Hall Effect RGB Kablosuz Hotswap Mekanik Gaming Klavye (K2H-F1-TR) : Amazon.com.tr: Bilgisayar",
+   "yeni_url": "https://www.amazon.com.tr/dp/B0FGQG347Z?tag=hobibulsite-21",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "puzzle-mat",
+   "ad": "Puzzle Altlığı",
+   "marka": "",
+   "url": "https://www.amazon.com.tr/s?k=Puzzle+Altl%C4%B1%C4%9F%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "puzzle-aksesuarlari-masa-yapistirici-cerceve"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0HPGQHP6X",
+   "baslik": "Gri Mukavva 1 mm 35x50 cm Puzzle Altlığı ve Maket Kartonu 5 Adet | El İşi İçin Uygun, Düz Yüzey, Kesmeye Uygun, Çok Amaçlı Kullanım, Toplu Paket : Amazon.com.tr: Oyuncak",
+   "yeni_url": "https://www.amazon.com.tr/dp/B0HPGQHP6X?tag=hobibulsite-21"
+  },
+  {
+   "id": "puzzle-hali",
+   "ad": "Puzzle Halısı",
+   "marka": "",
+   "url": "https://www.amazon.com.tr/s?k=Puzzle+Hal%C4%B1s%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "puzzle-aksesuarlari-masa-yapistirici-cerceve"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B09FM1B38W",
+   "baslik": "SIZS Puzzle Halısı 1000’lik den 6000&#x27;liğe Kadar Farklı Boyutlar | Askılı Çanta | Puzzle&#x27;ı Sar Sakla ve Açtığında Kaldığın Yerden Devam Et (1000&#x27;lik) : Amazon.com.tr: Oyuncak",
+   "yeni_url": "https://www.amazon.com.tr/dp/B09FM1B38W?tag=hobibulsite-21"
+  },
+  {
+   "id": "puzzle-yapistirici",
+   "ad": "Puzzle Yapıştırıcısı",
+   "marka": "",
+   "url": "https://www.amazon.com.tr/s?k=Puzzle+Yap%C4%B1%C5%9Ft%C4%B1r%C4%B1c%C4%B1s%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "puzzle-aksesuarlari-masa-yapistirici-cerceve"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0FK5TFXTZ",
+   "baslik": "Puzzle Yapıştırıcı 500 ml 1 Adet ve Silindir Sünger Fırça 2 Adet Monalisa Pazıl Yapıştırıcısı : Amazon.com.tr: Ofis ve Kırtasiye",
+   "yeni_url": "https://www.amazon.com.tr/dp/B0FK5TFXTZ?tag=hobibulsite-21"
+  },
+  {
+   "id": "puzzle-cerceve",
+   "ad": "Puzzle Çerçevesi",
+   "marka": "",
+   "url": "https://www.amazon.com.tr/s?k=Puzzle+%C3%87er%C3%A7evesi&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "puzzle-aksesuarlari-masa-yapistirici-cerceve"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0FVTJCL9J",
+   "baslik": "22lik KAHVERENGİ Puzzle Poster Resim Çerçevesi PVCli Postersiz Resimsiz Çerçeve (Siyah, 34x48) : Amazon.com.tr: Oyuncak",
+   "yeni_url": "https://www.amazon.com.tr/dp/B0FVTJCL9J?tag=hobibulsite-21"
+  },
+  {
+   "id": "geeekpi-pi5-baslangic-kiti",
+   "ad": "GeeekPi Raspberry Pi 5 8GB Başlangıç Kiti",
+   "marka": "GeeekPi",
+   "url": "https://www.amazon.com.tr/dp/B0D1QQ174C?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "raspberry-pi-5-baslangic-kiti",
+    "raspberry-pi-5-baslangic-kiti",
+    "raspberry-pi-5-baslangic-kiti"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0D1QQ174C",
+   "baslik": "GeeekPi Raspberry Pi 5 8GB Başlangıç Kiti, N04 M.2 NVMe SSD PCIe Çevresel Kartı, Metal Case, Resmi Aktif Soğutucu, 64GB SD Kart, HDMI Kablosu, Raspberry Pi 5 için 27W 5.1V 5A Netzteil (8GB RAM) : Amazon.com.tr: Bilgisayar"
+  },
+  {
+   "id": "freenove-starter-kit",
+   "ad": "Freenove Başlangıç Kiti",
+   "marka": "Freenove",
+   "url": "https://www.amazon.com.tr/s?k=Freenove+Ba%C5%9Flang%C4%B1%C3%A7+Kiti&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "raspberry-pi-5-baslangic-kiti",
+    "raspberry-pi-5-baslangic-kiti",
+    "raspberry-pi-5-baslangic-kiti"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0CJJHXD1W",
+   "baslik": "Freenove ESP32 Kamera Geliştirme Kartı ESP32 Kiti, 1GB Kartlı | Dual-Core 32-Bit 240 MHz Mikrocontroller, Onboard Kamera WiFi+BT, Python C Code, Örnek Projeler Eğitim : Amazon.com.tr: Bilgisayar",
+   "yeni_url": "https://www.amazon.com.tr/dp/B0CJJHXD1W?tag=hobibulsite-21"
+  },
+  {
+   "id": "salomon-x-ultra-4",
+   "ad": "Salomon X Ultra 4 Gore-Tex Bot",
+   "marka": "Salomon",
+   "url": "https://www.amazon.com.tr/s?k=Salomon+X+Ultra+4+Gore-Tex+Bot&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "trekking-bot-secimi-gore-tex-baslangic-botlari",
+    "trekking-bot-secimi-gore-tex-baslangic-botlari"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "bd-trail-poles",
+   "ad": "Black Diamond Trail Trekking Batonu (Çift)",
+   "marka": "Black Diamond",
+   "url": "https://www.amazon.com.tr/s?k=Black+Diamond+Trail+Trekking+Batonu+%28%C3%87ift%29&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "trekking-bot-secimi-gore-tex-baslangic-botlari",
+    "trekking-bot-secimi-gore-tex-baslangic-botlari"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Evolite Ultralite Titanium Antishock Trekking Batonu, Standart, Standart : Amazon.com.tr: Spor ve Outdoor",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "osprey-daylite-plus",
+   "ad": "Osprey Daylite Plus 20L Çanta",
+   "marka": "Osprey",
+   "url": "https://www.amazon.com.tr/s?k=Osprey+Daylite+Plus+20L+%C3%87anta&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "trekking-bot-secimi-gore-tex-baslangic-botlari",
+    "trekking-bot-secimi-gore-tex-baslangic-botlari"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "petzl-actik-core",
+   "ad": "Petzl Actik Core Kafa Lambası",
+   "marka": "Petzl",
+   "url": "https://www.amazon.com.tr/s?k=Petzl+Actik+Core+Kafa+Lambas%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "trekking-bot-secimi-gore-tex-baslangic-botlari",
+    "trekking-bot-secimi-gore-tex-baslangic-botlari"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "PETZL ACTIK CORE LAMBA Mavi : Amazon.com.tr: Spor ve Outdoor",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "victorinox-fibrox-sef-bicagi",
+   "ad": "Victorinox Fibrox Şef Bıçağı",
+   "marka": "Victorinox",
+   "url": "https://www.amazon.com.tr/dp/B000XF0FFC?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026",
+    "yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026",
+    "yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Victorinox Şef Doğrama Bıçağı, SC Fibrox, Hediye Kutulu : Amazon.com.tr: Mutfak",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "zwilling-four-star-bicak",
+   "ad": "Zwilling Four Star Bıçak",
+   "marka": "Zwilling",
+   "url": "https://www.amazon.com.tr/s?k=Zwilling+Four+Star+B%C4%B1%C3%A7ak&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026",
+    "yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B003TX1UZO",
+   "baslik": "Zwilling Four Star Blok Bıçak Seti, Paslanmaz Çelik, Manyetik Bıçak Bloklu, Gümüş : Amazon.com.tr: Mutfak",
+   "yeni_url": "https://www.amazon.com.tr/dp/B003TX1UZO?tag=hobibulsite-21",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "tefal-daily-cook-tava",
+   "ad": "Tefal Daily Cook Tava",
+   "marka": "Tefal",
+   "url": "https://www.amazon.com.tr/s?k=Tefal+Daily+Cook+Tava&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026",
+    "yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026",
+    "yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "Tefal Titanyum 1X SimpleCook 28 Cm Difüzyon Tabanlı Wok Tava - 2100118533 : Amazon.com.tr: Mutfak",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "oxo-good-grips-spatula",
+   "ad": "OXO Good Grips Spatula",
+   "marka": "OXO",
+   "url": "https://www.amazon.com.tr/s?k=OXO+Good+Grips+Spatula&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026",
+    "yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B08HV272BN",
+   "baslik": "OXO - Good Grips silikon spatula, orta boy, marmelat ve daha fazlası için, siyah : Amazon.com.tr: Mutfak",
+   "yeni_url": "https://www.amazon.com.tr/dp/B08HV272BN?tag=hobibulsite-21"
+  },
+  {
+   "id": "microplane-zester",
+   "ad": "Microplane Zester",
+   "marka": "Microplane",
+   "url": "https://www.amazon.com.tr/dp/B09BB3LTWH?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B09BB3LTWH",
+   "baslik": "Microplane Narenciye meyveleri, parmesan, zencefil, çikolata ve hindistan cevizi için ince paslanmaz çelik bıçaklı Zester mutfak rendesi - ABD&#x27;de üretilmiştir : Amazon.com.tr: Mutfak"
+  },
+  {
+   "id": "royal-langnickel-easel",
+   "ad": "Royal & Langnickel Şövale Seti",
+   "marka": "Royal & Langnickel",
+   "url": "https://www.amazon.com.tr/s?k=Royal+%26+Langnickel+%C5%9E%C3%B6vale+Seti&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "yetiskin-hobi-setleri",
+    "yetiskin-hobi-setleri"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  },
+  {
+   "id": "yoga-mat-6mm-kaymaz",
+   "ad": "6 mm Kaymaz Yoga ve Pilates Matı",
+   "marka": "",
+   "url": "https://www.amazon.com.tr/dp/B0GWJSL8P2?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "yoga-mati-secimi-yeni-baslayanlar-icin",
+    "yoga-mati-secimi-yeni-baslayanlar-icin"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": "CKSpor 6 mm Pilates Yoga Matı, Kaymaz Spor ve Fitness Minderi, Egzersiz Matı, Siyah : Amazon.com.tr: Spor ve Outdoor",
+   "yeni_url": "",
+   "not": "baslik urun adiyla uyusmadi"
+  },
+  {
+   "id": "buffer-yoga-mati-140",
+   "ad": "Buffer Yoga Matı 140x50 cm 6 mm",
+   "marka": "Buffer",
+   "url": "https://www.amazon.com.tr/dp/B0GNZW293G?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "yoga-mati-secimi-yeni-baslayanlar-icin"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0GNZW293G",
+   "baslik": "Buffer Pilates Minderi Ve Yoga Matı 140x50cm 6mm Mor, TRLEY0F0LEY00017 : Amazon.com.tr: Spor ve Outdoor"
+  },
+  {
+   "id": "yoga-kemeri-pamuk-200",
+   "ad": "Pamuk Yoga Kemeri 200 cm",
+   "marka": "",
+   "url": "https://www.amazon.com.tr/dp/B0H4RPNFBV?tag=hobibulsite-21",
+   "sinif": "amazon_dp",
+   "makaleler": [
+    "yoga-mati-secimi-yeni-baslayanlar-icin",
+    "yoga-mati-secimi-yeni-baslayanlar-icin"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B0H4RPNFBV",
+   "baslik": "Doğal Organik pamuk Yoga Pilates kemeri Ekru Ham renk 200 cm 5 cm en Yoga kemeri : Amazon.com.tr: Spor ve Outdoor"
+  },
+  {
+   "id": "liforme-yoga-mat",
+   "ad": "Liforme Yoga Matı",
+   "marka": "Liforme",
+   "url": "https://www.amazon.com.tr/s?k=Liforme+Yoga+Mat%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "yoga-mati-secimi-yeni-baslayanlar-icin",
+    "yoga-mati-secimi-yeni-baslayanlar-icin"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B07TCCH2VP",
+   "baslik": "Liforme - Ekolojik ve Kaymaz Yoga Matı - Dizler, Dirsekler ve Eller için Yoga Minderi - Benzersiz ve Orijinal Hizalama - Gri : Amazon.com.tr: Spor ve Outdoor",
+   "yeni_url": "https://www.amazon.com.tr/dp/B07TCCH2VP?tag=hobibulsite-21"
+  },
+  {
+   "id": "manduka-pro",
+   "ad": "Manduka PRO Yoga Matı",
+   "marka": "Manduka",
+   "url": "https://www.amazon.com.tr/s?k=Manduka+PRO+Yoga+Mat%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "yoga-mati-secimi-yeni-baslayanlar-icin",
+    "yoga-mati-secimi-yeni-baslayanlar-icin"
+   ],
+   "durum": "dogrulandi",
+   "asin": "B08SMDR7QG",
+   "baslik": "Manduka PRO yoga matı 6 mm | ömür boyu dayanıklılık | hijyenik yapı | premium stüdyo kalitesi | öğretmen onaylı : Amazon.com.tr: Spor ve Outdoor",
+   "yeni_url": "https://www.amazon.com.tr/dp/B08SMDR7QG?tag=hobibulsite-21"
+  },
+  {
+   "id": "gaiam-yoga-blocks",
+   "ad": "Gaiam Yoga Blokları",
+   "marka": "Gaiam",
+   "url": "https://www.amazon.com.tr/s?k=Gaiam+Yoga+Bloklar%C4%B1&tag=hobibulsite-21",
+   "sinif": "arama",
+   "makaleler": [
+    "yoga-mati-secimi-yeni-baslayanlar-icin"
+   ],
+   "durum": "bulunamadi",
+   "asin": "",
+   "baslik": ""
+  }
+ ],
+ "uygulama": {
+  "dogrulanan_urun": 69,
+  "kaldirilan_satinal_link": 236,
+  "neo_troy_metin_dosyasi": 4,
+  "listeden_cikan_oyun": 0
+ }
+}

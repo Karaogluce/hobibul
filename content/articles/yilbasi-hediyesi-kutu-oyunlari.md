@@ -39,23 +39,23 @@ Kutu oyunu seçerken masaya kimlerin oturacağını bilmek en önemli adımdır.
 
 ### Çiftler için
 
-Evde sakin akşamlar geçirmeyi seven çiftler için [Sky Team](aff://sky-team) harika bir tercihtir. İki kişinin birlikte bir yolcu uçağını indirdiği oyun, 2024 Spiel des Jahres ödülünü anıyor. Sadece iki kişi oynanabildiği için kalabalık gruplara uymaz ancak çiftler arasında harika bir uyum testidir. Süresi 20 dakikadır ve yaş sınırı 12+'dır.
+Evde sakin akşamlar geçirmeyi seven çiftler için harika bir tercihtir. İki kişinin birlikte bir yolcu uçağını indirdiği oyun, 2024 Spiel des Jahres ödülünü anıyor. Sadece iki kişi oynanabildiği için kalabalık gruplara uymaz ancak çiftler arasında harika bir uyum testidir. Süresi 20 dakikadır ve yaş sınırı 12+'dır.
 
 ### Aile ve çocuklar için
 
-Geniş ailelerin yılbaşı buluşmalarında [Carcassonne](aff://carcassonne-kutu) gibi her yaştan insanın rahatça adapte olabileceği yapımlar öne çıkar. Rastgele karoyu haritaya ekleyerek kale şehrini büyüten oyun, Neo Troy tarafından üçüncü baskısıyla sunulur. İki ile beş kişi arasında oynanabilen bu yapım, 30-60 dakika sürer ve 8+ yaş üstü için uygundur.
+Geniş ailelerin yılbaşı buluşmalarında gibi her yaştan insanın rahatça adapte olabileceği yapımlar öne çıkar. Rastgele karoyu haritaya ekleyerek kale şehrini büyüten oyun, tarafından üçüncü baskısıyla sunulur. İki ile beş kişi arasında oynanabilen bu yapım, 30-60 dakika sürer ve 8+ yaş üstü için uygundur.
 
 ### Yılbaşı gecesi arkadaş grubu (parti oyunları)
 
-Kalabalık grupların enerjisini yüksek tutmak istiyorsanız [Codenames](aff://codenames-kutu) tam bu ortama göre tasarlanmıştır. İki takımın kod adıyla ajan bulduğu parti oyunu, 45'ten fazla dilde yayınlandığı bilgisiyle dikkat çeker. Dört ila sekiz ve üzeri oyuncuyla oynanır, 15 dakika sürer ve 14+ yaş sınırına sahiptir.
+Kalabalık grupların enerjisini yüksek tutmak istiyorsanız tam bu ortama göre tasarlanmıştır. İki takımın kod adıyla ajan bulduğu parti oyunu, 45'ten fazla dilde yayınlandığı bilgisiyle dikkat çeker. Dört ila sekiz ve üzeri oyuncuyla oynanır, 15 dakika sürer ve 14+ yaş sınırına sahiptir.
 
 ### Oyun meraklıları için
 
-Daha derin stratejiler arayanlar için [en iyi strateji kutu oyunları](/makale/en-iyi-strateji-kutu-oyunlari/) koleksiyonuna göz atmak mantıklıdır. [Catan](aff://catan-kutu) bu kategorinin demirbaşları arasındadır. Köy kurup kaynak takas eden oyun, 3-4 kişiyle oynanır. Temel kutu iki kişiyi desteklemediği için kalabalık masalar gerektirir. Süresi 30-60 dakika arasında değişir.
+Daha derin stratejiler arayanlar için [en iyi strateji kutu oyunları](/makale/en-iyi-strateji-kutu-oyunlari/) koleksiyonuna göz atmak mantıklıdır. bu kategorinin demirbaşları arasındadır. Köy kurup kaynak takas eden oyun, 3-4 kişiyle oynanır. Temel kutu iki kişiyi desteklemediği için kalabalık masalar gerektirir. Süresi 30-60 dakika arasında değişir.
 
 ### Hiç oynamamış biri için
 
-Kutu oyunlarıyla yeni tanışacak birine hediye alırken kuralları yorucu olmayan alternatifler seçilmelidir. [Bi' Paket Cips](aff://bi-paket-cips) bu noktada imdada yetişir. Cips pullarıyla hedef kartı tutturmaya çalışan tahmin ve risk oyunu, 2-6 kişi arasında oynanır. 15 dakikalık kısa süresiyle masadakileri yormaz ve 8+ yaş herkese hitap eder.
+Kutu oyunlarıyla yeni tanışacak birine hediye alırken kuralları yorucu olmayan alternatifler seçilmelidir. bu noktada imdada yetişir. Cips pullarıyla hedef kartı tutturmaya çalışan tahmin ve risk oyunu, 2-6 kişi arasında oynanır. 15 dakikalık kısa süresiyle masadakileri yormaz ve 8+ yaş herkese hitap eder.
 
 ## Bütçe kademeleri ve hediye alternatifleri
 
@@ -117,19 +117,19 @@ Kutu oyunu seçerken ilk olarak kutunun üzerindeki oyuncu sayısı aralığına
 - Artılar: 2 kişi; Süre 20 dk
 - Eksiler: Yaş sınırı 12+; Üçüncü kişi bu kutuya oturamıyor
 - Kime uymaz: Kalabalık parti gruplarına ve ikiden fazla kişiyle oynamak isteyenlere kesinlikle uymaz.
-- [Satın Al: Sky Team](aff://sky-team)
+- 
 
 ### Catan
 - Artılar: 3-4 kişi; Süre 30-60 dk
 - Eksiler: Temel kutu 3-4 kişi; İki kişilik akşama kurulmuyor
 - Kime uymaz: Sadece eşiyle oynamak isteyen çiftlere ya da beş kişiden kalabalık aile buluşmalarına temel kutu yetersiz kalır.
-- [Satın Al: Catan](aff://catan-kutu)
+- 
 
 ### Carcassonne
 - Artılar: 2-5 kişi; Süre 30-60 dk
 - Eksiler: Yaş sınırı 8+
 - Kime uymaz: Çok hızlı, kuralsız ve sadece şansa dayalı parti oyunu arayanlara yavaş gelebilir.
-- [Satın Al: Carcassonne](aff://carcassonne-kutu)
+- 
 
 ### Ticket to Ride Europe
 - Artılar: 2-5 kişi; Süre 30-60 dk
@@ -141,13 +141,13 @@ Kutu oyunu seçerken ilk olarak kutunun üzerindeki oyuncu sayısı aralığına
 - Artılar: 2-6 kişi; Süre 15 dk
 - Eksiler: Yaş sınırı 8+
 - Kime uymaz: Derin stratejiler kurmak, saatlerce sürecek planlar yapmak isteyen deneyimli oyuncuları tatmin etmez.
-- [Satın Al: Bi' Paket Cips](aff://bi-paket-cips)
+- 
 
 ### Codenames
 - Artılar: 4-8+ kişi; Süre 15 dk
 - Eksiler: Yaş sınırı 14+
 - Kime uymaz: İki kişilik sakin bir akşam geçirmek isteyen çiftler ya da küçük çocuklar bu kutuyla oynayamaz.
-- [Satın Al: Codenames](aff://codenames-kutu)
+- 
 
 ## Sık Yapılan Hatalar
 

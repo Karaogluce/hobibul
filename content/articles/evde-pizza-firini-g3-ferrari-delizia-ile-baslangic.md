@@ -36,7 +36,7 @@ Cihaz kompakt bir yapıda, yani mutfağında devasa bir yer ayırmana gerek yok.
 - Net bir pişirme süresi (dakika) belirtilmemiş.
 - Ekmek pişirmek için uygun bir programı yok.
 
-[Satın Al: G3 Ferrari Delizia](aff://g3ferrari-delizia)
+
 
 ## Ekmek ve Hamur Hazırlığı İçin Doğru Araçlar
 
@@ -54,7 +54,7 @@ Daha hafif bir şeyler arıyorsan veya sadece tepside bir şeyler pişireceksen 
 - Le Creuset oldukça ağır ve maliyetli bir tercih.
 - Mikser sadece hazırlık yapar, pişirme işi için hala bir fırına ihtiyacın var.
 
-[Satın Al: Le Creuset Döküm Tencere](aff://le-creuset-dokum-tencere)
+
 
 [Satın Al: KitchenAid Artisan](aff://kitchenaid-artisan-mikser)
 
@@ -81,8 +81,8 @@ Bütçene ve ne yapmak istediğine göre seçimini yapabilirsin.
 
 | Seçenek | Ürünler | Kimin İçin? |
 | --- | --- | --- |
-| Sadece Pizza | [Delizia](aff://g3ferrari-delizia) | Evde hızlı ve çıtır pizza, lahmacun yapmak isteyenler. |
+| Sadece Pizza | | Evde hızlı ve çıtır pizza, lahmacun yapmak isteyenler. |
 | Hazırlık + Pişirme | Delizia + [Artisan Mikser](aff://kitchenaid-artisan-mikser) | Hamur yoğurmakla uğraşmak istemeyen pizza tutkunları. |
-| Pizza + Ekmek | Delizia + [Le Creuset](aff://le-creuset-dokum-tencere) | Hem çıtır pizza hem de fırında gerçek ekmek yapmak isteyenler. |
+| Pizza + Ekmek | Delizia + | Hem çıtır pizza hem de fırında gerçek ekmek yapmak isteyenler. |
 
 Son tavsiyem; önce bir pizza fırınıyla başla, hamur işine iyice ısındıktan sonra mikser veya döküm tencere gibi eklemeleri yaparsın. Cihazı kullandıktan sonra iyice soğumasını beklemeden dolaba kaldırma. Unu taşın üzerinde değil, tezgahta kullanmaya özen göster.

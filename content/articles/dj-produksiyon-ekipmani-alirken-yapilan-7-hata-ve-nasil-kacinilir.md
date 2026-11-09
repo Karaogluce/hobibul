@@ -32,7 +32,7 @@ Evde pratik yaparken ya da arkadaş ortamında müzik çalarken bütçeyi yormad
 ### Yazılım Desteğini Kontrol Etmeden Cihaz Almak
 
 - **Neden sorun:** DJ kontrol cihazları tek başlarına ses üreten aletler değildir; bilgisayara veya mobil cihaza bağlanan, arayüzdeki yazılımı yöneten kumandalardır. Donanımı alıp kutuyu açtıktan sonra içinden tam sürüm bir DJ yazılımı çıkmadığını ya da tercih ettiğin programla cihazın doğrudan eşleşmediğini görmek seni yarı yolda bırakabilir.
-- **Ne yapmalı:** Almayı düşündüğün modelin yazılım tarafında ne sunduğuna mutlaka bakmalısın. [Satın Al: Pioneer DJ DDJ-FLX2](aff://pioneer-ddj-flx2), FLX serisinin daha küçük bir modeli olarak AlphaTheta markasıyla listeleniyor. Bu modelin ürün kaydında detaylı bir kanal listesi, boyut bilgisi ya da FLX4'te olduğu gibi yazılım notu yer almıyor. Dolayısıyla kutu içeriğinde hangi programın desteklendiğini bilmeden yola çıkmak istemiyorsan ya da net özellik listesi arıyorsan bu cihaz sana uygun olmayabilir.
+- **Ne yapmalı:** Almayı düşündüğün modelin yazılım tarafında ne sunduğuna mutlaka bakmalısın., FLX serisinin daha küçük bir modeli olarak AlphaTheta markasıyla listeleniyor. Bu modelin ürün kaydında detaylı bir kanal listesi, boyut bilgisi ya da FLX4'te olduğu gibi yazılım notu yer almıyor. Dolayısıyla kutu içeriğinde hangi programın desteklendiğini bilmeden yola çıkmak istemiyorsan ya da net özellik listesi arıyorsan bu cihaz sana uygun olmayabilir.
 
 ## Taşınabilirlik ve Fiziksel Alanı Yanlış Hesaplamak
 
