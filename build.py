@@ -20,6 +20,7 @@ from jinja2 import Environment, FileSystemLoader, select_autoescape
 
 from deeplink import shop_ctas_for
 from seo import extract_faq, fit_description, fit_title
+import ic_link
 import urun_denetim
 import site_denetim
 
@@ -1085,6 +1086,14 @@ def main():
           + (" + IndexNow anahtarı" if inkey else ""))
     sayi = site_denetim.denetle(SITE)
     print(f"✓ {sayi} bağlantı/görsel hedefi doğrulandı")
+    rapor = ic_link.raporu_yaz(SITE, CONTENT, yonlendirmeler=set(REDIRECTS))
+    ozet = rapor["ozet"]
+    print(
+        f"✓ iç link raporu: yetim makale {ozet['yetim_makale']}, "
+        f"yetim kategori {ozet['yetim_kategori']}, "
+        f"makalesiz kategori {ozet['makalesiz_kategori']}"
+    )
+    ic_link.erisim_denetle(rapor)
     print(f"✓ Çıktı: {SITE}")
 
 

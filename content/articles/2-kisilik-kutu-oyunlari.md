@@ -4,19 +4,18 @@ slug: "2-kisilik-kutu-oyunlari"
 category: "koleksiyon"
 subcategory: "masaustu-oyun"
 date: "2026-11-04"
-updated: "2026-11-04"
+updated: "2026-11-09"
 meta_title: "2 Kişilik Kutu Oyunları: Türkiye'deki Seçim | Hobi Bul"
 meta_description: "İki kişilik akşam için Neo Troy'da satılan kutular: Sky Team, Beşte Beş, Splendor, Carcassonne, Ticket to Ride Europe ve Cascadia."
 excerpt: "İki kişilik akşam için Neo Troy'da satılan kutular: Sky Team, Beşte Beş, Splendor, Carcassonne, Ticket to Ride Europe ve Cascadia."
 focus_keyword: "2 kişilik kutu oyunları"
 draft: "false"
 ---
-
 İki kişilik bir akşamda her kutu aynı işi görmez. Kimi oyun yalnız iki sandalye için yazılmış, kimi 2-4 ya da 2-5 diye açılıyor ve kalabalıkta da duruyor. Aşağıdaki kutuların hepsi [Neo Troy Games](https://neotroygames.com/) vitrininde var. Kişi sayısı, süre ve yaş, o sayfalardaki satırdan.
 
 > Yalnız iki kişiye yazılmış kutu Sky Team: 2 kişi, 20 dakika, 12+. Çift masasında Splendor, Beşte Beş, Carcassonne, Ticket to Ride Europe ve Cascadia da kuruluyor. Catan'ın temel kutusu 3-4 kişilik, bu listeye girmiyor.
 
-Masadaki diğer gruplar [en iyi kutu oyunları](/makale/en-iyi-kutu-oyunlari-2026/) yazısında. Çocuklu akşam [aile kutu oyunları](/makale/aile-kutu-oyunlari/) sayfasında. Oyunların durduğu yer [masaüstü oyunlar](/kategori/koleksiyon/masaustu-oyun/).
+Masadaki diğer gruplar [en iyi kutu oyunları](/makale/en-iyi-kutu-oyunlari-2026/) yazısında. Çocuklu akşam [aile kutu oyunları](/makale/aile-kutu-oyunlari/) sayfasında. Oyunların durduğu yer [masaüstü oyunlar](/kategori/koleksiyon/masaustu-oyun/). Aynı masaüstü işinin devamı [Yılbaşı Hediyesi Kutu Oyunları](/makale/yilbasi-hediyesi-kutu-oyunlari/) rehberinde.
 
 ## Yalnız iki kişilik olan
 
@@ -59,7 +58,7 @@ Catan'ın temel kutusu Neo Troy'da 3-4 kişi. İki kişilik akşama kurulmuyor. 
 
 Zorluk sütunu bir puan değil. Neo Troy'un oyunu nasıl anlattığına bakarak konulan kısa ad. Sayılar özellik satırından.
 
-İkiniz de on beş dakikada kalkacaksanız Beşte Beş ya da Codenames Duet. Bir saatlik sakin bir masa istiyorsanız Splendor, Carcassonne ya da Cascadia. Yalnız iki kişi olsun, üçüncü hiç gelmesin diyorsanız Sky Team. Tren haritası için önce masanın genişliğine bakın.
+İkiniz de on beş dakikada kalkacaksanız Beşte Beş ya da Codenames Duet. Bir saatlik sakin bir masa istiyorsanız Splendor, Carcassonne ya da Cascadia. Yalnız iki kişi olsun, üçüncü hiç gelmesin diyorsanız Sky Team. Tren haritası için önce masanın genişliğine bakın. Aynı başlık altındaki diğer rehberler [Koleksiyon notları](/kategori/koleksiyon/) sayfasında.
 
 ## Sıkça Sorulan Sorular
 

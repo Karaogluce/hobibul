@@ -4,19 +4,18 @@ slug: "aile-kutu-oyunlari"
 category: "koleksiyon"
 subcategory: "masaustu-oyun"
 date: "2026-11-04"
-updated: "2026-11-04"
+updated: "2026-11-09"
 meta_title: "Aile Kutu Oyunları: Türkiye'deki Seçim | Hobi Bul"
 meta_description: "Çocuklu masa için Neo Troy'da satılan kutular: Captain Flip, Carcassonne, Ticket to Ride Europe, Hop, Machi Koro ve Catan. Yaşlar sayfadan."
 excerpt: "Çocuklu masa için Neo Troy'da satılan kutular: Captain Flip, Carcassonne, Ticket to Ride Europe, Hop, Machi Koro ve Catan. Yaşlar sayfadan."
 focus_keyword: "aile kutu oyunları"
 draft: "false"
 ---
-
 Aile masasında önce yaş ve süre konuşulur. Neo Troy'un 8+ diye işaretlediği kısa kutular, 14+ ve bir saati aşan oyunlardan ayrı durur. Aşağıdakilerin hepsi o sitede satılıyor. Yaş, kişi ve süre ürün sayfasındaki satır.
 
 > Çocuklu kısa akşam için Captain Flip 8+, 2-5 kişi, 20 dakika. Carcassonne ve Ticket to Ride Europe de 8+ ve 2-5 kişi, 30-60 dakika. Catan 10+ ve 3-4 kişi. Munchkin 16+, bu masanın kutusu değil.
 
-İki yetişkin yalnız oturuyorsa [2 kişilik kutu oyunları](/makale/2-kisilik-kutu-oyunlari/) daha dar bir liste. Kalabalık ve strateji tarafı [en iyi kutu oyunları](/makale/en-iyi-kutu-oyunlari-2026/) yazısında. Kategori [masaüstü oyunlar](/kategori/koleksiyon/masaustu-oyun/).
+İki yetişkin yalnız oturuyorsa [2 kişilik kutu oyunları](/makale/2-kisilik-kutu-oyunlari/) daha dar bir liste. Kalabalık ve strateji tarafı [en iyi kutu oyunları](/makale/en-iyi-kutu-oyunlari-2026/) yazısında. Kategori [masaüstü oyunlar](/kategori/koleksiyon/masaustu-oyun/). Aynı masaüstü işinin devamı [Kime Hangi Oyun](/makale/yilbasi-hediyesi-kutu-oyunlari/) rehberinde.
 
 ## Sekiz yaşla açılan kısa kutular
 

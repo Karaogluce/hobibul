@@ -4,7 +4,7 @@ slug: "raspberry-pi-5-baslangic-kiti"
 category: "teknoloji"
 subcategory: "raspberry-pi-elektronik"
 date: "2026-10-28"
-updated: "2026-11-04"
+updated: "2026-11-09"
 meta_title: "Raspberry Pi 5 Kiti: 8 GB ve 27W | Hobi Bul"
 meta_description: "Raspberry Pi 5 8GB başlangıç kiti: resmi 27W adaptör, soğutucu, GeeekPi set ve Freenove. Arduino ile farkı da yazının içinde."
 excerpt: "Pi 5 kart tek başına açılmaz. Soğutucu ve 27W adaptör şart. Hepsini ayrı toplamaktan yorulursan GeeekPi seti aynı sepette toplar."
@@ -19,10 +19,9 @@ starter_label: "Pi 5 başlangıç kitine bak"
 starter_text: "Kutudan çıkınca çalışsın diyorsan GeeekPi Pi 5 8GB kiti. Yalnızca kart alacaksan resmi 27W adaptörü ve soğutucuyu ayrıca koy. Güncel fiyatı Amazon'da kontrol et."
 draft: "false"
 ---
-
 Raspberry Pi 5 8GB aldığında eline sadece çıplak bir kart geçiyor; ne bir soğutucusu var ne de adaptörü. Eğer masaya öylece bırakırsan kendi kendine bir bilgisayara dönüşmesini bekleme. Bu kartı gerçekten kullanabilmek için ya tek tek parça toplayacaksın ya da her şeyin içinde olduğu dolu bir kit seçeceksin. 
 
-İşin elektronik kısmıyla daha derin ilgileniyorsan [Raspberry Pi ekipmanları](/kategori/teknoloji/raspberry-pi-elektronik/) sayfasına bakabilirsin, genel liste ise [teknoloji](/kategori/teknoloji/) bölümünde duruyor. Eğer niyetin kod yazmak değil de plastik parçalar basmaksa, o zaman [3D yazıcı karşılaştırması](/makale/3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini/) yazısına geçmen daha doğru olur.
+İşin elektronik kısmıyla daha derin ilgileniyorsan [Raspberry Pi ekipmanları](/kategori/teknoloji/raspberry-pi-elektronik/) sayfasına bakabilirsin, genel liste ise [teknoloji](/kategori/teknoloji/) bölümünde duruyor. Eğer niyetin kod yazmak değil de plastik parçalar basmaksa, o zaman [3D yazıcı karşılaştırması](/makale/3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini/) yazısına geçmen daha doğru olur. Aynı Raspberry Pi işinin devamı [Raspberry Pi Elektronik Ekipmanları](/makale/en-iyi-raspberry-pi-elektronik-ekipmanlari-2026-alim-rehberi/) rehberinde. Aynı masada kalan ayrım [Teknoloji Alımı](/makale/en-iyi-teknoloji-ekipmanlari-2026-alim-rehberi/) içinde. Sıradaki bakacağın yer [Teknolojiye Başlangıç Sırası](/makale/teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/).
 
 ## Raspberry Pi 5 8GB Sadece Kart Olarak Alınır mı?
 

@@ -3,7 +3,7 @@ title: "Kahve & Barista Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehb
 slug: "kahve-barista-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber"
 category: "yemek-mutfak"
 date: "2026-11-05"
-updated: "2026-11-05"
+updated: "2026-11-09"
 meta_title: "Kahve & Barista Hakkında Sık Sorulan Sorular | Hobi Bul"
 meta_description: "Kahve ve barista dünyasına adım atın. Çekirdek seçimi, öğütücü ve demleme ipuçları bu kısa rehberde. | Hobi Bul. Yeni başlayan için artı ve eksi notu da var."
 excerpt: "Kahve ve barista dünyasına adım atın. Çekirdek seçimi, öğütücü ve demleme ipuçları bu kısa rehberde. | Hobi Bul"
@@ -15,7 +15,6 @@ image_credit_url: "https://unsplash.com/@ginzburg_l?utm_source=hobibul&utm_mediu
 subcategory: "kahve"
 draft: "false"
 ---
-
 Mutfakta tezgahın üzerinde biriken ekipmanlar bazen işi kolaylaştırmak yerine kafanızı karıştırabilir. Sabahları aceleyle hazırlanan o ilk fincanın tadı tutmadığında, sorun genellikle yanlış çekirdek seçiminde ya da hatalı öğütme boyutunda saklıdır. Kahve hazırlık sürecinde kaybolmadan doğru adımları atmak için önce temel ekipmanları tanımak gerekir.
 
 ## Kahve Çekirdeği ve Ekipman Seçimi
@@ -56,7 +55,7 @@ Kahve makinesi seçimi yaparken günlük içim alışkanlıklarınızı ve mutfa
 
 ### Kahve öğütücü nasıl seçilir?
 
-Kahve öğütücü seçerken bıçaklı modeller yerine çapaklı öğütücülere bakmak homojen bir öğütme boyutu elde etmenizi sağlar. [Satın Al: De’Longhi Dedica KG 521.M Kahve Öğütücü](aff://baratza-encore-ogutucu) filtre kahve ve farklı demleme yöntemleri için 18 öğütme kademesi sunan kompakt elektrikli kahve öğütücü olarak bu süreci yönetmenizi kolaylaştırır. Kompakt gövdesi tezgahta çok yer kaplamaz ve porsiyon ayarı yapmanıza izin verir; ancak fiyatı başlangıç el değirmenlerinden yüksektir ve öğütme kabı düzenli temizlik ister. Bu cihaz, bütçesini esnetip elektrikli konfora geçmek isteyenlere uyar; ancak sadece ayda bir kahve öğüten biri için fazla gelebilir.
+Kahve öğütücü seçerken bıçaklı modeller yerine çapaklı öğütücülere bakmak homojen bir öğütme boyutu elde etmenizi sağlar. [Satın Al: De’Longhi Dedica KG 521.M Kahve Öğütücü](aff://baratza-encore-ogutucu) filtre kahve ve farklı demleme yöntemleri için 18 öğütme kademesi sunan kompakt elektrikli kahve öğütücü olarak bu süreci yönetmenizi kolaylaştırır. Kompakt gövdesi tezgahta çok yer kaplamaz ve porsiyon ayarı yapmanıza izin verir; ancak fiyatı başlangıç el değirmenlerinden yüksektir ve öğütme kabı düzenli temizlik ister. Bu cihaz, bütçesini esnetip elektrikli konfora geçmek isteyenlere uyar; ancak sadece ayda bir kahve öğüten biri için fazla gelebilir. Aynı kahve işinin devamı [Hassas Tartı](/makale/kahve-barista-malzemeleri/) rehberinde.
 
 ### Hario V60 Dripper nasıl kullanılır?
 

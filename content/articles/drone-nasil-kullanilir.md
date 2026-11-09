@@ -3,7 +3,7 @@ title: "Drone Nasıl Kullanılır? Mod 2 Kumanda ve İlk Havalanma"
 slug: "drone-nasil-kullanilir"
 category: "teknoloji"
 date: "2026-11-02"
-updated: "2026-11-04"
+updated: "2026-11-09"
 meta_title: "Drone Nasıl Kullanılır? Mod 2 Kumanda | Hobi Bul"
 meta_description: "Drone nasıl kullanılır: Mod 2 kumanda, ilk havalanma ve rüzgarsız açık alan. Oyuncak sınıfı ile DJI Mini 4K aynı işi görmez."
 excerpt: "Sol kol gaz ve dönüş, sağ kol yatay yön. İlk kalkış rüzgarsız açık alanda, cihazın arkasından."
@@ -15,8 +15,7 @@ image_credit_url: "https://unsplash.com/@neryx?utm_source=hobibul&utm_medium=ref
 subcategory: "drone"
 draft: "false"
 ---
-
-Kutuyu açıp pervaneleri taktığında elindeki cihazı hemen havalandırmak isteyebilirsin ama kumanda kollarına dokunmadan önce cihazın yön mantığını ve çevrendeki riskleri kavramalısın. Kontrol dinamiklerini bilmeden kalkan bir drone'un kaza yapması birkaç saniye sürer. Kumandanın temel tepkilerini öğrenip sakin bir alanda alıştırma yaptığında ise hem cihazı kırmadan uçurursun hem de çevrendekileri tehlikeye atmazsın.
+Kutuyu açıp pervaneleri taktığında elindeki cihazı hemen havalandırmak isteyebilirsin ama kumanda kollarına dokunmadan önce cihazın yön mantığını ve çevrendeki riskleri kavramalısın. Kontrol dinamiklerini bilmeden kalkan bir drone'un kaza yapması birkaç saniye sürer. Kumandanın temel tepkilerini öğrenip sakin bir alanda alıştırma yaptığında ise hem cihazı kırmadan uçurursun hem de çevrendekileri tehlikeye atmazsın. Bu notların bir arada durduğu yer [Drone notları](/kategori/teknoloji/drone/).
 
 Kumandadaki iki analog çubuk genelde Mod 2 düzeninde gelir. Sol kol gaz ve dönüşü yönetir; yukarı ittiğinde cihaz yükselir, aşağı çektiğinde alçalır, sağa veya sola ittiğinde ise drone kendi etrafında döner. Sağ kol ise yatay yön kumandasıdır; ileri, geri, sağa ve sola yönelmeyi sağlar. Drone’un burnu sana dönükken sağ ve sol yönlerin tersine döneceğini bilmelisin, böylece yön algının karıştığı ilk panik anında yanlış tarafa manevra yapmazsın.
 

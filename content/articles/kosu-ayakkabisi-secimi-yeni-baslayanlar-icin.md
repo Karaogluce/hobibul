@@ -4,7 +4,7 @@ slug: "kosu-ayakkabisi-secimi-yeni-baslayanlar-icin"
 category: "spor-fitness"
 subcategory: "kosu"
 date: "2026-10-28"
-updated: "2026-10-29"
+updated: "2026-11-09"
 meta_title: "Koşu Ayakkabısı Seçimi: Yeni Başlayan Rehberi | Hobi Bul"
 meta_description: "Koşu ayakkabısı seçimi: adidas Duramo Speed 2, Nike Pegasus 41 ve ASICS Gel-Kayano 30. Dar kalıp, stabilite ve saat ayrı iş."
 excerpt: "İlk ayakkabıyı yastık masalına göre değil, kalıp ve zemine göre seç. Drop yazmıyorsa uydurma."
@@ -19,7 +19,6 @@ starter_label: "Duramo Speed 2 sayfasına bak"
 starter_text: "Asfaltta ilk çift için adidas Duramo Speed 2 erkek koşu ayakkabısı duruyor. Yastık milimetresi listede yok. Güncel stok ve bedeni sayfada kontrol et."
 draft: "false"
 ---
-
 Koşmaya yeni niyetlendiysen ilk ayakkabını mutlaka asfalta göre seçmelisin. Patika botuyla parkta tur atamazsın, park ayakkabısıyla da taşlı yokuşlarda rahat edemezsin. Haftada üç-beş kısa tur atacaksan başlangıçta tek bir çift ayakkabı sana yeter de artar bile. Akıllı saati, kemeri veya diğer aksesuarları ancak o ayakkabı ayağına iyice oturduktan sonra düşünmeye başla. Sırayı şaşırırsan, çekmecede duran pahalı bir saatin ama ayağında seni rahatsız eden eski bir ayakkabın olur.
 
 ## Asfalt ile Patika Ayakkabısını Karıştırma
@@ -105,7 +104,7 @@ Yeni ayakkabını alır almaz hemen çok uzun koşulara çıkma. İlk gün yirmi
 
 Çorap seçimi de en az ayakkabı kadar kritiktir. Kalın bir koşu çorabı, zaten dar olan Pegasus'u ayağında daha da sıkıştırır. Bu yüzden ayakkabıyı hangi çorapla kullanacaksan onunla denemelisin. Bağcıkların çok sıkı olması veya dilin kayması da konforu bozar; hemen tabana suç atmadan önce dili ortalayıp bir tur daha dene.
 
-Yağmurlu havalarda bu modellerin su geçirmezlik özelliği olmadığını unutma. Islak asfaltta kaymamak için adımlarını biraz daha kısa tutmaya çalış. Eğer gerçekten su geçirmeyen bir şey arıyorsan, yine trekking rehberindeki botlara bakman gerekecek.
+Yağmurlu havalarda bu modellerin su geçirmezlik özelliği olmadığını unutma. Islak asfaltta kaymamak için adımlarını biraz daha kısa tutmaya çalış. Eğer gerçekten su geçirmeyen bir şey arıyorsan, yine trekking rehberindeki botlara bakman gerekecek. Bu notların bir arada durduğu yer [Spor & Fitness notları](/kategori/spor-fitness/).
 
 ## Sık Sorulan Sorular
 

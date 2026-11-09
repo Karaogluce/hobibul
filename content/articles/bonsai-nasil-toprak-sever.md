@@ -15,14 +15,13 @@ image_credit_url: "https://unsplash.com/@neslihangunaydin?utm_source=hobibul&utm
 subcategory: "bonsai"
 draft: "false"
 ---
-
-Bonsai yetiştirmeye heves ettiysen aklında tutman gereken ilk şey, bu ağaçların klasik bahçe toprağında ya da marketten aldığın torfta sağlıklı kalamayacağıdır. Minyatür bir saksıda köklerin ihtiyacı olan temel şey, nemi tutarken fazla suyu hızla dışarı atan, havadar ve tanecikli bir yapıdır. Sulama yaptığın anda su yüzeyde çamurlaşıp kalmıyorsa ve saksı deliklerinden derhal süzülüyorsa doğru bir zemin kurmuşsun demektir.
+Bonsai yetiştirmeye heves ettiysen aklında tutman gereken ilk şey, bu ağaçların klasik bahçe toprağında ya da marketten aldığın torfta sağlıklı kalamayacağıdır. Minyatür bir saksıda köklerin ihtiyacı olan temel şey, nemi tutarken fazla suyu hızla dışarı atan, havadar ve tanecikli bir yapıdır. Sulama yaptığın anda su yüzeyde çamurlaşıp kalmıyorsa ve saksı deliklerinden derhal süzülüyorsa doğru bir zemin kurmuşsun demektir. Aynı başlık altındaki diğer rehberler [Bahçe & Bitki notları](/kategori/bahce-bitki/) sayfasında. [Bonsai notları](/kategori/bahce-bitki/bonsai/) bu parçanın yanındaki seçimleri topluyor.
 
 Sığ saksılarda yaşayan minyatür ağaçlar çok dar bir hacimde kök geliştirmek zorunda kalır. Sıkışan ve çamurlaşan bir toprakta kökler havasız kalıp çürür; gereğinden fazla kaba ve gevşek bir harçta ise ne nem tutunabilir ne de bitki beslenebilir. Buradaki asıl mesele, ağacın köklerine hem yetecek kadar nem hem de rahat nefes alacak gözenekli boşluklar bırakabilmektir.
 
 ## Bonsai Toprağında Drenaj ve Tane Yapısı Neden Kritik?
 
-Bir sabah ağacını suladığında su dakikalarca yüzeyde gölleniyorsa, o saksıda kökler yavaş yavaş boğuluyor demektir. Bonsai kökleri sürekli ıslak çamurun içinde oturmaktan hoşlanmaz; hafif nemli bir ortamda taneciklerin arasındaki boşluklardan bolca oksijen çekmek ister. Evde veya balkonda baktığın ağacın durduk yere yaprak dökmesinin arkasında çoğu zaman saksı dibinde biriken ve tahliye edilemeyen su yatar.
+Bir sabah ağacını suladığında su dakikalarca yüzeyde gölleniyorsa, o saksıda kökler yavaş yavaş boğuluyor demektir. Bonsai kökleri sürekli ıslak çamurun içinde oturmaktan hoşlanmaz; hafif nemli bir ortamda taneciklerin arasındaki boşluklardan bolca oksijen çekmek ister. Evde veya balkonda baktığın ağacın durduk yere yaprak dökmesinin arkasında çoğu zaman saksı dibinde biriken ve tahliye edilemeyen su yatar. Aynı bonsai işinin devamı [Bonsai Ekipmanları](/makale/en-iyi-bonsai-ekipmanlari-2026-alim-rehberi/) rehberinde.
 
 Kendi karışımını sıfırdan hazırlamak istemiyorsan drenaj dengesi gözetilmiş hazır paketlere yönelebilirsin. Bu noktada [Satın Al: Compo 1602 Bonsai Toprağı 5 L](aff://bonsai-jack-toprak-karisimi) bonsai saksılarına uygun yapısıyla pratik bir zemin sunar; kullanıma hazır 5 litrelik paketi sayesinde doğrudan saksı dolumu yapabilirsin. Ancak bu karışım tek başına her bonsai türünün özel isteklerini karşılamayabilir. Saksının altındaki drenaj delikleri tıkalıysa en süzek toprak bile kök çürümesini engelleyemez; bu nedenle saksı tabanındaki su tahliyesini her zaman açık tutman gerekir.
 

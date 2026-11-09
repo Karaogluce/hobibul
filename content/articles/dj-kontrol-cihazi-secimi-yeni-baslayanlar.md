@@ -4,7 +4,7 @@ slug: "dj-kontrol-cihazi-secimi-yeni-baslayanlar"
 category: "muzik"
 subcategory: "dj-produksiyon"
 date: "2026-10-28"
-updated: "2026-10-29"
+updated: "2026-11-09"
 meta_title: "DJ Kontrol Cihazı: DDJ-FLX4 ve Numark Rehberi | Hobi Bul"
 meta_description: "DJ kontrol cihazı seçimi: Pioneer DDJ-FLX4, Numark Party Mix III, MixTrack Go ve Mixtrack Pro FX. Kutuda yazılım var mı, onu kontrol et."
 excerpt: "İlk kontrol cihazında kanal sayısı yetmez. Kutuda hangi yazılım var, ona bak. Serato her kutuda yok."
@@ -19,7 +19,6 @@ starter_label: "DDJ-FLX4 sayfasına bak"
 starter_text: "İlk ciddi kontrol cihazı Pioneer DDJ-FLX4. Kutuda rekordbox var, Serato yok. Güncel fiyatı Amazon sayfasından kontrol et."
 draft: "false"
 ---
-
 İlk DJ kontrol cihazını alırken iki kanallı bir modelle başlaman en mantıklısı. Dört kanallı bir cihaz aldığında, muhtemelen ilk birkaç ay o fazladan iki fader’ın orada öylece durduğunu göreceksin. Boşuna kafa karıştırmaya gerek yok.
 
 Cihazı seçerken asıl bakman gereken şey yazılım meselesi. "Uyumlu" yazan her cihaz, yazılımın tam sürümünü sana hediye ediyor demek değil. Bazı modeller lisansla gelirken bazıları seni ek ödemelerle baş başa bırakabilir. Bir de tabii laptop şart; telefonla DJ’lik yapma vaatlerine, özellikle Bluetooth üzerinden kurulan bağlantılara çok güvenip işini şansa bırakma.
@@ -30,7 +29,7 @@ Pioneer DDJ-FLX4 aldığında rekordbox DJ kutudan dahil çıkıyor ama iş Sera
 
 Party Mix III, MixTrack Go ve Mixtrack Pro FX modellerinin üçü de Serato DJ Lite ile geliyor. Hatta ilk ikisi Algoriddim djay ile de uyumlu. Burada önemli olan şu: Aynı akşam hem rekordbox hem Serato kurmaya çalışma. Birini seçip onun üzerinden gitmezsen, öteki yazılımın kısa yolları ve mantığı eline ayağına dolaşır.
 
-Bilgisayarının işletim sistemi de önemli. FLX4 için Windows 10-11 veya macOS 10.15-11.2 gibi spesifik sürümler belirtilmiş. Eğer sistemin bunlardan çok daha yeniyse, "nasıl olsa çalışır" demeyip bir kontrol etmende fayda var. Bu arada kulaklık genelde ayrı satılır. Katalogda Audio-Technica ATH-M50x gibi kapalı ve katlanabilir modeller öneriliyor ama bunların kablo yapısı özeldir ve kafayı biraz sıkabilir, bunu da aklında tut. Müzik ekipmanları hakkında daha geniş bir perspektif istersen [DJ ve prodüksiyon](/kategori/muzik/dj-produksiyon/) kategorisine göz atabilirsin; ama gitar gibi başka bir dünyaya niyetin varsa seni [elektro gitar seti](/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/) yazısına alalım.
+Bilgisayarının işletim sistemi de önemli. FLX4 için Windows 10-11 veya macOS 10.15-11.2 gibi spesifik sürümler belirtilmiş. Eğer sistemin bunlardan çok daha yeniyse, "nasıl olsa çalışır" demeyip bir kontrol etmende fayda var. Bu arada kulaklık genelde ayrı satılır. Katalogda Audio-Technica ATH-M50x gibi kapalı ve katlanabilir modeller öneriliyor ama bunların kablo yapısı özeldir ve kafayı biraz sıkabilir, bunu da aklında tut. Müzik ekipmanları hakkında daha geniş bir perspektif istersen [DJ ve prodüksiyon](/kategori/muzik/dj-produksiyon/) kategorisine göz atabilirsin; ama gitar gibi başka bir dünyaya niyetin varsa seni [elektro gitar seti](/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/) yazısına alalım. Aynı DJ işinin devamı [İlk Alınacak Ekipmanlar](/makale/dj-produksiyon-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/) rehberinde.
 
 ## Pioneer DDJ-FLX4: Rekordbox ile Öğrenmek
 

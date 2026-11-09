@@ -4,7 +4,7 @@ slug: "3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini"
 category: "teknoloji"
 subcategory: "3d-yazici"
 date: "2026-10-28"
-updated: "2026-10-29"
+updated: "2026-11-09"
 meta_title: "Ender 3 V3 mi, Bambu Lab A1 Mini mi? | Hobi Bul"
 meta_description: "3D yazıcı alırken Ender 3 V3 ile Bambu Lab A1 Mini’yi kalibrasyon, tabla, filament ve alet seti üzerinden karşılaştır. Üç paket var."
 excerpt: "Kurcalamayı seviyorsan Ender 3 V3. Kutudan çıkınca bassın, tabla küçük kalsın diyorsan Bambu Lab A1 Mini."
@@ -19,8 +19,7 @@ starter_label: "Bambu Lab A1 Mini başlangıç yazıcısına bak"
 starter_text: "İlk baskı için az uğraş istiyorsan Bambu Lab A1 Mini. Masayı büyütmek ve ayar yapmak istiyorsan Creality Ender 3 V3. Güncel fiyatı Amazon'da kontrol et."
 draft: "false"
 ---
-
-İlk 3D yazıcını alırken vereceğin asıl karar ne basacağından çok, makinenin başında ne kadar vakit geçirmek istediğinle ilgili. Bir tarafta vidalarıyla, tablasıyla uğraşıp işin mekaniğini kavrayacağın geniş topluluklu makineler var; diğer tarafta ayarı kendi yapıp hemen baskıya geçen ama alanı daha dar tutan modeller duruyor. Diğer alternatifleri merak edersen [3D yazıcı ekipmanları](/kategori/teknoloji/3d-yazici/) sayfasına da bakabilirsin; yazılımla ya da kart bilgisayarlarla ilgileniyorsan [Raspberry Pi 5 başlangıç kiti](/makale/raspberry-pi-5-baslangic-kiti/) gibi farklı projeler de [teknoloji](/kategori/teknoloji/) kategorisinde duruyor. 
+İlk 3D yazıcını alırken vereceğin asıl karar ne basacağından çok, makinenin başında ne kadar vakit geçirmek istediğinle ilgili. Bir tarafta vidalarıyla, tablasıyla uğraşıp işin mekaniğini kavrayacağın geniş topluluklu makineler var; diğer tarafta ayarı kendi yapıp hemen baskıya geçen ama alanı daha dar tutan modeller duruyor. Diğer alternatifleri merak edersen [3D yazıcı ekipmanları](/kategori/teknoloji/3d-yazici/) sayfasına da bakabilirsin; yazılımla ya da kart bilgisayarlarla ilgileniyorsan [Raspberry Pi 5 başlangıç kiti](/makale/raspberry-pi-5-baslangic-kiti/) gibi farklı projeler de [teknoloji](/kategori/teknoloji/) kategorisinde duruyor. Bu seçimin devamı [Başlangıç Sırası](/makale/teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/) rehberinde duruyor.
 
 Seçim yaparken üç temel noktayı netleştirmen gerek: Basacağın parçanın boyutu ne olacak, kalibrasyonla uğraşmak istiyor musun ve yedek parça gerektiğinde kolayca ulaşıp ucuza çözebilecek misin?
 

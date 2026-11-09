@@ -4,7 +4,7 @@ slug: "en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions"
 category: "koleksiyon"
 subcategory: "lego-model"
 date: "2026-10-28"
-updated: "2026-11-04"
+updated: "2026-11-09"
 meta_title: "En İyi LEGO Setleri: Bonsai ve Speed Champions | Hobi Bul"
 meta_description: "Yetişkin LEGO setleri: Bonsai 10281, Mini Bonsai 10373, Sukulent 10309, Supra 77260 ve Zaman Makinesi 77256. Vitrin için seç."
 excerpt: "İlk yetişkin setini parçası dağılmayan bir vitrine göre seç. Canlı bonsai ile LEGO bonsai aynı raf değildir."
@@ -19,8 +19,7 @@ starter_label: "Bonsai 10281 sayfasına bak"
 starter_text: "Yetişkin için ilk vitrin seti LEGO Botanicals Bonsai 10281. Yeşil yaprak ile pembe kiraz aynı kutuda değişiyor. Güncel fiyatı sayfada."
 draft: "false"
 ---
-
-İlk yetişkin LEGO setini seçerken asıl karar vermen gereken şey, bitirdiğinde o modeli rafa koyup sergilemek mi istediğin yoksa sadece yapım sürecinin tadını çıkarıp kutuyu kaldırmak mı olduğu. Eğer amacın şık bir dekor oluşturmaksa saksılı ve standlı modellere yönelmelisin; sadece bir akşam vakit geçirmek istiyorsan parça sayısı daha az olan seçenekler seni daha az yorar. Gerçek bir ağaca bakma fikri sana daha yakınsa [bonsai başlangıç seti](/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/) yazısına göz atabilirsin, çünkü buradaki modeller su veya budama istemeyen cinsten.
+İlk yetişkin LEGO setini seçerken asıl karar vermen gereken şey, bitirdiğinde o modeli rafa koyup sergilemek mi istediğin yoksa sadece yapım sürecinin tadını çıkarıp kutuyu kaldırmak mı olduğu. Eğer amacın şık bir dekor oluşturmaksa saksılı ve standlı modellere yönelmelisin; sadece bir akşam vakit geçirmek istiyorsan parça sayısı daha az olan seçenekler seni daha az yorar. Gerçek bir ağaca bakma fikri sana daha yakınsa [bonsai başlangıç seti](/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/) yazısına göz atabilirsin, çünkü buradaki modeller su veya budama istemeyen cinsten. LEGO için burada kapanan ayrımı [LEGO Model Ekipmanı](/makale/lego-model-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/) ayrıca tutuyor. Seçimi bitirmeden [LEGO Model Hakkında](/makale/lego-model-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/) notuna da bak; aynı LEGO masasının diğer ucu orada.
 
 ## Bir Akşamlık Eğlence mi, İki Gecelik Mesai mi?
 
@@ -69,7 +68,7 @@ Sukulentler 10309 ise bambaşka bir mantığa sahip. İçinde dokuz farklı kü�
 
 ## Hız ve Nostalji: Supra ve Zaman Makinesi
 
-Eğer bitkilerle aran çok iyi değilse ama film ikonlarına bayılıyorsan, Speed Champions serisindeki Toyota Supra MK4 (77260) ilgini çekebilir. 10 yaş ve üzeri için tasarlansa da biz yetişkinler için de harika bir masa üstü objesi. Yanındaki Brian minifigürü ve aracın grafik detayları tam bir koleksiyon parçası. Ancak dikkat et, bu araba koridorda yarıştırılacak bir uzaktan kumandalı araç değil; daha çok duruşuyla kendini sevdiren bir sergi modeli.
+Eğer bitkilerle aran çok iyi değilse ama film ikonlarına bayılıyorsan, Speed Champions serisindeki Toyota Supra MK4 (77260) ilgini çekebilir. 10 yaş ve üzeri için tasarlansa da biz yetişkinler için de harika bir masa üstü objesi. Yanındaki Brian minifigürü ve aracın grafik detayları tam bir koleksiyon parçası. Ancak dikkat et, bu araba koridorda yarıştırılacak bir uzaktan kumandalı araç değil; daha çok duruşuyla kendini sevdiren bir sergi modeli. Aynı LEGO işinin devamı [LEGO Mini Bonsai](/makale/lego-model-ai/) rehberinde.
 
 Bir diğer efsane ise 77256 kodlu Geleceğe Dönüş zaman makinesi. Kutudan hem Doc Brown hem de Marty McFly minifigürleri çıkıyor. Bu setin olayı şu: İstersen ilk filmdeki yıldırım kancalı halini kurarsın, istersen ikinci filmdeki uçan tekerlekli ve Bay Fusion'lı halini. İki farklı tasarım demek, aslında kutunun içinde iki farklı eğlence var demek. Ama parçaları iyi organize etmelisin; bir düzeni bozup diğerine geçerken parça kaybedersen zaman yolculuğun yarım kalabilir.
 

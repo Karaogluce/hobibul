@@ -4,7 +4,7 @@ slug: "akvaryum-kurulumu-baslangic-seti"
 category: "evcil-hayvan"
 subcategory: "akvaryum"
 date: "2026-10-28"
-updated: "2026-11-04"
+updated: "2026-11-09"
 meta_title: "Akvaryum Kurulumu: Tetra 54 L Set | Hobi Bul"
 meta_description: "İlk akvaryumu Tetra Starter Line 54 L komple set, yedek ısıtıcı ve hava pompası seçenekleriyle kur. Balığı ilk gün ekleme; su otursun."
 excerpt: "Tetra Starter Line 54 L set; tank, LED, iç filtre ve ısıtıcıyı bir araya getirir. Balık, su ve filtre döngüsü hazır olunca girer."
@@ -19,8 +19,7 @@ starter_label: "Tetra Starter Line 54 L komple sete bak"
 starter_text: "Tetra 54 L sette tank, LED, iç filtre ve ısıtıcı birlikte gelir. Balığı su ve filtre döngüsü hazır olmadan ekleme. Güncel fiyatı Amazon'da kontrol et."
 draft: "false"
 ---
-
-Yeni bir akvaryum kurmaya niyetlendiysen Tetra Starter Line 54 L, temel ekipmanları ayrı ayrı arama yükünü azaltan bir komple set. Pakette 54 litrelik cam tankın yanında gündüz/gece LED aydınlatma, iç filtre, ısıtıcı, balık yemi ve su hazırlama ürünü bulunur. Yine de en büyük hata, seti kurup aynı gün içine balığı bırakmaktır. Önce suyun ve filtredeki yararlı bakteri döngüsünün hazır olması gerekir.
+Yeni bir akvaryum kurmaya niyetlendiysen Tetra Starter Line 54 L, temel ekipmanları ayrı ayrı arama yükünü azaltan bir komple set. Pakette 54 litrelik cam tankın yanında gündüz/gece LED aydınlatma, iç filtre, ısıtıcı, balık yemi ve su hazırlama ürünü bulunur. Yine de en büyük hata, seti kurup aynı gün içine balığı bırakmaktır. Önce suyun ve filtredeki yararlı bakteri döngüsünün hazır olması gerekir. Aynı akvaryum işinin devamı [Akvaryum Ekipmanı Seçimi](/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/) rehberinde. Akvaryum için burada kapanan ayrımı [Alım Rehberi](/makale/en-iyi-akvaryum-balik-ekipmanlari-2026-alim-rehberi/) ayrıca tutuyor.
 
 54 litrelik hacim, büyük vatozlar ya da kalabalık sürü balıkları için dar bir alandır. Balık seçerken pet shop’taki küçük hallerine değil, yetişkinlikte ulaşacakları boya bak. "Yavruyken idare eder" diye aldığın balık kısa süre sonra tanka sığmaz hale gelebilir. Kurulum için gereken diğer parçalara [akvaryum ekipmanları](/kategori/evcil-hayvan/akvaryum/) sayfasından bakabilirsin. Kedi besliyorsan, [kedi bakım seti](/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/) bu tankın bir parçası değil; ikisi de [evcil hayvan](/kategori/evcil-hayvan/) kategorisinde ama ihtiyaçları bambaşka.
 

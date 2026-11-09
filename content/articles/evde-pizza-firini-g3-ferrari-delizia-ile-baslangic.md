@@ -4,7 +4,7 @@ slug: "evde-pizza-firini-g3-ferrari-delizia-ile-baslangic"
 category: "yemek-mutfak"
 subcategory: "ekmek-pasta"
 date: "2026-10-28"
-updated: "2026-10-29"
+updated: "2026-11-09"
 meta_title: "Evde Pizza Fırını: G3 Ferrari Delizia Rehberi | Hobi Bul"
 meta_description: "Evde pizza fırını: G3 Ferrari Delizia 400°C ve 3 taş. Ekmek makinesi sayfası doğrulanmadı. Döküm tencere ayrı bir yol olarak duruyor."
 excerpt: "İnce hamur için taş taban ve kapalı gövdeye bak. Ekmek makinesi kutusu bu turda doğrulanmadı."
@@ -19,14 +19,13 @@ starter_label: "Delizia sayfasına bak"
 starter_text: "İlk pizza fırını G3 Ferrari Delizia. Başlık 3 taş ve 400°C diyor. Güncel fiyatı ve stok düğmesini sayfada kontrol et."
 draft: "false"
 ---
-
 Evdeki fırınla ne kadar uğraşırsan uğraş, o gerçek incecik pizza kıvamını yakalamak her zaman zor oluyor. Çünkü iş sadece hamurda değil, taş tabanın sağladığı o yüksek ısıda bitiyor. G3 Ferrari Delizia, 400°C gibi ev fırınlarının çıkamadığı ısılara ulaşarak o aradığın çıtırlığı hedefleyen bir cihaz. Ama baştan anlaşalım; bu alet bir ekmek makinesi değil. Eğer mutfağında çok yer kaplamayan, lahmacun ve pide gibi lezzetleri de aradan çıkarabileceğin bir yardımcı arıyorsan mantıklı bir tercih olur.
 
 ## Delizia ile Yüksek Isıda Pizza Deneyimi
 
 G3 Ferrari Delizia'nın en büyük kozu, taş tabanı ve ulaştığı 400°C sıcaklık. Evdeki standart fırınlar bu seviyelere çıkamadığı için pizza hamuru genellikle kurur ama çıtırlaşmaz. Bu fırında ise ısı içeride hapsolduğu için ince hamurlarda o dükkanlarda yediğin pizzalara yakın bir sonuç alabiliyorsun. Tabii bu ısı sadece ince hamur için geçerli; kalın hamurlu bir şeyler yapacaksan aynı çıtırlık vaadi geçerli olmayabilir.
 
-Cihaz kompakt bir yapıda, yani mutfağında devasa bir yer ayırmana gerek yok. Ancak şunu bilmelisin: İçinde belirli bir dakika sayacı veya otomatik pişirme süresi verisi yok. Bu yüzden gözün üzerinde olmalı. "Doksan saniyede pişirir" gibi bir garanti verilmemiş, o yüzden kendi hamur kalınlığına göre süreyi senin keşfetmen gerekecek. Eğer bahçede odun ateşiyle pizza yapma hayalin varsa bu kapalı sistem seni tatmin etmeyebilir ama mutfak tezgahı için oldukça pratik.
+Cihaz kompakt bir yapıda, yani mutfağında devasa bir yer ayırmana gerek yok. Ancak şunu bilmelisin: İçinde belirli bir dakika sayacı veya otomatik pişirme süresi verisi yok. Bu yüzden gözün üzerinde olmalı. "Doksan saniyede pişirir" gibi bir garanti verilmemiş, o yüzden kendi hamur kalınlığına göre süreyi senin keşfetmen gerekecek. Eğer bahçede odun ateşiyle pizza yapma hayalin varsa bu kapalı sistem seni tatmin etmeyebilir ama mutfak tezgahı için oldukça pratik. Aynı Yemek Pişirme işinin devamı [Yemek Pişirme Başlangıç Seti](/makale/yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026/) rehberinde.
 
 **Artıları:**
 - 400°C'ye çıkan yüksek ısı ve taş taban.
