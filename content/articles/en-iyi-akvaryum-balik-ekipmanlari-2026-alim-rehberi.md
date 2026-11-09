@@ -33,10 +33,10 @@ Bütün ekipmanları tek tek araştırıp birbiriyle eşleştirmekle uğraşmak 
 
 Canlı popülasyonunu zamanla artırmayı planlıyorsan bu set bir noktadan sonra yetersiz gelebilir. Canlı yükün fazlalaştığında paketteki iç filtreyi daha yüksek kapasiteli bir filtrasyon sistemiyle değiştirmen gerekebilir. Ayrıca sadece boş bir cam tank almaya kıyasla ilk alımda daha yüksek bir bütçe ayırman gerekir.
 
-*   **Artılar:** 54 litre cam tank; LED, iç filtre ve ısıtıcı dahil; Başlangıç aksesuarlarıyla komple set
-*   **Eksiler:** Boş tanktan daha yüksek başlangıç bütçesi; Canlı yükü arttığında ekipman yükseltmesi gerekebilir
+* **Artılar:** 54 litre cam tank; LED, iç filtre ve ısıtıcı dahil; Başlangıç aksesuarlarıyla komple set
+* **Eksiler:** Boş tanktan daha yüksek başlangıç bütçesi; Canlı yükü arttığında ekipman yükseltmesi gerekebilir
 
-[Satın Al: Tetra Starter Line LED 54 L Akvaryum Komple Set](aff://aqueon-akvaryum-tanki)
+
 
 ### Fluval 207 Performance Dış Filtre
 
@@ -44,10 +44,10 @@ Küçük ve orta boy akvaryumlarda su berraklığını korumak istiyorsan, çok 
 
 Akvaryumun çevresinde harici bir filtre gövdesi konumlandıracak alanın yoksa veya hortum ve bağlantı kurulumlarıyla uğraşmak istemiyorsan bu model sana göre olmayabilir. Ayrıca bir iç filtreye göre başlangıç maliyetinin daha yüksek olduğunu da hesaba katmalısın.
 
-*   **Artılar:** Çok kademeli filtrasyon; Kompakt dış filtre gövdesi; Bakım için ayrılabilir sepetler
-*   **Eksiler:** Başlangıç maliyeti iç filtreden yüksek; Hortum ve bağlantı kurulumu ister
+* **Artılar:** Çok kademeli filtrasyon; Kompakt dış filtre gövdesi; Bakım için ayrılabilir sepetler
+* **Eksiler:** Başlangıç maliyeti iç filtreden yüksek; Hortum ve bağlantı kurulumu ister
 
-[Satın Al: Fluval 207 Performance Dış Filtre](aff://fluval-307-dis-filtre)
+
 
 ### Eheim Jager Akvaryum Isıtıcısı
 
@@ -55,8 +55,8 @@ Ortam sıcaklığının düştüğü dönemlerde suyun soğumasını engelleyen,
 
 Darbeye dayanıklı camdan üretilmiş olsa da nihayetinde cam bir yüzeye sahip olduğu için sert fiziksel darbelerde kırılma riski taşır. Ayrıca tankının su hacmine uygun boyutu seçmediğin takdirde suyu istenen derecede tutmakta zorlanabilir.
 
-*   **Artılar:** Hassas sıcaklık kontrolü; Darbeye dayanıklı cam; Uzun ömürlü güvenilirlik
-*   **Eksiler:** Boyut seçimi tank hacmine göre şart; Cam yüzeyi kırılgan
+* **Artılar:** Hassas sıcaklık kontrolü; Darbeye dayanıklı cam; Uzun ömürlü güvenilirlik
+* **Eksiler:** Boyut seçimi tank hacmine göre şart; Cam yüzeyi kırılgan
 
 [Satın Al: Eheim Jager Akvaryum Isıtıcısı](aff://eheim-jager-akvaryum-isiticisi)
 
@@ -66,8 +66,8 @@ Akvaryumda hava taşı veya havalandırma ekipmanlarıyla birlikte kullanılmak 
 
 Kutu içeriğinde hava hortumu, çekvalf veya hava taşı gibi tamamlayıcı parçalar yer almadığından, bu ekipmanları ayrıca kontrol edip temin etmen gerekir. Büyük hacimli akvaryumlar için hava çıkış kapasitesi yetersiz kalabileceğinden tankının boyutuna uygun model seçtiğinden emin olmalısın.
 
-*   **Artılar:** Kompakt tasarım; Kurulumu kolay; Hava hortumu ve taşıyla kullanılabilir
-*   **Eksiler:** Hortum, çekvalf ve hava taşı ayrı kontrol edilmeli; Tank hacmine uygun model seçilmeli
+* **Artılar:** Kompakt tasarım; Kurulumu kolay; Hava hortumu ve taşıyla kullanılabilir
+* **Eksiler:** Hortum, çekvalf ve hava taşı ayrı kontrol edilmeli; Tank hacmine uygun model seçilmeli
 
 [Satın Al: Tetra APS 150 Hava Pompası](aff://tetra-whisper-hava-pompasi)
 
@@ -76,6 +76,20 @@ Kutu içeriğinde hava hortumu, çekvalf veya hava taşı gibi tamamlayıcı par
 Akvaryum hobisine sıfırdan adım atıyorsan ve filtre, ısıtıcı ya da aydınlatmayı ayrı ayrı seçip uyum derdi yaşamak istemiyorsan Tetra Starter Line 54 L seti tercih edebilirsin. Tek pakette gelen aydınlatması, iç filtresi ve ısıtıcısı sayesinde hızlı bir başlangıç yapmanı sağlar.
 
 Hali hazırda bir tankın varsa ve iç filtrenin temizliğinden memnun kalmıyorsan, sepetli yapısıyla Fluval 207 dış filtreye geçmek su berraklığında ciddi bir rahatlama sağlar. Su sıcaklığını hassas biçimde sabitlemek istediğinde Eheim Jager ısıtıcıyı, suyun oksijen dengesini ve yüzey hareketliliğini desteklemek istediğinde ise Tetra APS 150 hava pompasını sistemine ekleyebilirsin. Aynı akvaryum işinin devamı [Hava Pompası](/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/) rehberinde.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Akvaryum filtresi için Amazon.com.tr sayfasında [VENUS AQUA Venusaqua Vs-410F Akvaryum Iç Filtresi 400 Lt/h 4W](https://www.amazon.com.tr/dp/B0DTF9YSB5?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Tetra HT 50 ısıtıcı, 25 – 60 L akvaryumlar için, sıcaklık ayar düğmesi ile farklı](https://www.amazon.com.tr/dp/B0DDXS3NWZ?tag=hobibulsite-21).
+
+Listenin devamında [VENUS AQUA Venusaqua Vs-410F Akvaryum Iç Filtresi 400 Lt/h 4W](https://www.amazon.com.tr/dp/B0DTF9YSB5?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->
+
 
 ## Sık Sorulan Sorular
 
@@ -92,3 +106,4 @@ Hava pompası akvaryum suyuna oksijen kazandırmak ve yüzeyde hareket oluşturm
 Akvaryum ısıtıcılarının gücü belirli su kapasitelerine göre tasarlanır. Büyük bir tanka düşük kapasiteli bir ısıtıcı takarsan cihaz suyu hedef sıcaklığa ulaştıramaz; bu nedenle doğrudan akvaryumunun su hacmine uygun boyutu tercih etmen gerekir.
 
 Tankının ölçülerine ve balıklarının ihtiyacına uygun ekipmanları bir araya getirdiğinde, su dengesini çok daha rahat korur ve uzun vadeli bakım işlerini hafifletmiş olursun.
+

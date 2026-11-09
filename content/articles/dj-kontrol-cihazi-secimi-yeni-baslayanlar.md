@@ -91,7 +91,7 @@ Mixtrack Pro FX ise daha "oturaklı" bir seçenek. 6 inçlik büyük jog’ları
 
 DDJ-FLX2 hakkında şu an elimizde çok kısıtlı bilgi var. Sayfada sadece marka ve model adı geçiyor; kanal sayısı, ağırlık veya hangi yazılımla geldiği belirtilmemiş. Bu yüzden bu cihazı "FLX4’ün ucuz versiyonu" sanıp hemen karar verme. Teknik detayları netleşmeden FLX4 özelliklerini buna yormak yanlış olur.
 
-[Satın Al: Pioneer DDJ-FLX2](aff://pioneer-ddj-flx2)
+
 
 ## İlk Ay Masayı Nasıl Kurmalısın?
 
@@ -100,6 +100,16 @@ Cihazı aldın, masaya koydun. Eğer FLX4 kullanıyorsan 48 cm’lik bir alana i
 Kulaklık olarak önerilen ATH-M50x, katalogda "baskı hissi olan" bir model olarak geçiyor. Bu, dış sesi iyi keser ama uzun saatler kullanımda kulağını yorabilir. İlk aşamada hoparlörün yoksa laptop hoparlörüyle idare edersin ama komşuların sesini duymak istemiyorsan kulaklıkta kalmak en iyisi.
 
 Yazılım konusuna gelirsek; Smart Fader gibi akıllı özellikler başta hayat kurtarır ama her şeyi cihaza bırakma. Manuel olarak crossfader kullanmayı da öğren. Efektleri ve süsleri kapatıp iki şarkıyı sadece hızlarını eşleyerek birbirine bağlayabiliyorsan, işin temelini kavramışsın demektir.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Dj kontrol için Amazon.com.tr sayfasında [Pioneer DJ Pioneer DDJ-FLX4 Taşınabilir 2 Kanallı DJ Controller](https://www.amazon.com.tr/dp/B0BK25SY9G?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->
+
 
 ## Sık Sorulan Sorular
 
@@ -123,3 +133,4 @@ Stok ve fiyat durumuna göre seçimini yapabilirsin ama temel ayrım şu şekild
 | **Performans ve Görsellik** | [Party Mix III](aff://numark-party-mix-iii) veya [Pro FX](aff://numark-mixtrack-pro-fx) | 16 pad, ışıklar veya büyük jog’lar. |
 
 Tavsiyem, önce hangi yazılımı kullanacağına karar ver. Rekordbox istiyorsan FLX4, "ben Serato ile başlayacağım ve cihazım hafif olsun" diyorsan Go modeline yönel. Görsellik ve bol pad istiyorsan Party Mix III tam o boşluğu dolduruyor.
+

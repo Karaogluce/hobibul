@@ -43,7 +43,7 @@ Ancak kadın kalıbı arıyorsan bu link üzerinden numara çevirip almaya çal�
 - Yastıklama ölçüleri belirsiz.
 - Stok durumu bazen kafa karıştırıcı olabiliyor.
 
-[Satın Al: adidas Duramo Speed 2](aff://adidas-duramo-speed-2)
+
 
 ## Nike Pegasus 41: Dar Ama Çok Yönlü
 
@@ -61,7 +61,7 @@ Bağcıkları son deliğe kadar geçirmek bazen ayakkabıyı ayağına daha iyi 
 - Dar kalıbı nedeniyle herkese konforlu gelmeyebilir.
 - Fiyatı başlangıç modellerine göre daha yukarıda.
 
-[Satın Al: Nike Pegasus 41](aff://nike-pegasus-41)
+
 
 ## ASICS Gel-Kayano 30: Destek ve Stabilite
 
@@ -79,7 +79,7 @@ Ağır tabanlı ayakkabılar uzun ve yavaş koşularda seni korur ancak kısa ve
 - Diğer modellere göre daha hantal ve ağır.
 - Fiyatı yüksek bir model.
 
-[Satın Al: ASICS Gel-Kayano 30](aff://asics-gel-kayano)
+
 
 ## Saat ve Kemer Ayakkabının Yerini Tutmaz
 
@@ -96,7 +96,7 @@ Telefon ve anahtarın koşarken sallanmasından rahatsız oluyorsan FlipBelt gib
 - Kemer her vücut tipine aynı rahatlıkta uymayabilir.
 
 [Satın Al: Garmin Forerunner 55](aff://garmin-forerunner-55)
-[Satın Al: FlipBelt Koşu Kemeri](aff://flipbelt)
+
 
 ## İlk İki Haftada Dikkat Etmen Gerekenler
 
@@ -105,6 +105,28 @@ Yeni ayakkabını alır almaz hemen çok uzun koşulara çıkma. İlk gün yirmi
 Çorap seçimi de en az ayakkabı kadar kritiktir. Kalın bir koşu çorabı, zaten dar olan Pegasus'u ayağında daha da sıkıştırır. Bu yüzden ayakkabıyı hangi çorapla kullanacaksan onunla denemelisin. Bağcıkların çok sıkı olması veya dilin kayması da konforu bozar; hemen tabana suç atmadan önce dili ortalayıp bir tur daha dene.
 
 Yağmurlu havalarda bu modellerin su geçirmezlik özelliği olmadığını unutma. Islak asfaltta kaymamak için adımlarını biraz daha kısa tutmaya çalış. Eğer gerçekten su geçirmeyen bir şey arıyorsan, yine trekking rehberindeki botlara bakman gerekecek. Bu notların bir arada durduğu yer [Spor & Fitness notları](/kategori/spor-fitness/).
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Koşu ayakkabısı için Amazon.com.tr sayfasında [Under Armour Ua Assert 11 Erkek Koşu Ayakkabısı White/White/Black 43](https://www.amazon.com.tr/dp/B0F344HR32?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Under Armour Erkek Charged Surge 4 Koşu Ayakkabısı, (100) Beyaz/Halo Gri/Siyah, 42.5 EU](https://www.amazon.com.tr/dp/B0BZXLRS2J?tag=hobibulsite-21).
+
+Listenin devamında [Nike Koşu Kemeri Akıllı Telefon, Anahtarlar, Koşu, Antrenman, Fitness, Koşu](https://www.amazon.com.tr/dp/B0FY26BQQR?tag=hobibulsite-21) var.
+
+Koşu kemeri için Amazon.com.tr sayfasında [adidas Terrex Trail Running Techrock Belt](https://www.amazon.com.tr/dp/B0DHGM9RQ6?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Bix TSW6 48mm Super Retina 1.6” AMOLED GPS Akıllı Saat Siyah – AI Yapay Zeka Destekli,](https://www.amazon.com.tr/dp/B0GNMXW6SD?tag=hobibulsite-21).
+
+Listenin devamında [Under Armour Ua Assert 11 Erkek Koşu Ayakkabısı White/White/Black 43](https://www.amazon.com.tr/dp/B0F344HR32?tag=hobibulsite-21) var.
+
+Koşu kemeri için Amazon.com.tr sayfasında [Nike Koşu Kemeri Akıllı Telefon, Anahtarlar, Koşu, Antrenman, Fitness, Koşu](https://www.amazon.com.tr/dp/B0FY26BQQR?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->
+
 
 ## Sık Sorulan Sorular
 
@@ -123,8 +145,9 @@ Fiyatlar ve stoklar sürekli değiştiği için senin için mantıklı olabilece
 
 | Paket İsmi | İçerik | Kimler İçin? |
 | --- | --- | --- |
-| **Ekonomik Başlangıç** | [Duramo Speed 2](aff://adidas-duramo-speed-2) | Sadece asfaltta koşacağım, temel bir ayakkabı yeter diyenlere. |
-| **Konfor Odaklı** | [Pegasus 41](aff://nike-pegasus-41) ve [FlipBelt](aff://flipbelt) | Ayağı dar olan ve telefonu kemerde taşımak isteyenlere. |
-| **Veri ve Destek** | [Gel-Kayano 30](aff://asics-gel-kayano) ve [Forerunner 55](aff://garmin-forerunner-55) | Ayak desteği arayan ve gelişimini saatle izlemek isteyenlere. |
+| **Ekonomik Başlangıç** | | Sadece asfaltta koşacağım, temel bir ayakkabı yeter diyenlere. |
+| **Konfor Odaklı** | ve | Ayağı dar olan ve telefonu kemerde taşımak isteyenlere. |
+| **Veri ve Destek** | ve [Forerunner 55](aff://garmin-forerunner-55) | Ayak desteği arayan ve gelişimini saatle izlemek isteyenlere. |
 
 İlk bütçeni ayakkabıya ayırırken teknik verisi yazmayan tabanlara çok güvenme. Duramo sayfasını aç, bedenin varsa değerlendir. Eğer ayağın dar ise Pegasus'a, daha fazla destek ve ağırlık arıyorsan Kayano'ya yönelmek en mantıklısı olur.
+

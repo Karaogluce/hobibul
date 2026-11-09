@@ -16,7 +16,7 @@ image_source: ""
 subcategory: "orgu-tig"
 draft: "false"
 ---
-Örgü veya tığ işine başlarken onlarca parça içeren karmaşık kutular yerine elini yormayacak bir tığ, yumuşak bir iplik ve birkaç ilmek belirleyici almak seni gereksiz masraftan kurtarır. Eğer doğrudan tığ işiyle başlamak istiyorsan ilk alışverişinde ergonomik gövdesiyle öne çıkan [Satın Al: Clover Amour Tığ (5mm)](aff://clover-amour-hook) modelini ve orta kalınlıkta bir çileyi sepete eklemen işini rahatça görür. 
+Örgü veya tığ işine başlarken onlarca parça içeren karmaşık kutular yerine elini yormayacak bir tığ, yumuşak bir iplik ve birkaç ilmek belirleyici almak seni gereksiz masraftan kurtarır. Eğer doğrudan tığ işiyle başlamak istiyorsan ilk alışverişinde ergonomik gövdesiyle öne çıkan modelini ve orta kalınlıkta bir çileyi sepete eklemen işini rahatça görür. 
 
 Hobi raflarında gördüğün setlerin büyük kısmı, aslında hiç kullanmayacağın numaralarda gereçler barındırır. Yeni bir el uğraşına heves ettiğinde motivasyonunu kaçıran en büyük etken, kalitesiz bir alet yüzünden elinin ağrıması ya da ipin sürekli katlarına ayrılmasıdır. Bu yüzden bütçeni tek seferde tüketmek yerine, doğrudan öreceğin ilk parçaya göre temel gereçleri doğru seçmen gerekir.
 
@@ -76,9 +76,9 @@ Hangi seviyede bütçe ayıracağın, bu hobiyi ne kadar sürdüreceğinle doğr
 
 | Paket | İçinde ne var | Kime uyar |
 | --- | --- | --- |
-| Bütçe Paketi | [Satın Al: Boye Alüminyum Şiş Seti](aff://boye-needle-set) ve [Satın Al: Lion Brand Vanna's Choice İplik](aff://lion-brand-yarn) | Düşük harcamayla şiş örgüsünün temel mantığını kavramak isteyenlere. |
-| Orta Paket | [Satın Al: Clover Amour Tığ (5mm)](aff://clover-amour-hook), [Satın Al: Clover Kilitli İlmek Belirleyici](aff://clover-stitch-markers) ve [Satın Al: Lion Brand Vanna's Choice İplik](aff://lion-brand-yarn) | El konforunu koruyarak tığ işi motifler ve küçük aksesuarlar üretmek isteyenlere. |
-| Üst Paket | [Satın Al: Knit Picks Değiştirilebilir Şiş Seti](aff://knit-picks-interchangeable), [Satın Al: Clover Kilitli İlmek Belirleyici](aff://clover-stitch-markers) ve [Satın Al: Lion Brand Vanna's Choice İplik](aff://lion-brand-yarn) | Uzun vadeli projeler planlayan, ahşap dokunuşu ve esnek misina rahatlığı arayanlara. |
+| Bütçe Paketi | ve | Düşük harcamayla şiş örgüsünün temel mantığını kavramak isteyenlere. |
+| Orta Paket |, ve | El konforunu koruyarak tığ işi motifler ve küçük aksesuarlar üretmek isteyenlere. |
+| Üst Paket |, ve | Uzun vadeli projeler planlayan, ahşap dokunuşu ve esnek misina rahatlığı arayanlara. |
 
 ## Yeni Başlayanlar İçin Model Seçimi
 
@@ -104,6 +104,30 @@ Alüminyum gereçler, Boye setinde olduğu gibi hafiftir ve pürüzsüz yüzeyle
 
 Knit Picks setindeki gibi ahşap malzemeler ilmeği metal kadar kaydırmaz, hafif tutuşuyla acemilik evresinde ilmek kaçırma endişesini azaltır. Özellikle geniş modellerde veya misinalı işlerde ahşap uçlar kontrolü artırır. Yine de ahşap şişlerin sert bükülmelerde metal kadar dayanıklı olmadığını ve dikkatli kullanılması gerektiğini bilmelisin. Başlangıçta temel alüminyum gereçlerle elini alıştırıp daha sonra ahşap setlere geçiş yapabilirsin. Bu notların bir arada durduğu yer [El Sanatları & DIY](/kategori/el-sanatlari/).
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Örgü tığı için Amazon.com.tr sayfasında [11'li Silikon Saplı Tığ Seti - Taşıma Çantalı Tığ Seti - Örgü Amigurumi Hobi Seti](https://www.amazon.com.tr/dp/B0HJH4932Z?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Etimo Mind Tığ Seti | 14 Adet Örgü Tığı](https://www.amazon.com.tr/dp/B0GWJH8MSX?tag=hobibulsite-21).
+
+Listenin devamında [Hello%100 Pamuk İp Seti – 12 x 25g Pastel Renk Yumak, Örgü, Tığ İşi, Amigurumi ve Punch](https://www.amazon.com.tr/dp/B0FSKX3FZR?tag=hobibulsite-21) var.
+
+Örgü ipi için Amazon.com.tr sayfasında [Bambonita Örgü İpi Pudra Bej%60 Bambu%40 Organik Pamuk 100g 250m (71076)](https://www.amazon.com.tr/dp/B0H87JY7QT?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Değiştirilebilir Uçlu Örgü Şiş Seti – Fermuarlı Taşıma Çantalı Şiş Seti - Misinalı Seti](https://www.amazon.com.tr/dp/B0HJ855KB2?tag=hobibulsite-21).
+
+Listenin devamında [11'li Silikon Saplı Tığ Seti - Taşıma Çantalı Tığ Seti - Örgü Amigurumi Hobi Seti](https://www.amazon.com.tr/dp/B0HJH4932Z?tag=hobibulsite-21) var.
+
+Örgü ipi için Amazon.com.tr sayfasında [Hello%100 Pamuk İp Seti – 12 x 25g Pastel Renk Yumak, Örgü, Tığ İşi, Amigurumi ve Punch](https://www.amazon.com.tr/dp/B0FSKX3FZR?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Değiştirilebilir Uçlu Örgü Şiş Seti – Fermuarlı Taşıma Çantalı Şiş Seti - Misinalı Seti](https://www.amazon.com.tr/dp/B0HJ855KB2?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Örgüye şişle mi yoksa tığla mı başlamak daha kolaydır?
@@ -119,3 +143,4 @@ Girintisi çıkıntısı az, düz geometrik formlar seçilmelidir. Örgü bandan
 Sıra başını, dönüşleri veya artırma yerlerini gözle takip etmek yeni başlayan biri için güçtür. Clover Kilitli İlmek Belirleyici gibi renk kodlu ve kilitli parçalar, örgü sırasında nerede işlem yapacağını işaretleyerek sökme zahmetinden kurtarır.
 
 Elini yormayacak ergonomik bir tığ veya hafif bir şiş takımı edinip Lion Brand Vanna's Choice gibi yumuşak dokulu açık renk bir iple küçük bir bandana örerek ilk denemeni yapabilirsin.
+

@@ -1,12 +1,12 @@
 {
  "tanim": "govde_gelen, başka bir makalenin gövdesinden gelen benzersiz iç linktir. Üst menü, altbilgi ve ekmek kırıntısı bu sayıda yoktur. yetim: yayındaki makale ya da içinde makalesi olan kategori sayfası, govde_gelen 0 veya 1 ise. Makalesi olmayan kategori sayfası menüden ulaşılır; alakasız gövde linki eklenmez ve makalesiz listesindedir. toplam_gelen, üretilmiş HTML içindeki diğer sayfalardan gelen benzersiz linktir. tik, ana sayfadan tıklama derinliğidir. gsc_oncelik, analytics_gsc.json içinde ortalama pozisyonu 8-20 olan sorguya denk sayfadır; dosya yoksa veya ok değilse boş kalır.",
  "ozet": {
-  "makale": 64,
+  "makale": 68,
   "kategori": 82,
-  "yetim_makale": 25,
-  "yetim_kategori": 16,
-  "yetim": 41,
-  "makalesiz_kategori": 40,
+  "yetim_makale": 30,
+  "yetim_kategori": 21,
+  "yetim": 51,
+  "makalesiz_kategori": 37,
   "sitemap_linksiz": [],
   "uc_tik_disi": [],
   "gsc_dosyasi": true,
@@ -15,13 +15,73 @@
  },
  "yetimler": [
   {
+   "yol": "/kategori/bahce-bitki/bahcecilik/",
+   "tur": "kategori",
+   "baslik": "Bahçecilik",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "bahcecilik",
+   "govde_gelen": 0,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/kategori/koleksiyon/",
+   "tur": "kategori",
+   "baslik": "Koleksiyon",
+   "kategori": "koleksiyon",
+   "alt_kategori": "",
+   "govde_gelen": 0,
+   "toplam_gelen": 162,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/kategori/yazi-edebiyat/",
+   "tur": "kategori",
+   "baslik": "Yazı & Edebiyat",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "",
+   "govde_gelen": 0,
+   "toplam_gelen": 162,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/kategori/yazi-edebiyat/okuma/",
+   "tur": "kategori",
+   "baslik": "Okuma & Kitap Kulübü",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "okuma",
+   "govde_gelen": 0,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Kitabı (9 Kasım 2026)",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "okuma",
+   "govde_gelen": 0,
+   "toplam_gelen": 162,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
    "yol": "/makale/dj-produksiyon-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
    "tur": "makale",
    "baslik": "DJ & Prodüksiyon Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
    "kategori": "muzik",
    "alt_kategori": "dj-produksiyon",
    "govde_gelen": 0,
-   "toplam_gelen": 158,
+   "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -33,7 +93,7 @@
    "kategori": "muzik",
    "alt_kategori": "dj-produksiyon",
    "govde_gelen": 0,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -47,6 +107,42 @@
    "govde_gelen": 0,
    "toplam_gelen": 3,
    "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/en-cok-satan-bahce-alet-2026-w46/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Bahçe Aleti (9 Kasım 2026)",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "bahcecilik",
+   "govde_gelen": 0,
+   "toplam_gelen": 162,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/en-cok-satan-el-isi-2026-w46/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Sanat ve El İşi Ürünü (9 Kasım 2026)",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "resim-boyama",
+   "govde_gelen": 0,
+   "toplam_gelen": 162,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/en-cok-satan-kutu-oyun-2026-w46/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Kutu Oyunu (9 Kasım 2026)",
+   "kategori": "koleksiyon",
+   "alt_kategori": "masaustu-oyun",
+   "govde_gelen": 0,
+   "toplam_gelen": 162,
+   "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -69,7 +165,7 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "orgu-tig",
    "govde_gelen": 0,
-   "toplam_gelen": 9,
+   "toplam_gelen": 10,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -93,7 +189,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 0,
-   "toplam_gelen": 8,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -140,6 +236,18 @@
    "baslik": "Teknoloji Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
    "kategori": "teknoloji",
    "alt_kategori": "",
+   "govde_gelen": 0,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/yilbasi-hediyesi-kutu-oyunlari/",
+   "tur": "makale",
+   "baslik": "Yılbaşı Hediyesi Kutu Oyunları: Kime Hangi Oyun? (2026)",
+   "kategori": "koleksiyon",
+   "alt_kategori": "masaustu-oyun",
    "govde_gelen": 0,
    "toplam_gelen": 7,
    "tik": 2,
@@ -203,6 +311,20 @@
    ]
   },
   {
+   "yol": "/kategori/koleksiyon/masaustu-oyun/",
+   "tur": "kategori",
+   "baslik": "Masaüstü & Minyatür Oyunlar",
+   "kategori": "koleksiyon",
+   "alt_kategori": "masaustu-oyun",
+   "govde_gelen": 1,
+   "toplam_gelen": 11,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/en-iyi-kutu-oyunlari-2026/"
+   ]
+  },
+  {
    "yol": "/kategori/koleksiyon/puzzle/",
    "tur": "kategori",
    "baslik": "Puzzle",
@@ -237,7 +359,7 @@
    "kategori": "sanat",
    "alt_kategori": "",
    "govde_gelen": 1,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -434,7 +556,7 @@
    "alt_kategori": "bonsai",
    "govde_gelen": 1,
    "toplam_gelen": 6,
-   "tik": 1,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/bonsai-nasil-toprak-sever/"
@@ -531,8 +653,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "toplam_gelen": 158,
-   "tik": 1,
+   "toplam_gelen": 8,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
@@ -545,8 +667,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "toplam_gelen": 158,
-   "tik": 1,
+   "toplam_gelen": 8,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
@@ -559,8 +681,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "diamond-painting",
    "govde_gelen": 1,
-   "toplam_gelen": 10,
-   "tik": 1,
+   "toplam_gelen": 7,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/diamond-painting-nedir-nasil-yapilir/"
@@ -702,13 +824,6 @@
    "tik": 2
   },
   {
-   "yol": "/kategori/bahce-bitki/bahcecilik/",
-   "baslik": "Bahçecilik",
-   "govde_gelen": 0,
-   "toplam_gelen": 4,
-   "tik": 2
-  },
-  {
    "yol": "/kategori/bahce-bitki/ev-bitkileri/",
    "baslik": "Ev Bitkileri",
    "govde_gelen": 1,
@@ -747,7 +862,7 @@
    "yol": "/kategori/seyahat-gezi/",
    "baslik": "Seyahat & Gezi",
    "govde_gelen": 0,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1
   },
   {
@@ -782,7 +897,7 @@
    "yol": "/kategori/yazilim-kodlama/",
    "baslik": "Yazılım & Kodlama",
    "govde_gelen": 0,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1
   },
   {
@@ -814,13 +929,6 @@
    "tik": 2
   },
   {
-   "yol": "/kategori/yazi-edebiyat/",
-   "baslik": "Yazı & Edebiyat",
-   "govde_gelen": 0,
-   "toplam_gelen": 158,
-   "tik": 1
-  },
-  {
    "yol": "/kategori/yazi-edebiyat/yazarlik/",
    "baslik": "Yazarlık",
    "govde_gelen": 0,
@@ -840,13 +948,6 @@
    "govde_gelen": 0,
    "toplam_gelen": 4,
    "tik": 2
-  },
-  {
-   "yol": "/kategori/yazi-edebiyat/okuma/",
-   "baslik": "Okuma & Kitap Kulübü",
-   "govde_gelen": 0,
-   "toplam_gelen": 4,
-   "tik": 2
   }
  ],
  "sayfalar": [
@@ -856,16 +957,15 @@
    "baslik": "2 Kişilik Kutu Oyunları: Türkiye'de Satılan Kutular",
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
-   "govde_gelen": 4,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "govde_gelen": 3,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/aile-kutu-oyunlari/",
     "/makale/en-iyi-kutu-oyunlari-2026/",
-    "/makale/evde-yapilacak-hobiler/",
-    "/makale/yilbasi-hediyesi-kutu-oyunlari/"
+    "/makale/evde-yapilacak-hobiler/"
    ],
    "makale_sayisi": null
   },
@@ -893,8 +993,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 4,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -945,8 +1045,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 2,
-   "icerik_gelen": 12,
-   "toplam_gelen": 12,
+   "icerik_gelen": 13,
+   "toplam_gelen": 13,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -962,14 +1062,28 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 2,
-   "icerik_gelen": 15,
-   "toplam_gelen": 158,
+   "icerik_gelen": 17,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
     "/makale/en-iyi-bonsai-ekipmanlari-2026-alim-rehberi/"
    ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Kitabı (9 Kasım 2026)",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "okuma",
+   "govde_gelen": 0,
+   "icerik_gelen": 7,
+   "toplam_gelen": 162,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
    "makale_sayisi": null
   },
   {
@@ -1012,8 +1126,8 @@
    "kategori": "muzik",
    "alt_kategori": "dj-produksiyon",
    "govde_gelen": 2,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 10,
+   "toplam_gelen": 10,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1030,7 +1144,7 @@
    "alt_kategori": "dj-produksiyon",
    "govde_gelen": 0,
    "icerik_gelen": 9,
-   "toplam_gelen": 158,
+   "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1043,8 +1157,8 @@
    "kategori": "muzik",
    "alt_kategori": "dj-produksiyon",
    "govde_gelen": 0,
-   "icerik_gelen": 15,
-   "toplam_gelen": 158,
+   "icerik_gelen": 11,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1057,9 +1171,9 @@
    "kategori": "muzik",
    "alt_kategori": "dj-produksiyon",
    "govde_gelen": 2,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
-   "tik": 1,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/dj-kontrol-cihazi-secimi-yeni-baslayanlar/",
@@ -1148,14 +1262,56 @@
    "makale_sayisi": null
   },
   {
+   "yol": "/makale/en-cok-satan-bahce-alet-2026-w46/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Bahçe Aleti (9 Kasım 2026)",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "bahcecilik",
+   "govde_gelen": 0,
+   "icerik_gelen": 8,
+   "toplam_gelen": 162,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/en-cok-satan-el-isi-2026-w46/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Sanat ve El İşi Ürünü (9 Kasım 2026)",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "resim-boyama",
+   "govde_gelen": 0,
+   "icerik_gelen": 11,
+   "toplam_gelen": 162,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/en-cok-satan-kutu-oyun-2026-w46/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Kutu Oyunu (9 Kasım 2026)",
+   "kategori": "koleksiyon",
+   "alt_kategori": "masaustu-oyun",
+   "govde_gelen": 0,
+   "icerik_gelen": 9,
+   "toplam_gelen": 162,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
    "yol": "/makale/en-iyi-akvaryum-balik-ekipmanlari-2026-alim-rehberi/",
    "tur": "makale",
    "baslik": "En İyi Akvaryum & Balık Ekipmanları (2026): Alım Rehberi",
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 2,
-   "icerik_gelen": 10,
-   "toplam_gelen": 158,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1173,7 +1329,7 @@
    "govde_gelen": 1,
    "icerik_gelen": 6,
    "toplam_gelen": 6,
-   "tik": 1,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/bonsai-nasil-toprak-sever/"
@@ -1219,7 +1375,7 @@
    "baslik": "En İyi Kutu Oyunları 2026: Türkiye'de Satılanlar",
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
-   "govde_gelen": 4,
+   "govde_gelen": 5,
    "icerik_gelen": 8,
    "toplam_gelen": 8,
    "tik": 2,
@@ -1228,7 +1384,8 @@
     "/makale/2-kisilik-kutu-oyunlari/",
     "/makale/aile-kutu-oyunlari/",
     "/makale/evde-yapilacak-hobiler/",
-    "/makale/puzzle-aksesuarlari-masa-yapistirici-cerceve/"
+    "/makale/puzzle-aksesuarlari-masa-yapistirici-cerceve/",
+    "/makale/yilbasi-hediyesi-kutu-oyunlari/"
    ],
    "makale_sayisi": null
   },
@@ -1361,8 +1518,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "orgu-tig",
    "govde_gelen": 2,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1458,8 +1615,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "orgu-tig",
    "govde_gelen": 0,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 10,
+   "toplam_gelen": 10,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1621,9 +1778,9 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "icerik_gelen": 9,
-   "toplam_gelen": 158,
-   "tik": 1,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
@@ -1637,9 +1794,9 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "icerik_gelen": 9,
-   "toplam_gelen": 158,
-   "tik": 1,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
@@ -1653,8 +1810,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 0,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1860,9 +2017,9 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "diamond-painting",
    "govde_gelen": 1,
-   "icerik_gelen": 10,
-   "toplam_gelen": 10,
-   "tik": 1,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/diamond-painting-nedir-nasil-yapilir/"
@@ -1875,15 +2032,12 @@
    "baslik": "Yılbaşı Hediyesi Kutu Oyunları: Kime Hangi Oyun? (2026)",
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
-   "govde_gelen": 2,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
+   "govde_gelen": 0,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/2-kisilik-kutu-oyunlari/",
-    "/makale/aile-kutu-oyunlari/"
-   ],
+   "govde_kaynaklar": [],
    "makale_sayisi": null
   },
   {
@@ -1911,7 +2065,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2002,15 +2156,15 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "",
    "govde_gelen": 2,
-   "icerik_gelen": 9,
-   "toplam_gelen": 158,
+   "icerik_gelen": 10,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/evde-el-sanatlari-hobileri/",
     "/makale/orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026/"
    ],
-   "makale_sayisi": 7
+   "makale_sayisi": 8
   },
   {
    "yol": "/kategori/el-sanatlari/orgu-tig/",
@@ -2068,8 +2222,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "resim-boyama",
    "govde_gelen": 4,
-   "icerik_gelen": 11,
-   "toplam_gelen": 11,
+   "icerik_gelen": 12,
+   "toplam_gelen": 12,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2078,7 +2232,7 @@
     "/makale/evde-yapilacak-hobiler/",
     "/makale/yetiskin-hobi-setleri/"
    ],
-   "makale_sayisi": 0
+   "makale_sayisi": 1
   },
   {
    "yol": "/kategori/el-sanatlari/mum-sabun/",
@@ -2138,7 +2292,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 13,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2231,7 +2385,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 14,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2327,16 +2481,13 @@
    "baslik": "Koleksiyon",
    "kategori": "koleksiyon",
    "alt_kategori": "",
-   "govde_gelen": 2,
-   "icerik_gelen": 12,
-   "toplam_gelen": 158,
+   "govde_gelen": 0,
+   "icerik_gelen": 13,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/2-kisilik-kutu-oyunlari/",
-    "/makale/en-iyi-kutu-oyunlari-2026/"
-   ],
-   "makale_sayisi": 10
+   "govde_kaynaklar": [],
+   "makale_sayisi": 11
   },
   {
    "yol": "/kategori/koleksiyon/pul-para/",
@@ -2419,18 +2570,15 @@
    "baslik": "Masaüstü & Minyatür Oyunlar",
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
-   "govde_gelen": 4,
-   "icerik_gelen": 10,
-   "toplam_gelen": 10,
+   "govde_gelen": 1,
+   "icerik_gelen": 11,
+   "toplam_gelen": 11,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
-    "/makale/2-kisilik-kutu-oyunlari/",
-    "/makale/aile-kutu-oyunlari/",
-    "/makale/en-iyi-kutu-oyunlari-2026/",
-    "/makale/yilbasi-hediyesi-kutu-oyunlari/"
+    "/makale/en-iyi-kutu-oyunlari-2026/"
    ],
-   "makale_sayisi": 4
+   "makale_sayisi": 5
   },
   {
    "yol": "/kategori/spor-fitness/",
@@ -2440,7 +2588,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2561,7 +2709,7 @@
    "alt_kategori": "",
    "govde_gelen": 1,
    "icerik_gelen": 3,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2653,7 +2801,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 8,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2734,15 +2882,15 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "",
    "govde_gelen": 2,
-   "icerik_gelen": 5,
-   "toplam_gelen": 158,
+   "icerik_gelen": 6,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
     "/makale/bonsai-nasil-toprak-sever/"
    ],
-   "makale_sayisi": 3
+   "makale_sayisi": 4
   },
   {
    "yol": "/kategori/bahce-bitki/bahcecilik/",
@@ -2751,12 +2899,12 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bahcecilik",
    "govde_gelen": 0,
-   "icerik_gelen": 4,
-   "toplam_gelen": 4,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
-   "makale_sayisi": 0
+   "makale_sayisi": 1
   },
   {
    "yol": "/kategori/bahce-bitki/ev-bitkileri/",
@@ -2813,7 +2961,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 8,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2895,7 +3043,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 4,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2972,7 +3120,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3042,7 +3190,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 158,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3111,12 +3259,12 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "",
    "govde_gelen": 0,
-   "icerik_gelen": 1,
-   "toplam_gelen": 158,
+   "icerik_gelen": 3,
+   "toplam_gelen": 162,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
-   "makale_sayisi": 0
+   "makale_sayisi": 1
   },
   {
    "yol": "/kategori/yazi-edebiyat/yazarlik/",
@@ -3167,12 +3315,12 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
-   "icerik_gelen": 4,
-   "toplam_gelen": 4,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
-   "makale_sayisi": 0
+   "makale_sayisi": 1
   }
  ]
 }

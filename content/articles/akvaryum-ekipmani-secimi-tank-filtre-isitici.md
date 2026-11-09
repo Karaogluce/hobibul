@@ -21,9 +21,9 @@ Hacme uygun filtre seçimi suyun berrak kalmasını sağlarken, sabit sıcaklık
 
 ## Yeni Başlayanlar İçin Temel Ekipman Seçimi
 
-Sıfırdan bir düzen kuruyorsan parçaları tek tek aramak yerine birbiriyle test edilmiş hazır setlere yönelmek işini hızlandırır. 54 litre cam tankı, iç filtresi, ısıtıcısı, gündüz/gece LED aydınlatması, balık yemi ve su hazırlama ürünüyle gelen [Satın Al: Tetra Starter Line LED 54 L Akvaryum Komple Set](aff://aqueon-akvaryum-tanki), ilk kurulumda uyum sorunlarıyla uğraşmak istemeyenler için pratik bir pakettir. Paketteki iç filtre başlangıçta yeterli gelse de canlı yükünü artırdığında yetersiz kalabilir ve ileride daha güçlü bir filtrasyona geçmen gerekebilir. Ayrıca yalnızca boş bir cam tank alıp sistemi kendi toplayacak olanlara göre daha yüksek bir ilk satın alma bütçesi çıkarır.
+Sıfırdan bir düzen kuruyorsan parçaları tek tek aramak yerine birbiriyle test edilmiş hazır setlere yönelmek işini hızlandırır. 54 litre cam tankı, iç filtresi, ısıtıcısı, gündüz/gece LED aydınlatması, balık yemi ve su hazırlama ürünüyle gelen, ilk kurulumda uyum sorunlarıyla uğraşmak istemeyenler için pratik bir pakettir. Paketteki iç filtre başlangıçta yeterli gelse de canlı yükünü artırdığında yetersiz kalabilir ve ileride daha güçlü bir filtrasyona geçmen gerekebilir. Ayrıca yalnızca boş bir cam tank alıp sistemi kendi toplayacak olanlara göre daha yüksek bir ilk satın alma bütçesi çıkarır.
 
-Canlı sayın arttığında veya daha geniş hacimli bir akvaryuma geçtiğinde iç filtrelerin temizleme kapasitesi sınırda kalır. Küçük ve orta boy tanklarda mekanik ve biyolojik temizliği güçlendirmek istiyorsan, bakım sırasında pratiklik sağlayan ayrılabilir sepetlere sahip [Satın Al: Fluval 207 Performance Dış Filtre](aff://fluval-307-dis-filtre) modelini tercih edebilirsin. Çok kademeli filtrasyonu kompakt bir gövdede sunması büyük avantajdır, fakat dolap içinde hortum ve bağlantı kurulumu gerektirdiğini ve iç filtrelere kıyasla daha yüksek bir bütçe istediğini hesaba katmalısın.
+Canlı sayın arttığında veya daha geniş hacimli bir akvaryuma geçtiğinde iç filtrelerin temizleme kapasitesi sınırda kalır. Küçük ve orta boy tanklarda mekanik ve biyolojik temizliği güçlendirmek istiyorsan, bakım sırasında pratiklik sağlayan ayrılabilir sepetlere sahip modelini tercih edebilirsin. Çok kademeli filtrasyonu kompakt bir gövdede sunması büyük avantajdır, fakat dolap içinde hortum ve bağlantı kurulumu gerektirdiğini ve iç filtrelere kıyasla daha yüksek bir bütçe istediğini hesaba katmalısın.
 
 Tropikal türler besleyeceksen suyun ısısını sabit tutmak hayati önem taşır; çünkü ani sıcaklık değişimleri balıkların hastalanmasına yol açar. Bu noktada darbeye dayanıklı cam gövdesi ve hassas sıcaklık kontrolüyle [Satın Al: Eheim Jager Akvaryum Isıtıcısı](aff://eheim-jager-akvaryum-isiticisi) güvenilir bir çalışma sunar. Cam yüzeyinin sert çarpmalara karşı kırılgan olduğunu unutmamalı ve tank hacmine uygun watt değerini dikkatle seçmelisin. Suyu hareketlendirip oksijen seviyesini yükseltmek istediğinde ise kompakt yapısıyla öne çıkan [Satın Al: Tetra APS 150 Hava Pompası](aff://tetra-whisper-hava-pompasi) devreye girer. Bu pompayı çalıştırmak için hava hortumu, çekvalf ve hava taşını ayrıca kontrol edip temin etmen gerekir; ayrıca tankının hacmine uygun hava çıkışı sağladığından emin olmalısın.
 
@@ -70,3 +70,16 @@ Normal yapıştırıcılar ve silikonlar küflenmeyi önlemek için kimyasal kat
 
 ---
 Canlı yükünü ve tankının hacmini baştan hesaplayıp filtrasyonu bu dengeye göre kurarsan su değerlerin hızla oturur. Fazla masraftan kaçınmak ve canlı kaybı yaşamamak için acele etmeden, hacmine uygun ekipmanlarla sistemi çalıştırman yeterlidir.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Akvaryum filtresi için Amazon.com.tr sayfasında [VENUS AQUA Venusaqua Vs-410F Akvaryum Iç Filtresi 400 Lt/h 4W](https://www.amazon.com.tr/dp/B0DTF9YSB5?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Tetra HT 50 ısıtıcı, 25 – 60 L akvaryumlar için, sıcaklık ayar düğmesi ile farklı](https://www.amazon.com.tr/dp/B0DDXS3NWZ?tag=hobibulsite-21).
+
+Listenin devamında [VENUS AQUA Venusaqua Vs-410F Akvaryum Iç Filtresi 400 Lt/h 4W](https://www.amazon.com.tr/dp/B0DTF9YSB5?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->

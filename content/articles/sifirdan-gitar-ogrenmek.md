@@ -82,7 +82,7 @@ Gitarda teller zamanla elindeki ter ve nem yüzünden oksitlenir, sesi matlaşı
 * Sadece elektro gitar içindir, akustik gitara takarsan ses alamazsın.
 * İlk kez tel değiştireceksen, kilitli olmayan burgularda takması biraz pratik ister.
 
-[Satın Al: D'Addario EXL110 Tel Seti](aff://daddario-exl110)
+
 
 ### Snark ST-8 Kromatik Tuner
 
@@ -97,7 +97,7 @@ Gitarın akordu bozuksa ne kadar iyi çalarsan çal, kulağına gelen ses seni s
 * Pili bittiğinde yedek pil bulman gerekebilir (CR2032 kullanır).
 * Plastik yapısı çok sert darbelere karşı biraz hassas olabilir.
 
-[Satın Al: Snark ST-8 Kromatik Tuner](aff://snark-st8)
+
 
 ## Akustik mi Yoksa Elektro mu Almalısın?
 
@@ -135,3 +135,14 @@ Eğer tellerin rengi karardıysa, parmağını sürttüğünde pürüz hissediyo
 ## Kararını Ver ve Başla
 
 Gitar çalmak bir yerden sonra sadece bir hobi değil, kafa dağıtma aracına dönüşüyor. Yamaha F310 veya Fender Player Stratocaster gibi rüştünü ispatlamış modellerle yola çıkarsan, enstrümanın çıkardığı sorunlarla değil müzikle uğraşırsın. İhtiyacın olan seti kur, gitarını akort et ve o ilk akoru bas; sonrası zaten kendiliğinden gelecek.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Gitar için Amazon.com.tr sayfasında [Ibanez GRGR131EX-BKF GIO Stealth Serisi Elektrikli Gitar - Siyah Düz | Şık Tamamen](https://www.amazon.com.tr/dp/B08SJ4F268?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Blackstar IDCORE10V4 Combo Amplifikatör | Güç Azaltma ve 4 kanallı USB-C Çıkışlı Watt](https://www.amazon.com.tr/dp/B0CRZB9PF9?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->

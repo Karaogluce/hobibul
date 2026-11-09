@@ -35,11 +35,21 @@ Atölyede tasarladığın parçaları fiziksel modele dönüştürmek istediğin
 Havadan çekim yapmak ve çevre kaşifliğini bir üst seviyeye taşımak istiyorsan hafif gövdeli uçuş cihazları işini görür. DJI Mini 4K Drone, DJI markasının ürettiği 4K kameralı, 249g altı kompakt drone olarak öne çıkar. 4K kamera çözünürlüğü ve 249 gramın altında olması sayesinde lisans prosedürleriyle uğraşmadan uçuş yapmana olanak tanır ve kararlı uçuş özellikleriyle dikkat çeker. Ancak hafif yapısı rüzgarlı havalarda hassaslaşmasına neden olabilir ve pil süresi sınırlıdır. Açık havada çekimler yapmayı seviyorsan [Satın Al: DJI Mini 4K Drone](aff://dji-mini-4k) modeline göz atabilirsin.
 
 ### Arduino Uno R3 Mikrodenetleyici
-Elektronik devreler kurmak, sensörler bağlamak ve fiziksel programlamayı öğrenmek istiyorsan işe temelden başlamak mantıklı olacaktır. Arduino Uno R3 Mikrodenetleyici, Arduino markası tarafından kodlama ve elektronik projeleri için en yaygın kullanılan mikrodenetleyici kartı olarak sunulur. Geniş topluluk desteği, kolay kullanımı ve çok sayıda uyumlu sensör barındırması projelerini hayata geçirmeni kolaylaştırır. Fakat kartın üzerinde kablosuz bağlantı dahil değildir ve işlem gücü gelişmiş kartlara göre sınırlıdır. Basit otomasyon projeleri ve sensör denemeleri için [Satın Al: Arduino Uno R3 Mikrodenetleyici](aff://arduino-uno-r3) modelini tercih edebilirsin.
+Elektronik devreler kurmak, sensörler bağlamak ve fiziksel programlamayı öğrenmek istiyorsan işe temelden başlamak mantıklı olacaktır. Arduino Uno R3 Mikrodenetleyici, Arduino markası tarafından kodlama ve elektronik projeleri için en yaygın kullanılan mikrodenetleyici kartı olarak sunulur. Geniş topluluk desteği, kolay kullanımı ve çok sayıda uyumlu sensör barındırması projelerini hayata geçirmeni kolaylaştırır. Fakat kartın üzerinde kablosuz bağlantı dahil değildir ve işlem gücü gelişmiş kartlara göre sınırlıdır. Basit otomasyon projeleri ve sensör denemeleri için modelini tercih edebilirsin.
 
 ## Hangisini Seçmeli?
 
 Eğer temel elektronik devreler kurup sensörlerle çalışmak istiyorsan Arduino Uno R3 senin için en doğru başlangıç noktasıdır. Daha karmaşık yazılım projeleri, sunucu yönetimi veya masaüstü kullanımına benzer bir deneyim arıyorsan Raspberry Pi 5 (8GB) tercih etmelisin. Tasarımlarını somut nesnelere dönüştürmek ve kendi plastik parçalarını basmak istiyorsan Creality Ender 3 V3 3D Yazıcı işini görecektir. Havadan görüntüler almak ve dış mekan çekimleri yapmak istiyorsan DJI Mini 4K Drone modeline yönelmelisin.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Arduino için Amazon.com.tr sayfasında [Arduino Tabanlı UNO R3 Geliştirme Kartı (CH340)](https://www.amazon.com.tr/dp/B08YDLWQYP?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->
+
 
 ## Sık Sorulan Sorular
 
@@ -56,3 +66,4 @@ DJI Mini 4K Drone modeli 249 gramın altında olduğu için lisans zorunluluğu 
 Geniş topluluk desteği ve kolay kullanımı ile Arduino Uno R3 Mikrodenetleyici elektronik öğrenmek için idealdir.
 
 İhtiyacın olan donanımı belirledikten sonra projelerine başlamak için güncel stokları ve detayları Amazon üzerinden kontrol edebilirsin.
+

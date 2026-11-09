@@ -616,7 +616,7 @@ def _oyun_listesi_satiri(brief):
             f"satın al: [Satın Al: {g.get('ad')}]({g.get('url')}) | {g.get('ozet')}"
         )
     satirlar.append(
-        "Satın alma linki yukarıdaki Neo Troy ürün sayfası olsun. aff:// ve Amazon arama linki yazma. "
+        "Satın alma linki kayıttaki Amazon.com.tr /dp/ adresidir. Başka mağaza ve arama linki yazma. "
         "rel elle yazma; build nofollow ekler."
     )
     return "\n".join(satirlar)

@@ -57,7 +57,7 @@ Tığ işinde en büyük sorun, uzun süre örgü yaptıktan sonra elin ve bile�
 - Tek başına satıldığı için farklı boyutlara ihtiyacın olduğunda maliyetli olabilir.
 - Ucuz, basit tığlara göre fiyatı daha yüksektir.
 
-[Satın Al: Clover Amour Tığ (5mm)](aff://clover-amour-hook)
+
 
 ### Lion Brand Vanna's Choice İplik
 
@@ -72,7 +72,7 @@ Tığ işinde en büyük sorun, uzun süre örgü yaptıktan sonra elin ve bile�
 - Tamamen doğal bir yün sıcaklığı beklememelisin.
 - Çok ince ve zarif detay isteyen projeler için kaba kalabilir.
 
-[Satın Al: Lion Brand Vanna's Choice İplik](aff://lion-brand-yarn)
+
 
 ### Darice Boncuk Seti
 
@@ -86,7 +86,7 @@ Takı yapmaya niyetlendiğinde hangi boncuğu alacağına karar vermek zordur. B
 - Boyutlar karışık olduğu için bazen aradığın parçayı seçmen gerekebilir.
 - Delik çapları her zaman standart olmayabilir.
 
-[Satın Al: Darice Boncuk Seti](aff://darice-bead-set)
+
 
 ### Takı Pense Seti
 
@@ -100,7 +100,7 @@ Takı tasarımının olmazsa olmazı iyi bir pensedir. Bu setin içindeki yuvarl
 - Çok kalın ve sert metallerle çalışırken yetersiz kalabilir.
 - İlk kez kullananların penseyi doğru açıyla tutmaya alışması biraz vakit alır.
 
-[Satın Al: Takı Pense Seti](aff://jewelry-pliers)
+
 
 ### Dremel 3000 Döner Alet
 
@@ -114,7 +114,7 @@ Eğer ahşap işlerine veya gravüre meraklıysan, Dremel senin için adeta bir 
 - Diğer el aletlerine göre başlangıç maliyeti biraz daha fazladır.
 - Çalışırken toz çıkardığı için maske ve gözlük kullanman şarttır.
 
-[Satın Al: Dremel 3000 Döner Alet](aff://dremel-3000)
+
 
 ### Liquitex Akrilik Boya Seti
 
@@ -142,7 +142,7 @@ Resme başlarken boyanın kalitesi motivasyonunu doğrudan etkiler. Liquitex, pi
 - Kullanım sonrası iyi temizlenmezse kıllar sertleşip formunu kaybedebilir.
 - Profesyonel tekli fırçalar kadar spesifik uçlar içermez.
 
-[Satın Al: Princeton Fırça Seti](aff://princeton-brushes)
+
 
 ### Winsor & Newton Cotman Sulu Boya
 
@@ -170,9 +170,30 @@ Eğer hemen bir şeyler ortaya çıksın istiyorsan örgü veya quilling ile ba�
 
 Yeni bir hobiye başlarken kendine karşı sabırlı olman gerekiyor. İşte işleri kolaylaştıracak birkaç öneri:
 
-*   **Küçük projelerle başla:** Hemen dev bir battaniye örmeye kalkarsan yarım kalma ihtimali yüksek. Önce bir bardak altlığı ya da küçük bir anahtarlık yapıp bitirmenin tadına var.
-*   **Hataları sev:** İlk boyaman kusursuz olmayacak, ilk takın belki kopacak. Bunlar öğrenme sürecinin bir parçası, her hatada elin biraz daha alışacak.
-*   **Düzenli vakit ayır:** Haftada bir gün saatlerce uğraşmak yerine, her gün 15-20 dakika bile olsa zaman ayırmak kas hafızanı ve yaratıcılığını daha hızlı geliştirir.
-*   **Malzemelerini hazır tut:** Hobine ait malzemeleri tek bir kutuda toplu tutarsan, canın istediğinde hemen başlayabilirsin. Aramakla vakit kaybetmek motivasyonu düşürür.
+* **Küçük projelerle başla:** Hemen dev bir battaniye örmeye kalkarsan yarım kalma ihtimali yüksek. Önce bir bardak altlığı ya da küçük bir anahtarlık yapıp bitirmenin tadına var.
+* **Hataları sev:** İlk boyaman kusursuz olmayacak, ilk takın belki kopacak. Bunlar öğrenme sürecinin bir parçası, her hatada elin biraz daha alışacak.
+* **Düzenli vakit ayır:** Haftada bir gün saatlerce uğraşmak yerine, her gün 15-20 dakika bile olsa zaman ayırmak kas hafızanı ve yaratıcılığını daha hızlı geliştirir.
+* **Malzemelerini hazır tut:** Hobine ait malzemeleri tek bir kutuda toplu tutarsan, canın istediğinde hemen başlayabilirsin. Aramakla vakit kaybetmek motivasyonu düşürür.
 
 Hangi yolu seçersen seç, ellerin çalışmaya başladığında zihninin sessizleştiğini göreceksin. Bugün kendine bir malzeme seç ve sadece başla; üretmenin verdiği o eşsiz tatmine ulaştığında neden daha önce başlamadığını düşünebilirsin.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Örgü tığı için Amazon.com.tr sayfasında [11'li Silikon Saplı Tığ Seti - Taşıma Çantalı Tığ Seti - Örgü Amigurumi Hobi Seti](https://www.amazon.com.tr/dp/B0HJH4932Z?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Rich 12'Li 60 Cc Master-Mix Akrilik Set](https://www.amazon.com.tr/dp/B08BZSWNVK?tag=hobibulsite-21).
+
+Listenin devamında [Kargaburun Yuvarlak-Düz-Yan Keski Takı Pense Seti MX-14](https://www.amazon.com.tr/dp/B0GHJ94TXF?tag=hobibulsite-21) var.
+
+Diamond painting için Amazon.com.tr sayfasında [Bardak Temalı Elmas Boyama Seti Bardak Altlığı](https://www.amazon.com.tr/dp/B0H778QSD5?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Hannah 12 parça Boya Fırçası Seti, Çocuklar, Yetişkinler, Yeni Başlayanlar ve](https://www.amazon.com.tr/dp/B0D2P99WMN?tag=hobibulsite-21).
+
+Listenin devamında [ulutaş & sanat Şövale Ahşap Resim Sehpası](https://www.amazon.com.tr/dp/B09KXTGMDR?tag=hobibulsite-21) var.
+
+Örgü tığı için Amazon.com.tr sayfasında [11'li Silikon Saplı Tığ Seti - Taşıma Çantalı Tığ Seti - Örgü Amigurumi Hobi Seti](https://www.amazon.com.tr/dp/B0HJH4932Z?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->

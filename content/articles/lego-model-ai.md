@@ -30,21 +30,21 @@ Koleksiyonuna yeni bir soluk getirmek veya [yetişkin LEGO setleri](/makale/en-i
 
 ### LEGO Botanicals Mini Bonsai Ağaçları 10373
 Üç farklı minyatür ağacı tek kutuda buluşturan bu set; sarı yapraklı mabet ağacı, karaçam ve mor salkım gibi detaylarıyla dikkat çeker. Kutu içinden çıkan iki ayrı stand sayesinde bu ağaçları farklı şekillerde sergileyebilir ve yapraklarını dilediğiniz gibi karıştırabilirsiniz.
-*   **Artıları:** Üç ağaç bir sette yer alır, yapraklar değişebilir ve kutudan iki stand çıkar.
-*   **Eksileri:** Tek büyük bonsai modeli arayanlara veya canlı bitki beklentisi olanlara hitap etmez.
-*   **Kime uymaz:** Tek parça halinde devasa bir bonsai modeli arayanlara veya canlı bitki bakma hissiyatı bekleyenlere uygun değildir.
+* **Artıları:** Üç ağaç bir sette yer alır, yapraklar değişebilir ve kutudan iki stand çıkar.
+* **Eksileri:** Tek büyük bonsai modeli arayanlara veya canlı bitki beklentisi olanlara hitap etmez.
+* **Kime uymaz:** Tek parça halinde devasa bir bonsai modeli arayanlara veya canlı bitki bakma hissiyatı bekleyenlere uygun değildir.
 
 ### LEGO Botanicals Sukulentler 10309
 Bitki merakını plastik tuğlalarla birleştiren bu model, dokuz farklı sukulenti ayrı ayrı veya bir arada sergilemenize olanak tanır. İçinden çıkan üç ayrı yapım kitapçığı sayesinde modeli farklı aşamalarla tamamlayabilirsiniz.
-*   **Artıları:** Dokuz bitki içerir, ayrı ayrı sergilenebilir ve üç kitapçıkla gelir.
-*   **Eksileri:** Su istemez ancak canlı sukulent de değildir ve parça sayısı bu maddelerde yer almaz.
-*   **Kime uymaz:** Canlı sukulent dokusu arayanlar ve setin parça sayısını kutu dışındayken tam olarak bilmek isteyenler için beklentileri karşılamayabilir.
+* **Artıları:** Dokuz bitki içerir, ayrı ayrı sergilenebilir ve üç kitapçıkla gelir.
+* **Eksileri:** Su istemez ancak canlı sukulent de değildir ve parça sayısı bu maddelerde yer almaz.
+* **Kime uymaz:** Canlı sukulent dokusu arayanlar ve setin parça sayısını kutu dışındayken tam olarak bilmek isteyenler için beklentileri karşılamayabilir.
 
 ### LEGO Speed Champions Toyota Supra MK4 77260
 Film kültürünü tuğla dünyasıyla buluşturan bu araç seti, Brian O'Conner minifigürü ve ikonik arka kanat detaylarıyla vitrinleri süsler. Nuclear Gladiator grafikleri ve dört krom görünümlü jantıyla raf sergilemeleri için öne çıkan bir tasarıma sahiptir.
-*   **Artıları:** Film arabası ve minifigür içerir, sergilemeye uygundur ve arka kanada sahiptir.
-*   **Eksileri:** On yaş altı için uygun değildir ve sürülür oyuncak araba değildir.
-*   **Kime uymaz:** On yaş altındaki çocuklar için zorlayıcı olabilir veya evde sürülebilir oyuncak araba arayan küçük yaş grubuna hitap etmez.
+* **Artıları:** Film arabası ve minifigür içerir, sergilemeye uygundur ve arka kanada sahiptir.
+* **Eksileri:** On yaş altı için uygun değildir ve sürülür oyuncak araba değildir.
+* **Kime uymaz:** On yaş altındaki çocuklar için zorlayıcı olabilir veya evde sürülebilir oyuncak araba arayan küçük yaş grubuna hitap etmez.
 
 ## Bütçe, Orta ve Üst Paket
 

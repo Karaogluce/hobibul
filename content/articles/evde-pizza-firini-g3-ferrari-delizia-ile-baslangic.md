@@ -36,7 +36,7 @@ Cihaz kompakt bir yapıda, yani mutfağında devasa bir yer ayırmana gerek yok.
 - Net bir pişirme süresi (dakika) belirtilmemiş.
 - Ekmek pişirmek için uygun bir programı yok.
 
-[Satın Al: G3 Ferrari Delizia](aff://g3ferrari-delizia)
+
 
 ## Ekmek ve Hamur Hazırlığı İçin Doğru Araçlar
 
@@ -54,7 +54,7 @@ Daha hafif bir şeyler arıyorsan veya sadece tepside bir şeyler pişireceksen 
 - Le Creuset oldukça ağır ve maliyetli bir tercih.
 - Mikser sadece hazırlık yapar, pişirme işi için hala bir fırına ihtiyacın var.
 
-[Satın Al: Le Creuset Döküm Tencere](aff://le-creuset-dokum-tencere)
+
 
 [Satın Al: KitchenAid Artisan](aff://kitchenaid-artisan-mikser)
 
@@ -63,6 +63,22 @@ Daha hafif bir şeyler arıyorsan veya sadece tepside bir şeyler pişireceksen 
 Pizzayı ilk kez deneyeceksen hamuru mutlaka ince açmaya çalış. Delizia'nın taş tabanı ince hamurda en iyi performansı verir. Eğer malzemeyi çok sulu tutarsan veya hamuru çok kalın bırakırsan, taşın çıtırlaştırma etkisi azalabilir. Ayrıca cihazın kapağını sürekli açıp kapatma; her açışında içerideki o değerli 400°C ısı dışarı kaçar.
 
 Temizlik konusunda da dikkatli olmalısın. Taşın üzerine dökülen unlar zamanla yanıp leke bırakabilir. Sıcak taşa asla soğuk su sürme, bu taşın çatlamasına neden olabilir. Soğumasını bekle ve kuru bir fırçayla temizle. Kahve keyfini [Filtre kahve seti](/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/) ile tamamlayabilir, et işlerini ise [mangal seti](/makale/mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar/) tarafına bırakabilirsin. Hamur işlerine dair daha fazla bilgi için [ekmek ve pasta](/kategori/yemek-mutfak/ekmek-pasta/) kategorimize de göz atabilirsin.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Pizza fırını için Amazon.com.tr sayfasında [Karaca Gastro 10 in 1 Pizza Pide Lahmacun ve Tandır Ekmeği Makinesi Biodiamond Matte](https://www.amazon.com.tr/dp/B0C27P4D9P?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Lava Döküm Yuvarlak Tencere, Trendy, 24 cm, 4.49 L Hacim, Kırmızı](https://www.amazon.com.tr/dp/B00DNG5D14?tag=hobibulsite-21).
+
+Listenin devamında [Karaca Gastro 10 in 1 Pizza Pide Lahmacun ve Tandır Ekmeği Makinesi Biodiamond Matte](https://www.amazon.com.tr/dp/B0C27P4D9P?tag=hobibulsite-21) var.
+
+Tencere için Amazon.com.tr sayfasında [Lava Döküm Yuvarlak Tencere, Trendy, 24 cm, 4.49 L Hacim, Kırmızı](https://www.amazon.com.tr/dp/B00DNG5D14?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->
+
 
 ## Sık Sorulan Sorular
 
@@ -81,8 +97,9 @@ Bütçene ve ne yapmak istediğine göre seçimini yapabilirsin.
 
 | Seçenek | Ürünler | Kimin İçin? |
 | --- | --- | --- |
-| Sadece Pizza | [Delizia](aff://g3ferrari-delizia) | Evde hızlı ve çıtır pizza, lahmacun yapmak isteyenler. |
+| Sadece Pizza | | Evde hızlı ve çıtır pizza, lahmacun yapmak isteyenler. |
 | Hazırlık + Pişirme | Delizia + [Artisan Mikser](aff://kitchenaid-artisan-mikser) | Hamur yoğurmakla uğraşmak istemeyen pizza tutkunları. |
-| Pizza + Ekmek | Delizia + [Le Creuset](aff://le-creuset-dokum-tencere) | Hem çıtır pizza hem de fırında gerçek ekmek yapmak isteyenler. |
+| Pizza + Ekmek | Delizia + | Hem çıtır pizza hem de fırında gerçek ekmek yapmak isteyenler. |
 
 Son tavsiyem; önce bir pizza fırınıyla başla, hamur işine iyice ısındıktan sonra mikser veya döküm tencere gibi eklemeleri yaparsın. Cihazı kullandıktan sonra iyice soğumasını beklemeden dolaba kaldırma. Unu taşın üzerinde değil, tezgahta kullanmaya özen göster.
+

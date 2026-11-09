@@ -56,7 +56,7 @@ Bu paket, "benim temel ihtiyacım sadece makine ve lens" diyenler için bir alte
 - Hafıza kartı ve çanta gibi temel aksesuarlar yok.
 - Ürün sayfasında detaylı teknik veri eksikliği var.
 
-[Satın Al: Canon EOS R100 Kit](aff://canon-eos-r100-kit)
+
 
 ## Sony A7 III: Sadece gövde, profesyonel hedef
 
@@ -75,7 +75,7 @@ Eurasia garantisiyle gelmesi büyük avantaj, gövdenin suya ve toza dayanıklı
 - Lens dahil değil, ayrıca alman gerekiyor.
 - Stok durumu belirsiz olabiliyor.
 
-[Satın Al: Sony A7 III Gövde](aff://sony-a7-iii-body)
+
 
 ## Diğer modeller ve yardımcı ekipmanlar
 
@@ -111,8 +111,21 @@ Her zaman değil. Eğer çok hızlı hareket eden nesneleri çekiyorsan, Full HD
 
 | Seçenek | Ne Sunuyor? | Kime Hitap Ediyor? |
 | --- | --- | --- |
-| [R100 Sade Kit](aff://canon-eos-r100-kit) | Lens ve Gövde | Kartı ve çantası önceden hazır olanlara. |
+| | Lens ve Gövde | Kartı ve çantası önceden hazır olanlara. |
 | [R100 Travel Kit](aff://canon-eos-r100-travel) | Lens, Çanta, 64GB Kart | "Hemen çekime başlamak istiyorum" diyenlere. |
-| [A7 III Gövde](aff://sony-a7-iii-body) | Sadece Profesyonel Gövde | Bütçesi olan ve lensi ayrıca seçecek olanlara. |
+| | Sadece Profesyonel Gövde | Bütçesi olan ve lensi ayrıca seçecek olanlara. |
 
 Eğer bu işe yeni giriyorsan, maceraya atılmadan **Canon EOS R100 Travel Kit** ile başlaman en güvenli yol olur. Her şeyi tek kutuda çözersin, teknik detaylarla boğulmak yerine fotoğraf çekmeye odaklanırsın. Elindeki kart dolduğunda ise fotoğrafları bilgisayara aktarmayı sakın unutma!
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Fotoğraf makinesi için Amazon.com.tr sayfasında [myFirst Camera 3 Çocuklar İçin Dijital Kamera | 16 MP Fotoğraf | Full HD Video | Selfie](https://www.amazon.com.tr/dp/B07XNPY9XJ?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [KOBB KBL16T 160CM Su Terazili Profesyonel Alüminyum Lazer Tripod](https://www.amazon.com.tr/dp/B098R4SJCN?tag=hobibulsite-21).
+
+Listenin devamında [myFirst Camera 3 Çocuklar İçin Dijital Kamera | 16 MP Fotoğraf | Full HD Video | Selfie](https://www.amazon.com.tr/dp/B07XNPY9XJ?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->

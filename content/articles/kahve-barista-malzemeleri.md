@@ -21,7 +21,7 @@ Sabah evde nitelikli bir fincan demlemek istediğinde, mutfak tezgahında doğru
 
 Sabahın erken saatlerinde hızlıca bir fincan hazırlamak istediğinde, tezgahın üzerinde karmaşa yaratmayan pratik araçlara ihtiyaç duyarsın. Kahve makinesi yerine elle demleme yöntemlerini denemek istiyorsan, sürecin kalbinde her zaman kaliteli bir öğütücü ve uygun bir dripper yer alır. Çekirdek kahve seçerken dikkat ettiğin kavurma derecesi, öğütme aşamasında doğrudan doğruya ekipmanın performansına etki eder; bu yüzden rastgele bir öğütücü yerine hassas kademeleri olan bir cihaz seçmek gerekir.
 
-Özellikle filtre kahve ve farklı demleme yöntemleri için 18 öğütme kademesi sunan kompakt elektrikli kahve öğütücü arayanlar için [Satın Al: De’Longhi Dedica KG 521.M Kahve Öğütücü](aff://baratza-encore-ogutucu) iyi bir alternatiftir. Bu cihazın porsiyon ayarı ve kompakt gövdesi tezgahta az yer kaplamasını sağlarken, fiyatı başlangıç el değirmenlerinden yüksek olduğu için bütçeni buna göre planlamalısın. Ayrıca öğütme kabı düzenli temizlik ister; bu detayı atlamamak cihazın ömrünü uzatır. Elle demleme tarafında ise temiz fincan sunan, spiral kanallı seramik filtre kahve demleyici olarak bilinen [Satın Al: Hario V60 Dripper](aff://hario-v60-dripper) tercih edilebilir. Uygun fiyatı ve kontrol imkânı sunmasıyla öne çıkan bu dripper, filtre kağıdı gerektirir ve tekniğe oldukça duyarlıdır; yani su döküş hızını kendin ayarlaman gerekir.
+Özellikle filtre kahve ve farklı demleme yöntemleri için 18 öğütme kademesi sunan kompakt elektrikli kahve öğütücü arayanlar için iyi bir alternatiftir. Bu cihazın porsiyon ayarı ve kompakt gövdesi tezgahta az yer kaplamasını sağlarken, fiyatı başlangıç el değirmenlerinden yüksek olduğu için bütçeni buna göre planlamalısın. Ayrıca öğütme kabı düzenli temizlik ister; bu detayı atlamamak cihazın ömrünü uzatır. Elle demleme tarafında ise temiz fincan sunan, spiral kanallı seramik filtre kahve demleyici olarak bilinen [Satın Al: Hario V60 Dripper](aff://hario-v60-dripper) tercih edilebilir. Uygun fiyatı ve kontrol imkânı sunmasıyla öne çıkan bu dripper, filtre kağıdı gerektirir ve tekniğe oldukça duyarlıdır; yani su döküş hızını kendin ayarlaman gerekir.
 
 ## Kontrol Listesi
 
@@ -36,6 +36,22 @@ Sabahın erken saatlerinde hızlıca bir fincan hazırlamak istediğinde, tezgah
 Hafta içi yoğun temposunda hızlıca kahve hazırlamak isteyenler ile hafta sonu demleme ritüeline uzun vakit ayıranlar aynı ekipman listesini kullanmak zorunda değildir. Evdeki kahve köşesi tasarımı da bu süreci etkiler; küçük bir kahve köşesi dolabı veya tezgah üstü alan, hangi cihazları ortalıkta bırakabileceğini belirler. Eğer kahve dünyası menü çeşitleri gibi sütlü içeceklerle ilgileniyorsan, sadece filtre kahve ekipmanları yetersiz kalabilir ve espresso odaklı ürünlere yönelmen gerekebilir. Deneyim seviyen arttıkça, kahve nasıl seçilir sorusunun cevabı da değişir ve daha spesifik çekirdekler ile ekipmanlara geçiş yaparsın.
 
 Mevsim geçişleri de demleme alışkanlıklarını doğrudan etkiler; örneğin yaz aylarında sıcak filtre kahve yerine soğuk demleme yöntemlerine ağırlık verebilirsin. Kapsül kahve nasıl seçilir diye merak ediyorsan, pratiklik odaklı günlerde manuel ekipmanlar yerine tek tuşla çalışan sistemlerin daha mantıklı geleceğini fark edersin. Filtre kahve nasıl seçilir sorusu ise tamamen damak zekatına ve asidite beklentine dayanır; orta gövdeli ve dengeli tatlar arıyorsan Brezilya veya Kolombiya kökenli çekirdekler işini görür. Deneyim seviyen henüz başlangıç aşamasındaysa, karmaşık reçetelerle uğraşmak yerine temel oranları öğreten sade bir setle yola çıkman daha uygundur.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Kahve öğütücü için Amazon.com.tr sayfasında [Sinbo SCM-2982 Elektrikli Kahve ve Baharat Öğütücü – 200W Motor, 2 Hazneli (4 + 2](https://www.amazon.com.tr/dp/B0DZ6S3GV5?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Hario V60 02 Dripper Filtresi (100 Adet)](https://www.amazon.com.tr/dp/B001U7EOYA?tag=hobibulsite-21).
+
+Listenin devamında [Sinbo SCM-2982 Elektrikli Kahve ve Baharat Öğütücü – 200W Motor, 2 Hazneli (4 + 2](https://www.amazon.com.tr/dp/B0DZ6S3GV5?tag=hobibulsite-21) var.
+
+V60 için Amazon.com.tr sayfasında [Hario V60 02 Dripper Filtresi (100 Adet)](https://www.amazon.com.tr/dp/B001U7EOYA?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->
+
 
 ## Sık Sorulan Sorular
 
@@ -55,3 +71,4 @@ Başlangıç için hangi ekipman yeterlidir?
 Basit bir manuel dripper, uygun bir öğütücü ve hassas tartı, evde nitelikli kahve demlemeyi öğrenmek için fazlasıyla yeterlidir.
 
 İhtiyacına uygun temel ekipmanları belirleyip bütçeni göz önünde bulundurarak yola çıkarsan kısa sürede en iyi sonucu elde edersin.
+

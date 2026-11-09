@@ -40,13 +40,25 @@ Cihazda bulunan stems ve Smart Fader özellikleri, parçaların vokallerini ve e
 
 ### Pioneer DJ DDJ-FLX2
 
-FLX serisinin en kompakt üyelerinden biri olan [Satın Al: Pioneer DJ DDJ-FLX2](aff://pioneer-ddj-flx2) modeli, AlphaTheta markası altında kullanıcılarla buluşur. Ayrıntılı kanal listesi olmasa da, FLX ailesinin pratik ve sade tasarım dilini korur. 
+FLX serisinin en kompakt üyelerinden biri olan modeli, AlphaTheta markası altında kullanıcılarla buluşur. Ayrıntılı kanal listesi olmasa da, FLX ailesinin pratik ve sade tasarım dilini korur. 
 
 Sayfayı açıp temel özelliklerine göz attığında, karmaşık detaylardan arındırılmış yalın bir kontrolcü görebilirsin. Özellik listesinin diğer büyük modellere kıyasla daha ince olması, bu cihazı özellikle en temel miks denemelerini yapmak isteyenler için cazip kılar.
 
 ## Hangisini Seçmeli?
 
 Eğer masanın üzerinde sağlam duran, kutudan çıktığı gibi popüler yazılımlarla tam uyumlu çalışan ve öğrenmesi son derece rahat bir model arıyorsan Pioneer DDJ-FLX4 senin için en doğru eşleşme olur. Sürekli seyahat ediyorsan, sırt çantan küçükse ve cihazın ağırlığı omzunu ağrıtmasın istiyorsan Numark MixTrack Go modelinin sunduğu hafif gövde ve akıllı geçiş özellikleri işini görür. Daha sade, temel ve AlphaTheta ekosisteminin en minimalist tatlarından biriyle yola devam etmek niyetindeysen Pioneer DJ DDJ-FLX2 seçeneğine göz atabilirsin.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Dj kontrol için Amazon.com.tr sayfasında [Pioneer DJ Pioneer DDJ-FLX4 Taşınabilir 2 Kanallı DJ Controller](https://www.amazon.com.tr/dp/B0BK25SY9G?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Pioneer DJ Pioneer DDJ-FLX4 Taşınabilir 2 Kanallı DJ Controller](https://www.amazon.com.tr/dp/B0BK25SY9G?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
 
 ## Sık Sorulan Sorular
 
@@ -64,3 +76,4 @@ Ekipmanı sık sık farklı mekanlara, provalara veya ev dışındaki buluşmala
 
 Güncel fiyat bilgisine nereden ulaşabilirim?
 Seçtiğiniz ürünün anlık stok durumunu ve güncel fiyatını Amazon.com.tr üzerinden inceleyebilirsiniz.
+

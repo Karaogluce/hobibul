@@ -33,7 +33,7 @@ El işi dünyası, evde vakit geçirmek isteyenler için sonsuz seçenek barınd
 
 Örgü örmek, yüzyıllardır popülaritesini kaybetmeyen, ilmek ilmek huzur veren klasik bir uğraştır. Başlangıçta [örgülü saç modelleri](https://hobibul.com.tr/makale/orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026/) gibi karmaşık detaylara girmeden düz bir atkı ya da [örgü bandana](https://hobibul.com.tr/makale/orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026/) ile başlamak en doğrusudur. 
 
-Bu noktada doğru ekipman seçimi işini çok kolaylaştırır. [Satın Al: Clover Amour Tığ (5mm)](aff://clover-amour-hook) yumuşak tutma sapı sayesinde uzun süreli çalışmalarda parmaklarını yormaz ve işini keyifle bitirmeni sağlar.
+Bu noktada doğru ekipman seçimi işini çok kolaylaştırır. yumuşak tutma sapı sayesinde uzun süreli çalışmalarda parmaklarını yormaz ve işini keyifle bitirmeni sağlar.
 
 ### Amigurumi
 
@@ -79,7 +79,7 @@ Yaşam alanını kendi zevkine göre dönüştürmek, hobi saatlerini çok daha 
 
 Doğal soğan balmumu veya parafin kullanarak evini mis kokulu mumlarla doldurabilirsin. Detaylar için [Mum ve Sabun Yapımı](/kategori/el-sanatlari/mum-sabun/) kategorimize göz atabilirsin. 
 
-Bu süreçte yumuşak dokulu malzemelerle çalışmak önemlidir. [Satın Al: Lion Brand Vanna's Choice İplik](aff://lion-brand-yarn) gibi çok amaçlı yumuşak iplikler, sadece örgüde değil dekoratif projelerde de sana eşlik eder.
+Bu süreçte yumuşak dokulu malzemelerle çalışmak önemlidir. gibi çok amaçlı yumuşak iplikler, sadece örgüde değil dekoratif projelerde de sana eşlik eder.
 
 ### Ev bitkileri ve teraryum
 
@@ -104,6 +104,26 @@ Hangi hobinin sana uygun olduğuna karar verirken bütçeni ve evdeki alanını 
 ## Hangi hobi sana göre?
 
 Yazılan tüm bu seçenekler arasından hangisini seçeceğini bilemiyorsan, acele etmeden önce küçük bir deneme yapmalısın. [Hangi hobi](/hangi-hobi/) rehberimiz üzerinden karakterine ve boş zaman miktarına uygun olan alanı kolayca bulabilirsin.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Örgü tığı için Amazon.com.tr sayfasında [11'li Silikon Saplı Tığ Seti - Taşıma Çantalı Tığ Seti - Örgü Amigurumi Hobi Seti](https://www.amazon.com.tr/dp/B0HJH4932Z?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Hello%100 Pamuk İp Seti – 12 x 25g Pastel Renk Yumak, Örgü, Tığ İşi, Amigurumi ve Punch](https://www.amazon.com.tr/dp/B0FSKX3FZR?tag=hobibulsite-21).
+
+Listenin devamında [Değiştirilebilir Uçlu Örgü Şiş Seti – Fermuarlı Taşıma Çantalı Şiş Seti - Misinalı Seti](https://www.amazon.com.tr/dp/B0HJ855KB2?tag=hobibulsite-21) var.
+
+Örgü tığı için Amazon.com.tr sayfasında [11'li Silikon Saplı Tığ Seti - Taşıma Çantalı Tığ Seti - Örgü Amigurumi Hobi Seti](https://www.amazon.com.tr/dp/B0HJH4932Z?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Hello%100 Pamuk İp Seti – 12 x 25g Pastel Renk Yumak, Örgü, Tığ İşi, Amigurumi ve Punch](https://www.amazon.com.tr/dp/B0FSKX3FZR?tag=hobibulsite-21).
+
+Listenin devamında [Değiştirilebilir Uçlu Örgü Şiş Seti – Fermuarlı Taşıma Çantalı Şiş Seti - Misinalı Seti](https://www.amazon.com.tr/dp/B0HJ855KB2?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->
+
 
 ## Sıkça Sorulan Sorular
 
@@ -140,7 +160,7 @@ Ergonomik tutamaklı alüminyum tığ.
 - Artılar: Çok konforlu; Pürüzsüz; Dayanıklı
 - Eksiler: Orta-üst fiyat; Tek numara
 - Kime umaz: Sadece arada bir tığ işi yapacak ve bütçesini minimumda tutmak isteyenler için tek numara oluşu ve fiyatı dezavantaj olabilir; çoklu set arayanlara uygun değildir.
-- [Satın Al: Clover Amour Tığ (5mm)](aff://clover-amour-hook)
+- 
 
 ### Lion Brand Vanna's Choice İplik
 Yumuşak, çok renkli akrilik örgü ipliği.
@@ -153,7 +173,7 @@ Farklı numaralarda alüminyum şiş seti.
 - Artılar: Çok numara; Uygun fiyat; Hafif
 - Eksiler: Uçları sivri; Tutamak kaygan
 - Kime umaz: Kaygan yüzeyli şişlerle örmekte zorlanan ve uzun saatler boyunca parmaklarında ekstra kavrama desteği arayan yeni başlayanlar için zorlayıcı olabilir.
-- [Satın Al: Boye Alüminyum Şiş Seti](aff://boye-needle-set)
+- 
 
 ## Sık Yapılan Hatalar
 

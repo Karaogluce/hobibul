@@ -40,7 +40,7 @@ Kime uymaz? Kalın gövdeleri tek hamlede kesecek profesyonel ve ağır iş alet
 - Karbon çelik nemli bırakılırsa paslanabilir.
 - Kalın gövde kesimleri için profesyonel ağır iş aletleri gerekir.
 
-[Satın Al: BestAlice 6 Parça Bonsai Alet Seti](aff://bonsai-alet-seti-10-parca)
+
 
 ## DZDSBB Alüminyum Bonsai Teli: Dallara Şekil Verme
 
@@ -57,7 +57,7 @@ Kime uymaz? Ağacın ana gövdesini veya çok sert, kalınlaşmış dallarını 
 - Kalın ve sert dalları tutmakta yetersiz kalır.
 - Renk seçeneği sınırlıdır.
 
-[Satın Al: Bonsai Alüminyum Teli](aff://bonsai-aluminyum-teli)
+
 
 ## Compo Bonsai Toprağı, Hassas Makas ve Genta Sıvı Besin
 
@@ -101,6 +101,24 @@ Bahçe toprağı suyu tutar, kuruyunca da sertleşir. Torf bir kez kupkuru kalı
 
 Saksı sığ olsun, tabanda geniş drenaj deliği bulunsun. Değişimden sonra ağacı birkaç hafta doğrudan güneşten koru. Teli, dal kalınlığının kabaca üçte biri kadar seç. Ağaç susuzken sarma. Form oturunca teli daldan çekerek açma; halka halka keserek çıkar, tomurcuğu koparma. Çiçekli türde tomurcuk döneminden önce sert budama yapma, o yılın çiçeğini kesmiş olursun.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Bonsai makası için Amazon.com.tr sayfasında [Transformacion Profesyonel 2’li Mini Budama Seti](https://www.amazon.com.tr/dp/B0GNMB7H6P?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Profesyonel Budama Makası – 19 cm Paslanmaz Çelik Bıçaklı Bahçe Makası – Ergonomik](https://www.amazon.com.tr/dp/B0FHW9ZS93?tag=hobibulsite-21).
+
+Listenin devamında [Bonsai ve Amigurumi için alüminyum Tel, Gümüş Renk (3alüm5)](https://www.amazon.com.tr/dp/B0DVRCVYQ3?tag=hobibulsite-21) var.
+
+Bonsai toprağı için Amazon.com.tr sayfasında [Ekodoğa Bonsai Toprağı 2,5 Lt Özel Karışım Ağacı Bonzai Bakımı Torf Çiçek Toprağı](https://www.amazon.com.tr/dp/B0G2SF29T7?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Transformacion Profesyonel 2’li Mini Budama Seti](https://www.amazon.com.tr/dp/B0GNMB7H6P?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### LEGO bonsai ile bu aletler kullanılır mı?
@@ -121,8 +139,9 @@ Bütçene ve ne kadar vakit ayırmak istediğine göre ihtiyaç duyacağın par�
 
 | Paket | İçindekiler | Kimler İçin Uygun? |
 | --- | --- | --- |
-| Başlangıç | [İnce makas](aff://bonsai-budama-makasi) ve [tel](aff://bonsai-aluminyum-teli) | Küçük bir fidanı olan, sadece uç budaması ve hafif şekil verme yapacak kişiler |
-| Orta Düzey | [6 parça set](aff://bonsai-alet-seti-10-parca) ve [Compo toprak](aff://bonsai-jack-toprak-karisimi) | Kendi saksı değişimini yapacak, derli toplu alet çantası arayanlar |
+| Başlangıç | ve | Küçük bir fidanı olan, sadece uç budaması ve hafif şekil verme yapacak kişiler |
+| Orta Düzey | ve [Compo toprak](aff://bonsai-jack-toprak-karisimi) | Kendi saksı değişimini yapacak, derli toplu alet çantası arayanlar |
 | Tam Bakım | Orta paket + [Genta sıvı besin](aff://biogold-bonsai-gubresi) | Hazır bonsai toprağına etiket dozunda sıvı bitki besini eklemek isteyenler |
 
 Canlı bonsaiye başlıyorsan aceleci olma. İlk adımda süzülen bir toprak ve taze sürgünleri ezmeyecek bir makas edinmek yeterli. Şekil verme ve tel sarma işini fidanın yeni yerine alışmasından sonraya bırakırsan ağacını çok daha uzun süre sağlıklı tutarsın.
+

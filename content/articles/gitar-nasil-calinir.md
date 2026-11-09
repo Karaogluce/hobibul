@@ -41,13 +41,27 @@ Başlangıç seviyesinde bütçeni sarsmayacak dengeli bir ses arıyorsan Yamaha
 
 Elektro gitarda dengeli bir gerginlik ve canlı bir tını arıyorsan nikel kaplı teller işini fazlasıyla görür. Standart ölçüsüyle bilinen D'Addario EXL110, parlak tonları ve dayanıklı yapısıyla öne çıkan bir settir. Nikel kaplaması sayesinde uzun ömürlü bir kullanım sunar. Yine de her ince tel gibi sert çalışlarda ya da aşırı bükmelerde kopabilir ve belirli aralıklarla set olarak yenilenmesi gerekir. "Teli bir kez takayım, aylarca hiç değiştirmeden çalayım" diyenlere uymaz; çünkü zamanla ses parlaklığını kaybeder ve düzenli değişim ister.
 
-[Satın Al: D'Addario EXL110 Tel Seti](aff://daddario-exl110)
+
 
 ## Akorlar, Tablar ve Şarkı Pratikleri
 
 Geleneksel nota eğitimi yerine gitar tab sistemini öğrenmek şarkıları doğrudan çalmanı kolaylaştırır. Tab sistemi, gitarın altı telini yatay çizgiler olarak gösterir ve bu çizgiler üzerindeki sayılar basman gereken perde numarasını belirtir. Böylece klasik solfej bilmeden, sadece tellerin sırasına ve sayılara bakarak sevdiğin bir melodiyi kısa sürede çalmaya başlayabilirsin.
 
 Şarkılara eşlik edebilmek için öncelikle Em, Am, C ve D gibi temel açık pozisyon akorları üzerinde durmalısın. F gibi bareli formlar ilk etapta parmaklarını yorabilir ve hemen temiz ses vermeyebilir; bu yüzden motivasyonunu düşürmeden önce açık akorlar arasındaki geçiş hızını oturtmaya bakmalısın. Repertuarına yeni parçalar ekledikçe sağ el ritim kalıpların da kendiliğinden akıcı hale gelir. Bu notların bir arada durduğu yer [Müzik notları](/kategori/muzik/).
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Gitar için Amazon.com.tr sayfasında [Ibanez GRGR131EX-BKF GIO Stealth Serisi Elektrikli Gitar - Siyah Düz | Şık Tamamen](https://www.amazon.com.tr/dp/B08SJ4F268?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Ibanez GRGR131EX-BKF GIO Stealth Serisi Elektrikli Gitar - Siyah Düz | Şık Tamamen](https://www.amazon.com.tr/dp/B08SJ4F268?tag=hobibulsite-21).
+
+Listenin devamında [Blackstar IDCORE10V4 Combo Amplifikatör | Güç Azaltma ve 4 kanallı USB-C Çıkışlı Watt](https://www.amazon.com.tr/dp/B0CRZB9PF9?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->
+
 
 ## Sık Sorulan Sorular
 
@@ -80,9 +94,10 @@ Akustik gitarlarda genellikle bronz alaşımlı çelik teller tercih edilir. Kla
 ### Elektro gitar teli nasıl seçilir?
 Elektro gitarda manyetik çekimi sağlayan nikel kaplı teller kullanılır. Standart ölçüye, uzun kullanım ömrüne ve parlak tonlara ihtiyaç duyuyorsan D'Addario EXL110 dengeli bir performans sunar; fakat sert vuruşlarda kopabileceğini ve belirli aralıklarla değiştirilmesi gerektiğini bilerek kullanmalısın.
 
-[Satın Al: D'Addario EXL110 Tel Seti](aff://daddario-exl110)
+
 
 ### Gitar akor geçişleri nasıl hızlandırılır?
 Temponu düşürüp iki akor arasında sağ elini hiç durdurmadan sol el parmaklarını aynı anda kaldırmaya odaklanmalısın. Parmaklarını tellere sırayla yerleştirmek yerine, elini havada akorun basılış kalıbına sokup tek hamlede klavyeye indirmek geçişleri hızlandırır.
 
 Günde kısa da olsa düzenli pratik yap, parmak uçlarının sertleşmesine fırsat tanı ve geçişlerde ritmi hiç bozmadan akıcı çalmaya odaklan.
+

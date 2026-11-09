@@ -23,9 +23,9 @@ Başlangıç seti basılı tuval, renk kodlu taş ve tepsi içerir. Kod tuvalin 
 
 Mum, yedek uç ve ışık her kutuda aynı değildir. İçindekiler listesini satın alma sayfasından okuyun. Listede olmayan parçayı varmış gibi düşünmeyin.
 
-Kalem, tek taş ya da çoklu uç takılabilen bir yerleştirme aletidir. Uç ölçüsü kutuda yazar. Tek tek gitmek yavaştır ama kontrol sizdedir. Yedek uç çoğu sette ayrı durur. Çoklu uç ilk günde taşı saçabilir. Mum bitince taş tutmaz. İlk akşam tek uçla kalın. Hız, kodu doğru okuduktan sonra gelir. [Satın Al: Diamond Painting Kalemi](aff://diamond-painting-pen)
+Kalem, tek taş ya da çoklu uç takılabilen bir yerleştirme aletidir. Uç ölçüsü kutuda yazar. Tek tek gitmek yavaştır ama kontrol sizdedir. Yedek uç çoğu sette ayrı durur. Çoklu uç ilk günde taşı saçabilir. Mum bitince taş tutmaz. İlk akşam tek uçla kalın. Hız, kodu doğru okuduktan sonra gelir. 
 
-Işık pedi tuvalin altına konan ışıklı panodur. Kutu boyutunu yazmıyorsa o pedin her tuvali taşıdığını varsaymayın. Koyu zeminde kodu seçmeyi kolaylaştırır ve masa lambasından daha düz bir ışık verir. Küçük ped büyük tuvali taşımaz. Kablo masa kenarında takılabilir. İlk tuval küçükse pedi erteleyebilirsiniz. Koyu zeminde kod kayboluyorsa ikinci alet olarak daha çok işe yarar. [Satın Al: Diamond Painting Işık Pedi](aff://diamond-painting-lightpad)
+Işık pedi tuvalin altına konan ışıklı panodur. Kutu boyutunu yazmıyorsa o pedin her tuvali taşıdığını varsaymayın. Koyu zeminde kodu seçmeyi kolaylaştırır ve masa lambasından daha düz bir ışık verir. Küçük ped büyük tuvali taşımaz. Kablo masa kenarında takılabilir. İlk tuval küçükse pedi erteleyebilirsiniz. Koyu zeminde kod kayboluyorsa ikinci alet olarak daha çok işe yarar. 
 
 ## Nasıl ilerlenir
 
@@ -48,6 +48,22 @@ Tekrarlayan el hareketinden sıkılmayan ve kısa oturuşları olan kişiye uyar
 Fırçanın akışını seven kişi burada boya bulamaz. O zaman resim kategorisine dönün. Puzzle seven kişi taşı yapboz sanabilir. Yapbozun parçası kenarından tanınır. Burada parça kodla eşleşir. İkisini aynı masada açmayın. Taş, puzzle yapıştırıcısına değerse iki iş birden bozulur.
 
 İkinci tuvali, ilk köşe düzgün oturunca düşünün. Köşe dağınıksa eksik olan şey yeni bir tablo değil, aynı tepsi ve tek uçtur. Hediye alacaksanız parça sayısı ve taş şekli kapakta okunsun. Kalem sette varsa ikincisini almayın. Hediye notuna "tek uçla başla" yazmak, kutuyu açan kişiyi hız yarışından korur.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Diamond painting için Amazon.com.tr sayfasında [Bardak Temalı Elmas Boyama Seti Bardak Altlığı](https://www.amazon.com.tr/dp/B0H778QSD5?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Rich 12'Li 60 Cc Master-Mix Akrilik Set](https://www.amazon.com.tr/dp/B08BZSWNVK?tag=hobibulsite-21).
+
+Listenin devamında [Bardak Temalı Elmas Boyama Seti Bardak Altlığı](https://www.amazon.com.tr/dp/B0H778QSD5?tag=hobibulsite-21) var.
+
+Boya seti için Amazon.com.tr sayfasında [Rich 12'Li 60 Cc Master-Mix Akrilik Set](https://www.amazon.com.tr/dp/B08BZSWNVK?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->
+
 
 ## Sıkça Sorulan Sorular
 

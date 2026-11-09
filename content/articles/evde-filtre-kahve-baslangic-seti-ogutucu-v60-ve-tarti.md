@@ -34,15 +34,15 @@ De’Longhi Dedica KG 521.M, evde filtre kahve hazırlayanlara 18 öğütme kade
 French press ile V60 arasında geçiş yaparken öğütme kademesini demleme yöntemine göre değiştirebilirsin. İlk denemede V60 için orta kademelerden başla; suyun akış hızına ve fincandaki tada göre ayarı irileştir veya incelt. Öğütme kabını ve dişli çevresini düzenli temizlemek, eski kahve kalıntılarının yeni demlemeye karışmasını önler.
 
 **Artıları:**
-*   18 öğütme kademesi farklı demleme yöntemlerine uyum sağlar.
-*   Porsiyon ayarı tekrarlanabilir hazırlık sunar.
-*   Kompakt gövdesi küçük mutfaklarda kolay konumlanır.
+* 18 öğütme kademesi farklı demleme yöntemlerine uyum sağlar.
+* Porsiyon ayarı tekrarlanabilir hazırlık sunar.
+* Kompakt gövdesi küçük mutfaklarda kolay konumlanır.
 
 **Eksileri:**
-*   Temel el değirmenlerinden daha yüksek bütçe ister.
-*   Düzenli ve doğru sonuç için öğütme kabı ve dişli çevresi temizlenmelidir.
+* Temel el değirmenlerinden daha yüksek bütçe ister.
+* Düzenli ve doğru sonuç için öğütme kabı ve dişli çevresi temizlenmelidir.
 
-[Satın Al: De’Longhi Dedica KG 521.M](aff://baratza-encore-ogutucu)
+
 
 ## Hario V60: Kontrolü Elde Tutmak İsteyenlere
 
@@ -51,13 +51,13 @@ Hario V60, pour over demleme dediğimiz yöntemin klasikleşmiş seramik dripper
 V60 tamamen senin el yeteneğine bakan bir alet. Suyu dökme hızın ve şeklin kahvenin tadını doğrudan etkiliyor. Bu yüzden sabah gözünü açar açmaz bir tuşa basıp kahvesi hazır olsun isteyenlere pek gelmez. Ayrıca misafir ağırlarken üç-dört kişiye aynı anda kahve yetiştirmek de V60 ile tam bir eziyete dönüşebilir. Öyle durumlarda French press çok daha kurtarıcı oluyor.
 
 **Artıları:**
-*   Fincanda temiz ve berrak bir tat profili oluşturuyor.
-*   Giriş maliyeti oldukça düşük.
-*   Isı dengesini koruyan seramik yapıya sahip.
+* Fincanda temiz ve berrak bir tat profili oluşturuyor.
+* Giriş maliyeti oldukça düşük.
+* Isı dengesini koruyan seramik yapıya sahip.
 
 **Eksileri:**
-*   Sürekli filtre kağıdı alman gerekiyor.
-*   Döküş tekniğine göre kahvenin tadı sürekli değişebilir, dikkat istiyor.
+* Sürekli filtre kağıdı alman gerekiyor.
+* Döküş tekniğine göre kahvenin tadı sürekli değişebilir, dikkat istiyor.
 
 [Satın Al: Hario V60 Dripper](aff://hario-v60-dripper)
 
@@ -68,13 +68,13 @@ Zamanlayıcılı bir kahve tartısı aslında senin hafızan demek. 0,1 gram has
 Üzerindeki zamanlayıcı ise suyun kahveyle ne kadar süre temas ettiğini görmeni sağlıyor. Eğer her şeyi rakamlarla takip etmekten sıkılan biriysen tartı seni yorabilir. Bu arada listedeki bu tartının özel bir markası yok, yani profesyonel bir laboratuvar aleti bekleme ama ev kullanımı için fazlasıyla yeterli.
 
 **Artıları:**
-*   0,1 gram hassasiyeti ile en küçük farkları bile yönetmeni sağlar.
-*   Dara alma ve zamanlayıcı özellikleri tek ekranda.
-*   Şarjlı olduğu için pil bitip demlemenin ortasında seni yarı yolda bırakmaz.
+* 0,1 gram hassasiyeti ile en küçük farkları bile yönetmeni sağlar.
+* Dara alma ve zamanlayıcı özellikleri tek ekranda.
+* Şarjlı olduğu için pil bitip demlemenin ortasında seni yarı yolda bırakmaz.
 
 **Eksileri:**
-*   Belirli bir markası olmayan genel bir ürün.
-*   Sadece kahve değil mutfaktaki diğer işler için de kullanıldığında kafa karıştırabilir.
+* Belirli bir markası olmayan genel bir ürün.
+* Sadece kahve değil mutfaktaki diğer işler için de kullanıldığında kafa karıştırabilir.
 
 [Satın Al: Zamanlayıcılı Kahve Tartısı](aff://zamanlayicili-kahve-tartisi)
 
@@ -85,16 +85,16 @@ Bazı sabahlar döküşle uğraşmak, o seremoniyi yapmak istemeyebilirsin. Aero
 Eğer "ben daha sert, espressoya yakın bir şeyler içmek istiyorum" dersen, Bialetti Moka Express imdadına yetişir. Ocak üstünde çalışan bu emektar, yoğun bir kahve verir. Ancak indüksiyonlu ocağın varsa bu alüminyum modeli kullanamazsın, aklında olsun.
 
 **Artıları:**
-*   AeroPress hızlı, dayanıklı ve taşınabilir.
-*   French press ile tek seferde birkaç kişiye kahve çıkabilir.
-*   Moka pot, elektrikli alet kalabalığı yaratmadan yoğun kahve sunar.
+* AeroPress hızlı, dayanıklı ve taşınabilir.
+* French press ile tek seferde birkaç kişiye kahve çıkabilir.
+* Moka pot, elektrikli alet kalabalığı yaratmadan yoğun kahve sunar.
 
 **Eksileri:**
-*   AeroPress aynı anda sadece bir fincan hazırlar.
-*   French press cam olduğu için kırılgandır ve telve sızdırabilir.
-*   Moka pot indüksiyon ocaklarda çalışmaz.
+* AeroPress aynı anda sadece bir fincan hazırlar.
+* French press cam olduğu için kırılgandır ve telve sızdırabilir.
+* Moka pot indüksiyon ocaklarda çalışmaz.
 
-[Satın Al: AeroPress Kahve Demleyici](aff://aeropress-kahve-demleyici)
+
 [Satın Al: Bodum Chambord French Press](aff://bodum-chambord-french-press)
 
 ## İlk Demlemelerde Nelere Dikkat Etmelisin?
@@ -102,6 +102,20 @@ Eğer "ben daha sert, espressoya yakın bir şeyler içmek istiyorum" dersen, Bi
 Sana burada ezbere bir tarif vermeyeceğim çünkü en iyi tarif senin damak tadın. İlk demlemeni yaparken kaç gram kahve ve su kullandığını bir kenara not et. Eğer içtiğin kahve çok acı geldiyse, Dedica öğütücünde ayarı bir kademe irileştir. Eğer çok sulu ve ekşi geldiyse, bir dahaki sefere daha ince öğüt. Makinedeki 18 kademe, demleme yöntemine ve kahveye göre doğru öğütümü bulmana yardımcı olur.
 
 Su sıcaklığı da çok kritik. Kaynar suyu doğrudan kahvenin üzerine dökme; su kaynadıktan sonra bir dakika kadar beklemesine izin ver. Çok sıcak su kahveyi yakar ve o yanık tadını fincanına taşır. Ve tabii ki kahveni demlemeden hemen önce öğütmeyi alışkanlık haline getir. Önceden öğütüp kavanoza doldurursan, aldığın o kaliteli öğütücünün bir anlamı kalmaz.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Kahve öğütücü için Amazon.com.tr sayfasında [Sinbo SCM-2982 Elektrikli Kahve ve Baharat Öğütücü – 200W Motor, 2 Hazneli (4 + 2](https://www.amazon.com.tr/dp/B0DZ6S3GV5?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Hario V60 02 Dripper Filtresi (100 Adet)](https://www.amazon.com.tr/dp/B001U7EOYA?tag=hobibulsite-21).
+
+Listenin devamında [Sinbo SCM-2982 Elektrikli Kahve ve Baharat Öğütücü – 200W Motor, 2 Hazneli (4 + 2](https://www.amazon.com.tr/dp/B0DZ6S3GV5?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->
+
 
 ## Sıkça Sorulan Sorular
 
@@ -121,7 +135,7 @@ Bütçene ve kahve içme alışkanlığına göre şu üç seçenekten birine y�
 | Paket | İçerik | Kimler İçin? |
 | :--- | :--- | :--- |
 | **Bütçe Dostu** | [Hario V60](aff://hario-v60-dripper) + [Tartı](aff://zamanlayicili-kahve-tartisi) | Zaten bir öğütücüsü olan veya döküş tekniğini geliştirmek isteyenler. |
-| **İdeal Başlangıç** | [De’Longhi Dedica KG 521.M](aff://baratza-encore-ogutucu) + V60 + Tartı | Evde gerçek kahve deneyimine başlamak isteyen herkes için en mantıklı set. |
-| **Meraklısına** | Orta Paket + [AeroPress](aff://aeropress-kahve-demleyici) | Hem hafta sonu ritüelini hem de hafta içi hızını ve seyahat kolaylığını isteyenler. |
+| **İdeal Başlangıç** | + V60 + Tartı | Evde gerçek kahve deneyimine başlamak isteyen herkes için en mantıklı set. |
+| **Meraklısına** | Orta Paket + | Hem hafta sonu ritüelini hem de hafta içi hızını ve seyahat kolaylığını isteyenler. |
 
 Son bir tavsiye: Ekipmanların mutfakta hep aynı yerde ve elinin altında dursun. Tartı bir çekmecede, kağıt filtreler başka dolapta olursa bir süre sonra üşenip o güzelim öğütücüyü rafa kaldırabilirsin. Düzenli bir kahve köşesi, her sabah aynı keyfi sürdürmenin en kolay yoludur.

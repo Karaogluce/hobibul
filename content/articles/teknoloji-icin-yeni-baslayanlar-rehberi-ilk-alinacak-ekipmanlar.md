@@ -19,7 +19,7 @@ draft: "false"
 
 ## Başlamadan Önce Bilmen Gerekenler
 
-Bir projeye girişirken elindeki bütçeyi nasıl dağıtacağını bilmek bütün hevesini korumanı sağlar. Çoğu insan hevesle en pahalı setleri sipariş eder ancak bu parçaların nasıl çalışacağını bilmediği için kısa sürede vazgeçer. Oysa temel düzeyde bir [Arduino Uno R3 Mikrodenetleyici](aff://arduino-uno-r3) gibi bir kartla ufak adımlar atmak seni sistemin mantığıyla tanıştırır. Bu mikrodenetleyici, geniş topluluk desteği ve kullanım kolaylığı sayesinde elektronik projeleri için en yaygın kullanılan seçenekler arasındadır. Kablosuz bağlantı dahil değil ve işlem gücü sınırlı; fakat sensörlerle çalışmayı öğrenmek için bundan daha iyi bir başlangıç noktası bulamazsın. Eğer amacın sadece kablosuz projeler yapmaksa bu kart seni kısa sürede kısıtlayabilir. Teknoloji tasarım projeleri okul ödevlerinden profesyonel prototiplere kadar geniş bir yelpazeye sahiptir. Bu yüzden ne yapmak istediğini baştan netleştirmen gerekir.
+Bir projeye girişirken elindeki bütçeyi nasıl dağıtacağını bilmek bütün hevesini korumanı sağlar. Çoğu insan hevesle en pahalı setleri sipariş eder ancak bu parçaların nasıl çalışacağını bilmediği için kısa sürede vazgeçer. Oysa temel düzeyde bir gibi bir kartla ufak adımlar atmak seni sistemin mantığıyla tanıştırır. Bu mikrodenetleyici, geniş topluluk desteği ve kullanım kolaylığı sayesinde elektronik projeleri için en yaygın kullanılan seçenekler arasındadır. Kablosuz bağlantı dahil değil ve işlem gücü sınırlı; fakat sensörlerle çalışmayı öğrenmek için bundan daha iyi bir başlangıç noktası bulamazsın. Eğer amacın sadece kablosuz projeler yapmaksa bu kart seni kısa sürede kısıtlayabilir. Teknoloji tasarım projeleri okul ödevlerinden profesyonel prototiplere kadar geniş bir yelpazeye sahiptir. Bu yüzden ne yapmak istediğini baştan netleştirmen gerekir.
 
 Teknoloji ve tasarım alanında kaybolmamak için ilk başta karmaşık sistemlerden uzak durmalısın. İnternette gördüğün karmaşık yapılar seni korkutmasın; her büyük proje küçük bir kod satırı veya basit bir lehimle başlar.
 
@@ -29,7 +29,7 @@ Alışveriş sepetini doldururken mantıklı bir sıra takip etmek hem paranı k
 
 ### Temel Kontrol Kartı
 
-Elektronik ve kodlama temellerini öğrenmek istiyorsan işe küçük ve güvenilir bir kartla başlamalısın. [Arduino Uno R3 Mikrodenetleyici](aff://arduino-uno-r3) tam da bu aşamada devreye girer; çünkü çok sayıda uyumlu sensör barındırır ve topluluk desteği devasa boyutlardadır. Kod yazmayı ve sensörlerin dış dünyayla nasıl iletişim kurduğunu bu kart üzerinde rahatça görebilirsin. Tabii ki işlem gücü sınırlı olduğu için büyük yazılımları veya yapay zeka modellerini burada çalıştıramazsın.
+Elektronik ve kodlama temellerini öğrenmek istiyorsan işe küçük ve güvenilir bir kartla başlamalısın. tam da bu aşamada devreye girer; çünkü çok sayıda uyumlu sensör barındırır ve topluluk desteği devasa boyutlardadır. Kod yazmayı ve sensörlerin dış dünyayla nasıl iletişim kurduğunu bu kart üzerinde rahatça görebilirsin. Tabii ki işlem gücü sınırlı olduğu için büyük yazılımları veya yapay zeka modellerini burada çalıştıramazsın.
 
 ### Hesaplı Hesaplama Gücü ve Sunucu Projeleri
 
@@ -49,10 +49,22 @@ Projelerini dışarı taşımak, havadan çekimler yapmak veya uçuş dinamikler
 
 Bir diğer hata ise projenin gereksinimlerini araştırmadan ekipman sipariş etmektir. Örneğin bir [Raspberry Pi 5 (8GB)](aff://raspberry-pi-5) alıp gerekli soğutma elemanlarını unutmak cihazın aşırı ısınmasına yol açar. Benzer şekilde [Creality Ender 3 V3 3D Yazıcı](aff://creality-ender-3-v3) alıp kalibrasyon ayarlarını atlamak sürekli hatalı baskılarla sonuçlanır. Teknoloji iyi yönleri ve sunduğu imkanlar kadar, sabırlı olmanı gerektiren zorluklarıyla da bir bütündür.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Arduino için Amazon.com.tr sayfasında [Arduino Tabanlı UNO R3 Geliştirme Kartı (CH340)](https://www.amazon.com.tr/dp/B08YDLWQYP?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Raspberry Pi 5 8GB](https://www.amazon.com.tr/dp/B0CS2Z72FY?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### Hangi hobi ekipmanıyla başlamalıyım?
-Öğrenmek istediğin alana göre değişir; kodlama için [Arduino Uno R3 Mikrodenetleyici](aff://arduino-uno-r3), yazılım ve sunucu işleri için [Raspberry Pi 5 (8GB)](aff://raspberry-pi-5) en mantıklı başlangıç seçenekleridir.
+Öğrenmek istediğin alana göre değişir; kodlama için, yazılım ve sunucu işleri için [Raspberry Pi 5 (8GB)](aff://raspberry-pi-5) en mantıklı başlangıç seçenekleridir.
 
 ### 3D yazıcı kullanmak çok zor mu?
 [Creality Ender 3 V3 3D Yazıcı](aff://creality-ender-3-v3) kolay kurulum avantajı sunar ancak düzenli kalibrasyon gerektirir, bu yüzden temel ayarlara alışmak biraz zaman alabilir.
@@ -64,3 +76,4 @@ Bir diğer hata ise projenin gereksinimlerini araştırmadan ekipman sipariş et
 İşe en ucuz ve temel kartlarla başlayıp, becerilerin ilerledikçe [Raspberry Pi 5 (8GB)](aff://raspberry-pi-5) veya 3D yazıcı gibi daha kapsamlı donanımlara bütçe ayırmak en sağlıklı yöntemdir.
 
 Bütçene uygun ilk parçayı seç, masanı kur ve sabırla küçük adımlarla ilerlemeye başla.
+

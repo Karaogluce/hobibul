@@ -35,13 +35,27 @@ Ağacının cinsi de bu denklemi doğrudan değiştirir. Yaprak döken türlerin
 
 Toprak değiştirirken ağacı saksıdan çıkardığında etrafı saran köklerin keçeleştiğini ve kabın şeklini aldığını görebilirsin. Bu aşamada eski ve sertleşmiş toprağı köklere zarar vermeden temizlemek, birbirine dolanmış kökleri ayıklamak gerekir. Kökleri budamadan yeni toprağa almak ağacın taze karışıma tutunmasını zorlaştırır; bu yüzden kök yumağının durumuna göre kontrollü bir kısaltma yapmak gerekir.
 
-Kök ayıklama ve budama işlemlerinde doğru aletleri kullanmak bitkinin yara yerlerinin düzgün kapanması açısından önemlidir. Temel seviyedeki budama, dal kesme ve kök ayıklama işleri için [Satın Al: BestAlice 6 Parça Karbon Çelik Bonsai Alet Seti](aff://bonsai-alet-seti-10-parca) farklı bakım işlerine uygun uçlar içeren altı parçalı temel bir settir. Fakat aletler karbon çelikten üretildiği için nemli bırakıldığında paslanabilir; işin bittiğinde mutlaka kurulayıp saklamalısın. Ayrıca bu aletler profesyonel seviyedeki kalın dal işleri için sınırlı kalabilir. Daha kalın dalları gövdeye sıfır kesmek ve pürüzsüz sonuç almak istiyorsan Japon üretimi [Satın Al: Wazakura Ashinaga Bonsai Makası ve İçbükey Dal Kesici Seti](aff://bonsai-budama-makasi) öne çıkar. Set içindeki 200 mm uzun saplı Ashinaga makas ve 200 mm içbükey dal kesici derin budamalarda rahat çalışmanı sağlar; ancak tek makas almaya göre daha yüksek bir bütçe gerektirir ve aletin ölçüsünü aşan aşırı kalın gövde kesimleri için zorlanmamalıdır.
+Kök ayıklama ve budama işlemlerinde doğru aletleri kullanmak bitkinin yara yerlerinin düzgün kapanması açısından önemlidir. Temel seviyedeki budama, dal kesme ve kök ayıklama işleri için farklı bakım işlerine uygun uçlar içeren altı parçalı temel bir settir. Fakat aletler karbon çelikten üretildiği için nemli bırakıldığında paslanabilir; işin bittiğinde mutlaka kurulayıp saklamalısın. Ayrıca bu aletler profesyonel seviyedeki kalın dal işleri için sınırlı kalabilir. Daha kalın dalları gövdeye sıfır kesmek ve pürüzsüz sonuç almak istiyorsan Japon üretimi öne çıkar. Set içindeki 200 mm uzun saplı Ashinaga makas ve 200 mm içbükey dal kesici derin budamalarda rahat çalışmanı sağlar; ancak tek makas almaya göre daha yüksek bir bütçe gerektirir ve aletin ölçüsünü aşan aşırı kalın gövde kesimleri için zorlanmamalıdır.
 
 ## Toprak İçindeki Besin Dengesi Nasıl Korunur?
 
 Geçirgenliği yüksek, suyu bekletmeyen bir toprak kullandığında sulama suyuyla birlikte besin maddeleri de saksı deliklerinden hızla akar. Küçük bir saksıda yaşayan ağaç, bahçedeki gibi derinlerden yeni mineral çekemez. Bu sebeple büyüme dönemlerinde bitkiye düzenli besin takviyesi yapman gerekir; aksi takdirde yapraklar zayıflar ve sürgün gelişimi durur.
 
 Saksı hacmi dar olduğundan kökleri yakmamak için besin miktarını çok iyi ayarlamak gerekir. Sıvı ürünler dozu kontrol etmeyi kolaylaştırır; örneğin [Satın Al: Genta Prestige Bonsai Sıvı Bitki Besini 500 ml](aff://biogold-bonsai-gubresi) sulandırılarak uygulanan yapısıyla ölçülü besleme yapmanı sağlar. Ambalajındaki 500 ml hacim düzenli kullanım imkanı sunar. Burada dikkat etmen gereken nokta, kesinlikle ambalaj üzerindeki sulandırma ölçüsüne uymaktır. Ağaç hızlı büyüsün düşüncesiyle gereğinden fazla besin vermek dar saksıdaki kökleri yakıp bitkinin kurumasına yol açabilir.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Bonsai makası için Amazon.com.tr sayfasında [Transformacion Profesyonel 2’li Mini Budama Seti](https://www.amazon.com.tr/dp/B0GNMB7H6P?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Bonsai ve Amigurumi için alüminyum Tel, Gümüş Renk (3alüm5)](https://www.amazon.com.tr/dp/B0DVRCVYQ3?tag=hobibulsite-21).
+
+Listenin devamında [Transformacion Profesyonel 2’li Mini Budama Seti](https://www.amazon.com.tr/dp/B0GNMB7H6P?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->
+
 
 ## Sık Sorulan Sorular
 
@@ -72,3 +86,4 @@ Toprak yüzeyine parmağınla dokunduğunda nem hissetmiyorsan ve toprağın ren
 ---
 
 Bonsai bakımında ağacın ömrünü belirleyen asıl unsur, köklerin ne kadar rahat nefes alabildiğidir. Saksı altındaki tahliye deliklerini mutlaka açık tut, su tutuculuk ile havalanma dengesini ağacının türüne göre ayarla ve kökleri çamur içinde bırakmayacak süzek karışımları tercih et.
+

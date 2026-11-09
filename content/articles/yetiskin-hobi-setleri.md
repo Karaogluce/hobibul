@@ -68,7 +68,7 @@ Kimyasal içermeyen, kişiselleştirilmiş ev kozmetikleri üretmek isteyenler i
 
 Yetişkinlere özel LEGO setleri karmaşık mekanizmaları, binlerce parçayı ve mimari ya da botanik detayları bir araya getiren model kitleridir.
 
-Klasik oyuncak algısının ötesine geçen bu setler yetişkinlerin stres atması için tasarlanmış estetik objelerdir. Örneğin [Royal & Langnickel Şövale Seti](aff://royal-langnickel-easel) resim yapma hevesini taşınabilir bir masada başlatırken, [LEGO Botanicals Bonsai Ağacı 10281](aff://lego-bonsai-10281) gibi modeller bakım gerektirmeyen zarif bir bitki deneyimi sunar. 
+Klasik oyuncak algısının ötesine geçen bu setler yetişkinlerin stres atması için tasarlanmış estetik objelerdir. Örneğin resim yapma hevesini taşınabilir bir masada başlatırken, [LEGO Botanicals Bonsai Ağacı 10281](aff://lego-bonsai-10281) gibi modeller bakım gerektirmeyen zarif bir bitki deneyimi sunar. 
 
 ## Hobi seti alırken nelere bakılmalı?
 
@@ -93,6 +93,20 @@ Market hobi setleri denemek için uygun fiyatlı bir giriş sunar, ancak içerik
 Dönemsel olarak market raflarında karşımıza çıkan hobi ürünleri büyük bütçeler ayırmadan bir trendi denemek için caziptir. Ancak bu setlerin boya kalitesi veya tuval kalınlığı her zaman beklentiyi karşılamayabilir. İnternet üzerinden uzman markalardan temin edilen setler ise genellikle daha zengin renk skalasına ve kaliteli ekipmanlara sahiptir.
 
 Eğer hobiyi sadece bir akşamlık eğlence olarak görmüyorsanız, online platformlardaki alternatifleri değerlendirmek daha tatmin edici sonuçlar verir. Özellikle taşların eksik çıkması gibi durumlarda online satıcıların destek sağlama ihtimali daha yüksektir.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Boya seti için Amazon.com.tr sayfasında [Rich 12'Li 60 Cc Master-Mix Akrilik Set](https://www.amazon.com.tr/dp/B08BZSWNVK?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [ulutaş & sanat Şövale Ahşap Resim Sehpası](https://www.amazon.com.tr/dp/B09KXTGMDR?tag=hobibulsite-21).
+
+Listenin devamında [Rich 12'Li 60 Cc Master-Mix Akrilik Set](https://www.amazon.com.tr/dp/B08BZSWNVK?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->
+
 
 ## Sıkça Sorulan Sorular
 
@@ -138,7 +152,7 @@ Zorluk derecesi ve zaman maliyeti de karar aşamasında etkilidir. İlk defa eli
 - Eksiler: Masa şövalesi küçük; Ahşabı hafif
 - Kime uymaz: Geniş tuvallerle büyük ve fırça darbeleriyle çalışmak isteyen profesyonel ressamlar için yetersiz kalır.
 
-[Satın Al: Royal & Langnickel Şövale Seti](aff://royal-langnickel-easel)
+
 
 ### LEGO Botanicals Bonsai Ağacı 10281
 

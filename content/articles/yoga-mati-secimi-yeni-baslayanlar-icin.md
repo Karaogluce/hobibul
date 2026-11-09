@@ -43,7 +43,7 @@ Boyutları yazmasa da 6 mm kalınlığında yoğun sünger malzemeden üretilmi�
 - Ürün sayfasında en ve boy ölçüsü açıkça yazmıyor.
 - Belirli bir markası veya logosu yok.
 
-[Satın Al: 6 mm Kaymaz Yoga Matı](aff://yoga-mat-6mm-kaymaz)
+
 
 ## Buffer 140 cm: Kısa Alanlar İçin Alternatif
 
@@ -106,7 +106,23 @@ Matını evde sererken doğrudan halının üzerine koymak yerine parke veya fay
 
 Ürünlerin temizliği de ömrünü doğrudan etkiler. Hiçbir yoga matı çamaşır makinesinde yıkanmamalıdır. Nemli bir bezle silmek yeterlidir. Aşırı sabun kullanırsan, köpük gözeneklerde kalır ve bir sonraki antrenmanda matın kayganlaşmasına neden olur. Gaiam köpük bloğun kokusunu gidermek için ilk gün balkonda havalandırabilirsin, ancak yağmur altında bırakmamaya dikkat etmelisin.
 
-Matı kullandıktan sonra terli halde rulo yapıp bağlamak koku yapabilir. Önce kurumasını bekleyip ardından rulo yapmak malzeme kalitesini korur. 
+Matı kullandıktan sonra terli halde rulo yapıp bağlamak koku yapabilir. Önce kurumasını bekleyip ardından rulo yapmak malzeme kalitesini korur.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Yoga matı için Amazon.com.tr sayfasında [Delta Konfor Zemin 10 MM Taşıma Askılı Pilates Minderi Yoga Matı, Mor, 10 MM](https://www.amazon.com.tr/dp/B079KCC3Y9?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Delta Çiftli Yoga Blok - 2 Adet Yoga Block - Eva Yoga Bloğu Seti,Siyah](https://www.amazon.com.tr/dp/B0B3S28DZV?tag=hobibulsite-21).
+
+Listenin devamında [Rebuwo Yoga Kemeri Mor Yoga Kayışı Ekstra Güvenli D Halkası Tokalı Dayanıklı ve Yumuşak](https://www.amazon.com.tr/dp/B08T9SX41S?tag=hobibulsite-21) var.
+
+Yoga matı için Amazon.com.tr sayfasında [Delta Konfor Zemin 10 MM Taşıma Askılı Pilates Minderi Yoga Matı, Siyah | Foam Köpük](https://www.amazon.com.tr/dp/B079K62BBS?tag=hobibulsite-21) duruyor.
+
+<!-- /urun-havuzu -->
+
 
 ## Sık Sorulan Sorular
 
@@ -130,8 +146,9 @@ Dizlerinde hassasiyet varsa veya sert parkede çalışıyorsan 6 mm matlar daha 
 
 | Paket | Ürün İÇeriği | Kimler İçin Uygun? |
 | --- | --- | --- |
-| Başlangıç | [6 mm kaymaz mat](aff://yoga-mat-6mm-kaymaz) | Bütçesini korumak isteyen, markaya takılmayanlar |
+| Başlangıç | | Bütçesini korumak isteyen, markaya takılmayanlar |
 | Esneklik | 6 mm mat ve [200 cm kayış](aff://yoga-kemeri-pamuk-200) | Bacak ve omuz açmakta zorlanan, destek arayanlar |
-| İleri Seviye | [Liforme](aff://liforme-yoga-mat) veya [Manduka PRO](aff://manduka-pro) + [Gaiam blok](aff://gaiam-yoga-blocks) | Uzun ömürlü kullanım, yüksek tutuculuk ve hizalama arayanlar |
+| İleri Seviye | [Liforme](aff://liforme-yoga-mat) veya [Manduka PRO](aff://manduka-pro) + | Uzun ömürlü kullanım, yüksek tutuculuk ve hizalama arayanlar |
 
 Karar verirken ilk olarak evindeki çalışma alanını ve boyunu dikkate al. Ölçülerinden emin olmadığın bir modele yatırım yapmadan önce zemin ihtiyacını belirlemek en doğrusudur. Temel ihtiyaçlarını 6 mm bir mat ve pamuk kemerle karşılayabilir, pratiğin ilerledikçe üst segment matlara veya bloklara geçiş yapabilirsin.
+

@@ -32,7 +32,7 @@ Evde pratik yaparken ya da arkadaş ortamında müzik çalarken bütçeyi yormad
 ### Yazılım Desteğini Kontrol Etmeden Cihaz Almak
 
 - **Neden sorun:** DJ kontrol cihazları tek başlarına ses üreten aletler değildir; bilgisayara veya mobil cihaza bağlanan, arayüzdeki yazılımı yöneten kumandalardır. Donanımı alıp kutuyu açtıktan sonra içinden tam sürüm bir DJ yazılımı çıkmadığını ya da tercih ettiğin programla cihazın doğrudan eşleşmediğini görmek seni yarı yolda bırakabilir.
-- **Ne yapmalı:** Almayı düşündüğün modelin yazılım tarafında ne sunduğuna mutlaka bakmalısın. [Satın Al: Pioneer DJ DDJ-FLX2](aff://pioneer-ddj-flx2), FLX serisinin daha küçük bir modeli olarak AlphaTheta markasıyla listeleniyor. Bu modelin ürün kaydında detaylı bir kanal listesi, boyut bilgisi ya da FLX4'te olduğu gibi yazılım notu yer almıyor. Dolayısıyla kutu içeriğinde hangi programın desteklendiğini bilmeden yola çıkmak istemiyorsan ya da net özellik listesi arıyorsan bu cihaz sana uygun olmayabilir.
+- **Ne yapmalı:** Almayı düşündüğün modelin yazılım tarafında ne sunduğuna mutlaka bakmalısın., FLX serisinin daha küçük bir modeli olarak AlphaTheta markasıyla listeleniyor. Bu modelin ürün kaydında detaylı bir kanal listesi, boyut bilgisi ya da FLX4'te olduğu gibi yazılım notu yer almıyor. Dolayısıyla kutu içeriğinde hangi programın desteklendiğini bilmeden yola çıkmak istemiyorsan ya da net özellik listesi arıyorsan bu cihaz sana uygun olmayabilir.
 
 ## Taşınabilirlik ve Fiziksel Alanı Yanlış Hesaplamak
 
@@ -67,6 +67,18 @@ Gereksiz teknik detaylara boğulmak ya da modern araçları tamamen görmezden g
 - **Neden sorun:** DJ'liğe başlarken video sitelerinden düşük kaliteli ses dosyaları indirip arşive eklemek ilk başta kolay gelse de, o parçaları biraz daha güçlü bir hoparlöre verdiğinde tizlerin dağıldığını ve basların bozulduğunu fark edersin.
 - **Ne yapmalı:** Müzik kütüphaneni ilk günden itibaren yüksek kaliteli dosya formatlarıyla kurmaya çalışmalısın. Aradığın ister eski bir nostaljik şarkı ister yeni bir parça olsun, elinden geldiğince temiz ve sıkıştırılmamış kopyaları toplamalısın; aksi halde ses seviyesi arttığında dinleyiciyi rahatsız eden bozulmalarla karşılaşırsın.
 
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Dj kontrol için Amazon.com.tr sayfasında [Pioneer DJ Pioneer DDJ-FLX4 Taşınabilir 2 Kanallı DJ Controller](https://www.amazon.com.tr/dp/B0BK25SY9G?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Pioneer DJ Pioneer DDJ-FLX4 Taşınabilir 2 Kanallı DJ Controller](https://www.amazon.com.tr/dp/B0BK25SY9G?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
+
+
 ## Sık Sorulan Sorular
 
 ### En iyi kontrol cihazı aramasıyla doğrudan sonuca ulaşabilir miyim?
@@ -84,3 +96,4 @@ Kontrol cihazları tek başına müzik çalmaz. Cihazı bağlayacağın bir diz�
 ---
 
 Önce müzik arşivini düzene sokup iki kanallı temel bir kontrol cihazıyla kulak hassasiyetini geliştir; profesyonel kulüp sistemlerini ise sahnede çalacak aşamaya geldiğinde düşünürsün.
+

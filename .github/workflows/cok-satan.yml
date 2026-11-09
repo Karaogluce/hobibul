@@ -1,0 +1,42 @@
+name: Haftalık çok satanlar
+
+on:
+  schedule:
+    # Pazartesi 06:15 UTC. İstanbul sabahı. Günlük makale ile aynı yayın grubu.
+    - cron: "15 6 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: site-yayin
+  cancel-in-progress: false
+
+jobs:
+  cok-satan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - run: pip install jinja2
+
+      - name: Listeyi çek ve yaz
+        run: |
+          git config user.name "hobibul-bot"
+          git config user.email "hobibul-bot@users.noreply.github.com"
+          # Amazon 503 veya captcha verirse betik 0 ile çıkar, siteyi bozmaz.
+          python cok_satan.py --yaz || echo "çok satanlar adımı hata verdi, yayın sürüyor"
+          python build.py
+          git add -A
+          if git diff --cached --quiet; then
+            echo "Değişiklik yok"
+            exit 0
+          fi
+          git commit -m "Haftalık çok satanlar $(date -u +%G-W%V)"
+          git push origin HEAD:main

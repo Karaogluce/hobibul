@@ -73,17 +73,31 @@ Yazıcı tek başına çalışmaz; yanına Sunlu PLA filament ve bir alet seti e
 - Alet setinin malzeme kalitesi orta seviyedir, spatula zamanla aşınabilir.
 - Kobra 2 çalışırken gürültülüdür ve topluluk desteği daha sınırlıdır.
 
-[Satın Al: Sunlu PLA Filament](aff://sunlu-pla-filament)
+
 
 [Satın Al: 3D Yazıcı Alet Seti](aff://3d-tool-kit)
 
-[Satın Al: Anycubic Kobra 2](aff://anycubic-kobra-2)
+
 
 ## İlk Baskıda Dikkat Edilecekler
 
 Makineyi sarsılmayan düz bir masaya koymalısın; sallanan sehpa katmanların kaymasına yol açar. Açık pencereden gelen hava akımı da PLA'nın köşelerden kalkmasına sebep olabileceği için yazıcıyı cereyandan uzak tutmak gerekir. 
 
 İlk seferde karmaşık ve büyük bir şey basmak yerine küçük bir deneme parçası seç. Tablada elinden geçen yağ veya toz varsa plastik yapışmaz; üreticinin önerdiği şekilde tablayı temizleyip kurulamalısın. A1 Mini kullanıyorsan otomatik kalibrasyonun bitmesini bekle, Ender tarafındaysan ilk katmanı gözünle takip et. Parça kenardan kalkıyorsa baskıyı hemen durdurup ayarını yeniden yap; yoksa bütün gece boşa plastik harcarsın. Baskı bittiğinde de parçayı zorla çekme; tabla soğuyunca malzeme kendini bırakır, alet setindeki spatulayı kenardan düz bir açıyla sürerek kolayca alabilirsin.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+3d yazıcı için Amazon.com.tr sayfasında [ELEGOO Centauri Carbon 2 Canvas 3D Yazıcı, 500mm/s Yüksek Hızlı CoreXY, Otomatik](https://www.amazon.com.tr/dp/B0G4ZFQG8M?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Creality Ender PLA Plus 1.75 mm 1 kg Beyaz Filament](https://www.amazon.com.tr/dp/B0B6BSD3R1?tag=hobibulsite-21).
+
+Listenin devamında [AMX3d 3D baskı 3D baskı temizleme yardımcı alet seti, 3 parça hassas baskı temizleme](https://www.amazon.com.tr/dp/B075H345VK?tag=hobibulsite-21) var.
+
+<!-- /urun-havuzu -->
+
 
 ## Sık Sorulan Sorular
 
@@ -103,8 +117,9 @@ Otomatik seviyeleme isteyip bütçesini daha düşük tutmak isteyenler için ma
 
 | Paket | İçinde ne var | Kime uyar |
 | --- | --- | --- |
-| Bütçe | [Anycubic Kobra 2](aff://anycubic-kobra-2), [Sunlu PLA](aff://sunlu-pla-filament) ve [alet seti](aff://3d-tool-kit) | Uygun fiyata otomatik seviyeleme isteyip sese katlananlar |
+| Bütçe |, ve [alet seti](aff://3d-tool-kit) | Uygun fiyata otomatik seviyeleme isteyip sese katlananlar |
 | Orta | [Bambu Lab A1 Mini](aff://bambu-lab-a1-mini), PLA ve alet seti | Az yer kaplasın, ayarla uğraştırmasın, küçük parça bassın diyenler |
 | Üst | [Ender 3 V3](aff://creality-ender-3-v3), PLA ve alet seti | İşi mekaniğiyle öğrenmek, geniş topluluktan faydalanmak isteyenler |
 
 Az yerim var ve ayarla boğuşmak istemiyorum diyorsan Bambu Lab A1 Mini doğru bir başlangıç olur. Mekaniğe dokunmak, işin mantığını kavrayarak ilerlemek ve gerektiğinde bolca kaynak bulmak istiyorsan Creality Ender 3 V3 yönüne gitmelisin. Hangi gövdeyi seçersen seç, yanına bir makara PLA ve spatulalı alet setini eklemeyi unutma.
+

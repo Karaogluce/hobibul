@@ -23,12 +23,12 @@ image_source: ""
 Markete girdiğinde yüzlerce çeşit malzeme göreceksin ama kafanı karıştırma. İlk gece için listen aslında oldukça kısa. Eğer her şeyi bir anda yüklenirsen hem bütçeni yorarsın hem de gerçekten neye ihtiyacın olduğunu anlamadan gereksiz eşya sahibi olursun.
 
 Temel olarak şu altı başlığı çözmen yeterli:
-*   **Barınma:** Seni yağmurdan ve rüzgardan koruyacak, kurulumu kolay bir çadır.
-*   **Uyku:** Yerden gelen o soğuk nemi kesecek bir mat ve mevsime uygun bir uyku tulumu.
-*   **Yemek:** Basit bir ocak ve içinde bir şeyler pişirebileceğin hafif bir tencere seti.
-*   **Aydınlatma:** Gece önünü görebilmen için bir kafa lambası veya fener.
-*   **Su:** Suyu içilebilir hale getiren bir filtre (eğer temiz su kaynağı yoksa).
-*   **Taşıma:** Tüm bu malzemeleri içine alan, sırtını yormayacak bir çanta.
+* **Barınma:** Seni yağmurdan ve rüzgardan koruyacak, kurulumu kolay bir çadır.
+* **Uyku:** Yerden gelen o soğuk nemi kesecek bir mat ve mevsime uygun bir uyku tulumu.
+* **Yemek:** Basit bir ocak ve içinde bir şeyler pişirebileceğin hafif bir tencere seti.
+* **Aydınlatma:** Gece önünü görebilmen için bir kafa lambası veya fener.
+* **Su:** Suyu içilebilir hale getiren bir filtre (eğer temiz su kaynağı yoksa).
+* **Taşıma:** Tüm bu malzemeleri içine alan, sırtını yormayacak bir çanta.
 
 Eğer arabayla gideceksen ağırlık çok sorun değil ama sırtında taşıyacağın bir rota planlıyorsan her gramın hesabını yapman gerekecek. İhtiyacına göre [kampçılık ekipmanları](/kategori/outdoor/kampcilik/) sayfasına göz atabilirsin. Çadır boyutuna karar veremediysen [kamp çadırı seçimi](/makale/en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma/) rehberi işini kolaylaştırır. Ayakkabı konusu ise bambaşka bir dünya, onun için [trekking bot rehberi](/makale/trekking-bot-secimi-gore-tex-baslangic-botlari/) yazısına bakmanı öneririm.
 
@@ -37,76 +37,76 @@ Eğer arabayla gideceksen ağırlık çok sorun değil ama sırtında taşıyaca
 Aşağıdaki ürünleri seçerken kurulumun kolay olmasına ve bütçeyi çok sarsmamasına dikkat ettim. Kimisi araç kampı için, kimisi ise uzun yürüyüşler için daha uygun.
 
 ### Coleman Sundome 4 Kişilik Çadır
-Yeni başlayanlar arasında bu çadırın çok popüler olmasının bir sebebi var: Kurulumu gerçekten çok basit. Tek başına bile birkaç dakikada ayağa kaldırabiliyorsun. Dört kişilik olması seni yanıltmasın; iki kişi gidip eşyalarını da içeriye rahatça yaymak istiyorsan bu genişlik hayat kurtarır.
+Yeni başlayanlar arasında bu çadırın çok popüler olmasının bir sebebi var: Kurulumu gerçekten çok basit. Tek başına bile birkaç dakikada ayağa kaldırabiliyorsun. Dört kişilik olması seni yanıltmasın; iki kişi gidip eşyalarını da içeriye rahatça yaymak istiyorsan bu genişlik hayat kurtarır. Amazon.com.tr sayfa başlığında adı duran iki kişilik seçenek [Andoutdoor Monodome A](https://www.amazon.com.tr/dp/B09MQGNKHP?tag=hobibulsite-21).
 
-*   **Artıları:** Kurulumu çok pratik, tavanı yüksek ve hava akışı gayet iyi.
-*   **Eksileri:** Biraz ağır olduğu için sırtında kilometrelerce taşımak istemezsin. Daha çok araç yanına kurmak için tasarlanmış. Sert kış şartlarına pek gelmez.
+* **Artıları:** Kurulumu çok pratik, tavanı yüksek ve hava akışı gayet iyi.
+* **Eksileri:** Biraz ağır olduğu için sırtında kilometrelerce taşımak istemezsin. Daha çok araç yanına kurmak için tasarlanmış. Sert kış şartlarına pek gelmez.
 
-[Satın Al: Coleman Sundome 4 Kişilik Çadır](aff://coleman-sundome-4)
+
 
 ### Therm-a-Rest Z Lite Uyku Matı
 Kampta uykunun kalitesini tulumdan çok mat belirler. Yerden gelen soğuğu kesemezsen sabaha kadar titrersin. Z Lite, yumurta viyolü gibi katlanan yapısıyla hem çok hafif hem de ömürlük bir parça. Şişirme derdi yok, "patladı mı, havası mı indi" stresi yok.
 
-*   **Artıları:** Delinme riski sıfır, çantanın dışına bağlayıp hemen açabilirsin.
-*   **Eksileri:** Şişme matlar kadar yumuşak değil. Eğer çok konfor düşkünüysen sert gelebilir.
+* **Artıları:** Delinme riski sıfır, çantanın dışına bağlayıp hemen açabilirsin.
+* **Eksileri:** Şişme matlar kadar yumuşak değil. Eğer çok konfor düşkünüysen sert gelebilir.
 
-[Satın Al: Therm-a-Rest Z Lite Uyku Matı](aff://thermarest-z-lite)
+
 
 ### GSI Outdoors Bugaboo Tencere Seti
 Doğada yemek yapmak evdeki gibi olmuyor ama bu set işi bayağı kolaylaştırıyor. Tenceresi, tavası ve kapakları iç içe geçip küçücük kalıyor. Yapışmaz yüzeyi sayesinde sabah yumurtanı yaptıktan sonra temizlemekle saatlerce uğraşmıyorsun.
 
-*   **Artıları:** Çok az yer kaplıyor ve temizliği çok kolay.
-*   **Eksileri:** İki kişi için ideal ama kalabalık bir arkadaş grubuyla gidiyorsan küçük kalabilir.
+* **Artıları:** Çok az yer kaplıyor ve temizliği çok kolay.
+* **Eksileri:** İki kişi için ideal ama kalabalık bir arkadaş grubuyla gidiyorsan küçük kalabilir.
 
-[Satın Al: GSI Outdoors Bugaboo Tencere Seti](aff://gsi-bugaboo)
+
 
 ### Etekcity LED Kamp Feneri
 Güneş battığında kamp alanında zifiri karanlık çökebilir. Bu feneri çadırın tavanına asıp içeriyi aydınlatabilir ya da dışarıda masanın üstüne koyabilirsin. Işık şiddetini ayarlayabilmen de büyük avantaj.
 
-*   **Artıları:** Uygun fiyatlı, hafif ve katlanabilir olduğu için çantada yer kaplamıyor.
-*   **Eksileri:** Pille çalışıyor, o yüzden yanına mutlaka yedek pil alman lazım.
+* **Artıları:** Uygun fiyatlı, hafif ve katlanabilir olduğu için çantada yer kaplamıyor.
+* **Eksileri:** Pille çalışıyor, o yüzden yanına mutlaka yedek pil alman lazım.
 
-[Satın Al: Etekcity LED Kamp Feneri](aff://etekcity-lantern)
+
 
 ### Coleman Triton 2 Gözlü Ocak
 Eğer "ben öyle tek ocakla uğraşamam, bir yanda yemeğim pişsin bir yanda çayım demlensin" diyorsan bu iki gözlü ocak tam sana göre. Rüzgar koruması sayesinde dışarıda alevin sönmesiyle uğraşmazsın.
 
-*   **Artıları:** Aynı anda iki işi yapabilmek büyük lüks. Oldukça sağlam bir yapısı var.
-*   **Eksileri:** Büyük ve ağır. Arabadan uzaklaşacağın kamplar için hiç uygun değil.
+* **Artıları:** Aynı anda iki işi yapabilmek büyük lüks. Oldukça sağlam bir yapısı var.
+* **Eksileri:** Büyük ve ağır. Arabadan uzaklaşacağın kamplar için hiç uygun değil.
 
-[Satın Al: Coleman Triton 2 Gözlü Ocak](aff://coleman-triton-2)
+
 
 ### MSR PocketRocket 2 Ocak
 Sırt çantalı bir macera düşünüyorsan cebine bile sığacak bu minik canavar senin dostun olur. O kadar küçük olduğuna bakma, suyu inanılmaz hızlı kaynatıyor.
 
-*   **Artıları:** Tüy gibi hafif, her çantaya sığar.
-*   **Eksileri:** Rüzgarda alevi çabuk etkilenebilir, önüne bir set kurman gerekebilir.
+* **Artıları:** Tüy gibi hafif, her çantaya sığar.
+* **Eksileri:** Rüzgarda alevi çabuk etkilenebilir, önüne bir set kurman gerekebilir.
 
-[Satın Al: MSR PocketRocket 2 Ocak](aff://msr-pocketrocket-2)
+
 
 ### Black Diamond Spot 400 Kafa Lambası
 Kampın gizli kahramanı kafa lambasıdır. Karanlıkta yemek karıştırırken veya çadır kurarken iki elinin de serbest olması her şeyi değiştirir. Işığı tam baktığın yere verir.
 
-*   **Artıları:** Farklı ışık modları var, kırmızı ışık modu gece gözünü yormaz.
-*   **Eksileri:** El fenerlerine göre biraz daha pahalı kalabilir ama verdiğin paraya değer.
+* **Artıları:** Farklı ışık modları var, kırmızı ışık modu gece gözünü yormaz.
+* **Eksileri:** El fenerlerine göre biraz daha pahalı kalabilir ama verdiğin paraya değer.
 
-[Satın Al: Black Diamond Spot 400 Kafa Lambası](aff://black-diamond-spot-400)
+
 
 ### Sawyer Squeeze Su Filtresi
 Doğada her bulduğun su güvenli olmayabilir. Sawyer Squeeze, dere suyunu bile güvenle içmeni sağlayan küçük bir cihaz. İçindeki filtre sistemi sayesinde bakterileri temizliyor.
 
-*   **Artıları:** Uzun ömürlü ve çok hafif. Su taşıma derdini azaltır.
-*   **Eksileri:** Virüsleri temizlemediği için sadece şüpheli temiz sularda kullanmak, bataklık sularından uzak durmak lazım.
+* **Artıları:** Uzun ömürlü ve çok hafif. Su taşıma derdini azaltır.
+* **Eksileri:** Virüsleri temizlemediği için sadece şüpheli temiz sularda kullanmak, bataklık sularından uzak durmak lazım.
 
-[Satın Al: Sawyer Squeeze Su Filtresi](aff://sawyer-squeeze)
+
 
 ### Osprey Atmos AG 65 Sırt Çantası
 Tüm bu malzemeleri taşıyacak iyi bir çanta, kampın eziyete mi yoksa keyfe mi dönüşeceğini belirler. Atmos'un sırt sistemi yükü beline o kadar iyi dağıtıyor ki, çantanın ağırlığını çok daha az hissediyorsun.
 
-*   **Artıları:** Sırtının terlemesini engelleyen harika bir hava akış sistemi var.
-*   **Eksileri:** Başlangıç için fiyatı biraz yüksek gelebilir.
+* **Artıları:** Sırtının terlemesini engelleyen harika bir hava akış sistemi var.
+* **Eksileri:** Başlangıç için fiyatı biraz yüksek gelebilir.
 
-[Satın Al: Osprey Atmos AG 65 Sırt Çantası](aff://osprey-atmos-ag-65)
+
 
 ## Arabayla mı gidiyorsun yoksa yürüyecek misin?
 
@@ -128,3 +128,32 @@ Her şeyin en pahalısını almak zorunda değilsin. Önce seni dışarıda tuta
 ## İşin özü: Basit başla
 
 Kamp yapmak aslında hayatı biraz sadeleştirmek demek. O yüzden ilk gecende çok karmaşık sistemlere girmeden, seni sıcak ve kuru tutacak sağlam ekipmanlarla yola çık. En iyi ekipman, depoda duran değil, seni doğaya çıkaran ekipmandır. Hazırlığını yap, hava durumuna bak ve yola çık. Eksik kalan bir şey olursa da dert etme; kampta her şeyin bir çözümü bulunur.
+
+<!-- urun-havuzu -->
+## Sayfada duran ürünler
+
+Aşağıdaki bağlantılar Amazon.com.tr ürün sayfası. Başlık, bu yazının konusuna uyuyor.
+
+Kamp çadırı için Amazon.com.tr sayfasında [PİKAS Rovos 12 Kişilik XXL Şişme Kamp Çadırı | 4 Mevsim Büyük Aile Çadırı | Su Geçirmez](https://www.amazon.com.tr/dp/B0H4LZRW9W?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [4 Kişilik Otomatik Kamp Çadırı, Altıgen, Çift Kapılı, 240 x 240 x 160 cm](https://www.amazon.com.tr/dp/B0HNN1TS37?tag=hobibulsite-21).
+
+Listenin devamında [Kamp Yalıtımlı Mat Outdoor Piknik Çadır Katlanabilir Uyku Matı Yalıtımlı Köpük](https://www.amazon.com.tr/dp/B0FP2SRTZN?tag=hobibulsite-21) var.
+
+Uyku matı için Amazon.com.tr sayfasında [Kamp Yalıtımlı Mat Outdoor Piknik Çadır Katlanabilir Uyku Matı Yalıtımlı Köpük](https://www.amazon.com.tr/dp/B0FP2NQPW2?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Rox 153Rox0103 Tekli Portatif Kamp Ocak Gri (Ekstra Gaz Girişli) 5 Adet Gaz Kartuş](https://www.amazon.com.tr/dp/B0GYPV7V53?tag=hobibulsite-21).
+
+Listenin devamında [Portatif Kamp Ocağı 2.3kW Kırmızı | Taşınabilir Tekli Gazlı Ocak | Rüzgar Geçirmez](https://www.amazon.com.tr/dp/B0GP16YPNQ?tag=hobibulsite-21) var.
+
+Kamp feneri için Amazon.com.tr sayfasında [6'sı 1 Arada Anahtarlık Fener, COB LED Mini El Feneri, Type-C Şarjlı, 7 Aydınlatma](https://www.amazon.com.tr/dp/B0HDRBC2HG?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Orret Home Çok Fonksiyonlu Mini El Feneri – COB Anahtarlık Tipi, 6 Modlu 800 Lümen](https://www.amazon.com.tr/dp/B0FKB9QMS4?tag=hobibulsite-21).
+
+Listenin devamında [CATA Poyraz Şarjlı Led Kafa Feneri Ayarlanabilir Zoom Özellikli 3 Modlu Beyaz Işık](https://www.amazon.com.tr/dp/B0BMQDDQLL?tag=hobibulsite-21) var.
+
+Kamp çadırı için Amazon.com.tr sayfasında [PİKAS Rovos 12 Kişilik XXL Şişme Kamp Çadırı | 4 Mevsim Büyük Aile Çadırı | Su Geçirmez](https://www.amazon.com.tr/dp/B0H4LZRW9W?tag=hobibulsite-21) duruyor.
+
+Aynı işe bakan bir diğeri [Kamp Yalıtımlı Mat Outdoor Piknik Çadır Katlanabilir Uyku Matı Yalıtımlı Köpük](https://www.amazon.com.tr/dp/B0FP2SRTZN?tag=hobibulsite-21).
+
+<!-- /urun-havuzu -->
