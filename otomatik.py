@@ -5,6 +5,7 @@
   python otomatik.py --adet 2         # en fazla 2; günlük kalan daha azsa o kadar
   python otomatik.py --adet 2 --yayinla
   python otomatik.py --konu-listesi   # sıradaki konuları göster (API çağırmaz)
+  python otomatik.py --cesitlilik-plan 7  # önümüzdeki 7 günün kategori planı
 
 Akış: konu seç → Google Autocomplete'ten gerçek Türkçe sorguları çek → Gemini ile yaz
 (yalnızca products.json verisiyle) → kısa veya MAX_TOKENS ile kesik taslakta eksik
@@ -18,6 +19,7 @@ kotasında biten makaleler diskte kalır, çıkış kodu 0 olur; sonraki çalı�
 Ortam değişkenleri: GEMINI_API_KEY, UNSPLASH_ACCESS_KEY, GEMINI_MODEL (ops.), GEMINI_MODEL_YEDEK (ops.), TASLAK_MODU (true/false)
 """
 import argparse
+import copy
 import json
 import os
 import re
@@ -43,6 +45,9 @@ STATIC = os.path.join(ym.BASE, "static")
 LOG_PATH = os.path.join(CONTENT, "uretim_log.json")
 POOL_PATH = os.path.join(CONTENT, "konu_havuzu.json")
 GUNLUK_HEDEF = 3
+# Aynı gün aynı ana kategoriden en fazla bir makale. Son 7 gün ceza penceresidir.
+GUNLUK_KATEGORI_TAVAN = 1
+KATEGORI_CEZA_GUN = 7
 TAMAM_MESAJI = "Bugünün 3 makalesi tamam"
 UA = {"User-Agent": "Mozilla/5.0 (HobiBul-bot)"}
 
@@ -830,7 +835,189 @@ def _adil_sira(gruplar, makale_sayisi, son_uretim):
     return out
 
 
-def topic_queue(products, cats, log=None, articles_dir=None, rapor=None):
+def _slug_kategori_haritasi(articles_dir=None):
+    """Slug -> ana kategori. Brif ve yayındaki makale birlikte okunur."""
+    harita = {}
+    for slug, brief in load_brief_index().items():
+        kat = str((brief or {}).get("kategori") or "").strip()
+        if kat:
+            harita[str(slug)] = kat
+    dizin = articles_dir or ARTICLES
+    if os.path.isdir(dizin):
+        for fn in os.listdir(dizin):
+            if not fn.endswith(".md"):
+                continue
+            try:
+                with open(os.path.join(dizin, fn), encoding="utf-8") as f:
+                    head = f.read(800)
+            except OSError:
+                continue
+            m = re.search(r'(?m)^category:\s*"?([^"\n]+)"?', head)
+            if m:
+                harita[fn[:-3]] = m.group(1).strip()
+    return harita
+
+
+def _kayit_kategorisi(item, harita):
+    if not isinstance(item, dict):
+        return ""
+    yazili = str(item.get("kategori") or "").strip()
+    if yazili:
+        return yazili
+    anahtar = str(item.get("anahtar") or "").strip()
+    parca = anahtar.split(":")
+    if len(parca) >= 3 and parca[0] != "talep":
+        return parca[1]
+    slug = str(item.get("slug") or "").strip()
+    if not slug and parca and parca[0] == "talep" and len(parca) > 1:
+        slug = parca[1]
+    return harita.get(slug, "")
+
+
+def _uretim_kayitlari(log):
+    kayitlar = list(_tarihli_kayitlar(log or {}))
+    for item in (log or {}).get("talep") or []:
+        if isinstance(item, dict) and item.get("durum") in (None, "yazildi"):
+            kayitlar.append(item)
+    return kayitlar
+
+
+def kategori_sayaclari(log, bugun, gun=KATEGORI_CEZA_GUN, harita=None):
+    """Penceredeki ana kategori -> makale sayısı. gun=1 yalnız bugünü sayar."""
+    if not isinstance(bugun, str):
+        bugun = bugun.isoformat()
+    try:
+        bitis = datetime.strptime(bugun, "%Y-%m-%d").date()
+    except ValueError:
+        return Counter()
+    bas = (bitis - timedelta(days=max(0, int(gun) - 1))).isoformat()
+    harita = harita if harita is not None else _slug_kategori_haritasi()
+    sayac = Counter()
+    for item in _uretim_kayitlari(log):
+        tarih = str(item.get("tarih") or "").strip()
+        if not tarih or tarih < bas or tarih > bugun:
+            continue
+        kat = _kayit_kategorisi(item, harita)
+        if kat:
+            sayac[kat] += 1
+    return sayac
+
+
+def bugunun_kategorileri(log, bugun, harita=None):
+    return set(kategori_sayaclari(log, bugun, gun=1, harita=harita))
+
+
+def zayif_alt_kategoriler(rapor=None):
+    """İnlink raporundaki yetim ve makalesiz alt kategoriler. (ana, alt) kümesi."""
+    if rapor is None:
+        rapor = ic_link._json_oku(os.path.join(CONTENT, "inlink_raporu.json"))
+    out = set()
+    if not isinstance(rapor, dict):
+        return out
+    for s in rapor.get("yetimler") or []:
+        if not isinstance(s, dict):
+            continue
+        cat = str(s.get("kategori") or "").strip()
+        sub = str(s.get("alt_kategori") or "").strip() or "_main"
+        if cat:
+            out.add((cat, sub))
+    for s in rapor.get("makalesiz") or []:
+        if not isinstance(s, dict):
+            continue
+        parca = [p for p in str(s.get("yol") or "").strip("/").split("/") if p]
+        if len(parca) >= 2 and parca[0] == "kategori":
+            out.add((parca[1], parca[2] if len(parca) > 2 else "_main"))
+    return out
+
+
+def _cesit_skor(konu, gecmis, makale_sayisi, zayif, sira):
+    """Küçük skor önce gelir. Son 7 gün cezası, sonra boş/zayıf alt kategori."""
+    cat = str(konu.get("cat") or konu.get("kategori") or "")
+    sub = str(konu.get("sub") or konu.get("alt") or "") or "_main"
+    adet = int((makale_sayisi or {}).get((cat, sub), 0) or 0)
+    if adet <= 0:
+        doluluk = 0
+    elif (cat, sub) in (zayif or ()):
+        doluluk = 1
+    else:
+        doluluk = 2
+    return (int((gecmis or {}).get(cat, 0) or 0), doluluk, adet, sira)
+
+
+def konu_denenebilir(key, fails, cat, gecmis):
+    """İki kez elenen konu, kategorisi 7 gündür yazılmadıysa bir kez daha denenir.
+
+    Kalabalık kategorilerin kısa taslağı kuyruğu kilitlemesin; boş kalan
+    kategorinin başlangıç konusu soğuma sonunda yeniden öne gelsin.
+    """
+    n = int((fails or {}).get(key, 0) or 0)
+    if n < 2:
+        return True
+    if n < 3 and int((gecmis or {}).get(cat, 0) or 0) == 0:
+        return True
+    return False
+
+
+def sec_cesitli(adaylar, adet, dolu, gecmis, makale_sayisi, zayif):
+    """Adaylardan en fazla `adet` konu. Aynı ana kategori günde bir kez.
+
+    Doluluk bugün yazılmış kategorilerdir. Cezalı kategori, hiç yazılmamış
+    kategori varken seçilmez; hepsi cezalıysa en az yazılan kazanır.
+    """
+    if adet <= 0:
+        return []
+    kullanilan = set(dolu or ())
+    kalan = list(adaylar or [])
+    secilen = []
+    while len(secilen) < adet and kalan:
+        en_iyi, en_skor, en_i = None, None, None
+        for i, konu in enumerate(kalan):
+            cat = str(konu.get("cat") or konu.get("kategori") or "")
+            if not cat or cat in kullanilan:
+                continue
+            skor = _cesit_skor(konu, gecmis, makale_sayisi, zayif, i)
+            if en_skor is None or skor < en_skor:
+                en_iyi, en_skor, en_i = konu, skor, i
+        if en_iyi is None:
+            break
+        secilen.append(en_iyi)
+        kullanilan.add(str(en_iyi.get("cat") or en_iyi.get("kategori") or ""))
+        kalan.pop(en_i)
+    return secilen
+
+
+def brif_cesitli(briefs, adet, dolu, gecmis):
+    """Öncelik sırasını bozmadan kategoriye uyan brifi seç.
+
+    Yüksek öncelikli brifin kategorisi bugün doluysa veya son 7 günde
+    yazıldıysa atlanmaz, sonraya kalır. Taze kategori varsa önce o brif
+    gelir. Hiç taze yoksa öncelik sırası, bugünün dolu kategorileri hariç.
+    """
+    if adet <= 0:
+        return []
+    dolu = set(dolu or ())
+    elverisli = []
+    for b in briefs or []:
+        kat = str((b or {}).get("kategori") or "").strip()
+        if kat and kat in dolu:
+            continue
+        elverisli.append(b)
+    taze = [b for b in elverisli if not str(b.get("kategori") or "") or int((gecmis or {}).get(b.get("kategori"), 0) or 0) == 0]
+    havuz = taze or elverisli
+    secilen, kullanilan = [], set(dolu)
+    for b in havuz:
+        kat = str(b.get("kategori") or "").strip()
+        if kat and kat in kullanilan:
+            continue
+        secilen.append(b)
+        if kat:
+            kullanilan.add(kat)
+        if len(secilen) >= adet:
+            break
+    return secilen
+
+
+def topic_queue(products, cats, log=None, articles_dir=None, rapor=None, ek_sayim=None):
     """Kategori/alt kategori grupları arasında adil, deterministik üretim sırası.
 
     Önce ticari niyet, sonra havuzun diğer tipleri ve başlangıç setleri. Konusu
@@ -838,6 +1025,8 @@ def topic_queue(products, cats, log=None, articles_dir=None, rapor=None):
     """
     pool, used = load_pool(), set()
     makale_sayisi = _makale_gruplari(articles_dir)
+    for anahtar, ek in (ek_sayim or {}).items():
+        makale_sayisi[anahtar] += int(ek or 0)
     yayin_basliklari = _makale_baslik_kumeleri(articles_dir)
     son_uretim = _son_uretim_gunu(load_log() if log is None else log)
     gruplar = []
@@ -1902,14 +2091,38 @@ def talep_brif_listesi():
     )
 
 
-def talep_brif_sec(briefs, log, makaleler, adet):
-    """Bugünkü arama-talebi kotasının brif kısmı. Düzenli havuzdan okumaz."""
+def talep_brif_sec(briefs, log, makaleler, adet, dolu_kategoriler=None, gecmis=None):
+    """Bugünkü arama-talebi kotasının brif kısmı. Düzenli havuzdan okumaz.
+
+    dolu_kategoriler ve gecmis verilirse aynı gün aynı ana kategori seçilmez.
+    SEO önceliği silinmez: uymayan brif kuyrukta kalır, uyan en öncelikli alınır.
+    """
     if adet <= 0:
         return [], []
     kullanilan = _talep_kullanilan(log)
     yayin = {str(m.get("slug") or "") for m in makaleler or []}
     secilen, guclendir = [], []
     sirali = sorted(briefs or [], key=lambda b: (int(b.get("oncelik") or 9999), str(b.get("slug") or "")))
+    if dolu_kategoriler is not None or gecmis is not None:
+        uygun = []
+        for b in sirali:
+            slug = str(b.get("slug") or "").strip()
+            sorgu = re.sub(r"\s+", " ", str(b.get("sorgu") or "")).strip()
+            if not slug or not sorgu:
+                continue
+            if slug in yayin:
+                continue
+            if any(sorgular_yakin(sorgu, eski) for eski in kullanilan):
+                continue
+            if any(brif_makaleyle_cakisir(b, m) for m in makaleler or []):
+                guclendir.append(sorgu)
+                kullanilan.append(sorgu)
+                continue
+            uygun.append(b)
+        for b in brif_cesitli(uygun, adet, dolu_kategoriler, gecmis):
+            secilen.append(b)
+            kullanilan.append(str(b.get("sorgu") or ""))
+        return secilen, guclendir
     for b in sirali:
         slug = str(b.get("slug") or "").strip()
         sorgu = re.sub(r"\s+", " ", str(b.get("sorgu") or "")).strip()
@@ -2024,7 +2237,12 @@ def talep_uret(log, products, cats, articles_dir, key, models, model_idx, ukey, 
         print(f"Arama talebi: bugünün {hedef} yazısı tamam.")
         return 0
     makaleler = urun_denetim.makale_verileri(articles_dir)
-    brifler, brif_guclendir = talep_brif_sec(talep_brif_listesi(), log, makaleler, kalan)
+    harita = _slug_kategori_haritasi(articles_dir)
+    dolu = bugunun_kategorileri(log, tarih, harita)
+    gecmis = kategori_sayaclari(log, tarih, harita=harita)
+    brifler, brif_guclendir = talep_brif_sec(
+        talep_brif_listesi(), log, makaleler, kalan,
+        dolu_kategoriler=dolu, gecmis=gecmis)
     for sorgu in brif_guclendir:
         anahtar = "talep:" + (ym.slugify(sorgu) or "sorgu")
         for b in talep_brif_listesi():
@@ -2056,7 +2274,8 @@ def talep_uret(log, products, cats, articles_dir, key, models, model_idx, ukey, 
         print(f"Arama talebi bitti: {made} makale.")
         return made
     rows, kaynak = talep_ham_sorgular()
-    secilen, guclendir = talep_sec(rows, log, makaleler, kalan_gsc)
+    # Çeşitlilik elemesi için kotadan geniş aday çek. Seçilmeyen sorgu tüketilmez.
+    secilen, guclendir = talep_sec(rows, log, makaleler, max(kalan_gsc * 8, kalan_gsc))
     for sorgu in guclendir:
         _talep_kaydet(log, sorgu, "guclendir", tarih)
         print(f"! mevcut makaleyi güçlendir: {sorgu}")
@@ -2093,6 +2312,10 @@ def talep_uret(log, products, cats, articles_dir, key, models, model_idx, ukey, 
             "kaynak": "talep",
             "uyeler": kume.get("uyeler") or [],
         })
+    dolu = bugunun_kategorileri(log, tarih, harita)
+    gecmis = kategori_sayaclari(log, tarih, harita=harita)
+    gsc_konu = sec_cesitli(
+        gsc_konu, kalan_gsc, dolu, gecmis, _makale_gruplari(articles_dir), zayif_alt_kategoriler())
     n, dur = _talep_yaz(
         gsc_konu, log, products, key, models, model_idx, ukey, draft, tarih,
         yedek_acik, kalan_gsc, kaynak=kaynak)
@@ -2124,13 +2347,153 @@ def _gecici_mesaji(exc, made):
         print(f"Hata öncesinde {made} makale yazıldı.")
 
 
+def _plan_isle(log, anahtar, slug, tarih, kat, sub, baslik, ek_sayim):
+    """Simülasyonu loga işler. Gerçek dosyaya yazmaz; çağıran kopya verir."""
+    makale_kaydi_ekle(log, anahtar, slug, tarih)
+    for item in log.get("makaleler") or []:
+        if isinstance(item, dict) and item.get("anahtar") == anahtar:
+            item["kategori"] = kat
+            item["baslik"] = baslik
+            break
+    if anahtar.startswith("talep:"):
+        _talep_kaydet(log, baslik, "yazildi", tarih, slug=slug, anahtar=anahtar)
+    ek_sayim[(kat, sub or "_main")] += 1
+
+
+def cesitlilik_plani(gun_sayisi=7, baslangic=None, log=None, products=None, cats=None):
+    """Önümüzdeki günlerin 3 düzenli + 2 talep/brif planı. Gemini çağırmaz.
+
+    Bugün zaten yazı varsa plan yarından başlar. Seçilen konu log kopyasına
+    işlenir; sonraki günün ceza penceresi bunu görür.
+    """
+    log = copy.deepcopy(log if log is not None else load_log())
+    if products is None or cats is None:
+        products, cats = ym.load("products.json"), ym.load("categories.json")
+    if not baslangic:
+        bugun = istanbul_bugun().isoformat()
+        if bugun_uretilen_say(log, bugun) or bugun_talep_say(log, bugun):
+            baslangic = (datetime.strptime(bugun, "%Y-%m-%d").date() + timedelta(days=1)).isoformat()
+        else:
+            baslangic = bugun
+    harita = _slug_kategori_haritasi()
+    ek_sayim = Counter()
+    zayif = zayif_alt_kategoriler()
+    plan = []
+    gun = datetime.strptime(baslangic, "%Y-%m-%d").date()
+    for _ in range(max(1, int(gun_sayisi))):
+        tarih = gun.isoformat()
+        fails = {}
+        for x in log.get("atlanan") or []:
+            if isinstance(x, dict) and x.get("anahtar"):
+                fails[x["anahtar"]] = fails.get(x["anahtar"], 0) + 1
+        done_keys = set(done_anahtarlari(log))
+        have = {fn[:-3] for fn in os.listdir(ARTICLES)} if os.path.isdir(ARTICLES) else set()
+        for item in log.get("makaleler") or []:
+            if isinstance(item, dict) and item.get("slug"):
+                have.add(str(item["slug"]))
+        done_sorgu = {k.rsplit(":", 1)[-1] for k in done_keys if str(k).count(":") >= 3}
+        gecmis = kategori_sayaclari(log, tarih, harita=harita)
+        queue = [
+            t for t in topic_queue(products, cats, log=log, ek_sayim=ek_sayim)
+            if t["key"] not in done_keys and ym.slugify(t.get("title") or "") not in have
+            and t.get("sorgu_slug") not in done_sorgu and t.get("slug") not in have
+            and konu_denenebilir(t["key"], fails, t.get("cat"), gecmis)
+        ]
+        dolu = bugunun_kategorileri(log, tarih, harita)
+        sayim = _makale_gruplari()
+        for anahtar, ek in ek_sayim.items():
+            sayim[anahtar] += ek
+        duzenli = sec_cesitli(queue, GUNLUK_HEDEF, dolu, gecmis, sayim, zayif)
+        for t in duzenli:
+            slug = str(t.get("slug") or "") or ym.slugify(t.get("title") or "")
+            _plan_isle(log, t["key"], slug, tarih, t["cat"], t.get("sub") or "_main", t.get("title") or "", ek_sayim)
+            dolu.add(t["cat"])
+            gecmis[t["cat"]] += 1
+            sayim[(t["cat"], t.get("sub") or "_main")] += 1
+        makaleler = list(urun_denetim.makale_verileri(ARTICLES))
+        for item in log.get("makaleler") or []:
+            if isinstance(item, dict) and item.get("slug"):
+                makaleler.append({"slug": item.get("slug"), "baslik": item.get("baslik") or ""})
+        brifler, _guc = talep_brif_sec(
+            talep_brif_listesi(), log, makaleler, gsc_hedef(),
+            dolu_kategoriler=dolu, gecmis=gecmis)
+        talep = []
+        for b in brifler:
+            kat = str(b.get("kategori") or "")
+            sub = str(b.get("alt") or "") or "_main"
+            baslik = b.get("h1") or b.get("slug")
+            talep.append({
+                "cat": kat, "sub": sub, "title": baslik, "kaynak": "brif",
+                "oncelik": b.get("oncelik"), "slug": b.get("slug"),
+            })
+            _plan_isle(log, "talep:" + str(b.get("slug")), str(b.get("slug")), tarih, kat, sub, baslik, ek_sayim)
+            if kat:
+                dolu.add(kat)
+                gecmis[kat] += 1
+            sayim[(kat, sub)] += 1
+        kalan = gsc_hedef() - len(talep)
+        if kalan > 0:
+            rows, kaynak_ad = talep_ham_sorgular()
+            ham, _guclendir = talep_sec(rows, log, makaleler, max(kalan * 8, kalan))
+            aday = []
+            for kume in ham:
+                eslesen = kategori_eslestir(kume["sorgu"], cats, products)
+                if not eslesen:
+                    continue
+                cat, sub, sub_name, _skor = eslesen
+                plist = urun_denetim.alt_kategori_urunleri(products, cat, sub if sub != "_main" else "_main")
+                if len(plist) < 2:
+                    continue
+                aday.append({
+                    "cat": cat, "sub": sub, "sub_name": sub_name, "title": kume["baslik"],
+                    "sorgu": kume["sorgu"], "key": kume["anahtar"], "kaynak": kaynak_ad,
+                })
+            for t in sec_cesitli(aday, kalan, dolu, gecmis, sayim, zayif):
+                talep.append(t)
+                _plan_isle(
+                    log, t["key"], ym.slugify(t.get("title") or t["key"]), tarih,
+                    t["cat"], t.get("sub") or "_main", t.get("title") or "", ek_sayim)
+        plan.append({"tarih": tarih, "duzenli": duzenli, "talep": talep})
+        gun += timedelta(days=1)
+    return plan
+
+
+def cesitlilik_plani_yaz(plan, cats=None):
+    """Planı düz metin olarak basar. PR açıklamasına da bu metin konur."""
+    ad = {}
+    for c in cats or []:
+        ad[c.get("id")] = c.get("name") or c.get("id")
+    satirlar = []
+    for gun in plan:
+        satirlar.append(gun["tarih"])
+        for t in gun["duzenli"]:
+            kat = ad.get(t.get("cat"), t.get("cat"))
+            satirlar.append(f"  düzenli  {kat} / {t.get('sub')}  {t.get('title')}")
+        for t in gun["talep"]:
+            kat = ad.get(t.get("cat"), t.get("cat"))
+            kaynak = t.get("kaynak") or "talep"
+            satirlar.append(f"  {kaynak:8} {kat} / {t.get('sub')}  {t.get('title')}")
+        if not gun["duzenli"] and not gun["talep"]:
+            satirlar.append("  (bu gün için uygun konu kalmadı)")
+    metin = "\n".join(satirlar)
+    print(metin)
+    return metin
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--adet", type=int, default=GUNLUK_HEDEF)
     ap.add_argument("--yayinla", action="store_true", help="taslak yerine yayına hazır yaz")
     ap.add_argument("--taslak", action="store_true")
     ap.add_argument("--konu-listesi", action="store_true")
+    ap.add_argument("--cesitlilik-plan", type=int, default=0,
+                    help="Önümüzdeki N günün konu planını bas. Üretmez.")
     a = ap.parse_args()
+    if a.cesitlilik_plan:
+        products, cats = ym.load("products.json"), ym.load("categories.json")
+        plan = cesitlilik_plani(a.cesitlilik_plan, products=products, cats=cats)
+        cesitlilik_plani_yaz(plan, cats)
+        return
 
     ym.load_env()
     log = load_log()
@@ -2150,9 +2513,11 @@ def main():
     done_keys = set(done_anahtarlari(log))
     done_sorgu = {k.rsplit(":", 1)[-1] for k in done_keys if k.count(":") >= 3}
     rapor = {}
+    gecmis_bugun = kategori_sayaclari(log, bugun)
     queue = [t for t in topic_queue(products, cats, log=log, rapor=rapor)
              if t["key"] not in done_keys and ym.slugify(t["title"]) not in have
-             and t.get("sorgu_slug") not in done_sorgu and fails.get(t["key"], 0) < 2]
+             and t.get("sorgu_slug") not in done_sorgu
+             and konu_denenebilir(t["key"], fails, t.get("cat"), gecmis_bugun)]
     if rapor.get("benzer"):
         print(f"! benzer başlık: {rapor['benzer']} konu kuyruğa alınmadı; sıra başka konuya geçti")
     if rapor.get("bozuk_baslik"):
@@ -2205,10 +2570,20 @@ def main():
 
 
 def _duzenli_uret(queue, adet, products, key, models, model_idx, ukey, log, draft, bugun, yedek_acik):
+    """Günde en fazla bir konu aynı ana kategoriden. Son 7 gün cezalıdır."""
     made, tried = 0, 0
-    for t in queue:
-        if made >= adet or tried >= max(GUNLUK_HEDEF, adet * 4):
+    haric = set()
+    zayif = zayif_alt_kategoriler()
+    sayim = _makale_gruplari()
+    harita = _slug_kategori_haritasi()
+    while made < adet and tried < max(18, adet * 6):
+        gecmis = kategori_sayaclari(log, bugun, harita=harita)
+        dolu = bugunun_kategorileri(log, bugun, harita)
+        aday = [t for t in queue if t.get("key") not in haric]
+        secim = sec_cesitli(aday, 1, dolu, gecmis, sayim, zayif)
+        if not secim:
             break
+        t = secim[0]
         tried += 1
         print(f"→ {t['title']}")
         try:
@@ -2225,15 +2600,17 @@ def _duzenli_uret(queue, adet, products, key, models, model_idx, ukey, log, draf
         if res:
             slug, n, has_img, tarih = res
             makale_kaydi_ekle(log, t["key"], slug, tarih)
+            sub = "" if t.get("sub") in (None, "", "_main") else t["sub"]
+            sayim[(t.get("cat"), sub or "_main")] += 1
             made += 1
             save_log(log)
             print(f"  ✓ {slug}  ({n} kelime, {'taslak' if draft else 'yayın'}, görsel: {'Unsplash' if has_img else 'kategori'})")
-            sub = "" if t.get("sub") in (None, "", "_main") else t["sub"]
             ctas = deeplink.shop_ctas_for(t["cat"], sub)
             dugmeler = list(ctas["links"]) + list(ctas.get("offers") or [])
             if dugmeler:
                 print("  ✓ mağaza CTA: " + ", ".join(c["label"] for c in dugmeler))
         else:
+            haric.add(t.get("key"))
             log["atlanan"].append({"anahtar": t["key"], "neden": why, "tarih": bugun})
             save_log(log)
             print(f"  ✗ atlandı: {why}")
