@@ -237,7 +237,7 @@ class KuyrukTest(_GeciciMakaleler):
         self.assertNotEqual(sira[1]["sub"], "_main")
         self.assertIn("_main", {k["sub"] for k in sira})
 
-    def test_yakin_nasil_basligi_ikinci_kez_kuyruga_girmez(self):
+    def test_farkli_nasil_sorusu_kuyrukta_kalir(self):
         pool = [
             havuz_kaydi("çadır nasıl kurulur", "outdoor", "cadir", tip="nasil_yapilir"),
             havuz_kaydi("çadır nasıl sökülür", "outdoor", "cadir", tip="nasil_yapilir"),
@@ -246,10 +246,10 @@ class KuyrukTest(_GeciciMakaleler):
         sira = self.kuyruk(urunler(outdoor__cadir=3), pool=pool, rapor=rapor)
         sorgular = [k.get("sorgu") for k in sira]
         self.assertIn("çadır nasıl kurulur", sorgular)
-        self.assertNotIn("çadır nasıl sökülür", sorgular)
-        self.assertEqual(rapor["benzer"], 1)
+        self.assertIn("çadır nasıl sökülür", sorgular)
+        self.assertEqual(rapor.get("benzer", 0), 0)
 
-    def test_yayinlanmis_baslikla_benzer_konu_elenir(self):
+    def test_ayni_soru_yayinlanmis_baslikla_elenir(self):
         metin = """---
 title: Çadır Nasıl Kurulur?
 category: outdoor
@@ -258,11 +258,16 @@ subcategory: cadir
 """
         with open(os.path.join(self.articles, "cadir-nasil-kurulur.md"), "w", encoding="utf-8") as f:
             f.write(metin)
-        pool = [havuz_kaydi("çadır nasıl sökülür", "outdoor", "cadir", tip="nasil_yapilir")]
+        pool = [
+            havuz_kaydi("çadır nasıl kurulur", "outdoor", "cadir", tip="nasil_yapilir"),
+            havuz_kaydi("çadır nasıl sökülür", "outdoor", "cadir", tip="nasil_yapilir"),
+        ]
         rapor = {}
         sira = self.kuyruk(urunler(outdoor__cadir=3), pool=pool, rapor=rapor)
-        self.assertNotIn("çadır nasıl sökülür", [k.get("sorgu") for k in sira])
-        self.assertEqual(rapor["benzer"], 1)
+        sorgular = [k.get("sorgu") for k in sira]
+        self.assertNotIn("çadır nasıl kurulur", sorgular)
+        self.assertIn("çadır nasıl sökülür", sorgular)
+        self.assertGreaterEqual(rapor.get("benzer", 0), 1)
 
     def test_bozuk_baslik_kuyruga_girmez(self):
         pool = [

@@ -204,11 +204,15 @@ def gemini_yaniti(data):
     return GeminiYazi("".join(texts).strip(), finish, usage)
 
 
+def _gemini_metin(msg):
+    """Hata metninden anahtar benzeri dizileri düşür. Anahtar loga yazılmaz."""
+    return re.sub(r"AIza[0-9A-Za-z_\-]{8,}", "[anahtar]", str(msg or ""))[:300]
+
+
 def call_gemini(prompt, key, model):
     url = f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent"
     basamak = 0
     attempt = 0
-    last_err = ""
     while attempt < 5:
         max_tok = CIKTI_TOKEN_BASAMAKLARI[min(basamak, len(CIKTI_TOKEN_BASAMAKLARI) - 1)]
         body = json.dumps({
@@ -223,7 +227,7 @@ def call_gemini(prompt, key, model):
                 time.sleep(wait_needed)
             _last_call[0] = time.time()
         try:
-            with urllib.request.urlopen(req, timeout=180) as r:
+            with urllib.request.urlopen(req, timeout=90) as r:
                 data = json.loads(r.read().decode("utf-8"))
             yanit = gemini_yaniti(data)
             if yanit.finish_reason == "MAX_TOKENS":
@@ -240,30 +244,21 @@ def call_gemini(prompt, key, model):
                 print(f"  maxOutputTokens={max_tok} bu modelde yüksek; {CIKTI_TOKEN_BASAMAKLARI[basamak]} deneniyor")
                 continue
             if e.code == 429 and _gunluk_kota(msg):
-                raise GeminiQuotaError(f"Gemini günlük kotası doldu ({model}): {msg}")
-            if e.code == 429 and attempt < 2:
-                print("  API 429 (dakikalık sınır), 65 sn bekleniyor…")
-                time.sleep(65)
-                attempt += 1
-                continue
-            if e.code in (500, 503) and attempt < 4:
-                wait = 20 * (attempt + 1)
-                print(f"  API {e.code}, {wait} sn bekleniyor…")
-                time.sleep(wait)
+                raise GeminiQuotaError(f"Gemini günlük kotası doldu ({model}): {_gemini_metin(msg)}")
+            # 503/429/5xx aynı modelde uzunca beklenmez. Bir kısa deneme, sonra
+            # çağıran yedek modele geçer.
+            if e.code in (429, 500, 502, 503, 504) and attempt < 1:
+                print(f"  API {e.code}, 2 sn sonra aynı model bir kez daha deneniyor")
+                time.sleep(2)
                 attempt += 1
                 continue
             raise GeminiError(
-                f"Gemini hatası {e.code}: {msg} (Model adı eskimiş olabilir: GEMINI_MODEL değerini AI Studio'dan kontrol et.)")
+                f"Gemini hatası {e.code}: {_gemini_metin(msg)} "
+                "(Model adı eskimiş olabilir: GEMINI_MODEL değerini AI Studio'dan kontrol et.)")
         except (TimeoutError, urllib.error.URLError, ConnectionError, OSError) as e:
-            last_err = str(e)
-            if attempt < 4:
-                wait = 15 * (attempt + 1)
-                print(f"  Bağlantı sorunu ({type(e).__name__}: {last_err}), {wait} sn bekleniyor…")
-                time.sleep(wait)
-                attempt += 1
-                continue
-            attempt += 1
-    raise GeminiError(f"Gemini yanıt vermedi (bağlantı sorunu: {last_err or 'bilinmiyor'}).")
+            raise GeminiError(
+                f"Gemini yanıt vermedi ({type(e).__name__}: {_gemini_metin(e)}).") from e
+    raise GeminiError("Gemini yanıt vermedi.")
 
 
 def validate(body, prods):
