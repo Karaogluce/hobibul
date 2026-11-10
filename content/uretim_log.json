@@ -45,7 +45,8 @@
   "sss:koleksiyon:lego-model",
   "sss:muzik:dj-produksiyon",
   "sss:bahce-bitki:bonsai:bonsai-nasil-toprak-sever",
-  "rehber:evcil-hayvan:akvaryum"
+  "rehber:evcil-hayvan:akvaryum",
+  "yeni_baslayan:bahce-bitki:bonsai"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -90,7 +91,8 @@
   "NGC14MIxTEw",
   "pNs2Rubybng",
   "BduDcrySLKM",
-  "_LWxQJFgpyo"
+  "_LWxQJFgpyo",
+  "PVAVLhL1JLs"
  ],
  "atlanan": [
   {
@@ -1074,6 +1076,11 @@
    "anahtar": "rehber:evcil-hayvan:akvaryum",
    "tarih": "2026-11-09",
    "slug": "en-iyi-akvaryum-balik-ekipmanlari-2026-alim-rehberi"
+  },
+  {
+   "anahtar": "yeni_baslayan:bahce-bitki:bonsai",
+   "tarih": "2026-11-10",
+   "slug": "bonsai-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar"
   }
  ],
  "talep": [
