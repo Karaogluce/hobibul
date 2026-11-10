@@ -57,7 +57,7 @@
     ],
     "focus_keyword": "erkekler için hobiler",
     "kategori": "teknoloji",
-    "alt": "3d-yazici",
+    "alt": "_main",
     "tip": "ticari",
     "urunler": [
       "creality-ender-3-v3",
@@ -263,7 +263,7 @@
     ],
     "focus_keyword": "hobi odası eşyaları",
     "kategori": "el-sanatlari",
-    "alt": "resim-boyama",
+    "alt": "_main",
     "tip": "nasil_yapilir",
     "urunler": [
       "magnifier-lamp",
@@ -295,7 +295,7 @@
     ],
     "focus_keyword": "hobi eşyaları satan yerler",
     "kategori": "el-sanatlari",
-    "alt": "orgu-tig",
+    "alt": "_main",
     "tip": "nasil_yapilir",
     "urunler": [
       "clover-amour-hook",
@@ -408,7 +408,7 @@
     ],
     "focus_keyword": "sevgiliyle evde yapılacak hobiler",
     "kategori": "yemek-mutfak",
-    "alt": "kahve",
+    "alt": "_main",
     "tip": "nasil_yapilir",
     "urunler": [
       "hario-v60-dripper",
@@ -442,7 +442,7 @@
     ],
     "focus_keyword": "emekli erkekler için hobiler",
     "kategori": "bahce-bitki",
-    "alt": "bonsai",
+    "alt": "_main",
     "tip": "ticari",
     "urunler": [
       "bonsai-alet-seti-10-parca",

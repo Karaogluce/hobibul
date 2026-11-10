@@ -169,6 +169,34 @@ class SecimTest(unittest.TestCase):
         self.assertIn("## Sıkça Sorulan Sorular", metin)
         self.assertIn("# Brief #18:", metin)
 
+    def test_ham_anahtar_dogal_basliga_donusur_ve_anlamsiz_elenir(self):
+        self.assertEqual(
+            otomatik.baslik_kur("barista kahve nasıl"),
+            "Barista Gibi Evde Kahve Nasıl Yapılır?")
+        self.assertEqual(otomatik.baslik_kur("model auto lego"), "LEGO Model Araba Setleri")
+        self.assertEqual(otomatik.baslik_kur("gitar nasıl öğrenilir"), "Gitar Nasıl Öğrenilir?")
+        self.assertEqual(otomatik.baslik_kur("drone nasıl yapılır"), "")
+        self.assertEqual(otomatik.baslik_kur("lego model a"), "")
+        self.assertEqual(otomatik.baslik_kur("lego model airport"), "")
+
+    def test_genel_brif_ince_alt_kategoriden_cikar(self):
+        brief = {
+            "slug": "emekliler-icin-hobiler",
+            "h1": "Emekliler ve Yaşlılar İçin 20 Hobi: Zihni ve Bedeni Aktif Tutan Fikirler",
+            "sorgu": "emekli erkekler için hobiler",
+            "meta_description": "Emekliler için hobiler: bahçe, bonsai, balık ve kutu oyunu.",
+            "kategori": "bahce-bitki",
+            "alt": "bonsai",
+        }
+        cats = [{"id": "bahce-bitki", "name": "Bahçe & Bitki"},
+                {"id": "koleksiyon", "name": "Koleksiyon"}]
+        yer = otomatik.brief_yerini_duzelt(brief, cats)
+        self.assertEqual(yer["kategori"], "bahce-bitki")
+        self.assertEqual(yer["alt"], "_main")
+        spesifik = {"h1": "Amigurumi Başlangıç Seti", "sorgu": "amigurumi seti",
+                    "kategori": "el-sanatlari", "alt": "orgu-tig"}
+        self.assertEqual(otomatik.brief_yerini_duzelt(spesifik, cats)["alt"], "orgu-tig")
+
     def test_talep_makaleleri_duzenli_kotayi_doldurmaz(self):
         log = {"done": [], "makaleler": [
             {"anahtar": "talep:akvaryum-cesitleri", "tarih": "2026-11-04", "slug": "a"},

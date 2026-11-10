@@ -349,15 +349,70 @@ def load_pool():
     return data if isinstance(data, list) else []
 
 
-def dogal_baslik(sorgu):
-    s = re.sub(r"\s+", " ", str(sorgu)).strip().strip("?.!").strip()
-    if not s:
+# Satılan hazır ürün. "Nasıl yapılır" bunu üretmek demek; montaj/kit değilse yazılmaz.
+_SATILAN_YAPILIR = {"drone", "gitar", "lego", "kamera", "telefon", "mouse", "klavye"}
+_YAPILIR_ISTISNA = ("montaj", "kendin", "kit", "diy")
+_ING_ATLA = {"airplane", "airport", "audi", "the", "how", "what", "best", "auto"}
+_NASIL_FIIL = re.compile(
+    r"\b(yapılır|yapilir|seçilir|secilir|kullanılır|kullanilir|bakılır|bakilir|"
+    r"öğrenilir|ogrenilir|temizlenir|giderilir|olmalı|olmali|bağlanır|baglanir|"
+    r"uçurulur|ucurulur|çalınır|calinir|kurulur|sökülür|sokulur|tutulur|akort|"
+    r"alınır|alinir|kurulur)\b",
+    re.I,
+)
+# Demografik veya çok hobili listeler. İnce bir alt kategoriye yapışmaz.
+_GENEL_HOBI = re.compile(
+    r"(için hobiler|için hobi\b|hobi setleri|hobi öner|yapılacak hobi|"
+    r"hobi odası|hobi eşya|hangi hobi|emekli|yaşlılar için)",
+    re.I,
+)
+
+
+def _sorgu_kat(sorgu):
+    return re.sub(r"\s+", " ", str(sorgu or "")).strip().strip("?.!").translate(TR_KUCUK).lower()
+
+
+def baslik_kur(sorgu):
+    """Ham anahtarı doğal Türkçe başlığa çevir. Olmazsa boş döner; o konu yazılmaz.
+
+    'barista kahve nasıl' bir cümle olur. 'model auto lego' LEGO araba setidir.
+    'drone nasıl yapılır' drone üretmek demektir; sitede satılan drone için yazılmaz.
+    """
+    low = _sorgu_kat(sorgu)
+    if not low:
         return ""
-    s = {"i": "İ", "ı": "I"}.get(s[0], s[0].upper()) + s[1:]
-    s = re.sub(r"\b(nedir)\s+(nasıl)\b", r"\1, \2", s, flags=re.I)
-    if re.search(r"\b(nasıl|nedir|hangi|mi|mı|mu|mü)\b", s, re.I) and not s.endswith("?"):
-        s += "?"
-    return s
+    tokens = low.split()
+    if len(tokens[-1]) == 1 or tokens[-1] in {"avm"}:
+        return ""
+    if re.search(r"\bboykot\b", low):
+        return ""
+    if low in {"model auto lego", "lego model auto", "lego model araba", "lego araba modeli"}:
+        return "LEGO Model Araba Setleri"
+    if low in {"barista kahve nasıl", "barista kahve nasil", "kahve barista nasıl", "kahve barista nasil"}:
+        return "Barista Gibi Evde Kahve Nasıl Yapılır?"
+    if re.search(r"\bnasıl yapılır\b|\bnasil yapilir\b", low):
+        if any(w in tokens for w in _SATILAN_YAPILIR) and not any(k in low for k in _YAPILIR_ISTISNA):
+            return ""
+    if re.search(r"\bnasıl\b|\bnasil\b", low) and not _NASIL_FIIL.search(low):
+        return ""
+    cevir = {"auto": "araba", "car": "araba", "airplane": "uçak", "plane": "uçak"}
+    tokens = [cevir.get(t, t) for t in tokens]
+    if any(t in _ING_ATLA for t in tokens):
+        return ""
+    sozcuk = []
+    for t in tokens:
+        if t == "lego":
+            sozcuk.append("LEGO")
+        else:
+            sozcuk.append(_tr_kelime(t))
+    baslik = " ".join(sozcuk)
+    if re.search(r"\b(nasıl|nedir|hangi|nereden)\b", baslik, re.I) and not baslik.endswith("?"):
+        baslik += "?"
+    return baslik
+
+
+def dogal_baslik(sorgu):
+    return baslik_kur(sorgu)
 
 
 # Ürün listesini tam kapsaması gereken tipler. Bu tiplerde alt kategori için
@@ -687,6 +742,10 @@ def havuz_konulari(products, c, pool, used, basliklar=None, rapor=None):
         if not sorgu or (not gevsek and cop_mu(sorgu)):
             continue
         title = str(e.get("h1") or "").strip() or dogal_baslik(sorgu)
+        if not title:
+            if rapor is not None:
+                rapor["anlamsiz"] = rapor.get("anlamsiz", 0) + 1
+            continue
         plist = _plist_for_entry(products, c["id"], sub, e, tip)
         if len(plist) < _gerekli_urun(tip):
             continue
@@ -796,6 +855,8 @@ def ticari_konulari(products, c, pool, used):
         if not sorgu:
             continue
         title = str(e.get("h1") or "").strip() or dogal_baslik(sorgu)
+        if not title:
+            continue
         plist = _plist_for_entry(products, c["id"], sub, e, TICARI_TIP)
         ekle(f"ticari:{c['id']}:{sub}:{str(e.get('slug') or '').strip() or ym.slugify(sorgu)}",
              sub, subs[sub], plist, title, sorgu, "havuz", e)
@@ -1049,6 +1110,7 @@ def alt_son_gunleri(log=None, articles_dir=None):
         if tarih > out.get((cat, sub), ""):
             out[(cat, sub)] = tarih
 
+    slug_yer = {}
     for item in _uretim_kayitlari(log or {}):
         if not isinstance(item, dict):
             continue
@@ -1056,6 +1118,9 @@ def alt_son_gunleri(log=None, articles_dir=None):
         parca = str(item.get("anahtar") or "").split(":")
         if len(parca) >= 3 and parca[0] != "talep":
             yaz(parca[1], parca[2], tarih)
+            slug = str(item.get("slug") or "").strip()
+            if slug:
+                slug_yer[slug] = (parca[1], parca[2])
         elif item.get("kategori"):
             yaz(item.get("kategori"), item.get("alt") or item.get("sub") or "_main", tarih)
     dizin = articles_dir or ARTICLES
@@ -1071,7 +1136,12 @@ def alt_son_gunleri(log=None, articles_dir=None):
             tarih = re.search(r'(?m)^date:\s*"?([^"\n]+)"?', head)
             cat = re.search(r'(?m)^category:\s*"?([^"\n]+)"?', head)
             sub = re.search(r'(?m)^subcategory:\s*"?([^"\n]+)"?', head)
-            if tarih and cat:
+            if not (tarih and cat):
+                continue
+            slug = fn[:-3]
+            if slug in slug_yer and not (sub and sub.group(1).strip()):
+                yaz(slug_yer[slug][0], slug_yer[slug][1], tarih.group(1))
+            else:
                 yaz(cat.group(1), sub.group(1) if sub else "", tarih.group(1))
     return out
 
@@ -1989,13 +2059,10 @@ def _tr_kelime(word):
 
 
 def talep_basligi(sorgu):
-    """Sorgunun doğal Türkçe H1'i. Kısa kalan sorguya seçim eki eklenir."""
-    s = re.sub(r"\s+", " ", str(sorgu or "")).strip().strip("?.!")
-    if not s:
+    """Sorgunun doğal Türkçe H1'i. Anlamlı başlık çıkmazsa boş döner."""
+    baslik = baslik_kur(sorgu)
+    if not baslik:
         return ""
-    baslik = " ".join(_tr_kelime(w) for w in s.split())
-    if re.search(r"\b(nasıl|nedir|hangi|nereden)\b", baslik, re.I) and not baslik.endswith("?"):
-        baslik += "?"
     if baslik_bozuk(baslik):
         ek = baslik.rstrip("?")
         baslik = f"{ek}: Seçim Rehberi"
@@ -2161,11 +2228,16 @@ def kategori_eslestir(sorgu, cats, products=None):
         for sid, name in secenek:
             if not sid:
                 continue
+            ad_token = [w for w in _sorgu_kat(name).replace("&", " ").replace("-", " ").split() if len(w) >= 4]
+            sorgu_kat = _sorgu_kat(sorgu)
+            ad_geciyor = any(re.search(rf"(?<![a-z0-9]){re.escape(w)}(?![a-z0-9])", sorgu_kat) for w in ad_token)
+            if sid != "_main" and not ad_geciyor:
+                continue
             blob = _govde_kume(_talep_govde(f"{name} {str(sid).replace('-', ' ')} {c.get('name') or ''}"))
             skor = len(q & blob)
             if skor < 1:
                 continue
-            ozel = 0 if sid == "_main" else 1
+            ozel = 1 if sid == "_main" else 0
             adaylar.append((skor, ozel, c.get("id"), sid, name or sid))
     adaylar.sort(key=lambda x: (x[0], x[1]), reverse=True)
     for skor, _ozel, cat, sid, name in adaylar:
@@ -2267,10 +2339,56 @@ def brif_makaleyle_cakisir(brief, makale):
     return False
 
 
+def _genel_hobi_mi(brief):
+    """Demografik veya çok konulu hobi listesi. Tek bir zanaatin adı değil."""
+    metin = " ".join(str(brief.get(k) or "") for k in ("h1", "sorgu", "focus_keyword"))
+    return bool(_GENEL_HOBI.search(metin))
+
+
+def _en_iyi_ana_kategori(brief, cats):
+    """Başlık ve açıklamadaki ana kategori adı. Alt kategori adı puan almaz."""
+    metin = _sorgu_kat(" ".join(str(brief.get(k) or "") for k in (
+        "h1", "sorgu", "meta_description", "focus_keyword")))
+    en_iyi, en_skor = "", 0
+    for c in cats or []:
+        parca = _sorgu_kat(c.get("name") or "").replace("&", " ").split()
+        skor = sum(1 for w in parca if len(w) >= 5 and re.search(rf"(?<![a-z0-9]){re.escape(w)}(?![a-z0-9])", metin))
+        if skor > en_skor:
+            en_iyi, en_skor = c.get("id") or "", skor
+    return en_iyi
+
+
+def brief_yerini_duzelt(brief, cats=None):
+    """Genel hobi listesini ince alt kategoriden çıkarıp ana kategoriye alır.
+
+    'Emekliler için hobiler' bonsai değildir. Alt kategori adı başlıkta yoksa
+    yazı o kategorinin genel sayfasına gider.
+    """
+    if not isinstance(brief, dict) or not _genel_hobi_mi(brief):
+        return brief
+    if cats is None:
+        try:
+            cats = ym.load("categories.json")
+        except Exception:
+            cats = []
+    cat = _en_iyi_ana_kategori(brief, cats) or str(brief.get("kategori") or "")
+    yeni = dict(brief)
+    yeni["kategori"] = cat or yeni.get("kategori")
+    yeni["alt"] = "_main"
+    return yeni
+
+
 def talep_brif_listesi():
-    """SEO brifleri, küçük oncelik önce. Yılbaşı 1'dir."""
+    """SEO brifleri, küçük oncelik önce. Yılbaşı 1'dir.
+
+    Genel listeler ince alt kategoriden ana kategoriye alınır.
+    """
+    try:
+        cats = ym.load("categories.json")
+    except Exception:
+        cats = []
     return sorted(
-        load_brief_index().values(),
+        (brief_yerini_duzelt(b, cats) for b in load_brief_index().values()),
         key=lambda b: (int(b.get("oncelik") or 9999), str(b.get("slug") or "")),
     )
 
@@ -2332,14 +2450,19 @@ def talep_brif_sec(briefs, log, makaleler, adet, dolu_kategoriler=None, gecmis=N
 
 def _brif_konusu(brief, cats, products):
     """Brifi talep konusu yap. Ürünler brifteki kimliklerdir."""
+    brief = brief_yerini_duzelt(brief, cats)
     cat = str(brief.get("kategori") or "").strip()
-    sub = str(brief.get("alt") or "").strip()
+    sub = str(brief.get("alt") or "").strip() or "_main"
     cat_rec = next((c for c in cats or [] if c.get("id") == cat), None)
     if not cat_rec:
         return None
-    sub_rec = next((s for s in cat_rec.get("subcategories") or [] if s.get("id") == sub), None)
-    if not sub_rec:
-        return None
+    if sub == "_main":
+        sub_name = cat_rec.get("name") or cat
+    else:
+        sub_rec = next((s for s in cat_rec.get("subcategories") or [] if s.get("id") == sub), None)
+        if not sub_rec:
+            return None
+        sub_name = sub_rec.get("name") or sub
     plist = _gecerli_urunler(products, brief.get("urunler") or [])
     if len(plist) < _gerekli_urun("talep"):
         return None
@@ -2350,7 +2473,7 @@ def _brif_konusu(brief, cats, products):
         "cat": cat,
         "cat_name": cat_rec.get("name") or cat,
         "sub": sub,
-        "sub_name": sub_rec.get("name") or sub,
+        "sub_name": sub_name,
         "ids": [p["id"] for p in plist],
         "title": str(brief.get("h1") or "").strip() or talep_basligi(brief.get("sorgu")),
         "slug": slug,
@@ -2668,6 +2791,8 @@ def _gun_ozeti(bugun, log, rapor, duzenli_kosu, talep_kosu, api_durdu):
         nedenler.append(f"benzer başlık {rapor['benzer']}")
     if rapor.get("bozuk_baslik"):
         nedenler.append(f"bozuk başlık {rapor['bozuk_baslik']}")
+    if rapor.get("anlamsiz"):
+        nedenler.append(f"anlamlı başlık çıkmayan {rapor['anlamsiz']}")
     if api_durdu:
         nedenler.append("Gemini modelleri yanıt vermedi; kalan sonraki çalışmaya kaldı")
     if duzenli < GUNLUK_HEDEF and not api_durdu:
