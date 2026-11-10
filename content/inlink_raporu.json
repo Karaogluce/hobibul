@@ -1,11 +1,11 @@
 {
  "tanim": "govde_gelen, başka bir makalenin gövdesinden gelen benzersiz iç linktir. Üst menü, altbilgi ve ekmek kırıntısı bu sayıda yoktur. yetim: yayındaki makale ya da içinde makalesi olan kategori sayfası, govde_gelen 0 veya 1 ise. Makalesi olmayan kategori sayfası menüden ulaşılır; alakasız gövde linki eklenmez ve makalesiz listesindedir. toplam_gelen, üretilmiş HTML içindeki diğer sayfalardan gelen benzersiz linktir. tik, ana sayfadan tıklama derinliğidir. gsc_oncelik, analytics_gsc.json içinde ortalama pozisyonu 8-20 olan sorguya denk sayfadır; dosya yoksa veya ok değilse boş kalır.",
  "ozet": {
-  "makale": 69,
+  "makale": 71,
   "kategori": 82,
-  "yetim_makale": 31,
+  "yetim_makale": 33,
   "yetim_kategori": 21,
-  "yetim": 52,
+  "yetim": 54,
   "makalesiz_kategori": 37,
   "sitemap_linksiz": [],
   "uc_tik_disi": [],
@@ -33,7 +33,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "",
    "govde_gelen": 0,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -45,7 +45,7 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "",
    "govde_gelen": 0,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -63,13 +63,25 @@
    "govde_kaynaklar": []
   },
   {
+   "yol": "/makale/akvaryum-balik-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/",
+   "tur": "makale",
+   "baslik": "Akvaryum & Balık İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "akvaryum",
+   "govde_gelen": 0,
+   "toplam_gelen": 165,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
    "yol": "/makale/bonsai-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/",
    "tur": "makale",
    "baslik": "Bonsai İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 0,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -81,7 +93,7 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -105,7 +117,7 @@
    "kategori": "muzik",
    "alt_kategori": "dj-produksiyon",
    "govde_gelen": 0,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -129,7 +141,7 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bahcecilik",
    "govde_gelen": 0,
-   "toplam_gelen": 163,
+   "toplam_gelen": 4,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -141,7 +153,7 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "resim-boyama",
    "govde_gelen": 0,
-   "toplam_gelen": 163,
+   "toplam_gelen": 11,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -225,7 +237,7 @@
    "kategori": "teknoloji",
    "alt_kategori": "raspberry-pi-elektronik",
    "govde_gelen": 0,
-   "toplam_gelen": 5,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -237,8 +249,8 @@
    "kategori": "teknoloji",
    "alt_kategori": "",
    "govde_gelen": 0,
-   "toplam_gelen": 14,
-   "tik": 1,
+   "toplam_gelen": 7,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -371,7 +383,7 @@
    "kategori": "sanat",
    "alt_kategori": "",
    "govde_gelen": 1,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -511,7 +523,7 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 1,
-   "toplam_gelen": 6,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -539,7 +551,7 @@
    "kategori": "teknoloji",
    "alt_kategori": "drone",
    "govde_gelen": 1,
-   "toplam_gelen": 11,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -651,7 +663,7 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "kopek-bakimi",
    "govde_gelen": 1,
-   "toplam_gelen": 8,
+   "toplam_gelen": 4,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -684,6 +696,20 @@
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
+   ]
+  },
+  {
+   "yol": "/makale/raspberry-pi-elektronik-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
+   "tur": "makale",
+   "baslik": "Raspberry Pi & Elektronik Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
+   "kategori": "teknoloji",
+   "alt_kategori": "raspberry-pi-elektronik",
+   "govde_gelen": 1,
+   "toplam_gelen": 165,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/raspberry-pi-5-baslangic-kiti/"
    ]
   },
   {
@@ -874,7 +900,7 @@
    "yol": "/kategori/seyahat-gezi/",
    "baslik": "Seyahat & Gezi",
    "govde_gelen": 0,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1
   },
   {
@@ -909,7 +935,7 @@
    "yol": "/kategori/yazilim-kodlama/",
    "baslik": "Yazılım & Kodlama",
    "govde_gelen": 0,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1
   },
   {
@@ -1018,15 +1044,29 @@
    "makale_sayisi": null
   },
   {
+   "yol": "/makale/akvaryum-balik-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/",
+   "tur": "makale",
+   "baslik": "Akvaryum & Balık İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "akvaryum",
+   "govde_gelen": 0,
+   "icerik_gelen": 20,
+   "toplam_gelen": 165,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
    "yol": "/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/",
    "tur": "makale",
    "baslik": "Akvaryum Ekipmanı Seçimi: Tank, Filtre, Isıtıcı ve Hava Pompası",
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 2,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
-   "tik": 1,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/akvaryum-kurulumu-baslangic-seti/",
@@ -1041,8 +1081,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 1,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1074,8 +1114,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 0,
-   "icerik_gelen": 18,
-   "toplam_gelen": 163,
+   "icerik_gelen": 10,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1088,8 +1128,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 2,
-   "icerik_gelen": 12,
-   "toplam_gelen": 163,
+   "icerik_gelen": 8,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1105,8 +1145,8 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
-   "icerik_gelen": 5,
-   "toplam_gelen": 163,
+   "icerik_gelen": 4,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1183,8 +1223,8 @@
    "kategori": "muzik",
    "alt_kategori": "dj-produksiyon",
    "govde_gelen": 0,
-   "icerik_gelen": 10,
-   "toplam_gelen": 163,
+   "icerik_gelen": 9,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1228,8 +1268,8 @@
    "kategori": "teknoloji",
    "alt_kategori": "drone",
    "govde_gelen": 1,
-   "icerik_gelen": 11,
-   "toplam_gelen": 11,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1295,7 +1335,7 @@
    "alt_kategori": "bahcecilik",
    "govde_gelen": 0,
    "icerik_gelen": 4,
-   "toplam_gelen": 163,
+   "toplam_gelen": 4,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1309,7 +1349,7 @@
    "alt_kategori": "resim-boyama",
    "govde_gelen": 0,
    "icerik_gelen": 11,
-   "toplam_gelen": 163,
+   "toplam_gelen": 11,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1338,7 +1378,7 @@
    "govde_gelen": 2,
    "icerik_gelen": 9,
    "toplam_gelen": 9,
-   "tik": 1,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/",
@@ -1440,8 +1480,8 @@
    "kategori": "teknoloji",
    "alt_kategori": "raspberry-pi-elektronik",
    "govde_gelen": 2,
-   "icerik_gelen": 12,
-   "toplam_gelen": 12,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1737,8 +1777,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "kopek-bakimi",
    "govde_gelen": 1,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1915,8 +1955,8 @@
    "kategori": "teknoloji",
    "alt_kategori": "raspberry-pi-elektronik",
    "govde_gelen": 3,
-   "icerik_gelen": 10,
-   "toplam_gelen": 10,
+   "icerik_gelen": 11,
+   "toplam_gelen": 11,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1927,14 +1967,30 @@
    "makale_sayisi": null
   },
   {
+   "yol": "/makale/raspberry-pi-elektronik-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
+   "tur": "makale",
+   "baslik": "Raspberry Pi & Elektronik Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
+   "kategori": "teknoloji",
+   "alt_kategori": "raspberry-pi-elektronik",
+   "govde_gelen": 1,
+   "icerik_gelen": 20,
+   "toplam_gelen": 165,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/raspberry-pi-5-baslangic-kiti/"
+   ],
+   "makale_sayisi": null
+  },
+  {
    "yol": "/makale/raspberry-pi-ile-linux-ve-elektronik-uygulamalari/",
    "tur": "makale",
    "baslik": "Raspberry Pi ile Linux ve Elektronik: Imager, Terminal ve GPIO",
    "kategori": "teknoloji",
    "alt_kategori": "raspberry-pi-elektronik",
    "govde_gelen": 0,
-   "icerik_gelen": 5,
-   "toplam_gelen": 5,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1964,9 +2020,9 @@
    "kategori": "teknoloji",
    "alt_kategori": "",
    "govde_gelen": 0,
-   "icerik_gelen": 14,
-   "toplam_gelen": 14,
-   "tik": 1,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
    "makale_sayisi": null
@@ -2091,7 +2147,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2183,7 +2239,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 10,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2318,7 +2374,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 13,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2410,8 +2466,8 @@
    "kategori": "teknoloji",
    "alt_kategori": "",
    "govde_gelen": 3,
-   "icerik_gelen": 14,
-   "toplam_gelen": 163,
+   "icerik_gelen": 15,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2419,7 +2475,7 @@
     "/makale/oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech/",
     "/makale/raspberry-pi-5-baslangic-kiti/"
    ],
-   "makale_sayisi": 12
+   "makale_sayisi": 13
   },
   {
    "yol": "/kategori/teknoloji/raspberry-pi-elektronik/",
@@ -2428,15 +2484,15 @@
    "kategori": "teknoloji",
    "alt_kategori": "raspberry-pi-elektronik",
    "govde_gelen": 2,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-iyi-raspberry-pi-elektronik-ekipmanlari-2026-alim-rehberi/",
     "/makale/raspberry-pi-5-baslangic-kiti/"
    ],
-   "makale_sayisi": 3
+   "makale_sayisi": 4
   },
   {
    "yol": "/kategori/teknoloji/3d-yazici/",
@@ -2509,7 +2565,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 13,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -2614,7 +2670,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2735,7 +2791,7 @@
    "alt_kategori": "",
    "govde_gelen": 1,
    "icerik_gelen": 3,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2827,7 +2883,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 8,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2909,7 +2965,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 7,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2986,8 +3042,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "",
    "govde_gelen": 3,
-   "icerik_gelen": 8,
-   "toplam_gelen": 163,
+   "icerik_gelen": 9,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2995,7 +3051,7 @@
     "/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/",
     "/makale/kopek-yuruyus-ve-egitim-seti/"
    ],
-   "makale_sayisi": 6
+   "makale_sayisi": 7
   },
   {
    "yol": "/kategori/evcil-hayvan/kopek-bakimi/",
@@ -3037,15 +3093,15 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 2,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/",
     "/makale/akvaryum-kurulumu-baslangic-seti/"
    ],
-   "makale_sayisi": 3
+   "makale_sayisi": 4
   },
   {
    "yol": "/kategori/evcil-hayvan/kus-bakimi/",
@@ -3069,7 +3125,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 4,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3146,7 +3202,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3216,7 +3272,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3286,7 +3342,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 3,
-   "toplam_gelen": 163,
+   "toplam_gelen": 165,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],

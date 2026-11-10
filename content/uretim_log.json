@@ -46,7 +46,9 @@
   "sss:muzik:dj-produksiyon",
   "sss:bahce-bitki:bonsai:bonsai-nasil-toprak-sever",
   "rehber:evcil-hayvan:akvaryum",
-  "yeni_baslayan:bahce-bitki:bonsai"
+  "yeni_baslayan:bahce-bitki:bonsai",
+  "yeni_baslayan:evcil-hayvan:akvaryum",
+  "hatalar:teknoloji:raspberry-pi-elektronik"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -92,7 +94,9 @@
   "pNs2Rubybng",
   "BduDcrySLKM",
   "_LWxQJFgpyo",
-  "PVAVLhL1JLs"
+  "PVAVLhL1JLs",
+  "_cLSVP7ZsbA",
+  "y25LI38cd9w"
  ],
  "atlanan": [
   {
@@ -859,6 +863,21 @@
    "anahtar": "talep:hobi-seti-matkap-gravur-rehberi",
    "neden": "çıktı biçimi bozuk",
    "tarih": "2026-11-08"
+  },
+  {
+   "anahtar": "hatalar:bahce-bitki:bonsai",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-11"
+  },
+  {
+   "anahtar": "sss:bahce-bitki:bonsai",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-11"
+  },
+  {
+   "anahtar": "talep:punch-nakisi-nasil-yapilir-baslangic-seti",
+   "neden": "kısa (1248 kelime, güvenlik tabanı 1500)",
+   "tarih": "2026-11-11"
   }
  ],
  "makaleler": [
@@ -1081,6 +1100,16 @@
    "anahtar": "yeni_baslayan:bahce-bitki:bonsai",
    "tarih": "2026-11-10",
    "slug": "bonsai-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar"
+  },
+  {
+   "anahtar": "yeni_baslayan:evcil-hayvan:akvaryum",
+   "tarih": "2026-11-11",
+   "slug": "akvaryum-balik-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar"
+  },
+  {
+   "anahtar": "hatalar:teknoloji:raspberry-pi-elektronik",
+   "tarih": "2026-11-11",
+   "slug": "raspberry-pi-elektronik-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir"
   }
  ],
  "talep": [
