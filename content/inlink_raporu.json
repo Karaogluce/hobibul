@@ -1,12 +1,12 @@
 {
  "tanim": "govde_gelen, başka bir makalenin gövdesinden gelen benzersiz iç linktir. Üst menü, altbilgi ve ekmek kırıntısı bu sayıda yoktur. yetim: yayındaki makale ya da içinde makalesi olan kategori sayfası, govde_gelen 0 veya 1 ise. Makalesi olmayan kategori sayfası menüden ulaşılır; alakasız gövde linki eklenmez ve makalesiz listesindedir. toplam_gelen, üretilmiş HTML içindeki diğer sayfalardan gelen benzersiz linktir. tik, ana sayfadan tıklama derinliğidir. gsc_oncelik, analytics_gsc.json içinde ortalama pozisyonu 8-20 olan sorguya denk sayfadır; dosya yoksa veya ok değilse boş kalır.",
  "ozet": {
-  "makale": 71,
+  "makale": 72,
   "kategori": 82,
-  "yetim_makale": 33,
+  "yetim_makale": 34,
   "yetim_kategori": 21,
-  "yetim": 54,
-  "makalesiz_kategori": 37,
+  "yetim": 55,
+  "makalesiz_kategori": 36,
   "sitemap_linksiz": [],
   "uc_tik_disi": [],
   "gsc_dosyasi": true,
@@ -33,7 +33,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "",
    "govde_gelen": 0,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -45,7 +45,7 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "",
    "govde_gelen": 0,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -69,7 +69,7 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 0,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -81,7 +81,7 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 0,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -93,7 +93,7 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -117,7 +117,7 @@
    "kategori": "muzik",
    "alt_kategori": "dj-produksiyon",
    "govde_gelen": 0,
-   "toplam_gelen": 165,
+   "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -179,18 +179,6 @@
    "govde_gelen": 0,
    "toplam_gelen": 5,
    "tik": 1,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": []
-  },
-  {
-   "yol": "/makale/kadinlar-icin-evde-yapilacak-hobiler/",
-   "tur": "makale",
-   "baslik": "Kadınlar İçin Evde Yapılacak 20 Hobi (Başlangıç Malzemeleriyle)",
-   "kategori": "el-sanatlari",
-   "alt_kategori": "orgu-tig",
-   "govde_gelen": 0,
-   "toplam_gelen": 10,
-   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -383,7 +371,7 @@
    "kategori": "sanat",
    "alt_kategori": "",
    "govde_gelen": 1,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -643,6 +631,20 @@
    ]
   },
   {
+   "yol": "/makale/kadinlar-icin-evde-yapilacak-hobiler/",
+   "tur": "makale",
+   "baslik": "Kadınlar İçin Evde Yapılacak 20 Hobi (Başlangıç Malzemeleriyle)",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "orgu-tig",
+   "govde_gelen": 1,
+   "toplam_gelen": 11,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/punch-nakisi-nasil-yapilir-baslangic-seti/"
+   ]
+  },
+  {
    "yol": "/makale/kahve-barista-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/",
    "tur": "makale",
    "baslik": "Kahve & Barista Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
@@ -699,13 +701,27 @@
    ]
   },
   {
+   "yol": "/makale/punch-nakisi-nasil-yapilir-baslangic-seti/",
+   "tur": "makale",
+   "baslik": "Punch Nakışı Nasıl Yapılır? Başlangıç Seti ve İlk Proje Rehberi",
+   "kategori": "sanat",
+   "alt_kategori": "dikis-nakis",
+   "govde_gelen": 1,
+   "toplam_gelen": 166,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/kadinlar-icin-evde-yapilacak-hobiler/"
+   ]
+  },
+  {
    "yol": "/makale/raspberry-pi-elektronik-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
    "tur": "makale",
    "baslik": "Raspberry Pi & Elektronik Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
    "kategori": "teknoloji",
    "alt_kategori": "raspberry-pi-elektronik",
    "govde_gelen": 1,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -848,13 +864,6 @@
    "tik": 2
   },
   {
-   "yol": "/kategori/sanat/dikis-nakis/",
-   "baslik": "Dikiş & Nakış",
-   "govde_gelen": 1,
-   "toplam_gelen": 6,
-   "tik": 2
-  },
-  {
    "yol": "/kategori/sanat/heykel/",
    "baslik": "Heykel & Modelaj",
    "govde_gelen": 0,
@@ -900,7 +909,7 @@
    "yol": "/kategori/seyahat-gezi/",
    "baslik": "Seyahat & Gezi",
    "govde_gelen": 0,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1
   },
   {
@@ -935,7 +944,7 @@
    "yol": "/kategori/yazilim-kodlama/",
    "baslik": "Yazılım & Kodlama",
    "govde_gelen": 0,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1
   },
   {
@@ -1050,8 +1059,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 0,
-   "icerik_gelen": 20,
-   "toplam_gelen": 165,
+   "icerik_gelen": 21,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1097,8 +1106,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 2,
-   "icerik_gelen": 13,
-   "toplam_gelen": 13,
+   "icerik_gelen": 12,
+   "toplam_gelen": 12,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1114,8 +1123,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 0,
-   "icerik_gelen": 10,
-   "toplam_gelen": 165,
+   "icerik_gelen": 8,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1129,7 +1138,7 @@
    "alt_kategori": "bonsai",
    "govde_gelen": 2,
    "icerik_gelen": 8,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1146,7 +1155,7 @@
    "alt_kategori": "okuma",
    "govde_gelen": 0,
    "icerik_gelen": 4,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1224,7 +1233,7 @@
    "alt_kategori": "dj-produksiyon",
    "govde_gelen": 0,
    "icerik_gelen": 9,
-   "toplam_gelen": 165,
+   "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1480,8 +1489,8 @@
    "kategori": "teknoloji",
    "alt_kategori": "raspberry-pi-elektronik",
    "govde_gelen": 2,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1512,15 +1521,16 @@
    "baslik": "Evde Başlayabileceğin 8 Yaratıcı El Sanatı Hobisi ve Gerekli Malzemeler",
    "kategori": "el-sanatlari",
    "alt_kategori": "",
-   "govde_gelen": 3,
-   "icerik_gelen": 5,
-   "toplam_gelen": 5,
+   "govde_gelen": 4,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/diamond-painting-nedir-nasil-yapilir/",
     "/makale/evde-yapilacak-hobiler/",
-    "/makale/kadinlar-icin-evde-yapilacak-hobiler/"
+    "/makale/kadinlar-icin-evde-yapilacak-hobiler/",
+    "/makale/punch-nakisi-nasil-yapilir-baslangic-seti/"
    ],
    "makale_sayisi": null
   },
@@ -1601,8 +1611,8 @@
    "kategori": "sanat",
    "alt_kategori": "fotografcilik",
    "govde_gelen": 2,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1680,12 +1690,14 @@
    "baslik": "Kadınlar İçin Evde Yapılacak 20 Hobi (Başlangıç Malzemeleriyle)",
    "kategori": "el-sanatlari",
    "alt_kategori": "orgu-tig",
-   "govde_gelen": 0,
-   "icerik_gelen": 10,
-   "toplam_gelen": 10,
+   "govde_gelen": 1,
+   "icerik_gelen": 11,
+   "toplam_gelen": 11,
    "tik": 2,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [],
+   "govde_kaynaklar": [
+    "/makale/punch-nakisi-nasil-yapilir-baslangic-seti/"
+   ],
    "makale_sayisi": null
   },
   {
@@ -1932,6 +1944,22 @@
    "makale_sayisi": null
   },
   {
+   "yol": "/makale/punch-nakisi-nasil-yapilir-baslangic-seti/",
+   "tur": "makale",
+   "baslik": "Punch Nakışı Nasıl Yapılır? Başlangıç Seti ve İlk Proje Rehberi",
+   "kategori": "sanat",
+   "alt_kategori": "dikis-nakis",
+   "govde_gelen": 1,
+   "icerik_gelen": 11,
+   "toplam_gelen": 166,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/kadinlar-icin-evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
    "yol": "/makale/puzzle-aksesuarlari-masa-yapistirici-cerceve/",
    "tur": "makale",
    "baslik": "Puzzle Aksesuarları: Masa, Yapıştırıcı, Halı ve Çerçeve",
@@ -1973,8 +2001,8 @@
    "kategori": "teknoloji",
    "alt_kategori": "raspberry-pi-elektronik",
    "govde_gelen": 1,
-   "icerik_gelen": 20,
-   "toplam_gelen": 165,
+   "icerik_gelen": 19,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2147,7 +2175,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2239,7 +2267,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 10,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2374,7 +2402,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 13,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2467,7 +2495,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 15,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2565,7 +2593,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 13,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -2670,7 +2698,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2790,14 +2818,14 @@
    "kategori": "sanat",
    "alt_kategori": "",
    "govde_gelen": 1,
-   "icerik_gelen": 3,
-   "toplam_gelen": 165,
+   "icerik_gelen": 4,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic/"
    ],
-   "makale_sayisi": 1
+   "makale_sayisi": 2
   },
   {
    "yol": "/kategori/sanat/fotografcilik/",
@@ -2851,15 +2879,16 @@
    "baslik": "Dikiş & Nakış",
    "kategori": "sanat",
    "alt_kategori": "dikis-nakis",
-   "govde_gelen": 1,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
+   "govde_gelen": 2,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
-    "/makale/evde-yapilacak-hobiler/"
+    "/makale/evde-yapilacak-hobiler/",
+    "/makale/punch-nakisi-nasil-yapilir-baslangic-seti/"
    ],
-   "makale_sayisi": 0
+   "makale_sayisi": 1
   },
   {
    "yol": "/kategori/sanat/heykel/",
@@ -2883,7 +2912,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 8,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2965,7 +2994,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 7,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3043,7 +3072,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 9,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3125,7 +3154,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 4,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3202,7 +3231,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3272,7 +3301,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3342,7 +3371,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 3,
-   "toplam_gelen": 165,
+   "toplam_gelen": 166,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],

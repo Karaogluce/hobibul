@@ -3,7 +3,7 @@ title: "Kadınlar İçin Evde Yapılacak 20 Hobi (Başlangıç Malzemeleriyle)"
 slug: "kadinlar-icin-evde-yapilacak-hobiler"
 category: "el-sanatlari"
 date: "2026-11-06"
-updated: "2026-11-09"
+updated: "2026-11-11"
 meta_title: "Kadınlar İçin Evde Yapılacak Hobiler: 20 Fikir | Hobi Bul"
 meta_description: "Kadınlar için evde yapılacak hobiler: örgü, mum, resim, takı ve ev bitkisi. İlk malzeme ve kime uygun olduğu, kadın terimine kilitli bir liste."
 excerpt: "Kadınlar için evde yapılacak hobiler: örgü, mum, resim, takı ve ev bitkisi. İlk malzeme ve kime uygun olduğu, kadın terimine kilitli bir liste."
@@ -41,7 +41,7 @@ Sevimli oyuncaklar örmek istiyorsan amigurumi tam sana göre bir dünyadır. K�
 
 ### Punch nakışı
 
-Özel bir iğne ve gergef yardımıyla kumaş üzerine kabartmalı desenler işlemeyi sağlayan punch nakışı, son yılların en trend ev aktivitelerinden biridir. Sabırsız yapın varsa ve kısa sürede sonuç görmek istiyorsan bu tekniği seveceksin.
+Özel bir iğne ve gergef yardımıyla kumaş üzerine kabartmalı desenler işlemeyi sağlayan punch nakışı, son yılların en trend ev aktivitelerinden biridir. Sabırsız yapın varsa ve kısa sürede sonuç görmek istiyorsan bu tekniği seveceksin. Aynı dikiş işinin devamı [Punch Nakışı Nasıl Yapılır](/makale/punch-nakisi-nasil-yapilir-baslangic-seti/) rehberinde.
 
 ### Diamond painting
 

@@ -48,7 +48,8 @@
   "rehber:evcil-hayvan:akvaryum",
   "yeni_baslayan:bahce-bitki:bonsai",
   "yeni_baslayan:evcil-hayvan:akvaryum",
-  "hatalar:teknoloji:raspberry-pi-elektronik"
+  "hatalar:teknoloji:raspberry-pi-elektronik",
+  "talep:punch-nakisi-nasil-yapilir-baslangic-seti"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -96,7 +97,8 @@
   "_LWxQJFgpyo",
   "PVAVLhL1JLs",
   "_cLSVP7ZsbA",
-  "y25LI38cd9w"
+  "y25LI38cd9w",
+  "7KaRvKm52n0"
  ],
  "atlanan": [
   {
@@ -878,6 +880,16 @@
    "anahtar": "talep:punch-nakisi-nasil-yapilir-baslangic-seti",
    "neden": "kısa (1248 kelime, güvenlik tabanı 1500)",
    "tarih": "2026-11-11"
+  },
+  {
+   "anahtar": "hatalar:bahce-bitki:bonsai",
+   "neden": "yetersiz H2 bölümü",
+   "tarih": "2026-11-11"
+  },
+  {
+   "anahtar": "sss:bahce-bitki:bonsai",
+   "neden": "kısa (557 kelime, güvenlik tabanı 600)",
+   "tarih": "2026-11-11"
   }
  ],
  "makaleler": [
@@ -1110,6 +1122,11 @@
    "anahtar": "hatalar:teknoloji:raspberry-pi-elektronik",
    "tarih": "2026-11-11",
    "slug": "raspberry-pi-elektronik-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir"
+  },
+  {
+   "anahtar": "talep:punch-nakisi-nasil-yapilir-baslangic-seti",
+   "tarih": "2026-11-11",
+   "slug": "punch-nakisi-nasil-yapilir-baslangic-seti"
   }
  ],
  "talep": [
@@ -1147,6 +1164,13 @@
    "durum": "yazildi",
    "tarih": "2026-11-07",
    "slug": "yetiskin-hobi-setleri"
+  },
+  {
+   "sorgu": "punch nakışı nasıl yapılır",
+   "anahtar": "talep:punch-nakisi-nasil-yapilir-baslangic-seti",
+   "durum": "yazildi",
+   "tarih": "2026-11-11",
+   "slug": "punch-nakisi-nasil-yapilir-baslangic-seti"
   }
  ]
 }
