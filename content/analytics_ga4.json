@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-10",
+ "generated_at": "2026-11-11",
  "period_days": 30,
  "visitors_daily": [
   {
@@ -53,16 +53,20 @@
   {
    "date": "2026-11-10",
    "users": 1
+  },
+  {
+   "date": "2026-11-11",
+   "users": 2
   }
  ],
  "channels": [
   {
    "name": "Direct",
-   "sessions": 82
+   "sessions": 83
   },
   {
    "name": "Organic Search",
-   "sessions": 25
+   "sessions": 28
   },
   {
    "name": "AI Assistant",
@@ -70,7 +74,7 @@
   },
   {
    "name": "Unassigned",
-   "sessions": 3
+   "sessions": 2
   }
  ],
  "top_pages": [
@@ -78,7 +82,7 @@
    "path": "/makale/2-kisilik-kutu-oyunlari/",
    "slug": "2-kisilik-kutu-oyunlari",
    "title": "2 Kişilik Kutu Oyunları: Türkiye'de Satılan Kutular",
-   "views": 5
+   "views": 6
   },
   {
    "path": "/makale/en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma/",
