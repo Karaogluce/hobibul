@@ -1,11 +1,11 @@
 {
  "tanim": "govde_gelen, başka bir makalenin gövdesinden gelen benzersiz iç linktir. Üst menü, altbilgi ve ekmek kırıntısı bu sayıda yoktur. yetim: yayındaki makale ya da içinde makalesi olan kategori sayfası, govde_gelen 0 veya 1 ise. Makalesi olmayan kategori sayfası menüden ulaşılır; alakasız gövde linki eklenmez ve makalesiz listesindedir. toplam_gelen, üretilmiş HTML içindeki diğer sayfalardan gelen benzersiz linktir. tik, ana sayfadan tıklama derinliğidir. gsc_oncelik, analytics_gsc.json içinde ortalama pozisyonu 8-20 olan sorguya denk sayfadır; dosya yoksa veya ok değilse boş kalır.",
  "ozet": {
-  "makale": 72,
+  "makale": 74,
   "kategori": 82,
-  "yetim_makale": 34,
+  "yetim_makale": 36,
   "yetim_kategori": 21,
-  "yetim": 55,
+  "yetim": 57,
   "makalesiz_kategori": 36,
   "sitemap_linksiz": [],
   "uc_tik_disi": [],
@@ -33,7 +33,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "",
    "govde_gelen": 0,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -45,7 +45,7 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "",
    "govde_gelen": 0,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -69,7 +69,7 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 0,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -81,7 +81,7 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 0,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -93,7 +93,7 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
-   "toplam_gelen": 166,
+   "toplam_gelen": 4,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -141,8 +141,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bahcecilik",
    "govde_gelen": 0,
-   "toplam_gelen": 4,
-   "tik": 1,
+   "toplam_gelen": 3,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -371,7 +371,7 @@
    "kategori": "sanat",
    "alt_kategori": "",
    "govde_gelen": 1,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -505,13 +505,27 @@
    ]
   },
   {
+   "yol": "/makale/akvaryum-balik-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
+   "tur": "makale",
+   "baslik": "Akvaryum & Balık Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "akvaryum",
+   "govde_gelen": 1,
+   "toplam_gelen": 168,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/"
+   ]
+  },
+  {
    "yol": "/makale/akvaryum-kurulumu-baslangic-seti/",
    "tur": "makale",
    "baslik": "Akvaryum Kurulumu: Tetra Starter Line 54 L Seti",
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 1,
-   "toplam_gelen": 7,
+   "toplam_gelen": 4,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -645,6 +659,20 @@
    ]
   },
   {
+   "yol": "/makale/kahve-barista-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
+   "tur": "makale",
+   "baslik": "Kahve & Barista Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "kahve",
+   "govde_gelen": 1,
+   "toplam_gelen": 168,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/"
+   ]
+  },
+  {
    "yol": "/makale/kahve-barista-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/",
    "tur": "makale",
    "baslik": "Kahve & Barista Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
@@ -652,7 +680,7 @@
    "alt_kategori": "kahve",
    "govde_gelen": 1,
    "toplam_gelen": 9,
-   "tik": 1,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/"
@@ -707,7 +735,7 @@
    "kategori": "sanat",
    "alt_kategori": "dikis-nakis",
    "govde_gelen": 1,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -721,7 +749,7 @@
    "kategori": "teknoloji",
    "alt_kategori": "raspberry-pi-elektronik",
    "govde_gelen": 1,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -909,7 +937,7 @@
    "yol": "/kategori/seyahat-gezi/",
    "baslik": "Seyahat & Gezi",
    "govde_gelen": 0,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1
   },
   {
@@ -944,7 +972,7 @@
    "yol": "/kategori/yazilim-kodlama/",
    "baslik": "Yazılım & Kodlama",
    "govde_gelen": 0,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1
   },
   {
@@ -1053,14 +1081,30 @@
    "makale_sayisi": null
   },
   {
+   "yol": "/makale/akvaryum-balik-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
+   "tur": "makale",
+   "baslik": "Akvaryum & Balık Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
+   "kategori": "evcil-hayvan",
+   "alt_kategori": "akvaryum",
+   "govde_gelen": 1,
+   "icerik_gelen": 22,
+   "toplam_gelen": 168,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/"
+   ],
+   "makale_sayisi": null
+  },
+  {
    "yol": "/makale/akvaryum-balik-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/",
    "tur": "makale",
    "baslik": "Akvaryum & Balık İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 0,
-   "icerik_gelen": 21,
-   "toplam_gelen": 166,
+   "icerik_gelen": 12,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1090,8 +1134,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 1,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1124,7 +1168,7 @@
    "alt_kategori": "bonsai",
    "govde_gelen": 0,
    "icerik_gelen": 8,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1138,7 +1182,7 @@
    "alt_kategori": "bonsai",
    "govde_gelen": 2,
    "icerik_gelen": 8,
-   "toplam_gelen": 166,
+   "toplam_gelen": 8,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1155,7 +1199,7 @@
    "alt_kategori": "okuma",
    "govde_gelen": 0,
    "icerik_gelen": 4,
-   "toplam_gelen": 166,
+   "toplam_gelen": 4,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1343,9 +1387,9 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bahcecilik",
    "govde_gelen": 0,
-   "icerik_gelen": 4,
-   "toplam_gelen": 4,
-   "tik": 1,
+   "icerik_gelen": 3,
+   "toplam_gelen": 3,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
    "makale_sayisi": null
@@ -1385,8 +1429,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 2,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1701,6 +1745,22 @@
    "makale_sayisi": null
   },
   {
+   "yol": "/makale/kahve-barista-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
+   "tur": "makale",
+   "baslik": "Kahve & Barista Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
+   "kategori": "yemek-mutfak",
+   "alt_kategori": "kahve",
+   "govde_gelen": 1,
+   "icerik_gelen": 15,
+   "toplam_gelen": 168,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/"
+   ],
+   "makale_sayisi": null
+  },
+  {
    "yol": "/makale/kahve-barista-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/",
    "tur": "makale",
    "baslik": "Kahve & Barista Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
@@ -1709,7 +1769,7 @@
    "govde_gelen": 1,
    "icerik_gelen": 9,
    "toplam_gelen": 9,
-   "tik": 1,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/"
@@ -1723,8 +1783,8 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "kahve",
    "govde_gelen": 2,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1950,8 +2010,8 @@
    "kategori": "sanat",
    "alt_kategori": "dikis-nakis",
    "govde_gelen": 1,
-   "icerik_gelen": 11,
-   "toplam_gelen": 166,
+   "icerik_gelen": 8,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2001,8 +2061,8 @@
    "kategori": "teknoloji",
    "alt_kategori": "raspberry-pi-elektronik",
    "govde_gelen": 1,
-   "icerik_gelen": 19,
-   "toplam_gelen": 166,
+   "icerik_gelen": 16,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2110,8 +2170,8 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "yemek-pisirme",
    "govde_gelen": 2,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2175,7 +2235,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2267,7 +2327,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 10,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2402,7 +2462,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 13,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2495,7 +2555,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 15,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2593,7 +2653,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 13,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -2698,7 +2758,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2819,7 +2879,7 @@
    "alt_kategori": "",
    "govde_gelen": 1,
    "icerik_gelen": 4,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2911,15 +2971,15 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "",
    "govde_gelen": 2,
-   "icerik_gelen": 8,
-   "toplam_gelen": 166,
+   "icerik_gelen": 9,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/",
     "/makale/mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar/"
    ],
-   "makale_sayisi": 6
+   "makale_sayisi": 7
   },
   {
    "yol": "/kategori/yemek-mutfak/yemek-pisirme/",
@@ -2944,15 +3004,15 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "kahve",
    "govde_gelen": 2,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/",
     "/makale/kahve-barista-malzemeleri/"
    ],
-   "makale_sayisi": 3
+   "makale_sayisi": 4
   },
   {
    "yol": "/kategori/yemek-mutfak/ekmek-pasta/",
@@ -2994,7 +3054,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 7,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3071,8 +3131,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "",
    "govde_gelen": 3,
-   "icerik_gelen": 9,
-   "toplam_gelen": 166,
+   "icerik_gelen": 10,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3080,7 +3140,7 @@
     "/makale/kedi-bakim-seti-tirmalama-firca-ve-oyuncak/",
     "/makale/kopek-yuruyus-ve-egitim-seti/"
    ],
-   "makale_sayisi": 7
+   "makale_sayisi": 8
   },
   {
    "yol": "/kategori/evcil-hayvan/kopek-bakimi/",
@@ -3122,15 +3182,15 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 2,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/",
     "/makale/akvaryum-kurulumu-baslangic-seti/"
    ],
-   "makale_sayisi": 4
+   "makale_sayisi": 5
   },
   {
    "yol": "/kategori/evcil-hayvan/kus-bakimi/",
@@ -3154,7 +3214,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 4,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3231,7 +3291,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3301,7 +3361,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3371,7 +3431,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 3,
-   "toplam_gelen": 166,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],

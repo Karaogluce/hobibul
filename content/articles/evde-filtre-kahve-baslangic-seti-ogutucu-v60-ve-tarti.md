@@ -4,7 +4,7 @@ slug: "evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti"
 category: "yemek-mutfak"
 subcategory: "kahve"
 date: "2026-10-28"
-updated: "2026-11-09"
+updated: "2026-11-12"
 meta_title: "Filtre Kahve Başlangıç Seti: Öğütücü, V60, Tartı | Hobi Bul"
 meta_description: "Evde filtre kahve için öğütücü, Hario V60 ve tartı nasıl seçilir? De’Longhi Dedica KG 521.M, AeroPress ve French press karşılaştırması."
 excerpt: "Filtre kahvede fincanı öğütücü belirler. V60 kontrol verir, tartı ise aynı fincanı yarın da tutturmanı sağlar."
@@ -19,7 +19,7 @@ starter_label: "V60 başlangıç demleyicisine bak"
 starter_text: "İlk filtre setinin ortası Hario V60. Yanına tutarlı bir öğütücü ve 0,1 gram okuyan bir tartı koy. Güncel fiyatı Amazon'da kontrol et."
 draft: "false"
 ---
-Evde iyi bir filtre kahve içmek istiyorsan, asıl mesele ekipmanın rengi ya da markasından ziyade kahveyi nasıl öğüttüğünle başlıyor. V60 gibi bir dripper işin son aşaması; tadı asıl belirleyen şey kaliteli bir öğütücü ve ertesi sabah aynı lezzeti yakalamanı sağlayan tartı. Hazır çekilmiş kahveyle de yola çıkabilirsin ama o paket açıldıktan birkaç gün sonra kahvenin tadı düzleşmeye ve acılaşmaya başlar. Bu yüzden mutfağı küçük bir kahve dükkanına çevirirken ilk sırayı öğütücüye, ikinciyi demleyiciye, üçüncüyü ise tartıya vermelisin. Aynı kahve işinin devamı [Kahve Barista Hakkında](/makale/kahve-barista-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/) rehberinde. Kahve için burada kapanan ayrımı [Kahve Barista Malzemeleri](/makale/kahve-barista-malzemeleri/) ayrıca tutuyor.
+Evde iyi bir filtre kahve içmek istiyorsan, asıl mesele ekipmanın rengi ya da markasından ziyade kahveyi nasıl öğüttüğünle başlıyor. V60 gibi bir dripper işin son aşaması; tadı asıl belirleyen şey kaliteli bir öğütücü ve ertesi sabah aynı lezzeti yakalamanı sağlayan tartı. Hazır çekilmiş kahveyle de yola çıkabilirsin ama o paket açıldıktan birkaç gün sonra kahvenin tadı düzleşmeye ve acılaşmaya başlar. Bu yüzden mutfağı küçük bir kahve dükkanına çevirirken ilk sırayı öğütücüye, ikinciyi demleyiciye, üçüncüyü ise tartıya vermelisin. Aynı kahve işinin devamı [Kahve Barista Hakkında](/makale/kahve-barista-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/) rehberinde. Kahve için burada kapanan ayrımı [Kahve Barista Malzemeleri](/makale/kahve-barista-malzemeleri/) ayrıca tutuyor. Aynı kahve işinin devamı [Kahve Barista Ekipmanı](/makale/kahve-barista-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/) rehberinde.
 
 ## Neden Önce Öğütücüye Yatırım Yapmalısın?
 

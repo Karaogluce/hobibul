@@ -49,7 +49,9 @@
   "yeni_baslayan:bahce-bitki:bonsai",
   "yeni_baslayan:evcil-hayvan:akvaryum",
   "hatalar:teknoloji:raspberry-pi-elektronik",
-  "talep:punch-nakisi-nasil-yapilir-baslangic-seti"
+  "talep:punch-nakisi-nasil-yapilir-baslangic-seti",
+  "hatalar:yemek-mutfak:kahve",
+  "hatalar:evcil-hayvan:akvaryum"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -98,7 +100,9 @@
   "PVAVLhL1JLs",
   "_cLSVP7ZsbA",
   "y25LI38cd9w",
-  "7KaRvKm52n0"
+  "7KaRvKm52n0",
+  "dZAb0Km1ELY",
+  "iAKTUaMPaS8"
  ],
  "atlanan": [
   {
@@ -1127,6 +1131,16 @@
    "anahtar": "talep:punch-nakisi-nasil-yapilir-baslangic-seti",
    "tarih": "2026-11-11",
    "slug": "punch-nakisi-nasil-yapilir-baslangic-seti"
+  },
+  {
+   "anahtar": "hatalar:yemek-mutfak:kahve",
+   "tarih": "2026-11-12",
+   "slug": "kahve-barista-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir"
+  },
+  {
+   "anahtar": "hatalar:evcil-hayvan:akvaryum",
+   "tarih": "2026-11-12",
+   "slug": "akvaryum-balik-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir"
   }
  ],
  "talep": [
