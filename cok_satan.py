@@ -725,9 +725,9 @@ def _yedek_urun(liste, gun_yazi, urunler):
 
 def _govde_uygun(govde, liste):
     """Gemini çıktısı linkleri, SSS başlığını ve yasak kalıpları taşısın."""
-    if not govde or "çekim" in govde.lower():
-        return False
-    if "yazar satırı" in govde.lower() or "kapakta duran anlatı" in govde.lower():
+    yasak = ("çekim", "yazar satırı", "kapakta duran anlatı", "tam sana göre", "dünyasına", "bu kategorinin sayfası")
+    kucuk = (govde or "").lower()
+    if not govde or any(k in kucuk for k in yasak):
         return False
     if "## Sıkça Sorulan Sorular" not in govde or "## Hangisini seçmeli?" not in govde:
         return False
@@ -820,7 +820,8 @@ Kapanışta tam olarak şu cümle, başka kaynak açıklaması yok:
 {KAPANIS}
 
 UZUNLUK: yaklaşık 900-1300 kelime, dolu ve doğal. Sırf sayı tutsun diye aynı bilgiyi ikinci kez yazma. Eksik kalsın, dolgu yapma.
-YASAK: çekim, yazar satırı, kapakta duran anlatı, sayfasında yayıncı olarak, mükemmel, keşfedin, sonuç olarak, günümüzde.
+YASAK: çekim, yazar satırı, kapakta duran anlatı, sayfasında yayıncı olarak, mükemmel, keşfedin, sonuç olarak, günümüzde, tam sana göre, dünyasına, bu kategorinin sayfası, sizlere.
+İç linkin görünen metni, verilen başlığın kendisi olsun. Sayfada yazmayan kullanım adımı ekleme.
 Kapak metninden 10 kelimeyi art arda kopyalama. Kod bloğu yok.
 """
     try:

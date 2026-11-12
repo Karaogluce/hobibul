@@ -1678,7 +1678,8 @@ def write_article(t, meta, body, img, draft, tarih=None):
 # yerleşik lite ve sabit bir flash. Anahtar bu listede yoktur.
 VARSAYILAN_MODEL = "gemini-flash-latest"
 YERLESIK_YEDEK = "gemini-flash-lite-latest"
-YERLESIK_YEDEKLER = (YERLESIK_YEDEK, "gemini-2.5-flash")
+# 2.5-flash yeni hesaplara 404 veriyor. API'nin işaret ettiği ad.
+YERLESIK_YEDEKLER = (YERLESIK_YEDEK, "gemini-3.8-flash")
 
 
 def _modeller():
@@ -1726,7 +1727,10 @@ def _gemini(prompt, key, models, idx):
             return ym.call_gemini(prompt, key, model)
         except ym.GeminiError as e:
             last = e
-            if not (isinstance(e, ym.GeminiQuotaError) or gecici_api_hatasi(e)):
+            model_yok = "404" in str(e) and any(
+                s in str(e).lower() for s in ("no longer available", "not found", "not supported")
+            )
+            if not (isinstance(e, ym.GeminiQuotaError) or gecici_api_hatasi(e) or model_yok):
                 raise
             idx[0] += 1
             neden = "günlük kota" if isinstance(e, ym.GeminiQuotaError) else "geçici hata"
@@ -2888,10 +2892,12 @@ YAZIM:
 YAPI:
 - Giriş, okurun sorusuna cevap versin. "Bu yazıda" deme.
 - Kaynaktaki her ürün kendi bölümünde kalsın. Linkleri aynen koru, yeni ürün ekleme.
+- Kaynakta yazmayan kural, süre, parça ve "nasıl oynanır" uydurma. Bilmiyorsan o cümleyi yazma.
 - ## Sıkça Sorulan Sorular altında 3 soru, soru satırı **soru** biçiminde.
 - Kapanışta tek net cümle. "Sonuç" başlığı yok.
 - Yaklaşık 1000-1300 kelime, dolgu yok. Kaynak inceyse uydurup uzatma; o ürünü kısa ve dürüst bırak.
-- Yasak: çekim, mükemmel, keşfedin, sonuç olarak, günümüzde, bu makalede.
+- Yasak: çekim, mükemmel, keşfedin, sonuç olarak, günümüzde, bu makalede, tam sana göre, dünyasına, sizlere, harika, birebir.
+- Okura "sen" de. "siz" kullanma.
 
 Çıktı yalnız makale gövdesi. Ön yazı, kod bloğu ve GORSEL satırı yok.
 """
@@ -2902,8 +2908,15 @@ YAPI:
             print(f"! {slug} yazılamadı: {ym._gemini_metin(e)}")
             continue
         eksik = [u for u in linkler if u not in yeni]
-        if eksik or "## Sıkça Sorulan Sorular" not in yeni or "çekim" in yeni.lower():
-            print(f"! {slug} denetimden geçmedi")
+        neden = []
+        if eksik:
+            neden.append("eksik link " + str(len(eksik)))
+        if "## Sıkça Sorulan Sorular" not in yeni:
+            neden.append("SSS başlığı yok")
+        if "çekim" in yeni.lower() or "tam sana göre" in yeni.lower():
+            neden.append("yasak kalıp")
+        if neden:
+            print(f"! {slug} denetimden geçmedi: {', '.join(neden)}")
             data["makaleler"].remove(kayit)
             data["makaleler"].append(kayit)
             continue
