@@ -3,9 +3,9 @@
  "ozet": {
   "makale": 74,
   "kategori": 82,
-  "yetim_makale": 34,
+  "yetim_makale": 35,
   "yetim_kategori": 21,
-  "yetim": 55,
+  "yetim": 56,
   "makalesiz_kategori": 36,
   "sitemap_linksiz": [],
   "uc_tik_disi": [],
@@ -31,18 +31,6 @@
    "tur": "kategori",
    "baslik": "Koleksiyon",
    "kategori": "koleksiyon",
-   "alt_kategori": "",
-   "govde_gelen": 0,
-   "toplam_gelen": 168,
-   "tik": 1,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": []
-  },
-  {
-   "yol": "/kategori/yazi-edebiyat/",
-   "tur": "kategori",
-   "baslik": "Yazı & Edebiyat",
-   "kategori": "yazi-edebiyat",
    "alt_kategori": "",
    "govde_gelen": 0,
    "toplam_gelen": 168,
@@ -439,6 +427,20 @@
    ]
   },
   {
+   "yol": "/kategori/yazi-edebiyat/",
+   "tur": "kategori",
+   "baslik": "Yazı & Edebiyat",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "",
+   "govde_gelen": 1,
+   "toplam_gelen": 168,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/"
+   ]
+  },
+  {
    "yol": "/kategori/yazi-edebiyat/okuma/",
    "tur": "kategori",
    "baslik": "Okuma & Kitap Kulübü",
@@ -744,6 +746,20 @@
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/raspberry-pi-5-baslangic-kiti/"
+   ]
+  },
+  {
+   "yol": "/makale/yetiskin-hobi-setleri/",
+   "tur": "makale",
+   "baslik": "Yetişkin Hobi Setleri: Hangisi Alınır? (Boyama, Maket, Diamond Painting)",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "diamond-painting",
+   "govde_gelen": 1,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/diamond-painting-nedir-nasil-yapilir/"
    ]
   }
  ],
@@ -1623,13 +1639,12 @@
    "baslik": "Evde Yapılacak Hobiler: 30 Fikir ve İlk Malzeme",
    "kategori": "el-sanatlari",
    "alt_kategori": "orgu-tig",
-   "govde_gelen": 3,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "govde_gelen": 2,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
-    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
     "/makale/evde-el-sanatlari-hobileri/",
     "/makale/kadinlar-icin-evde-yapilacak-hobiler/"
    ],
@@ -2173,13 +2188,12 @@
    "baslik": "Yetişkin Hobi Setleri: Hangisi Alınır? (Boyama, Maket, Diamond Painting)",
    "kategori": "el-sanatlari",
    "alt_kategori": "diamond-painting",
-   "govde_gelen": 2,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "govde_gelen": 1,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
-    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
     "/makale/diamond-painting-nedir-nasil-yapilir/"
    ],
    "makale_sayisi": null
@@ -3417,12 +3431,14 @@
    "baslik": "Yazı & Edebiyat",
    "kategori": "yazi-edebiyat",
    "alt_kategori": "",
-   "govde_gelen": 0,
+   "govde_gelen": 1,
    "icerik_gelen": 3,
    "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [],
+   "govde_kaynaklar": [
+    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/"
+   ],
    "makale_sayisi": 1
   },
   {

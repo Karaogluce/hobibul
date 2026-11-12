@@ -5,41 +5,6 @@
  "not": "Gemini anahtarı bu ortamda yok. Kısa günlük yazılar yeniden üretilmedi; bundan sonraki yayın kapısı 1000 kelime.",
  "makaleler": [
   {
-   "tarih": "2026-11-04",
-   "slug": "2-kisilik-kutu-oyunlari",
-   "kelime": 213,
-   "kaynak": "log-disi",
-   "tip": ""
-  },
-  {
-   "tarih": "2026-11-04",
-   "slug": "aile-kutu-oyunlari",
-   "kelime": 214,
-   "kaynak": "log-disi",
-   "tip": ""
-  },
-  {
-   "tarih": "2026-11-10",
-   "slug": "bonsai-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
-   "kelime": 973,
-   "kaynak": "sablon",
-   "tip": "yeni_baslayan"
-  },
-  {
-   "tarih": "2026-11-04",
-   "slug": "diamond-painting-nedir-nasil-yapilir",
-   "kelime": 778,
-   "kaynak": "log-disi",
-   "tip": ""
-  },
-  {
-   "tarih": "2026-11-07",
-   "slug": "dj-produksiyon-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
-   "kelime": 692,
-   "kaynak": "sablon",
-   "tip": "yeni_baslayan"
-  },
-  {
    "tarih": "2026-11-01",
    "slug": "dj-seti-adi",
    "kelime": 763,
@@ -178,6 +143,43 @@
    "kelime": 208,
    "kaynak": "talep",
    "tip": "talep"
+  },
+  {
+   "tarih": "2026-11-04",
+   "slug": "2-kisilik-kutu-oyunlari",
+   "kelime": 829,
+   "kaynak": "log-disi",
+   "tip": "",
+   "son": "2026-11-12"
+  },
+  {
+   "tarih": "2026-11-04",
+   "slug": "aile-kutu-oyunlari",
+   "kelime": 654,
+   "kaynak": "log-disi",
+   "tip": "",
+   "son": "2026-11-12"
+  },
+  {
+   "tarih": "2026-11-10",
+   "slug": "bonsai-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+   "kelime": 973,
+   "kaynak": "sablon",
+   "tip": "yeni_baslayan"
+  },
+  {
+   "tarih": "2026-11-04",
+   "slug": "diamond-painting-nedir-nasil-yapilir",
+   "kelime": 778,
+   "kaynak": "log-disi",
+   "tip": ""
+  },
+  {
+   "tarih": "2026-11-07",
+   "slug": "dj-produksiyon-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+   "kelime": 692,
+   "kaynak": "sablon",
+   "tip": "yeni_baslayan"
   }
  ]
 }
