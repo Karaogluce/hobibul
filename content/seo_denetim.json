@@ -1,0 +1,384 @@
+{
+ "ozet": {
+  "donem": "2026-10-29 .. 2026-11-12",
+  "makale": 51,
+  "kaynak": {
+   "log-disi": 8,
+   "sablon": 35,
+   "cok-satan": 4,
+   "talep": 4
+  },
+  "talep_slug": [
+   "kadinlar-icin-evde-yapilacak-hobiler",
+   "punch-nakisi-nasil-yapilir-baslangic-seti",
+   "yetiskin-hobi-setleri",
+   "yilbasi-hediyesi-kutu-oyunlari"
+  ],
+  "gsc": {
+   "ok": false,
+   "sorgu": 0,
+   "not": "analytics_gsc.json boş. Arama akışı 7 tohum sorguya düşüyor."
+  },
+  "kisa_1000_alti": 25,
+  "not": "Üretim kaydı havuz ile şablonu ayırmaz. Anahtar şablon tipidir (ticari, sss, hatalar, rehber, yeni_baslayan). Canlı GSC sırası konu seçimine girmiyor."
+ },
+ "makaleler": [
+  {
+   "tarih": "2026-11-04",
+   "slug": "2-kisilik-kutu-oyunlari",
+   "kelime": 213,
+   "kaynak": "log-disi",
+   "tip": ""
+  },
+  {
+   "tarih": "2026-11-04",
+   "slug": "aile-kutu-oyunlari",
+   "kelime": 214,
+   "kaynak": "log-disi",
+   "tip": ""
+  },
+  {
+   "tarih": "2026-11-12",
+   "slug": "akvaryum-balik-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+   "kelime": 1071,
+   "kaynak": "sablon",
+   "tip": "hatalar"
+  },
+  {
+   "tarih": "2026-11-11",
+   "slug": "akvaryum-balik-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+   "kelime": 1078,
+   "kaynak": "sablon",
+   "tip": "yeni_baslayan"
+  },
+  {
+   "tarih": "2026-11-02",
+   "slug": "akvaryum-ekipmani-secimi-tank-filtre-isitici",
+   "kelime": 1035,
+   "kaynak": "log-disi",
+   "tip": ""
+  },
+  {
+   "tarih": "2026-11-10",
+   "slug": "bonsai-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+   "kelime": 973,
+   "kaynak": "sablon",
+   "tip": "yeni_baslayan"
+  },
+  {
+   "tarih": "2026-11-09",
+   "slug": "bonsai-nasil-toprak-sever",
+   "kelime": 1121,
+   "kaynak": "sablon",
+   "tip": "sss"
+  },
+  {
+   "tarih": "2026-11-09",
+   "slug": "bu-haftanin-en-cok-satan-kitaplari-2026-w46",
+   "kelime": 1264,
+   "kaynak": "cok-satan",
+   "tip": "cok-satan"
+  },
+  {
+   "tarih": "2026-10-31",
+   "slug": "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026",
+   "kelime": 2203,
+   "kaynak": "sablon",
+   "tip": "ticari"
+  },
+  {
+   "tarih": "2026-11-04",
+   "slug": "diamond-painting-nedir-nasil-yapilir",
+   "kelime": 778,
+   "kaynak": "log-disi",
+   "tip": ""
+  },
+  {
+   "tarih": "2026-11-08",
+   "slug": "dj-produksiyon-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+   "kelime": 1098,
+   "kaynak": "sablon",
+   "tip": "hatalar"
+  },
+  {
+   "tarih": "2026-11-09",
+   "slug": "dj-produksiyon-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+   "kelime": 1068,
+   "kaynak": "sablon",
+   "tip": "sss"
+  },
+  {
+   "tarih": "2026-11-07",
+   "slug": "dj-produksiyon-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+   "kelime": 692,
+   "kaynak": "sablon",
+   "tip": "yeni_baslayan"
+  },
+  {
+   "tarih": "2026-11-01",
+   "slug": "dj-seti-adi",
+   "kelime": 763,
+   "kaynak": "sablon",
+   "tip": "ticari"
+  },
+  {
+   "tarih": "2026-11-04",
+   "slug": "drone-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+   "kelime": 804,
+   "kaynak": "sablon",
+   "tip": "sss"
+  },
+  {
+   "tarih": "2026-11-02",
+   "slug": "drone-nasil-kullanilir",
+   "kelime": 1110,
+   "kaynak": "sablon",
+   "tip": "sss"
+  },
+  {
+   "tarih": "2026-11-09",
+   "slug": "en-cok-satan-bahce-alet-2026-w46",
+   "kelime": 1737,
+   "kaynak": "cok-satan",
+   "tip": "cok-satan"
+  },
+  {
+   "tarih": "2026-11-09",
+   "slug": "en-cok-satan-el-isi-2026-w46",
+   "kelime": 1487,
+   "kaynak": "cok-satan",
+   "tip": "cok-satan"
+  },
+  {
+   "tarih": "2026-11-09",
+   "slug": "en-cok-satan-kutu-oyun-2026-w46",
+   "kelime": 1295,
+   "kaynak": "cok-satan",
+   "tip": "cok-satan"
+  },
+  {
+   "tarih": "2026-11-09",
+   "slug": "en-iyi-akvaryum-balik-ekipmanlari-2026-alim-rehberi",
+   "kelime": 1019,
+   "kaynak": "sablon",
+   "tip": "rehber"
+  },
+  {
+   "tarih": "2026-11-07",
+   "slug": "en-iyi-bonsai-ekipmanlari-2026-alim-rehberi",
+   "kelime": 1014,
+   "kaynak": "sablon",
+   "tip": "rehber"
+  },
+  {
+   "tarih": "2026-11-05",
+   "slug": "en-iyi-dj-produksiyon-ekipmanlari-2026-alim-rehberi",
+   "kelime": 735,
+   "kaynak": "sablon",
+   "tip": "rehber"
+  },
+  {
+   "tarih": "2026-11-04",
+   "slug": "en-iyi-kutu-oyunlari-2026",
+   "kelime": 197,
+   "kaynak": "log-disi",
+   "tip": ""
+  },
+  {
+   "tarih": "2026-11-05",
+   "slug": "en-iyi-raspberry-pi-elektronik-ekipmanlari-2026-alim-rehberi",
+   "kelime": 775,
+   "kaynak": "sablon",
+   "tip": "rehber"
+  },
+  {
+   "tarih": "2026-11-01",
+   "slug": "en-iyi-teknoloji-ekipmanlari-2026-alim-rehberi",
+   "kelime": 806,
+   "kaynak": "sablon",
+   "tip": "rehber"
+  },
+  {
+   "tarih": "2026-11-04",
+   "slug": "evde-yapilacak-hobiler",
+   "kelime": 981,
+   "kaynak": "log-disi",
+   "tip": ""
+  },
+  {
+   "tarih": "2026-11-03",
+   "slug": "gitar-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+   "kelime": 946,
+   "kaynak": "sablon",
+   "tip": "hatalar"
+  },
+  {
+   "tarih": "2026-11-06",
+   "slug": "gitar-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+   "kelime": 967,
+   "kaynak": "sablon",
+   "tip": "sss"
+  },
+  {
+   "tarih": "2026-11-02",
+   "slug": "gitar-nasil-calinir",
+   "kelime": 1171,
+   "kaynak": "sablon",
+   "tip": "sss"
+  },
+  {
+   "tarih": "2026-10-31",
+   "slug": "hava-meteoroloji-baslangic-seti-ilk-alinacaklar-2026",
+   "kelime": 2278,
+   "kaynak": "sablon",
+   "tip": "ticari"
+  },
+  {
+   "tarih": "2026-11-06",
+   "slug": "kadinlar-icin-evde-yapilacak-hobiler",
+   "kelime": 1779,
+   "kaynak": "talep",
+   "tip": "talep"
+  },
+  {
+   "tarih": "2026-11-12",
+   "slug": "kahve-barista-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+   "kelime": 1271,
+   "kaynak": "sablon",
+   "tip": "hatalar"
+  },
+  {
+   "tarih": "2026-11-05",
+   "slug": "kahve-barista-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+   "kelime": 713,
+   "kaynak": "sablon",
+   "tip": "sss"
+  },
+  {
+   "tarih": "2026-11-01",
+   "slug": "kahve-barista-malzemeleri",
+   "kelime": 723,
+   "kaynak": "sablon",
+   "tip": "kontrol_listesi"
+  },
+  {
+   "tarih": "2026-10-30",
+   "slug": "kimya-deney-baslangic-seti-ilk-alinacaklar-2026",
+   "kelime": 1782,
+   "kaynak": "sablon",
+   "tip": "ticari"
+  },
+  {
+   "tarih": "2026-10-31",
+   "slug": "kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026",
+   "kelime": 2597,
+   "kaynak": "sablon",
+   "tip": "ticari"
+  },
+  {
+   "tarih": "2026-11-03",
+   "slug": "lego-model-ai",
+   "kelime": 721,
+   "kaynak": "sablon",
+   "tip": "ticari"
+  },
+  {
+   "tarih": "2026-11-08",
+   "slug": "lego-model-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+   "kelime": 1270,
+   "kaynak": "sablon",
+   "tip": "hatalar"
+  },
+  {
+   "tarih": "2026-11-08",
+   "slug": "lego-model-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+   "kelime": 953,
+   "kaynak": "sablon",
+   "tip": "sss"
+  },
+  {
+   "tarih": "2026-11-07",
+   "slug": "lego-model-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+   "kelime": 625,
+   "kaynak": "sablon",
+   "tip": "yeni_baslayan"
+  },
+  {
+   "tarih": "2026-10-29",
+   "slug": "orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026",
+   "kelime": 1733,
+   "kaynak": "log-disi",
+   "tip": ""
+  },
+  {
+   "tarih": "2026-11-11",
+   "slug": "punch-nakisi-nasil-yapilir-baslangic-seti",
+   "kelime": 2103,
+   "kaynak": "talep",
+   "tip": "talep"
+  },
+  {
+   "tarih": "2026-11-04",
+   "slug": "puzzle-aksesuarlari-masa-yapistirici-cerceve",
+   "kelime": 543,
+   "kaynak": "log-disi",
+   "tip": ""
+  },
+  {
+   "tarih": "2026-11-11",
+   "slug": "raspberry-pi-elektronik-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+   "kelime": 720,
+   "kaynak": "sablon",
+   "tip": "hatalar"
+  },
+  {
+   "tarih": "2026-11-03",
+   "slug": "raspberry-pi-ile-linux-ve-elektronik-uygulamalari",
+   "kelime": 698,
+   "kaynak": "sablon",
+   "tip": "nasil_yapilir"
+  },
+  {
+   "tarih": "2026-11-06",
+   "slug": "teknoloji-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir",
+   "kelime": 1151,
+   "kaynak": "sablon",
+   "tip": "hatalar"
+  },
+  {
+   "tarih": "2026-11-06",
+   "slug": "teknoloji-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+   "kelime": 725,
+   "kaynak": "sablon",
+   "tip": "sss"
+  },
+  {
+   "tarih": "2026-11-01",
+   "slug": "teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar",
+   "kelime": 828,
+   "kaynak": "sablon",
+   "tip": "yeni_baslayan"
+  },
+  {
+   "tarih": "2026-10-30",
+   "slug": "yemek-pisirme-baslangic-seti-ilk-alinacaklar-2026",
+   "kelime": 2053,
+   "kaynak": "sablon",
+   "tip": "ticari"
+  },
+  {
+   "tarih": "2026-11-07",
+   "slug": "yetiskin-hobi-setleri",
+   "kelime": 1998,
+   "kaynak": "talep",
+   "tip": "talep"
+  },
+  {
+   "tarih": "2026-11-05",
+   "slug": "yilbasi-hediyesi-kutu-oyunlari",
+   "kelime": 208,
+   "kaynak": "talep",
+   "tip": "talep"
+  }
+ ]
+}

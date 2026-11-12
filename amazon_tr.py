@@ -238,6 +238,99 @@ def baslik_uyuyor(baslik, ad, marka=""):
     return True
 
 
+def _temiz_html(parca):
+    parca = re.sub(r"<script[\s\S]*?</script>", " ", parca or "", flags=re.I)
+    parca = re.sub(r"<style[\s\S]*?</style>", " ", parca, flags=re.I)
+    parca = re.sub(r"<br\s*/?>", "\n", parca, flags=re.I)
+    parca = re.sub(r"</(p|div|li|tr|h\d)>", "\n", parca, flags=re.I)
+    parca = re.sub(r"<[^>]+>", " ", parca)
+    parca = html_lib.unescape(parca)
+    parca = parca.replace("\u200e", "").replace("\u200f", "")
+    parca = re.sub(r"[ \t]+", " ", parca)
+    parca = re.sub(r"\n\s*", "\n", parca)
+    return parca.strip()
+
+
+def _blok(html, id_):
+    m = re.search(rf'id="{re.escape(id_)}"[^>]*>([\s\S]*?)(?=<div id="|\Z)', html or "")
+    return m.group(1) if m else ""
+
+
+def _madde_ciftleri(html):
+    """Ürün bilgisi satırları: Yayıncı, baskı uzunluğu, madde işaretleri."""
+    cift = []
+    for m in re.finditer(
+        r'class="a-text-bold">\s*([^<:]{2,80}?)\s*(?:&rlm;|&lrm;|\s)*:',
+        html or "",
+        re.I,
+    ):
+        etiket = re.sub(r"\s+", " ", html_lib.unescape(m.group(1))).strip(" :")
+        geri = html[m.end(): m.end() + 500]
+        deger_m = re.search(r"<span>\s*([^<]{1,200})\s*</span>", geri)
+        if not deger_m:
+            continue
+        deger = re.sub(r"\s+", " ", html_lib.unescape(deger_m.group(1))).strip()
+        if etiket and deger and (etiket, deger) not in cift:
+            cift.append((etiket, deger))
+    return cift
+
+
+def _maddeler(html):
+    """Özellik maddeleri. A+ pazarlama blokları karışmasın diye feature-bullets ile sınırlı."""
+    m = re.search(r'id="feature-bullets"[\s\S]{0,12000}', html or "", re.I)
+    parca = m.group(0) if m else ""
+    out = []
+    for li in re.findall(r"<li[^>]*>([\s\S]*?)</li>", parca, re.I):
+        metin = _temiz_html(li)
+        metin = re.sub(r"\s+", " ", metin).strip(" ·•-")
+        if len(metin) < 12 or len(metin) > 400:
+            continue
+        if metin.lower().startswith("bu ürün") and "amazon" in metin.lower():
+            continue
+        if metin not in out:
+            out.append(metin)
+    return out[:12]
+
+
+def urun_ayrintisi(html):
+    """Ürün sayfasından başlık, açıklama, madde ve bilgi satırları.
+
+    Sayfada olmayan alan boş kalır. Uydurma yok.
+    """
+    baslik = _sayfa_basligi(html)
+    aciklama = ""
+    for id_ in ("bookDescription_feature_div", "productDescription", "productDescription_feature_div"):
+        ham = _temiz_html(_blok(html, id_))
+        ham = re.sub(r"\n{3,}", "\n\n", ham)
+        if len(ham.split()) > len(aciklama.split()):
+            aciklama = ham
+    # Kitap açıklaması bazen expander içinde, id bloğu kısa kalabilir.
+    if len(aciklama.split()) < 40:
+        m = re.search(r'id="bookDescription_feature_div"[^>]*>([\s\S]{0,20000})', html or "", re.I)
+        if m:
+            aday = _temiz_html(m.group(1))
+            if len(aday.split()) > len(aciklama.split()):
+                aciklama = aday
+    bilgiler = []
+    for etiket, deger in _madde_ciftleri(html):
+        bilgiler.append({"etiket": etiket, "deger": deger})
+    return {
+        "baslik": baslik,
+        "aciklama": aciklama.strip(),
+        "maddeler": _maddeler(html),
+        "bilgiler": bilgiler,
+    }
+
+
+def bilgi_degeri(ayrinti, *etiketler):
+    """Bilgi satırından ilk uyan değer. Yoksa boş."""
+    istenen = {fold(e) for e in etiketler}
+    for satir in (ayrinti or {}).get("bilgiler") or []:
+        if fold(satir.get("etiket")) in istenen:
+            return str(satir.get("deger") or "").strip()
+    return ""
+
+
 def _sayfa_basligi(html):
     m = re.search(r"<title>([^<]+)</title>", html or "", re.I)
     if not m:

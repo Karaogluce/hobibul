@@ -96,7 +96,7 @@ TIPLER = {
         yapi="İlk iki cümlede alım sorusuna cevap ver. Hemen ardından bir başlangıç ürününe aff:// linki koy. "
              "Sonra '## Satın Almadan Önce Nelere Bakmalı?' → '## Ürün Ürün Set' altında her önerilen ürün için ### başlık "
              "ve 'kime uymaz' cümlesi → '## Bütçe, Orta ve Üst Paket' altında fiyat yazmadan üç satırlık markdown tablo "
-             "(Paket | İçinde ne var | Kime uyar) → '## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye "
+             "(Paket | İçinde ne var | Kime uyar) → '## Sıkça Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye "
              "('Sonuç' başlığı kullanma).",
     ),
     "rehber": dict(
@@ -104,26 +104,26 @@ TIPLER = {
         baslik=lambda s: f"En İyi {s} Ekipmanları ({YEAR}): Alım Rehberi",
         yapi="Giriş (odak anahtar kelime ilk paragrafta geçsin) → '## Satın Almadan Önce Nelere Bakmalı?' (genel, "
              "doğrulanabilir bilgiler; sayı/ölçü uydurma) → '## En İyi Seçenekler' altında her ürün için ### başlık → "
-             "'## Hangisini Seçmeli?' (kullanım senaryosuna göre kısa eşleştirme) → '## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
+             "'## Hangisini Seçmeli?' (kullanım senaryosuna göre kısa eşleştirme) → '## Sıkça Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
     "yeni_baslayan": dict(
         hedef=1000, hepsi=True,
         baslik=lambda s: f"{s} İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
         yapi="Giriş (başlangıç kaygıları) → '## Başlamadan Önce Bilmen Gerekenler' → '## İlk Alışverişte Öncelik Sırası' altında "
              "ürünleri neden bu sırayla alınacağıyla ### başlıklar halinde anlat → '## Yeni Başlayanların Sık Yaptığı Hatalar' → "
-             "'## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
+             "'## Sıkça Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
     "hatalar": dict(
         hedef=1000, hepsi=False,
         baslik=lambda s: f"{s} Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
         yapi="Giriş → 7 numaralı hata, her biri ### başlık + 'neden sorun' + 'ne yapmalı' → hataların 2-3'üne uygun ürünlerden "
-             "doğal biçimde link ver → '## Sık Sorulan Sorular' (3 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
+             "doğal biçimde link ver → '## Sıkça Sorulan Sorular' (3 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
     "sss": dict(
         hedef=1000, hepsi=False,
         baslik=lambda s: f"{s} Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
         yapi="Giriş → 8-10 soru, her biri ### başlık olarak (aşağıdaki gerçek arama sorgularından seç) ve 2-4 cümlelik net cevap → "
-             "uygun cevaplarda 2-3 üründen doğal biçimde link ver → '## Sık Sorulan Sorular' başlığını da kullan (ör. 'Hâlâ Aklında Soru Var mı?') → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
+             "uygun cevaplarda 2-3 üründen doğal biçimde link ver → '## Sıkça Sorulan Sorular' başlığını da kullan (ör. 'Hâlâ Aklında Soru Var mı?') → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
     "kontrol_listesi": dict(
         hedef=1000, hepsi=False,
@@ -131,21 +131,21 @@ TIPLER = {
         yapi="Giriş (hedef sorguya ilk paragrafta cevap) → '## Neye İhtiyacın Var?' (hangi durumda hangi ekipman, "
              "ürün verisine dayalı genel gerekçeler) → '## Kontrol Listesi' altında madde madde liste; her maddede o şeyin neden "
              "gerektiğini tek cümleyle açıkla → '## Listeyi Kendine Göre Uyarlama' (kısa/uzun hazırlık, mevsim, deneyim farkı) → "
-             "'## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma). Listede geçen en az 2 üründen doğal biçimde link ver.",
+             "'## Sıkça Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma). Listede geçen en az 2 üründen doğal biçimde link ver.",
     ),
     "nasil_yapilir": dict(
         hedef=1000, hepsi=False,
         baslik=lambda s: f"{s} Nasıl Yapılır? Adım Adım Rehber",
         yapi="Giriş (hedef sorguya ilk iki cümlede cevap) → '## Gerekli Malzemeler ve Hazırlık' (kısa liste) → "
              "'## Adım Adım Uygulama' altında her adımı ### başlık yaparak sırayla anlat → '## Yeni Başlayanların Sık Yaptığı Hatalar' → "
-             "'## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma). Uygun adımlarda en az 2 üründen doğal biçimde link ver.",
+             "'## Sıkça Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma). Uygun adımlarda en az 2 üründen doğal biçimde link ver.",
     ),
     "talep": dict(
         hedef=1500, hepsi=False, taban=1500,
         baslik=lambda s: s,
         yapi="Giriş (aranan sorguyu ilk iki cümlede doğal Türkçeyle cevapla) → '## Ne Arıyor, Ne İşe Yarar?' → "
              "'## Seçerken Nelere Bakmalı?' → '## Ürün Ürün Karşılaştırma' altında her ürün için ### başlık, artı, eksi ve kime uymaz → "
-             "'## Sık Yapılan Hatalar' → '## Sık Sorulan Sorular' (en az 4 soru, ### başlık) → kapanışta tek cümlelik net tavsiye "
+             "'## Sık Yapılan Hatalar' → '## Sıkça Sorulan Sorular' (en az 4 soru, ### başlık) → kapanışta tek cümlelik net tavsiye "
              "('Sonuç' başlığı kullanma). Kategori sayfasına bir iç link ve en az 2 aff:// ürün linki ver.",
     ),
 }
@@ -1340,9 +1340,15 @@ def kelime_hedef(tip):
     return TIPLER[tip]["hedef"]
 
 
+DUZENLI_TABAN = 1000
+
+
 def _yayin_tabani(tip):
-    """Kapı alt sınırı. Arama-talebi dışında güvenlik tabanı değişmez."""
-    return int(TIPLER.get(tip, {}).get("taban") or GUVENLIK_TABANI)
+    """Kapı alt sınırı. Düzenli yazı 1000, arama talebi kayıttaki taban."""
+    ozel = TIPLER.get(tip, {}).get("taban")
+    if ozel:
+        return int(ozel)
+    return DUZENLI_TABAN
 
 
 def _urun_bloku(prods):
@@ -1382,7 +1388,7 @@ def build_prompt(t, prods, sugg, guide=""):
         uzunluk = (
             f"- En az {hedef} kelime yaz. Sorguyu ilk paragrafta doğal Türkçeyle cevapla; kelimeyi doldurmak için aynı öğüdü tekrarlama.\n"
             "- En az 6 adet \"## \" bölümü yaz. Her ## bölümünde en az iki paragraf olsun.\n"
-            "- '## Sık Sorulan Sorular' altında en az 4 soru olsun; her soru ### başlık.\n"
+            "- '## Sıkça Sorulan Sorular' altında en az 4 soru olsun; her soru ### başlık.\n"
             f"- Kategoriye bir iç link ver: [{t['sub_name']}]({alt_yol})\n"
             "- Başka bir rehber doğal düşüyorsa /makale/... iç linki de kullan.\n"
             "- Her bölüm yeni bir ayrım taşısın: kime uyar, kime uymaz, hangi durumda hangi parça."

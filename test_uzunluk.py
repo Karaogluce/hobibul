@@ -128,25 +128,36 @@ class UzunlukTest(unittest.TestCase):
 
     def test_kisa_kapisi_guvenlik_tabanini_soyler(self):
         why = otomatik.gate("kelime " * 500, "ticari", [], [])
-        self.assertEqual(why, "kısa (500 kelime, güvenlik tabanı 600)")
+        self.assertEqual(why, "kısa (500 kelime, güvenlik tabanı 1000)")
         yedi_yuz = otomatik.gate("kelime " * 700, "rehber", [{"id": "a"}, {"id": "b"}], [])
-        self.assertFalse(yedi_yuz and yedi_yuz.startswith("kısa"))
+        self.assertTrue(yedi_yuz and yedi_yuz.startswith("kısa"))
 
     def test_kisa_ama_tam_makale_reddedilmez(self):
         body = _tam_makale()
         self.assertGreaterEqual(len(body.split()), otomatik.GUVENLIK_TABANI)
         self.assertLess(len(body.split()), 1500)
-        self.assertIsNone(otomatik.gate(body, "sss", [{"id": "a"}, {"id": "b"}], []))
+        if len(body.split()) < otomatik.DUZENLI_TABAN:
+            self.assertTrue(
+                otomatik.gate(body, "sss", [{"id": "a"}, {"id": "b"}], []).startswith("kısa"))
+        else:
+            self.assertIsNone(otomatik.gate(body, "sss", [{"id": "a"}, {"id": "b"}], []))
 
     def test_yarim_ve_bozuk_cikti_reddedilir(self):
         self.assertTrue(otomatik.gate("kelime " * 200, "sss", [], []).startswith("kısa"))
-        yarim = _tam_makale().replace("## ", "### ")
+
+        def _uzat(body):
+            eksik = otomatik.DUZENLI_TABAN - len(body.split())
+            if eksik > 0:
+                body += " " + " ".join(["kelime"] * (eksik + 8))
+            return body
+
+        yarim = _uzat(_tam_makale().replace("## ", "### "))
         self.assertEqual(otomatik.gate(yarim, "sss", [{"id": "a"}, {"id": "b"}], []),
                          "yetersiz H2 bölümü")
-        ssssiz = _tam_makale().replace("Sık Sorulan Sorular", "Ek Notlar")
+        ssssiz = _uzat(_tam_makale().replace("Sık Sorulan Sorular", "Ek Notlar"))
         self.assertEqual(otomatik.gate(ssssiz, "sss", [{"id": "a"}, {"id": "b"}], []),
                          "SSS bölümü yok")
-        linksiz = _tam_makale().replace("aff://a", "aff://yok").replace("aff://b", "aff://yok")
+        linksiz = _uzat(_tam_makale().replace("aff://a", "aff://yok").replace("aff://b", "aff://yok"))
         self.assertEqual(otomatik.gate(linksiz, "sss", [{"id": "a"}, {"id": "b"}], []),
                          "en az 2 ürün linki yok")
 
@@ -263,8 +274,9 @@ class UzunlukTest(unittest.TestCase):
 
     def test_genisletme_karari(self):
         self.assertTrue(otomatik.genisletme_gerekli("kelime " * 500, "ticari", "STOP"))
-        self.assertFalse(otomatik.genisletme_gerekli("kelime " * 700, "ticari", "STOP"))
-        self.assertTrue(otomatik.genisletme_gerekli("kelime " * 700, "ticari", "MAX_TOKENS"))
+        self.assertTrue(otomatik.genisletme_gerekli("kelime " * 700, "ticari", "STOP"))
+        self.assertFalse(otomatik.genisletme_gerekli("kelime " * 1000, "ticari", "STOP"))
+        self.assertTrue(otomatik.genisletme_gerekli("kelime " * 1000, "ticari", "MAX_TOKENS"))
 
     def test_uzat_kisa_taslagi_tamamlar_ve_uzun_taslage_dokunmaz(self):
         t = _konu()
