@@ -43,6 +43,17 @@ class YedekMetinTest(unittest.TestCase):
         self.assertIn("6052657480", govde)
         self.assertIn("Liste Amazon.com.tr çok satanlar sıralamasına göre hazırlandı", govde)
 
+    def test_kaynak_disi_sayi_ve_kalip(self):
+        import otomatik
+        kaynak = "Yağ tankı 230 ml. Akü yanda. Dil Türkçe."
+        govde = "Tank 230 ml ve şeffaf. Metin sade bir dille akıyor. Ayrı bir 38 cm iddiası da var."
+        bayrak = otomatik.kaynak_disi_iddialar(govde, kaynak)
+        self.assertTrue(bayrak)
+        birlesik = " ".join(bayrak).lower()
+        self.assertIn("şeffaf", birlesik)
+        self.assertIn("38", birlesik)
+        self.assertNotIn("230", " ".join(s for s in bayrak if "38" not in s and "şeffaf" not in s.lower()))
+
 
 if __name__ == "__main__":
     unittest.main()

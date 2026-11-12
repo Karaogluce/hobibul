@@ -380,7 +380,8 @@ class UzunlukTest(unittest.TestCase):
         self.assertFalse(acik)
         self.assertEqual(modeller[0], "gemini-flash-latest")
         self.assertIn("gemini-flash-lite-latest", modeller)
-        self.assertIn("gemini-3.8-flash", modeller)
+        self.assertNotIn("gemini-2.5-flash", modeller)
+        self.assertNotIn("gemini-3.8-flash", modeller)
 
 
 if __name__ == "__main__":
