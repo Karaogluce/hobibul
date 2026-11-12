@@ -7,10 +7,12 @@ on:
     # geciktirir veya hiç başlatmaz. Aynı tempo, kalabalığın dışında iki ayrı zamanlama.
     - cron: "7 * * * *"
     - cron: "37 * * * *"
+    # Telafi: önceki saat Gemini yüzünden 0 yazdıysa kalan düzenli 3 + arama talebi 2 dolar.
+    - cron: "17 5,11,17,23 * * *"
   workflow_dispatch:
     inputs:
       adet:
-        description: "Bu çalışmada denenecek makale sayısı (varsayılan 3). Günlük tavan 3; bugün yazılanlar düşülür."
+        description: "Bu çalışmada denenecek düzenli makale (varsayılan 3). Günlük tavan 3 düzenli + GSC_HEDEF arama talebi; bugün yazılanlar düşülür."
         default: "3"
   push:                         # taslağı onaylayıp (draft: "false") kaydedince siteyi yeniden üretir
     branches: [main]

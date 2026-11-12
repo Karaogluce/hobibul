@@ -1,6 +1,7 @@
 """Gemini uzunluk kapısı: yumuşak hedef, güvenlik tabanı ve devam çağrısı. Ağ yok."""
 import io
 import json
+import os
 import unittest
 import urllib.error
 import urllib.request
@@ -329,6 +330,45 @@ class UzunlukTest(unittest.TestCase):
         self.assertEqual(str(out), "metin")
         self.assertEqual(calls, ["gemini-flash-latest", "gemini-flash-lite-latest"])
         self.assertEqual(idx[0], 1)
+
+    def test_503_yedek_modele_hemen_gecer(self):
+        calls = []
+
+        def fake(prompt, key, model):
+            calls.append(model)
+            if model != "gemini-2.5-flash":
+                raise ym.GeminiError("Gemini hatası 503: UNAVAILABLE")
+            return ym.GeminiYazi("metin", "STOP", {})
+
+        orig = ym.call_gemini
+        ym.call_gemini = fake
+        try:
+            idx = [0]
+            out = otomatik._gemini(
+                "p", "k",
+                ["gemini-flash-latest", "gemini-flash-lite-latest", "gemini-2.5-flash"],
+                idx)
+        finally:
+            ym.call_gemini = orig
+        self.assertEqual(str(out), "metin")
+        self.assertEqual(calls[0], "gemini-flash-latest")
+        self.assertEqual(calls[-1], "gemini-2.5-flash")
+        self.assertEqual(idx[0], 2)
+
+    def test_bos_gemini_model_varsayilan_ve_iki_yedek(self):
+        eski_ana = os.environ.pop("GEMINI_MODEL", None)
+        eski_yedek = os.environ.pop("GEMINI_MODEL_YEDEK", None)
+        try:
+            modeller, acik = otomatik._modeller()
+        finally:
+            if eski_ana is not None:
+                os.environ["GEMINI_MODEL"] = eski_ana
+            if eski_yedek is not None:
+                os.environ["GEMINI_MODEL_YEDEK"] = eski_yedek
+        self.assertFalse(acik)
+        self.assertEqual(modeller[0], "gemini-flash-latest")
+        self.assertIn("gemini-flash-lite-latest", modeller)
+        self.assertIn("gemini-2.5-flash", modeller)
 
 
 if __name__ == "__main__":
