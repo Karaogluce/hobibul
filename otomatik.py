@@ -1678,18 +1678,55 @@ def write_article(t, meta, body, img, draft, tarih=None):
 # yerleşik lite ve sabit bir flash. Anahtar bu listede yoktur.
 VARSAYILAN_MODEL = "gemini-flash-latest"
 YERLESIK_YEDEK = "gemini-flash-lite-latest"
-YERLESIK_YEDEKLER = (YERLESIK_YEDEK, "gemini-2.5-flash")
+# 2.5-flash yeni hesaplara 404 veriyor. Üçüncü ad, anahtar varken model listesinden gelir.
+YERLESIK_YEDEKLER = (YERLESIK_YEDEK,)
 
 
-def _modeller():
+def flash_modelleri(key):
+    """generateContent destekleyen flash modeller. Anahtar ve 404 gövdesi loga yazılmaz."""
+    if not key:
+        return []
+    try:
+        req = urllib.request.Request(
+            "https://generativelanguage.googleapis.com/v1beta/models?pageSize=100",
+            headers={"x-goog-api-key": key},
+        )
+        with urllib.request.urlopen(req, timeout=20) as r:
+            data = json.loads(r.read().decode("utf-8"))
+    except Exception as e:
+        print("Model listesi alınamadı: " + ym._gemini_metin(e))
+        return []
+    uygun = []
+    for m in data.get("models") or []:
+        if not isinstance(m, dict):
+            continue
+        yontem = m.get("supportedGenerationMethods") or []
+        if "generateContent" not in yontem:
+            continue
+        ad = str(m.get("name") or "").split("/")[-1].strip()
+        low = ad.lower()
+        if "flash" not in low or any(k in low for k in ("embed", "image", "tts", "audio", "2.5", "2-5")):
+            continue
+        if ad and ad not in uygun:
+            uygun.append(ad)
+    return uygun
+
+
+def _modeller(key=None):
     """(model listesi, yedek variable açıkça tanımlı mı)."""
     ana = (os.environ.get("GEMINI_MODEL") or "").strip() or VARSAYILAN_MODEL
     yedek_raw = (os.environ.get("GEMINI_MODEL_YEDEK") or "").strip()
-    yedek = [m.strip() for m in yedek_raw.split(",") if m.strip()]
+    yedek = [m.strip() for m in yedek_raw.split(",") if m.strip() and "2.5" not in m.strip()]
     acik = bool(yedek)
     for m in YERLESIK_YEDEKLER:
         if m != ana and m not in yedek:
             yedek.append(m)
+    listed = flash_modelleri(key) if key else []
+    for m in listed:
+        if m not in yedek and m != ana:
+            yedek.append(m)
+        if len(yedek) >= 4:
+            break
     out = []
     for m in [ana] + yedek:
         if m not in out:
@@ -1726,15 +1763,56 @@ def _gemini(prompt, key, models, idx):
             return ym.call_gemini(prompt, key, model)
         except ym.GeminiError as e:
             last = e
-            if not (isinstance(e, ym.GeminiQuotaError) or gecici_api_hatasi(e)):
+            model_yok = "404" in str(e) and any(
+                s in str(e).lower() for s in ("no longer available", "not found", "not supported")
+            )
+            if not (isinstance(e, ym.GeminiQuotaError) or gecici_api_hatasi(e) or model_yok):
                 raise
             idx[0] += 1
-            neden = "günlük kota" if isinstance(e, ym.GeminiQuotaError) else "geçici hata"
+            if isinstance(e, ym.GeminiQuotaError):
+                neden = "günlük kota"
+            elif model_yok:
+                neden = "model yok"
+            else:
+                neden = "geçici hata"
             if idx[0] < len(models):
                 print(f"  {neden}: {model} — yedek modele geçiliyor ({models[idx[0]]})")
                 continue
             print(f"  {neden}: {model} — denenecek model kalmadı")
     raise last or ym.GeminiError("Kullanılabilir Gemini modeli kalmadı.")
+
+
+_KAYNAK_ZORUNLU = (
+    "şeffaf", "sade bir dil", "sade bir dille", "yorulmaz", "aşırı güç",
+    "zorlamadan", "tam sana göre", "bu kategorinin sayfası", "bu alt kategorinin sayfası",
+    "dünyasına", "birebir",
+)
+
+
+def kaynak_disi_iddialar(govde, kaynak):
+    """Kaynakta olmayan sayı veya ürün iddiasını taşıyan cümleler.
+
+    Sıra numarası gibi kaynakta da duran sayılar işaretlenmez.
+    """
+    kaynak_k = (kaynak or "").casefold()
+    kaynak_sayi = set(re.findall(r"\d+(?:[.,]\d+)?", kaynak or ""))
+    bayrak = []
+    parcalar = re.split(r"(?<=[.!?])\s+|\n+", govde or "")
+    for cumle in parcalar:
+        cumle = cumle.strip(" -\t")
+        if len(cumle.split()) < 4:
+            continue
+        kucuk = cumle.casefold()
+        yabanci_sayi = [
+            s for s in re.findall(r"\d+(?:[.,]\d+)?", cumle)
+            if s not in kaynak_sayi
+        ]
+        yabanci_soz = [k for k in _KAYNAK_ZORUNLU if k in kucuk and k not in kaynak_k]
+        if yabanci_sayi or yabanci_soz:
+            bayrak.append(cumle[:220])
+        if len(bayrak) >= 6:
+            break
+    return bayrak
 
 
 DEVAM_HAKKI = 2
@@ -2830,6 +2908,28 @@ def cesitlilik_plani_yaz(plan, cats=None):
     return metin
 
 
+def _kisa_neden(yeni, kaynak, linkler):
+    """Kısa yazı kabulü: link, SSS, kime/karşılaştırma, 700 kelime, kaynak dışı iddia yok."""
+    neden = []
+    eksik = [u for u in linkler if u not in (yeni or "")]
+    if eksik:
+        neden.append(f"eksik link {len(eksik)}")
+    if "## Sıkça Sorulan Sorular" not in (yeni or ""):
+        neden.append("SSS başlığı yok")
+    if not re.search(r"kimler|kime uyar|karşılaştır|hangisini|için", yeni or "", flags=re.I):
+        neden.append("kime veya karşılaştırma yok")
+    if "çekim" in (yeni or "").lower() or "tam sana göre" in (yeni or "").lower():
+        neden.append("yasak kalıp")
+    if "bu kategorinin sayfası" in (yeni or "").lower():
+        neden.append("kötü link metni")
+    iddia = kaynak_disi_iddialar(yeni, kaynak)
+    if iddia:
+        neden.append("kaynak dışı: " + iddia[0][:120])
+    if len((yeni or "").split()) < 700:
+        neden.append(f"{len((yeni or '').split())} kelime")
+    return neden
+
+
 def kisa_yenile(adet):
     """content/kisa_makaleler.json sırasındaki kısa yazıları Gemini ile yeniden yazar.
 
@@ -2850,7 +2950,8 @@ def kisa_yenile(adet):
     if not bekleyen or adet <= 0:
         print("Yenilenecek kısa yazı kalmadı.")
         return 0
-    models, _acik = _modeller()
+    models, _acik = _modeller(key)
+    print("Modeller: " + " → ".join(models))
     idx = [0]
     guide = load_guide()
     bugun = istanbul_bugun().isoformat()
@@ -2888,10 +2989,13 @@ YAZIM:
 YAPI:
 - Giriş, okurun sorusuna cevap versin. "Bu yazıda" deme.
 - Kaynaktaki her ürün kendi bölümünde kalsın. Linkleri aynen koru, yeni ürün ekleme.
-- ## Sıkça Sorulan Sorular altında 3 soru, soru satırı **soru** biçiminde.
+- Yalnızca kaynak metindeki olguyu yaz. Kaynakta olmayan kural, süre, parça, malzeme ve "nasıl oynanır" yok.
+- Kim için olduğu ve karşılaştırma da yalnızca kaynakta duran kişi sayısı, yaş veya özellikten gelsin.
+- ## Sıkça Sorulan Sorular altında 3 soru, soru satırı **soru** biçiminde. Cevap kaynakta yoksa o soruyu sorma.
 - Kapanışta tek net cümle. "Sonuç" başlığı yok.
-- Yaklaşık 1000-1300 kelime, dolgu yok. Kaynak inceyse uydurup uzatma; o ürünü kısa ve dürüst bırak.
-- Yasak: çekim, mükemmel, keşfedin, sonuç olarak, günümüzde, bu makalede.
+- Kaynak elveriyorsa 900 kelimeye yaklaş. Dolgu yok. Yetmiyorsa 700'de dur, uydurup uzatma.
+- Yasak: çekim, mükemmel, keşfedin, sonuç olarak, günümüzde, bu makalede, tam sana göre, dünyasına, sizlere, harika, birebir, bu kategorinin sayfası.
+- Okura "sen" de. "siz" kullanma. İç linkin görünen metni, kaynağın kendi başlığı olsun.
 
 Çıktı yalnız makale gövdesi. Ön yazı, kod bloğu ve GORSEL satırı yok.
 """
@@ -2901,9 +3005,21 @@ YAPI:
         except Exception as e:
             print(f"! {slug} yazılamadı: {ym._gemini_metin(e)}")
             continue
-        eksik = [u for u in linkler if u not in yeni]
-        if eksik or "## Sıkça Sorulan Sorular" not in yeni or "çekim" in yeni.lower():
-            print(f"! {slug} denetimden geçmedi")
+        neden = _kisa_neden(yeni, body, linkler)
+        if neden:
+            tekrar = prompt + (
+                "\n\nÖNCEKİ DENEME KABUL EDİLMEDİ. Kaynakta olmayan cümleyi sil. "
+                "Eksik linki aynen geri koy. Yeni olgu ekleme.\n" + "\n".join("- " + n for n in neden)
+            )
+            try:
+                yanit = _gemini(tekrar, key, models, idx)
+                yeni = govde_ayikla(str(yanit)).strip()
+                neden = _kisa_neden(yeni, body, linkler)
+            except Exception as e:
+                print(f"! {slug} ikinci deneme yazılamadı: {ym._gemini_metin(e)}")
+                neden = neden or ["ikinci deneme yok"]
+        if neden:
+            print(f"! {slug} denetimden geçmedi: {', '.join(neden)}")
             data["makaleler"].remove(kayit)
             data["makaleler"].append(kayit)
             continue
@@ -2916,14 +3032,9 @@ YAPI:
             f.write("---" + fm2 + "---\n" + yeni + "\n")
         kayit["kelime"] = kelime
         kayit["son"] = bugun
-        if kelime >= DUZENLI_TABAN:
-            kayit["yenilendi"] = True
-            bitti += 1
-            print(f"✓ {slug} {kelime} kelime")
-        else:
-            print(f"· {slug} hâlâ kısa ({kelime})")
-            data["makaleler"].remove(kayit)
-            data["makaleler"].append(kayit)
+        kayit["yenilendi"] = True
+        bitti += 1
+        print(f"✓ {slug} {kelime} kelime")
     data["sayi"] = sum(1 for m in data["makaleler"] if not m.get("yenilendi"))
     with open(yol, "w", encoding="utf-8", newline="\n") as f:
         json.dump(data, f, ensure_ascii=False, indent=1)

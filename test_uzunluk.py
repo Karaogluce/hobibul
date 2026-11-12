@@ -348,7 +348,7 @@ class UzunlukTest(unittest.TestCase):
 
         def fake(prompt, key, model):
             calls.append(model)
-            if model != "gemini-2.5-flash":
+            if model != "gemini-3.8-flash":
                 raise ym.GeminiError("Gemini hatası 503: UNAVAILABLE")
             return ym.GeminiYazi("metin", "STOP", {})
 
@@ -358,13 +358,13 @@ class UzunlukTest(unittest.TestCase):
             idx = [0]
             out = otomatik._gemini(
                 "p", "k",
-                ["gemini-flash-latest", "gemini-flash-lite-latest", "gemini-2.5-flash"],
+                ["gemini-flash-latest", "gemini-flash-lite-latest", "gemini-3.8-flash"],
                 idx)
         finally:
             ym.call_gemini = orig
         self.assertEqual(str(out), "metin")
         self.assertEqual(calls[0], "gemini-flash-latest")
-        self.assertEqual(calls[-1], "gemini-2.5-flash")
+        self.assertEqual(calls[-1], "gemini-3.8-flash")
         self.assertEqual(idx[0], 2)
 
     def test_bos_gemini_model_varsayilan_ve_iki_yedek(self):
@@ -380,7 +380,8 @@ class UzunlukTest(unittest.TestCase):
         self.assertFalse(acik)
         self.assertEqual(modeller[0], "gemini-flash-latest")
         self.assertIn("gemini-flash-lite-latest", modeller)
-        self.assertIn("gemini-2.5-flash", modeller)
+        self.assertNotIn("gemini-2.5-flash", modeller)
+        self.assertNotIn("gemini-3.8-flash", modeller)
 
 
 if __name__ == "__main__":

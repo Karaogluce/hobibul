@@ -258,10 +258,29 @@ def _ilgili_makaleler(cat, sub, kendi, limit=3):
     if len(sonuc) >= 2 or not cat:
         return sonuc
     # Aynı kategoride rehber yoksa (kitapta olduğu gibi) kategori sayfasına bağla.
-    sonuc.append({"baslik": "Bu kategorinin sayfası", "url": f"/kategori/{cat}/"})
+    sonuc.append({"baslik": _kategori_adi(cat), "url": f"/kategori/{cat}/"})
     if sub:
-        sonuc.append({"baslik": "Bu alt kategorinin sayfası", "url": f"/kategori/{cat}/{sub}/"})
+        sonuc.append({"baslik": _kategori_adi(cat, sub), "url": f"/kategori/{cat}/{sub}/"})
     return sonuc
+
+
+def _kategori_adi(cat, sub=None):
+    """Kategori dosyasındaki görünen ad. Yoksa slug durur, uydurma etiket yazılmaz."""
+    yol = os.path.join(CONTENT, "categories.json")
+    try:
+        data = json.load(open(yol, encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return sub or cat
+    for c in data if isinstance(data, list) else []:
+        if c.get("slug") != cat and c.get("id") != cat:
+            continue
+        if not sub:
+            return c.get("name") or cat
+        for s in c.get("subcategories") or []:
+            if s.get("slug") == sub or s.get("id") == sub:
+                return s.get("name") or sub
+        return c.get("name") or cat
+    return sub or cat
 
 
 def _alan(ayrinti, *etiketler):
@@ -500,10 +519,10 @@ def _link_cumlesi(ilgili, kitap):
     sec = [m for m in (ilgili or []) if m.get("slug")][:3]
     if kitap and len(sec) < 2:
         return (
-            "Kitabın yanında evde oturan başka uğraşlar da var: "
-            "[okuma](/kategori/yazi-edebiyat/okuma/), "
-            "[Yetişkin Hobi Setleri](/makale/yetiskin-hobi-setleri/) ve "
-            "[Evde Yapılacak Hobiler](/makale/evde-yapilacak-hobiler/)."
+            "Kitabın yanında duran sayfalar: "
+            "[Yazı & Edebiyat](/kategori/yazi-edebiyat/), "
+            "[Okuma & Kitap Kulübü](/kategori/yazi-edebiyat/okuma/) ve "
+            "[Yetişkin Hobi Setleri: Hangisi Alınır? (Boyama, Maket, Diamond Painting)](/makale/yetiskin-hobi-setleri/)."
         )
     if not sec:
         return ""
@@ -725,9 +744,9 @@ def _yedek_urun(liste, gun_yazi, urunler):
 
 def _govde_uygun(govde, liste):
     """Gemini çıktısı linkleri, SSS başlığını ve yasak kalıpları taşısın."""
-    if not govde or "çekim" in govde.lower():
-        return False
-    if "yazar satırı" in govde.lower() or "kapakta duran anlatı" in govde.lower():
+    yasak = ("çekim", "yazar satırı", "kapakta duran anlatı", "tam sana göre", "dünyasına", "bu kategorinin sayfası")
+    kucuk = (govde or "").lower()
+    if not govde or any(k in kucuk for k in yasak):
         return False
     if "## Sıkça Sorulan Sorular" not in govde or "## Hangisini seçmeli?" not in govde:
         return False
@@ -745,7 +764,7 @@ def _govde_uygun(govde, liste):
     if len(_ngram(ham, 10) & _ngram(govde, 10)) > 2:
         return False
     kelime = len(govde.split())
-    return 450 <= kelime <= 1500
+    return 700 <= kelime <= 1500
 
 
 def _gemini_govde(liste, gun_yazi):
@@ -819,23 +838,43 @@ Tek markdown tablo. Kitapta yazar, yayınevi, sayfa. Diğerinde ürün ve bir ay
 Kapanışta tam olarak şu cümle, başka kaynak açıklaması yok:
 {KAPANIS}
 
-UZUNLUK: yaklaşık 900-1300 kelime, dolu ve doğal. Sırf sayı tutsun diye aynı bilgiyi ikinci kez yazma. Eksik kalsın, dolgu yapma.
-YASAK: çekim, yazar satırı, kapakta duran anlatı, sayfasında yayıncı olarak, mükemmel, keşfedin, sonuç olarak, günümüzde.
+UZUNLUK: Kapak ve madde metnini kullanarak yaklaşık 900 kelime. Dolgu, tekrar ve kaynakta olmayan cümle yok. Yetmezse kısa kalsın.
+YASAK: çekim, yazar satırı, kapakta duran anlatı, sayfasında yayıncı olarak, mükemmel, keşfedin, sonuç olarak, günümüzde, tam sana göre, dünyasına, bu kategorinin sayfası, sizlere, şeffaf (kaynakta yoksa), sade bir dille.
+İç linkin görünen metni, verilen başlığın kendisi olsun. Sayfada yazmayan malzeme, kural veya kullanım adımı ekleme.
 Kapak metninden 10 kelimeyi art arda kopyalama. Kod bloğu yok.
 """
+    kaynak = gun_yazi + "\n" + json.dumps(paket, ensure_ascii=False) + "\n" + json.dumps(ilgili, ensure_ascii=False)
     try:
         otomatik.ym.load_env()
-        models, _acik = otomatik._modeller()
+        models, _acik = otomatik._modeller(key)
+        print("Modeller: " + " → ".join(models))
         idx = [0]
-        yanit = otomatik._gemini(prompt, key, models, idx)
-        govde = otomatik.govde_ayikla(str(yanit))
+        govde = _gemini_deneme(prompt, key, models, idx)
     except Exception as e:
         print("Gemini yazamadı, yedek metin kullanılacak: " + otomatik.ym._gemini_metin(e))
         return ""
-    if not _govde_uygun(govde, liste):
-        print("Gemini metni denetlenemedi, yedek metin kullanılacak.")
-        return ""
+    sorun = otomatik.kaynak_disi_iddialar(govde, kaynak)
+    if sorun or not _govde_uygun(govde, liste):
+        ek = "\n".join("- " + s for s in sorun) or "- Metin kısa, eksik bölüm var ya da yasak kalıp var."
+        tekrar = prompt + (
+            "\n\nÖNCEKİ DENEME KABUL EDİLMEDİ. Şu cümleleri sil. Yerine yalnızca olgulardaki bilgiyi yaz. "
+            "Yeni sayı, malzeme, kural veya kullanım adımı ekleme:\n" + ek
+        )
+        try:
+            govde = _gemini_deneme(tekrar, key, models, idx)
+        except Exception as e:
+            print("Gemini ikinci deneme yazılamadı: " + otomatik.ym._gemini_metin(e))
+            return ""
+        sorun = otomatik.kaynak_disi_iddialar(govde, kaynak)
+        if sorun or not _govde_uygun(govde, liste):
+            print("Gemini metni denetlenemedi, yedek metin kullanılacak.")
+            return ""
     return govde.strip() + "\n"
+
+
+def _gemini_deneme(prompt, key, models, idx):
+    yanit = otomatik._gemini(prompt, key, models, idx)
+    return otomatik.govde_ayikla(str(yanit))
 
 
 def yazi_metni(liste, hafta, gun_yazi):

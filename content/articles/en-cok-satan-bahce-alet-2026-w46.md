@@ -18,10 +18,10 @@ Bugün seninle bahçede işleri kolaylaştıracak, toprağın ve yeşilliğin ta
 
 ## 4. Einhell Professional Akülü Budama Testeresi GP-LC 36/40 Li BL-Solo 4600050
 
-Ağaç dallarını keserken kablolara takılmadan, benzinli motorların gürültüsüyle uğraşmadan rahatça çalışmanı sağlayan bu akülü testere, OREGON marka kaliteli bıçak ve zincir kombinasyonuyla gelir. Yan tarafa yerleştirilen akü yuvası sayesinde ağırlık dengesi en iyi şekilde korunur, böylece uzun süreli kesimlerde bile kolun yorulmaz. Üstelik otomatik zincir yağlama sistemi, sen çalışırken zincirin sürekli yağlanmasını sağlar ve yağ seviyesini tank üzerindeki göstergeden kolayca takip edebilirsin.
+Ağaç dallarını keserken kablolara takılmadan, benzinli motorların gürültüsüyle uğraşmadan rahatça çalışmanı sağlayan bu akülü testere, OREGON marka kaliteli bıçak ve zincir kombinasyonuyla gelir. Yan tarafa yerleştirilen akü yuvası, sayfanın yazdığı gibi dengeyi korumak için orada. Üstelik otomatik zincir yağlama sistemi, sen çalışırken zincirin sürekli yağlanmasını sağlar ve yağ seviyesini tank üzerindeki göstergeden kolayca takip edebilirsin.
 
 ### Öne çıkanlar
-* Otomatik zincir yağlama ve 230 ml şeffaf yağ tankı
+* Otomatik zincir yağlama ve 230 ml yağ tankı
 * Yan tarafa konumlandırılmış akü yerleşimi ile dengeli kullanım
 * Bakım gerektirmeyen güçlü kömürsüz motor teknolojisi
 * Aküsüz ve şarj cihazsız solo teslimat yapısı
@@ -51,7 +51,7 @@ Bahçede hortumu musluğa bağlarken su kaçağıyla uğraşmayı sevmeyenler i�
 Musluk ile hortum arasında damlatmayan, hızlı sökülüp takılan bir bağlantı arayanlar içindir.
 
 ### Kullanırken
-Kelepçeyi musluğa takarken aşırı güç uygulamadan, contanın tam oturduğundan emin olarak sıkmalısın.
+Kelepçe musluğa aletsiz takılıyor. Conta, su kaçağını kesmek için sayfada duruyor.
 
 [Satın Al](https://www.amazon.com.tr/dp/B0GZHMFWZK?tag=hobibulsite-21)
 
@@ -70,7 +70,7 @@ Farklı sulama ve temizlik işlerini tek bir başlıkla çözmek istediğinde im
 Bahçe sulamanın yanında balkon, teras ve araç yıkama gibi farklı temizlik işlerini tek tabancayla yapmak isteyenler içindir.
 
 ### Kullanırken
-Su modları arasında geçiş yaparken başlığı zorlamadan, akış durduğunda veya hafifletildiğinde çevirmelisin.
+Su modunu başlık kısmından değiştiriyorsun. Sayfa fıskiye, jet, püskürtme, dolgu, duş, konik ve yarım koni modlarını yazıyor.
 
 [Satın Al](https://www.amazon.com.tr/dp/B0CY5CKLJP?tag=hobibulsite-21)
 
