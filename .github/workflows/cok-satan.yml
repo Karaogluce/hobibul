@@ -23,8 +23,10 @@ on:
 permissions:
   contents: write
 
+# Günlük makale ile aynı grupta bekleyen ikinci iş GitHub tarafından iptal ediliyor.
+# Bu iş kendi grubunda kalsın; main'e itme çakışırsa betik rebase ile yeniden dener.
 concurrency:
-  group: site-yayin
+  group: cok-satan
   cancel-in-progress: false
 
 jobs:
