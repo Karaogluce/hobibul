@@ -254,7 +254,7 @@ def _ilgili_makaleler(cat, sub, kendi, limit=3):
         ayni = 0 if (sm and sm.group(1) == sub) else 1
         aday.append((ayni, tm.group(1), slug))
     aday.sort()
-    sonuc = [{"baslik": b, "slug": s} for _, b, s in aday[:4]]
+    sonuc = [{"baslik": b, "slug": s} for _, b, s in aday[:3]]
     if len(sonuc) >= 2 or not cat:
         return sonuc
     # Aynı kategoride rehber yoksa (kitapta olduğu gibi) kategori sayfasına bağla.
@@ -266,138 +266,6 @@ def _ilgili_makaleler(cat, sub, kendi, limit=3):
 
 def _alan(ayrinti, *etiketler):
     return amazon_tr.bilgi_degeri(ayrinti or {}, *etiketler)
-
-
-def _madde_parcasi(ad, madde):
-    """Özellik maddesini başlık ve gövde olarak yaz. Madde kısa olduğu için bütün kalır."""
-    ham = re.sub(r"^[^\wÇĞİÖŞÜçğıöşü]+", "", madde or "").strip()
-    ham = re.sub(r"\bmükemmel\b", "", ham, flags=re.I)
-    ham = re.sub(r"\s+", " ", ham).strip()
-    if ":" in ham:
-        baslik, _, govde = ham.partition(":")
-    elif "–" in ham:
-        baslik, _, govde = ham.partition("–")
-    else:
-        baslik, govde = ham, ""
-    baslik, govde = baslik.strip(" ."), govde.strip()
-    if baslik and govde:
-        return f"{baslik}. {govde}"
-    return ham
-
-
-def _alan_parcasi(ad, etiket, deger):
-    """Bilgi satırını yeni olgu eklemeden bir cümleye bağla."""
-    return f"{ad} sayfasında {etiket.lower()} olarak {deger} yazıyor."
-
-
-def _urun_bolumu(u, kitap):
-    ad = u["ad"]
-    link = f"[{ad}]({u['url']})"
-    ayr = u.get("ayrinti") or {}
-    satir = [f"## {u['sira']}. sıradaki {ad}", ""]
-    giris = f"{u['sira']}. sıra {link}."
-    if u.get("yazar"):
-        giris += f" Yazar satırı {u['yazar']}."
-    yayinci = _alan(ayr, "Yayıncı", "Yayınevi", "Marka", "Üretici")
-    sayfa = _alan(ayr, "Baskı Uzunluğu", "Sayfa sayısı")
-    dil = _alan(ayr, "Dil")
-    tarih = _alan(ayr, "Yayınlanma Tarihi", "Yayın tarihi")
-    if yayinci:
-        giris += f" Yayıncı olarak {yayinci} yazıyor."
-    if sayfa:
-        giris += f" Baskı uzunluğu {sayfa}."
-    if dil:
-        giris += f" Dil satırı {dil}."
-    if tarih:
-        giris += f" Yayın tarihi {tarih}."
-    satir += [giris, ""]
-    anlati = ANLATI.get(u.get("asin") or "") if (ayr.get("aciklama") or "").strip() else ""
-    cumleler = [anlati] if anlati else parafraz(ayr.get("aciklama") or "")
-    if cumleler:
-        baslik = "Kapakta duran anlatı" if kitap else "Sayfanın anlattığı"
-        satir += [f"### {baslik}", ""]
-        for cumle in cumleler:
-            satir.append(cumle)
-            satir.append("")
-    maddeler = ayr.get("maddeler") or []
-    if maddeler:
-        satir += ["### Sayfadaki özellikler", ""]
-        for madde in maddeler:
-            parca = _madde_parcasi(ad, madde)
-            if not parca:
-                continue
-            satir.append(parca)
-            satir.append("")
-    bilgiler = ayr.get("bilgiler") or []
-    bilgi_satir = []
-    for b in bilgiler:
-        et, de = b.get("etiket") or "", b.get("deger") or ""
-        if not et or not de or et.lower().startswith("isbn"):
-            continue
-        bilgi_satir.append(_alan_parcasi(ad, et, de))
-    if bilgi_satir:
-        satir += ["### Ürün bilgisi satırı", ""]
-        for p in bilgi_satir:
-            satir.append(p)
-            satir.append("")
-    kime = _kime_cumlesi(ad, ayr)
-    if kime:
-        satir += ["### Kime uyuyor", "", kime, ""]
-    sinir = _sinir_cumlesi(ad, ayr)
-    if sinir:
-        satir += ["### Sınırı", "", sinir, ""]
-    satir += [
-        "### Bu sırada durmasının nedeni",
-        "",
-        (
-            f"{ad} bu çekimde {u['sira']}. sırada. "
-            "Bu numara, o günkü çok satanlar sayfasındaki yer. "
-            "Sayfa başka bir satış gerekçesi yazmıyor."
-        ),
-        "",
-    ]
-    return "\n".join(satir).strip()
-
-
-_KITLE = (
-    "çocuk", "yetişkin", "yaş", "aile", "okul", "bahçe", "seyahat",
-    "oyuncu", "başlangıç", "sulama", "çim", "bitki", "öğrenci",
-)
-
-
-def _sinir_cumlesi(ad, ayr):
-    """Sayfada açıkça yazan yaş veya teslimat sınırını eksik bırakma."""
-    metin = " ".join(list(ayr.get("maddeler") or []) + [ayr.get("aciklama") or ""])
-    notlar = []
-    yas = re.search(r"(\d+)\s*yaş[^\n.]{0,40}uygun değildir", metin, flags=re.I)
-    if yas:
-        notlar.append(f"{yas.group(1)} yaşından küçükler için uygun olmadığı yazılı")
-    elif re.search(r"uygun değildir", metin, flags=re.I):
-        notlar.append("sayfa bir grup için uygun olmadığını yazıyor")
-    if re.search(r"aküsüz|olmadan teslim", metin, flags=re.I):
-        notlar.append("teslimatın akü veya şarj cihazı olmadan yapıldığı yazılı")
-    if not notlar:
-        return ""
-    return f"{ad} için sayfanın sınır notu: " + "; ".join(notlar) + "."
-
-
-def _kime_cumlesi(ad, ayr):
-    """Sayfada kitle veya kullanım bildiren 'için' ifadesi varsa onu aktar."""
-    metin = " ".join(list(ayr.get("maddeler") or []))
-    bulunan = []
-    for m in re.finditer(r"([^.]{8,80}?)\biçin\b", metin, flags=re.I):
-        parca = re.sub(r"\s+", " ", m.group(1)).strip(" ,;:-")
-        parca = parca.split(":")[-1].split("–")[-1].strip()
-        kucuk = amazon_tr.fold(parca)
-        if not any(k in kucuk for k in _KITLE):
-            continue
-        if 2 <= len(parca.split()) <= 10 and parca.lower() not in bulunan:
-            bulunan.append(parca.lower())
-        if len(bulunan) == 3:
-            break
-    if not bulunan:
-        return ""
-    return f"{ad} sayfası bu kaydı şu kullanıma bağlıyor: " + "; ".join(bulunan) + " için."
 
 
 # Bu haftanın ürün sayfalarından kurulmuş anlatı. Sayfa gelmezse kullanılmaz.
@@ -457,187 +325,530 @@ ANLATI = {
 }
 
 
-def _yanyana_metni(urunler, kitap):
-    """Üç kaydı, sayfada duran başlık ve bilgiyle yan yana anlat."""
-    satir = ["## Üç kayıt yan yana", ""]
-    for u in urunler:
-        ayr = u.get("ayrinti") or {}
-        parca = f"{u['sira']}. sırada [{u['ad']}]({u['url']}) var."
-        if u.get("yazar"):
-            parca += f" Yazar {u['yazar']}."
-        for et in ("Yayıncı", "Yayınevi", "Baskı Uzunluğu", "Dil", "Yayınlanma Tarihi"):
-            de = _alan(ayr, et)
-            if de and et.lower() not in parca.lower():
-                parca += f" {et} {de}."
-        basliklar = []
-        for madde in ayr.get("maddeler") or []:
-            ham = re.sub(r"^[^\wÇĞİÖŞÜçğıöşü]+", "", madde or "").strip()
-            bas = re.split(r"[:–]", ham, maxsplit=1)[0].strip()
-            if bas and len(bas.split()) <= 8 and bas not in basliklar:
-                basliklar.append(bas)
-        if basliklar:
-            parca += " Sayfadaki madde başlıkları: " + ", ".join(basliklar) + "."
-        satir += [parca, ""]
-    if kitap:
-        satir.append(
-            "Üç kitap da bu çekimin kitap listesinden. Sayfa sayısı, yayınevi ve kapak anlatısı "
-            "her birinin kendi ürün sayfasından alındı."
+KONU = {
+    "6052657480": (
+        "Herkesin birbirine benzediği, görünmez kurallara uymanın zorunlu sayıldığı bir düzen var. "
+        "Oh Yeong-a o düzenin içinde gülümseyen, alttan alan bir öğretmen; gününü başkalarının beklentisine göre kuruyor. "
+        "Bu uyum onda çaresizlik ve öfke biriktiriyor. Çıkışı, dört haftalık bir duygu düzenleme programında arıyor. "
+        "Program, kişiyi daha iyi bir haline taşıyacağını söylüyor. Müdahale beklenenden farklı işliyor. "
+        "Yeong-a sosyal filtreleri ve yorucu sorumlulukları bırakıp ilk kez kuralsız haliyle karşılaşıyor "
+        "ve toplumun dayattığı idealleri dağıtmaya yöneliyor. Bu hâl hem tehlikeli hem çekici duruyor. "
+        "Cheong Ye, Kore edebiyatında öne çıkan genç yazarlar arasında anılıyor. "
+        "Roman, herkesi tek tipe zorlayan toplumu ve kişinin kendi sınırını konu ediyor."
+    ),
+    "6259568126": (
+        "Çıkarım Ustası Logıco ile Murdle’ın ilk cildindeki cinayetlere bakıyorsun. "
+        "Minik gizem bulmacaları yalnızca katilin kim olduğunu değil, cinayetin nasıl, nerede ve neden "
+        "işlendiğini de sorduruyor. İpucu, tanık ve çıkarım aynı turda. Alttaki sıraya, bulmacaların "
+        "hepsi bitince ulaşıyorsun. İllüstrasyon, şifre ve harita da var. Kitap zekâ ile entrika tarafında duruyor."
+    ),
+    "6256756207": (
+        "Sybil her sabah masaya oturup mektup yazıyor. Erkek kardeşine, en yakın arkadaşına, bahçecilik kulübüne, "
+        "derse kabul etmeyen üniversite dekanına, sevdiği yazarlara, editörlere ve ajanslara. "
+        "Bir mektup da bir türlü gönderemediği kişiye. Sybil Van Antwerp otuz yıldır mektuplarla dünyaya tutunurken "
+        "yakınındakileri uzakta tutuyor. İnziva bitmek üzere. Geçmişten gelen mektuplar onu en ağır dönemle karşılaştırıyor. "
+        "Devam edebilmek için önce kendini affetmesi, sonra gerçekleri anlatması gerekiyor. "
+        "Kapakta 26 haftalık New York Times birinciliği, 2026 PEN/Hemingway ve Women’s Prize, "
+        "Goodreads’te üç dalda final (500.000 oy, 4.5) ve 3.000 bağımsız kitabevinin Indies Choice seçimi de duruyor."
+    ),
+    "B0H1MXJKJY": (
+        "Ebeveyn ile çocuğun aynı masada oynadığı manyetik taş oyunu. Taşlar birbirini çekiyor, "
+        "alanı ayarlanabilir bir ip belirliyor. Kutuda 24 taş, bir ip ve bir taşıma çantası var. "
+        "Odak, mantık ve problem çözme tarafı öne çıkıyor. Malzeme toksik madde içermiyor."
+    ),
+    "B07CP2RFRT": (
+        "24 renkli pastel boya. Renkler canlı ve örtücü; kâğıt ve kartonda yayılıyor, yumuşak olduğu için "
+        "kâğıt üzerinde kayıyor. Tutacak sayesinde daha uzun kullanılıyor. Özel çantasıyla ev, okul ve "
+        "oyun buluşmasına taşınıyor."
+    ),
+}
+
+KIMLER = {
+    "6052657480": (
+        "Toplumun içinde sürekli uyum sağlayan bir karakterin hikâyesini sevenlere gider. "
+        "Rahat bir kaçış romanı arıyorsan burası daha tedirgin. Kore edebiyatından gelen, "
+        "toplumsal baskıyı kurcalayan romanlara yakın."
+    ),
+    "6259568126": (
+        "Çıkarım ve küçük gizem bulmacası sevenlere. Katilden çok, cinayetin nasıl kurulduğunu "
+        "çözmek istiyorsan bu cilt orada. Düz roman temposu arayanı yorar."
+    ),
+    "6256756207": (
+        "Mektupla ilerleyen, acele etmeyen romanları sevenlere. Sybil’in yıllarca sakladığı mesafe "
+        "bu metnin omurgası. Hızlı bir polisiye arıyorsan tempo sana uymaz."
+    ),
+}
+
+HOOK = {
+    "6052657480": "Uyum ile öfke arasında sıkışan kısa bir roman.",
+    "6259568126": "Masada çözülen bir cinayet bulmacası.",
+    "6256756207": "Mektuplarla ilerleyen, acele etmeyen bir roman.",
+}
+
+HANGI_KITAP = (
+    "Üçü aynı okumalık değil. Tedirgin, kısa bir kurgu istiyorsan Portakal ve Ekmek Bıçağı. "
+    "Masada çözülecek bir gizem istiyorsan Murdle 1. Mektupla ilerleyen, daha uzun bir roman istiyorsan Muhabbet."
+)
+
+KAPANIS = (
+    "Liste Amazon.com.tr çok satanlar sıralamasına göre hazırlandı, sıralama haftalık değişir."
+)
+
+
+def _bilgi(u):
+    ayr = u.get("ayrinti") or {}
+    return {
+        "yazar": (u.get("yazar") or "").strip(),
+        "yayinci": _alan(ayr, "Yayıncı", "Yayınevi") or "",
+        "sayfa": _alan(ayr, "Baskı Uzunluğu", "Sayfa sayısı") or "",
+        "tarih": _alan(ayr, "Yayınlanma Tarihi", "Yayın tarihi") or "",
+        "dil": _alan(ayr, "Dil") or "",
+    }
+
+
+def _konu_metni(u):
+    acik = ((u.get("ayrinti") or {}).get("aciklama") or "").strip()
+    if not acik:
+        return ""
+    hazir = KONU.get(u.get("asin") or "") or ANLATI.get(u.get("asin") or "")
+    if hazir:
+        return hazir.strip()
+    return " ".join(parafraz(acik)[:3]).strip()
+
+
+def _kimler_kitap(u, konu):
+    if ((u.get("ayrinti") or {}).get("aciklama") or "").strip() and KIMLER.get(u.get("asin") or ""):
+        return KIMLER[u["asin"]]
+    k = amazon_tr.fold(konu)
+    if "bulmaca" in k or "cinayet" in k:
+        return "Çıkarım ve küçük gizem bulmacası sevenlere gider. Düz bir roman temposu arıyorsan bu cilt seni yorar."
+    if "mektup" in k:
+        return "Mektupla ilerleyen, acele etmeyen romanları sevenlere gider."
+    if "ogretmen" in k or "toplum" in k:
+        return (
+            "Toplumun içinde kaybolan bir karakterin hikâyesini sevenlere gider. "
+            "Rahat bir kaçış romanı arıyorsan daha tedirgin bir yerde duruyor."
         )
+    return ""
+
+
+def _madde_satirlari(u, limit=5):
+    out = []
+    for madde in (u.get("ayrinti") or {}).get("maddeler") or []:
+        ham = re.sub(r"^[^\wÇĞİÖŞÜçğıöşü]+", "", madde or "")
+        ham = re.sub(r"\bmükemmel\b", "", ham, flags=re.I)
+        ham = re.sub(r"\s+", " ", ham).strip(" .")
+        if not ham:
+            continue
+        bas, govde = ham, ""
+        for ayirici in (":", " – ", " - "):
+            if ayirici in ham:
+                bas, _, govde = ham.partition(ayirici)
+                break
+        bas, govde = bas.strip(" ."), govde.strip()
+        if govde and len(govde.split()) <= 12:
+            satir = f"{bas}: {govde}" if bas else govde
+        else:
+            satir = bas or ""
+        if len(satir.split()) > 18:
+            kisa = " ".join(satir.split()[:18])
+            if "," in kisa:
+                kisa = kisa.rsplit(",", 1)[0]
+            satir = kisa.rstrip(",;:")
+        if satir and satir not in out:
+            out.append(satir)
+        if len(out) >= limit:
+            break
+    return out
+
+
+def _yas_cumlesi(u):
+    metin = " ".join((u.get("ayrinti") or {}).get("maddeler") or [])
+    metin += " " + ((u.get("ayrinti") or {}).get("aciklama") or "")
+    kucuk = re.search(r"(\d+)\s*yaş[^\n.]{0,50}uygun değildir", metin, flags=re.I)
+    ust = re.search(r"(\d+)\s*yaş\s+ve\s+üzeri", metin, flags=re.I)
+    if ust and kucuk:
+        return f"{ust.group(1)} yaş ve üzeri. {kucuk.group(1)} yaşın altı için uygun değil."
+    if kucuk:
+        return f"{kucuk.group(1)} yaşın altı için uygun değil."
+    if ust:
+        return f"{ust.group(1)} yaş ve üzeri."
+    return ""
+
+
+def _kullanim_cumlesi(u):
+    for madde in (u.get("ayrinti") or {}).get("maddeler") or []:
+        if amazon_tr.fold(madde).lstrip().startswith("nasil"):
+            _, _, govde = madde.partition(":")
+            govde = re.sub(r"\s+", " ", govde).strip()
+            if not govde:
+                continue
+            cumle = re.split(r"(?<=[.!?])\s+", govde)[0].strip()
+            kelime = cumle.split()
+            if len(kelime) > 35:
+                cumle = " ".join(kelime[:35]).rstrip(",;") + "."
+            if cumle and cumle[-1] not in ".!?":
+                cumle += "."
+            return cumle
+    metin = " ".join((u.get("ayrinti") or {}).get("maddeler") or [])
+    if re.search(r"aküsüz|olmadan teslim", metin, flags=re.I):
+        return "Akü ve şarj cihazı kutuda yok; ayrıca alman gerekiyor."
+    return ""
+
+
+def _link_cumlesi(ilgili, kitap):
+    sec = [m for m in (ilgili or []) if m.get("slug")][:3]
+    if kitap and len(sec) < 2:
+        return (
+            "Kitabın yanında evde oturan başka uğraşlar da var: "
+            "[okuma](/kategori/yazi-edebiyat/okuma/), "
+            "[Yetişkin Hobi Setleri](/makale/yetiskin-hobi-setleri/) ve "
+            "[Evde Yapılacak Hobiler](/makale/evde-yapilacak-hobiler/)."
+        )
+    if not sec:
+        return ""
+    parca = []
+    for m in sec:
+        href = m.get("url") or f"/makale/{m['slug']}/"
+        parca.append(f"[{m['baslik']}]({href})")
+    if len(parca) == 1:
+        birlesik = parca[0]
+    elif len(parca) == 2:
+        birlesik = f"{parca[0]} ve {parca[1]}"
     else:
-        satir.append(
-            "Üç kayıt da aynı çok satanlar bölümünün bu çekiminden. "
-            "Ayıran nokta, her sayfanın kendi madde listesi."
-        )
-    satir.append("")
+        birlesik = f"{parca[0]}, {parca[1]} ve {parca[2]}"
+    return f"Aynı taraftaki rehberler: {birlesik}."
+
+
+def _kunye(u):
+    b = _bilgi(u)
+    satir = []
+    if b["yazar"]:
+        satir.append(f"- Yazar: {b['yazar']}")
+    if b["yayinci"]:
+        satir.append(f"- Yayınevi: {b['yayinci']}")
+    if b["sayfa"]:
+        satir.append(f"- Sayfa: {b['sayfa']}")
+    if b["tarih"]:
+        satir.append(f"- Yayın tarihi: {b['tarih']}")
     return satir
 
 
-def yazi_metni(liste, hafta, gun_yazi):
-    """Ürün sayfasındaki ad, açıklama ve bilgi satırlarından uzun tanıtım.
+def _tablo(urunler, kitap):
+    if kitap:
+        bas = ["Kitap", "Yazar", "Yayınevi", "Sayfa"]
+        anahtar = ("yazar", "yayinci", "sayfa")
+    else:
+        bas = ["Ürün", "Ne"]
+        anahtar = None
+    satir = [
+        "| " + " | ".join(bas) + " |",
+        "| " + " | ".join("---" for _ in bas) + " |",
+    ]
+    for u in urunler:
+        if kitap:
+            b = _bilgi(u)
+            hucre = [u["ad"].replace("|", "/")] + [(b[k] or "").replace("|", "/") for k in anahtar]
+        else:
+            oz = _madde_satirlari(u, 1)
+            hucre = [u["ad"].replace("|", "/"), (oz[0] if oz else "").replace("|", "/")]
+        satir.append("| " + " | ".join(hucre) + " |")
+    return satir
 
-    Sayfada olmayan sayı, fiyat veya olay yazılmaz.
-    """
-    ad = liste["ad"]
-    urunler = liste["urunler"][:3]
-    kitap = liste["id"] == "kitap"
-    if kitap:
-        giris = (
-            f"Amazon.com.tr kitap çok satanlar listesinin {gun_yazi} çekiminde "
-            f"ilk üç sıra aşağıda. Sıra o sayfanın bu çekimdeki hali. "
-            f"Her kitap için yalnızca ürün sayfasında duran ad, yazar, yayınevi, "
-            f"baskı bilgisi ve kapak anlatısı kullanıldı."
-        )
-    else:
-        giris = (
-            f"Amazon.com.tr {ad.lower()} çok satanlar sayfasının {gun_yazi} çekiminde, "
-            f"adı bu kategoriye uyan ilk üç kayıt aşağıda. Sayı, listenin o anki sırası. "
-            f"Özellik cümleleri ürün sayfasındaki madde ve bilgi satırından geliyor."
-        )
-    blok = ["## Bu çekimin ilk üçü", "", giris, ""]
+
+def _sss_kitap(urunler):
+    blok = ["## Sıkça Sorulan Sorular", ""]
+    sayfalilar = []
     for u in urunler:
-        blok.append(_urun_bolumu(u, kitap))
-        blok.append("")
-    blok += _yanyana_metni(urunler, kitap)
-    # Karşılaştırma: yalnızca dolu alanlar.
-    alanlar = []
-    if kitap:
-        aday_alan = (
-            ("Yazar", lambda u: u.get("yazar") or ""),
-            ("Yayıncı", lambda u: _alan(u.get("ayrinti"), "Yayıncı", "Yayınevi")),
-            ("Baskı", lambda u: _alan(u.get("ayrinti"), "Baskı Uzunluğu")),
-            ("Dil", lambda u: _alan(u.get("ayrinti"), "Dil")),
-        )
-    else:
-        aday_alan = (
-            ("Sıra", lambda u: str(u.get("sira") or "")),
-        )
-        etiketler = []
-        for u in urunler:
-            for b in (u.get("ayrinti") or {}).get("bilgiler") or []:
-                et = b.get("etiket") or ""
-                if et and et not in etiketler and not et.lower().startswith("isbn"):
-                    etiketler.append(et)
-        for et in etiketler[:4]:
-            aday_alan = aday_alan + ((et, lambda u, e=et: _alan(u.get("ayrinti"), e)),)
-    basliklar = ["Ürün"] + [a[0] for a in aday_alan]
-    satirlar = ["| " + " | ".join(basliklar) + " |", "| " + " | ".join("---" for _ in basliklar) + " |"]
-    for u in urunler:
-        hucre = [u["ad"]]
-        for _, fn in aday_alan:
-            hucre.append((fn(u) or "").replace("|", "/"))
-        satirlar.append("| " + " | ".join(hucre) + " |")
+        sayfa = _bilgi(u)["sayfa"]
+        m = re.search(r"\d+", sayfa or "")
+        if m:
+            sayfalilar.append((int(m.group(0)), u, sayfa))
+    if len(sayfalilar) >= 2:
+        sayfalilar.sort()
+        dizi = ", ".join(f"{u['ad']} {sayfa}" for _, u, sayfa in sayfalilar)
+        blok += ["**Hangisi daha kısa?**", "", f"{dizi}. En kısası {sayfalilar[0][1]['ad']}.", ""]
+    diller = {_bilgi(u)["dil"] for u in urunler if _bilgi(u)["dil"]}
+    if diller == {"Türkçe"}:
+        blok += ["**Türkçe baskı mı?**", "", "Üçünün de dili Türkçe.", ""]
+    elif diller:
+        blok += ["**Hangi dilde?**", "", ", ".join(sorted(diller)) + ".", ""]
+    return blok
+
+
+def _sss_urun(urunler):
+    blok = ["## Sıkça Sorulan Sorular", ""]
+    ilk = urunler[0]
     blok += [
-        "## Sıra ne söylüyor",
+        "**İlk sırada ne var?**",
         "",
-        (
-            f"Çok satanlar sayfasındaki sayı, {gun_yazi} çekimindeki yer. "
-            "Bu bir okur puanı değil; Amazon.com.tr o bölümde o an görünen sıra. "
-            "Ertesi hafta aynı ad aynı sayıda durmak zorunda değil. "
-            "Buradaki üç kayıt, o sayfada adı bu hobi kategorisine uyan ilk ürünler. "
-            "Altta kalan satırlar, adları kategoriye uymadığı için bu yazıya girmedi."
-        ),
+        f"{ilk['sira']}. sırada {ilk['ad']} var. [Ürün sayfası]({ilk['url']}).",
         "",
-        *satirlar,
-        "",
-        "Tablodaki hücre, ürün sayfasında yazıyorsa duruyor. Boş hücre, o etiket o sayfada yok demek.",
+    ]
+    yaslar = []
+    for u in urunler:
+        yas = _yas_cumlesi(u)
+        if yas:
+            yaslar.append(f"{u['ad']}: {yas}")
+    if yaslar:
+        blok += ["**Yaş sınırı var mı?**", "", " ".join(yaslar), ""]
+    aku = [u["ad"] for u in urunler if "ayrıca alman gerekiyor" in (_kullanim_cumlesi(u) or "")]
+    if aku:
+        blok += ["**Akü kutuda geliyor mu?**", "", f"{aku[0]} aküsüz teslim ediliyor.", ""]
+    return blok
+
+
+def _yedek_kitap(liste, gun_yazi, urunler):
+    adlar = [u["ad"] for u in urunler]
+    if len(adlar) >= 3:
+        liste_ad = f"{adlar[0]}, {adlar[1]} ve {adlar[2]}"
+    elif len(adlar) == 2:
+        liste_ad = f"{adlar[0]} ve {adlar[1]}"
+    else:
+        liste_ad = adlar[0] if adlar else "bu haftanın kitapları"
+    giris = f"{gun_yazi} tarihli kitap sıralamasının başında {liste_ad} var."
+    if [u.get("asin") for u in urunler] == ["6052657480", "6259568126", "6256756207"]:
+        giris += (
+            " Biri tedirgin bir roman, biri çıkarım bulmacası, biri mektupla kurulan daha uzun bir metin. "
+            "Vaktin hangisine yetiyorsa ona bak."
+        )
+    blok = [giris, ""]
+    for u in urunler:
+        b = _bilgi(u)
+        konu = _konu_metni(u)
+        blok += [f"## {u['sira']}. {u['ad']}", ""]
+        kanca = HOOK.get(u.get("asin") or "")
+        if kanca:
+            blok += [kanca, ""]
+        blok += ["### Konusu", ""]
+        if konu:
+            blok += [konu, ""]
+        kim = _kimler_kitap(u, konu)
+        if kim:
+            blok += ["### Kimler sevmeli", "", kim, ""]
+        kunye = _kunye(u)
+        if kunye:
+            blok += ["### Künye", ""] + kunye + [""]
+        blok += [f"[{u['ad']}]({u['url']})", ""]
+    if [u.get("asin") for u in urunler] == ["6052657480", "6259568126", "6256756207"]:
+        hangi = HANGI_KITAP
+    else:
+        parcalar = []
+        for u in urunler:
+            kanca = HOOK.get(u.get("asin") or "")
+            if kanca:
+                parcalar.append(f"{u['ad']} için {kanca[0].lower()}{kanca[1:]}")
+        hangi = " ".join(parcalar) if parcalar else "Künye ve konu özeti, hangisine vaktin yettiğini gösterir."
+    blok += ["## Hangisini seçmeli?", "", hangi, ""]
+    blok += ["## Karşılaştırma", ""] + _tablo(urunler, True) + [""]
+    blok += _sss_kitap(urunler)
+    link = _link_cumlesi(liste.get("ilgili"), True)
+    if link:
+        blok += [link, ""]
+    blok += [KAPANIS, ""]
+    return "\n".join(blok).strip() + "\n"
+
+
+def _kisa_ad(ad):
+    kelime = (ad or "").split()
+    if len(kelime) <= 5:
+        return ad
+    return " ".join(kelime[:5])
+
+
+def _ne_cumlesi(u):
+    konu = _konu_metni(u)
+    if not konu:
+        return ""
+    parca = []
+    n = 0
+    for cumle in re.split(r"(?<=[.!?])\s+", konu):
+        if not cumle.strip():
+            continue
+        parca.append(cumle.strip())
+        n += len(cumle.split())
+        if n >= 55 or len(parca) == 2:
+            break
+    return " ".join(parca)
+
+
+def _yedek_urun(liste, gun_yazi, urunler):
+    ad = liste.get("ad") or "Ürün"
+    isimler = ", ".join(_kisa_ad(u["ad"]) for u in urunler)
+    blok = [
+        f"{gun_yazi} tarihli {ad.lower()} sıralamasında {isimler} var.",
         "",
     ]
     for u in urunler:
-        basliklar = []
-        for madde in (u.get("ayrinti") or {}).get("maddeler") or []:
-            bas = re.sub(r"^[^\wÇĞİÖŞÜçğıöşü]+", "", (madde or "").split(":")[0]).strip()
-            if bas and bas not in basliklar:
-                basliklar.append(bas)
-        etiketler = [
-            b.get("etiket") for b in (u.get("ayrinti") or {}).get("bilgiler") or []
-            if b.get("etiket") and not str(b.get("etiket")).lower().startswith("isbn")
-        ]
-        cumle = (
-            f"{u['sira']}. sıradaki [{u['ad']}]({u['url']}) bu çekimin kaydı. "
-            f"Ürün sayfası aynı adrese gidiyor."
-        )
-        if u.get("yazar"):
-            cumle += f" Yazar satırında {u['yazar']} yazıyor."
-        yay = _alan(u.get("ayrinti"), "Yayıncı", "Yayınevi", "Marka")
-        if yay:
-            cumle += f" Yayıncı veya marka satırı {yay}."
-        sayfa = _alan(u.get("ayrinti"), "Baskı Uzunluğu")
-        if sayfa:
-            cumle += f" Baskı uzunluğu {sayfa}."
-        if basliklar:
-            cumle += " Madde başlıkları sayfada şöyle sıralanmış: " + ", ".join(basliklar) + "."
-        if etiketler:
-            cumle += " Bilgi etiketleri de şunlar: " + ", ".join(etiketler) + "."
-        cumle += " Yukarıdaki bölüm, bu kaydın sayfasından kurulan cümleleri taşıyor."
-        blok.append(cumle)
-        blok.append("")
-    ilgili = liste.get("ilgili") or []
-    if ilgili:
-        blok += ["## Sitede yanında duran rehberler", ""]
-        if any(m.get("slug") for m in ilgili):
-            blok.append("Aynı kategoride daha önce yayımlanan rehberler de duruyor. Başlıklar onların kendi sayfasından.")
-        else:
-            blok.append("Aynı kategoride başka rehber yok. Aşağıdaki bağlantılar kategori sayfasına gider.")
-        blok.append("")
-        for m in ilgili:
-            href = m.get("url") or f"/makale/{m['slug']}/"
-            blok.append(f"- [{m['baslik']}]({href})")
-        blok.append("")
-    blok += ["## Sıkça Sorulan Sorular", ""]
-    blok.append("**Liste hangi sayfadan geliyor?**")
-    blok.append(
-        f"{gun_yazi} çekiminde Amazon.com.tr çok satanlar sayfasının ilgili bölümünden. "
-        "Ertesi hafta sıra değişebilir."
-    )
-    blok.append("")
-    ilk = urunler[0]
-    blok.append(f"**İlk sırada hangi ürün var?**")
-    blok.append(
-        f"Bu çekimde {ilk['sira']}. sırada {ilk['ad']} var. "
-        f"Bağlantı {ilk['url']} adresine gider."
-    )
-    blok.append("")
-    if kitap and any(u.get("yazar") for u in urunler):
-        blok.append("**Yazar adları nerede yazıyor?**")
-        yazarlar = ", ".join(f"{u['ad']} için {u['yazar']}" for u in urunler if u.get("yazar"))
-        blok.append(f"Çok satanlar satırındaki yazar alanı: {yazarlar}.")
-        blok.append("")
-    adlar = ", ".join(u["ad"] for u in urunler)
-    blok.append("**Üç kaydın bağlantısı nereye gidiyor?**")
-    blok.append(
-        f"Her bağlantı Amazon.com.tr üzerindeki ürün sayfasına gider ve hobibulsite-21 etiketini taşır. "
-        f"Bu çekimdeki kayıtlar: {adlar}."
-    )
-    blok.append("")
-    if any(_alan(u.get("ayrinti"), "Baskı Uzunluğu") for u in urunler):
-        blok.append("**Sayfa sayısı görünen kitap hangisi?**")
-        sayfalar = ", ".join(
-            f"{u['ad']} { _alan(u.get('ayrinti'), 'Baskı Uzunluğu') }"
-            for u in urunler if _alan(u.get("ayrinti"), "Baskı Uzunluğu")
-        )
-        blok.append(sayfalar + ".")
-        blok.append("")
+        blok += [f"## {u['sira']}. {u['ad']}", ""]
+        ne = _ne_cumlesi(u)
+        if ne:
+            blok += [ne, ""]
+        oz = _madde_satirlari(u, 5)
+        if oz:
+            blok += ["### Öne çıkanlar", ""]
+            for s in oz:
+                blok.append(f"- {s}")
+            blok.append("")
+        yas = _yas_cumlesi(u)
+        if yas:
+            blok += ["### Kimler için", "", yas, ""]
+        kull = _kullanim_cumlesi(u)
+        if kull and kull not in (ne or ""):
+            blok += ["### Kullanırken", "", kull, ""]
+        blok += [f"[{u['ad']}]({u['url']})", ""]
+    bilinen = {
+        ("B0H1MXJKJY", "B002E2LUM4", "B00MUTZ0MW"): (
+            "Kısa ve taşınabilir bir tur istiyorsan Stones. Anlatmalı, çizerek giden bir parti istiyorsan Tabu XL. "
+            "Türkiye illeriyle kurulmuş bir emlak oyunu istiyorsan Monopoly."
+        ),
+    }
+    anahtar = tuple(u.get("asin") for u in urunler)
+    if anahtar in bilinen:
+        hangi = bilinen[anahtar]
+    else:
+        ayir = []
+        for u in urunler:
+            oz = _madde_satirlari(u, 1)
+            if oz:
+                ayir.append(f"{_kisa_ad(u['ad'])} için {oz[0]}")
+        hangi = ". ".join(ayir) + "." if ayir else "Üçü de aynı işi görmüyor."
+    blok += ["## Hangisini seçmeli?", "", hangi, ""]
+    blok += ["## Karşılaştırma", ""] + _tablo(urunler, False) + [""]
+    blok += _sss_urun(urunler)
+    link = _link_cumlesi(liste.get("ilgili"), False)
+    if link:
+        blok += [link, ""]
+    blok += [KAPANIS, ""]
     return "\n".join(blok).strip() + "\n"
+
+
+def _govde_uygun(govde, liste):
+    """Gemini çıktısı linkleri, SSS başlığını ve yasak kalıpları taşısın."""
+    if not govde or "çekim" in govde.lower():
+        return False
+    if "yazar satırı" in govde.lower() or "kapakta duran anlatı" in govde.lower():
+        return False
+    if "## Sıkça Sorulan Sorular" not in govde or "## Hangisini seçmeli?" not in govde:
+        return False
+    if govde.count("\n|") > 12:
+        return False
+    if re.search(r"\d+\s*(tl|₺)", govde, flags=re.I):
+        return False
+    for u in liste.get("urunler") or []:
+        if u.get("url") and u["url"] not in govde:
+            return False
+    ham = " ".join(
+        ((u.get("ayrinti") or {}).get("aciklama") or "")
+        for u in liste.get("urunler") or []
+    )
+    if len(_ngram(ham, 10) & _ngram(govde, 10)) > 2:
+        return False
+    kelime = len(govde.split())
+    return 450 <= kelime <= 1500
+
+
+def _gemini_govde(liste, gun_yazi):
+    """Anahtar varsa olguları Gemini'ye ver. Yoksa veya denetim düşerse boş döner."""
+    key = (os.environ.get("GEMINI_API_KEY") or "").strip()
+    if not key:
+        return ""
+    kitap = liste.get("id") == "kitap"
+    paket = []
+    for u in (liste.get("urunler") or [])[:3]:
+        b = _bilgi(u)
+        ayr = u.get("ayrinti") or {}
+        paket.append({
+            "sira": u.get("sira"),
+            "ad": u.get("ad"),
+            "url": u.get("url"),
+            "yazar": b["yazar"],
+            "yayinci": b["yayinci"],
+            "sayfa": b["sayfa"],
+            "yayin_tarihi": b["tarih"],
+            "dil": b["dil"],
+            "kapak": (ayr.get("aciklama") or "")[:2200],
+            "maddeler": (ayr.get("maddeler") or [])[:8],
+        })
+    if kitap:
+        yapi = """Her kitap için şu sıra, başka başlık yok:
+## {sıra}. {ad}
+1-2 cümlelik kanca.
+### Konusu
+Kapak metnini kendi cümlelerinle 1-2 paragraf anlat. Olay uydurma.
+### Kimler sevmeli
+Okur tipi, ruh hali, yakın tür. Sayfada olmayan ödül veya satış iddiası yok.
+### Künye
+Tek liste. Yalnızca dolu alanlar: Yazar, Yayınevi, Sayfa, Yayın tarihi.
+Ardından satın alma bağlantısı, url aynen."""
+    else:
+        yapi = """Her ürün için:
+## {sıra}. {ad}
+Ne olduğu, 1 paragraf.
+### Öne çıkanlar
+Kısa madde listesi. Uzun reklam cümlesini kopyalama.
+### Kimler için
+Yaş veya kullanım, sayfada varsa.
+### Kullanırken
+Sayfadaki kullanım veya uyarıdan tek ipucu. Yoksa bu başlığı yazma.
+Ardından satın alma bağlantısı, url aynen."""
+    ilgili = []
+    for m in (liste.get("ilgili") or [])[:3]:
+        href = m.get("url") or f"/makale/{m.get('slug')}/"
+        ilgili.append({"baslik": m.get("baslik"), "yol": href})
+    prompt = f"""Sen Hobi Bul için yazan bir Türkçe kitap ve ürün editörüsün. Okura "sen" diye seslen. Konuşur gibi yaz. Broşür, veri dökümü ve tekrar yok.
+
+TARİH: {gun_yazi}
+KATEGORİ: {liste.get("ad")}
+
+OLGULAR (yalnızca bunlar; fiyat, ölçü, ödül, sayı veya olay ekleme; boş alanı doldurma):
+{json.dumps(paket, ensure_ascii=False)}
+
+İÇ LİNKLER (en fazla 3, cümle içinde):
+{json.dumps(ilgili, ensure_ascii=False)}
+
+YAPI:
+Giriş: tek kısa paragraf. Üç adı geçir. "Bu yazıda", "bu makalede" yasak.
+{yapi}
+## Hangisini seçmeli?
+Üçünü okur niyetine göre ayır. Aynı özeti tekrarlama.
+## Karşılaştırma
+Tek markdown tablo. Kitapta yazar, yayınevi, sayfa. Diğerinde ürün ve bir ayırıcı özellik.
+## Sıkça Sorulan Sorular
+3 veya 4 gerçek okur sorusu. Soru satırı **soru** biçiminde, altındaki satır cevap.
+Kapanışta tam olarak şu cümle, başka kaynak açıklaması yok:
+{KAPANIS}
+
+UZUNLUK: yaklaşık 900-1300 kelime, dolu ve doğal. Sırf sayı tutsun diye aynı bilgiyi ikinci kez yazma. Eksik kalsın, dolgu yapma.
+YASAK: çekim, yazar satırı, kapakta duran anlatı, sayfasında yayıncı olarak, mükemmel, keşfedin, sonuç olarak, günümüzde.
+Kapak metninden 10 kelimeyi art arda kopyalama. Kod bloğu yok.
+"""
+    try:
+        otomatik.ym.load_env()
+        models, _acik = otomatik._modeller()
+        idx = [0]
+        yanit = otomatik._gemini(prompt, key, models, idx)
+        govde = otomatik.govde_ayikla(str(yanit))
+    except Exception as e:
+        print("Gemini yazamadı, yedek metin kullanılacak: " + otomatik.ym._gemini_metin(e))
+        return ""
+    if not _govde_uygun(govde, liste):
+        print("Gemini metni denetlenemedi, yedek metin kullanılacak.")
+        return ""
+    return govde.strip() + "\n"
+
+
+def yazi_metni(liste, hafta, gun_yazi):
+    """Editör metni. Anahtar varsa Gemini, yoksa kısa ve tekrarsız yedek."""
+    govde = _gemini_govde(liste, gun_yazi)
+    if govde:
+        return govde
+    urunler = (liste.get("urunler") or [])[:3]
+    if liste.get("id") == "kitap":
+        return _yedek_kitap(liste, gun_yazi, urunler)
+    return _yedek_urun(liste, gun_yazi, urunler)
+
+
 
 
 def _zenginlestir(oturum, urun):
@@ -706,7 +917,7 @@ def yazi_yaz(liste, hafta, bugun, yenile=False):
     return slug, True
 
 
-def calistir(yaz=False, bugun=None, oturum=None):
+def calistir(yaz=False, bugun=None, oturum=None, yenile=False):
     bugun = bugun or date.today().isoformat()
     hafta = hafta_kimligi(datetime.strptime(bugun, "%Y-%m-%d").date())
     oturum = oturum or amazon_tr.Oturum()
@@ -746,7 +957,7 @@ def calistir(yaz=False, bugun=None, oturum=None):
             for u in liste["urunler"]:
                 _zenginlestir(oturum, u)
             liste["ilgili"] = _ilgili_makaleler(liste["cat"], liste.get("sub") or "", "")
-            slug, yeni = yazi_yaz(liste, hafta, bugun)
+            slug, yeni = yazi_yaz(liste, hafta, bugun, yenile=yenile)
             yazilan.append({"slug": slug, "yeni": yeni, "cat": liste["cat"]})
             print(("✓ yazıldı " if yeni else "· vardı ") + slug)
     kayit["secilen"] = [{"id": l["id"], "cat": l["cat"]} for l in sec]
@@ -762,55 +973,94 @@ def _fm_al(text, anahtar):
     return m.group(1) if m else ""
 
 
-def mevcut_yenile(oturum=None):
-    """Var olan haftalık yazıların gövdesini ürün sayfasıyla yeniden kur.
+def _urunleri_govdeden(body):
+    """Eski kısa kalıp ya da ## sıra başlığındaki /dp linkinden ürünleri topla."""
+    urunler = []
+    kalip = re.compile(
+        r"(\d+)\. sırada (.+?) var\.(?: Yazar satırı (.+?)\.)?\s*"
+        r"Ürün sayfası \[([^\]]+)\]\((https://www\.amazon\.com\.tr/dp/([A-Z0-9]{10})\?tag=hobibulsite-21)\)"
+    )
+    for m in kalip.finditer(body):
+        urunler.append({
+            "sira": int(m.group(1)),
+            "ad": m.group(2).strip(),
+            "yazar": (m.group(3) or "").strip(),
+            "url": m.group(5),
+            "asin": m.group(6),
+        })
+    if urunler:
+        return urunler
+    for parca in re.split(r"(?m)^## ", body):
+        bas = re.match(r"(\d+)\.\s*(?:sıradaki\s+)?(.+)", parca)
+        if not bas:
+            continue
+        link = re.search(
+            r"\((https://www\.amazon\.com\.tr/dp/([A-Z0-9]{10})\?tag=hobibulsite-21)\)",
+            parca,
+        )
+        if not link:
+            continue
+        yazar = ""
+        for ym in (
+            re.search(r"Yazar satırında (.+?) yazıyor", parca),
+            re.search(r"Yazar satırı (.+?)\.\s", parca),
+            re.search(r"(?m)^- Yazar: (.+)$", parca),
+        ):
+            if ym:
+                yazar = ym.group(1).strip().rstrip(".")
+                break
+        urunler.append({
+            "sira": int(bas.group(1)),
+            "ad": bas.group(2).strip().split("\n")[0].strip(),
+            "yazar": yazar,
+            "url": link.group(1),
+            "asin": link.group(2),
+        })
+    return urunler
 
-    Slug, ASIN ve /dp linki aynı kalır. Eksik ayrıntı boş bırakılır.
-    """
+
+def mevcut_yenile(oturum=None, hafta=None):
+    """Bu haftanın çok satan yazılarını yeniden kur. Slug ve /dp linki aynı kalır."""
     oturum = oturum or amazon_tr.Oturum(bekle=2.2, deneme=2)
+    hafta = hafta or hafta_kimligi()
+    etiket = hafta.lower()
+    bugun = date.today().isoformat()
     for fn in sorted(os.listdir(ARTICLES)):
-        if not fn.endswith(".md") or "2026-w46" not in fn:
+        if not fn.endswith(".md") or etiket not in fn.lower():
             continue
         yol = os.path.join(ARTICLES, fn)
         text = open(yol, encoding="utf-8").read()
-        if "---" not in text:
+        if text.count("---") < 2:
             continue
         _, fm, body = text.split("---", 2)
-        urunler = []
-        kalip = re.compile(
-            r"(\d+)\. sırada (.+?) var\.(?: Yazar satırı (.+?)\.)?\s*"
-            r"Ürün sayfası \[([^\]]+)\]\((https://www\.amazon\.com\.tr/dp/([A-Z0-9]{10})\?tag=hobibulsite-21)\)"
-        )
-        for m in kalip.finditer(body):
-            urunler.append({
-                "sira": int(m.group(1)),
-                "ad": m.group(2).strip(),
-                "yazar": (m.group(3) or "").strip(),
-                "url": m.group(5),
-                "asin": m.group(6),
-            })
+        urunler = _urunleri_govdeden(body)
         if len(urunler) < 1:
             print("! ürün yok", fn)
             continue
         for u in urunler:
             _zenginlestir(oturum, u)
+        fm_metin = "---" + fm
         liste = {
-            "id": "kitap" if "kitap" in fn else "diger",
-            "ad": _fm_al("---" + fm, "image_alt").replace(" çok satanlar listesinden bir ürün", "") or "Ürün",
-            "cat": _fm_al("---" + fm, "category"),
-            "sub": _fm_al("---" + fm, "subcategory"),
+            "id": "diger",
+            "ad": _fm_al(fm_metin, "image_alt").replace(" çok satanlar listesinden bir ürün", "") or "Ürün",
+            "cat": _fm_al(fm_metin, "category"),
+            "sub": _fm_al(fm_metin, "subcategory"),
             "urunler": urunler,
             "ilgili": _ilgili_makaleler(
-                _fm_al("---" + fm, "category"),
-                _fm_al("---" + fm, "subcategory"),
+                _fm_al(fm_metin, "category"),
+                _fm_al(fm_metin, "subcategory"),
                 fn[:-3],
             ),
         }
         if "kitap" in fn:
             liste["id"] = "kitap"
             liste["ad"] = "Kitap"
-        govde = yazi_metni(liste, "2026-W46", "9 Kasım 2026")
-        fm2 = re.sub(r'updated:\s*"[^"]*"', 'updated: "2026-11-12"', fm, count=1)
+        gun = _fm_al(fm_metin, "date") or bugun
+        govde = yazi_metni(liste, hafta, tarih_yaz(gun))
+        if re.search(r'updated:\s*"', fm):
+            fm2 = re.sub(r'updated:\s*"[^"]*"', f'updated: "{bugun}"', fm, count=1)
+        else:
+            fm2 = fm.rstrip() + f'\nupdated: "{bugun}"\n'
         with open(yol, "w", encoding="utf-8", newline="\n") as f:
             f.write("---" + fm2 + "---\n" + govde)
         print(f"✓ {fn[:-3]} {len(govde.split())} kelime")
@@ -820,7 +1070,7 @@ def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dry-run", action="store_true")
     ap.add_argument("--yaz", action="store_true")
-    ap.add_argument("--yenile", action="store_true", help="Bu haftanın çok satan yazılarını ürün sayfasıyla uzat")
+    ap.add_argument("--yenile", action="store_true", help="Bu haftanın çok satan yazılarını yeniden yaz")
     a = ap.parse_args()
     if a.yenile:
         try:

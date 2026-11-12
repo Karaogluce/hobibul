@@ -39,6 +39,18 @@
    "govde_kaynaklar": []
   },
   {
+   "yol": "/kategori/yazi-edebiyat/",
+   "tur": "kategori",
+   "baslik": "Yazı & Edebiyat",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "",
+   "govde_gelen": 0,
+   "toplam_gelen": 168,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
    "yol": "/makale/akvaryum-balik-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/",
    "tur": "makale",
    "baslik": "Akvaryum & Balık İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
@@ -427,20 +439,6 @@
    ]
   },
   {
-   "yol": "/kategori/yazi-edebiyat/",
-   "tur": "kategori",
-   "baslik": "Yazı & Edebiyat",
-   "kategori": "yazi-edebiyat",
-   "alt_kategori": "",
-   "govde_gelen": 1,
-   "toplam_gelen": 168,
-   "tik": 1,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/"
-   ]
-  },
-  {
    "yol": "/kategori/yazi-edebiyat/okuma/",
    "tur": "kategori",
    "baslik": "Okuma & Kitap Kulübü",
@@ -564,6 +562,20 @@
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic/"
+   ]
+  },
+  {
+   "yol": "/makale/en-iyi-bonsai-ekipmanlari-2026-alim-rehberi/",
+   "tur": "makale",
+   "baslik": "En İyi Bonsai Ekipmanları (2026): Alım Rehberi",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "bonsai",
+   "govde_gelen": 1,
+   "toplam_gelen": 7,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/bonsai-nasil-toprak-sever/"
    ]
   },
   {
@@ -732,20 +744,6 @@
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/raspberry-pi-5-baslangic-kiti/"
-   ]
-  },
-  {
-   "yol": "/makale/yetiskin-hobi-setleri/",
-   "tur": "makale",
-   "baslik": "Yetişkin Hobi Setleri: Hangisi Alınır? (Boyama, Maket, Diamond Painting)",
-   "kategori": "el-sanatlari",
-   "alt_kategori": "diamond-painting",
-   "govde_gelen": 1,
-   "toplam_gelen": 7,
-   "tik": 2,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/diamond-painting-nedir-nasil-yapilir/"
    ]
   }
  ],
@@ -1431,14 +1429,13 @@
    "baslik": "En İyi Bonsai Ekipmanları (2026): Alım Rehberi",
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
-   "govde_gelen": 2,
+   "govde_gelen": 1,
    "icerik_gelen": 7,
    "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
-    "/makale/bonsai-nasil-toprak-sever/",
-    "/makale/en-cok-satan-bahce-alet-2026-w46/"
+    "/makale/bonsai-nasil-toprak-sever/"
    ],
    "makale_sayisi": null
   },
@@ -1502,14 +1499,13 @@
    "baslik": "En İyi LEGO Setleri: Yetişkin İçin Bonsai, Sukulent ve Speed Champions",
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
-   "govde_gelen": 4,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "govde_gelen": 3,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
-    "/makale/en-cok-satan-kutu-oyun-2026-w46/",
     "/makale/evde-yapilacak-hobiler/",
     "/makale/lego-model-ai/"
    ],
@@ -1633,7 +1629,7 @@
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
-    "/makale/en-cok-satan-el-isi-2026-w46/",
+    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
     "/makale/evde-el-sanatlari-hobileri/",
     "/makale/kadinlar-icin-evde-yapilacak-hobiler/"
    ],
@@ -2177,12 +2173,13 @@
    "baslik": "Yetişkin Hobi Setleri: Hangisi Alınır? (Boyama, Maket, Diamond Painting)",
    "kategori": "el-sanatlari",
    "alt_kategori": "diamond-painting",
-   "govde_gelen": 1,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "govde_gelen": 2,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
+    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
     "/makale/diamond-painting-nedir-nasil-yapilir/"
    ],
    "makale_sayisi": null
@@ -3420,14 +3417,12 @@
    "baslik": "Yazı & Edebiyat",
    "kategori": "yazi-edebiyat",
    "alt_kategori": "",
-   "govde_gelen": 1,
+   "govde_gelen": 0,
    "icerik_gelen": 3,
    "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/"
-   ],
+   "govde_kaynaklar": [],
    "makale_sayisi": 1
   },
   {

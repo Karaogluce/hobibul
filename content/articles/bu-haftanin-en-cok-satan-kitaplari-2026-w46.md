@@ -14,132 +14,93 @@ image_alt: "Kitap çok satanlar listesinden bir ürün"
 hide_plan: "true"
 draft: "false"
 ---
-## Bu çekimin ilk üçü
+9 Kasım 2026 tarihli kitap sıralamasının başında Portakal ve Ekmek Bıçağı, Murdle 1 ve Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti var. Biri tedirgin bir roman, biri çıkarım bulmacası, biri mektupla kurulan daha uzun bir metin. Vaktin hangisine yetiyorsa ona bak.
 
-Amazon.com.tr kitap çok satanlar listesinin 9 Kasım 2026 çekiminde ilk üç sıra aşağıda. Sıra o sayfanın bu çekimdeki hali. Her kitap için yalnızca ürün sayfasında duran ad, yazar, yayınevi, baskı bilgisi ve kapak anlatısı kullanıldı.
+## 1. Portakal ve Ekmek Bıçağı
 
-## 1. sıradaki Portakal ve Ekmek Bıçağı
+Uyum ile öfke arasında sıkışan kısa bir roman.
 
-1. sıra [Portakal ve Ekmek Bıçağı](https://www.amazon.com.tr/dp/6052657480?tag=hobibulsite-21). Yazar satırı Cheong Ye. Yayıncı olarak İthaki yazıyor. Baskı uzunluğu 136 sayfa. Dil satırı Türkçe. Yayın tarihi 25 Haziran 2026.
+### Konusu
 
-### Kapakta duran anlatı
+Herkesin birbirine benzediği, görünmez kurallara uymanın zorunlu sayıldığı bir düzen var. Oh Yeong-a o düzenin içinde gülümseyen, alttan alan bir öğretmen; gününü başkalarının beklentisine göre kuruyor. Bu uyum onda çaresizlik ve öfke biriktiriyor. Çıkışı, dört haftalık bir duygu düzenleme programında arıyor. Program, kişiyi daha iyi bir haline taşıyacağını söylüyor. Müdahale beklenenden farklı işliyor. Yeong-a sosyal filtreleri ve yorucu sorumlulukları bırakıp ilk kez kuralsız haliyle karşılaşıyor ve toplumun dayattığı idealleri dağıtmaya yöneliyor. Bu hâl hem tehlikeli hem çekici duruyor. Cheong Ye, Kore edebiyatında öne çıkan genç yazarlar arasında anılıyor. Roman, herkesi tek tipe zorlayan toplumu ve kişinin kendi sınırını konu ediyor.
 
-Kapak, herkesin birbirine benzediği ve görünmez kurallara uymanın zorunlu görüldüğü bir düzen kuruyor. Oh Yeong-a bu düzenin içinde duran bir öğretmen: gülümseyen, alttan alan, gününü başkalarının beklentisine göre ayarlayan biri. Sürekli uyum çabası onda çaresizlik ve öfke biriktiriyor. Çıkış için dört haftalık bir duygu düzenleme programına başvuruyor. Program, kişiyi daha iyi bir haline taşıyacağını söylüyor ve son teknoloji ürünü diye anılıyor. Müdahale beklenenden farklı işliyor. Yeong-a sosyal filtreleri ve yorucu sorumlulukları bırakıp ilk kez kuralsız haliyle karşılaşıyor. Toplumun dayattığı idealleri de dağıtmaya yöneliyor. Kapak, bu hâlin hem tehlikeli hem çekici göründüğünü yazıyor. Cheong Ye, Kore edebiyatında öne çıkan genç yazarlar arasında anılıyor. Roman, herkesi tek tipe zorlayan toplumu ve kişinin kendi sınırını konu ediyor.
+### Kimler sevmeli
 
-### Ürün bilgisi satırı
+Toplumun içinde sürekli uyum sağlayan bir karakterin hikâyesini sevenlere gider. Rahat bir kaçış romanı arıyorsan burası daha tedirgin. Kore edebiyatından gelen, toplumsal baskıyı kurcalayan romanlara yakın.
 
-Portakal ve Ekmek Bıçağı sayfasında yayıncı olarak İthaki yazıyor.
+### Künye
 
-Portakal ve Ekmek Bıçağı sayfasında yayınlanma tarihi olarak 25 Haziran 2026 yazıyor.
+- Yazar: Cheong Ye
+- Yayınevi: İthaki
+- Sayfa: 136 sayfa
+- Yayın tarihi: 25 Haziran 2026
 
-Portakal ve Ekmek Bıçağı sayfasında dil olarak Türkçe yazıyor.
+[Portakal ve Ekmek Bıçağı](https://www.amazon.com.tr/dp/6052657480?tag=hobibulsite-21)
 
-Portakal ve Ekmek Bıçağı sayfasında baskı uzunluğu olarak 136 sayfa yazıyor.
+## 2. Murdle 1
 
-Portakal ve Ekmek Bıçağı sayfasında boyutlar olarak 1 x 13.5 x 21 cm yazıyor.
+Masada çözülen bir cinayet bulmacası.
 
-### Bu sırada durmasının nedeni
+### Konusu
 
-Portakal ve Ekmek Bıçağı bu çekimde 1. sırada. Bu numara, o günkü çok satanlar sayfasındaki yer. Sayfa başka bir satış gerekçesi yazmıyor.
+Çıkarım Ustası Logıco ile Murdle’ın ilk cildindeki cinayetlere bakıyorsun. Minik gizem bulmacaları yalnızca katilin kim olduğunu değil, cinayetin nasıl, nerede ve neden işlendiğini de sorduruyor. İpucu, tanık ve çıkarım aynı turda. Alttaki sıraya, bulmacaların hepsi bitince ulaşıyorsun. İllüstrasyon, şifre ve harita da var. Kitap zekâ ile entrika tarafında duruyor.
 
-## 2. sıradaki Murdle 1
+### Kimler sevmeli
 
-2. sıra [Murdle 1](https://www.amazon.com.tr/dp/6259568126?tag=hobibulsite-21). Yazar satırı G.T Karber. Yayıncı olarak Olimpos Yayınları yazıyor. Baskı uzunluğu 384 sayfa. Dil satırı Türkçe. Yayın tarihi 14 Mart 2025.
+Çıkarım ve küçük gizem bulmacası sevenlere. Katilden çok, cinayetin nasıl kurulduğunu çözmek istiyorsan bu cilt orada. Düz roman temposu arayanı yorar.
 
-### Kapakta duran anlatı
+### Künye
 
-Kapak, Çıkarım Ustası Logıco ile Murdle’ın ilk cildindeki cinayetleri kurcalamaya çağırıyor. Minik gizem bulmacaları yalnızca katilin kim olduğunu değil, cinayetin nasıl, nerede ve neden işlendiğini de sorduruyor. İpucu, tanık ve çıkarım aynı turda kullanılıyor. Alttaki sıraya, bulmacaların hepsi bitince ulaşılıyor. Sayfa illüstrasyon, şifre ve haritadan söz ediyor ve kitabı zekâ ile entrika tarafına koyuyor.
+- Yazar: G.T Karber
+- Yayınevi: Olimpos Yayınları
+- Sayfa: 384 sayfa
+- Yayın tarihi: 14 Mart 2025
 
-### Ürün bilgisi satırı
+[Murdle 1](https://www.amazon.com.tr/dp/6259568126?tag=hobibulsite-21)
 
-Murdle 1 sayfasında yayıncı olarak Olimpos Yayınları yazıyor.
+## 3. Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti
 
-Murdle 1 sayfasında yayınlanma tarihi olarak 14 Mart 2025 yazıyor.
+Mektuplarla ilerleyen, acele etmeyen bir roman.
 
-Murdle 1 sayfasında baskı olarak 1. yazıyor.
+### Konusu
 
-Murdle 1 sayfasında dil olarak Türkçe yazıyor.
+Sybil her sabah masaya oturup mektup yazıyor. Erkek kardeşine, en yakın arkadaşına, bahçecilik kulübüne, derse kabul etmeyen üniversite dekanına, sevdiği yazarlara, editörlere ve ajanslara. Bir mektup da bir türlü gönderemediği kişiye. Sybil Van Antwerp otuz yıldır mektuplarla dünyaya tutunurken yakınındakileri uzakta tutuyor. İnziva bitmek üzere. Geçmişten gelen mektuplar onu en ağır dönemle karşılaştırıyor. Devam edebilmek için önce kendini affetmesi, sonra gerçekleri anlatması gerekiyor. Kapakta 26 haftalık New York Times birinciliği, 2026 PEN/Hemingway ve Women’s Prize, Goodreads’te üç dalda final (500.000 oy, 4.5) ve 3.000 bağımsız kitabevinin Indies Choice seçimi de duruyor.
 
-Murdle 1 sayfasında baskı uzunluğu olarak 384 sayfa yazıyor.
+### Kimler sevmeli
 
-Murdle 1 sayfasında boyutlar olarak 23.5 x 15 x 2 cm yazıyor.
+Mektupla ilerleyen, acele etmeyen romanları sevenlere. Sybil’in yıllarca sakladığı mesafe bu metnin omurgası. Hızlı bir polisiye arıyorsan tempo sana uymaz.
 
-### Bu sırada durmasının nedeni
+### Künye
 
-Murdle 1 bu çekimde 2. sırada. Bu numara, o günkü çok satanlar sayfasındaki yer. Sayfa başka bir satış gerekçesi yazmıyor.
+- Yazar: Virginia Evans
+- Yayınevi: April Yayıncılık
+- Sayfa: 343 sayfa
+- Yayın tarihi: 14 Mayıs 2026
 
-## 3. sıradaki Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti
+[Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti](https://www.amazon.com.tr/dp/6256756207?tag=hobibulsite-21)
 
-3. sıra [Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti](https://www.amazon.com.tr/dp/6256756207?tag=hobibulsite-21). Yazar satırı Virginia Evans. Yayıncı olarak April Yayıncılık yazıyor. Baskı uzunluğu 343 sayfa. Dil satırı Türkçe. Yayın tarihi 14 Mayıs 2026.
+## Hangisini seçmeli?
 
-### Kapakta duran anlatı
+Üçü aynı okumalık değil. Tedirgin, kısa bir kurgu istiyorsan Portakal ve Ekmek Bıçağı. Masada çözülecek bir gizem istiyorsan Murdle 1. Mektupla ilerleyen, daha uzun bir roman istiyorsan Muhabbet.
 
-Kapak, Virginia Evans’ın Muhabbet romanını mektuplar üzerinden anlatıyor. Sybil her sabah masaya oturup mektup yazıyor: erkek kardeşine, en yakın arkadaşına, bahçecilik kulübüne, derse kabul etmeyen üniversite dekanına, sevdiği yazarlara, editörlere ve ajanslara. Bir mektup da bir türlü gönderemediği kişiye. Sybil Van Antwerp otuz yıldır mektuplarla dünyaya tutunurken yakınındakileri uzakta tutuyor. İnziva bitmek üzere. Geçmişten gelen mektuplar onu en ağır dönemle karşılaştırıyor. Devam edebilmek için önce kendini affetmesi, sonra gerçekleri anlatması gerektiği yazılı. Sayfa şu notları da taşıyor: 26 haftadır New York Times çok satanlar birincisi, 2026 PEN/Hemingway en iyi roman ödülü, 2026 Women’s Prize en iyi roman, Goodreads okur ödüllerinde üç dalda final ve 500.000 oy ile 4.5 puan, 2026 Indies Choice yılın romanı ve 3.000 bağımsız kitabevinin seçimi.
+## Karşılaştırma
 
-### Ürün bilgisi satırı
-
-Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti sayfasında yayıncı olarak April Yayıncılık yazıyor.
-
-Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti sayfasında yayınlanma tarihi olarak 14 Mayıs 2026 yazıyor.
-
-Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti sayfasında dil olarak Türkçe yazıyor.
-
-Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti sayfasında baskı uzunluğu olarak 343 sayfa yazıyor.
-
-Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti sayfasında boyutlar olarak 13.4 x 2.1 x 20.6 cm yazıyor.
-
-### Bu sırada durmasının nedeni
-
-Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti bu çekimde 3. sırada. Bu numara, o günkü çok satanlar sayfasındaki yer. Sayfa başka bir satış gerekçesi yazmıyor.
-
-## Üç kayıt yan yana
-
-1. sırada [Portakal ve Ekmek Bıçağı](https://www.amazon.com.tr/dp/6052657480?tag=hobibulsite-21) var. Yazar Cheong Ye. Yayıncı İthaki. Baskı Uzunluğu 136 sayfa. Dil Türkçe. Yayınlanma Tarihi 25 Haziran 2026.
-
-2. sırada [Murdle 1](https://www.amazon.com.tr/dp/6259568126?tag=hobibulsite-21) var. Yazar G.T Karber. Yayıncı Olimpos Yayınları. Baskı Uzunluğu 384 sayfa. Dil Türkçe. Yayınlanma Tarihi 14 Mart 2025.
-
-3. sırada [Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti](https://www.amazon.com.tr/dp/6256756207?tag=hobibulsite-21) var. Yazar Virginia Evans. Yayıncı April Yayıncılık. Baskı Uzunluğu 343 sayfa. Dil Türkçe. Yayınlanma Tarihi 14 Mayıs 2026.
-
-Üç kitap da bu çekimin kitap listesinden. Sayfa sayısı, yayınevi ve kapak anlatısı her birinin kendi ürün sayfasından alındı.
-
-## Sıra ne söylüyor
-
-Çok satanlar sayfasındaki sayı, 9 Kasım 2026 çekimindeki yer. Bu bir okur puanı değil; Amazon.com.tr o bölümde o an görünen sıra. Ertesi hafta aynı ad aynı sayıda durmak zorunda değil. Buradaki üç kayıt, o sayfada adı bu hobi kategorisine uyan ilk ürünler. Altta kalan satırlar, adları kategoriye uymadığı için bu yazıya girmedi.
-
-| Ürün | Yazar | Yayıncı | Baskı | Dil |
-| --- | --- | --- | --- | --- |
-| Portakal ve Ekmek Bıçağı | Cheong Ye | İthaki | 136 sayfa | Türkçe |
-| Murdle 1 | G.T Karber | Olimpos Yayınları | 384 sayfa | Türkçe |
-| Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti | Virginia Evans | April Yayıncılık | 343 sayfa | Türkçe |
-
-Tablodaki hücre, ürün sayfasında yazıyorsa duruyor. Boş hücre, o etiket o sayfada yok demek.
-
-1. sıradaki [Portakal ve Ekmek Bıçağı](https://www.amazon.com.tr/dp/6052657480?tag=hobibulsite-21) bu çekimin kaydı. Ürün sayfası aynı adrese gidiyor. Yazar satırında Cheong Ye yazıyor. Yayıncı veya marka satırı İthaki. Baskı uzunluğu 136 sayfa. Bilgi etiketleri de şunlar: Yayıncı, Yayınlanma Tarihi, Dil, Baskı Uzunluğu, Boyutlar. Yukarıdaki bölüm, bu kaydın sayfasından kurulan cümleleri taşıyor.
-
-2. sıradaki [Murdle 1](https://www.amazon.com.tr/dp/6259568126?tag=hobibulsite-21) bu çekimin kaydı. Ürün sayfası aynı adrese gidiyor. Yazar satırında G.T Karber yazıyor. Yayıncı veya marka satırı Olimpos Yayınları. Baskı uzunluğu 384 sayfa. Bilgi etiketleri de şunlar: Yayıncı, Yayınlanma Tarihi, Baskı, Dil, Baskı Uzunluğu, Boyutlar. Yukarıdaki bölüm, bu kaydın sayfasından kurulan cümleleri taşıyor.
-
-3. sıradaki [Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti](https://www.amazon.com.tr/dp/6256756207?tag=hobibulsite-21) bu çekimin kaydı. Ürün sayfası aynı adrese gidiyor. Yazar satırında Virginia Evans yazıyor. Yayıncı veya marka satırı April Yayıncılık. Baskı uzunluğu 343 sayfa. Bilgi etiketleri de şunlar: Yayıncı, Yayınlanma Tarihi, Dil, Baskı Uzunluğu, Boyutlar. Yukarıdaki bölüm, bu kaydın sayfasından kurulan cümleleri taşıyor.
-
-## Sitede yanında duran rehberler
-
-Aynı kategoride başka rehber yok. Aşağıdaki bağlantılar kategori sayfasına gider.
-
-- [Bu kategorinin sayfası](/kategori/yazi-edebiyat/)
-- [Bu alt kategorinin sayfası](/kategori/yazi-edebiyat/okuma/)
+| Kitap | Yazar | Yayınevi | Sayfa |
+| --- | --- | --- | --- |
+| Portakal ve Ekmek Bıçağı | Cheong Ye | İthaki | 136 sayfa |
+| Murdle 1 | G.T Karber | Olimpos Yayınları | 384 sayfa |
+| Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti | Virginia Evans | April Yayıncılık | 343 sayfa |
 
 ## Sıkça Sorulan Sorular
 
-**Liste hangi sayfadan geliyor?**
-9 Kasım 2026 çekiminde Amazon.com.tr çok satanlar sayfasının ilgili bölümünden. Ertesi hafta sıra değişebilir.
+**Hangisi daha kısa?**
 
-**İlk sırada hangi ürün var?**
-Bu çekimde 1. sırada Portakal ve Ekmek Bıçağı var. Bağlantı https://www.amazon.com.tr/dp/6052657480?tag=hobibulsite-21 adresine gider.
+Portakal ve Ekmek Bıçağı 136 sayfa, Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti 343 sayfa, Murdle 1 384 sayfa. En kısası Portakal ve Ekmek Bıçağı.
 
-**Yazar adları nerede yazıyor?**
-Çok satanlar satırındaki yazar alanı: Portakal ve Ekmek Bıçağı için Cheong Ye, Murdle 1 için G.T Karber, Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti için Virginia Evans.
+**Türkçe baskı mı?**
 
-**Üç kaydın bağlantısı nereye gidiyor?**
-Her bağlantı Amazon.com.tr üzerindeki ürün sayfasına gider ve hobibulsite-21 etiketini taşır. Bu çekimdeki kayıtlar: Portakal ve Ekmek Bıçağı, Murdle 1, Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti.
+Üçünün de dili Türkçe.
 
-**Sayfa sayısı görünen kitap hangisi?**
-Portakal ve Ekmek Bıçağı 136 sayfa, Murdle 1 384 sayfa, Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti 343 sayfa.
+Kitabın yanında evde oturan başka uğraşlar da var: [okuma](/kategori/yazi-edebiyat/okuma/), [Yetişkin Hobi Setleri](/makale/yetiskin-hobi-setleri/) ve [Evde Yapılacak Hobiler](/makale/evde-yapilacak-hobiler/).
+
+Liste Amazon.com.tr çok satanlar sıralamasına göre hazırlandı, sıralama haftalık değişir.

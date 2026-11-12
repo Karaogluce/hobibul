@@ -2830,15 +2830,121 @@ def cesitlilik_plani_yaz(plan, cats=None):
     return metin
 
 
+def kisa_yenile(adet):
+    """content/kisa_makaleler.json sırasındaki kısa yazıları Gemini ile yeniden yazar.
+
+    Anahtar yoksa dosyalara dokunmaz. Her başarılı yazı listeden düşer.
+    1000 kelimenin altında kalan yazı listenin sonuna gider, sonraki tur dener.
+    """
+    ym.load_env()
+    key = (os.environ.get("GEMINI_API_KEY") or "").strip()
+    yol = os.path.join(CONTENT, "kisa_makaleler.json")
+    if not os.path.exists(yol):
+        print("kisa_makaleler.json yok.")
+        return 0
+    if not key:
+        print("GEMINI_API_KEY yok. Kısa yazılar yerinde kaldı.")
+        return 0
+    data = json.loads(open(yol, encoding="utf-8").read())
+    bekleyen = [m for m in data.get("makaleler") or [] if not m.get("yenilendi")]
+    if not bekleyen or adet <= 0:
+        print("Yenilenecek kısa yazı kalmadı.")
+        return 0
+    models, _acik = _modeller()
+    idx = [0]
+    guide = load_guide()
+    bugun = istanbul_bugun().isoformat()
+    bitti = 0
+    for kayit in bekleyen[:adet]:
+        slug = kayit.get("slug") or ""
+        md = os.path.join(ARTICLES, slug + ".md")
+        if not os.path.exists(md):
+            print("! dosya yok", slug)
+            kayit["yenilendi"] = True
+            kayit["not"] = "dosya yok"
+            continue
+        text = open(md, encoding="utf-8").read()
+        if text.count("---") < 2:
+            print("! ön yazı yok", slug)
+            continue
+        _, fm, body = text.split("---", 2)
+        linkler = re.findall(r"\((https://www\.amazon\.com\.tr/dp/[A-Z0-9]{10}\?tag=hobibulsite-21)\)", body)
+        linkler += re.findall(r"\((/makale/[^)]+/)\)", body)
+        linkler += re.findall(r"\((aff://[^)]+)\)", body)
+        baslik = ""
+        tm = re.search(r'title:\s*"([^"]+)"', fm)
+        if tm:
+            baslik = tm.group(1)
+        prompt = f"""Sen Hobi Bul için yazan bir Türkçe hobi editörüsün. Okura "sen" diye seslen. Var olan kısa metni insan ağzıyla yeniden yaz.
+
+BAŞLIK: {baslik}
+
+KAYNAK METİN (olgular ve linkler yalnızca buradan; fiyat, ölçü, yaş, kişi sayısı, parça listesi ekleme):
+{body.strip()[:6000]}
+
+YAZIM:
+{guide[:1800]}
+
+YAPI:
+- Giriş, okurun sorusuna cevap versin. "Bu yazıda" deme.
+- Kaynaktaki her ürün kendi bölümünde kalsın. Linkleri aynen koru, yeni ürün ekleme.
+- ## Sıkça Sorulan Sorular altında 3 soru, soru satırı **soru** biçiminde.
+- Kapanışta tek net cümle. "Sonuç" başlığı yok.
+- Yaklaşık 1000-1300 kelime, dolgu yok. Kaynak inceyse uydurup uzatma; o ürünü kısa ve dürüst bırak.
+- Yasak: çekim, mükemmel, keşfedin, sonuç olarak, günümüzde, bu makalede.
+
+Çıktı yalnız makale gövdesi. Ön yazı, kod bloğu ve GORSEL satırı yok.
+"""
+        try:
+            yanit = _gemini(prompt, key, models, idx)
+            yeni = govde_ayikla(str(yanit)).strip()
+        except Exception as e:
+            print(f"! {slug} yazılamadı: {ym._gemini_metin(e)}")
+            continue
+        eksik = [u for u in linkler if u not in yeni]
+        if eksik or "## Sıkça Sorulan Sorular" not in yeni or "çekim" in yeni.lower():
+            print(f"! {slug} denetimden geçmedi")
+            data["makaleler"].remove(kayit)
+            data["makaleler"].append(kayit)
+            continue
+        kelime = len(yeni.split())
+        if re.search(r'updated:\s*"', fm):
+            fm2 = re.sub(r'updated:\s*"[^"]*"', f'updated: "{bugun}"', fm, count=1)
+        else:
+            fm2 = fm.rstrip() + f'\nupdated: "{bugun}"\n'
+        with open(md, "w", encoding="utf-8", newline="\n") as f:
+            f.write("---" + fm2 + "---\n" + yeni + "\n")
+        kayit["kelime"] = kelime
+        kayit["son"] = bugun
+        if kelime >= DUZENLI_TABAN:
+            kayit["yenilendi"] = True
+            bitti += 1
+            print(f"✓ {slug} {kelime} kelime")
+        else:
+            print(f"· {slug} hâlâ kısa ({kelime})")
+            data["makaleler"].remove(kayit)
+            data["makaleler"].append(kayit)
+    data["sayi"] = sum(1 for m in data["makaleler"] if not m.get("yenilendi"))
+    with open(yol, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(data, f, ensure_ascii=False, indent=1)
+        f.write("\n")
+    print(f"Kısa yazı turu: {bitti} tamam, listede {data['sayi']} kaldı.")
+    return 0
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--adet", type=int, default=GUNLUK_HEDEF)
+    ap.add_argument("--kisa-yenile", type=int, default=0,
+                    help="kisa_makaleler.json içinden N yazıyı yeniden yaz")
     ap.add_argument("--yayinla", action="store_true", help="taslak yerine yayına hazır yaz")
     ap.add_argument("--taslak", action="store_true")
     ap.add_argument("--konu-listesi", action="store_true")
     ap.add_argument("--cesitlilik-plan", type=int, default=0,
                     help="Önümüzdeki N günün konu planını bas. Üretmez.")
     a = ap.parse_args()
+    if a.kisa_yenile:
+        return kisa_yenile(a.kisa_yenile)
     if a.cesitlilik_plan:
         products, cats = ym.load("products.json"), ym.load("categories.json")
         plan = cesitlilik_plani(a.cesitlilik_plan, products=products, cats=cats)
