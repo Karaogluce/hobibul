@@ -3,9 +3,9 @@
  "ozet": {
   "makale": 74,
   "kategori": 82,
-  "yetim_makale": 35,
+  "yetim_makale": 34,
   "yetim_kategori": 21,
-  "yetim": 56,
+  "yetim": 55,
   "makalesiz_kategori": 36,
   "sitemap_linksiz": [],
   "uc_tik_disi": [],
@@ -44,6 +44,18 @@
    "baslik": "Akvaryum & Balık İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
+   "govde_gelen": 0,
+   "toplam_gelen": 168,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/bonsai-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/",
+   "tur": "makale",
+   "baslik": "Bonsai İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "bonsai",
    "govde_gelen": 0,
    "toplam_gelen": 168,
    "tik": 1,
@@ -525,20 +537,6 @@
    ]
   },
   {
-   "yol": "/makale/bonsai-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/",
-   "tur": "makale",
-   "baslik": "Bonsai İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
-   "kategori": "bahce-bitki",
-   "alt_kategori": "bonsai",
-   "govde_gelen": 1,
-   "toplam_gelen": 168,
-   "tik": 1,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/en-cok-satan-bahce-alet-2026-w46/"
-   ]
-  },
-  {
    "yol": "/makale/drone-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/",
    "tur": "makale",
    "baslik": "Drone Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
@@ -746,20 +744,6 @@
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/raspberry-pi-5-baslangic-kiti/"
-   ]
-  },
-  {
-   "yol": "/makale/yetiskin-hobi-setleri/",
-   "tur": "makale",
-   "baslik": "Yetişkin Hobi Setleri: Hangisi Alınır? (Boyama, Maket, Diamond Painting)",
-   "kategori": "el-sanatlari",
-   "alt_kategori": "diamond-painting",
-   "govde_gelen": 1,
-   "toplam_gelen": 7,
-   "tik": 2,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/diamond-painting-nedir-nasil-yapilir/"
    ]
   }
  ],
@@ -1143,13 +1127,12 @@
    "baslik": "Bonsai Başlangıç Seti: Makas, Tel, Toprak ve Gübre",
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
-   "govde_gelen": 3,
+   "govde_gelen": 2,
    "icerik_gelen": 13,
    "toplam_gelen": 13,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
-    "/makale/en-cok-satan-bahce-alet-2026-w46/",
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/",
     "/makale/evde-yapilacak-hobiler/"
    ],
@@ -1161,14 +1144,12 @@
    "baslik": "Bonsai İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
-   "govde_gelen": 1,
+   "govde_gelen": 0,
    "icerik_gelen": 8,
    "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/en-cok-satan-bahce-alet-2026-w46/"
-   ],
+   "govde_kaynaklar": [],
    "makale_sayisi": null
   },
   {
@@ -1177,14 +1158,13 @@
    "baslik": "Bonsai nasıl toprak sever?",
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
-   "govde_gelen": 3,
+   "govde_gelen": 2,
    "icerik_gelen": 8,
    "toplam_gelen": 8,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
-    "/makale/en-cok-satan-bahce-alet-2026-w46/",
     "/makale/en-iyi-bonsai-ekipmanlari-2026-alim-rehberi/"
    ],
    "makale_sayisi": null
@@ -2188,12 +2168,13 @@
    "baslik": "Yetişkin Hobi Setleri: Hangisi Alınır? (Boyama, Maket, Diamond Painting)",
    "kategori": "el-sanatlari",
    "alt_kategori": "diamond-painting",
-   "govde_gelen": 1,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "govde_gelen": 2,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
+    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
     "/makale/diamond-painting-nedir-nasil-yapilir/"
    ],
    "makale_sayisi": null

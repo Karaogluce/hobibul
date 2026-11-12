@@ -14,85 +14,90 @@ image_alt: "Kitap çok satanlar listesinden bir ürün"
 hide_plan: "true"
 draft: "false"
 ---
-9 Kasım 2026 kitap sıralamasının başında Cheong Ye’nin Portakal ve Ekmek Bıçağı, G.T Karber’in Murdle 1’i ve Virginia Evans’ın Muhabbet’i var. Aynı raftaki sayfalar [Yazı & Edebiyat](/kategori/yazi-edebiyat/) ve [Okuma & Kitap Kulübü](/kategori/yazi-edebiyat/okuma/).
+9 Kasım 2026 tarihli kitap sıralamasının başında Portakal ve Ekmek Bıçağı, Murdle 1 ve Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti var. Biri tedirgin bir roman, biri çıkarım bulmacası, biri mektupla kurulan daha uzun bir metin. Vaktin hangisine yetiyorsa ona bak.
 
 ## 1. Portakal ve Ekmek Bıçağı
-Bıçağın yüzeyinde gördüğü yansımaya bakıp ağlarken bile gülümsediğini fark eden bir kadının dünyasındayız.
+
+Uyum ile öfke arasında sıkışan kısa bir roman.
 
 ### Konusu
-Toplumun görünmez kurallarına uymanın adeta bir zorunluluk olduğu, herkesin birbirinin kopyası gibi yaşadığı kusursuz bir düzende geçiyor olaylar. Oh Yeong-a bu düzenin parçasından başka bir şey değil; hep alttan alan, sürekli gülümseyen ve hayatını başkalarının beklentileri doğrultusunda kuran sevecen bir öğretmen. Fakat uyum sağlama çabası onda derin bir öfke ve tıkanıklık yaratıyor. 
 
-Bu durumdan kurtulmak adına son çare olarak dört haftalık, son teknoloji bir duygu düzenleme programına katılıyor. Bu yapay müdahale beklediğinden de etkili çalışıyor. Sosyal filtreleri atarak ham, kuralsız benliğiyle yüzleşen Oh Yeong-a, toplumun dayattığı idealleri yıkmaya kararlı adımlar atıyor. Uysal kafesine dönmek istemeyen bir bireyin özgürlük mücadelesi anlatılıyor.
+Herkesin birbirine benzediği, görünmez kurallara uymanın zorunlu sayıldığı bir düzen var. Oh Yeong-a o düzenin içinde gülümseyen, alttan alan bir öğretmen; gününü başkalarının beklentisine göre kuruyor. Bu uyum onda çaresizlik ve öfke biriktiriyor. Çıkışı, dört haftalık bir duygu düzenleme programında arıyor. Program, kişiyi daha iyi bir haline taşıyacağını söylüyor. Müdahale beklenenden farklı işliyor. Yeong-a sosyal filtreleri ve yorucu sorumlulukları bırakıp ilk kez kuralsız haliyle karşılaşıyor ve toplumun dayattığı idealleri dağıtmaya yöneliyor. Bu hâl hem tehlikeli hem çekici duruyor. Cheong Ye, Kore edebiyatında öne çıkan genç yazarlar arasında anılıyor. Roman, herkesi tek tipe zorlayan toplumu ve kişinin kendi sınırını konu ediyor.
 
 ### Kimler sevmeli
-Toplumsal baskıları, bireysel sıkışmışlıkları ve gerilimi yüksek, tekinsiz öyküleri okumaktan keyif alanlar bu romanı elinden bırakamayacaktır.
+
+Toplumun içinde sürekli uyum sağlayan bir karakterin hikâyesini sevenlere gider. Rahat bir kaçış romanı arıyorsan burası daha tedirgin. Kore edebiyatından gelen, toplumsal baskıyı kurcalayan romanlara yakın.
 
 ### Künye
-* Yazar: Cheong Ye
-* Yayınevi: İthaki
-* Sayfa: 136 sayfa
-* Yayın tarihi: 25 Haziran 2026
 
-[Portakal ve Ekmek Bıçağı Satın Alma Bağlantısı](https://www.amazon.com.tr/dp/6052657480?tag=hobibulsite-21)
+- Yayınevi: İthaki
+- Sayfa: 136 sayfa
+- Yayın tarihi: 25 Haziran 2026
+
+[Portakal ve Ekmek Bıçağı](https://www.amazon.com.tr/dp/6052657480?tag=hobibulsite-21)
 
 ## 2. Murdle 1
-Çıkarım Ustası Logıco ile birlikte karanlık cinayetleri çözmeye hazır mısın?
+
+Masada çözülen bir cinayet bulmacası.
 
 ### Konusu
-Türünün ilk örnekleri arasında yer alan bu eser, okuru gizemli bulmacalarla baş başa bırakıyor. Katilin kim olduğunu bulmanın yanı sıra cinayetin nerede, nasıl ve neden işlendiğini ortaya çıkarmanı istiyor. İpuçlarını dikkatle inceleyip tanıklarla görüşerek çıkarım gücünü devreye sokuyorsun.
 
-İllüstrasyonlar, haritalar ve şifrelerle desteklenen bu çalışma, zeka dolu bulmacaları çözdükçe suçluyu enselemeni sağlıyor. İçindeki gizli dedektifi uyandırmak için tasarlanan bu akış, cinayetlerin arkasındaki sır perdesini adım adım aralıyor.
+Çıkarım Ustası Logıco ile Murdle’ın ilk cildindeki cinayetlere bakıyorsun. Minik gizem bulmacaları yalnızca katilin kim olduğunu değil, cinayetin nasıl, nerede ve neden işlendiğini de sorduruyor. İpucu, tanık ve çıkarım aynı turda. Alttaki sıraya, bulmacaların hepsi bitince ulaşıyorsun. İllüstrasyon, şifre ve harita da var. Kitap zekâ ile entrika tarafında duruyor.
 
 ### Kimler sevmeli
-Bulmaca çözmeyi seven, zekasını test etmekten hoşlanan ve mantık yürütme oyunlarına ilgi duyan gizem tutkunları için birebir.
+
+Çıkarım ve küçük gizem bulmacası sevenlere. Katilden çok, cinayetin nasıl kurulduğunu çözmek istiyorsan bu cilt orada. Düz roman temposu arayanı yorar.
 
 ### Künye
-* Yazar: G.T Karber
-* Yayınevi: Olimpos Yayınları
-* Sayfa: 384 sayfa
-* Yayın tarihi: 14 Mart 2025
 
-[Murdle 1 Satın Alma Bağlantısı](https://www.amazon.com.tr/dp/6259568126?tag=hobibulsite-21)
+- Yayınevi: Olimpos Yayınları
+- Sayfa: 384 sayfa
+- Yayın tarihi: 14 Mart 2025
+
+[Murdle 1](https://www.amazon.com.tr/dp/6259568126?tag=hobibulsite-21)
 
 ## 3. Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti
-Kulaktan kulağa yayılan ve hayata karşı kazanılan edebi bir zaferin tam ortasındayız.
+
+Mektuplarla ilerleyen, acele etmeyen bir roman.
 
 ### Konusu
-Sybil her sabah yazı masasına oturup mektuplar kaleme alıyor. Erkek kardeşine, en yakın arkadaşına, bahçecilik kulübüne, dekanlığa ve favori yazarlarına yazdığı bu satırların arasında bir de hiçbir zaman gönderemediği o özel mektup bulunuyor. 
 
-Dünyaya mektuplarla tutunan Sybil, otuz yıldır sevdiklerini kendinden uzakta tutuyor. Fakat inziva dönemi artık bitmek üzere. Geçmişten gelen mektuplar kapısını çaldığında, hayatının en acı dolu dönemiyle yüzleşmek zorunda kalıyor. Yoluna devam edebilmek adına önce kendini affetmesi ve gerçeği dünyaya anlatması gerekiyor.
+Sybil her sabah masaya oturup mektup yazıyor. Erkek kardeşine, en yakın arkadaşına, bahçecilik kulübüne, derse kabul etmeyen üniversite dekanına, sevdiği yazarlara, editörlere ve ajanslara. Bir mektup da bir türlü gönderemediği kişiye. Sybil Van Antwerp otuz yıldır mektuplarla dünyaya tutunurken yakınındakileri uzakta tutuyor. İnziva bitmek üzere. Geçmişten gelen mektuplar onu en ağır dönemle karşılaştırıyor. Devam edebilmek için önce kendini affetmesi, sonra gerçekleri anlatması gerekiyor. Kapakta 26 haftalık New York Times birinciliği, 2026 PEN/Hemingway ve Women’s Prize, Goodreads’te üç dalda final (500.000 oy, 4.5) ve 3.000 bağımsız kitabevinin Indies Choice seçimi de duruyor.
 
 ### Kimler sevmeli
-Derin karakter analizleri içeren, hem sarsan hem de iyileştiren nitelikli romanları okumayı seven edebi kurgu okurlarına hitap ediyor.
+
+Mektupla ilerleyen, acele etmeyen romanları sevenlere. Sybil’in yıllarca sakladığı mesafe bu metnin omurgası. Hızlı bir polisiye arıyorsan tempo sana uymaz.
 
 ### Künye
-* Yazar: Virginia Evans
-* Yayınevi: April Yayıncılık
-* Sayfa: 343 sayfa
-* Yayın tarihi: 14 Mayıs 2026
 
-[Muhabbet Satın Alma Bağlantısı](https://www.amazon.com.tr/dp/6256756207?tag=hobibulsite-21)
+- Yayınevi: April Yayıncılık
+- Sayfa: 343 sayfa
+- Yayın tarihi: 14 Mayıs 2026
+
+[Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti](https://www.amazon.com.tr/dp/6256756207?tag=hobibulsite-21)
 
 ## Hangisini seçmeli?
-Eğer kısa ama zihni sarsan, toplumsal uyum meselesini irdeleyen bir metin arıyorsan ilk seçeneğe yönelmelisin. Akşamını bulmaca çözerek geçirmek istiyorsan ikinci seçenek Murdle 1. Duygu yönü yoğun, geçmişin hesaplaşmalarını anlatan dramatik bir edebi eser peşindeysen üçüncü seçeneği tercih edebilirsin.
+
+Üçü aynı okumalık değil. Tedirgin, kısa bir kurgu istiyorsan Portakal ve Ekmek Bıçağı. Masada çözülecek bir gizem istiyorsan Murdle 1. Mektupla ilerleyen, daha uzun bir roman istiyorsan Muhabbet.
 
 ## Karşılaştırma
 
-| Kitap | Yazar | Yayınevi | Sayfa | Ayırıcı Özellik |
-| :--- | :--- | :--- | :--- | :--- |
-| Portakal ve Ekmek Bıçağı | Cheong Ye | İthaki | 136 sayfa | Duygu düzenleme programı |
-| Murdle 1 | G.T Karber | Olimpos Yayınları | 384 sayfa | Çizimler ve bulmacalar |
-| Muhabbet | Virginia Evans | April Yayıncılık | 343 sayfa | Mektuplar üzerinden ilerleyen kurgu |
+| Kitap | Yazar | Yayınevi | Sayfa |
+| --- | --- | --- | --- |
+| Portakal ve Ekmek Bıçağı |  | İthaki | 136 sayfa |
+| Murdle 1 |  | Olimpos Yayınları | 384 sayfa |
+| Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti |  | April Yayıncılık | 343 sayfa |
 
 ## Sıkça Sorulan Sorular
 
-**Portakal ve Ekmek Bıçağı neyin etrafında dönüyor?**
-Kapak, herkesin birbirine benzediği bir düzende uyum sağlamaya çalışan öğretmen Oh Yeong-a’yı ve dört haftalık duygu düzenleme programını anlatıyor.
+**Hangisi daha kısa?**
 
-**Murdle 1’de ne yapıyorsun?**
-İpucu, tanık ve çıkarımla cinayetin nasıl, nerede ve neden işlendiğini arıyorsun. Sayfada illüstrasyon, harita ve şifre de var.
+Portakal ve Ekmek Bıçağı 136 sayfa, Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti 343 sayfa, Murdle 1 384 sayfa. En kısası Portakal ve Ekmek Bıçağı.
 
-**Muhabbet kitabındaki ana karakter neden mektup yazıyor?**
-Sybil, dünyayla bağ kurma biçimi olarak mektupları kullanıyor ve otuz yıldır yakınlarından uzak kalmasını bu yolla sürdürüyor.
+**Türkçe baskı mı?**
+
+Üçünün de dili Türkçe.
+
+Kitabın yanında duran sayfalar: [Yazı & Edebiyat](/kategori/yazi-edebiyat/), [Okuma & Kitap Kulübü](/kategori/yazi-edebiyat/okuma/) ve [Yetişkin Hobi Setleri: Hangisi Alınır? (Boyama, Maket, Diamond Painting)](/makale/yetiskin-hobi-setleri/).
 
 Liste Amazon.com.tr çok satanlar sıralamasına göre hazırlandı, sıralama haftalık değişir.

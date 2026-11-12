@@ -1,43 +1,17 @@
 {
  "taban": 1000,
  "donem": "2026-10-29 .. 2026-11-12",
- "sayi": 25,
+ "sayi": 24,
  "not": "Gemini anahtarı bu ortamda yok. Kısa günlük yazılar yeniden üretilmedi; bundan sonraki yayın kapısı 1000 kelime.",
  "makaleler": [
   {
-   "tarih": "2026-11-01",
-   "slug": "dj-seti-adi",
-   "kelime": 763,
-   "kaynak": "sablon",
-   "tip": "ticari"
-  },
-  {
-   "tarih": "2026-11-04",
-   "slug": "drone-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
-   "kelime": 804,
-   "kaynak": "sablon",
-   "tip": "sss"
-  },
-  {
-   "tarih": "2026-11-05",
-   "slug": "en-iyi-dj-produksiyon-ekipmanlari-2026-alim-rehberi",
-   "kelime": 735,
-   "kaynak": "sablon",
-   "tip": "rehber"
-  },
-  {
-   "tarih": "2026-11-04",
-   "slug": "en-iyi-kutu-oyunlari-2026",
-   "kelime": 197,
-   "kaynak": "log-disi",
-   "tip": ""
-  },
-  {
    "tarih": "2026-11-05",
    "slug": "en-iyi-raspberry-pi-elektronik-ekipmanlari-2026-alim-rehberi",
-   "kelime": 775,
+   "kelime": 730,
    "kaynak": "sablon",
-   "tip": "rehber"
+   "tip": "rehber",
+   "son": "2026-11-12",
+   "yenilendi": true
   },
   {
    "tarih": "2026-11-01",
@@ -178,6 +152,34 @@
    "kelime": 692,
    "kaynak": "sablon",
    "tip": "yeni_baslayan"
+  },
+  {
+   "tarih": "2026-11-01",
+   "slug": "dj-seti-adi",
+   "kelime": 763,
+   "kaynak": "sablon",
+   "tip": "ticari"
+  },
+  {
+   "tarih": "2026-11-04",
+   "slug": "drone-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber",
+   "kelime": 804,
+   "kaynak": "sablon",
+   "tip": "sss"
+  },
+  {
+   "tarih": "2026-11-05",
+   "slug": "en-iyi-dj-produksiyon-ekipmanlari-2026-alim-rehberi",
+   "kelime": 735,
+   "kaynak": "sablon",
+   "tip": "rehber"
+  },
+  {
+   "tarih": "2026-11-04",
+   "slug": "en-iyi-kutu-oyunlari-2026",
+   "kelime": 197,
+   "kaynak": "log-disi",
+   "tip": ""
   }
  ]
 }
