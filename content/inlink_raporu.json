@@ -3,9 +3,9 @@
  "ozet": {
   "makale": 74,
   "kategori": 82,
-  "yetim_makale": 36,
+  "yetim_makale": 34,
   "yetim_kategori": 21,
-  "yetim": 57,
+  "yetim": 55,
   "makalesiz_kategori": 36,
   "sitemap_linksiz": [],
   "uc_tik_disi": [],
@@ -51,35 +51,11 @@
    "govde_kaynaklar": []
   },
   {
-   "yol": "/kategori/yazi-edebiyat/okuma/",
-   "tur": "kategori",
-   "baslik": "Okuma & Kitap Kulübü",
-   "kategori": "yazi-edebiyat",
-   "alt_kategori": "okuma",
-   "govde_gelen": 0,
-   "toplam_gelen": 5,
-   "tik": 2,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": []
-  },
-  {
    "yol": "/makale/akvaryum-balik-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/",
    "tur": "makale",
    "baslik": "Akvaryum & Balık İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
-   "govde_gelen": 0,
-   "toplam_gelen": 168,
-   "tik": 1,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": []
-  },
-  {
-   "yol": "/makale/bonsai-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/",
-   "tur": "makale",
-   "baslik": "Bonsai İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
-   "kategori": "bahce-bitki",
-   "alt_kategori": "bonsai",
    "govde_gelen": 0,
    "toplam_gelen": 168,
    "tik": 1,
@@ -141,7 +117,7 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bahcecilik",
    "govde_gelen": 0,
-   "toplam_gelen": 3,
+   "toplam_gelen": 4,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -463,6 +439,20 @@
    ]
   },
   {
+   "yol": "/kategori/yazi-edebiyat/okuma/",
+   "tur": "kategori",
+   "baslik": "Okuma & Kitap Kulübü",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "okuma",
+   "govde_gelen": 1,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/"
+   ]
+  },
+  {
    "yol": "/kategori/yemek-mutfak/ekmek-pasta/",
    "tur": "kategori",
    "baslik": "Ekmek & Pasta",
@@ -533,17 +523,17 @@
    ]
   },
   {
-   "yol": "/makale/deri-isciligi-baslangic-seti-ilk-alinacaklar-2026/",
+   "yol": "/makale/bonsai-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/",
    "tur": "makale",
-   "baslik": "Deri İşçiliği Başlangıç Seti: İlk Alınacaklar (2026)",
-   "kategori": "el-sanatlari",
-   "alt_kategori": "deri-isleri",
+   "baslik": "Bonsai İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "bonsai",
    "govde_gelen": 1,
-   "toplam_gelen": 5,
+   "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
-    "/makale/evde-yapilacak-hobiler/"
+    "/makale/en-cok-satan-bahce-alet-2026-w46/"
    ]
   },
   {
@@ -754,20 +744,6 @@
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/raspberry-pi-5-baslangic-kiti/"
-   ]
-  },
-  {
-   "yol": "/makale/yetiskin-hobi-setleri/",
-   "tur": "makale",
-   "baslik": "Yetişkin Hobi Setleri: Hangisi Alınır? (Boyama, Maket, Diamond Painting)",
-   "kategori": "el-sanatlari",
-   "alt_kategori": "diamond-painting",
-   "govde_gelen": 1,
-   "toplam_gelen": 7,
-   "tik": 2,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/diamond-painting-nedir-nasil-yapilir/"
    ]
   }
  ],
@@ -1032,13 +1008,14 @@
    "baslik": "2 Kişilik Kutu Oyunları: Türkiye'de Satılan Kutular",
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
-   "govde_gelen": 3,
+   "govde_gelen": 4,
    "icerik_gelen": 9,
    "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/aile-kutu-oyunlari/",
+    "/makale/en-cok-satan-kutu-oyun-2026-w46/",
     "/makale/en-iyi-kutu-oyunlari-2026/",
     "/makale/evde-yapilacak-hobiler/"
    ],
@@ -1067,13 +1044,14 @@
    "baslik": "Aile Kutu Oyunları: Türkiye'de Çocuklu Masaya Uyanlar",
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
-   "govde_gelen": 4,
+   "govde_gelen": 5,
    "icerik_gelen": 8,
    "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/2-kisilik-kutu-oyunlari/",
+    "/makale/en-cok-satan-kutu-oyun-2026-w46/",
     "/makale/en-iyi-kutu-oyunlari-2026/",
     "/makale/evde-yapilacak-hobiler/",
     "/makale/yilbasi-hediyesi-kutu-oyunlari/"
@@ -1149,12 +1127,13 @@
    "baslik": "Bonsai Başlangıç Seti: Makas, Tel, Toprak ve Gübre",
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
-   "govde_gelen": 2,
-   "icerik_gelen": 12,
-   "toplam_gelen": 12,
+   "govde_gelen": 3,
+   "icerik_gelen": 13,
+   "toplam_gelen": 13,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
+    "/makale/en-cok-satan-bahce-alet-2026-w46/",
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/",
     "/makale/evde-yapilacak-hobiler/"
    ],
@@ -1166,12 +1145,14 @@
    "baslik": "Bonsai İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
-   "govde_gelen": 0,
+   "govde_gelen": 1,
    "icerik_gelen": 8,
    "toplam_gelen": 168,
    "tik": 1,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [],
+   "govde_kaynaklar": [
+    "/makale/en-cok-satan-bahce-alet-2026-w46/"
+   ],
    "makale_sayisi": null
   },
   {
@@ -1180,13 +1161,14 @@
    "baslik": "Bonsai nasıl toprak sever?",
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
-   "govde_gelen": 2,
+   "govde_gelen": 3,
    "icerik_gelen": 8,
    "toplam_gelen": 8,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
+    "/makale/en-cok-satan-bahce-alet-2026-w46/",
     "/makale/en-iyi-bonsai-ekipmanlari-2026-alim-rehberi/"
    ],
    "makale_sayisi": null
@@ -1211,12 +1193,13 @@
    "baslik": "Deri İşçiliği Başlangıç Seti: İlk Alınacaklar (2026)",
    "kategori": "el-sanatlari",
    "alt_kategori": "deri-isleri",
-   "govde_gelen": 1,
-   "icerik_gelen": 5,
-   "toplam_gelen": 5,
+   "govde_gelen": 2,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
+    "/makale/en-cok-satan-el-isi-2026-w46/",
     "/makale/evde-yapilacak-hobiler/"
    ],
    "makale_sayisi": null
@@ -1227,12 +1210,13 @@
    "baslik": "Diamond Painting Nedir, Nasıl Yapılır?",
    "kategori": "el-sanatlari",
    "alt_kategori": "diamond-painting",
-   "govde_gelen": 2,
+   "govde_gelen": 3,
    "icerik_gelen": 9,
    "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
+    "/makale/en-cok-satan-el-isi-2026-w46/",
     "/makale/evde-yapilacak-hobiler/",
     "/makale/puzzle-aksesuarlari-masa-yapistirici-cerceve/"
    ],
@@ -1387,8 +1371,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bahcecilik",
    "govde_gelen": 0,
-   "icerik_gelen": 3,
-   "toplam_gelen": 3,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1494,14 +1478,15 @@
    "baslik": "En İyi Kutu Oyunları 2026: Türkiye'de Satılanlar",
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
-   "govde_gelen": 5,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "govde_gelen": 6,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/2-kisilik-kutu-oyunlari/",
     "/makale/aile-kutu-oyunlari/",
+    "/makale/en-cok-satan-kutu-oyun-2026-w46/",
     "/makale/evde-yapilacak-hobiler/",
     "/makale/puzzle-aksesuarlari-masa-yapistirici-cerceve/",
     "/makale/yilbasi-hediyesi-kutu-oyunlari/"
@@ -1565,13 +1550,14 @@
    "baslik": "Evde Başlayabileceğin 8 Yaratıcı El Sanatı Hobisi ve Gerekli Malzemeler",
    "kategori": "el-sanatlari",
    "alt_kategori": "",
-   "govde_gelen": 4,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
+   "govde_gelen": 5,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/diamond-painting-nedir-nasil-yapilir/",
+    "/makale/en-cok-satan-el-isi-2026-w46/",
     "/makale/evde-yapilacak-hobiler/",
     "/makale/kadinlar-icin-evde-yapilacak-hobiler/",
     "/makale/punch-nakisi-nasil-yapilir-baslangic-seti/"
@@ -1637,12 +1623,13 @@
    "baslik": "Evde Yapılacak Hobiler: 30 Fikir ve İlk Malzeme",
    "kategori": "el-sanatlari",
    "alt_kategori": "orgu-tig",
-   "govde_gelen": 2,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "govde_gelen": 3,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
+    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
     "/makale/evde-el-sanatlari-hobileri/",
     "/makale/kadinlar-icin-evde-yapilacak-hobiler/"
    ],
@@ -2186,12 +2173,13 @@
    "baslik": "Yetişkin Hobi Setleri: Hangisi Alınır? (Boyama, Maket, Diamond Painting)",
    "kategori": "el-sanatlari",
    "alt_kategori": "diamond-painting",
-   "govde_gelen": 1,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "govde_gelen": 2,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
+    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
     "/makale/diamond-painting-nedir-nasil-yapilir/"
    ],
    "makale_sayisi": null
@@ -3485,12 +3473,14 @@
    "baslik": "Okuma & Kitap Kulübü",
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
-   "govde_gelen": 0,
+   "govde_gelen": 1,
    "icerik_gelen": 5,
    "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [],
+   "govde_kaynaklar": [
+    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/"
+   ],
    "makale_sayisi": 1
   }
  ]

@@ -59,6 +59,23 @@ class AyiklaTest(unittest.TestCase):
         self.assertTrue(amazon_tr.tip_uyuyor(
             "Risk Kutu Oyunu", [["risk"], ["kutu", "oyun"]]))
 
+    def test_urun_ayrintisi_ve_parafraz(self):
+        html = """
+        <title>Örnek Kitap : Yazar Ad: Amazon.com.tr: Kitap</title>
+        <div id="bookDescription_feature_div"><p>Herkesin birbirine benzediği, toplumun görünmez kurallarına uymanın zorunlu olduğu bir düzen anlatılıyor.</p></div>
+        <div id="detailBullets_feature_div">
+          <span class="a-text-bold">Yayıncı :</span><span>İthaki</span>
+          <span class="a-text-bold">Baskı Uzunluğu :</span><span>136 sayfa</span>
+        </div>
+        """
+        ayr = amazon_tr.urun_ayrintisi(html)
+        self.assertEqual(amazon_tr.bilgi_degeri(ayr, "Yayıncı"), "İthaki")
+        self.assertIn("136", amazon_tr.bilgi_degeri(ayr, "Baskı Uzunluğu"))
+        import cok_satan
+        soz = " ".join(cok_satan.parafraz(ayr["aciklama"]))
+        self.assertTrue(soz)
+        self.assertFalse(cok_satan._ngram(ayr["aciklama"], 10) & cok_satan._ngram(soz, 10))
+
     def test_engel(self):
         self.assertEqual(amazon_tr._engel_mi(503, ""), "http 503")
         self.assertEqual(amazon_tr._engel_mi(200, "validateCaptcha"), "captcha")

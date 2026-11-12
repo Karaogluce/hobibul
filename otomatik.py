@@ -96,7 +96,7 @@ TIPLER = {
         yapi="İlk iki cümlede alım sorusuna cevap ver. Hemen ardından bir başlangıç ürününe aff:// linki koy. "
              "Sonra '## Satın Almadan Önce Nelere Bakmalı?' → '## Ürün Ürün Set' altında her önerilen ürün için ### başlık "
              "ve 'kime uymaz' cümlesi → '## Bütçe, Orta ve Üst Paket' altında fiyat yazmadan üç satırlık markdown tablo "
-             "(Paket | İçinde ne var | Kime uyar) → '## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye "
+             "(Paket | İçinde ne var | Kime uyar) → '## Sıkça Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye "
              "('Sonuç' başlığı kullanma).",
     ),
     "rehber": dict(
@@ -104,26 +104,26 @@ TIPLER = {
         baslik=lambda s: f"En İyi {s} Ekipmanları ({YEAR}): Alım Rehberi",
         yapi="Giriş (odak anahtar kelime ilk paragrafta geçsin) → '## Satın Almadan Önce Nelere Bakmalı?' (genel, "
              "doğrulanabilir bilgiler; sayı/ölçü uydurma) → '## En İyi Seçenekler' altında her ürün için ### başlık → "
-             "'## Hangisini Seçmeli?' (kullanım senaryosuna göre kısa eşleştirme) → '## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
+             "'## Hangisini Seçmeli?' (kullanım senaryosuna göre kısa eşleştirme) → '## Sıkça Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
     "yeni_baslayan": dict(
         hedef=1000, hepsi=True,
         baslik=lambda s: f"{s} İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar",
         yapi="Giriş (başlangıç kaygıları) → '## Başlamadan Önce Bilmen Gerekenler' → '## İlk Alışverişte Öncelik Sırası' altında "
              "ürünleri neden bu sırayla alınacağıyla ### başlıklar halinde anlat → '## Yeni Başlayanların Sık Yaptığı Hatalar' → "
-             "'## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
+             "'## Sıkça Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
     "hatalar": dict(
         hedef=1000, hepsi=False,
         baslik=lambda s: f"{s} Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
         yapi="Giriş → 7 numaralı hata, her biri ### başlık + 'neden sorun' + 'ne yapmalı' → hataların 2-3'üne uygun ürünlerden "
-             "doğal biçimde link ver → '## Sık Sorulan Sorular' (3 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
+             "doğal biçimde link ver → '## Sıkça Sorulan Sorular' (3 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
     "sss": dict(
         hedef=1000, hepsi=False,
         baslik=lambda s: f"{s} Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber",
         yapi="Giriş → 8-10 soru, her biri ### başlık olarak (aşağıdaki gerçek arama sorgularından seç) ve 2-4 cümlelik net cevap → "
-             "uygun cevaplarda 2-3 üründen doğal biçimde link ver → '## Sık Sorulan Sorular' başlığını da kullan (ör. 'Hâlâ Aklında Soru Var mı?') → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
+             "uygun cevaplarda 2-3 üründen doğal biçimde link ver → '## Sıkça Sorulan Sorular' başlığını da kullan (ör. 'Hâlâ Aklında Soru Var mı?') → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma).",
     ),
     "kontrol_listesi": dict(
         hedef=1000, hepsi=False,
@@ -131,21 +131,21 @@ TIPLER = {
         yapi="Giriş (hedef sorguya ilk paragrafta cevap) → '## Neye İhtiyacın Var?' (hangi durumda hangi ekipman, "
              "ürün verisine dayalı genel gerekçeler) → '## Kontrol Listesi' altında madde madde liste; her maddede o şeyin neden "
              "gerektiğini tek cümleyle açıkla → '## Listeyi Kendine Göre Uyarlama' (kısa/uzun hazırlık, mevsim, deneyim farkı) → "
-             "'## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma). Listede geçen en az 2 üründen doğal biçimde link ver.",
+             "'## Sıkça Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma). Listede geçen en az 2 üründen doğal biçimde link ver.",
     ),
     "nasil_yapilir": dict(
         hedef=1000, hepsi=False,
         baslik=lambda s: f"{s} Nasıl Yapılır? Adım Adım Rehber",
         yapi="Giriş (hedef sorguya ilk iki cümlede cevap) → '## Gerekli Malzemeler ve Hazırlık' (kısa liste) → "
              "'## Adım Adım Uygulama' altında her adımı ### başlık yaparak sırayla anlat → '## Yeni Başlayanların Sık Yaptığı Hatalar' → "
-             "'## Sık Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma). Uygun adımlarda en az 2 üründen doğal biçimde link ver.",
+             "'## Sıkça Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye ('Sonuç' başlığı kullanma). Uygun adımlarda en az 2 üründen doğal biçimde link ver.",
     ),
     "talep": dict(
         hedef=1500, hepsi=False, taban=1500,
         baslik=lambda s: s,
         yapi="Giriş (aranan sorguyu ilk iki cümlede doğal Türkçeyle cevapla) → '## Ne Arıyor, Ne İşe Yarar?' → "
              "'## Seçerken Nelere Bakmalı?' → '## Ürün Ürün Karşılaştırma' altında her ürün için ### başlık, artı, eksi ve kime uymaz → "
-             "'## Sık Yapılan Hatalar' → '## Sık Sorulan Sorular' (en az 4 soru, ### başlık) → kapanışta tek cümlelik net tavsiye "
+             "'## Sık Yapılan Hatalar' → '## Sıkça Sorulan Sorular' (en az 4 soru, ### başlık) → kapanışta tek cümlelik net tavsiye "
              "('Sonuç' başlığı kullanma). Kategori sayfasına bir iç link ve en az 2 aff:// ürün linki ver.",
     ),
 }
@@ -1340,9 +1340,15 @@ def kelime_hedef(tip):
     return TIPLER[tip]["hedef"]
 
 
+DUZENLI_TABAN = 1000
+
+
 def _yayin_tabani(tip):
-    """Kapı alt sınırı. Arama-talebi dışında güvenlik tabanı değişmez."""
-    return int(TIPLER.get(tip, {}).get("taban") or GUVENLIK_TABANI)
+    """Kapı alt sınırı. Düzenli yazı 1000, arama talebi kayıttaki taban."""
+    ozel = TIPLER.get(tip, {}).get("taban")
+    if ozel:
+        return int(ozel)
+    return DUZENLI_TABAN
 
 
 def _urun_bloku(prods):
@@ -1382,7 +1388,7 @@ def build_prompt(t, prods, sugg, guide=""):
         uzunluk = (
             f"- En az {hedef} kelime yaz. Sorguyu ilk paragrafta doğal Türkçeyle cevapla; kelimeyi doldurmak için aynı öğüdü tekrarlama.\n"
             "- En az 6 adet \"## \" bölümü yaz. Her ## bölümünde en az iki paragraf olsun.\n"
-            "- '## Sık Sorulan Sorular' altında en az 4 soru olsun; her soru ### başlık.\n"
+            "- '## Sıkça Sorulan Sorular' altında en az 4 soru olsun; her soru ### başlık.\n"
             f"- Kategoriye bir iç link ver: [{t['sub_name']}]({alt_yol})\n"
             "- Başka bir rehber doğal düşüyorsa /makale/... iç linki de kullan.\n"
             "- Her bölüm yeni bir ayrım taşısın: kime uyar, kime uymaz, hangi durumda hangi parça."
@@ -2824,15 +2830,121 @@ def cesitlilik_plani_yaz(plan, cats=None):
     return metin
 
 
+def kisa_yenile(adet):
+    """content/kisa_makaleler.json sırasındaki kısa yazıları Gemini ile yeniden yazar.
+
+    Anahtar yoksa dosyalara dokunmaz. Her başarılı yazı listeden düşer.
+    1000 kelimenin altında kalan yazı listenin sonuna gider, sonraki tur dener.
+    """
+    ym.load_env()
+    key = (os.environ.get("GEMINI_API_KEY") or "").strip()
+    yol = os.path.join(CONTENT, "kisa_makaleler.json")
+    if not os.path.exists(yol):
+        print("kisa_makaleler.json yok.")
+        return 0
+    if not key:
+        print("GEMINI_API_KEY yok. Kısa yazılar yerinde kaldı.")
+        return 0
+    data = json.loads(open(yol, encoding="utf-8").read())
+    bekleyen = [m for m in data.get("makaleler") or [] if not m.get("yenilendi")]
+    if not bekleyen or adet <= 0:
+        print("Yenilenecek kısa yazı kalmadı.")
+        return 0
+    models, _acik = _modeller()
+    idx = [0]
+    guide = load_guide()
+    bugun = istanbul_bugun().isoformat()
+    bitti = 0
+    for kayit in bekleyen[:adet]:
+        slug = kayit.get("slug") or ""
+        md = os.path.join(ARTICLES, slug + ".md")
+        if not os.path.exists(md):
+            print("! dosya yok", slug)
+            kayit["yenilendi"] = True
+            kayit["not"] = "dosya yok"
+            continue
+        text = open(md, encoding="utf-8").read()
+        if text.count("---") < 2:
+            print("! ön yazı yok", slug)
+            continue
+        _, fm, body = text.split("---", 2)
+        linkler = re.findall(r"\((https://www\.amazon\.com\.tr/dp/[A-Z0-9]{10}\?tag=hobibulsite-21)\)", body)
+        linkler += re.findall(r"\((/makale/[^)]+/)\)", body)
+        linkler += re.findall(r"\((aff://[^)]+)\)", body)
+        baslik = ""
+        tm = re.search(r'title:\s*"([^"]+)"', fm)
+        if tm:
+            baslik = tm.group(1)
+        prompt = f"""Sen Hobi Bul için yazan bir Türkçe hobi editörüsün. Okura "sen" diye seslen. Var olan kısa metni insan ağzıyla yeniden yaz.
+
+BAŞLIK: {baslik}
+
+KAYNAK METİN (olgular ve linkler yalnızca buradan; fiyat, ölçü, yaş, kişi sayısı, parça listesi ekleme):
+{body.strip()[:6000]}
+
+YAZIM:
+{guide[:1800]}
+
+YAPI:
+- Giriş, okurun sorusuna cevap versin. "Bu yazıda" deme.
+- Kaynaktaki her ürün kendi bölümünde kalsın. Linkleri aynen koru, yeni ürün ekleme.
+- ## Sıkça Sorulan Sorular altında 3 soru, soru satırı **soru** biçiminde.
+- Kapanışta tek net cümle. "Sonuç" başlığı yok.
+- Yaklaşık 1000-1300 kelime, dolgu yok. Kaynak inceyse uydurup uzatma; o ürünü kısa ve dürüst bırak.
+- Yasak: çekim, mükemmel, keşfedin, sonuç olarak, günümüzde, bu makalede.
+
+Çıktı yalnız makale gövdesi. Ön yazı, kod bloğu ve GORSEL satırı yok.
+"""
+        try:
+            yanit = _gemini(prompt, key, models, idx)
+            yeni = govde_ayikla(str(yanit)).strip()
+        except Exception as e:
+            print(f"! {slug} yazılamadı: {ym._gemini_metin(e)}")
+            continue
+        eksik = [u for u in linkler if u not in yeni]
+        if eksik or "## Sıkça Sorulan Sorular" not in yeni or "çekim" in yeni.lower():
+            print(f"! {slug} denetimden geçmedi")
+            data["makaleler"].remove(kayit)
+            data["makaleler"].append(kayit)
+            continue
+        kelime = len(yeni.split())
+        if re.search(r'updated:\s*"', fm):
+            fm2 = re.sub(r'updated:\s*"[^"]*"', f'updated: "{bugun}"', fm, count=1)
+        else:
+            fm2 = fm.rstrip() + f'\nupdated: "{bugun}"\n'
+        with open(md, "w", encoding="utf-8", newline="\n") as f:
+            f.write("---" + fm2 + "---\n" + yeni + "\n")
+        kayit["kelime"] = kelime
+        kayit["son"] = bugun
+        if kelime >= DUZENLI_TABAN:
+            kayit["yenilendi"] = True
+            bitti += 1
+            print(f"✓ {slug} {kelime} kelime")
+        else:
+            print(f"· {slug} hâlâ kısa ({kelime})")
+            data["makaleler"].remove(kayit)
+            data["makaleler"].append(kayit)
+    data["sayi"] = sum(1 for m in data["makaleler"] if not m.get("yenilendi"))
+    with open(yol, "w", encoding="utf-8", newline="\n") as f:
+        json.dump(data, f, ensure_ascii=False, indent=1)
+        f.write("\n")
+    print(f"Kısa yazı turu: {bitti} tamam, listede {data['sayi']} kaldı.")
+    return 0
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--adet", type=int, default=GUNLUK_HEDEF)
+    ap.add_argument("--kisa-yenile", type=int, default=0,
+                    help="kisa_makaleler.json içinden N yazıyı yeniden yaz")
     ap.add_argument("--yayinla", action="store_true", help="taslak yerine yayına hazır yaz")
     ap.add_argument("--taslak", action="store_true")
     ap.add_argument("--konu-listesi", action="store_true")
     ap.add_argument("--cesitlilik-plan", type=int, default=0,
                     help="Önümüzdeki N günün konu planını bas. Üretmez.")
     a = ap.parse_args()
+    if a.kisa_yenile:
+        return kisa_yenile(a.kisa_yenile)
     if a.cesitlilik_plan:
         products, cats = ym.load("products.json"), ym.load("categories.json")
         plan = cesitlilik_plani(a.cesitlilik_plan, products=products, cats=cats)

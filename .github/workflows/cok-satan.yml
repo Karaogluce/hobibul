@@ -5,6 +5,14 @@ on:
     # Pazartesi 06:15 UTC. İstanbul sabahı. Günlük makale ile aynı yayın grubu.
     - cron: "15 6 * * 1"
   workflow_dispatch:
+    inputs:
+      yenile_hafta:
+        description: "Bu haftanın çok satan yazılarını yeniden üret"
+        type: boolean
+        default: false
+      kisa_adet:
+        description: "Kısa günlük yazılardan bu turda yenilenecek adet. 0 ise dokunulmaz."
+        default: "0"
 
 permissions:
   contents: write
@@ -16,7 +24,7 @@ concurrency:
 jobs:
   cok-satan:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 45
     steps:
       - uses: actions/checkout@v4
         with:
@@ -27,11 +35,24 @@ jobs:
       - run: pip install jinja2
 
       - name: Listeyi çek ve yaz
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ vars.GEMINI_MODEL }}
+          GEMINI_MODEL_YEDEK: ${{ vars.GEMINI_MODEL_YEDEK || 'gemini-flash-lite-latest' }}
         run: |
           git config user.name "hobibul-bot"
           git config user.email "hobibul-bot@users.noreply.github.com"
           # Amazon 503 veya captcha verirse betik 0 ile çıkar, siteyi bozmaz.
-          python cok_satan.py --yaz || echo "çok satanlar adımı hata verdi, yayın sürüyor"
+          # Anahtar varsa çok satan metnini Gemini yazar; yoksa kısa yedek metin kalır.
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.yenile_hafta }}" = "true" ]; then
+            python cok_satan.py --yenile || echo "çok satanlar yenileme hata verdi, yayın sürüyor"
+          else
+            python cok_satan.py --yaz || echo "çok satanlar adımı hata verdi, yayın sürüyor"
+          fi
+          KISA="${{ github.event.inputs.kisa_adet || '0' }}"
+          if [ "$KISA" != "0" ] && [ -n "$KISA" ]; then
+            python otomatik.py --kisa-yenile "$KISA" || echo "kısa yazı adımı hata verdi, yayın sürüyor"
+          fi
           python build.py
           git add -A
           if git diff --cached --quiet; then

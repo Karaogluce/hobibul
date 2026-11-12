@@ -124,7 +124,11 @@ def extract_faq(markdown):
     """## Sıkça Sorulan Sorular / SSS / FAQ altındaki **soru** + cevap çiftleri."""
     if not markdown:
         return []
-    m = re.search(r"(?m)^##\s+(Sıkça Sorulan Sorular|SSS|FAQ)\s*$", markdown, re.I)
+    m = re.search(
+        r"(?m)^##\s+(Sıkça Sorulan Sorular|Sık Sorulan Sorular|SSS|FAQ)\s*$",
+        markdown,
+        re.I,
+    )
     if not m:
         return []
     rest = markdown[m.end():]
