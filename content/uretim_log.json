@@ -1079,6 +1079,31 @@
    "anahtar": "sss:bahce-bitki:bonsai:bonsai-nasil-bakilir",
    "neden": "kısa (825 kelime, güvenlik tabanı 1000)",
    "tarih": "2026-11-13"
+  },
+  {
+   "anahtar": "sss:teknoloji:raspberry-pi-elektronik",
+   "neden": "kısa (850 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-13"
+  },
+  {
+   "anahtar": "sss:evcil-hayvan:akvaryum:akvaryum-balik-nasil-bakilir",
+   "neden": "kısa (736 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-13"
+  },
+  {
+   "anahtar": "sss:evcil-hayvan:akvaryum:akvaryum-balik-suyu-nasil-olmali",
+   "neden": "kısa (878 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-13"
+  },
+  {
+   "anahtar": "nasil_yapilir:evcil-hayvan:akvaryum:akvaryum-balik-pisligi-nasil-temizlenir",
+   "neden": "kısa (777 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-13"
+  },
+  {
+   "anahtar": "sss:evcil-hayvan:akvaryum",
+   "neden": "kısa (726 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-13"
   }
  ],
  "makaleler": [
