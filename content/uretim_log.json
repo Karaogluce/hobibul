@@ -1106,6 +1106,16 @@
    "anahtar": "sss:evcil-hayvan:akvaryum",
    "neden": "kısa (726 kelime, güvenlik tabanı 1000)",
    "tarih": "2026-11-13"
+  },
+  {
+   "anahtar": "talep:hobi-odasi-nasil-kurulur",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-11-14"
+  },
+  {
+   "anahtar": "talep:en-iyi-strateji-kutu-oyunlari",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-11-14"
   }
  ],
  "makaleler": [
