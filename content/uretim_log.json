@@ -52,7 +52,8 @@
   "talep:punch-nakisi-nasil-yapilir-baslangic-seti",
   "hatalar:yemek-mutfak:kahve",
   "hatalar:evcil-hayvan:akvaryum",
-  "talep:emekliler-icin-hobiler"
+  "talep:emekliler-icin-hobiler",
+  "talep:hobi-odasi-nasil-kurulur"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -104,7 +105,8 @@
   "7KaRvKm52n0",
   "dZAb0Km1ELY",
   "iAKTUaMPaS8",
-  "2XPS_WJ9dDw"
+  "2XPS_WJ9dDw",
+  "_-X4UKYqfH8"
  ],
  "atlanan": [
   {
@@ -1116,6 +1118,11 @@
    "anahtar": "talep:en-iyi-strateji-kutu-oyunlari",
    "neden": "çıktı biçimi bozuk",
    "tarih": "2026-11-14"
+  },
+  {
+   "anahtar": "talep:en-iyi-strateji-kutu-oyunlari",
+   "neden": "kısa (1357 kelime, güvenlik tabanı 1500)",
+   "tarih": "2026-11-14"
   }
  ],
  "makaleler": [
@@ -1368,6 +1375,11 @@
    "anahtar": "talep:emekliler-icin-hobiler",
    "tarih": "2026-11-13",
    "slug": "emekliler-icin-hobiler"
+  },
+  {
+   "anahtar": "talep:hobi-odasi-nasil-kurulur",
+   "tarih": "2026-11-14",
+   "slug": "hobi-odasi-nasil-kurulur"
   }
  ],
  "talep": [
@@ -1426,6 +1438,13 @@
    "durum": "yazildi",
    "tarih": "2026-11-13",
    "slug": "emekliler-icin-hobiler"
+  },
+  {
+   "sorgu": "hobi odası eşyaları",
+   "anahtar": "talep:hobi-odasi-nasil-kurulur",
+   "durum": "yazildi",
+   "tarih": "2026-11-14",
+   "slug": "hobi-odasi-nasil-kurulur"
   }
  ]
 }

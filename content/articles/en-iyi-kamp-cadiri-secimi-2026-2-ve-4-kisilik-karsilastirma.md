@@ -4,7 +4,7 @@ slug: "en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma"
 category: "outdoor"
 subcategory: "kampcilik"
 date: "2026-10-28"
-updated: "2026-10-29"
+updated: "2026-11-14"
 meta_title: "En İyi Kamp Çadırı 2026: 2 ve 4 Kişilik | Hobi Bul"
 meta_description: "2 ve 4 kişilik kamp çadırı seçimi: Andoutdoor Monodome A ile Coleman Sundome 4, kime uyar, kime uymaz ve bütçe paketleri."
 excerpt: "İki kişiysen ve eşyan içeride kalacaksa 4 kişilik daha rahat eder. Yalnızca yatmak için çıkıyorsan 2 kişilik kubbe yeter."
@@ -19,8 +19,7 @@ starter_label: "4 kişilik başlangıç çadırına bak"
 starter_text: "Araçla hafta sonu kampı için başlangıç parçası Coleman Sundome 4. İki kişi sığar, çanta için de yer kalır. Güncel fiyatı Amazon'da kontrol et."
 draft: "false"
 ---
-
-Eğer çadırda sadece uyuyacaksan 2 kişilik bir model işini görür ama çantaları da içeri çekeyim, gece içeride rahatça hareket edeyim dersen işler biraz değişiyor. Çadır üreticilerinin "4 kişilik" dediği alan, genellikle dört kişinin yan yana dizilmesi demek. Konforlu bir kamp için bu sayıyı iki yetişkin ve eşyaları olarak okuman daha mantıklı olur. "2 kişilik" etiketli modeller ise genelde sadece iki uyku tulumunun sığacağı kadar bir zemin sunar.
+Eğer çadırda sadece uyuyacaksan 2 kişilik bir model işini görür ama çantaları da içeri çekeyim, gece içeride rahatça hareket edeyim dersen işler biraz değişiyor. Çadır üreticilerinin "4 kişilik" dediği alan, genellikle dört kişinin yan yana dizilmesi demek. Konforlu bir kamp için bu sayıyı iki yetişkin ve eşyaları olarak okuman daha mantıklı olur. "2 kişilik" etiketli modeller ise genelde sadece iki uyku tulumunun sığacağı kadar bir zemin sunar. Bu seçimin devamı [Depolama Fikirleri](/makale/hobi-odasi-nasil-kurulur/) rehberinde duruyor.
 
 ## İki kişi için hangi kapasiteyi seçmelisin?
 
@@ -125,4 +124,3 @@ Kesinlikle iyi bir mat. Çadır seni rüzgardan ve yağmurdan korur ama mat seni
 | Tam Set | Sundome 4 + Z Lite + | Kamp alanında hem rahat uyumak hem de aydınlık kalmak isteyenler için. |
 
 Benim tavsiyem, eğer bütçen uygunsa Coleman Sundome 4 ile başlaman. İki kişi için sunduğu alan ve kolay kurulumu sayesinde ilk kamp deneyimin çok daha keyifli geçer. Diğer ekipman ihtiyaçların için [outdoor kategorimize](/kategori/outdoor/) de bakabilirsin.
-
