@@ -51,7 +51,8 @@
   "hatalar:teknoloji:raspberry-pi-elektronik",
   "talep:punch-nakisi-nasil-yapilir-baslangic-seti",
   "hatalar:yemek-mutfak:kahve",
-  "hatalar:evcil-hayvan:akvaryum"
+  "hatalar:evcil-hayvan:akvaryum",
+  "talep:emekliler-icin-hobiler"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -102,7 +103,8 @@
   "y25LI38cd9w",
   "7KaRvKm52n0",
   "dZAb0Km1ELY",
-  "iAKTUaMPaS8"
+  "iAKTUaMPaS8",
+  "2XPS_WJ9dDw"
  ],
  "atlanan": [
   {
@@ -1351,6 +1353,11 @@
    "anahtar": "hatalar:evcil-hayvan:akvaryum",
    "tarih": "2026-11-12",
    "slug": "akvaryum-balik-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir"
+  },
+  {
+   "anahtar": "talep:emekliler-icin-hobiler",
+   "tarih": "2026-11-13",
+   "slug": "emekliler-icin-hobiler"
   }
  ],
  "talep": [
@@ -1402,6 +1409,13 @@
    "durum": "guclendir",
    "tarih": "2026-11-13",
    "slug": ""
+  },
+  {
+   "sorgu": "emekli erkekler için hobiler",
+   "anahtar": "talep:emekliler-icin-hobiler",
+   "durum": "yazildi",
+   "tarih": "2026-11-13",
+   "slug": "emekliler-icin-hobiler"
   }
  ]
 }

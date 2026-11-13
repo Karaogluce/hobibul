@@ -1,11 +1,11 @@
 {
  "tanim": "govde_gelen, başka bir makalenin gövdesinden gelen benzersiz iç linktir. Üst menü, altbilgi ve ekmek kırıntısı bu sayıda yoktur. yetim: yayındaki makale ya da içinde makalesi olan kategori sayfası, govde_gelen 0 veya 1 ise. Makalesi olmayan kategori sayfası menüden ulaşılır; alakasız gövde linki eklenmez ve makalesiz listesindedir. toplam_gelen, üretilmiş HTML içindeki diğer sayfalardan gelen benzersiz linktir. tik, ana sayfadan tıklama derinliğidir. gsc_oncelik, analytics_gsc.json içinde ortalama pozisyonu 8-20 olan sorguya denk sayfadır; dosya yoksa veya ok değilse boş kalır.",
  "ozet": {
-  "makale": 74,
+  "makale": 75,
   "kategori": 82,
-  "yetim_makale": 34,
+  "yetim_makale": 35,
   "yetim_kategori": 21,
-  "yetim": 55,
+  "yetim": 56,
   "makalesiz_kategori": 36,
   "sitemap_linksiz": [],
   "uc_tik_disi": [],
@@ -33,7 +33,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "",
    "govde_gelen": 0,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -45,7 +45,7 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 0,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -57,7 +57,7 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 0,
-   "toplam_gelen": 168,
+   "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -111,13 +111,25 @@
    "govde_kaynaklar": []
   },
   {
+   "yol": "/makale/emekliler-icin-hobiler/",
+   "tur": "makale",
+   "baslik": "Emekliler ve Yaşlılar İçin 20 Hobi: Zihni ve Bedeni Aktif Tutan Fikirler",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "",
+   "govde_gelen": 0,
+   "toplam_gelen": 169,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
    "yol": "/makale/en-cok-satan-bahce-alet-2026-w46/",
    "tur": "makale",
    "baslik": "Bu Haftanın En Çok Satan 3 Bahçe Aleti (9 Kasım 2026)",
    "kategori": "bahce-bitki",
    "alt_kategori": "bahcecilik",
    "govde_gelen": 0,
-   "toplam_gelen": 4,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -347,7 +359,7 @@
    "kategori": "sanat",
    "alt_kategori": "",
    "govde_gelen": 1,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -445,7 +457,7 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "",
    "govde_gelen": 1,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -515,7 +527,7 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 1,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -571,7 +583,7 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 1,
-   "toplam_gelen": 7,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -655,7 +667,7 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "kahve",
    "govde_gelen": 1,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -725,7 +737,7 @@
    "kategori": "sanat",
    "alt_kategori": "dikis-nakis",
    "govde_gelen": 1,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -739,7 +751,7 @@
    "kategori": "teknoloji",
    "alt_kategori": "raspberry-pi-elektronik",
    "govde_gelen": 1,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -913,7 +925,7 @@
    "yol": "/kategori/seyahat-gezi/",
    "baslik": "Seyahat & Gezi",
    "govde_gelen": 0,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1
   },
   {
@@ -948,7 +960,7 @@
    "yol": "/kategori/yazilim-kodlama/",
    "baslik": "Yazılım & Kodlama",
    "govde_gelen": 0,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1
   },
   {
@@ -1065,8 +1077,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 1,
-   "icerik_gelen": 22,
-   "toplam_gelen": 168,
+   "icerik_gelen": 16,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1081,8 +1093,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 0,
-   "icerik_gelen": 12,
-   "toplam_gelen": 168,
+   "icerik_gelen": 11,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1127,12 +1139,13 @@
    "baslik": "Bonsai Başlangıç Seti: Makas, Tel, Toprak ve Gübre",
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
-   "govde_gelen": 2,
-   "icerik_gelen": 13,
-   "toplam_gelen": 13,
+   "govde_gelen": 3,
+   "icerik_gelen": 14,
+   "toplam_gelen": 14,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
+    "/makale/emekliler-icin-hobiler/",
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/",
     "/makale/evde-yapilacak-hobiler/"
    ],
@@ -1145,8 +1158,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 0,
-   "icerik_gelen": 8,
-   "toplam_gelen": 168,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1159,8 +1172,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 2,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1361,14 +1374,28 @@
    "makale_sayisi": null
   },
   {
+   "yol": "/makale/emekliler-icin-hobiler/",
+   "tur": "makale",
+   "baslik": "Emekliler ve Yaşlılar İçin 20 Hobi: Zihni ve Bedeni Aktif Tutan Fikirler",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "",
+   "govde_gelen": 0,
+   "icerik_gelen": 15,
+   "toplam_gelen": 169,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
    "yol": "/makale/en-cok-satan-bahce-alet-2026-w46/",
    "tur": "makale",
    "baslik": "Bu Haftanın En Çok Satan 3 Bahçe Aleti (9 Kasım 2026)",
    "kategori": "bahce-bitki",
    "alt_kategori": "bahcecilik",
    "govde_gelen": 0,
-   "icerik_gelen": 4,
-   "toplam_gelen": 4,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1426,8 +1453,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 1,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1475,8 +1502,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 6,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 10,
+   "toplam_gelen": 10,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1637,8 +1664,8 @@
    "kategori": "sanat",
    "alt_kategori": "fotografcilik",
    "govde_gelen": 2,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1733,8 +1760,8 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "kahve",
    "govde_gelen": 1,
-   "icerik_gelen": 15,
-   "toplam_gelen": 168,
+   "icerik_gelen": 11,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1993,7 +2020,7 @@
    "alt_kategori": "dikis-nakis",
    "govde_gelen": 1,
    "icerik_gelen": 8,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2044,7 +2071,7 @@
    "alt_kategori": "raspberry-pi-elektronik",
    "govde_gelen": 1,
    "icerik_gelen": 16,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2218,7 +2245,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2310,7 +2337,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 10,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2445,7 +2472,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 13,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2538,7 +2565,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 15,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2636,7 +2663,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 13,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -2741,7 +2768,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2862,7 +2889,7 @@
    "alt_kategori": "",
    "govde_gelen": 1,
    "icerik_gelen": 4,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2955,7 +2982,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 9,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3035,16 +3062,17 @@
    "baslik": "Bahçe & Bitki",
    "kategori": "bahce-bitki",
    "alt_kategori": "",
-   "govde_gelen": 2,
-   "icerik_gelen": 7,
-   "toplam_gelen": 168,
+   "govde_gelen": 3,
+   "icerik_gelen": 8,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
-    "/makale/bonsai-nasil-toprak-sever/"
+    "/makale/bonsai-nasil-toprak-sever/",
+    "/makale/emekliler-icin-hobiler/"
    ],
-   "makale_sayisi": 5
+   "makale_sayisi": 6
   },
   {
    "yol": "/kategori/bahce-bitki/bahcecilik/",
@@ -3115,7 +3143,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 10,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3197,7 +3225,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 4,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3274,7 +3302,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3344,7 +3372,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3414,7 +3442,7 @@
    "alt_kategori": "",
    "govde_gelen": 1,
    "icerik_gelen": 3,
-   "toplam_gelen": 168,
+   "toplam_gelen": 169,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
