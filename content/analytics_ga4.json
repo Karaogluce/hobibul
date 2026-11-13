@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-12",
+ "generated_at": "2026-11-13",
  "period_days": 30,
  "visitors_daily": [
   {
@@ -57,86 +57,12 @@
   {
    "date": "2026-11-11",
    "users": 2
+  },
+  {
+   "date": "2026-11-12",
+   "users": 1
   }
  ],
- "channels": [
-  {
-   "name": "Direct",
-   "sessions": 83
-  },
-  {
-   "name": "Organic Search",
-   "sessions": 29
-  },
-  {
-   "name": "AI Assistant",
-   "sessions": 4
-  },
-  {
-   "name": "Unassigned",
-   "sessions": 2
-  }
- ],
- "top_pages": [
-  {
-   "path": "/makale/2-kisilik-kutu-oyunlari/",
-   "slug": "2-kisilik-kutu-oyunlari",
-   "title": "2 Kişilik Kutu Oyunları: Türkiye'de Satılan Kutular",
-   "views": 6
-  },
-  {
-   "path": "/makale/en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma/",
-   "slug": "en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma",
-   "title": "En İyi Kamp Çadırı Seçimi 2026: 2 ve 4 Kişilik Karşılaştırma",
-   "views": 4
-  },
-  {
-   "path": "/makale/en-iyi-lego-setleri-yetiskin-icin-bonsai-sukulent-ve-speed-champions/",
-   "slug": "en-iyi-lego-setleri-yetiskin-icin-bonsai-sukulent-ve-speed-champions",
-   "title": "en-iyi-lego-setleri-yetiskin-icin-bonsai-sukulent-ve-speed-champions",
-   "views": 4
-  },
-  {
-   "path": "/makale/akvaryum-kurulumu-baslangic-seti/",
-   "slug": "akvaryum-kurulumu-baslangic-seti",
-   "title": "Akvaryum Kurulumu: Tetra Starter Line 54 L Seti",
-   "views": 3
-  },
-  {
-   "path": "/makale/gitar-nasil-tutulur/",
-   "slug": "gitar-nasil-tutulur",
-   "title": "gitar-nasil-tutulur",
-   "views": 3
-  },
-  {
-   "path": "/makale/kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026/",
-   "slug": "kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026",
-   "title": "Köpek Bakımı Başlangıç Seti: İlk Alınacaklar (2026)",
-   "views": 3
-  },
-  {
-   "path": "/makale/lego-model-araba/",
-   "slug": "lego-model-araba",
-   "title": "lego-model-araba",
-   "views": 3
-  },
-  {
-   "path": "/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/",
-   "slug": "akvaryum-ekipmani-secimi-tank-filtre-isitici",
-   "title": "Akvaryum Ekipmanı Seçimi: Tank, Filtre, Isıtıcı ve Hava Pompası",
-   "views": 2
-  },
-  {
-   "path": "/makale/bonsai-baslangic-seti-ilk-alinacaklar-2026/",
-   "slug": "bonsai-baslangic-seti-ilk-alinacaklar-2026",
-   "title": "bonsai-baslangic-seti-ilk-alinacaklar-2026",
-   "views": 2
-  },
-  {
-   "path": "/makale/deri-isciligi-baslangic-seti-ilk-alinacaklar-2026/",
-   "slug": "deri-isciligi-baslangic-seti-ilk-alinacaklar-2026",
-   "title": "Deri İşçiliği Başlangıç Seti: İlk Alınacaklar (2026)",
-   "views": 2
-  }
- ]
+ "channels": [],
+ "top_pages": []
 }
