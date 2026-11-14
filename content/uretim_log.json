@@ -1128,6 +1128,11 @@
    "anahtar": "talep:hobi-esyalari-nereden-alinir",
    "neden": "çıktı biçimi bozuk",
    "tarih": "2026-11-15"
+  },
+  {
+   "anahtar": "talep:hobi-esyalari-nereden-alinir",
+   "neden": "kısa (1188 kelime, güvenlik tabanı 1500)",
+   "tarih": "2026-11-15"
   }
  ],
  "makaleler": [
