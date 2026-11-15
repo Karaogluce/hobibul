@@ -1,11 +1,11 @@
 {
  "tanim": "govde_gelen, başka bir makalenin gövdesinden gelen benzersiz iç linktir. Üst menü, altbilgi ve ekmek kırıntısı bu sayıda yoktur. yetim: yayındaki makale ya da içinde makalesi olan kategori sayfası, govde_gelen 0 veya 1 ise. Makalesi olmayan kategori sayfası menüden ulaşılır; alakasız gövde linki eklenmez ve makalesiz listesindedir. toplam_gelen, üretilmiş HTML içindeki diğer sayfalardan gelen benzersiz linktir. tik, ana sayfadan tıklama derinliğidir. gsc_oncelik, analytics_gsc.json içinde ortalama pozisyonu 8-20 olan sorguya denk sayfadır; dosya yoksa veya ok değilse boş kalır.",
  "ozet": {
-  "makale": 76,
+  "makale": 77,
   "kategori": 82,
-  "yetim_makale": 35,
+  "yetim_makale": 36,
   "yetim_kategori": 21,
-  "yetim": 56,
+  "yetim": 57,
   "makalesiz_kategori": 36,
   "sitemap_linksiz": [],
   "uc_tik_disi": [],
@@ -33,7 +33,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "",
    "govde_gelen": 0,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -45,7 +45,7 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 0,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -57,8 +57,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 0,
-   "toplam_gelen": 9,
-   "tik": 1,
+   "toplam_gelen": 8,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -117,7 +117,7 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "",
    "govde_gelen": 0,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -153,8 +153,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 0,
-   "toplam_gelen": 9,
-   "tik": 1,
+   "toplam_gelen": 8,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -189,7 +189,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 0,
-   "toplam_gelen": 7,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -359,7 +359,7 @@
    "kategori": "sanat",
    "alt_kategori": "",
    "govde_gelen": 1,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -457,7 +457,7 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "",
    "govde_gelen": 1,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -527,7 +527,7 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 1,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -667,7 +667,7 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "kahve",
    "govde_gelen": 1,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -703,13 +703,27 @@
    ]
   },
   {
+   "yol": "/makale/lego-model-baslangic-seti-ilk-alinacaklar-2026/",
+   "tur": "makale",
+   "baslik": "LEGO & Model Başlangıç Seti: İlk Alınacaklar (2026)",
+   "kategori": "koleksiyon",
+   "alt_kategori": "lego-model",
+   "govde_gelen": 1,
+   "toplam_gelen": 171,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
+   ]
+  },
+  {
    "yol": "/makale/lego-model-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
    "tur": "makale",
    "baslik": "LEGO & Model Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "toplam_gelen": 8,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -737,7 +751,7 @@
    "kategori": "sanat",
    "alt_kategori": "dikis-nakis",
    "govde_gelen": 1,
-   "toplam_gelen": 170,
+   "toplam_gelen": 8,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -925,7 +939,7 @@
    "yol": "/kategori/seyahat-gezi/",
    "baslik": "Seyahat & Gezi",
    "govde_gelen": 0,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1
   },
   {
@@ -960,7 +974,7 @@
    "yol": "/kategori/yazilim-kodlama/",
    "baslik": "Yazılım & Kodlama",
    "govde_gelen": 0,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1
   },
   {
@@ -1077,8 +1091,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 1,
-   "icerik_gelen": 12,
-   "toplam_gelen": 170,
+   "icerik_gelen": 11,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1094,7 +1108,7 @@
    "alt_kategori": "akvaryum",
    "govde_gelen": 0,
    "icerik_gelen": 11,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1140,8 +1154,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 3,
-   "icerik_gelen": 14,
-   "toplam_gelen": 14,
+   "icerik_gelen": 15,
+   "toplam_gelen": 15,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1158,9 +1172,9 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 0,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
-   "tik": 1,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
    "makale_sayisi": null
@@ -1380,8 +1394,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "",
    "govde_gelen": 0,
-   "icerik_gelen": 9,
-   "toplam_gelen": 170,
+   "icerik_gelen": 5,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1422,9 +1436,9 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 0,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
-   "tik": 1,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
    "makale_sayisi": null
@@ -1745,8 +1759,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "",
    "govde_gelen": 2,
-   "icerik_gelen": 22,
-   "toplam_gelen": 170,
+   "icerik_gelen": 17,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1779,7 +1793,7 @@
    "alt_kategori": "kahve",
    "govde_gelen": 1,
    "icerik_gelen": 10,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1926,13 +1940,29 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 2,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/",
     "/makale/lego-model-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/lego-model-baslangic-seti-ilk-alinacaklar-2026/",
+   "tur": "makale",
+   "baslik": "LEGO & Model Başlangıç Seti: İlk Alınacaklar (2026)",
+   "kategori": "koleksiyon",
+   "alt_kategori": "lego-model",
+   "govde_gelen": 1,
+   "icerik_gelen": 21,
+   "toplam_gelen": 171,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
    ],
    "makale_sayisi": null
   },
@@ -1943,8 +1973,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1975,8 +2005,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 0,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -2038,7 +2068,7 @@
    "alt_kategori": "dikis-nakis",
    "govde_gelen": 1,
    "icerik_gelen": 8,
-   "toplam_gelen": 170,
+   "toplam_gelen": 8,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2263,7 +2293,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2355,7 +2385,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 11,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2492,7 +2522,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 13,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2585,7 +2615,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 15,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2682,12 +2712,12 @@
    "kategori": "koleksiyon",
    "alt_kategori": "",
    "govde_gelen": 0,
-   "icerik_gelen": 13,
-   "toplam_gelen": 170,
+   "icerik_gelen": 14,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
-   "makale_sayisi": 11
+   "makale_sayisi": 12
   },
   {
    "yol": "/kategori/koleksiyon/pul-para/",
@@ -2709,16 +2739,17 @@
    "baslik": "LEGO & Model",
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
-   "govde_gelen": 2,
-   "icerik_gelen": 11,
-   "toplam_gelen": 11,
+   "govde_gelen": 3,
+   "icerik_gelen": 12,
+   "toplam_gelen": 12,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/",
-    "/makale/lego-model-ai/"
+    "/makale/lego-model-ai/",
+    "/makale/lego-model-baslangic-seti-ilk-alinacaklar-2026/"
    ],
-   "makale_sayisi": 5
+   "makale_sayisi": 6
   },
   {
    "yol": "/kategori/koleksiyon/kart-oyunlari/",
@@ -2788,7 +2819,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2909,7 +2940,7 @@
    "alt_kategori": "",
    "govde_gelen": 1,
    "icerik_gelen": 4,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3002,7 +3033,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 9,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3084,7 +3115,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 8,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3163,7 +3194,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 10,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3245,7 +3276,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 4,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3322,7 +3353,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3392,7 +3423,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3462,7 +3493,7 @@
    "alt_kategori": "",
    "govde_gelen": 1,
    "icerik_gelen": 3,
-   "toplam_gelen": 170,
+   "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [

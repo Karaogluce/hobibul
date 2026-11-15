@@ -53,7 +53,8 @@
   "hatalar:yemek-mutfak:kahve",
   "hatalar:evcil-hayvan:akvaryum",
   "talep:emekliler-icin-hobiler",
-  "talep:hobi-odasi-nasil-kurulur"
+  "talep:hobi-odasi-nasil-kurulur",
+  "ticari:koleksiyon:lego-model:baslangic"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -106,7 +107,8 @@
   "dZAb0Km1ELY",
   "iAKTUaMPaS8",
   "2XPS_WJ9dDw",
-  "_-X4UKYqfH8"
+  "_-X4UKYqfH8",
+  "wjeUKCoFQ9A"
  ],
  "atlanan": [
   {
@@ -1450,6 +1452,11 @@
    "anahtar": "talep:hobi-odasi-nasil-kurulur",
    "tarih": "2026-11-14",
    "slug": "hobi-odasi-nasil-kurulur"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:lego-model:baslangic",
+   "tarih": "2026-11-16",
+   "slug": "lego-model-baslangic-seti-ilk-alinacaklar-2026"
   }
  ],
  "talep": [
