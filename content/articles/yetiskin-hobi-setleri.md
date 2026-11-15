@@ -136,7 +136,7 @@ Hobi seti seçerken ilk bakılması gereken detay, kutunun içeriğinin eksiksiz
 
 Zorluk derecesi ve zaman maliyeti de karar aşamasında etkilidir. İlk defa elinize alacağınız karmaşık bir model hevesinizi kısa sürede kırabilir. Projenin tek bir akşamda mı biteceğini yoksa haftalara mı yayılacağını öngörmek günlük rutininize uygun bir seçim yapmanızı sağlar. Ayrıca kılavuzun veya talimatların anlaşılırlığı, özellikle teknik detay içeren setlerde süreci keyifli hâle getiren en kritik unsurdur.
 
-## Ürün Ürün Karşılaştırma
+## Ürün Karşılaştırma
 
 ### Diamond Painting Başlangıç Seti
 

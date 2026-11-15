@@ -153,7 +153,7 @@ Evde hobi arayanlar genellikle günün stresini atmak, zihni ekranlardan uzakla�
 
 Hobi seçerken ilk olarak evde ayırabileceğin alanı ve günlük boş zamanını hesaba katmalısın. Küçük bir sepetle koltuk başında yapılabilecek örgü gibi projeler alan sorunu yaratmazken, mum yapımı veya seramik gibi uğraşlar daha geniş bir tezgah ve hazırlık süreci gerektirir. Bütçeni ve sabır seviyeni göz önünde bulundurmalısın; kısa sürede sonuç görmek istiyorsan hazır setli el sanatlarına yönelmek en mantıklı karardır.
 
-## Ürün Ürün Karşılaştırma
+## Ürün Karşılaştırma
 
 ### Clover Amour Tığ (5mm)
 Ergonomik tutamaklı alüminyum tığ.

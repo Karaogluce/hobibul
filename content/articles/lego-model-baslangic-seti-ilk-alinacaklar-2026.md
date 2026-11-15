@@ -26,7 +26,7 @@ Bir hobi mağazasına ya da resmi bir LEGO mağazası rafına baktığında yüz
 
 Yapım sürecini tek başına mı yoksa sevdiklerinle mi geçireceğin de önemli bir ayrımdır. Bazı kutular tek bir kalın kılavuzla gelir ve yapımı tek kişiye bağlar. Oysa bazı setlerde birden fazla yapım kılavuzu bulunur; böylece aynı masada iki veya üç kişi eşzamanlı olarak farklı modülleri birleştirebilir. Otomobil merakın varsa gövde hatları ve minifigürüyle öne çıkan bir araç modeli, doğa seviyorsan botanik serisinden renkli bir çiçek tasarımı iyi bir başlangıç noktasıdır. Hobiyi sürdürülebilir kılmak için [LEGO & Model](/kategori/koleksiyon/lego-model/) koleksiyonu içinden kendi ilgi alanına doğrudan uyan temayı seçmelisin.
 
-## Ürün Ürün Set
+## Ürün Seti
 
 Başlangıç aşamasında tercih edeceğin setin sunduğu parça yapısı ve sergileme esnekliği, masa başında geçireceğin zamanın kalitesini belirler. Kimisi tek bir tematik aracın gövdesini toplamayı severken, kimisi küçük saksılardan oluşan modülleri parça parça inşa edip odaya dağıtmayı ister.
 

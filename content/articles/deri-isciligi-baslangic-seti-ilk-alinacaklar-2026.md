@@ -45,7 +45,7 @@ Buna karşılık günümüzde paylaşılan detaylı görsel içerikler ve toplul
 
 Kendi imkanlarınla ilerleyeceksen dikkat etmen gereken temel husus, sabırsız davranıp büyük projelere kalkışmamaktır. Koltuk kaplama ya da karmaşık bir sırt çantası yerine iki parçalı bir anahtarlık ya da tek gözlü bir kartlık yaparak yola çıkmak motivasyonunu diri tutar. Temel bir deri işçiliği seti edinip evinin bir köşesinde küçük denemeler yaparak el yatkınlığını geliştirebilir, teknik takıldığın noktalarda ise çevrim içi deri işçiliği sanatı topluluklarından veya usta anlatımlarından destek alabilirsin.
 
-## Ürün Ürün Set
+## Ürün Seti
 
 Aşağıda başlangıç ve orta seviye için doğrudan kullanabileceğin, işlevleri belirlenmiş temel ekipmanları listeledik. Her ürünün sunduğu avantajları ve kısıtlı kaldığı noktaları bilerek hareket etmek bütçeni doğru yönlendirmeni sağlar.
 

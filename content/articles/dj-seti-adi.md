@@ -23,7 +23,7 @@ Odanın bir köşesine ya da stüdyo masasına yerleştireceğin cihazın ebatla
 
 Evdeki alan darlığı veya kablo kalabalığı, seçeceğin kontrol cihazının boyutlarını doğrudan etkiler. Masanda yer azsa kompakt bir cihaz işini görür; ancak geniş bir stüdyo masasına sahipsen bağlantı çeşitliliği sunan modeller daha rahat bir kullanım alanı yaratır. Bilgisayar bağlantısının USB-C üzerinden yapılması veya cihazın yanında hangi yazılımların geldiği, uzun vadede ek masraf yapmanı engeller.
 
-## Ürün Ürün Set
+## Ürün Seti
 
 ### Pioneer DDJ-FLX4 DJ Kontrol
 Bu cihaz 2 kanal yapısı, yazılımın dahil olması ve öğrenmesi kolay yapısıyla başlangıç aşamasında öne çıkar. Gövde yaklaşık 2,2 kg. Hem rekordbox hem Serato ile anılan bir düzen; yine de kutuda hangi lisansın gerçekten geldiğini ürün sayfasından kontrol et. Taşınabilir yapısı sayesinde masada fazla yer kaplamaz ve pratik bir kullanım sunar.

@@ -16,6 +16,9 @@ _BOILER = re.compile(
     re.I,
 )
 
+# Model açıklamanın sonuna başlık şablonundaki site adını ekliyor.
+_BRAND_TAIL = re.compile(r"\s*(?:[|•]|[-–—])\s*Hobi Bul\b\.?", re.I)
+
 
 def _squash(text):
     return re.sub(r"\s+", " ", (text or "")).strip()
@@ -89,6 +92,7 @@ def fit_description(text, extra="", limit_min=DESC_MIN, limit_max=DESC_MAX):
     Kısa metne yalnızca sığan tam bir cümle eklenir; kelime yarım kalmaz.
     """
     text = _BOILER.sub("", _squash(text)).strip()
+    text = _BRAND_TAIL.sub("", text).strip()
     if limit_min <= len(text) <= limit_max:
         return text
     if len(text) > limit_max:
@@ -96,25 +100,27 @@ def fit_description(text, extra="", limit_min=DESC_MIN, limit_max=DESC_MAX):
     base = text.rstrip(".")
     options = []
     if extra:
-        options.append(_squash(extra).rstrip("."))
+        options.append(_BRAND_TAIL.sub("", _squash(extra)).rstrip("."))
     options.extend([
         "Yeni başlayan için artı ve eksi notu da var",
         "Karşılaştırma yeni başlayan içindir",
         "Kısa alım notu da burada",
     ])
     for opt in options:
-        merged = f"{base}. {opt}."
+        merged = f"{base}. {opt}." if base else f"{opt}."
         if limit_min <= len(merged) <= limit_max:
             return merged
     # En uzun sığan tam seçenek yoksa, ilk seçeneği kelime sınırında kısalt.
     opt = options[0]
-    room = limit_max - len(base) - 2  # ". " 
+    room = limit_max - len(base) - 2 if base else limit_max
     piece = opt[: max(room - 1, 0)].rstrip()
     if " " in piece:
         piece = piece.rsplit(" ", 1)[0]
-    merged = _finish(f"{base}. {piece}", limit_max)
+    merged = _finish(f"{base}. {piece}" if base else piece, limit_max)
     if len(merged) < limit_min:
-        merged = _finish(f"{base}. Yeni başlayan için artı ve eksi notu da var", limit_max)
+        tam = f"{base}. Yeni başlayan için artı ve eksi notu da var" if base else \
+            "Yeni başlayan için artı ve eksi notu da var"
+        merged = _finish(tam, limit_max)
     if len(merged) > limit_max:
         return _trim_desc(merged, limit_min, limit_max)
     return merged

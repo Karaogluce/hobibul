@@ -3,9 +3,9 @@
  "ozet": {
   "makale": 77,
   "kategori": 82,
-  "yetim_makale": 36,
-  "yetim_kategori": 21,
-  "yetim": 57,
+  "yetim_makale": 35,
+  "yetim_kategori": 18,
+  "yetim": 53,
   "makalesiz_kategori": 36,
   "sitemap_linksiz": [],
   "uc_tik_disi": [],
@@ -14,30 +14,6 @@
   "gsc_hedef": []
  },
  "yetimler": [
-  {
-   "yol": "/kategori/bahce-bitki/bahcecilik/",
-   "tur": "kategori",
-   "baslik": "Bahçecilik",
-   "kategori": "bahce-bitki",
-   "alt_kategori": "bahcecilik",
-   "govde_gelen": 0,
-   "toplam_gelen": 5,
-   "tik": 2,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": []
-  },
-  {
-   "yol": "/kategori/koleksiyon/",
-   "tur": "kategori",
-   "baslik": "Koleksiyon",
-   "kategori": "koleksiyon",
-   "alt_kategori": "",
-   "govde_gelen": 0,
-   "toplam_gelen": 171,
-   "tik": 1,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": []
-  },
   {
    "yol": "/makale/akvaryum-balik-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/",
    "tur": "makale",
@@ -95,18 +71,6 @@
    "govde_gelen": 0,
    "toplam_gelen": 9,
    "tik": 1,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": []
-  },
-  {
-   "yol": "/makale/dj-seti-adi/",
-   "tur": "makale",
-   "baslik": "İlk DJ Seti: DDJ-FLX4, MixTrack Go ve FLX2",
-   "kategori": "muzik",
-   "alt_kategori": "dj-produksiyon",
-   "govde_gelen": 0,
-   "toplam_gelen": 3,
-   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -207,18 +171,6 @@
    "govde_kaynaklar": []
   },
   {
-   "yol": "/makale/raspberry-pi-ile-linux-ve-elektronik-uygulamalari/",
-   "tur": "makale",
-   "baslik": "Raspberry Pi ile Linux ve Elektronik: Imager, Terminal ve GPIO",
-   "kategori": "teknoloji",
-   "alt_kategori": "raspberry-pi-elektronik",
-   "govde_gelen": 0,
-   "toplam_gelen": 6,
-   "tik": 2,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": []
-  },
-  {
    "yol": "/makale/teknoloji-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/",
    "tur": "makale",
    "baslik": "Teknoloji Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır",
@@ -243,16 +195,18 @@
    "govde_kaynaklar": []
   },
   {
-   "yol": "/makale/yilbasi-hediyesi-kutu-oyunlari/",
-   "tur": "makale",
-   "baslik": "Yılbaşı Hediyesi Kutu Oyunları: Kime Hangi Oyun? (2026)",
-   "kategori": "koleksiyon",
-   "alt_kategori": "masaustu-oyun",
-   "govde_gelen": 0,
-   "toplam_gelen": 7,
+   "yol": "/kategori/bahce-bitki/bahcecilik/",
+   "tur": "kategori",
+   "baslik": "Bahçecilik",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "bahcecilik",
+   "govde_gelen": 1,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
-   "govde_kaynaklar": []
+   "govde_kaynaklar": [
+    "/makale/en-cok-satan-bahce-alet-2026-w46/"
+   ]
   },
   {
    "yol": "/kategori/bilim-astronomi/kimya-deney/",
@@ -311,20 +265,6 @@
    ]
   },
   {
-   "yol": "/kategori/koleksiyon/masaustu-oyun/",
-   "tur": "kategori",
-   "baslik": "Masaüstü & Minyatür Oyunlar",
-   "kategori": "koleksiyon",
-   "alt_kategori": "masaustu-oyun",
-   "govde_gelen": 1,
-   "toplam_gelen": 11,
-   "tik": 2,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/en-iyi-kutu-oyunlari-2026/"
-   ]
-  },
-  {
    "yol": "/kategori/koleksiyon/puzzle/",
    "tur": "kategori",
    "baslik": "Puzzle",
@@ -350,20 +290,6 @@
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/trekking-bot-secimi-gore-tex-baslangic-botlari/"
-   ]
-  },
-  {
-   "yol": "/kategori/sanat/",
-   "tur": "kategori",
-   "baslik": "Sanat",
-   "kategori": "sanat",
-   "alt_kategori": "",
-   "govde_gelen": 1,
-   "toplam_gelen": 171,
-   "tik": 1,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic/"
    ]
   },
   {
@@ -546,6 +472,20 @@
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/evde-yapilacak-hobiler/"
+   ]
+  },
+  {
+   "yol": "/makale/dj-seti-adi/",
+   "tur": "makale",
+   "baslik": "İlk DJ Seti: DDJ-FLX4, MixTrack Go ve FLX2",
+   "kategori": "muzik",
+   "alt_kategori": "dj-produksiyon",
+   "govde_gelen": 1,
+   "toplam_gelen": 4,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/en-iyi-dj-produksiyon-ekipmanlari-2026-alim-rehberi/"
    ]
   },
   {
@@ -770,6 +710,20 @@
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/raspberry-pi-5-baslangic-kiti/"
+   ]
+  },
+  {
+   "yol": "/makale/raspberry-pi-ile-linux-ve-elektronik-uygulamalari/",
+   "tur": "makale",
+   "baslik": "Raspberry Pi ile Linux ve Elektronik: Imager, Terminal ve GPIO",
+   "kategori": "teknoloji",
+   "alt_kategori": "raspberry-pi-elektronik",
+   "govde_gelen": 1,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/en-iyi-raspberry-pi-elektronik-ekipmanlari-2026-alim-rehberi/"
    ]
   }
  ],
@@ -1251,13 +1205,14 @@
    "baslik": "DJ Kontrol Cihazı Seçimi: Yeni Başlayanlar İçin DDJ-FLX4 ve Numark",
    "kategori": "muzik",
    "alt_kategori": "dj-produksiyon",
-   "govde_gelen": 2,
+   "govde_gelen": 3,
    "icerik_gelen": 10,
    "toplam_gelen": 10,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/dj-seti-adi/",
+    "/makale/en-iyi-dj-produksiyon-ekipmanlari-2026-alim-rehberi/",
     "/makale/evde-yapilacak-hobiler/"
    ],
    "makale_sayisi": null
@@ -1313,12 +1268,14 @@
    "baslik": "İlk DJ Seti: DDJ-FLX4, MixTrack Go ve FLX2",
    "kategori": "muzik",
    "alt_kategori": "dj-produksiyon",
-   "govde_gelen": 0,
-   "icerik_gelen": 3,
-   "toplam_gelen": 3,
+   "govde_gelen": 1,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
    "tik": 2,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [],
+   "govde_kaynaklar": [
+    "/makale/en-iyi-dj-produksiyon-ekipmanlari-2026-alim-rehberi/"
+   ],
    "makale_sayisi": null
   },
   {
@@ -1608,14 +1565,15 @@
    "baslik": "Evde Filtre Kahve Başlangıç Seti: Öğütücü, V60 ve Tartı",
    "kategori": "yemek-mutfak",
    "alt_kategori": "kahve",
-   "govde_gelen": 2,
+   "govde_gelen": 3,
    "icerik_gelen": 9,
    "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/evde-pizza-firini-g3-ferrari-delizia-ile-baslangic/",
-    "/makale/evde-yapilacak-hobiler/"
+    "/makale/evde-yapilacak-hobiler/",
+    "/makale/kahve-barista-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/"
    ],
    "makale_sayisi": null
   },
@@ -2099,13 +2057,14 @@
    "baslik": "Raspberry Pi 5 Başlangıç Kiti: 8 GB Kart, 27W Adaptör ve GeeekPi",
    "kategori": "teknoloji",
    "alt_kategori": "raspberry-pi-elektronik",
-   "govde_gelen": 3,
+   "govde_gelen": 4,
    "icerik_gelen": 11,
    "toplam_gelen": 11,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini/",
+    "/makale/en-iyi-raspberry-pi-elektronik-ekipmanlari-2026-alim-rehberi/",
     "/makale/evde-yapilacak-hobiler/",
     "/makale/oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech/"
    ],
@@ -2133,12 +2092,14 @@
    "baslik": "Raspberry Pi ile Linux ve Elektronik: Imager, Terminal ve GPIO",
    "kategori": "teknoloji",
    "alt_kategori": "raspberry-pi-elektronik",
-   "govde_gelen": 0,
+   "govde_gelen": 1,
    "icerik_gelen": 6,
    "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [],
+   "govde_kaynaklar": [
+    "/makale/en-iyi-raspberry-pi-elektronik-ekipmanlari-2026-alim-rehberi/"
+   ],
    "makale_sayisi": null
   },
   {
@@ -2260,12 +2221,15 @@
    "baslik": "Yılbaşı Hediyesi Kutu Oyunları: Kime Hangi Oyun? (2026)",
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
-   "govde_gelen": 0,
+   "govde_gelen": 2,
    "icerik_gelen": 7,
    "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [],
+   "govde_kaynaklar": [
+    "/makale/aile-kutu-oyunlari/",
+    "/makale/en-iyi-kutu-oyunlari-2026/"
+   ],
    "makale_sayisi": null
   },
   {
@@ -2711,12 +2675,15 @@
    "baslik": "Koleksiyon",
    "kategori": "koleksiyon",
    "alt_kategori": "",
-   "govde_gelen": 0,
+   "govde_gelen": 2,
    "icerik_gelen": 14,
    "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [],
+   "govde_kaynaklar": [
+    "/makale/aile-kutu-oyunlari/",
+    "/makale/en-iyi-kutu-oyunlari-2026/"
+   ],
    "makale_sayisi": 12
   },
   {
@@ -2801,12 +2768,13 @@
    "baslik": "Masaüstü & Minyatür Oyunlar",
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
-   "govde_gelen": 1,
+   "govde_gelen": 2,
    "icerik_gelen": 11,
    "toplam_gelen": 11,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
+    "/makale/aile-kutu-oyunlari/",
     "/makale/en-iyi-kutu-oyunlari-2026/"
    ],
    "makale_sayisi": 5
@@ -2938,13 +2906,14 @@
    "baslik": "Sanat",
    "kategori": "sanat",
    "alt_kategori": "",
-   "govde_gelen": 1,
+   "govde_gelen": 2,
    "icerik_gelen": 4,
    "toplam_gelen": 171,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
-    "/makale/fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic/"
+    "/makale/fotograf-makinesi-secimi-canon-eos-r100-ile-baslangic/",
+    "/makale/punch-nakisi-nasil-yapilir-baslangic-seti/"
    ],
    "makale_sayisi": 2
   },
@@ -3131,12 +3100,14 @@
    "baslik": "Bahçecilik",
    "kategori": "bahce-bitki",
    "alt_kategori": "bahcecilik",
-   "govde_gelen": 0,
+   "govde_gelen": 1,
    "icerik_gelen": 5,
    "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [],
+   "govde_kaynaklar": [
+    "/makale/en-cok-satan-bahce-alet-2026-w46/"
+   ],
    "makale_sayisi": 1
   },
   {

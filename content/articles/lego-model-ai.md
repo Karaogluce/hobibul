@@ -24,7 +24,7 @@ Akşam masa başında geçireceğiniz birkaç sakin saat için model seçerken p
 
 Parça renklerinin çeşitliliği ve yapım kitapçığının sunduğu yönlendirmeler de uzun soluklu bir hobinin akışını doğrudan etkiler. Kutunun içinden çıkan alternatif yaprak veya parça seçenekleri, modeli tamamladıktan sonra bile üzerinde değişiklik yapmanıza olanak tanır. Alışveriş yaparken setin içeriğinde kaç farklı sergileme standı veya figür olduğuna bakmak doğru kararı vermenizi kolaylaştırır.
 
-## Ürün Ürün Set Seçenekleri ve Lego En İyi Setler
+## LEGO Set Seçenekleri ve En İyi Modeller
 
 Koleksiyonuna yeni bir soluk getirmek veya [yetişkin LEGO setleri](/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/) arasından daha geniş listeye bakmak istediğinde bonsai 10281, kiraz çiçekleri ve Zaman Makinesi de o yazıda duruyor. Bu sayfa yalnızca masada az yer kaplayan üç sete bakıyor. Speed Champions araçları halıda sürülecek oyuncak değil; jant ve yan grafik görünsün diye rafta hafif çapraz durunca daha net okunuyor. Yanına sukulent veya mini bonsai koymak vitrine organik bir hat ekliyor.
 

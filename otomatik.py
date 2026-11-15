@@ -94,7 +94,7 @@ TIPLER = {
         hedef=1200, hepsi=False,
         baslik=lambda s: f"{s} Başlangıç Seti: İlk Alınacaklar ({YEAR})",
         yapi="İlk iki cümlede alım sorusuna cevap ver. Hemen ardından bir başlangıç ürününe aff:// linki koy. "
-             "Sonra '## Satın Almadan Önce Nelere Bakmalı?' → '## Ürün Ürün Set' altında her önerilen ürün için ### başlık "
+             "Sonra '## Satın Almadan Önce Nelere Bakmalı?' → '## Ürün Seti' altında her önerilen ürün için ### başlık "
              "ve 'kime uymaz' cümlesi → '## Bütçe, Orta ve Üst Paket' altında fiyat yazmadan üç satırlık markdown tablo "
              "(Paket | İçinde ne var | Kime uyar) → '## Sıkça Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye "
              "('Sonuç' başlığı kullanma).",
@@ -144,7 +144,7 @@ TIPLER = {
         hedef=1500, hepsi=False, taban=1500,
         baslik=lambda s: s,
         yapi="Giriş (aranan sorguyu ilk iki cümlede doğal Türkçeyle cevapla) → '## Ne Arıyor, Ne İşe Yarar?' → "
-             "'## Seçerken Nelere Bakmalı?' → '## Ürün Ürün Karşılaştırma' altında her ürün için ### başlık, artı, eksi ve kime uymaz → "
+             "'## Seçerken Nelere Bakmalı?' → '## Ürün Karşılaştırma' altında her ürün için ### başlık, artı, eksi ve kime uymaz → "
              "'## Sık Yapılan Hatalar' → '## Sıkça Sorulan Sorular' (en az 4 soru, ### başlık) → kapanışta tek cümlelik net tavsiye "
              "('Sonuç' başlığı kullanma). Kategori sayfasına bir iç link ve en az 2 aff:// ürün linki ver.",
     ),
@@ -1444,7 +1444,7 @@ YAZIM REHBERİ (bunu uygula; okuyucuya bir insanın konuşur gibi yazdığı gel
 {_brief_prompt(t)}ÇIKTI BİÇİMİ (tam olarak böyle):
 GORSEL: <Unsplash'ta aratılacak 2-4 kelimelik İNGİLİZCE sorgu; marka/ürün adı yok; konuyu görsel olarak anlatsın>
 ANAHTAR: <odak anahtar kelime, Türkçe, 2-4 kelime>
-ACIKLAMA: <120-160 karakterlik Türkçe meta açıklama, odak anahtar kelimeyi içersin. Başlık artı " | Hobi Bul" en fazla 60 karakter olsun.>
+ACIKLAMA: <120-160 karakterlik Türkçe meta açıklama; odak anahtar kelimeyi içersin. Site adı, "Hobi Bul" veya " | " ekleme.>
 ---
 <makale metni>
 """
@@ -1539,6 +1539,13 @@ def gate(body, tip, prods, others, banned=()):
         return f"kısa ({words} kelime, güvenlik tabanı {taban})"
     if len(re.findall(r"^## ", body, re.M)) < 4:
         return "yetersiz H2 bölümü"
+    if re.search(r"(?m)^#{2,3}\s*$", body):
+        return "boş başlık"
+    h2 = [h.strip().casefold() for h in re.findall(r"(?m)^##\s+(.+?)\s*$", body)]
+    if len(h2) != len(set(h2)):
+        return "yinelenen H2 başlığı"
+    if re.search(r"(?m)^##\s+(\S+)\s+\1(?:\s|$)", body, re.I):
+        return "başlıkta kelime tekrarı"
     if not re.search(r"sık sorulan|sorular|\bsss\b", body, re.I):
         return "SSS bölümü yok"
     used = set(re.findall(r"aff://([A-Za-z0-9_-]+)", body))
@@ -1655,7 +1662,7 @@ def write_article(t, meta, body, img, draft, tarih=None):
     tarih = tarih or istanbul_bugun().isoformat()
     lines = ["---", f'title: "{q(title)}"', f'slug: "{slug}"', f'category: "{t["cat"]}"',
              f'date: "{tarih}"', f'updated: "{tarih}"', f'meta_title: "{q(mt)}"',
-             f'meta_description: "{q(md)}"', f'excerpt: "{raw_desc or q(md)}"',
+             f'meta_description: "{q(md)}"', f'excerpt: "{q(md)}"',
              f'focus_keyword: "{q(t.get("focus_keyword") or meta.get("ANAHTAR") or title)}"']
     if img and img.get("url"):
         lines += [f'image: "{img["url"]}"', f'image_alt: "{q(img["alt"])}"',

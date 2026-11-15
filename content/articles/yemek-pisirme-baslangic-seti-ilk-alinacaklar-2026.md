@@ -41,7 +41,7 @@ Otomasyon ürünleri vakti kısıtlı olanlar için yardımcı sayılabilir; fak
 
 Üstelik karmaşık makinelerin parçalarını sökmek, yıkamak ve her kullanım sonrası kurulamak çoğu zaman tek bir tavayı ve bıçağı temizlemekten daha fazla zaman alır. Mutfakta harcanan zamanı azaltmak isterken karmaşık mekanizmaların temizliğiyle uğraşmak hevesini kırabilir. Bu nedenle başlangıç aşamasında sadelik her zaman en verimli yoldur.
 
-## Ürün Ürün Set
+## Ürün Seti
 
 Aşağıdaki listede, mutfağa yeni başlayan birinin ihtiyaç duyacağı temel parçaları özellikleri, artıları ve kime uymadıklarıyla birlikte bulabilirsin.
 

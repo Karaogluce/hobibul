@@ -27,7 +27,7 @@ def _uzun_govde():
         "",
         "Balkonda Ay'a bakacaksan önce üçayak titremesini düşün. Dar balkonda uzun bir tüp kapıya çarpar.",
         "",
-        "## Ürün Ürün Set",
+        "## Ürün Seti",
         "",
     ]
     paragraf = (
@@ -151,6 +151,17 @@ class UzunlukTest(unittest.TestCase):
                 body += " " + " ".join(["kelime"] * (eksik + 8))
             return body
 
+        temel = (_tam_makale() + "\n\n[Satın Al: Ürün A](aff://a)\n\n[Satın Al: Ürün B](aff://b)")
+        bos = _uzat(temel + "\n\n### \n\nBoş başlığın altındaki metin.")
+        self.assertEqual(otomatik.gate(bos, "sss", [{"id": "a"}, {"id": "b"}], []),
+                         "boş başlık")
+        yinelenen = _uzat(temel.replace("## Rota", "## Hazırlık"))
+        self.assertEqual(otomatik.gate(yinelenen, "sss", [{"id": "a"}, {"id": "b"}], []),
+                         "yinelenen H2 başlığı")
+        tekrar = _uzat(temel.replace("## Kamp", "## Ürün Ürün Set"))
+        self.assertEqual(otomatik.gate(tekrar, "sss", [{"id": "a"}, {"id": "b"}], []),
+                         "başlıkta kelime tekrarı")
+
         yarim = _uzat(_tam_makale().replace("## ", "### "))
         self.assertEqual(otomatik.gate(yarim, "sss", [{"id": "a"}, {"id": "b"}], []),
                          "yetersiz H2 bölümü")
@@ -180,6 +191,16 @@ class UzunlukTest(unittest.TestCase):
         durmus = otomatik.devam_prompt("kısa taslak", t, _urun(), "", "STOP")
         self.assertIn("Erken durmuş", durmus)
         self.assertNotIn("token sınırında", durmus)
+
+    def test_prompt_sablon_basliklari_tekrarsiz(self):
+        talep = dict(_konu(), tip="talep")
+        metin = otomatik.build_prompt(talep, _urun(), ["teleskop"], "rehber")
+        self.assertIn("## Ürün Karşılaştırma", metin)
+        self.assertNotIn("Ürün Ürün", metin)
+        ticari = otomatik.build_prompt(_konu(), _urun(), [], "rehber")
+        self.assertIn("## Ürün Seti", ticari)
+        self.assertNotIn("Başlık artı", ticari)
+        self.assertIn("Site adı", ticari)
 
     def test_gemini_yaniti_dusunceyi_ayirir(self):
         yanit = ym.gemini_yaniti({
@@ -252,7 +273,7 @@ class UzunlukTest(unittest.TestCase):
         eski = (
             "## Satın Almadan Önce Nelere Bakmalı?\n\n"
             "İlk cümle dar balkonda tüpün kapıya çarptığını anlatır.\n\n"
-            "## Ürün Ürün Set\n\n"
+            "## Ürün Seti\n\n"
             "İkinci cümle tüpün ağırlığının bileği neden yorduğunu anlatır."
         )
         ek = "Yeni bölüm karanlıkta vida aramanın neden gözlemi böldüğünü anlatır."
@@ -292,7 +313,7 @@ class UzunlukTest(unittest.TestCase):
         orig = otomatik._gemini
         otomatik._gemini = fake
         try:
-            kisa = "## Satın Almadan Önce Nelere Bakmalı?\n\nKısa taslak.\n\n## Ürün Ürün Set\n\nErken bitti."
+            kisa = "## Satın Almadan Önce Nelere Bakmalı?\n\nKısa taslak.\n\n## Ürün Seti\n\nErken bitti."
             out = otomatik.uzat_taslak(kisa, t, _urun(), "rehber", "test-anahtar", ["yedek"], [0], "MAX_TOKENS")
             self.assertGreaterEqual(len(out.split()), otomatik.GUVENLIK_TABANI)
             self.assertEqual(len(calls), 1)

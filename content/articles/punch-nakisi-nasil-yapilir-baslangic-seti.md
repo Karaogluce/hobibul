@@ -3,7 +3,7 @@ title: "Punch Nakışı Nasıl Yapılır? Başlangıç Seti ve İlk Proje Rehber
 slug: "punch-nakisi-nasil-yapilir-baslangic-seti"
 category: "sanat"
 date: "2026-11-11"
-updated: "2026-11-11"
+updated: "2026-11-16"
 meta_title: "Punch Nakışı Nasıl Yapılır? Başlangıç Seti | Hobi Bul"
 meta_description: "Punch nakışı nasıl yapılır: iğne, kasnak ve ip. İlk proje, sık yapılan hata ve set seçerken bakılacak yer. Ölçü uydurulmaz."
 excerpt: "Punch nakışı nasıl yapılır: iğne, kasnak ve ip. İlk proje, sık yapılan hata ve set seçerken bakılacak yer. Ölçü uydurulmaz."
@@ -15,7 +15,6 @@ image_credit_url: "https://unsplash.com/@keish_c?utm_source=hobibul&utm_medium=r
 subcategory: "dikis-nakis"
 draft: "false"
 ---
-
 Punch nakışı, son yıllarda [Dikiş & Nakış](/kategori/sanat/dikis-nakis/) kategorisinde en çok merak edilen, kumaş üzerine kabartmalı desenler işlemeyi sağlayan keyifli bir el sanatıdır. Hızlı ilerleyen yapısı ve tatmin edici sonuçlarıyla [evde el sanatları hobileri](/makale/evde-el-sanatlari-hobileri/) arasında adeta bir terapi yöntemi olarak öne çıkar; birkaç saat içinde kendi el emeği dekoratif ürünlerinizi ortaya koymanıza imkan tanır.
 
 ## Punch nakışı nedir?
@@ -23,7 +22,7 @@ Punch nakışı, son yıllarda [Dikiş & Nakış](/kategori/sanat/dikis-nakis/) 
 
 Bu teknik, kumaşı kesmeden ya da dikmeden, sadece iğneyi kumaş dokusunun arasından itip çekerek çalışmanıza olanak tanır. Kumaşın arka yüzü aslında sizin çalışma alanınızdır ancak ön yüze çevirdiğinizde asıl desen ve o kadife doku ortaya çıkar. Klasik nakışta iğneyi her defasında tamamen kumaştan geçirip ipi çekmeniz gerekirken, bu yöntemde iğne kumaş yüzeyinde kalır ve sürekli bir ritimle hareket eder.
 
-Yeteneklerinizi evde geliştirmek istediğinizde [kadınlar için evde yapılacak hobiler](/makale/kadinlar-icin-evde-yapilacak-hobiler/) listelerinin de ilk sıralarında yer alan bu sanat, sabırdan ziyade doğru malzeme seçimi ve el alışkanlığı ister. İlk başta ipliğin yerinde durmadığını ya da ilmeklerin düştüğünü görebilirsiniz; ancak bu durum tamamen kumaşın yeterince gergin olmamasından kaynaklanır.
+Yeteneklerinizi evde geliştirmek istediğinizde [kadınlar için evde yapılacak hobiler](/makale/kadinlar-icin-evde-yapilacak-hobiler/) listelerinin de ilk sıralarında yer alan bu sanat, sabırdan ziyade doğru malzeme seçimi ve el alışkanlığı ister. İlk başta ipliğin yerinde durmadığını ya da ilmeklerin düştüğünü görebilirsiniz; ancak bu durum tamamen kumaşın yeterince gergin olmamasından kaynaklanır. Bu notların bir arada durduğu yer [Sanat notları](/kategori/sanat/).
 
 ## Başlangıç malzemeleri
 > Başlangıç seviyesinde işinizi kolaylaştıracak temel malzemeler; doğru kalınlıkta bir punch iğnesi, kumaşı gergin tutacak kaliteli bir kasnak, deseni taşıyacak uygun dokuma kumaş ve iplerdir. Parça parça toplamak yerine set tercih etmek uyum sorununu ortadan kaldırır.
@@ -109,7 +108,7 @@ Malzeme seçimi yaparken, parçaların birbiriyle uyumlu çalışması en kritik
 
 Parça seçimine karar verirken projenin boyutu ve kullanım alanını göz önünde bulundurmalısın. Uzun süreli projelerde elini yormayacak ergonomik saplı iğneler ve kumaşı sabit tutarken kaydırmayan vidalı kasnaklar işini ciddi oranda kolaylaştırır. Kaliteli ipler tercih etmek ise renklerin solmasını engeller ve emeğinin uzun süre ilk günkü canlılığını korumasını sağlar.
 
-## Ürün Ürün Karşılaştırma
+## Ürün Karşılaştırma
 
 ### Punch Nakış İğnesi
 [Satın Al: Punch Nakış İğnesi](aff://punch-needle)

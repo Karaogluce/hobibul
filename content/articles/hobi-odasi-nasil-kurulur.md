@@ -109,7 +109,7 @@ Küçük bir dairede yaşamak hobi alanı kuramayacağın anlamına gelmez. Tek 
 
 Bunun yanı sıra çok katlı tekerlekli servis arabaları, dar evlerin en büyük kurtarıcısıdır. En üst kata anlık çalıştığın parçaları, orta kata alet kutunu, en alt kata ise yedek malzemeleri koyarak arabayı evin neresinde ışık iyiyse oraya sürebilirsin. Çalışman tamamlandığında arabayı gardırobun yanındaki küçük bir boşluğa veya kapı arkasına çekmek salonun düzenini koruman için yeterlidir.
 
-## Ürün Ürün Karşılaştırma
+## Ürün Karşılaştırma
 
 > Aşağıdaki gereçler, farklı hobi alanlarında masa başı konforunu artıran, çizim ve boyama aşamalarında iş akışını hızlandıran özgün ekipmanlar arasından seçilmiştir.
 

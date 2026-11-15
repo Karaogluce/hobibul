@@ -5,8 +5,8 @@ category: "yemek-mutfak"
 date: "2026-11-05"
 updated: "2026-11-09"
 meta_title: "Kahve & Barista Hakkında Sık Sorulan Sorular | Hobi Bul"
-meta_description: "Kahve ve barista dünyasına adım atın. Çekirdek seçimi, öğütücü ve demleme ipuçları bu kısa rehberde. | Hobi Bul. Yeni başlayan için artı ve eksi notu da var."
-excerpt: "Kahve ve barista dünyasına adım atın. Çekirdek seçimi, öğütücü ve demleme ipuçları bu kısa rehberde. | Hobi Bul"
+meta_description: "Kahve ve barista dünyasına adım atın. Çekirdek seçimi, öğütücü ve demleme ipuçları bu kısa rehberde. Artı ve eksi notlarıyla kısa karşılaştırma da var."
+excerpt: "Kahve ve barista dünyasına adım atın. Çekirdek seçimi, öğütücü ve demleme ipuçları bu kısa rehberde."
 focus_keyword: "kahve ve barista rehberi"
 image: "/img/makale/kahve-barista-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber.webp"
 image_alt: "Pour-over coffee maker and kettle on table"
@@ -15,7 +15,7 @@ image_credit_url: "https://unsplash.com/@ginzburg_l?utm_source=hobibul&utm_mediu
 subcategory: "kahve"
 draft: "false"
 ---
-Mutfakta tezgahın üzerinde biriken ekipmanlar bazen işi kolaylaştırmak yerine kafanızı karıştırabilir. Sabahları aceleyle hazırlanan o ilk fincanın tadı tutmadığında, sorun genellikle yanlış çekirdek seçiminde ya da hatalı öğütme boyutunda saklıdır. Kahve hazırlık sürecinde kaybolmadan doğru adımları atmak için önce temel ekipmanları tanımak gerekir.
+Mutfakta tezgahın üzerinde biriken ekipmanlar bazen işi kolaylaştırmak yerine kafanızı karıştırabilir. Sabahları aceleyle hazırlanan o ilk fincanın tadı tutmadığında, sorun genellikle yanlış çekirdek seçiminde ya da hatalı öğütme boyutunda saklıdır. Kahve hazırlık sürecinde kaybolmadan doğru adımları atmak için önce temel ekipmanları tanımak gerekir. Öğütücü, dripper ve tartı dahil başlangıç listesi [evde filtre kahve seti rehberinde](/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/) hazır duruyor.
 
 ## Kahve Çekirdeği ve Ekipman Seçimi
 

@@ -4,14 +4,14 @@ slug: "en-iyi-kutu-oyunlari-2026"
 category: "koleksiyon"
 subcategory: "masaustu-oyun"
 date: "2026-11-04"
-updated: "2026-11-09"
+updated: "2026-11-16"
 meta_title: "En İyi Kutu Oyunları 2026: Türkiye'de | Hobi Bul"
 meta_description: "Amazon.com.tr başlığı tutan kutu oyunları: ASMODEE DiXit Yeni! Hayalini Anlat, Çok Renkli, Ticket to Ride Europe, Z-Man Games Pandemic."
 excerpt: "Amazon.com.tr başlığı tutan kutu oyunları: ASMODEE DiXit Yeni! Hayalini Anlat, Çok Renkli, Ticket to Ride Europe, Z-Man Games Pandemic."
 focus_keyword: "en iyi kutu oyunları"
 draft: "false"
 ---
-Bu listedeki her kutu Amazon.com.tr'de açılıyor ve sayfa başlığı oyunun adını taşıyor. Dar listeler ayrı: [2 kişilik](/makale/2-kisilik-kutu-oyunlari/) ve [aile](/makale/aile-kutu-oyunlari/). Hepsi [masaüstü oyunlar](/kategori/koleksiyon/masaustu-oyun/) kategorisinde.
+Bu listedeki her kutu Amazon.com.tr'de açılıyor ve sayfa başlığı oyunun adını taşıyor. Dar listeler ayrı: [2 kişilik](/makale/2-kisilik-kutu-oyunlari/) ve [aile](/makale/aile-kutu-oyunlari/). Hepsi [masaüstü oyunlar](/kategori/koleksiyon/masaustu-oyun/) kategorisinde. Aynı masaüstü işinin devamı [Yılbaşı Hediyesi Kutu Oyunları](/makale/yilbasi-hediyesi-kutu-oyunlari/) rehberinde.
 
 ## Kutular
 
@@ -45,7 +45,7 @@ Bu listedeki her kutu Amazon.com.tr'de açılıyor ve sayfa başlığı oyunun a
 
 ### Cluedo Kutu Oyunu, 2-6 Oyuncu İçin Yeniden Tasarlanmış Cluedo Oyunu, Gizem Çözme
 
-[Cluedo Kutu Oyunu, 2-6 Oyuncu İçin Yeniden Tasarlanmış Cluedo Oyunu, Gizem Çözme](https://www.amazon.com.tr/dp/B0C641D51Y?tag=hobibulsite-21) Amazon.com.tr üzerinde duruyor; başlık 2-6 oyuncu diyor.
+[Cluedo Kutu Oyunu, 2-6 Oyuncu İçin Yeniden Tasarlanmış Cluedo Oyunu, Gizem Çözme](https://www.amazon.com.tr/dp/B0C641D51Y?tag=hobibulsite-21) Amazon.com.tr üzerinde duruyor; başlık 2-6 oyuncu diyor. Aynı başlık altındaki diğer rehberler [Koleksiyon](/kategori/koleksiyon/) sayfasında.
 
 ## Sıkça Sorulan Sorular
 

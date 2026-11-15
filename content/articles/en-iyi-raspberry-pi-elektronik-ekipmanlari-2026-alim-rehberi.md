@@ -15,7 +15,7 @@ image_credit_url: "https://unsplash.com/@trisolarian?utm_source=hobibul&utm_medi
 subcategory: "raspberry-pi-elektronik"
 draft: "false"
 ---
-Mutfak masasının üzerinde dağınık duran kabloları, lehim makinelerini ve küçük devre kartlarını toplarken projeni bir üst seviyeye taşıma vaktinin geldiğini fark edersin. Sıradan bir mikrodenetleyici artık ağır gelen işleri sırtlamakta zorlanıyorsa, masaüstü bilgisayar hissiyatı veren ama aynı zamanda pinleriyle fiziksel dünyaya bağlanan bir donanıma geçiş yapman gerekir. Tam bu noktada kart seçimi, güç yönetimi ve doğru sensörleri bir araya getirmek projenin kaderini belirler. Yanlış bir güç kaynağı veya yetersiz bellek, saatlerce yazdığın kodun aniden durmasına yol açabilir.
+Mutfak masasının üzerinde dağınık duran kabloları, lehim makinelerini ve küçük devre kartlarını toplarken projeni bir üst seviyeye taşıma vaktinin geldiğini fark edersin. Sıradan bir mikrodenetleyici artık ağır gelen işleri sırtlamakta zorlanıyorsa, masaüstü bilgisayar hissiyatı veren ama aynı zamanda pinleriyle fiziksel dünyaya bağlanan bir donanıma geçiş yapman gerekir. Tam bu noktada kart seçimi, güç yönetimi ve doğru sensörleri bir araya getirmek projenin kaderini belirler. Yanlış bir güç kaynağı veya yetersiz bellek, saatlerce yazdığın kodun aniden durmasına yol açabilir. Kutudan eksik çıkan parçaları tamamlamak için [Raspberry Pi 5 başlangıç kiti](/makale/raspberry-pi-5-baslangic-kiti/), ilk kurulumu ise [Linux ve elektronik uygulamaları rehberi](/makale/raspberry-pi-ile-linux-ve-elektronik-uygulamalari/) adım adım anlatıyor.
 
 ## Satın Almadan Önce Nelere Bakmalı?
 

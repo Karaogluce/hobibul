@@ -5,8 +5,8 @@ category: "bilim-astronomi"
 date: "2026-10-30"
 updated: "2026-11-09"
 meta_title: "Kimya & Deney Başlangıç Seti: İlk Alınacaklar | Hobi Bul"
-meta_description: "Kimya deney başlangıç seti seçiminde borosilikat cam, hazır kitler ve güvenlik önerileri. Evde bilime başlamak için rehber. | Hobi Bul"
-excerpt: "Kimya deney başlangıç seti seçiminde borosilikat cam, hazır kitler ve güvenlik önerileri. Evde bilime başlamak için rehber. | Hobi Bul"
+meta_description: "Kimya deney başlangıç seti seçiminde borosilikat cam, hazır kitler ve güvenlik önerileri. Evde bilime başlamak için rehber."
+excerpt: "Kimya deney başlangıç seti seçiminde borosilikat cam, hazır kitler ve güvenlik önerileri. Evde bilime başlamak için rehber."
 focus_keyword: "kimya deney başlangıç seti"
 image: "/img/makale/kimya-deney.webp"
 image_alt: "Laboratuvarda deney kabı tutan eldivenli el"
@@ -50,7 +50,7 @@ Kimya öğrenirken günlük dildeki bazı kelimeler bilimsel terminolojiyle kar�
 
 Bu kavramsal karmaşayı aşmanın yolu, temel laboratuvar ekipmanlarını ve kimya dilini doğru kullanmaktan geçer. Bir sıvının hacmini ölçmek için rastgele bir bardak değil de mezür kullanıldığında ya da bir sıvıyı buharlaştırmadan çalkalamak için erlen tercih edildiğinde yöntem bilimselleşir. Doğru aletleri doğru adımlarla kullanmak, deneyin başarısını doğrudan etkiler. Set seçimini de bu kavramsal altyapıya göre planlamak fayda sağlar.
 
-## Ürün Ürün Set
+## Ürün Seti
 
 Piyasada her biri farklı yaşa ve amaca hitap eden deney setleri mevcuttur. Şimdi bu setlerin özelliklerine, sundukları imkanlara ve kimler için uygun olmadıklarına bakalım.
 

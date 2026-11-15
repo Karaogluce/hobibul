@@ -215,7 +215,7 @@ Sıra ticari niyettedir: önce `content/konu_havuzu.json` içinde `tip_onerisi: 
 kategori için bir başlangıç seti. `nedir`, `nasıl yazılır`, il adı ve yabancı dil sorguları havuzdan ve Google
 önerilerinden elenir. Aynı alt kategoriye art arda günlerde yazı eklenmez; son iki günde üretim yapılan grup
 kuyrukta taze grupların arkasına düşer. Başlıktaki belirgin kelimelerle eşleşmeyen ürünler makaleye alınmaz,
-böylece "lego model ai" gibi otomatik tamamlama artıkları ve başlıkla ilgisiz setler elenir. Kapıdan geçen metin en az yaklaşık 1500 kelimedir (ticari konularda 1550); hedef 1650–2000.
+böylece "lego model ai" gibi otomatik tamamlama artıkları ve başlıkla ilgisiz setler elenir. Kapıdan geçen metin düzenli akışta en az 1000 kelimedir; arama talebi akışında taban 1500'dür. Yumuşak hedef ticari konularda 1200, diğer tiplerde 1000, arama talebinde 1500 kelimedir.
 Kısa kalan veya `finishReason: MAX_TOKENS` ile kesilen taslak, reddedilmeden önce eksik bölümleri tamamlayan bir devam çağrısından geçer. Alt sınır düşürülmez.
 
 Kurulum (bir kerelik): GitHub → Settings → Secrets and variables → Actions
@@ -236,7 +236,9 @@ Kurulum (bir kerelik): GitHub → Settings → Secrets and variables → Actions
 
 Kalite kapıları (geçemeyen makale yayınlanmaz, `content/uretim_log.json` → `atlanan`): minimum kelime,
 H2 sayısı, SSS bölümü, ürün linki, ticari konuda paket tablosu, fiyat/abartı yasağı, yazım ritmi,
-mevcut makalelerle benzerlik kontrolü.
+boş başlık, yinelenen H2, başlıkta kelime tekrarı ("Ürün Ürün" gibi), mevcut makalelerle benzerlik kontrolü.
+Meta açıklama 120–160 karaktere çekilir; modele site adı eklememesi söylenir, kalan `| Hobi Bul`
+eki `seo.fit_description` içinde ayıklanır. Aynı metin kart özeti (excerpt) olarak da kullanılır.
 Sıradaki konuları görmek için: `python otomatik.py --konu-listesi`
 
 - Yazım kuralları ve yasaklı kalıplar: `content/yazim_rehberi.md` (düzenlenebilir). Çalışma planı: `PLAN.md`.

@@ -4,10 +4,10 @@ slug: "aile-kutu-oyunlari"
 category: "koleksiyon"
 subcategory: "masaustu-oyun"
 date: "2026-11-04"
-updated: "2026-11-09"
+updated: "2026-11-16"
 meta_title: "Aile Kutu Oyunları: Türkiye'deki Seçim | Hobi Bul"
-meta_description: "Amazon.com.tr başlığı tutan kutu oyunları: Monopoly Türkiye Sürümü Kutu Oyunu, Cluedo Kutu Oyunu, 2-6 Oyuncu İçin Yeniden Tasarlanmış Cluedo Oyunu,."
-excerpt: "Amazon.com.tr başlığı tutan kutu oyunları: Monopoly Türkiye Sürümü Kutu Oyunu, Cluedo Kutu Oyunu, 2-6 Oyuncu İçin Yeniden Tasarlanmış Cluedo Oyunu,."
+meta_description: "Amazon.com.tr başlığı tutan kutu oyunları: Monopoly Türkiye Sürümü Kutu Oyunu, Cluedo Kutu Oyunu, 2-6 Oyuncu İçin Yeniden Tasarlanmış Cluedo Oyunu."
+excerpt: "Amazon.com.tr başlığı tutan kutu oyunları: Monopoly Türkiye Sürümü Kutu Oyunu, Cluedo Kutu Oyunu, 2-6 Oyuncu İçin Yeniden Tasarlanmış Cluedo Oyunu."
 focus_keyword: "aile kutu oyunları"
 draft: "false"
 ---
@@ -33,7 +33,7 @@ Aile masasında kutu, yaş ve kişi sayısı başlıkta yazıyorsa ona göre dur
 
 ### Hasbro Gaming Tabu XL Kutu Oyunu, 4 Farklı Oyun Alternatifi, Klasik Oyunun Yanı Sıra
 
-[Hasbro Gaming Tabu XL Kutu Oyunu, 4 Farklı Oyun Alternatifi, Klasik Oyunun Yanı Sıra](https://www.amazon.com.tr/dp/B002E2LUM4?tag=hobibulsite-21) Amazon.com.tr üzerinde duruyor.
+[Hasbro Gaming Tabu XL Kutu Oyunu, 4 Farklı Oyun Alternatifi, Klasik Oyunun Yanı Sıra](https://www.amazon.com.tr/dp/B002E2LUM4?tag=hobibulsite-21) Amazon.com.tr üzerinde duruyor. Aynı masaüstü işinin devamı [Kime Hangi Oyun](/makale/yilbasi-hediyesi-kutu-oyunlari/) rehberinde. [Masaüstü & Minyatür Oyunlar](/kategori/koleksiyon/masaustu-oyun/) bu parçanın yanındaki seçimleri topluyor.
 
 ### Ticket to Ride Europe
 
@@ -45,7 +45,7 @@ Aile masasında kutu, yaş ve kişi sayısı başlıkta yazıyorsa ona göre dur
 
 ### Pandemik: Legacy - Season Zero - TR
 
-[Pandemik: Legacy - Season Zero - TR](https://www.amazon.com.tr/dp/B08F73L5BM?tag=hobibulsite-21) Amazon.com.tr üzerinde duruyor.
+[Pandemik: Legacy - Season Zero - TR](https://www.amazon.com.tr/dp/B08F73L5BM?tag=hobibulsite-21) Amazon.com.tr üzerinde duruyor. Aynı başlık altındaki diğer rehberler [Koleksiyon notları](/kategori/koleksiyon/) sayfasında.
 
 ## Sıkça Sorulan Sorular
 
