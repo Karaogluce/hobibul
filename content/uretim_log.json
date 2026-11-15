@@ -1133,6 +1133,66 @@
    "anahtar": "talep:hobi-esyalari-nereden-alinir",
    "neden": "kısa (1188 kelime, güvenlik tabanı 1500)",
    "tarih": "2026-11-15"
+  },
+  {
+   "anahtar": "sss:muzik:gitar:gitar-nasil-ogrenilir",
+   "neden": "kısa (793 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-16"
+  },
+  {
+   "anahtar": "sss:muzik:gitar:gitar-nasil-akort-edilir",
+   "neden": "kısa (698 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-16"
+  },
+  {
+   "anahtar": "nasil_yapilir:muzik:gitar:gitar-nasil-temizlenir",
+   "neden": "kısa (697 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-16"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:lego-model:model-auto-lego",
+   "neden": "kısa (478 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-16"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:lego-model:lego-model-airplane",
+   "neden": "çıktı biçimi bozuk",
+   "tarih": "2026-11-16"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:lego-model:lego-model-builder",
+   "neden": "kısa (563 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-16"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:lego-model:lego-model-building",
+   "neden": "kısa (690 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-16"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:lego-model:lego-model-blender",
+   "neden": "kısa (633 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-16"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:lego-model:lego-model-bricks",
+   "neden": "kısa (631 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-16"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:lego-model:lego-model-brick",
+   "neden": "kısa (602 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-16"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:lego-model:lego-model-bmw",
+   "neden": "kısa (545 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-16"
+  },
+  {
+   "anahtar": "ticari:koleksiyon:lego-model:lego-model-cars",
+   "neden": "kısa (566 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-16"
   }
  ],
  "makaleler": [
