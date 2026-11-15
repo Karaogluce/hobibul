@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-14",
+ "generated_at": "2026-11-15",
  "period_days": 30,
  "visitors_daily": [
   {
@@ -85,11 +85,11 @@
    "sessions": 4
   },
   {
-   "name": "Cross-network",
-   "sessions": 2
+   "name": "Unassigned",
+   "sessions": 3
   },
   {
-   "name": "Unassigned",
+   "name": "Cross-network",
    "sessions": 2
   }
  ],
