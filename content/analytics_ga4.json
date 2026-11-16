@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-15",
+ "generated_at": "2026-11-16",
  "period_days": 30,
  "visitors_daily": [
   {
@@ -69,6 +69,10 @@
   {
    "date": "2026-11-14",
    "users": 3
+  },
+  {
+   "date": "2026-11-16",
+   "users": 1
   }
  ],
  "channels": [
@@ -78,7 +82,7 @@
   },
   {
    "name": "Organic Search",
-   "sessions": 34
+   "sessions": 38
   },
   {
    "name": "AI Assistant",
@@ -87,10 +91,6 @@
   {
    "name": "Unassigned",
    "sessions": 3
-  },
-  {
-   "name": "Cross-network",
-   "sessions": 2
   }
  ],
  "top_pages": [
