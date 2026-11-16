@@ -1,11 +1,11 @@
 {
  "tanim": "govde_gelen, başka bir makalenin gövdesinden gelen benzersiz iç linktir. Üst menü, altbilgi ve ekmek kırıntısı bu sayıda yoktur. yetim: yayındaki makale ya da içinde makalesi olan kategori sayfası, govde_gelen 0 veya 1 ise. Makalesi olmayan kategori sayfası menüden ulaşılır; alakasız gövde linki eklenmez ve makalesiz listesindedir. toplam_gelen, üretilmiş HTML içindeki diğer sayfalardan gelen benzersiz linktir. tik, ana sayfadan tıklama derinliğidir. gsc_oncelik, analytics_gsc.json içinde ortalama pozisyonu 8-20 olan sorguya denk sayfadır; dosya yoksa veya ok değilse boş kalır.",
  "ozet": {
-  "makale": 77,
+  "makale": 81,
   "kategori": 82,
-  "yetim_makale": 35,
-  "yetim_kategori": 18,
-  "yetim": 53,
+  "yetim_makale": 39,
+  "yetim_kategori": 16,
+  "yetim": 55,
   "makalesiz_kategori": 36,
   "sitemap_linksiz": [],
   "uc_tik_disi": [],
@@ -21,8 +21,8 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 0,
-   "toplam_gelen": 171,
-   "tik": 1,
+   "toplam_gelen": 10,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -45,7 +45,19 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
-   "toplam_gelen": 4,
+   "toplam_gelen": 5,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w47/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Kitabı (16 Kasım 2026)",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "okuma",
+   "govde_gelen": 0,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -69,8 +81,8 @@
    "kategori": "muzik",
    "alt_kategori": "dj-produksiyon",
    "govde_gelen": 0,
-   "toplam_gelen": 9,
-   "tik": 1,
+   "toplam_gelen": 8,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -81,7 +93,7 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "",
    "govde_gelen": 0,
-   "toplam_gelen": 171,
+   "toplam_gelen": 4,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -93,7 +105,7 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bahcecilik",
    "govde_gelen": 0,
-   "toplam_gelen": 5,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -105,8 +117,20 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "resim-boyama",
    "govde_gelen": 0,
-   "toplam_gelen": 8,
+   "toplam_gelen": 7,
    "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/en-cok-satan-el-isi-2026-w47/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Sanat ve El İşi Ürünü (16 Kasım 2026)",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "resim-boyama",
+   "govde_gelen": 0,
+   "toplam_gelen": 175,
+   "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -117,8 +141,32 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 0,
-   "toplam_gelen": 8,
+   "toplam_gelen": 9,
    "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/en-cok-satan-kutu-oyun-2026-w47/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Kutu Oyunu Ürünü (16 Kasım 2026)",
+   "kategori": "koleksiyon",
+   "alt_kategori": "masaustu-oyun",
+   "govde_gelen": 0,
+   "toplam_gelen": 175,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/en-cok-satan-muzik-2026-w47/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Müzik aleti Ürünü (16 Kasım 2026)",
+   "kategori": "muzik",
+   "alt_kategori": "gitar",
+   "govde_gelen": 0,
+   "toplam_gelen": 175,
+   "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -377,34 +425,6 @@
    ]
   },
   {
-   "yol": "/kategori/yazi-edebiyat/",
-   "tur": "kategori",
-   "baslik": "Yazı & Edebiyat",
-   "kategori": "yazi-edebiyat",
-   "alt_kategori": "",
-   "govde_gelen": 1,
-   "toplam_gelen": 171,
-   "tik": 1,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/"
-   ]
-  },
-  {
-   "yol": "/kategori/yazi-edebiyat/okuma/",
-   "tur": "kategori",
-   "baslik": "Okuma & Kitap Kulübü",
-   "kategori": "yazi-edebiyat",
-   "alt_kategori": "okuma",
-   "govde_gelen": 1,
-   "toplam_gelen": 5,
-   "tik": 2,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/"
-   ]
-  },
-  {
    "yol": "/kategori/yemek-mutfak/ekmek-pasta/",
    "tur": "kategori",
    "baslik": "Ekmek & Pasta",
@@ -453,7 +473,7 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 1,
-   "toplam_gelen": 171,
+   "toplam_gelen": 11,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -565,7 +585,7 @@
    "kategori": "muzik",
    "alt_kategori": "gitar",
    "govde_gelen": 1,
-   "toplam_gelen": 7,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -579,7 +599,7 @@
    "kategori": "muzik",
    "alt_kategori": "gitar",
    "govde_gelen": 1,
-   "toplam_gelen": 7,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -593,7 +613,7 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "orgu-tig",
    "govde_gelen": 1,
-   "toplam_gelen": 8,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -607,7 +627,7 @@
    "kategori": "yemek-mutfak",
    "alt_kategori": "kahve",
    "govde_gelen": 1,
-   "toplam_gelen": 171,
+   "toplam_gelen": 10,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -649,7 +669,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "toplam_gelen": 171,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -663,7 +683,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "toplam_gelen": 9,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -893,7 +913,7 @@
    "yol": "/kategori/seyahat-gezi/",
    "baslik": "Seyahat & Gezi",
    "govde_gelen": 0,
-   "toplam_gelen": 171,
+   "toplam_gelen": 175,
    "tik": 1
   },
   {
@@ -928,7 +948,7 @@
    "yol": "/kategori/yazilim-kodlama/",
    "baslik": "Yazılım & Kodlama",
    "govde_gelen": 0,
-   "toplam_gelen": 171,
+   "toplam_gelen": 175,
    "tik": 1
   },
   {
@@ -989,8 +1009,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 4,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 10,
+   "toplam_gelen": 10,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1025,8 +1045,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 5,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1046,7 +1066,7 @@
    "alt_kategori": "akvaryum",
    "govde_gelen": 1,
    "icerik_gelen": 11,
-   "toplam_gelen": 171,
+   "toplam_gelen": 11,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1061,9 +1081,9 @@
    "kategori": "evcil-hayvan",
    "alt_kategori": "akvaryum",
    "govde_gelen": 0,
-   "icerik_gelen": 11,
-   "toplam_gelen": 171,
-   "tik": 1,
+   "icerik_gelen": 10,
+   "toplam_gelen": 10,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
    "makale_sayisi": null
@@ -1157,8 +1177,22 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
-   "icerik_gelen": 4,
-   "toplam_gelen": 4,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w47/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Kitabı (16 Kasım 2026)",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "okuma",
+   "govde_gelen": 0,
+   "icerik_gelen": 15,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1170,13 +1204,14 @@
    "baslik": "Deri İşçiliği Başlangıç Seti: İlk Alınacaklar (2026)",
    "kategori": "el-sanatlari",
    "alt_kategori": "deri-isleri",
-   "govde_gelen": 2,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
+   "govde_gelen": 3,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-cok-satan-el-isi-2026-w46/",
+    "/makale/en-cok-satan-el-isi-2026-w47/",
     "/makale/evde-yapilacak-hobiler/"
    ],
    "makale_sayisi": null
@@ -1187,13 +1222,14 @@
    "baslik": "Diamond Painting Nedir, Nasıl Yapılır?",
    "kategori": "el-sanatlari",
    "alt_kategori": "diamond-painting",
-   "govde_gelen": 3,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "govde_gelen": 4,
+   "icerik_gelen": 10,
+   "toplam_gelen": 10,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-cok-satan-el-isi-2026-w46/",
+    "/makale/en-cok-satan-el-isi-2026-w47/",
     "/makale/evde-yapilacak-hobiler/",
     "/makale/puzzle-aksesuarlari-masa-yapistirici-cerceve/"
    ],
@@ -1238,9 +1274,9 @@
    "kategori": "muzik",
    "alt_kategori": "dj-produksiyon",
    "govde_gelen": 0,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
-   "tik": 1,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
    "makale_sayisi": null
@@ -1333,13 +1369,14 @@
    "baslik": "Elektro Gitar Başlangıç Seti: Gitar, Amfi ve İlk Pedal",
    "kategori": "muzik",
    "alt_kategori": "gitar",
-   "govde_gelen": 2,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "govde_gelen": 3,
+   "icerik_gelen": 10,
+   "toplam_gelen": 10,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/dj-kontrol-cihazi-secimi-yeni-baslayanlar/",
+    "/makale/en-cok-satan-muzik-2026-w47/",
     "/makale/sifirdan-gitar-ogrenmek/"
    ],
    "makale_sayisi": null
@@ -1351,8 +1388,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "",
    "govde_gelen": 0,
-   "icerik_gelen": 5,
-   "toplam_gelen": 171,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1365,8 +1402,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bahcecilik",
    "govde_gelen": 0,
-   "icerik_gelen": 5,
-   "toplam_gelen": 5,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1379,9 +1416,23 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "resim-boyama",
    "govde_gelen": 0,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/en-cok-satan-el-isi-2026-w47/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Sanat ve El İşi Ürünü (16 Kasım 2026)",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "resim-boyama",
+   "govde_gelen": 0,
+   "icerik_gelen": 19,
+   "toplam_gelen": 175,
+   "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
    "makale_sayisi": null
@@ -1393,9 +1444,37 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 0,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/en-cok-satan-kutu-oyun-2026-w47/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Kutu Oyunu Ürünü (16 Kasım 2026)",
+   "kategori": "koleksiyon",
+   "alt_kategori": "masaustu-oyun",
+   "govde_gelen": 0,
+   "icerik_gelen": 12,
+   "toplam_gelen": 175,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/en-cok-satan-muzik-2026-w47/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Müzik aleti Ürünü (16 Kasım 2026)",
+   "kategori": "muzik",
+   "alt_kategori": "gitar",
+   "govde_gelen": 0,
+   "icerik_gelen": 9,
+   "toplam_gelen": 175,
+   "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
    "makale_sayisi": null
@@ -1473,8 +1552,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 6,
-   "icerik_gelen": 11,
-   "toplam_gelen": 11,
+   "icerik_gelen": 12,
+   "toplam_gelen": 12,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1544,14 +1623,15 @@
    "baslik": "Evde Başlayabileceğin 8 Yaratıcı El Sanatı Hobisi ve Gerekli Malzemeler",
    "kategori": "el-sanatlari",
    "alt_kategori": "",
-   "govde_gelen": 6,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "govde_gelen": 7,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/diamond-painting-nedir-nasil-yapilir/",
     "/makale/en-cok-satan-el-isi-2026-w46/",
+    "/makale/en-cok-satan-el-isi-2026-w47/",
     "/makale/evde-yapilacak-hobiler/",
     "/makale/hobi-odasi-nasil-kurulur/",
     "/makale/kadinlar-icin-evde-yapilacak-hobiler/",
@@ -1654,8 +1734,8 @@
    "kategori": "muzik",
    "alt_kategori": "gitar",
    "govde_gelen": 1,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1670,8 +1750,8 @@
    "kategori": "muzik",
    "alt_kategori": "gitar",
    "govde_gelen": 1,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1685,13 +1765,14 @@
    "baslik": "Gitar Nasıl Çalınır? Tutuş, Temel Akor ve İlk Ritim",
    "kategori": "muzik",
    "alt_kategori": "gitar",
-   "govde_gelen": 2,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "govde_gelen": 3,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/",
+    "/makale/en-cok-satan-muzik-2026-w47/",
     "/makale/sifirdan-gitar-ogrenmek/"
    ],
    "makale_sayisi": null
@@ -1717,8 +1798,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "",
    "govde_gelen": 2,
-   "icerik_gelen": 17,
-   "toplam_gelen": 171,
+   "icerik_gelen": 10,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1734,8 +1815,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "orgu-tig",
    "govde_gelen": 1,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1751,7 +1832,7 @@
    "alt_kategori": "kahve",
    "govde_gelen": 1,
    "icerik_gelen": 10,
-   "toplam_gelen": 171,
+   "toplam_gelen": 10,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1915,8 +1996,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "icerik_gelen": 21,
-   "toplam_gelen": 171,
+   "icerik_gelen": 10,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1931,8 +2012,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2108,13 +2189,14 @@
    "baslik": "Sıfırdan Gitar Öğrenmek: Doğru Ekipmanla Başla (2026)",
    "kategori": "muzik",
    "alt_kategori": "gitar",
-   "govde_gelen": 2,
-   "icerik_gelen": 5,
-   "toplam_gelen": 5,
+   "govde_gelen": 3,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/",
+    "/makale/en-cok-satan-muzik-2026-w47/",
     "/makale/evde-yapilacak-hobiler/"
    ],
    "makale_sayisi": null
@@ -2204,13 +2286,14 @@
    "baslik": "Yetişkin Hobi Setleri: Hangisi Alınır? (Boyama, Maket, Diamond Painting)",
    "kategori": "el-sanatlari",
    "alt_kategori": "diamond-painting",
-   "govde_gelen": 2,
+   "govde_gelen": 3,
    "icerik_gelen": 9,
    "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
+    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w47/",
     "/makale/diamond-painting-nedir-nasil-yapilir/"
    ],
    "makale_sayisi": null
@@ -2222,8 +2305,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 2,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2257,7 +2340,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 171,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2348,8 +2431,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "",
    "govde_gelen": 3,
-   "icerik_gelen": 11,
-   "toplam_gelen": 171,
+   "icerik_gelen": 12,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2357,7 +2440,7 @@
     "/makale/hobi-odasi-nasil-kurulur/",
     "/makale/orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026/"
    ],
-   "makale_sayisi": 9
+   "makale_sayisi": 10
   },
   {
    "yol": "/kategori/el-sanatlari/orgu-tig/",
@@ -2415,8 +2498,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "resim-boyama",
    "govde_gelen": 5,
-   "icerik_gelen": 13,
-   "toplam_gelen": 13,
+   "icerik_gelen": 14,
+   "toplam_gelen": 14,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2426,7 +2509,7 @@
     "/makale/hobi-odasi-nasil-kurulur/",
     "/makale/yetiskin-hobi-setleri/"
    ],
-   "makale_sayisi": 1
+   "makale_sayisi": 2
   },
   {
    "yol": "/kategori/el-sanatlari/mum-sabun/",
@@ -2485,15 +2568,15 @@
    "kategori": "muzik",
    "alt_kategori": "",
    "govde_gelen": 2,
-   "icerik_gelen": 13,
-   "toplam_gelen": 171,
+   "icerik_gelen": 14,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/gitar-nasil-calinir/",
     "/makale/sifirdan-gitar-ogrenmek/"
    ],
-   "makale_sayisi": 11
+   "makale_sayisi": 12
   },
   {
    "yol": "/kategori/muzik/gitar/",
@@ -2502,15 +2585,15 @@
    "kategori": "muzik",
    "alt_kategori": "gitar",
    "govde_gelen": 2,
-   "icerik_gelen": 10,
-   "toplam_gelen": 10,
+   "icerik_gelen": 11,
+   "toplam_gelen": 11,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/",
     "/makale/sifirdan-gitar-ogrenmek/"
    ],
-   "makale_sayisi": 5
+   "makale_sayisi": 6
   },
   {
    "yol": "/kategori/muzik/klavye-piyano/",
@@ -2579,7 +2662,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 15,
-   "toplam_gelen": 171,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2676,15 +2759,15 @@
    "kategori": "koleksiyon",
    "alt_kategori": "",
    "govde_gelen": 2,
-   "icerik_gelen": 14,
-   "toplam_gelen": 171,
+   "icerik_gelen": 15,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/aile-kutu-oyunlari/",
     "/makale/en-iyi-kutu-oyunlari-2026/"
    ],
-   "makale_sayisi": 12
+   "makale_sayisi": 13
   },
   {
    "yol": "/kategori/koleksiyon/pul-para/",
@@ -2769,15 +2852,15 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 2,
-   "icerik_gelen": 11,
-   "toplam_gelen": 11,
+   "icerik_gelen": 12,
+   "toplam_gelen": 12,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/aile-kutu-oyunlari/",
     "/makale/en-iyi-kutu-oyunlari-2026/"
    ],
-   "makale_sayisi": 5
+   "makale_sayisi": 6
   },
   {
    "yol": "/kategori/spor-fitness/",
@@ -2787,7 +2870,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 171,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2908,7 +2991,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 4,
-   "toplam_gelen": 171,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3002,7 +3085,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 9,
-   "toplam_gelen": 171,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3084,7 +3167,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 8,
-   "toplam_gelen": 171,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3165,7 +3248,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 10,
-   "toplam_gelen": 171,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3247,7 +3330,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 4,
-   "toplam_gelen": 171,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3324,7 +3407,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 171,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3394,7 +3477,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 171,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3462,15 +3545,16 @@
    "baslik": "Yazı & Edebiyat",
    "kategori": "yazi-edebiyat",
    "alt_kategori": "",
-   "govde_gelen": 1,
-   "icerik_gelen": 3,
-   "toplam_gelen": 171,
+   "govde_gelen": 2,
+   "icerik_gelen": 4,
+   "toplam_gelen": 175,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
-    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/"
+    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
+    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w47/"
    ],
-   "makale_sayisi": 1
+   "makale_sayisi": 2
   },
   {
    "yol": "/kategori/yazi-edebiyat/yazarlik/",
@@ -3520,15 +3604,16 @@
    "baslik": "Okuma & Kitap Kulübü",
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
-   "govde_gelen": 1,
-   "icerik_gelen": 5,
-   "toplam_gelen": 5,
+   "govde_gelen": 2,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
-    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/"
+    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
+    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w47/"
    ],
-   "makale_sayisi": 1
+   "makale_sayisi": 2
   }
  ]
 }
