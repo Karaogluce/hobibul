@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-16",
+ "generated_at": "2026-11-17",
  "period_days": 30,
  "visitors_daily": [
   {
@@ -82,7 +82,7 @@
   },
   {
    "name": "Organic Search",
-   "sessions": 38
+   "sessions": 39
   },
   {
    "name": "AI Assistant",
@@ -90,7 +90,7 @@
   },
   {
    "name": "Unassigned",
-   "sessions": 3
+   "sessions": 4
   }
  ],
  "top_pages": [
