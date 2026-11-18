@@ -1230,6 +1230,16 @@
    "anahtar": "sss:evcil-hayvan:akvaryum:akvaryum-balik-suyu-nasil-olmali",
    "neden": "kısa (873 kelime, güvenlik tabanı 1000)",
    "tarih": "2026-11-19"
+  },
+  {
+   "anahtar": "nasil_yapilir:evcil-hayvan:akvaryum:akvaryum-balik-pisligi-nasil-temizlenir",
+   "neden": "kısa (734 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-19"
+  },
+  {
+   "anahtar": "sss:evcil-hayvan:akvaryum",
+   "neden": "kısa (987 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-19"
   }
  ],
  "makaleler": [
