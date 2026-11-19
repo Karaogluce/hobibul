@@ -2172,8 +2172,17 @@ def _json_oku(path):
         return None
 
 
+def _gsc_sira_onceligi(position):
+    """Ortalama 8-20. sıradaki sorgular 'sayfa 2' fırsatıdır; önce denenir."""
+    try:
+        p = float(position)
+    except (TypeError, ValueError):
+        return 1
+    return 0 if 8 <= p <= 20 else 1
+
+
 def talep_ham_sorgular(gsc_path=None, seed_path=None):
-    """GSC varsa gösterim, sonra tıklama. Yoksa tohum listesinin sırası."""
+    """GSC varsa önce 8-20. sıra fırsatları, sonra gösterim/tıklama. Yoksa tohum sırası."""
     gsc_path = gsc_path if gsc_path is not None else GSC_PATH
     seed_path = seed_path if seed_path is not None else GSC_SEED_PATH
     data = _json_oku(gsc_path)
@@ -2189,10 +2198,12 @@ def talep_ham_sorgular(gsc_path=None, seed_path=None):
                 "query": q,
                 "impressions": int(row.get("impressions") or 0),
                 "clicks": int(row.get("clicks") or 0),
+                "position": float(row.get("position") or 0),
                 "sira": i,
             })
     if rows:
-        rows.sort(key=lambda r: (-r["impressions"], -r["clicks"], r["sira"]))
+        rows.sort(key=lambda r: (_gsc_sira_onceligi(r.get("position")),
+                                 -r["impressions"], -r["clicks"], r["sira"]))
         return rows, "gsc"
     seed = _json_oku(seed_path) or {}
     queries = seed.get("queries") if isinstance(seed, dict) else seed
@@ -2206,9 +2217,14 @@ def talep_ham_sorgular(gsc_path=None, seed_path=None):
 
 
 def talep_kumeleri(rows):
-    """Yakın sorguları tek hedefte birleştir. Temsilci en yüksek taleplidir."""
+    """Yakın sorguları tek hedefte birleştir. Temsilci en yüksek taleplidir.
+
+    8-20. sıra fırsatı taşıyan küme, daha yüksek gösterimli ama uzak
+    sıradaki kümelerden önce gelir (talep_ham_sorgular sırası korunur).
+    """
     kumeler = []
     for row in rows:
+        oncelik = _gsc_sira_onceligi(row.get("position"))
         hedef = None
         for kume in kumeler:
             if any(sorgular_yakin(row["query"], u) for u in kume["uyeler"]):
@@ -2218,6 +2234,7 @@ def talep_kumeleri(rows):
             hedef["uyeler"].append(row["query"])
             hedef["impressions"] += row["impressions"]
             hedef["clicks"] += row["clicks"]
+            hedef["oncelik"] = min(hedef["oncelik"], oncelik)
             if row["sira"] < hedef["sira"]:
                 hedef["sira"] = row["sira"]
         else:
@@ -2226,9 +2243,10 @@ def talep_kumeleri(rows):
                 "uyeler": [row["query"]],
                 "impressions": row["impressions"],
                 "clicks": row["clicks"],
+                "oncelik": oncelik,
                 "sira": row["sira"],
             })
-    kumeler.sort(key=lambda k: (-k["impressions"], -k["clicks"], k["sira"]))
+    kumeler.sort(key=lambda k: (k["oncelik"], -k["impressions"], -k["clicks"], k["sira"]))
     return kumeler
 
 
