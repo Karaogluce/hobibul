@@ -1,6 +1,8 @@
 {% extends "base.html" %}
 {% block title %}{{ page.meta_title }}{% endblock %}
 {% block description %}{{ page.meta_description }}{% endblock %}
+{# 404 ve benzeri noindex sayfalarda canonical yazılmaz; dosya yolu sondaki / kuralını bozuyor. #}
+{% block canonical %}{% if not page.noindex %}<link rel="canonical" href="{{ base_url }}{{ canonical_path }}">{% endif %}{% endblock %}
 {% block head %}{% if page.noindex %}<meta name="robots" content="noindex, follow">{% endif %}{% endblock %}
 {% block jsonld %}{% if jsonld %}<script type="application/ld+json">{{ jsonld|safe }}</script>{% endif %}{% endblock %}
 {% block content %}
