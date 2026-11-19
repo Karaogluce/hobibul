@@ -502,18 +502,42 @@ def _ayirt_edici(kelimeler, sub_kelimeler):
     return [w for w in kelimeler or [] if w not in stop and w not in sub]
 
 
+_YIL_RE = re.compile(r"\b(19\d{2}|20\d{2})\b")
+
+
+def _baslik_yili(baslik):
+    """Başlıktaki ilk 4 haneli yılı (19xx/20xx) döndürür; yoksa None.
+
+    Başlık metin ya da `_baslik_kelimeleri` çıktısı kelime listesi olabilir.
+    """
+    if isinstance(baslik, (list, tuple, set)):
+        baslik = " ".join(str(w) for w in baslik)
+    m = _YIL_RE.search(baslik or "")
+    return m.group(1) if m else None
+
+
 def _baslik_cakisiyor(aday, mevcutlar, sub_adi=""):
     """Aynı şablon ya da aynı ayırt edici kelimeler varsa çakışır.
 
     'gitar nasıl çalınır' ile 'gitar nasıl tutulur' çakışmaz. 'Yeni
     Başlayanlar Rehberi' şablonu, aynı alt kategoride bir kez durur.
+    İki başlık da yıl taşıyor ve yıllar farklıysa (2026 vs 2027) yıllık
+    tazeleme sayılır, çakışma sayılmaz.
     """
     if not aday:
         return False
     sub_k = _baslik_kelimeleri(sub_adi)
     imza = _sablon_imza(aday)
     if imza:
-        return any(_sablon_imza(d) == imza for d in mevcutlar if d)
+        aday_yil = _baslik_yili(aday)
+        for d in mevcutlar:
+            if not d or _sablon_imza(d) != imza:
+                continue
+            diger_yil = _baslik_yili(d)
+            if aday_yil and diger_yil and aday_yil != diger_yil:
+                continue
+            return True
+        return False
     ay = _ayirt_edici(aday, sub_k)
     if not ay:
         return False
@@ -1965,7 +1989,7 @@ def uret(t, products, key, models, model_idx, ukey, log, draft, tarih):
     if eksik:
         return None, f"ürün kimliği bulunamadı: {', '.join(eksik)}"
     prods = [pool[i] for i in t["ids"]]
-    gevsek = isinstance(t.get("oncelik"), int) or bool(t.get("brief"))
+    gevsek = isinstance(t.get("oncelik"), int) or bool(t.get("brief")) or bool(t.get("gevsek"))
     if gevsek:
         gecersiz = [p["id"] for p in prods if not urun_denetim.gecerli_mi(p)]
         if gecersiz:
@@ -2306,8 +2330,35 @@ def talep_sec(rows, log, makaleler, adet):
     return secilen, guclendir
 
 
+def _alt_gecerli_urunler(products, cat, sub):
+    """Alt kategorinin biçimce geçerli ürünleri (doğrulanmışlık şartı olmadan).
+
+    Arama talebi eşleşmesinde son çare: doğrulanmış ürün yoksa ASIN'siz ama
+    arama linki kurulabilen kayıtlar konuyu kurtarır.
+    """
+    kat = (products or {}).get(cat, {}) or {}
+    ek = getattr(urun_denetim, "EK_LISTE", "_ek")
+    havuz = list(kat.get(sub, []) or []) + [
+        rec for rec in (kat.get(ek) or []) if rec.get("alt") == sub
+    ]
+    gorulen, out = set(), []
+    for rec in havuz:
+        rid = str(rec.get("id") or "").strip()
+        if not rid or rid in gorulen or not urun_denetim.gecerli_mi(rec):
+            continue
+        gorulen.add(rid)
+        out.append(rec)
+    return out
+
+
 def kategori_eslestir(sorgu, cats, products=None):
-    """Sorguya en yakın kategori / alt kategori. Ürün verilirse en az 2 doğrulanmış ürün şart."""
+    """Sorguya en yakın kategori / alt kategori.
+
+    Dönüş: (cat_id, sub_id, sub_adı, skor, urun_durumu). urun_durumu
+    'dogrulanmis' ise o alt kategoride en az 2 doğrulanmış ürün var;
+    'gecerli' ise doğrulanmış kalmadı, biçimce geçerli (arama linki
+    kurulabilir) en az 2 ürünle eşleşti. Hiçbiri yoksa None.
+    """
     q = _govde_kume(_talep_govde(sorgu))
     if not q:
         return None
@@ -2331,12 +2382,20 @@ def kategori_eslestir(sorgu, cats, products=None):
             ozel = 1 if sid == "_main" else 0
             adaylar.append((skor, ozel, c.get("id"), sid, name or sid))
     adaylar.sort(key=lambda x: (x[0], x[1]), reverse=True)
-    for skor, _ozel, cat, sid, name in adaylar:
-        if products is not None:
-            plist = urun_denetim.alt_kategori_urunleri(products, cat, sid)
-            if len(plist) < 2:
-                continue
-        return cat, sid, name, skor
+    for urun_durumu in ("dogrulanmis", "gecerli"):
+        if products is None:
+            urun_durumu = "dogrulanmis"
+        for skor, _ozel, cat, sid, name in adaylar:
+            if products is not None:
+                if urun_durumu == "dogrulanmis":
+                    sayi = len(urun_denetim.alt_kategori_urunleri(products, cat, sid))
+                else:
+                    sayi = len(_alt_gecerli_urunler(products, cat, sid))
+                if sayi < 2:
+                    continue
+            return cat, sid, name, skor, urun_durumu
+        if products is None:
+            break
     return None
 
 
@@ -2690,11 +2749,16 @@ def talep_uret(log, products, cats, articles_dir, key, models, model_idx, ukey, 
     for kume in secilen:
         eslesen = kategori_eslestir(kume["sorgu"], cats, products)
         if not eslesen:
-            print(f"  ! kategori yok, sonraki sorgu: {kume['sorgu']}")
+            print(f"  ! kategori yok (atlandı, loglandı): {kume['sorgu']}")
             continue
-        cat, sub, sub_name, _skor = eslesen
+        cat, sub, sub_name, _skor, urun_durumu = eslesen
         cat_name = next((c.get("name") for c in cats if c.get("id") == cat), cat)
         plist = urun_denetim.alt_kategori_urunleri(products, cat, sub if sub != "_main" else "_main")
+        gevsek_urun = False
+        if len(plist) < 2 and urun_durumu == "gecerli":
+            plist = _alt_gecerli_urunler(products, cat, sub if sub != "_main" else "_main")
+            gevsek_urun = True
+            print(f"  → kategori eşleşti (geçerli ürünlerle): {kume['sorgu']} → {cat}/{sub}")
         if len(plist) < 2:
             print(f"  ! yeterli ürün yok, sonraki sorgu: {kume['sorgu']}")
             continue
@@ -2710,6 +2774,7 @@ def talep_uret(log, products, cats, articles_dir, key, models, model_idx, ukey, 
             "sorgu": kume["sorgu"],
             "hedef": 1500,
             "kaynak": "talep",
+            "gevsek": gevsek_urun,
             "uyeler": kume.get("uyeler") or [],
         })
     dolu = bugunun_kategorileri(log, tarih, harita)
@@ -2848,10 +2913,12 @@ def cesitlilik_plani(gun_sayisi=7, baslangic=None, log=None, products=None, cats
                 eslesen = kategori_eslestir(kume["sorgu"], cats, products)
                 if not eslesen:
                     continue
-                cat, sub, sub_name, _skor = eslesen
+                cat, sub, sub_name, _skor, _urun_durumu = eslesen
                 plist = urun_denetim.alt_kategori_urunleri(products, cat, sub if sub != "_main" else "_main")
                 if len(plist) < 2:
-                    continue
+                    gplist = _alt_gecerli_urunler(products, cat, sub if sub != "_main" else "_main")
+                    if len(gplist) < 2:
+                        continue
                 aday.append({
                     "cat": cat, "sub": sub, "sub_name": sub_name, "title": kume["baslik"],
                     "sorgu": kume["sorgu"], "key": kume["anahtar"], "kaynak": kaynak_ad,
@@ -3096,6 +3163,10 @@ def main():
         print(f"! benzer başlık: {rapor['benzer']} konu kuyruğa alınmadı; sıra başka konuya geçti")
     if rapor.get("bozuk_baslik"):
         print(f"! bozuk başlık: {rapor['bozuk_baslik']} konu kuyruğa alınmadı")
+    print(f"Kuyrukta {len(queue)} konu.")
+    if len(queue) < 15:
+        print(f"::warning::Konu kuyruğu zayıf: {len(queue)} konu kaldı (15 altı). "
+              "konu_havuzu.json takviyesi gerekli.")
 
     talep_rows, talep_kaynak = talep_ham_sorgular()
     talep_kalan = max(0, gsc_hedef() - bugun_talep_say(log, bugun))
@@ -3103,7 +3174,6 @@ def main():
         talep_rows, log, urun_denetim.makale_verileri(ARTICLES), talep_kalan)
 
     if a.konu_listesi:
-        print(f"Kuyrukta {len(queue)} konu.")
         if rapor.get("benzer"):
             print(f"! benzer başlık: {rapor['benzer']} konu elendi (aynı şablon veya aynı soru)")
         if rapor.get("bozuk_baslik"):
@@ -3157,6 +3227,13 @@ def main():
         print("Arama talebi bu çalışmada denenmedi: Gemini modelleri yanıt vermedi. Sonraki çalışma kalanı yazar.")
     save_log(log)
     _gun_ozeti(bugun, log, rapor, made, talep_made, kota)
+    if (bugun_uretilen_say(log, bugun) + bugun_talep_say(log, bugun)) == 0 \
+            and not queue and not kota:
+        print("::warning::Bugün makale üretilemedi: kuyrukta uygun konu kalmadı.")
+        if datetime.now(_istanbul_tz()).hour >= 20:
+            print("::error::Günün son telafi çalışması da boş geçti; "
+                  "workflow başarısız sayılıyor.")
+            sys.exit(1)
 
 
 def _duzenli_uret(queue, adet, products, key, models, model_idx, ukey, log, draft, bugun, yedek_acik):

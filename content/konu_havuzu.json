@@ -11063,5 +11063,1345 @@
    "urun": 0,
    "ham_tip_onerisi": null
   }
+ },
+ {
+  "sorgu": "kamp yaparken yanına ne almalısın",
+  "kategori": "outdoor",
+  "alt": "kampcilik",
+  "tip_onerisi": "kontrol_listesi",
+  "h1": "Kampa Giderken Yanına Alman Gerekenler: En Çok Unutulan 12 Şey",
+  "urunler": [
+   "coleman-sundome-4",
+   "thermarest-z-lite",
+   "gsi-bugaboo"
+  ],
+  "oncelik": 50,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "kontrol_listesi",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "trekking sırt çantası nasıl hazırlanır",
+  "kategori": "outdoor",
+  "alt": "dagcilik-trekking",
+  "tip_onerisi": "nasil_yapilir",
+  "h1": "Trekking Sırt Çantası Nasıl Hazırlanır? Ağırlık Dağılımı ve Yerleşim",
+  "urunler": [
+   "bd-trail-poles",
+   "salomon-x-ultra-4",
+   "osprey-daylite-plus"
+  ],
+  "oncelik": 51,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "nasil_yapilir",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "ilk olta takımı alırken nelere bakılır",
+  "kategori": "outdoor",
+  "alt": "balikcilik",
+  "tip_onerisi": "rehber",
+  "h1": "İlk Olta Takımını Alırken Nelere Bakmalı? Kamış, Makine ve Misina",
+  "urunler": [
+   "ugly-stik-gx2",
+   "shimano-sedona-fi",
+   "plano-edge"
+  ],
+  "oncelik": 52,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "rehber",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "bisiklet bakımı evde nasıl yapılır",
+  "kategori": "outdoor",
+  "alt": "bisiklet",
+  "tip_onerisi": "nasil_yapilir",
+  "h1": "Evde Bisiklet Bakımı: Zincir, Fren ve Lastik Kontrolü",
+  "urunler": [
+   "schwinn-discover",
+   "bell-formula-helmet",
+   "topeak-joeblow"
+  ],
+  "oncelik": 53,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "nasil_yapilir",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "kaya tırmanışına başlamak için ne gerekli",
+  "kategori": "outdoor",
+  "alt": "kaya-tirmanis",
+  "tip_onerisi": "yeni_baslayan",
+  "h1": "Kaya Tırmanışına Başlarken: Ayakkabı, Emniyet Kemeri ve İlk Ders",
+  "urunler": [
+   "petzl-grigri",
+   "black-diamond-momentum",
+   "la-sportiva-tarantulace"
+  ],
+  "oncelik": 54,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "yeni_baslayan",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "amigurumi yapmaya nasıl başlanır",
+  "kategori": "el-sanatlari",
+  "alt": "orgu-tig",
+  "tip_onerisi": "nasil_yapilir",
+  "h1": "Amigurumi Yapmaya Nasıl Başlanır? İlk Oyuncak İçin Malzeme ve Adımlar",
+  "urunler": [
+   "clover-amour-hook",
+   "boye-needle-set",
+   "lion-brand-yarn"
+  ],
+  "oncelik": 55,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "nasil_yapilir",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "evde takı yapımı için hangi malzemeler gerekli",
+  "kategori": "el-sanatlari",
+  "alt": "taki-yapimi",
+  "tip_onerisi": "kontrol_listesi",
+  "h1": "Evde Takı Yapımı: Kolye ve Bileklik İçin İlk Malzeme Kutusu",
+  "urunler": [
+   "beadalon-wire",
+   "jewelry-pliers",
+   "pandahall-glass-beads"
+  ],
+  "oncelik": 56,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "kontrol_listesi",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "ahşap işlerinde yeni başlayanların yaptığı hatalar",
+  "kategori": "el-sanatlari",
+  "alt": "ahsap-isleri",
+  "tip_onerisi": "hatalar",
+  "h1": "Ahşap İşlerinde Yeni Başlayanların Sık Yaptığı Hatalar",
+  "urunler": [
+   "dremel-3000",
+   "irwin-drill-bits",
+   "stanley-screwdrivers"
+  ],
+  "oncelik": 57,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "hatalar",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "suluboya mı akrilik mi yeni başlayan için",
+  "kategori": "el-sanatlari",
+  "alt": "resim-boyama",
+  "tip_onerisi": "rehber",
+  "h1": "Suluboya mı Akrilik mi? Yeni Başlayanlar İçin Boya Seçimi",
+  "urunler": [
+   "liquitex-acrylic-set",
+   "winsor-newton-watercolor",
+   "princeton-brushes"
+  ],
+  "oncelik": 58,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "rehber",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "evde mum yapımı nasıl olur",
+  "kategori": "el-sanatlari",
+  "alt": "mum-sabun",
+  "tip_onerisi": "nasil_yapilir",
+  "h1": "Evde Mum Yapımı: Soya Mumu, Fitil ve Koku Esansıyla İlk Döküm",
+  "urunler": [
+   "now-foods-lavender",
+   "hearts-crafts-soy-wax",
+   "stephenson-melt-pour"
+  ],
+  "oncelik": 59,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "nasil_yapilir",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "diamond painting taşları nasıl saklanır",
+  "kategori": "el-sanatlari",
+  "alt": "diamond-painting",
+  "tip_onerisi": "kontrol_listesi",
+  "h1": "Diamond Painting Düzeni: Taş Saklama, Organizer ve Masa Kurulumu",
+  "urunler": [
+   "diamond-painting-set",
+   "diamond-painting-pen",
+   "diamond-painting-lightpad"
+  ],
+  "oncelik": 60,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "kontrol_listesi",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "deri işlerken hangi aletler şart",
+  "kategori": "el-sanatlari",
+  "alt": "deri-isleri",
+  "tip_onerisi": "rehber",
+  "h1": "Deri İşçiliğinde Olmazsa Olmaz Aletler: Keski, Zımba ve Dikiş Seti",
+  "urunler": [
+   "fiebings-leather-dye",
+   "tandy-leather-starter-kit",
+   "weaver-veg-tan-leather"
+  ],
+  "oncelik": 61,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "rehber",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "gitar akort nasıl yapılır",
+  "kategori": "muzik",
+  "alt": "gitar",
+  "tip_onerisi": "nasil_yapilir",
+  "h1": "Gitar Akort Nasıl Yapılır? Kulaktan ve Aletle Akort",
+  "urunler": [
+   "fender-player-strat",
+   "yamaha-f310",
+   "boss-katana-50"
+  ],
+  "oncelik": 62,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "nasil_yapilir",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "evde piyano öğrenmek için hangi klavye alınmalı",
+  "kategori": "muzik",
+  "alt": "klavye-piyano",
+  "tip_onerisi": "rehber",
+  "h1": "Evde Piyano Öğrenmek İçin Klavye Seçimi: 61 mi 88 Tuş mu?",
+  "urunler": [
+   "yamaha-p45",
+   "casio-ct-s300",
+   "roland-fp10"
+  ],
+  "oncelik": 63,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "rehber",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "evde davul çalışmak için ne almalı",
+  "kategori": "muzik",
+  "alt": "davul-perkusyon",
+  "tip_onerisi": "rehber",
+  "h1": "Evde Davul Çalışmak: Pad, Elektronik Davul ve Sessiz Çözümler",
+  "urunler": [
+   "alesis-nitro-max",
+   "vic-firth-5a",
+   "roland-td1dmk"
+  ],
+  "oncelik": 64,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "rehber",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "evde müzik prodüksiyonuna başlamak için ne gerekli",
+  "kategori": "muzik",
+  "alt": "dj-produksiyon",
+  "tip_onerisi": "kontrol_listesi",
+  "h1": "Evde Müzik Prodüksiyonuna Giriş: Ses Kartı, Kulaklık ve DAW Seçimi",
+  "urunler": [
+   "pioneer-ddj-flx4",
+   "ath-m50x",
+   "focusrite-scarlett-2i2"
+  ],
+  "oncelik": 65,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "kontrol_listesi",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "keman öğrenmeye başlarken ne bilmeli",
+  "kategori": "muzik",
+  "alt": "keman-yayli",
+  "tip_onerisi": "yeni_baslayan",
+  "h1": "Keman Öğrenmeye Başlarken: Yaş, Boyut ve İlk Yay Tutuşu",
+  "urunler": [
+   "cecilio-cvn300-violin",
+   "cremona-sv175-violin",
+   "daddario-prelude-strings"
+  ],
+  "oncelik": 66,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "yeni_baslayan",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "raspberry pi ile ev otomasyonu nasıl yapılır",
+  "kategori": "teknoloji",
+  "alt": "raspberry-pi-elektronik",
+  "tip_onerisi": "nasil_yapilir",
+  "h1": "Raspberry Pi ile İlk Ev Otomasyonu Projesi: Röle ve Sensör Kurulumu",
+  "urunler": [
+   "raspberry-pi-5",
+   "arduino-uno-r3",
+   "freenove-starter-kit"
+  ],
+  "oncelik": 67,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "nasil_yapilir",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "3d baskıda en sık yapılan hatalar",
+  "kategori": "teknoloji",
+  "alt": "3d-yazici",
+  "tip_onerisi": "hatalar",
+  "h1": "3D Baskıda En Sık Yapılan Hatalar ve Çözümleri",
+  "urunler": [
+   "creality-ender-3-v3",
+   "bambu-lab-a1-mini",
+   "sunlu-pla-filament"
+  ],
+  "oncelik": 68,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "hatalar",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "drone uçururken dikkat edilmesi gereken kurallar",
+  "kategori": "teknoloji",
+  "alt": "drone",
+  "tip_onerisi": "sss",
+  "h1": "Drone Uçurmadan Önce Bilmen Gereken Kurallar ve Uçuş İzinleri",
+  "urunler": [
+   "dji-mini-4k",
+   "holy-stone-hs720",
+   "dji-neo"
+  ],
+  "oncelik": 69,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "sss",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "pc toplamak için hangi aletler gerekli",
+  "kategori": "teknoloji",
+  "alt": "oyun-pc-modlama",
+  "tip_onerisi": "kontrol_listesi",
+  "h1": "PC Toplama ve Modlama Aletleri: Tornavida, Termal Macun ve Kablo Düzeni",
+  "urunler": [
+   "keychron-k2",
+   "logitech-g502",
+   "corsair-4000d"
+  ],
+  "oncelik": 70,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "kontrol_listesi",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "çocuklar için robotik kodlama nasıl başlar",
+  "kategori": "teknoloji",
+  "alt": "robotik",
+  "tip_onerisi": "yeni_baslayan",
+  "h1": "Çocuklar İçin Robotik Kodlama: İlk Robot Seti ve Başlangıç Projeleri",
+  "urunler": [
+   "arduino-uno-r3",
+   "raspberry-pi-4",
+   "makeblock-mbot"
+  ],
+  "oncelik": 71,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "yeni_baslayan",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "pul koleksiyonuna nasıl başlanır",
+  "kategori": "koleksiyon",
+  "alt": "pul-para",
+  "tip_onerisi": "yeni_baslayan",
+  "h1": "Pul Koleksiyonuna Başlarken: Albüm, Maşa ve Kondisyon Dereceleri",
+  "urunler": [
+   "lighthouse-album",
+   "bausch-lomb-magnifier",
+   "numis-capsules"
+  ],
+  "oncelik": 72,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "yeni_baslayan",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "lego setleri nasıl saklanır",
+  "kategori": "koleksiyon",
+  "alt": "lego-model",
+  "tip_onerisi": "kontrol_listesi",
+  "h1": "LEGO Saklama ve Düzenleme: Parça Kutuları, Etiketleme ve Sergileme",
+  "urunler": [
+   "lego-icons-botanical",
+   "tamiya-model-kit",
+   "revell-paint-set"
+  ],
+  "oncelik": 73,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "kontrol_listesi",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "kart koleksiyonu nasıl korunur",
+  "kategori": "koleksiyon",
+  "alt": "kart-oyunlari",
+  "tip_onerisi": "rehber",
+  "h1": "Kart Koleksiyonu Koruması: Sleeve, Binder ve Saklama Kutusu Seçimi",
+  "urunler": [
+   "ultra-pro-sleeves",
+   "bcw-storage-box",
+   "dragon-shield-sleeves"
+  ],
+  "oncelik": 74,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "rehber",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "antika mı vintage mi nasıl anlaşılır",
+  "kategori": "koleksiyon",
+  "alt": "vintage-antika",
+  "tip_onerisi": "sss",
+  "h1": "Antika mı Vintage mi? Bit Pazarında Değer Anlamanın Yolları",
+  "urunler": [
+   "weiman-silver-polish",
+   "hygrometer",
+   "suction-cup-handle"
+  ],
+  "oncelik": 75,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "sss",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "1000 parça puzzle nasıl daha hızlı biter",
+  "kategori": "koleksiyon",
+  "alt": "puzzle",
+  "tip_onerisi": "yeni_baslayan",
+  "h1": "1000 Parça Puzzle'a Başlarken: Süre, Sıralama Tekniği ve Masa Düzeni",
+  "urunler": [
+   "puzzle-mat",
+   "puzzle-yapistirici",
+   "puzzle-cerceve"
+  ],
+  "oncelik": 76,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "yeni_baslayan",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "minyatür boyamaya nasıl başlanır",
+  "kategori": "koleksiyon",
+  "alt": "masaustu-oyun",
+  "tip_onerisi": "yeni_baslayan",
+  "h1": "Minyatür Boyamaya Giriş: Fırça, Primer ve İlk Boya Seti",
+  "urunler": [
+   "warhammer-40k-starter",
+   "dnd-starter-set",
+   "citadel-paint-set"
+  ],
+  "oncelik": 77,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "yeni_baslayan",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "koşuya yeni başlayanlar nasıl program yapmalı",
+  "kategori": "spor-fitness",
+  "alt": "kosu",
+  "tip_onerisi": "yeni_baslayan",
+  "h1": "Koşuya Başlama Programı: İlk 4 Hafta İçin Tempo ve Dinlenme",
+  "urunler": [
+   "nike-pegasus-41",
+   "garmin-forerunner-55",
+   "flipbelt"
+  ],
+  "oncelik": 78,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "yeni_baslayan",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "yoga mı pilates mi hangisi bana uygun",
+  "kategori": "spor-fitness",
+  "alt": "yoga-pilates",
+  "tip_onerisi": "sss",
+  "h1": "Yoga mı Pilates mi? Hedefine Göre Seçim ve İlk Ders Beklentisi",
+  "urunler": [
+   "liforme-yoga-mat",
+   "gaiam-yoga-blocks",
+   "manduka-pro"
+  ],
+  "oncelik": 79,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "sss",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "evde spor için gerekli malzemeler",
+  "kategori": "spor-fitness",
+  "alt": "evde-fitness",
+  "tip_onerisi": "kontrol_listesi",
+  "h1": "Evde Spor İçin Gerekli Malzemeler: Az Yer Kaplayan Etkili Set",
+  "urunler": [
+   "bowflex-552",
+   "trx-straps",
+   "theraband-bands"
+  ],
+  "oncelik": 80,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "kontrol_listesi",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "yüzmeye başlarken hangi ekipman gerekli",
+  "kategori": "spor-fitness",
+  "alt": "yuzme",
+  "tip_onerisi": "yeni_baslayan",
+  "h1": "Yüzmeye Başlarken: Gözlük, Bone ve Kulak Tıkacı Seçimi",
+  "urunler": [
+   "speedo-vanquisher",
+   "arena-cap",
+   "speedo-fins"
+  ],
+  "oncelik": 81,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "yeni_baslayan",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "evde vücut geliştirme için hangi ağırlık seti",
+  "kategori": "spor-fitness",
+  "alt": "vucut-gelistirme",
+  "tip_onerisi": "rehber",
+  "h1": "Evde Vücut Geliştirme: Ayarlanabilir Dambıl, Bar ve Sehpa Seçimi",
+  "urunler": [
+   "bowflex-adjustable-dumbbells",
+   "powerblock-dumbbells",
+   "cap-barbell-plates"
+  ],
+  "oncelik": 82,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "rehber",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "dövüş sporlarına başlarken hangi eldiven alınır",
+  "kategori": "spor-fitness",
+  "alt": "dovus-sporlari",
+  "tip_onerisi": "yeni_baslayan",
+  "h1": "Dövüş Sporlarına Başlangıç: Eldiven, Bandaj ve Koruyucu Seçimi",
+  "urunler": [
+   "everlast-boxing-gloves",
+   "venum-boxing-gloves",
+   "hayabusa-gloves"
+  ],
+  "oncelik": 83,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "yeni_baslayan",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "tenis raketi nasıl seçilir",
+  "kategori": "spor-fitness",
+  "alt": "raket-sporlari",
+  "tip_onerisi": "rehber",
+  "h1": "Tenis Raketi Seçimi: Ağırlık, Kafa Boyu ve Grip Ölçüsü",
+  "urunler": [
+   "wilson-tennis-racket",
+   "babolat-tennis-racket",
+   "head-tennis-racket"
+  ],
+  "oncelik": 84,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "rehber",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "fotoğrafçılıkta kompozisyon nasıl öğrenilir",
+  "kategori": "sanat",
+  "alt": "fotografcilik",
+  "tip_onerisi": "nasil_yapilir",
+  "h1": "Fotoğrafçılıkta Kompozisyon: Üçler Kuralı ve Günlük Pratik",
+  "urunler": [
+   "canon-eos-r50",
+   "sony-a6400",
+   "peak-design-strap"
+  ],
+  "oncelik": 85,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "nasil_yapilir",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "kaligrafi öğrenmek için hangi kalemler gerekli",
+  "kategori": "sanat",
+  "alt": "kaligrafi-cizim",
+  "tip_onerisi": "yeni_baslayan",
+  "h1": "Kaligrafiye Başlarken: Kalem, Mürekkep ve Alıştırma Defteri",
+  "urunler": [
+   "faber-castell-polychromos",
+   "tombow-fudenosuke",
+   "strathmore-sketchbook"
+  ],
+  "oncelik": 86,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "yeni_baslayan",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "evde seramik yapımı için ne gerekli",
+  "kategori": "sanat",
+  "alt": "seramik-comlek",
+  "tip_onerisi": "nasil_yapilir",
+  "h1": "Evde Seramik: Hava Kurumalı Kil ile İlk Kase ve Süsleme",
+  "urunler": [
+   "sculpey-clay",
+   "amaco-air-dry",
+   "pottery-tool-set"
+  ],
+  "oncelik": 87,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "nasil_yapilir",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "dikiş makinesi alırken nelere bakılır",
+  "kategori": "sanat",
+  "alt": "dikis-nakis",
+  "tip_onerisi": "rehber",
+  "h1": "İlk Dikiş Makinesini Alırken Nelere Bakmalı? Mekik, Pedal ve Ayaklar",
+  "urunler": [
+   "brother-xm2701",
+   "singer-start-1304",
+   "dmc-floss"
+  ],
+  "oncelik": 88,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "rehber",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "heykel yapmaya başlamak için hangi kil kullanılır",
+  "kategori": "sanat",
+  "alt": "heykel",
+  "tip_onerisi": "yeni_baslayan",
+  "h1": "Heykel ve Modelaja Başlangıç: Kil, Polimer ve Temel El Aletleri",
+  "urunler": [
+   "sculpey-original-clay",
+   "fimo-polymer-clay",
+   "das-air-dry-clay"
+  ],
+  "oncelik": 89,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "yeni_baslayan",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "mutfakta bıçak nasıl bilenir",
+  "kategori": "yemek-mutfak",
+  "alt": "yemek-pisirme",
+  "tip_onerisi": "nasil_yapilir",
+  "h1": "Mutfakta Bıçak Bakımı: Bileme Taşı, Masat ve Saklama",
+  "urunler": [
+   "victorinox-fibrox-sef-bicagi",
+   "zwilling-four-star-bicak",
+   "tefal-daily-cook-tava"
+  ],
+  "oncelik": 90,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "nasil_yapilir",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "v60 ile filtre kahve nasıl demlenir",
+  "kategori": "yemek-mutfak",
+  "alt": "kahve",
+  "tip_onerisi": "nasil_yapilir",
+  "h1": "V60 ile Filtre Kahve Demleme: Öğütme, Su Sıcaklığı ve Döküm Tekniği",
+  "urunler": [
+   "baratza-encore-ogutucu",
+   "hario-v60-dripper",
+   "bialetti-moka-express"
+  ],
+  "oncelik": 91,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "nasil_yapilir",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "evde ekşi maya nasıl yapılır",
+  "kategori": "yemek-mutfak",
+  "alt": "ekmek-pasta",
+  "tip_onerisi": "nasil_yapilir",
+  "h1": "Evde Ekşi Maya: Besleme, Kabarma ve İlk Ekmek",
+  "urunler": [
+   "kitchenaid-artisan-mikser",
+   "nordic-ware-bundt-kalibi",
+   "le-creuset-dokum-tencere"
+  ],
+  "oncelik": 92,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "nasil_yapilir",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "mangalda et nasıl mühürlenir",
+  "kategori": "yemek-mutfak",
+  "alt": "mangal-bbq",
+  "tip_onerisi": "nasil_yapilir",
+  "h1": "Mangalda Mühürleme ve Köz Kontrolü: İlk Barbükün İçin Temel Teknik",
+  "urunler": [
+   "weber-original-kettle-57cm",
+   "weber-rapidfire-baca",
+   "thermopro-tp20-et-termometresi"
+  ],
+  "oncelik": 93,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "nasil_yapilir",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "balkonda sebze yetiştirmek için ne gerekli",
+  "kategori": "bahce-bitki",
+  "alt": "bahcecilik",
+  "tip_onerisi": "kontrol_listesi",
+  "h1": "Balkonda Sebze Bahçesi: Saksı, Toprak ve Kolay Bitkiler",
+  "urunler": [
+   "corona-razortooth-budama-testeresi",
+   "spear-jackson-catal-bel",
+   "dewit-el-malasi"
+  ],
+  "oncelik": 94,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "kontrol_listesi",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "ev bitkileri neden sararır",
+  "kategori": "bahce-bitki",
+  "alt": "ev-bitkileri",
+  "tip_onerisi": "hatalar",
+  "h1": "Ev Bitkilerinde Sararan Yapraklar: Sulama, Işık ve Saksı Hataları",
+  "urunler": [
+   "lechuza-classico-saksisi",
+   "miracle-gro-saksi-topragi",
+   "foxfarm-ocean-forest-toprak"
+  ],
+  "oncelik": 95,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "hatalar",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "evde teraryum nasıl yapılır",
+  "kategori": "bahce-bitki",
+  "alt": "teraryum",
+  "tip_onerisi": "nasil_yapilir",
+  "h1": "Evde Teraryum Yapımı: Cam Fanus, Sukulent ve Katman Sırası",
+  "urunler": [
+   "h-potter-cam-teraryum",
+   "ncyp-geometrik-cam-teraryum",
+   "altman-plants-sukulent-seti"
+  ],
+  "oncelik": 97,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "nasil_yapilir",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "köpek tüy bakımı evde nasıl yapılır",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": "nasil_yapilir",
+  "h1": "Evde Köpek Tüy ve Tırnak Bakımı: Fırça, Makas ve Rutin",
+  "urunler": [
+   "ruffwear-front-range-kosum-takimi",
+   "flexi-new-classic-otomatik-tasma",
+   "benebone-wishbone-cigneme-oyuncagi"
+  ],
+  "oncelik": 98,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "nasil_yapilir",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "kedi tırmalama tahtası nasıl seçilir",
+  "kategori": "evcil-hayvan",
+  "alt": "kedi-bakimi",
+  "tip_onerisi": "rehber",
+  "h1": "Kedi Tırmalama Tahtası Seçimi: Boy, Malzeme ve Yerleşim",
+  "urunler": [
+   "gocat-da-bird-kedi-oyuncagi",
+   "smartcat-tirmalama-diregi",
+   "catit-senses-oyun-pisti"
+  ],
+  "oncelik": 99,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "rehber",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "akvaryum su değişimi nasıl yapılır",
+  "kategori": "evcil-hayvan",
+  "alt": "akvaryum",
+  "tip_onerisi": "nasil_yapilir",
+  "h1": "Akvaryum Su Değişimi: Sıklık, Oran ve Dikkat Edilecekler",
+  "urunler": [
+   "aqueon-akvaryum-tanki",
+   "fluval-307-dis-filtre",
+   "eheim-jager-akvaryum-isiticisi"
+  ],
+  "oncelik": 100,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "nasil_yapilir",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "muhabbet kuşu kafesi nasıl olmalı",
+  "kategori": "evcil-hayvan",
+  "alt": "kus-bakimi",
+  "tip_onerisi": "rehber",
+  "h1": "Muhabbet Kuşu Kafesi ve Bakımı: Boyut, Tünek ve Oyuncak",
+  "urunler": [
+   "prevue-hendryx-kus-kafesi",
+   "ferplast-vision-kus-kafesi",
+   "lixit-kus-banyosu"
+  ],
+  "oncelik": 101,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "rehber",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "ilk teleskop nasıl seçilir",
+  "kategori": "bilim-astronomi",
+  "alt": "teleskop-astronomi",
+  "tip_onerisi": "rehber",
+  "h1": "İlk Teleskop Seçimi: Mercekli mi Aynalı mı, Ne Kadar Büyütme?",
+  "urunler": [
+   "celestron-nexstar-130slt",
+   "sky-watcher-heritage-130p",
+   "celestron-astromaster-130eq"
+  ],
+  "oncelik": 102,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "rehber",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "çocuk için mikroskop nasıl seçilir",
+  "kategori": "bilim-astronomi",
+  "alt": "mikroskop",
+  "tip_onerisi": "rehber",
+  "h1": "Çocuklar İçin Mikroskop Seçimi ve İlk Deney Seti",
+  "urunler": [
+   "amscope-b120c",
+   "swift-sw380t",
+   "national-geographic-microscope-40-640"
+  ],
+  "oncelik": 103,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "rehber",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "evde güvenli kimya deneyi nasıl yapılır",
+  "kategori": "bilim-astronomi",
+  "alt": "kimya-deney",
+  "tip_onerisi": "sss",
+  "h1": "Evde Güvenli Kimya Deneyleri: Gözlük, Eldiven ve Havalandırma Kuralları",
+  "urunler": [
+   "thames-kosmos-chem-c2000",
+   "thames-kosmos-ooze-labs",
+   "national-geographic-volcano-kit"
+  ],
+  "oncelik": 104,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "sss",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "ev hava istasyonu nasıl kurulur",
+  "kategori": "bilim-astronomi",
+  "alt": "meteoroloji",
+  "tip_onerisi": "nasil_yapilir",
+  "h1": "Evde Hava İstasyonu Kurulumu: Yer Seçimi, Sensör ve Kayıt",
+  "urunler": [
+   "acurite-01512",
+   "lacrosse-s82950",
+   "ambient-weather-ws2902"
+  ],
+  "oncelik": 105,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "nasil_yapilir",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "sırt çantasıyla seyahatte çanta nasıl hazırlanır",
+  "kategori": "seyahat-gezi",
+  "alt": "backpacking",
+  "tip_onerisi": "kontrol_listesi",
+  "h1": "Backpacking Çantası Hazırlama: 40 Litre İçin Paketleme Sanatı",
+  "urunler": [
+   "osprey-farpoint-40",
+   "eagle-creek-pack-it-compression",
+   "bagail-packing-cubes"
+  ],
+  "oncelik": 106,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "kontrol_listesi",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "seyahat fotoğrafçılığı için hangi ekipman gerekli",
+  "kategori": "seyahat-gezi",
+  "alt": "seyahat-fotograf",
+  "tip_onerisi": "kontrol_listesi",
+  "h1": "Seyahat Fotoğrafçılığı Çantası: Hafif Gövde, Tek Lens ve Aksesuar",
+  "urunler": [
+   "sony-zv-1",
+   "dji-osmo-mobile-6",
+   "peak-design-slide-lite"
+  ],
+  "oncelik": 107,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "kontrol_listesi",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "karavanla ilk kampa çıkarken ne bilmeli",
+  "kategori": "seyahat-gezi",
+  "alt": "karavan",
+  "tip_onerisi": "yeni_baslayan",
+  "h1": "Karavanla İlk Kamp: Su, Elektrik ve Park Etme Temelleri",
+  "urunler": [
+   "renogy-100w-solar-panel",
+   "jackery-explorer-500",
+   "helinox-chair-one"
+  ],
+  "oncelik": 108,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "yeni_baslayan",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "vlog çekmeye başlamak için ne gerekli",
+  "kategori": "seyahat-gezi",
+  "alt": "vlog",
+  "tip_onerisi": "yeni_baslayan",
+  "h1": "Vlog'a Başlarken: Telefon Kurulumu, Mikrofon ve Işık",
+  "urunler": [
+   "rode-videomic-go-ii",
+   "neewer-18-ring-light",
+   "manfrotto-element-traveller"
+  ],
+  "oncelik": 109,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "yeni_baslayan",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "web geliştirme öğrenmeye nasıl başlanır",
+  "kategori": "yazilim-kodlama",
+  "alt": "web-gelistirme",
+  "tip_onerisi": "yeni_baslayan",
+  "h1": "Web Geliştirmeye Başlarken: HTML, CSS ve İlk Sayfan",
+  "urunler": [
+   "logitech-mx-keys-s",
+   "lg-27ul500-w",
+   "logitech-mx-vertical"
+  ],
+  "oncelik": 110,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "yeni_baslayan",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "oyun geliştirmeye başlamak için hangi motor",
+  "kategori": "yazilim-kodlama",
+  "alt": "oyun-gelistirme",
+  "tip_onerisi": "yeni_baslayan",
+  "h1": "Oyun Geliştirmeye Giriş: Motor Seçimi ve İlk Küçük Proje",
+  "urunler": [
+   "wacom-intuos-small",
+   "nvidia-rtx-4060",
+   "ath-m50x"
+  ],
+  "oncelik": 111,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "yeni_baslayan",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "veri bilimi öğrenmek için hangi araçlar gerekli",
+  "kategori": "yazilim-kodlama",
+  "alt": "veri-bilimi",
+  "tip_onerisi": "kontrol_listesi",
+  "h1": "Veri Bilimine Başlangıç Araçları: Python, Defter ve İlk Veri Seti",
+  "urunler": [
+   "nvidia-rtx-4070-super",
+   "samsung-990-pro-2tb",
+   "corsair-vengeance-ddr5-32gb"
+  ],
+  "oncelik": 112,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "kontrol_listesi",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "siber güvenlik öğrenmeye nasıl başlanır",
+  "kategori": "yazilim-kodlama",
+  "alt": "siber-guvenlik",
+  "tip_onerisi": "yeni_baslayan",
+  "h1": "Siber Güvenliğe Başlarken: Temel Kavramlar ve Ev Laboratuvarı",
+  "urunler": [
+   "raspberry-pi-zero-2-w",
+   "alfa-awus036ach",
+   "flipper-zero"
+  ],
+  "oncelik": 113,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "yeni_baslayan",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "kitap yazmaya nasıl başlanır",
+  "kategori": "yazi-edebiyat",
+  "alt": "yazarlik",
+  "tip_onerisi": "yeni_baslayan",
+  "h1": "Kitap Yazmaya Başlamak: Günlük Alışkanlık, Taslak ve Not Defteri",
+  "urunler": [
+   "rhodia-webnotebook-a5",
+   "pilot-metropolitan-fountain-pen",
+   "field-notes-memo-books"
+  ],
+  "oncelik": 114,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "yeni_baslayan",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "blog açmak için ne gerekli",
+  "kategori": "yazi-edebiyat",
+  "alt": "blog-yazarligi",
+  "tip_onerisi": "yeni_baslayan",
+  "h1": "Blog Açarken: Konu Seçimi, Platform ve İlk 10 Yazı",
+  "urunler": [
+   "logitech-mx-keys-s",
+   "keychron-k2-mechanical-keyboard",
+   "blue-yeti-usb-microphone"
+  ],
+  "oncelik": 115,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "yeni_baslayan",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "yaratıcı yazarlık alıştırmaları nelerdir",
+  "kategori": "yazi-edebiyat",
+  "alt": "yaratici-yazarlik",
+  "tip_onerisi": "nasil_yapilir",
+  "h1": "Yaratıcı Yazarlık Alıştırmaları: Her Gün 15 Dakikalık Pratik",
+  "urunler": [
+   "on-writing-stephen-king",
+   "bird-by-bird-anne-lamott",
+   "the-artists-way-julia-cameron"
+  ],
+  "oncelik": 116,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "nasil_yapilir",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
+ },
+ {
+  "sorgu": "kitap kulübü nasıl kurulur",
+  "kategori": "yazi-edebiyat",
+  "alt": "okuma",
+  "tip_onerisi": "nasil_yapilir",
+  "h1": "Kitap Kulübü Kurmak: Üye, Takvim ve İlk Kitap Seçimi",
+  "urunler": [
+   "kindle-paperwhite",
+   "kobo-clara-2e",
+   "glocusent-led-neck-reading-light"
+  ],
+  "oncelik": 117,
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "nasil_yapilir",
+   "neden": "manuel konu takviyesi (2026-11-19)",
+   "ham_tip_onerisi": null,
+   "urun": 3
+  }
  }
 ]
