@@ -94,7 +94,6 @@ Bağlantılar tam adreslidir (https://hobibul.com.tr/...). X'te 280 karakter sı
 25. **hobi odası nasıl kurulur**
     X: Hobi odası nasıl kurulur sorusuna depolama, ışık ve çalışma yüzeyiyle cevap verdik; küçük alanda düzen kurmanın pratik yolu.
     https://hobibul.com.tr/makale/hobi-odasi-nasil-kurulur/
-
 ## Pinterest pin metinleri: GA4 en çok okunan 10 makale (19 Kasım 2026)
 
 Kaynak: `content/analytics_ga4.json` → `top_pages`. Görseller `python pin_uret.py` ile
