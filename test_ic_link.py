@@ -93,6 +93,49 @@ class GscHedefTest(unittest.TestCase):
         self.assertNotIn("/makale/yoga/", yollar)
 
 
+class KaynakAdayiTest(unittest.TestCase):
+    def test_farkli_kategori_kaynak_olmaz_ayni_kategori_olur(self):
+        # Mikroskop yazısına drone gibi başka kategoriden, yalnızca "hava" ve
+        # "preparat" kökleri ortak diye kaynak seçilmemeli.
+        hedef = {
+            "tur": "makale",
+            "title": "Mikroskopta Preparat Hazırlarken Hava Kabarcığından Kaçınma",
+            "focus": "mikroskop preparat hava kabarcığı",
+            "slug": "mikroskop",
+            "yol": "/makale/mikroskop/",
+            "category": "bilim-astronomi",
+            "subcategory": "kimya-deney",
+        }
+        ortak_metin = (
+            "Preparat lamı üzerinde hava kabarcığı kalırsa görüntü bulanır. "
+            "Preparat hazırlarken hava ile temas eden kenarı silmek gerekir."
+        )
+        farkli = {
+            "slug": "drone",
+            "title": "Drone Nasıl Kullanılır",
+            "yol": "/makale/drone/",
+            "category": "teknoloji",
+            "subcategory": "drone",
+            "body": ortak_metin,
+            "date": "2026-11-02",
+        }
+        ayni = {
+            "slug": "lam",
+            "title": "Lam ve Lamel Seçimi",
+            "yol": "/makale/lam/",
+            "category": "bilim-astronomi",
+            "subcategory": "kimya-deney",
+            "body": "Lam ve lamel ölçüsü preparatın kalınlığını belirler.",
+            "date": "2026-11-01",
+        }
+        adaylar = ic_link._kaynak_adaylari(hedef, [farkli, ayni], {}, {}, set())
+        yollar = [m["yol"] for m in adaylar]
+        self.assertIn("/makale/lam/", yollar)
+        self.assertNotIn("/makale/drone/", yollar)
+        # Farklı kategoride başka aday yoksa kaynak da yok.
+        self.assertEqual(ic_link._kaynak_adaylari(hedef, [farkli], {}, {}, set()), [])
+
+
 class GuclendirTest(unittest.TestCase):
     def _kur(self, d, yazilar):
         root = Path(d)
