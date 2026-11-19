@@ -82,6 +82,71 @@ PINLER = [
         "gorsel": "static/img/makale/lego-model-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar.webp",
         "cikti": "static/img/pin/lego-yeni-baslayan.jpg",
     },
+    # GA4 en çok okunan 10 makale (2026-11-19). Aile kutu oyunları pini
+    # yukarıda zaten var; burada yeniden üretilmez, SOSYAL_SEO.md'de anılır.
+    {
+        "ad": "2-kisilik-kutu-oyunlari",
+        "ust": "KUTU OYUNLARI",
+        "baslik": "İki kişilik kutu oyunları: kısa liste",
+        "gorsel": "static/img/makale/yilbasi-hediyesi-kutu-oyunlari.webp",
+        "cikti": "static/img/pin/2-kisilik-kutu-oyunlari.jpg",
+    },
+    {
+        "ad": "kamp-cadiri-secimi",
+        "ust": "KAMP & OUTDOOR",
+        "baslik": "Kamp çadırı seçerken 2 ve 4 kişilik farkı",
+        "gorsel": "static/img/makale/kamp-cadiri.webp",
+        "cikti": "static/img/pin/kamp-cadiri-secimi.jpg",
+    },
+    {
+        "ad": "lego-yetiskin-setler",
+        "ust": "LEGO & MODEL",
+        "baslik": "Yetişkin için LEGO: masada az yer kaplayan setler",
+        "gorsel": "static/img/makale/lego.webp",
+        "cikti": "static/img/pin/lego-yetiskin-setler.jpg",
+    },
+    {
+        "ad": "akvaryum-kurulumu",
+        "ust": "AKVARYUM",
+        "baslik": "Akvaryum kurulumu: tank, filtre ve ilk balık",
+        "gorsel": "static/img/makale/akvaryum.webp",
+        "cikti": "static/img/pin/akvaryum-kurulumu.jpg",
+    },
+    {
+        "ad": "deri-isciligi",
+        "ust": "DERİ İŞÇİLİĞİ",
+        "baslik": "Deri işçiliğine başlarken ilk alınacaklar",
+        "gorsel": "static/img/makale/deri-isciligi.webp",
+        "cikti": "static/img/pin/deri-isciligi.jpg",
+    },
+    {
+        "ad": "gitar-ogrenme",
+        "ust": "GİTAR",
+        "baslik": "Gitar çalmaya başlarken tutuş ve ilk akorlar",
+        "gorsel": "static/img/makale/gitar-nasil-calinir.webp",
+        "cikti": "static/img/pin/gitar-ogrenme.jpg",
+    },
+    {
+        "ad": "kopek-bakimi",
+        "ust": "KÖPEK BAKIMI",
+        "baslik": "Köpek bakım seti: ilk alınacaklar listesi",
+        "gorsel": "static/img/makale/kopek-bakim.webp",
+        "cikti": "static/img/pin/kopek-bakimi.jpg",
+    },
+    {
+        "ad": "lego-mini-setler",
+        "ust": "LEGO & MODEL",
+        "baslik": "LEGO mini setler: bonsai, sukulent ve Supra",
+        "gorsel": "static/img/makale/lego-model-ai.webp",
+        "cikti": "static/img/pin/lego-mini-setler.jpg",
+    },
+    {
+        "ad": "akvaryum-ekipmani",
+        "ust": "AKVARYUM",
+        "baslik": "Akvaryum ekipmanı: tank, filtre, ısıtıcı",
+        "gorsel": "static/img/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici.webp",
+        "cikti": "static/img/pin/akvaryum-ekipmani.jpg",
+    },
 ]
 
 
