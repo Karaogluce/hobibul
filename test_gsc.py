@@ -1,4 +1,6 @@
 """Search Console mülk seçimi ve yumuşak hata. Ağ yok."""
+import contextlib
+import io
 import json
 import os
 import tempfile
@@ -101,6 +103,49 @@ class ToplamaTest(unittest.TestCase):
         }))
         self.assertNotIn("SECRET", note)
         self.assertNotIn("BEGIN", note)
+
+
+class LogTest(unittest.TestCase):
+    def test_denenen_mulk_http_kodu_ve_google_metni_yazilir(self):
+        session = _Session({
+            "sc-domain:hobibul.com.tr": lambda body: _Resp(403, {
+                "error": {"message": "User does not have sufficient permission for site"}}),
+            "https://hobibul.com.tr/": lambda body: _Resp(404, {"error": {"message": "yok"}}),
+        })
+        buf = io.StringIO()
+        with contextlib.redirect_stdout(buf):
+            fa.collect_gsc(session, fa.gsc_property_candidates("auto", "hobibul.com.tr"),
+                           date(2026, 11, 1), date(2026, 11, 4))
+        log = buf.getvalue()
+        self.assertIn("sc-domain:hobibul.com.tr", log)
+        self.assertIn("https://hobibul.com.tr/", log)
+        self.assertIn("HTTP 403", log)
+        self.assertIn("User does not have sufficient permission", log)
+        self.assertIn("HTTP 404", log)
+
+    def test_403_izin_ipucu_ve_eposta_yazilir_anahtar_yazilmaz(self):
+        with tempfile.TemporaryDirectory() as d:
+            with open(os.path.join(d, "site.json"), "w", encoding="utf-8") as f:
+                json.dump({"domain": "hobibul.com.tr", "gsc_property": "sc-domain:hobibul.com.tr"}, f)
+            session = _Session({
+                "sc-domain:hobibul.com.tr": lambda body: _Resp(403, {
+                    "error": {"message": "User does not have sufficient permission"}}),
+            })
+            info = {
+                "client_email": "bot@proje.iam.gserviceaccount.com",
+                "private_key": "-----BEGIN PRIVATE KEY-----\nCOKGIZLI\n-----END PRIVATE KEY-----\n",
+            }
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                ok = fa.publish_gsc(info, d, today=date(2026, 11, 4), session=session)
+            log = buf.getvalue()
+            self.assertFalse(ok)
+            self.assertIn("HTTP 403", log)
+            self.assertIn("User does not have sufficient permission", log)
+            self.assertIn(fa.GSC_IZIN_IPUCU, log)
+            self.assertIn("bot@proje.iam.gserviceaccount.com", log)
+            self.assertNotIn("COKGIZLI", log)
+            self.assertNotIn("BEGIN", log)
 
 
 class YayinTest(unittest.TestCase):
