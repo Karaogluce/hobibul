@@ -1514,7 +1514,7 @@ KESİN KURALLAR:
 2. Fiyat yazma. Gerekirse "güncel fiyatı Amazon'da kontrol et" de.
 {urun_kurali}
 4. Yalnızca Markdown. En üstte H1 yok. {tablo_kurali} ## ve ### başlıkları, nefes alan paragraflar ve gerektiğinde madde listesi kullan.
-5. Doğal, samimi, abartısız Türkçe. Konuşur gibi yaz: cümleler birbirine bağlansın, uzunlukları değişsin. Art arda tek yargı dizme. Aynı öğüdü yeni başlıkta tekrarlama. "Fiyat yok", "puan yok", "kapakta yazıyor", "bu yazı uzamaz" gibi meta cümle kurma; bilmediğin sayıyı yazma ve konuya dön. "Mükemmel", "piyasa lideri", "kesinlikle", "garanti" gibi kanıtsız iddialar yok.
+5. Doğal, samimi, abartısız Türkçe. Konuşur gibi yaz: cümleler birbirine bağlansın, uzunlukları değişsin. Art arda tek yargı dizme. Aynı öğüdü yeni başlıkta tekrarlama. "Fiyat yok", "puan yok", "kapakta yazıyor", "bu yazı uzamaz" gibi meta cümle kurma; bilmediğin sayıyı yazma ve konuya dön. "Mükemmel", "piyasa lideri", "kesinlikle", "garanti" gibi kanıtsız iddialar yok. Odak anahtar kelimeyi ilk paragrafta doğal biçimde, mümkünse ilk cümlenin başında kullan; doldurmak için tekrarlama.
 6. Başka sitelerden metin alma; kalıp cümleleri tekrarlama.
 7. Yabancı dilde paragraf yazma. İl adı, "nedir" tanımı veya "nasıl yazılır" konusu açma.
 8. AliExpress, Geekbuying, Wondershare, Trendyol veya Hepsiburada adresi yazma. Bu mağaza düğmeleri, kategori eşleşirse sayfaya build sırasında eklenir. {magaza_kurali}
