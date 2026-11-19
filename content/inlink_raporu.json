@@ -1,12 +1,12 @@
 {
  "tanim": "govde_gelen, başka bir makalenin gövdesinden gelen benzersiz iç linktir. Üst menü, altbilgi ve ekmek kırıntısı bu sayıda yoktur. yetim: yayındaki makale ya da içinde makalesi olan kategori sayfası, govde_gelen 0 veya 1 ise. Makalesi olmayan kategori sayfası menüden ulaşılır; alakasız gövde linki eklenmez ve makalesiz listesindedir. toplam_gelen, üretilmiş HTML içindeki diğer sayfalardan gelen benzersiz linktir. tik, ana sayfadan tıklama derinliğidir. gsc_oncelik, analytics_gsc.json içinde ortalama pozisyonu 8-20 olan sorguya denk sayfadır; dosya yoksa veya ok değilse boş kalır.",
  "ozet": {
-  "makale": 81,
+  "makale": 82,
   "kategori": 82,
-  "yetim_makale": 39,
-  "yetim_kategori": 16,
-  "yetim": 55,
-  "makalesiz_kategori": 36,
+  "yetim_makale": 40,
+  "yetim_kategori": 17,
+  "yetim": 57,
+  "makalesiz_kategori": 35,
   "sitemap_linksiz": [],
   "uc_tik_disi": [],
   "gsc_dosyasi": true,
@@ -57,7 +57,7 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -129,7 +129,7 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "resim-boyama",
    "govde_gelen": 0,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -153,7 +153,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 0,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -165,7 +165,7 @@
    "kategori": "muzik",
    "alt_kategori": "gitar",
    "govde_gelen": 0,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -177,7 +177,7 @@
    "kategori": "bilim-astronomi",
    "alt_kategori": "meteoroloji",
    "govde_gelen": 0,
-   "toplam_gelen": 5,
+   "toplam_gelen": 6,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -189,7 +189,7 @@
    "kategori": "bilim-astronomi",
    "alt_kategori": "kimya-deney",
    "govde_gelen": 0,
-   "toplam_gelen": 4,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -282,6 +282,20 @@
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/hava-meteoroloji-baslangic-seti-ilk-alinacaklar-2026/"
+   ]
+  },
+  {
+   "yol": "/kategori/bilim-astronomi/mikroskop/",
+   "tur": "kategori",
+   "baslik": "Mikroskop",
+   "kategori": "bilim-astronomi",
+   "alt_kategori": "mikroskop",
+   "govde_gelen": 1,
+   "toplam_gelen": 5,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/mikroskopta-preparat-hazirlarken-hava-kabarcigindan-kacinma/"
    ]
   },
   {
@@ -669,7 +683,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -702,6 +716,20 @@
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
+   ]
+  },
+  {
+   "yol": "/makale/mikroskopta-preparat-hazirlarken-hava-kabarcigindan-kacinma/",
+   "tur": "makale",
+   "baslik": "Mikroskopta Preparat Hazırlarken Hava Kabarcığından Kaçınma",
+   "kategori": "bilim-astronomi",
+   "alt_kategori": "mikroskop",
+   "govde_gelen": 1,
+   "toplam_gelen": 176,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/drone-nasil-kullanilir/"
    ]
   },
   {
@@ -903,17 +931,10 @@
    "tik": 2
   },
   {
-   "yol": "/kategori/bilim-astronomi/mikroskop/",
-   "baslik": "Mikroskop",
-   "govde_gelen": 0,
-   "toplam_gelen": 4,
-   "tik": 2
-  },
-  {
    "yol": "/kategori/seyahat-gezi/",
    "baslik": "Seyahat & Gezi",
    "govde_gelen": 0,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1
   },
   {
@@ -948,7 +969,7 @@
    "yol": "/kategori/yazilim-kodlama/",
    "baslik": "Yazılım & Kodlama",
    "govde_gelen": 0,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1
   },
   {
@@ -1191,8 +1212,8 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
-   "icerik_gelen": 15,
-   "toplam_gelen": 175,
+   "icerik_gelen": 10,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1430,8 +1451,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "resim-boyama",
    "govde_gelen": 0,
-   "icerik_gelen": 19,
-   "toplam_gelen": 175,
+   "icerik_gelen": 15,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1458,8 +1479,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 0,
-   "icerik_gelen": 12,
-   "toplam_gelen": 175,
+   "icerik_gelen": 10,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1473,7 +1494,7 @@
    "alt_kategori": "gitar",
    "govde_gelen": 0,
    "icerik_gelen": 9,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1784,8 +1805,8 @@
    "kategori": "bilim-astronomi",
    "alt_kategori": "meteoroloji",
    "govde_gelen": 0,
-   "icerik_gelen": 5,
-   "toplam_gelen": 5,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1799,7 +1820,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 10,
-   "toplam_gelen": 175,
+   "toplam_gelen": 10,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1915,8 +1936,8 @@
    "kategori": "bilim-astronomi",
    "alt_kategori": "kimya-deney",
    "govde_gelen": 0,
-   "icerik_gelen": 4,
-   "toplam_gelen": 4,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1997,7 +2018,7 @@
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
    "icerik_gelen": 10,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2065,6 +2086,22 @@
    "govde_kaynaklar": [
     "/makale/evde-pizza-firini-g3-ferrari-delizia-ile-baslangic/",
     "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/mikroskopta-preparat-hazirlarken-hava-kabarcigindan-kacinma/",
+   "tur": "makale",
+   "baslik": "Mikroskopta Preparat Hazırlarken Hava Kabarcığından Kaçınma",
+   "kategori": "bilim-astronomi",
+   "alt_kategori": "mikroskop",
+   "govde_gelen": 1,
+   "icerik_gelen": 17,
+   "toplam_gelen": 176,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/drone-nasil-kullanilir/"
    ],
    "makale_sayisi": null
   },
@@ -2340,7 +2377,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2432,7 +2469,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 12,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2569,7 +2606,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 14,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2662,7 +2699,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 15,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2760,7 +2797,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 15,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2870,7 +2907,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2991,7 +3028,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 4,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3085,7 +3122,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 9,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3167,7 +3204,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 8,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3248,7 +3285,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 10,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3329,15 +3366,15 @@
    "kategori": "bilim-astronomi",
    "alt_kategori": "",
    "govde_gelen": 2,
-   "icerik_gelen": 4,
-   "toplam_gelen": 175,
+   "icerik_gelen": 5,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/hava-meteoroloji-baslangic-seti-ilk-alinacaklar-2026/",
     "/makale/kimya-deney-baslangic-seti-ilk-alinacaklar-2026/"
    ],
-   "makale_sayisi": 2
+   "makale_sayisi": 3
   },
   {
    "yol": "/kategori/bilim-astronomi/teleskop-astronomi/",
@@ -3359,13 +3396,15 @@
    "baslik": "Mikroskop",
    "kategori": "bilim-astronomi",
    "alt_kategori": "mikroskop",
-   "govde_gelen": 0,
-   "icerik_gelen": 4,
-   "toplam_gelen": 4,
+   "govde_gelen": 1,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [],
-   "makale_sayisi": 0
+   "govde_kaynaklar": [
+    "/makale/mikroskopta-preparat-hazirlarken-hava-kabarcigindan-kacinma/"
+   ],
+   "makale_sayisi": 1
   },
   {
    "yol": "/kategori/bilim-astronomi/kimya-deney/",
@@ -3407,7 +3446,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3477,7 +3516,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3547,7 +3586,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 4,
-   "toplam_gelen": 175,
+   "toplam_gelen": 176,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [

@@ -54,7 +54,8 @@
   "hatalar:evcil-hayvan:akvaryum",
   "talep:emekliler-icin-hobiler",
   "talep:hobi-odasi-nasil-kurulur",
-  "ticari:koleksiyon:lego-model:baslangic"
+  "ticari:koleksiyon:lego-model:baslangic",
+  "bilgi:bilim-astronomi:mikroskop:mikroskopta-preparat-hazirlarken-hava-kabarcigindan-kacinma"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -108,7 +109,8 @@
   "iAKTUaMPaS8",
   "2XPS_WJ9dDw",
   "_-X4UKYqfH8",
-  "wjeUKCoFQ9A"
+  "wjeUKCoFQ9A",
+  "_c70Nhh6p44"
  ],
  "atlanan": [
   {
@@ -1240,6 +1242,26 @@
    "anahtar": "sss:evcil-hayvan:akvaryum",
    "neden": "kısa (987 kelime, güvenlik tabanı 1000)",
    "tarih": "2026-11-19"
+  },
+  {
+   "anahtar": "bilgi:evcil-hayvan:kus-bakimi:muhabbet-kusu-kafesi-nasil-konumlandirilmali",
+   "neden": "kısa (674 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-19"
+  },
+  {
+   "anahtar": "bilgi:outdoor:balikcilik:ilk-olta-takimi-secimi-baslangic-icin-temel-rehber",
+   "neden": "kısa (559 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-19"
+  },
+  {
+   "anahtar": "bilgi:sanat:heykel:kil-heykel-yapiminda-iskelet-kurmanin-puf-noktalari",
+   "neden": "kısa (639 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-19"
+  },
+  {
+   "anahtar": "bilgi:seyahat-gezi:backpacking:sirt-cantasiyla-seyahatte-bagaji-hafifletmenin-yollari",
+   "neden": "kısa (673 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-19"
   }
  ],
  "makaleler": [
@@ -1502,6 +1524,11 @@
    "anahtar": "ticari:koleksiyon:lego-model:baslangic",
    "tarih": "2026-11-16",
    "slug": "lego-model-baslangic-seti-ilk-alinacaklar-2026"
+  },
+  {
+   "anahtar": "bilgi:bilim-astronomi:mikroskop:mikroskopta-preparat-hazirlarken-hava-kabarcigindan-kacinma",
+   "tarih": "2026-11-19",
+   "slug": "mikroskopta-preparat-hazirlarken-hava-kabarcigindan-kacinma"
   }
  ],
  "talep": [

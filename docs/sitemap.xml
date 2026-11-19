@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://hobibul.com.tr/</loc><lastmod>2026-11-16</lastmod></url>
-  <url><loc>https://hobibul.com.tr/rehberler/</loc><lastmod>2026-11-16</lastmod></url>
-  <url><loc>https://hobibul.com.tr/hangi-hobi/</loc><lastmod>2026-11-16</lastmod></url>
+  <url><loc>https://hobibul.com.tr/</loc><lastmod>2026-11-19</lastmod></url>
+  <url><loc>https://hobibul.com.tr/rehberler/</loc><lastmod>2026-11-19</lastmod></url>
+  <url><loc>https://hobibul.com.tr/hangi-hobi/</loc><lastmod>2026-11-19</lastmod></url>
   <url><loc>https://hobibul.com.tr/hakkimizda/</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://hobibul.com.tr/yazar/hobi-bul-editor/</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://hobibul.com.tr/iletisim/</loc><lastmod>2026-10-29</lastmod></url>
@@ -31,10 +31,10 @@
   <url><loc>https://hobibul.com.tr/kategori/muzik/davul-perkusyon/</loc></url>
   <url><loc>https://hobibul.com.tr/kategori/muzik/dj-produksiyon/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://hobibul.com.tr/kategori/muzik/keman-yayli/</loc></url>
-  <url><loc>https://hobibul.com.tr/kategori/teknoloji/</loc><lastmod>2026-11-12</lastmod></url>
+  <url><loc>https://hobibul.com.tr/kategori/teknoloji/</loc><lastmod>2026-11-19</lastmod></url>
   <url><loc>https://hobibul.com.tr/kategori/teknoloji/raspberry-pi-elektronik/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://hobibul.com.tr/kategori/teknoloji/3d-yazici/</loc><lastmod>2026-11-09</lastmod></url>
-  <url><loc>https://hobibul.com.tr/kategori/teknoloji/drone/</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://hobibul.com.tr/kategori/teknoloji/drone/</loc><lastmod>2026-11-19</lastmod></url>
   <url><loc>https://hobibul.com.tr/kategori/teknoloji/oyun-pc-modlama/</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://hobibul.com.tr/kategori/teknoloji/robotik/</loc></url>
   <url><loc>https://hobibul.com.tr/kategori/koleksiyon/</loc><lastmod>2026-11-16</lastmod></url>
@@ -73,9 +73,9 @@
   <url><loc>https://hobibul.com.tr/kategori/evcil-hayvan/kedi-bakimi/</loc><lastmod>2026-11-04</lastmod></url>
   <url><loc>https://hobibul.com.tr/kategori/evcil-hayvan/akvaryum/</loc><lastmod>2026-11-12</lastmod></url>
   <url><loc>https://hobibul.com.tr/kategori/evcil-hayvan/kus-bakimi/</loc></url>
-  <url><loc>https://hobibul.com.tr/kategori/bilim-astronomi/</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://hobibul.com.tr/kategori/bilim-astronomi/</loc><lastmod>2026-11-19</lastmod></url>
   <url><loc>https://hobibul.com.tr/kategori/bilim-astronomi/teleskop-astronomi/</loc></url>
-  <url><loc>https://hobibul.com.tr/kategori/bilim-astronomi/mikroskop/</loc></url>
+  <url><loc>https://hobibul.com.tr/kategori/bilim-astronomi/mikroskop/</loc><lastmod>2026-11-19</lastmod></url>
   <url><loc>https://hobibul.com.tr/kategori/bilim-astronomi/kimya-deney/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://hobibul.com.tr/kategori/bilim-astronomi/meteoroloji/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://hobibul.com.tr/kategori/seyahat-gezi/</loc></url>
@@ -113,7 +113,7 @@
   <url><loc>https://hobibul.com.tr/makale/dj-produksiyon-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://hobibul.com.tr/makale/dj-seti-adi/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://hobibul.com.tr/makale/drone-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/</loc><lastmod>2026-11-09</lastmod></url>
-  <url><loc>https://hobibul.com.tr/makale/drone-nasil-kullanilir/</loc><lastmod>2026-11-09</lastmod></url>
+  <url><loc>https://hobibul.com.tr/makale/drone-nasil-kullanilir/</loc><lastmod>2026-11-19</lastmod></url>
   <url><loc>https://hobibul.com.tr/makale/drone-secimi-yeni-baslayanlar-icin/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://hobibul.com.tr/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://hobibul.com.tr/makale/emekliler-icin-hobiler/</loc><lastmod>2026-11-13</lastmod></url>
@@ -158,6 +158,7 @@
   <url><loc>https://hobibul.com.tr/makale/lego-model-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/</loc><lastmod>2026-11-08</lastmod></url>
   <url><loc>https://hobibul.com.tr/makale/lego-model-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://hobibul.com.tr/makale/mangal-baslangic-seti-weber-kettle-ve-olmazsa-olmaz-aksesuarlar/</loc><lastmod>2026-10-29</lastmod></url>
+  <url><loc>https://hobibul.com.tr/makale/mikroskopta-preparat-hazirlarken-hava-kabarcigindan-kacinma/</loc><lastmod>2026-11-19</lastmod></url>
   <url><loc>https://hobibul.com.tr/makale/orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026/</loc><lastmod>2026-11-09</lastmod></url>
   <url><loc>https://hobibul.com.tr/makale/oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech/</loc><lastmod>2026-10-29</lastmod></url>
   <url><loc>https://hobibul.com.tr/makale/punch-nakisi-nasil-yapilir-baslangic-seti/</loc><lastmod>2026-11-16</lastmod></url>
