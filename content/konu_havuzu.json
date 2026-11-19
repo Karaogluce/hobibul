@@ -11063,5 +11063,1055 @@
    "urun": 0,
    "ham_tip_onerisi": null
   }
+ },
+ {
+  "sorgu": "kamp ateşi nasıl yakılır",
+  "kategori": "outdoor",
+  "alt": "kampcilik",
+  "tip_onerisi": "bilgi",
+  "h1": "Kamp Ateşi Nasıl Yakılır? Başlangıç İçin Güvenli Yöntem",
+  "slug": "kamp-atesi-nasil-yakilir-baslangic-icin-guvenli-yontem",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "trekkingte ne kadar su taşınmalı",
+  "kategori": "outdoor",
+  "alt": "dagcilik-trekking",
+  "tip_onerisi": "bilgi",
+  "h1": "Trekkingte Su Tüketimi: Ne Kadar Su Taşımalı?",
+  "slug": "trekkingte-su-tuketimi-ne-kadar-su-tasimali",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "ilk olta takımı nasıl seçilir",
+  "kategori": "outdoor",
+  "alt": "balikcilik",
+  "tip_onerisi": "bilgi",
+  "h1": "İlk Olta Takımı Seçimi: Başlangıç İçin Temel Rehber",
+  "slug": "ilk-olta-takimi-secimi-baslangic-icin-temel-rehber",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "bisiklet zinciri ne sıklıkla yağlanır",
+  "kategori": "outdoor",
+  "alt": "bisiklet",
+  "tip_onerisi": "bilgi",
+  "h1": "Bisiklet Zinciri Ne Sıklıkla Yağlanır? Basit Bakım Rutini",
+  "slug": "bisiklet-zinciri-ne-siklikla-yaglanir-basit-bakim-rutini",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "kaya tırmanışı güvenlik kuralları",
+  "kategori": "outdoor",
+  "alt": "kaya-tirmanis",
+  "tip_onerisi": "bilgi",
+  "h1": "Kaya Tırmanışına Başlamadan Önce Bilmen Gereken Güvenlik Kuralları",
+  "slug": "kaya-tirmanisina-baslamadan-once-bilmen-gereken-guvenlik-kurallari",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "tığ işinde ilmek nasıl atılır",
+  "kategori": "el-sanatlari",
+  "alt": "orgu-tig",
+  "tip_onerisi": "bilgi",
+  "h1": "Tığ İşinde İlmek Nasıl Atılır? Adım Adım İlk Sıra",
+  "slug": "tig-isinde-ilmek-nasil-atilir-adim-adim-ilk-sira",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "evde takı yapımı malzemeleri",
+  "kategori": "el-sanatlari",
+  "alt": "taki-yapimi",
+  "tip_onerisi": "bilgi",
+  "h1": "Evde Takı Yapımı İçin Temel Malzemeler ve İlk Proje Fikri",
+  "slug": "evde-taki-yapimi-icin-temel-malzemeler-ve-ilk-proje-fikri",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "ahşap yüzey nasıl zımparalanır",
+  "kategori": "el-sanatlari",
+  "alt": "ahsap-isleri",
+  "tip_onerisi": "bilgi",
+  "h1": "Ahşap Yüzey Zımparalama: Pürüzsüz Yüzey İçin Doğru Sıra",
+  "slug": "ahsap-yuzey-zimparalama-puruzsuz-yuzey-icin-dogru-sira",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "akrilik boya mı yağlı boya mı",
+  "kategori": "el-sanatlari",
+  "alt": "resim-boyama",
+  "tip_onerisi": "bilgi",
+  "h1": "Akrilik Boya mı Yağlı Boya mı? Başlangıç İçin Karşılaştırma",
+  "slug": "akrilik-boya-mi-yagli-boya-mi-baslangic-icin-karsilastirma",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "evde kokulu mum nasıl yapılır",
+  "kategori": "el-sanatlari",
+  "alt": "mum-sabun",
+  "tip_onerisi": "bilgi",
+  "h1": "Evde Kokulu Mum Yapımı: Temel Malzemeler ve Dikkat Edilecekler",
+  "slug": "evde-kokulu-mum-yapimi-temel-malzemeler-ve-dikkat-edilecekler",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "diamond painting tuval düz tutma",
+  "kategori": "el-sanatlari",
+  "alt": "diamond-painting",
+  "tip_onerisi": "bilgi",
+  "h1": "Diamond Painting Yaparken Tuvali Düz Tutmanın Yolları",
+  "slug": "diamond-painting-yaparken-tuvali-duz-tutmanin-yollari",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "deri dikiminde hangi dikiş tekniği",
+  "kategori": "el-sanatlari",
+  "alt": "deri-isleri",
+  "tip_onerisi": "bilgi",
+  "h1": "Deri Dikiminde Hangi Dikiş Tekniği Nerede Kullanılır?",
+  "slug": "deri-dikiminde-hangi-dikis-teknigi-nerede-kullanilir",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "piyanoda iki el koordinasyonu nasıl gelişir",
+  "kategori": "muzik",
+  "alt": "klavye-piyano",
+  "tip_onerisi": "bilgi",
+  "h1": "Piyanoda İki Elin Koordinasyonu Nasıl Gelişir?",
+  "slug": "piyanoda-iki-elin-koordinasyonu-nasil-gelisir",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "davulda ritim duygusu nasıl gelişir",
+  "kategori": "muzik",
+  "alt": "davul-perkusyon",
+  "tip_onerisi": "bilgi",
+  "h1": "Davul Çalmaya Başlarken Ritim Duygusunu Geliştirmenin Yolları",
+  "slug": "davul-calmaya-baslarken-ritim-duygusunu-gelistirmenin-yollari",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "kemanda yay tutuşu nasıl olmalı",
+  "kategori": "muzik",
+  "alt": "keman-yayli",
+  "tip_onerisi": "bilgi",
+  "h1": "Kemanda Yay Tutuşu: Başlangıç İçin Temel Ayarlar",
+  "slug": "kemanda-yay-tutusu-baslangic-icin-temel-ayarlar",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "gitarda akor geçişleri nasıl hızlanır",
+  "kategori": "muzik",
+  "alt": "gitar",
+  "tip_onerisi": "bilgi",
+  "h1": "Gitarda Akor Geçişlerini Hızlandıran Pratik Rutini",
+  "slug": "gitarda-akor-gecislerini-hizlandiran-pratik-rutini",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "evde dj seti hoparlör kulaklık dengesi",
+  "kategori": "muzik",
+  "alt": "dj-produksiyon",
+  "tip_onerisi": "bilgi",
+  "h1": "Evde DJ Seti Kurarken Hoparlör ve Kulaklık Dengesi",
+  "slug": "evde-dj-seti-kurarken-hoparlor-ve-kulaklik-dengesi",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "robotik kodlama ilk proje fikirleri",
+  "kategori": "teknoloji",
+  "alt": "robotik",
+  "tip_onerisi": "bilgi",
+  "h1": "Robotik Kodlamaya Başlarken İlk Proje Fikirleri",
+  "slug": "robotik-kodlamaya-baslarken-ilk-proje-fikirleri",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "arduino mu raspberry pi mi",
+  "kategori": "teknoloji",
+  "alt": "robotik",
+  "tip_onerisi": "bilgi",
+  "h1": "Arduino mu Raspberry Pi mi? Hobi Projeleri İçin Seçim Rehberi",
+  "slug": "arduino-mu-raspberry-pi-mi-hobi-projeleri-icin-secim-rehberi",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "oyun bilgisayarı hava akışı nasıl düzenlenir",
+  "kategori": "teknoloji",
+  "alt": "oyun-pc-modlama",
+  "tip_onerisi": "bilgi",
+  "h1": "Oyun Bilgisayarında Hava Akışı Nasıl Düzenlenir?",
+  "slug": "oyun-bilgisayarinda-hava-akisi-nasil-duzenlenir",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "drone ilk uçuş öncesi kontrol",
+  "kategori": "teknoloji",
+  "alt": "drone",
+  "tip_onerisi": "bilgi",
+  "h1": "Drone İlk Uçuştan Önce Neleri Kontrol Etmeli?",
+  "slug": "drone-ilk-ucustan-once-neleri-kontrol-etmeli",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "pul koleksiyonu nasıl saklanır",
+  "kategori": "koleksiyon",
+  "alt": "pul-para",
+  "tip_onerisi": "bilgi",
+  "h1": "Pul Koleksiyonu Nasıl Saklanır? Nem ve Işıktan Koruma",
+  "slug": "pul-koleksiyonu-nasil-saklanir-nem-ve-isiktan-koruma",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "kart koleksiyonu nasıl saklanır",
+  "kategori": "koleksiyon",
+  "alt": "kart-oyunlari",
+  "tip_onerisi": "bilgi",
+  "h1": "Kart Koleksiyonunu Değer Kaybettirmeden Saklamanın Yolları",
+  "slug": "kart-koleksiyonunu-deger-kaybettirmeden-saklamanin-yollari",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "antika porselen nasıl temizlenir",
+  "kategori": "koleksiyon",
+  "alt": "vintage-antika",
+  "tip_onerisi": "bilgi",
+  "h1": "Antika Porselen Nasıl Temizlenir? Zarar Vermeden Bakım",
+  "slug": "antika-porselen-nasil-temizlenir-zarar-vermeden-bakim",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "puzzle nasıl çerçevelenir",
+  "kategori": "koleksiyon",
+  "alt": "puzzle",
+  "tip_onerisi": "bilgi",
+  "h1": "Puzzle Çerçeveleme: Yapıştırmadan Kalıcı Hale Getirme",
+  "slug": "puzzle-cerceveleme-yapistirmadan-kalici-hale-getirme",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "kutu oyunu koleksiyonu nasıl düzenlenir",
+  "kategori": "koleksiyon",
+  "alt": "masaustu-oyun",
+  "tip_onerisi": "bilgi",
+  "h1": "Kutu Oyunu Koleksiyonu Nasıl Düzenlenir?",
+  "slug": "kutu-oyunu-koleksiyonu-nasil-duzenlenir",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "koşuya başlarken nefes ve tempo",
+  "kategori": "spor-fitness",
+  "alt": "kosu",
+  "tip_onerisi": "bilgi",
+  "h1": "Koşuya Başlarken Nefes ve Tempo Ayarlama",
+  "slug": "kosuya-baslarken-nefes-ve-tempo-ayarlama",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "evde yoga alanı nasıl hazırlanır",
+  "kategori": "spor-fitness",
+  "alt": "yoga-pilates",
+  "tip_onerisi": "bilgi",
+  "h1": "Yoga Akışını Evde Kurmak İçin Alan ve Ekipman Düzeni",
+  "slug": "yoga-akisini-evde-kurmak-icin-alan-ve-ekipman-duzeni",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "evde spora yer açma",
+  "kategori": "spor-fitness",
+  "alt": "evde-fitness",
+  "tip_onerisi": "bilgi",
+  "h1": "Evde Spora Yer Açmak: Küçük Dairede Antrenman Düzeni",
+  "slug": "evde-spora-yer-acmak-kucuk-dairede-antrenman-duzeni",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "yüzmede nefes kontrolü",
+  "kategori": "spor-fitness",
+  "alt": "yuzme",
+  "tip_onerisi": "bilgi",
+  "h1": "Yüzmede Nefes Kontrolü: Başlangıç İçin Ritim",
+  "slug": "yuzmede-nefes-kontrolu-baslangic-icin-ritim",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "ağırlık antrenmanında ısınma",
+  "kategori": "spor-fitness",
+  "alt": "vucut-gelistirme",
+  "tip_onerisi": "bilgi",
+  "h1": "Ağırlık Antrenmanında Isınma Rutini Neden Önemli?",
+  "slug": "agirlik-antrenmaninda-isinma-rutini-neden-onemli",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "dövüş sporları branş seçimi",
+  "kategori": "spor-fitness",
+  "alt": "dovus-sporlari",
+  "tip_onerisi": "bilgi",
+  "h1": "Dövüş Sporlarına Başlarken Branş Seçimi Nasıl Yapılır?",
+  "slug": "dovus-sporlarina-baslarken-brans-secimi-nasil-yapilir",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "raket sporlarında tutuş şekli",
+  "kategori": "spor-fitness",
+  "alt": "raket-sporlari",
+  "tip_onerisi": "bilgi",
+  "h1": "Raket Sporlarında Tutuş Şekli Oyunu Nasıl Değiştirir?",
+  "slug": "raket-sporlarinda-tutus-sekli-oyunu-nasil-degistirir",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "telefonla ürün fotoğrafı ışık",
+  "kategori": "sanat",
+  "alt": "fotografcilik",
+  "tip_onerisi": "bilgi",
+  "h1": "Telefonla Ürün Fotoğrafı Çekerken Işık Nasıl Ayarlanır?",
+  "slug": "telefonla-urun-fotografi-cekerken-isik-nasil-ayarlanir",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "kaligrafi kalem açısı",
+  "kategori": "sanat",
+  "alt": "kaligrafi-cizim",
+  "tip_onerisi": "bilgi",
+  "h1": "Kaligrafiye Başlarken Kalem Açısı ve Çizgi Alıştırmaları",
+  "slug": "kaligrafiye-baslarken-kalem-acisi-ve-cizgi-alistirmalari",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "seramikte çamur çatlaması",
+  "kategori": "sanat",
+  "alt": "seramik-comlek",
+  "tip_onerisi": "bilgi",
+  "h1": "Seramikte Çamur Kuruma Çatlaklarını Önlemenin Yolları",
+  "slug": "seramikte-camur-kuruma-catlaklarini-onlemenin-yollari",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "dikiş makinesi neden dikiş atlar",
+  "kategori": "sanat",
+  "alt": "dikis-nakis",
+  "tip_onerisi": "bilgi",
+  "h1": "Dikiş Makinesinde Dikiş Atlamasının Yaygın Nedenleri",
+  "slug": "dikis-makinesinde-dikis-atlamasinin-yaygin-nedenleri",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "kil heykelde iskelet nasıl kurulur",
+  "kategori": "sanat",
+  "alt": "heykel",
+  "tip_onerisi": "bilgi",
+  "h1": "Kil Heykel Yapımında İskelet Kurmanın Püf Noktaları",
+  "slug": "kil-heykel-yapiminda-iskelet-kurmanin-puf-noktalari",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "düdüklü tencerede baklagil pişirme",
+  "kategori": "yemek-mutfak",
+  "alt": "yemek-pisirme",
+  "tip_onerisi": "bilgi",
+  "h1": "Düdüklü Tencerede Baklagil Pişirirken Nelere Dikkat Etmeli?",
+  "slug": "duduklu-tencerede-baklagil-pisirirken-nelere-dikkat-etmeli",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "evde ekmek hamuru su oranı",
+  "kategori": "yemek-mutfak",
+  "alt": "ekmek-pasta",
+  "tip_onerisi": "bilgi",
+  "h1": "Evde Ekmek Yapımında Hamurun Su Oranı Nasıl Ayarlanır?",
+  "slug": "evde-ekmek-yapiminda-hamurun-su-orani-nasil-ayarlanir",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "mangalda et neden kurur",
+  "kategori": "yemek-mutfak",
+  "alt": "mangal-bbq",
+  "tip_onerisi": "bilgi",
+  "h1": "Mangalda Etin Kurumasını Önleyen Basit Yöntemler",
+  "slug": "mangalda-etin-kurumasini-onleyen-basit-yontemler",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "espresso öğütüm ayarı",
+  "kategori": "yemek-mutfak",
+  "alt": "kahve",
+  "tip_onerisi": "bilgi",
+  "h1": "Evde Espresso İçin Öğütüm Ayarı Nasıl Tuturulur?",
+  "slug": "evde-espresso-icin-ogutum-ayari-nasil-tuturulur",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "mutfak bıçağı nasıl bilenir",
+  "kategori": "yemek-mutfak",
+  "alt": "yemek-pisirme",
+  "tip_onerisi": "bilgi",
+  "h1": "Mutfakta Bıçak Bileme: Evde Güvenli Keskinleştirme",
+  "slug": "mutfakta-bicak-bileme-evde-guvenli-keskinlestirme",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "bahçe toprağı nasıl anlaşılır",
+  "kategori": "bahce-bitki",
+  "alt": "bahcecilik",
+  "tip_onerisi": "bilgi",
+  "h1": "Toprak Analizi Yaptırmadan Bahçe Toprağını Anlamanın Yolları",
+  "slug": "toprak-analizi-yaptirmadan-bahce-topragini-anlamanin-yollari",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "ev bitkisi saksı değişimi ne zaman",
+  "kategori": "bahce-bitki",
+  "alt": "ev-bitkileri",
+  "tip_onerisi": "bilgi",
+  "h1": "Ev Bitkilerinde Saksı Değişimi Ne Zaman Yapılmalı?",
+  "slug": "ev-bitkilerinde-saksi-degisimi-ne-zaman-yapilmali",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "kapalı teraryum nem dengesi",
+  "kategori": "bahce-bitki",
+  "alt": "teraryum",
+  "tip_onerisi": "bilgi",
+  "h1": "Kapalı Teraryumda Nem Dengesi Nasıl Korunur?",
+  "slug": "kapali-teraryumda-nem-dengesi-nasil-korunur",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "bonsai tel şekillendirme",
+  "kategori": "bahce-bitki",
+  "alt": "bonsai",
+  "tip_onerisi": "bilgi",
+  "h1": "Bonsai Tel Şekillendirme: Dalı Kırmadan Çalışma",
+  "slug": "bonsai-tel-sekillendirme-dali-kirmadan-calisma",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "sonbaharda bahçe bakımı",
+  "kategori": "bahce-bitki",
+  "alt": "bahcecilik",
+  "tip_onerisi": "bilgi",
+  "h1": "Sonbaharda Bahçe Bakımı: Kışa Hazırlık Adımları",
+  "slug": "sonbaharda-bahce-bakimi-kisa-hazirlik-adimlari",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "köpek tırnağı evde nasıl kesilir",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": "bilgi",
+  "h1": "Köpeklerde Tırnak Kesimi: Evde Güvenli Adımlar",
+  "slug": "kopeklerde-tirnak-kesimi-evde-guvenli-adimlar",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "kedi su içmiyor ne yapmalı",
+  "kategori": "evcil-hayvan",
+  "alt": "kedi-bakimi",
+  "tip_onerisi": "bilgi",
+  "h1": "Kedilerde Su Tüketimini Artırmanın Yolları",
+  "slug": "kedilerde-su-tuketimini-artirmanin-yollari",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "muhabbet kuşu kafesi nereye konur",
+  "kategori": "evcil-hayvan",
+  "alt": "kus-bakimi",
+  "tip_onerisi": "bilgi",
+  "h1": "Muhabbet Kuşu Kafesi Nasıl Konumlandırılmalı?",
+  "slug": "muhabbet-kusu-kafesi-nasil-konumlandirilmali",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "akvaryum su değişimi ne sıklıkla",
+  "kategori": "evcil-hayvan",
+  "alt": "akvaryum",
+  "tip_onerisi": "bilgi",
+  "h1": "Akvaryumda Su Değişimi Sıklığı ve Doğru Yöntem",
+  "slug": "akvaryumda-su-degisimi-sikligi-ve-dogru-yontem",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "köpek tasması mı göğüs tasması mı",
+  "kategori": "evcil-hayvan",
+  "alt": "kopek-bakimi",
+  "tip_onerisi": "bilgi",
+  "h1": "Köpek Tasması ve Göğüs Tasması Arasındaki Fark",
+  "slug": "kopek-tasmasi-ve-gogus-tasmasi-arasindaki-fark",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "teleskopla ay nasıl gözlenir",
+  "kategori": "bilim-astronomi",
+  "alt": "teleskop-astronomi",
+  "tip_onerisi": "bilgi",
+  "h1": "İlk Teleskopla Ay Gözlemi: Başlangıç İçin Rehber",
+  "slug": "ilk-teleskopla-ay-gozlemi-baslangic-icin-rehber",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "mikroskop preparat hava kabarcığı",
+  "kategori": "bilim-astronomi",
+  "alt": "mikroskop",
+  "tip_onerisi": "bilgi",
+  "h1": "Mikroskopta Preparat Hazırlarken Hava Kabarcığından Kaçınma",
+  "slug": "mikroskopta-preparat-hazirlarken-hava-kabarcigindan-kacinma",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "evde kimya deneyi güvenlik kuralları",
+  "kategori": "bilim-astronomi",
+  "alt": "kimya-deney",
+  "tip_onerisi": "bilgi",
+  "h1": "Evde Güvenli Kimya Deneyleri İçin Temel Kurallar",
+  "slug": "evde-guvenli-kimya-deneyleri-icin-temel-kurallar",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "hava durumu tahmini kendi ölçüm",
+  "kategori": "bilim-astronomi",
+  "alt": "meteoroloji",
+  "tip_onerisi": "bilgi",
+  "h1": "Hava Durumu Tahminini Kendi Ölçümlerinle Takip Etmek",
+  "slug": "hava-durumu-tahminini-kendi-olcumlerinle-takip-etmek",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "sırt çantası bagajı nasıl hafifletilir",
+  "kategori": "seyahat-gezi",
+  "alt": "backpacking",
+  "tip_onerisi": "bilgi",
+  "h1": "Sırt Çantasıyla Seyahatte Bagajı Hafifletmenin Yolları",
+  "slug": "sirt-cantasiyla-seyahatte-bagaji-hafifletmenin-yollari",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "seyahatte altın saat fotoğraf",
+  "kategori": "seyahat-gezi",
+  "alt": "seyahat-fotograf",
+  "tip_onerisi": "bilgi",
+  "h1": "Seyahatte Fotoğraf için Altın Saat Nasıl Değerlendirilir?",
+  "slug": "seyahatte-fotograf-icin-altin-saat-nasil-degerlendirilir",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "karavanla ilk yolculuk hazırlığı",
+  "kategori": "seyahat-gezi",
+  "alt": "karavan",
+  "tip_onerisi": "bilgi",
+  "h1": "Karavanla İlk Uzun Yolculuk Öncesi Hazırlık Listesi",
+  "slug": "karavanla-ilk-uzun-yolculuk-oncesi-hazirlik-listesi",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "seyahat vlogu ses rüzgar sorunu",
+  "kategori": "seyahat-gezi",
+  "alt": "vlog",
+  "tip_onerisi": "bilgi",
+  "h1": "Seyahat Vlogu Çekerken Ses ve Rüzgâr Sorunu Nasıl Çözülür?",
+  "slug": "seyahat-vlogu-cekerken-ses-ve-ruzgar-sorunu-nasil-cozulur",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "ilk web sitesi yayına almadan önce",
+  "kategori": "yazilim-kodlama",
+  "alt": "web-gelistirme",
+  "tip_onerisi": "bilgi",
+  "h1": "İlk Web Sitesini Yayına Almadan Önce Kontrol Edilecekler",
+  "slug": "ilk-web-sitesini-yayina-almadan-once-kontrol-edilecekler",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "oyun fikri nasıl prototipe çevrilir",
+  "kategori": "yazilim-kodlama",
+  "alt": "oyun-gelistirme",
+  "tip_onerisi": "bilgi",
+  "h1": "Oyun Fikrini Prototipe Çevirmenin En Hızlı Yolu",
+  "slug": "oyun-fikrini-prototipe-cevirmenin-en-hizli-yolu",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "veri bilimine başlarken hangi adımlar",
+  "kategori": "yazilim-kodlama",
+  "alt": "veri-bilimi",
+  "tip_onerisi": "bilgi",
+  "h1": "Veri Bilimine Başlarken Hangi Adımlar Sırayla Öğrenilmeli?",
+  "slug": "veri-bilimine-baslarken-hangi-adimlar-sirayla-ogrenilmeli",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "ev ağı nasıl güvenli hale getirilir",
+  "kategori": "yazilim-kodlama",
+  "alt": "siber-guvenlik",
+  "tip_onerisi": "bilgi",
+  "h1": "Ev Ağını Güvenli Hale Getirmenin Temel Adımları",
+  "slug": "ev-agini-guvenli-hale-getirmenin-temel-adimlari",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "her gün yazma alışkanlığı nasıl kazanılır",
+  "kategori": "yazi-edebiyat",
+  "alt": "yazarlik",
+  "tip_onerisi": "bilgi",
+  "h1": "Her Gün Yazma Alışkanlığı Nasıl Kazanılır?",
+  "slug": "her-gun-yazma-aliskanligi-nasil-kazanilir",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "blog yazısında başlık ve giriş uyumu",
+  "kategori": "yazi-edebiyat",
+  "alt": "blog-yazarligi",
+  "tip_onerisi": "bilgi",
+  "h1": "Blog Yazısında Başlık ve Giriş Uyumu Neden Önemli?",
+  "slug": "blog-yazisinda-baslik-ve-giris-uyumu-neden-onemli",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "yaratıcı yazıda karakter sesi",
+  "kategori": "yazi-edebiyat",
+  "alt": "yaratici-yazarlik",
+  "tip_onerisi": "bilgi",
+  "h1": "Yaratıcı Yazıda Karakter Sesini Ayırmanın Yolları",
+  "slug": "yaratici-yazida-karakter-sesini-ayirmanin-yollari",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "okuma hızı nasıl artırılır",
+  "kategori": "yazi-edebiyat",
+  "alt": "okuma",
+  "tip_onerisi": "bilgi",
+  "h1": "Okuma Hızını Artırırken Anlamayı Kaybetmemek",
+  "slug": "okuma-hizini-artirirken-anlamayi-kaybetmemek",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
+ },
+ {
+  "sorgu": "3d yazıcı ilk katman sorunu",
+  "kategori": "teknoloji",
+  "alt": "3d-yazici",
+  "tip_onerisi": "bilgi",
+  "h1": "3D Yazıcıda İlk Katman Sorunları ve Basit Çözümleri",
+  "slug": "3d-yazicida-ilk-katman-sorunlari-ve-basit-cozumleri",
+  "siniflandirma": {
+   "durum": "uygun",
+   "tip": "bilgi",
+   "neden": "elle eklendi (2026-11-19)",
+   "urun": 0,
+   "ham_tip_onerisi": "bilgi"
+  }
  }
 ]

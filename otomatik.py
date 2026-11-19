@@ -148,6 +148,15 @@ TIPLER = {
              "'## Sık Yapılan Hatalar' → '## Sıkça Sorulan Sorular' (en az 4 soru, ### başlık) → kapanışta tek cümlelik net tavsiye "
              "('Sonuç' başlığı kullanma). Kategori sayfasına bir iç link ve en az 2 aff:// ürün linki ver.",
     ),
+    # Doğrulanmış ürünü olmayan kategorilerde günlük üretimi sürdüren bilgi yazısı.
+    # Ürün, marka ve fiyat yazmaz; 1000 kelime, SSS ve uydurma karşıtı kontroller aynı kalır.
+    "bilgi": dict(
+        hedef=1000, hepsi=False,
+        baslik=lambda s: f"{s} Hakkında Bilmen Gerekenler",
+        yapi="Giriş (hedef sorguya ilk iki cümlede yanıt) → '## Temel Bilgiler' → '## Kimler İçin Uygun, Kimler İçin Değil?' → "
+             "'## Pratik İpuçları' → '## Sıkça Sorulan Sorular' (3-4 soru) → kapanış: tek cümlelik net tavsiye "
+             "('Sonuç' başlığı kullanma). Ürün, marka veya model önerme; satın alma linki verme.",
+    ),
 }
 ESKI_TIPLER = ("rehber", "yeni_baslayan", "hatalar", "sss")
 TICARI_TIP = "ticari"
@@ -421,6 +430,9 @@ URUN_ODAKLI_TIPLER = ("ticari", "rehber", "yeni_baslayan")
 
 
 def _gerekli_urun(tip):
+    """Üretim için gereken doğrulanmış ürün sayısı. Bilgi yazısı ürün istemez."""
+    if tip == "bilgi":
+        return 0
     return 3 if tip in URUN_ODAKLI_TIPLER else 2
 
 
@@ -502,19 +514,57 @@ def _ayirt_edici(kelimeler, sub_kelimeler):
     return [w for w in kelimeler or [] if w not in stop and w not in sub]
 
 
+# Şablonun sabit sözcükleri. Bunlar ayırt edici sayılmaz; aksi halde
+# "Başlangıç Seti: İlk Alınacaklar (2026)" yalnızca yıl eklendiği için
+# yayınlanmış "Başlangıç Seti: Direk, Taban ve Rüzgar" yazısından farklı sanılır.
+_SABLON_DOLGU = {
+    "ticari": {"baslangic", "seti", "alacaklar"},
+    "yeni_baslayan": {"alacak", "ekipmanlar"},
+    "rehber": {"ekipmanlari", "alim"},
+    "hatalar": {"ekipmani", "alirken", "yapilan", "hata", "kacinilir"},
+    "sss": {"sik", "sorulan", "sorular", "cevaplariyla", "kisa"},
+    "kontrol": {"kontrol", "listesi", "eksiksiz", "hazirlik"},
+    "nasil_yapilir": {"nasil", "yapilir", "adim"},
+}
+_YIL_KELIMESI = re.compile(r"^(?:19|20)\d{2}$")
+
+
+def _cekirdek(kelimeler, sub_kelimeler, imza):
+    """Şablon imzası bilinen bir başlıkta geriye kalan gerçek konu kelimeleri."""
+    dolgu = _SABLON_DOLGU.get(imza, set())
+    return {w for w in _ayirt_edici(kelimeler, sub_kelimeler)
+            if w not in dolgu and not _YIL_KELIMESI.match(w)}
+
+
 def _baslik_cakisiyor(aday, mevcutlar, sub_adi=""):
     """Aynı şablon ya da aynı ayırt edici kelimeler varsa çakışır.
 
-    'gitar nasıl çalınır' ile 'gitar nasıl tutulur' çakışmaz. 'Yeni
-    Başlayanlar Rehberi' şablonu, aynı alt kategoride bir kez durur.
+    'gitar nasıl çalınır' ile 'gitar nasıl tutulur' çakışmaz. Aynı şablon
+    (Yeni Başlayanlar Rehberi) alt kategoride bir kez durur; ancak serbest
+    bir sorgu şablon kelimesi taşısa bile farklı bir konuyu hedefliyorsa
+    (ayırt edici kelimeleri varsa) elenmez. Gerçek kopyalar yine elenir.
     """
     if not aday:
         return False
     sub_k = _baslik_kelimeleri(sub_adi)
     imza = _sablon_imza(aday)
-    if imza:
-        return any(_sablon_imza(d) == imza for d in mevcutlar if d)
     ay = _ayirt_edici(aday, sub_k)
+    if imza:
+        ays = _cekirdek(aday, sub_k, imza)
+        for diger in mevcutlar:
+            if not diger or _sablon_imza(diger) != imza:
+                continue
+            dys = _cekirdek(diger, sub_k, imza)
+            # Çekirdek boşsa başlık tamamen şablon: aynı şablonun ikinci kopyası.
+            if not ays or not dys:
+                return True
+            # Biri diğerinin alt kümesiyse aynı konu; sadece ayrıntı eklenmiş.
+            # Tek kelimelik kesişim ("kamp") yeterli değil, yanlış eleme olur.
+            if min(len(ays), len(dys)) >= 2 and (ays <= dys or dys <= ays):
+                return True
+            if _kelime_jaccard(ays, dys) >= BENZER_AYIRT_ESIK:
+                return True
+        return False
     if not ay:
         return False
     for diger in mevcutlar:
@@ -746,7 +796,7 @@ def havuz_konulari(products, c, pool, used, basliklar=None, rapor=None):
             if rapor is not None:
                 rapor["anlamsiz"] = rapor.get("anlamsiz", 0) + 1
             continue
-        plist = _plist_for_entry(products, c["id"], sub, e, tip)
+        plist = _plist_for_entry(products, c["id"], sub, e, tip) if _gerekli_urun(tip) else []
         if len(plist) < _gerekli_urun(tip):
             continue
         sslug = str(e.get("slug") or "").strip() or ym.slugify(sorgu)
@@ -1341,6 +1391,20 @@ def kelime_hedef(tip):
 
 
 DUZENLI_TABAN = 1000
+# Kuyruk bu sayının altına düşünce GitHub Actions'a görünür uyarı yazılır.
+KUYRUK_UYARI_ESIGI = 15
+
+
+def kuyruk_uyarilari(sayi):
+    """Kalan düzenli konu sayısına göre ::warning:: satırları. Boş liste: uyarı yok."""
+    sayi = int(sayi or 0)
+    if sayi <= 0:
+        return ["::warning::Konu kuyruğu boş: yeni konu eklenmeden düzenli makale üretilemez. "
+                "content/konu_havuzu.json dosyasına elle konu ekleyin."]
+    if sayi < KUYRUK_UYARI_ESIGI:
+        return [f"::warning::Konu kuyruğu azaldı: {sayi} konu kaldı (eşik {KUYRUK_UYARI_ESIGI}). "
+                "content/konu_havuzu.json dosyasına yeni konu ekleyin."]
+    return []
 
 
 def _yayin_tabani(tip):
@@ -1378,10 +1442,19 @@ def _wondershare_kural(t):
 
 def build_prompt(t, prods, sugg, guide=""):
     cfg = TIPLER[t["tip"]]
-    plist = _urun_bloku(prods)
+    bilgi = t["tip"] == "bilgi"
+    plist = ("(bu yazıda ürün önerilmez; ürün, marka veya model adı kullanma)"
+             if bilgi else _urun_bloku(prods))
     hedef = t.get("hedef") or kelime_hedef(t["tip"])
     sq = "\n".join(f"- {s}" for s in sugg) or "- (sorgu bulunamadı; konuyla ilgili doğal sorular kullan)"
     zorunlu = ("HER ÜRÜN için en az bir kez" if cfg["hepsi"] else "en az 2 ürün için")
+    urun_kurali = ("3. Ürün, marka veya model adı yazma; aff:// linki verme."
+                   if bilgi else
+                   f"3. Ürün linkini şu biçimde ver ({zorunlu}): [Satın Al: ÜRÜN ADI](aff://ÜRÜN_ID)")
+    urun_basligi = ("ÜRÜN KURALI" if bilgi else
+                    "KULLANABİLECEĞİN ÜRÜNLER (başka ürün, marka veya model ekleme)")
+    magaza_kurali = ("Bu yazıda ürün linki kullanma." if bilgi else
+                     "Ürün linki yalnızca aff:// biçiminde olsun.")
     tablo_kurali = "Paket bölümündeki markdown tablo serbest; başka tablo yok." if t["tip"] == TICARI_TIP else "Tablo kullanma."
     alt_yol = f"/kategori/{t['cat']}/{t['sub']}/" if t.get("sub") and t["sub"] != "_main" else f"/kategori/{t['cat']}/"
     if t["tip"] == "talep":
@@ -1399,7 +1472,7 @@ def build_prompt(t, prods, sugg, guide=""):
             "- En az 4 adet \"## \" bölümü yaz; her ## bölümünde en az iki paragraf olsun.\n"
             "- Her bölümü somut bir durumdan aç. Gerekçeyi ürün verisine bağla. Aynı öğüdü yeni başlık altında tekrarlama."
         )
-    ws_kural = _wondershare_kural(t)
+    ws_kural = "" if bilgi else _wondershare_kural(t)
     ticari_ek = ""
     if t["tip"] == TICARI_TIP:
         ticari_ek = f"""
@@ -1413,6 +1486,14 @@ TİCARİ NİYET (bu kurallar da kesin):
 - Metinde bir kez şu iç linki doğal bir cümlede kullan: [{t['sub_name']}]({alt_yol})
 - Ansiklopedi maddesi yazma. Okuyucu ne alacağına karar versin.
 """
+    bilgi_ek = ""
+    if bilgi:
+        bilgi_ek = f"""
+BİLGİ YAZISI KURALLARI:
+- Ürün önerme; marka, model ve satın alma bağlantısı kullanma. Sitede satılan ürün olsa bile yazma.
+- Kategoriye bir iç link ver: [{t['sub_name']}]({alt_yol})
+- Somut durum, örnek ve kontrol listesiyle anlat; tanım ve dolgu cümle yazma.
+"""
     return f"""Sen Türkiye'deki hobi meraklıları için yazan deneyimli bir blog editörüsün. Aşağıdaki konuda özgün, işe yarar, Türkçe bir makale yaz.
 
 BAŞLIK: {t['title']}
@@ -1425,19 +1506,19 @@ UZUNLUK VE YAPI (arama niyetine göre doğal yaz):
 İNSANLARIN GERÇEKTEN ARADIĞI SORGULAR (uygun olanları başlıklara ve SSS bölümüne doğal biçimde yedir; zorlama ya da tekrar yapma):
 {sq}
 
-KULLANABİLECEĞİN ÜRÜNLER (başka ürün, marka veya model ekleme):
+{urun_basligi}:
 {plist}
 
 KESİN KURALLAR:
 1. Ürün verilerinde olmayan teknik özellik, ağırlık, ölçü, fiyat, puan, test sonucu veya "denedik" iddiası UYDURMA. Emin olmadığın bilgiyi yazma.
 2. Fiyat yazma. Gerekirse "güncel fiyatı Amazon'da kontrol et" de.
-3. Ürün linkini şu biçimde ver ({zorunlu}): [Satın Al: ÜRÜN ADI](aff://ÜRÜN_ID)
+{urun_kurali}
 4. Yalnızca Markdown. En üstte H1 yok. {tablo_kurali} ## ve ### başlıkları, nefes alan paragraflar ve gerektiğinde madde listesi kullan.
-5. Doğal, samimi, abartısız Türkçe. Konuşur gibi yaz: cümleler birbirine bağlansın, uzunlukları değişsin. Art arda tek yargı dizme. Aynı öğüdü yeni başlıkta tekrarlama. "Fiyat yok", "puan yok", "kapakta yazıyor", "bu yazı uzamaz" gibi meta cümle kurma; bilmediğin sayıyı yazma ve konuya dön. "Mükemmel", "piyasa lideri", "kesinlikle", "garanti" gibi kanıtsız iddialar yok.
+5. Doğal, samimi, abartısız Türkçe. Konuşur gibi yaz: cümleler birbirine bağlansın, uzunlukları değişsin. Art arda tek yargı dizme. Aynı öğüdü yeni başlıkta tekrarlama. "Fiyat yok", "puan yok", "kapakta yazıyor", "bu yazı uzamaz" gibi meta cümle kurma; bilmediğin sayıyı yazma ve konuya dön. "Mükemmel", "piyasa lideri", "kesinlikle", "garanti" gibi kanıtsız iddialar yok. Odak anahtar kelimeyi ilk paragrafta doğal biçimde, mümkünse ilk cümlenin başında kullan; doldurmak için tekrarlama.
 6. Başka sitelerden metin alma; kalıp cümleleri tekrarlama.
 7. Yabancı dilde paragraf yazma. İl adı, "nedir" tanımı veya "nasıl yazılır" konusu açma.
-8. AliExpress, Geekbuying, Wondershare, Trendyol veya Hepsiburada adresi yazma. Bu mağaza düğmeleri, kategori eşleşirse sayfaya build sırasında eklenir. Ürün linki yalnızca aff:// biçiminde olsun.
-{ws_kural}{ticari_ek}
+8. AliExpress, Geekbuying, Wondershare, Trendyol veya Hepsiburada adresi yazma. Bu mağaza düğmeleri, kategori eşleşirse sayfaya build sırasında eklenir. {magaza_kurali}
+{ws_kural}{ticari_ek}{bilgi_ek}
 YAZIM REHBERİ (bunu uygula; okuyucuya bir insanın konuşur gibi yazdığı gelsin, ama kimseyi yanıltma):
 {guide}
 
@@ -1452,17 +1533,23 @@ ACIKLAMA: <120-160 karakterlik Türkçe meta açıklama; odak anahtar kelimeyi i
 
 def edit_prompt(body, prods, guide, alt_sinir=GUVENLIK_TABANI):
     veri = "\n".join(f"- {p['id']}: {p['name']} | {p.get('desc','')} | artı: {'; '.join(p.get('pros', []))} | eksi: {'; '.join(p.get('cons', []))}" for p in prods)
+    if prods:
+        veri = f"""ÜRÜN VERİSİ:
+{veri}"""
+        link_kurali = "4. Tüm aff:// linklerini aynen koru. ## ve ### başlık sayısını koru (başlık metinlerini doğallaştırabilirsin)."
+    else:
+        veri = "ÜRÜN VERİSİ: yok. Bu yazıda ürün, marka, model ve fiyat geçmemeli."
+        link_kurali = "4. aff:// linki ekleme; metinde ürün, marka, model veya fiyat geçmesin. ## ve ### başlık sayısını koru."
     return f"""Sen titiz bir Türkçe blog editörüsün. Aşağıdaki taslağı, YAZIM REHBERİ'ne göre elden geçir.
 
 YAPILACAKLAR:
 1. Yasaklı kalıpları, klişe girişleri ve dolgu cümleleri kaldır ya da somut ifadeyle değiştir.
 2. Cümleleri doğal konuşma Türkçesine çek. Kesik kesik, telegram gibi dizilmiş yargıları birleştir. Cümleyi salt kısa olsun diye bölme; 3-7 kelime zorunluluğu yok. Art arda aynı kelimeyle başlayan cümleleri değiştir. İç içe geçmiş, nefes aldırmayan cümleleri sadeleştir.
 3. Ürün verisinde bulunmayan her bilgiyi (ölçü, ağırlık, süre, puan, fiyat, "denedik/kullandım" iddiası) sil.
-4. Tüm aff:// linklerini aynen koru. ## ve ### başlık sayısını koru (başlık metinlerini doğallaştırabilirsin).
+{link_kurali}
 5. Bilgi kaybı yaratma; metni {alt_sinir} kelimenin altına düşürme. Sırf uzatmak için yeni paragraf ekleme, dolgu yazma. Markdown tablo satırlarını silme.
 Sadece düzeltilmiş Markdown metnini döndür; açıklama yazma.
 
-ÜRÜN VERİSİ:
 {veri}
 
 YAZIM REHBERİ:
@@ -1531,8 +1618,22 @@ def stil_kontrol(body, banned):
     return None
 
 
-def gate(body, tip, prods, others, banned=()):
+def _link_hatasi(body, tip, prods):
+    """Ürün linki kuralı. Bilgi yazısı link istemez, ürün yazıları ister."""
     cfg = TIPLER[tip]
+    used = set(re.findall(r"aff://([A-Za-z0-9_-]+)", body))
+    ids = {p["id"] for p in prods}
+    gerekli = _gerekli_urun(tip)
+    if not gerekli:
+        return "bilgi yazısında ürün linki olmaz" if used else None
+    if cfg["hepsi"] and ids - used:
+        return f"linksiz ürün: {', '.join(sorted(ids - used))}"
+    if not cfg["hepsi"] and len(used & ids) < 2:
+        return "en az 2 ürün linki yok"
+    return None
+
+
+def gate(body, tip, prods, others, banned=()):
     words = len(body.split())
     taban = _yayin_tabani(tip)
     if words < taban:
@@ -1548,12 +1649,9 @@ def gate(body, tip, prods, others, banned=()):
         return "başlıkta kelime tekrarı"
     if not re.search(r"sık sorulan|sorular|\bsss\b", body, re.I):
         return "SSS bölümü yok"
-    used = set(re.findall(r"aff://([A-Za-z0-9_-]+)", body))
-    ids = {p["id"] for p in prods}
-    if cfg["hepsi"] and ids - used:
-        return f"linksiz ürün: {', '.join(sorted(ids - used))}"
-    if not cfg["hepsi"] and len(used & ids) < 2:
-        return "en az 2 ürün linki yok"
+    link = _link_hatasi(body, tip, prods)
+    if link:
+        return link
     if tip == TICARI_TIP and not re.search(r"^\|.*\|$", body, re.M):
         return "paket tablosu yok"
     if re.search(r"\d[\d.,]*\s*(?:₺|TL)\b", body):
@@ -2065,6 +2163,98 @@ _KOK_YAKIN = {
     "pilat": {"yoga"},
 }
 
+# Sorgu ile kategori adı ortak kelime taşımıyorsa anlam eşlemesi. Sıra
+# önemlidir: daha özel anahtar önce gelir ("kutu oyun" > "oyun").
+# Her satır: (anahtar kelimeler, ana kategori, alt kategori).
+_KATEGORI_IPUCLARI = (
+    (("kutu oyun", "kutu oyunu", "board game"), "koleksiyon", "masaustu-oyun"),
+    (("lego", "model araba", "speed champions"), "koleksiyon", "lego-model"),
+    (("puzzle", "yapboz"), "koleksiyon", "puzzle"),
+    (("kart koleksiyon", "kart oyun"), "koleksiyon", "kart-oyunlari"),
+    (("pul koleksiyon", "posta pulu"), "koleksiyon", "pul-para"),
+    (("antika", "vintage"), "koleksiyon", "vintage-antika"),
+    (("koleksiyon", "koleksiyonluk"), "koleksiyon", "_main"),
+    (("robot", "robotik", "arduino", "stem", "lehim"), "teknoloji", "robotik"),
+    (("3d yazıcı", "3d yazici", "3d baskı", "3d baski"), "teknoloji", "3d-yazici"),
+    (("drone", "dron"), "teknoloji", "drone"),
+    (("raspberry", "python kart", "mikrodenetleyici"), "teknoloji", "raspberry-pi-elektronik"),
+    (("oyun bilgisayar", "oyun pc", "kasa modlama"), "teknoloji", "oyun-pc-modlama"),
+    (("evde spor", "evde antrenman", "dambil", "dambıl", "egzersiz"), "spor-fitness", "evde-fitness"),
+    (("yoga", "pilates"), "spor-fitness", "yoga-pilates"),
+    (("koşu", "kosu", "maraton"), "spor-fitness", "kosu"),
+    (("yüzme", "yuzme", "havuz"), "spor-fitness", "yuzme"),
+    (("ağırlık", "agirlik", "vücut geliştirme", "vucut gelistirme"), "spor-fitness", "vucut-gelistirme"),
+    (("dövüş", "dovus", "boks", "kickboks"), "spor-fitness", "dovus-sporlari"),
+    (("tenis", "badminton", "raket", "masa tenisi"), "spor-fitness", "raket-sporlari"),
+    (("çadır", "cadir", "kamp", "kampçılık", "kampcilik"), "outdoor", "kampcilik"),
+    (("trekking", "yürüyüş", "yuruyus", "dağcılık", "dagcilik"), "outdoor", "dagcilik-trekking"),
+    (("olta", "balık tut", "balik tut", "balıkçılık", "balikcilik"), "outdoor", "balikcilik"),
+    (("bisiklet", "sürüş", "surus"), "outdoor", "bisiklet"),
+    (("tırmanış", "tirmanis", "kaya tırman"), "outdoor", "kaya-tirmanis"),
+    (("gitar",), "muzik", "gitar"),
+    (("piyano", "klavye çal", "klavye cal"), "muzik", "klavye-piyano"),
+    (("davul", "perkusyon", "ritim"), "muzik", "davul-perkusyon"),
+    (("dj", "prodüksiyon", "produksiyon", "mix"), "muzik", "dj-produksiyon"),
+    (("keman", "yaylı", "yayli"), "muzik", "keman-yayli"),
+    (("akvaryum", "balık tank", "balik tank"), "evcil-hayvan", "akvaryum"),
+    (("köpek", "kopek"), "evcil-hayvan", "kopek-bakimi"),
+    (("kedi",), "evcil-hayvan", "kedi-bakimi"),
+    (("kuş", "kus", "muhabbet"), "evcil-hayvan", "kus-bakimi"),
+    (("bonsai",), "bahce-bitki", "bonsai"),
+    (("teraryum", "teraryum"), "bahce-bitki", "teraryum"),
+    (("bahçe", "bahce", "toprak", "gübre", "gubre"), "bahce-bitki", "bahcecilik"),
+    (("ev bitkisi", "saksı", "saksi", "salon bitkisi"), "bahce-bitki", "ev-bitkileri"),
+    (("kahve", "espresso", "barista", "filtre kahve"), "yemek-mutfak", "kahve"),
+    (("ekmek", "pasta", "hamur", "kek"), "yemek-mutfak", "ekmek-pasta"),
+    (("mangal", "barbekü", "barbeku", "bbq"), "yemek-mutfak", "mangal-bbq"),
+    (("yemek", "tarif", "tencere", "fırın", "firin"), "yemek-mutfak", "yemek-pisirme"),
+    (("fotoğraf", "fotograf"), "sanat", "fotografcilik"),
+    (("kaligrafi", "hat sanat", "çizim", "cizim"), "sanat", "kaligrafi-cizim"),
+    (("seramik", "çömlek", "comlek", "çamur", "camur"), "sanat", "seramik-comlek"),
+    (("dikiş", "dikis", "nakış", "nakis"), "sanat", "dikis-nakis"),
+    (("heykel", "şekillendirme", "sekillendirme"), "sanat", "heykel"),
+    (("teleskop", "astronomi", "yıldız", "yildiz"), "bilim-astronomi", "teleskop-astronomi"),
+    (("mikroskop", "hücre", "hucre"), "bilim-astronomi", "mikroskop"),
+    (("kimya", "deney", "deney seti"), "bilim-astronomi", "kimya-deney"),
+    (("hava durumu", "meteoroloji", "barometre"), "bilim-astronomi", "meteoroloji"),
+    (("backpacking", "sırt çantası", "sirt cantasi"), "seyahat-gezi", "backpacking"),
+    (("seyahat fotoğraf", "seyahat fotograf"), "seyahat-gezi", "seyahat-fotograf"),
+    (("karavan", "kamp aracı", "kamp araci"), "seyahat-gezi", "karavan"),
+    (("vlog", "video günlük", "video gunluk"), "seyahat-gezi", "vlog"),
+    (("örgü", "orgu", "tığ", "tig", "yün", "yun"), "el-sanatlari", "orgu-tig"),
+    (("takı", "taki", "boncuk"), "el-sanatlari", "taki-yapimi"),
+    (("ahşap", "ahsap", "zımpara", "zimpara"), "el-sanatlari", "ahsap-isleri"),
+    (("resim", "boya", "akrilik", "suluboya"), "el-sanatlari", "resim-boyama"),
+    (("mum", "sabun"), "el-sanatlari", "mum-sabun"),
+    (("diamond painting", "elmas boyama"), "el-sanatlari", "diamond-painting"),
+    (("deri",), "el-sanatlari", "deri-isleri"),
+    (("web site", "web sitesi", "html", "css"), "yazilim-kodlama", "web-gelistirme"),
+    (("oyun geliştir", "oyun gelistir", "unity", "godot"), "yazilim-kodlama", "oyun-gelistirme"),
+    (("veri bilimi", "veri analizi", "python veri"), "yazilim-kodlama", "veri-bilimi"),
+    (("siber", "güvenlik", "guvenlik", "şifre", "sifre"), "yazilim-kodlama", "siber-guvenlik"),
+    (("yazarlık", "yazarlik", "roman", "öykü", "oyku"), "yazi-edebiyat", "yazarlik"),
+    (("blog",), "yazi-edebiyat", "blog-yazarligi"),
+    (("yaratıcı yazı", "yaratici yazi", "senaryo"), "yazi-edebiyat", "yaratici-yazarlik"),
+    (("kitap", "okuma", "roman okuma"), "yazi-edebiyat", "okuma"),
+)
+
+
+def _kategori_ipucu(sorgu, cats):
+    """Sorgudaki anlam ipucundan (kategori, alt kategori, ad, skor). Yoksa None."""
+    low = _sorgu_kat(sorgu)
+    for anahtarlar, cat_id, sub_id in _KATEGORI_IPUCLARI:
+        if not any(re.search(rf"(?<![a-z0-9]){re.escape(k)}(?![a-z0-9])", low) for k in anahtarlar):
+            continue
+        c = next((c for c in cats or [] if c.get("id") == cat_id), None)
+        if not c:
+            continue
+        if sub_id == "_main":
+            return cat_id, "_main", c.get("name") or cat_id, 99
+        s = next((s for s in c.get("subcategories") or [] if s.get("id") == sub_id), None)
+        if s:
+            return cat_id, sub_id, s.get("name") or sub_id, 99
+    return None
+
 
 def gsc_hedef():
     """Günlük arama-talebi kotası. GSC_HEDEF yoksa 2. Bozuk değerde varsayılan."""
@@ -2311,6 +2501,15 @@ def kategori_eslestir(sorgu, cats, products=None):
     q = _govde_kume(_talep_govde(sorgu))
     if not q:
         return None
+    # Kategori adıyla ortak kelime yoksa bile anlam ipucu varsa eşle.
+    ipucu = _kategori_ipucu(sorgu, cats)
+    if ipucu:
+        if products is None:
+            return ipucu
+        cat, sid, _name, _skor = ipucu
+        if len(urun_denetim.alt_kategori_urunleri(products, cat, sid)) >= 2:
+            return ipucu
+        return None
     adaylar = []
     for c in cats or []:
         secenek = [("_main", c.get("name") or c.get("id") or "")]
@@ -2338,6 +2537,13 @@ def kategori_eslestir(sorgu, cats, products=None):
                 continue
         return cat, sid, name, skor
     return None
+
+
+def _ticari_talep(sorgu):
+    """Doğrulanmış ürün yokken bilgi yazısına çevrilemeyecek ticari niyet."""
+    return bool(re.search(
+        r"\b(en iyi|marka|fiyat|satın al|satin al|nereden al|nereden bul)\b",
+        _sorgu_kat(sorgu)))
 
 
 def _talep_ic_link(body, t):
@@ -2688,27 +2894,33 @@ def talep_uret(log, products, cats, articles_dir, key, models, model_idx, ukey, 
     print(f"Arama talebi ({kaynak}): {len(secilen)} sorgu denenecek.")
     gsc_konu = []
     for kume in secilen:
-        eslesen = kategori_eslestir(kume["sorgu"], cats, products)
+        eslesen = kategori_eslestir(kume["sorgu"], cats, None)
         if not eslesen:
             print(f"  ! kategori yok, sonraki sorgu: {kume['sorgu']}")
             continue
         cat, sub, sub_name, _skor = eslesen
         cat_name = next((c.get("name") for c in cats if c.get("id") == cat), cat)
-        plist = urun_denetim.alt_kategori_urunleri(products, cat, sub if sub != "_main" else "_main")
-        if len(plist) < 2:
-            print(f"  ! yeterli ürün yok, sonraki sorgu: {kume['sorgu']}")
+        plist = urun_denetim.alt_kategori_urunleri(products, cat, sub)
+        if len(plist) >= 2:
+            tip, ids, hedef = "talep", [p["id"] for p in plist[:6]], 1500
+        elif _ticari_talep(kume["sorgu"]):
+            print(f"  ! ticari niyetli ama doğrulanmış ürün yok, sonraki sorgu: {kume['sorgu']}")
             continue
+        else:
+            # Ürün doğrulanmadığı için uydurma link yerine ürünsüz bilgi yazısı.
+            print(f"  ! doğrulanmış ürün yok; bilgi yazısı olarak denenecek: {kume['sorgu']}")
+            tip, ids, hedef = "bilgi", [], 1000
         gsc_konu.append({
             "key": kume["anahtar"],
-            "tip": "talep",
+            "tip": tip,
             "cat": cat,
             "cat_name": cat_name,
             "sub": sub,
             "sub_name": sub_name,
-            "ids": [p["id"] for p in plist[:6]],
+            "ids": ids,
             "title": kume["baslik"],
             "sorgu": kume["sorgu"],
-            "hedef": 1500,
+            "hedef": hedef,
             "kaynak": "talep",
             "uyeler": kume.get("uyeler") or [],
         })
@@ -2868,7 +3080,7 @@ def cesitlilik_plani(gun_sayisi=7, baslangic=None, log=None, products=None, cats
     return plan
 
 
-def _gun_ozeti(bugun, log, rapor, duzenli_kosu, talep_kosu, api_durdu):
+def _gun_ozeti(bugun, log, rapor, duzenli_kosu, talep_kosu, api_durdu, kuyruk=None):
     """Çalışma sonu: bugünkü düzenli ve arama-talebi sayıları, atlanma nedeni."""
     duzenli = bugun_uretilen_say(log, bugun)
     talep = bugun_talep_say(log, bugun)
@@ -2891,6 +3103,10 @@ def _gun_ozeti(bugun, log, rapor, duzenli_kosu, talep_kosu, api_durdu):
     if talep < gsc_hedef() and not api_durdu:
         nedenler.append("arama talebi kotası dolmadı")
     print("Atlanan: " + ("; ".join(nedenler) if nedenler else "yok") + ".")
+    if duzenli == 0 and not api_durdu:
+        kalan = "" if kuyruk is None else f" Kuyrukta {kuyruk} konu kaldı."
+        print("::warning::Bugün hiç düzenli makale üretilemedi. "
+              f"Konu kuyruğunu ve kalite kapısı nedenlerini kontrol edin.{kalan}")
 
 
 def cesitlilik_plani_yaz(plan, cats=None):
@@ -3096,6 +3312,9 @@ def main():
         print(f"! benzer başlık: {rapor['benzer']} konu kuyruğa alınmadı; sıra başka konuya geçti")
     if rapor.get("bozuk_baslik"):
         print(f"! bozuk başlık: {rapor['bozuk_baslik']} konu kuyruğa alınmadı")
+    print(f"Kuyrukta {len(queue)} düzenli konu kaldı.")
+    for satir in kuyruk_uyarilari(len(queue)):
+        print(satir)
 
     talep_rows, talep_kaynak = talep_ham_sorgular()
     talep_kalan = max(0, gsc_hedef() - bugun_talep_say(log, bugun))
@@ -3103,7 +3322,6 @@ def main():
         talep_rows, log, urun_denetim.makale_verileri(ARTICLES), talep_kalan)
 
     if a.konu_listesi:
-        print(f"Kuyrukta {len(queue)} konu.")
         if rapor.get("benzer"):
             print(f"! benzer başlık: {rapor['benzer']} konu elendi (aynı şablon veya aynı soru)")
         if rapor.get("bozuk_baslik"):
@@ -3125,7 +3343,7 @@ def main():
         return
 
     if a.adet <= 0 and talep_kalan <= 0:
-        _gun_ozeti(bugun, log, rapor, 0, 0, False)
+        _gun_ozeti(bugun, log, rapor, 0, 0, False, kuyruk=len(queue))
         return
 
     draft_env = os.environ.get("TASLAK_MODU", "false").strip().lower() not in ("false", "0", "hayir", "hayır")
@@ -3156,7 +3374,7 @@ def main():
     elif talep_kalan > 0 and kota:
         print("Arama talebi bu çalışmada denenmedi: Gemini modelleri yanıt vermedi. Sonraki çalışma kalanı yazar.")
     save_log(log)
-    _gun_ozeti(bugun, log, rapor, made, talep_made, kota)
+    _gun_ozeti(bugun, log, rapor, made, talep_made, kota, kuyruk=len(queue))
 
 
 def _duzenli_uret(queue, adet, products, key, models, model_idx, ukey, log, draft, bugun, yedek_acik):
