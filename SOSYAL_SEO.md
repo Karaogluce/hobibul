@@ -94,3 +94,82 @@ Bağlantılar tam adreslidir (https://hobibul.com.tr/...). X'te 280 karakter sı
 25. **hobi odası nasıl kurulur**
     X: Hobi odası nasıl kurulur sorusuna depolama, ışık ve çalışma yüzeyiyle cevap verdik; küçük alanda düzen kurmanın pratik yolu.
     https://hobibul.com.tr/makale/hobi-odasi-nasil-kurulur/
+
+## Pinterest pin metinleri: GA4 en çok okunan 10 makale (19 Kasım 2026)
+
+Kaynak: `content/analytics_ga4.json` → `top_pages`. Görseller `python pin_uret.py` ile
+`static/img/pin/` altında üretildi; yükleme elle yapılır. GA4'te eski adres görünen üç
+makale 301 ile yeni adrese gidiyor, pin metinlerindeki bağlantılar güncel adresi kullanır.
+"Yeni pano önerisi" notlu satırlar 12 panoluk listeye eklenebilecek adlardır; mevcut bir
+panoya koymak istersen en yakın olanı seç.
+
+### 1. İki kişilik kutu oyunları
+
+- Dosya: `static/img/pin/2-kisilik-kutu-oyunlari.jpg`
+- Başlık: `İki Kişilik Kutu Oyunları: Türkiye'de Satılan Kısa Liste`
+- Açıklama: `İki kişilik kutu oyunu arıyorsan oyuncu sayısı, oyun süresi ve tekrar oynanabilirlik belirleyici. Türkiye'de satılan seçenekleri ve seçim kriterlerini rehberde topladık: https://hobibul.com.tr/makale/2-kisilik-kutu-oyunlari/`
+- Pano: İki Kişilik Kutu Oyunları (yeni pano önerisi)
+- Not: Makalenin kendi fotoğrafı yok; aynı kategorideki yılbaşı kutu oyunu görseli kullanıldı.
+
+### 2. Kamp çadırı seçimi
+
+- Dosya: `static/img/pin/kamp-cadiri-secimi.jpg`
+- Başlık: `Kamp Çadırı Seçimi: 2 ve 4 Kişilik Modelleri Karşılaştır`
+- Açıklama: `Kişi sayısı, mevsim ve kurulum süresi çadır seçimini belirliyor. İki ve dört kişilik modelleri yan yana koyduk, karar ölçütlerini sıraladık: https://hobibul.com.tr/makale/en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma/`
+- Pano: Kamp ve Doğa Başlangıcı (yeni pano önerisi)
+
+### 3. Yetişkin için LEGO
+
+- Dosya: `static/img/pin/lego-yetiskin-setler.jpg`
+- Başlık: `Yetişkin İçin LEGO Setleri: Bonsai, Sukulent ve Speed Champions`
+- Açıklama: `Masada az yer kaplayan, sergilemeye uygun LEGO setlerini karşılaştırdık. Botanik ve hızlı araba temalarında seçim ipuçları: https://hobibul.com.tr/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/`
+- Pano: LEGO ve Model Koleksiyoncuları
+
+### 4. Akvaryum kurulumu
+
+- Dosya: `static/img/pin/akvaryum-kurulumu.jpg`
+- Başlık: `Akvaryum Kurulumu: Tank, Filtre ve İlk Balık`
+- Açıklama: `Evde akvaryuma başlarken tank, filtre ve ısıtıcı seçimini sırayla anlatıyoruz. İlk balığı almadan önce döngüyü tamamlamak için gerekenler: https://hobibul.com.tr/makale/akvaryum-kurulumu-baslangic-seti/`
+- Pano: Evde Akvaryum (yeni pano önerisi)
+
+### 5. Deri işçiliği
+
+- Dosya: `static/img/pin/deri-isciligi.jpg`
+- Başlık: `Deri İşçiliğine Başlangıç: İlk Alınacak Malzemeler`
+- Açıklama: `İğne, iplik ve kesim aletiyle başlayan deri işçiliğinde gereksiz masraftan kaçınmak için ilk alışveriş listesi: https://hobibul.com.tr/makale/deri-isciligi-baslangic-seti-ilk-alinacaklar-2026/`
+- Pano: Hafta Sonu Deri Projeleri
+
+### 6. Gitar öğrenme
+
+- Dosya: `static/img/pin/gitar-ogrenme.jpg`
+- Başlık: `Gitar Çalmaya Başlangıç: Tutuş, Temel Akor ve İlk Ritim`
+- Açıklama: `Gitarda doğru tutuş, ilk akorlar ve basit ritim kalıplarıyla başlangıç yapmak için adım adım rehber: https://hobibul.com.tr/makale/gitar-nasil-calinir/`
+- Pano: Gitar Öğrenme (yeni pano önerisi)
+
+### 7. Köpek bakımı
+
+- Dosya: `static/img/pin/kopek-bakimi.jpg`
+- Başlık: `Köpek Bakımı Başlangıç Seti: İlk Alınacaklar`
+- Açıklama: `Köpek sahiplenmeden önce mama kabı, tasma, fırça ve temel bakım malzemelerini sıraladık. Eksik parça bırakmayan başlangıç listesi: https://hobibul.com.tr/makale/kopek-bakimi-baslangic-seti-ilk-alinacaklar-2026/`
+- Pano: Köpek Bakımı ve Eğitimi (yeni pano önerisi)
+
+### 8. LEGO mini setler
+
+- Dosya: `static/img/pin/lego-mini-setler.jpg`
+- Başlık: `LEGO Mini Setler: Bonsai, Sukulent ve Supra`
+- Açıklama: `Az parçayla masaya sığan üç LEGO setini karşılaştırdık; hangisinin kime uyduğunu ve sergileme ölçülerini rehberde bul: https://hobibul.com.tr/makale/lego-model-ai/`
+- Pano: LEGO ve Model Koleksiyoncuları
+
+### 9. Akvaryum ekipmanı
+
+- Dosya: `static/img/pin/akvaryum-ekipmani.jpg`
+- Başlık: `Akvaryum Ekipmanı Seçimi: Tank, Filtre ve Isıtıcı`
+- Açıklama: `Akvaryum ekipmanında tank boyu, filtre debisi ve ısıtıcı gücü birlikte düşünülmeli. Seçim sırasını ve kime neyin uyduğunu anlattık: https://hobibul.com.tr/makale/akvaryum-ekipmani-secimi-tank-filtre-isitici/`
+- Pano: Evde Akvaryum
+
+### 10. Aile kutu oyunları
+
+- Dosya: `static/img/pin/aile-kutu-oyunlari.jpg` (ilk 5'li sette üretildi, yeni dosya açılmadı)
+- Başlık: `Aile Kutu Oyunları: Türkiye'de Çocuklu Masaya Uyanlar`
+- Açıklama: `Çocuklarla oynanacak kutu oyunu seçerken yaş aralığı ve oyuncu sayısına bakın. Türkiye'de satılan aile oyunlarını rehberde topladık: https://hobibul.com.tr/makale/aile-kutu-oyunlari/`
+- Pano: Çocuklarla Evde Oynanacak Kutu Oyunları
