@@ -18,15 +18,28 @@ SAYFA_DISI = re.compile(r"\.(?:css|js|svg|png|jpe?g|webp|ico|txt|xml|json|pdf)$"
 
 
 class CiktiUrlTest(unittest.TestCase):
+    RAPOR = os.path.join(build.CONTENT, "inlink_raporu.json")
+
     @classmethod
     def setUpClass(cls):
         cls.eski_site = build.SITE
+        # build, content/inlink_raporu.json dosyasını yeniden yazar; testte eski haline döndürülür.
+        cls.rapor_yedek = None
+        if os.path.exists(cls.RAPOR):
+            with open(cls.RAPOR, "rb") as f:
+                cls.rapor_yedek = f.read()
         cls.hedef = tempfile.mkdtemp(prefix="hobibul-url-")
         build.SITE = cls.hedef
         try:
             build.main()
         finally:
             build.SITE = cls.eski_site
+            if cls.rapor_yedek is None:
+                if os.path.exists(cls.RAPOR):
+                    os.remove(cls.RAPOR)
+            else:
+                with open(cls.RAPOR, "wb") as f:
+                    f.write(cls.rapor_yedek)
 
     @classmethod
     def tearDownClass(cls):
