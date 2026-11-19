@@ -65,6 +65,34 @@ class SecimTest(unittest.TestCase):
             ])
             self.assertEqual(secilen[0]["impressions"], 90)
 
+    def test_gsc_8_20_konumdaki_sorgu_once_secilir(self):
+        """Sayfa 2 fırsatı (8-20. sıra) yüksek gösterimli uzak sıradan önce gelir."""
+        with tempfile.TemporaryDirectory() as d:
+            gsc = os.path.join(d, "analytics_gsc.json")
+            with open(gsc, "w", encoding="utf-8") as f:
+                json.dump({"ok": True, "queries": [
+                    {"query": "akvaryum çeşitleri", "impressions": 500, "clicks": 10, "position": 2.1},
+                    {"query": "ideal yoga matı ölçüleri", "impressions": 15, "clicks": 1, "position": 11.6},
+                    {"query": "trekkingte su tüketimi", "impressions": 5, "clicks": 0, "position": 25.0},
+                ]}, f)
+            rows, kaynak = otomatik.talep_ham_sorgular(
+                gsc_path=gsc, seed_path=os.path.join(d, "yok.json"))
+            self.assertEqual(kaynak, "gsc")
+            self.assertEqual(rows[0]["query"], "ideal yoga matı ölçüleri")
+            kumeler = otomatik.talep_kumeleri(rows)
+            self.assertEqual(kumeler[0]["sorgu"], "ideal yoga matı ölçüleri")
+            secilen, _ = otomatik.talep_sec(rows, {"talep": [], "done": []}, [], 1)
+            self.assertEqual(secilen[0]["sorgu"], "ideal yoga matı ölçüleri")
+
+    def test_gsc_konumu_olmayan_sorgu_eski_sirada_kalir(self):
+        rows = [
+            {"query": "akvaryum çeşitleri", "impressions": 50, "clicks": 2, "sira": 0},
+            {"query": "ideal yoga matı ölçüleri", "impressions": 10, "clicks": 1, "sira": 1},
+        ]
+        kumeler = otomatik.talep_kumeleri(rows)
+        self.assertEqual([k["sorgu"] for k in kumeler],
+                         ["akvaryum çeşitleri", "ideal yoga matı ölçüleri"])
+
     def test_yazilmis_sorgu_tekrar_secilmez(self):
         rows, _ = otomatik.talep_ham_sorgular(
             gsc_path=os.path.join(tempfile.gettempdir(), "yok-gsc-2.json"),

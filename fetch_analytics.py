@@ -186,6 +186,22 @@ def gsc_property_candidates(value, domain):
     return [f"sc-domain:{host}", f"https://{host}/"]
 
 
+# 403'te Actions logunda görünecek tek satırlık çözüm adımı.
+GSC_IZIN_IPUCU = ("Hizmet hesabı e-postasını Search Console > Ayarlar > "
+                  "Kullanıcılar ve izinler'e ekleyin.")
+
+
+def gsc_izin_hatasi(note):
+    """Hata metni Search Console izin reddi mi? (403 / permission)."""
+    return bool(re.search(r"permission|insufficient|yetki", str(note or ""), re.I))
+
+
+def gsc_hesap_epostasi(info):
+    """Servis hesabı e-postası. Gizli anahtar burada okunmaz, loglanmaz."""
+    email = (info or {}).get("client_email") if isinstance(info, dict) else ""
+    return str(email or "").strip()
+
+
 def gsc_note(status, text):
     """API hata metnini kısalt. Anahtar veya pem bloğu loga düşmesin."""
     blob = text or ""
@@ -250,9 +266,11 @@ def collect_gsc(session, candidates, start, end):
     }
     last = "erişim yok"
     for site in candidates:
+        print(f"  · Search Console mülkü denendi: {site}")
         code, text = _gsc_post(session, site, dict(body_base, dimensions=["query"], rowLimit=GSC_ROW_LIMIT))
         if code != 200:
             last = gsc_note(code, text)
+            print(f"  ! Search Console {site} → HTTP {code}: {last}")
             continue
         try:
             queries = _rows(json.loads(text), "query")
@@ -261,7 +279,11 @@ def collect_gsc(session, candidates, start, end):
         code_p, text_p = _gsc_post(session, site, dict(body_base, dimensions=["page"], rowLimit=GSC_ROW_LIMIT))
         code_d, text_d = _gsc_post(session, site, dict(body_base, dimensions=["date"], rowLimit=1000))
         if code_p != 200 or code_d != 200:
-            return None, gsc_note(code_p if code_p != 200 else code_d, text_p if code_p != 200 else text_d)
+            bad_code = code_p if code_p != 200 else code_d
+            bad_text = text_p if code_p != 200 else text_d
+            last = gsc_note(bad_code, bad_text)
+            print(f"  ! Search Console {site} → HTTP {bad_code}: {last}")
+            return None, last
         try:
             pages = _rows(json.loads(text_p), "page")
             daily = _rows(json.loads(text_d), "date")
@@ -269,6 +291,7 @@ def collect_gsc(session, candidates, start, end):
             return None, "yanıt okunamadı"
         pages.sort(key=lambda r: (-r["clicks"], -r["impressions"], r["page"]))
         queries.sort(key=lambda r: (-r["clicks"], -r["impressions"], r["query"]))
+        print(f"  ✓ Search Console mülkü kullanıldı: {site}")
         return {
             "ok": True,
             "generated_at": end.isoformat() if end == date.today() else date.today().isoformat(),
@@ -338,12 +361,18 @@ def publish_gsc(info, content_dir, today=None, session=None):
             if not _keep_previous_gsc(path):
                 _mark_gsc_missing(path, today)
             return False
+        print("Search Console mülk adayları: " + ", ".join(candidates))
         if session is None:
             session = _gsc_session(info)
         start, end = _gsc_dates(today)
         data, note = collect_gsc(session, candidates, start, end)
         if not data:
             print(f"! Search Console alınamadı ({note}). GA4 yayını sürüyor.")
+            if gsc_izin_hatasi(note):
+                print(f"! {GSC_IZIN_IPUCU}")
+                email = gsc_hesap_epostasi(info)
+                if email:
+                    print(f"  Hizmet hesabı: {email}")
             if not _keep_previous_gsc(path):
                 _mark_gsc_missing(path, today)
             return False
