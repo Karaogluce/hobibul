@@ -56,7 +56,8 @@
   "talep:hobi-odasi-nasil-kurulur",
   "ticari:koleksiyon:lego-model:baslangic",
   "bilgi:bilim-astronomi:mikroskop:mikroskopta-preparat-hazirlarken-hava-kabarcigindan-kacinma",
-  "talep:amigurumi-baslangic-seti"
+  "talep:amigurumi-baslangic-seti",
+  "bilgi:sanat:kaligrafi-cizim:kaligrafiye-baslarken-kalem-acisi-ve-cizgi-alistirmalari"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -112,7 +113,8 @@
   "_-X4UKYqfH8",
   "wjeUKCoFQ9A",
   "_c70Nhh6p44",
-  "OgOFDnCNGls"
+  "OgOFDnCNGls",
+  "y02jEX_B0O0"
  ],
  "atlanan": [
   {
@@ -1424,6 +1426,96 @@
    "anahtar": "talep:robotik-kodlama-robotu",
    "neden": "kısa (491 kelime, güvenlik tabanı 1000)",
    "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:dovus-sporlari:dovus-sporlarina-baslarken-brans-secimi-nasil-yapilir",
+   "neden": "kısa (683 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:teknoloji:robotik:robotik-kodlamaya-baslarken-ilk-proje-fikirleri",
+   "neden": "kısa (530 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yazilim-kodlama:oyun-gelistirme:oyun-fikrini-prototipe-cevirmenin-en-hizli-yolu",
+   "neden": "kısa (818 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:bahce-bitki:teraryum:kapali-teraryumda-nem-dengesi-nasil-korunur",
+   "neden": "kısa (463 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:outdoor:bisiklet:bisiklet-zinciri-ne-siklikla-yaglanir-basit-bakim-rutini",
+   "neden": "kısa (642 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:seyahat-gezi:karavan:karavanla-ilk-uzun-yolculuk-oncesi-hazirlik-listesi",
+   "neden": "kısa (626 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:raket-sporlari:raket-sporlarinda-tutus-sekli-oyunu-nasil-degistirir",
+   "neden": "kısa (813 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:teknoloji:robotik:arduino-mu-raspberry-pi-mi-hobi-projeleri-icin-secim-rehberi",
+   "neden": "kısa (768 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yazilim-kodlama:siber-guvenlik:ev-agini-guvenli-hale-getirmenin-temel-adimlari",
+   "neden": "kısa (537 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:outdoor:kaya-tirmanis:kaya-tirmanisina-baslamadan-once-bilmen-gereken-guvenlik-kurallari",
+   "neden": "kısa (585 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:seyahat-gezi:seyahat-fotograf:seyahatte-fotograf-icin-altin-saat-nasil-degerlendirilir",
+   "neden": "kısa (674 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:vucut-gelistirme:agirlik-antrenmaninda-isinma-rutini-neden-onemli",
+   "neden": "kısa (562 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yazilim-kodlama:veri-bilimi:veri-bilimine-baslarken-hangi-adimlar-sirayla-ogrenilmeli",
+   "neden": "kısa (719 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:seyahat-gezi:vlog:seyahat-vlogu-cekerken-ses-ve-ruzgar-sorunu-nasil-cozulur",
+   "neden": "kısa (481 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:yuzme:yuzmede-nefes-kontrolu-baslangic-icin-ritim",
+   "neden": "kısa (716 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yazilim-kodlama:web-gelistirme:ilk-web-sitesini-yayina-almadan-once-kontrol-edilecekler",
+   "neden": "kısa (538 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:outdoor:dagcilik-trekking:trekkingte-su-tuketimi-ne-kadar-su-tasimali",
+   "neden": "kısa (659 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "talep:robotik-kodlama-robotu",
+   "neden": "kısa (653 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
   }
  ],
  "makaleler": [
@@ -1696,6 +1788,11 @@
    "anahtar": "talep:amigurumi-baslangic-seti",
    "tarih": "2026-11-20",
    "slug": "amigurumi-baslangic-seti"
+  },
+  {
+   "anahtar": "bilgi:sanat:kaligrafi-cizim:kaligrafiye-baslarken-kalem-acisi-ve-cizgi-alistirmalari",
+   "tarih": "2026-11-20",
+   "slug": "kaligrafiye-baslarken-kalem-acisi-ve-cizgi-alistirmalari"
   }
  ],
  "talep": [
