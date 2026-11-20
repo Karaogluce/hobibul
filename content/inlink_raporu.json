@@ -3,9 +3,9 @@
  "ozet": {
   "makale": 85,
   "kategori": 82,
-  "yetim_makale": 41,
+  "yetim_makale": 42,
   "yetim_kategori": 19,
-  "yetim": 60,
+  "yetim": 61,
   "makalesiz_kategori": 33,
   "sitemap_linksiz": [],
   "uc_tik_disi": [],
@@ -195,6 +195,18 @@
    "govde_kaynaklar": []
   },
   {
+   "yol": "/makale/kaligrafiye-baslarken-kalem-acisi-ve-cizgi-alistirmalari/",
+   "tur": "makale",
+   "baslik": "Kaligrafiye Başlarken Kalem Açısı ve Çizgi Alıştırmaları",
+   "kategori": "sanat",
+   "alt_kategori": "kaligrafi-cizim",
+   "govde_gelen": 0,
+   "toplam_gelen": 179,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
    "yol": "/makale/kimya-deney-baslangic-seti-ilk-alinacaklar-2026/",
    "tur": "makale",
    "baslik": "Kimya & Deney Başlangıç Seti: İlk Alınacaklar (2026)",
@@ -215,6 +227,18 @@
    "govde_gelen": 0,
    "toplam_gelen": 6,
    "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/mikroskopta-preparat-hazirlarken-hava-kabarcigindan-kacinma/",
+   "tur": "makale",
+   "baslik": "Mikroskopta Preparat Hazırlarken Hava Kabarcığından Kaçınma",
+   "kategori": "bilim-astronomi",
+   "alt_kategori": "mikroskop",
+   "govde_gelen": 0,
+   "toplam_gelen": 179,
+   "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -647,6 +671,20 @@
    ]
   },
   {
+   "yol": "/makale/hobi-odasi-nasil-kurulur/",
+   "tur": "makale",
+   "baslik": "Hobi Odası Nasıl Kurulur? Gerekli Eşyalar, Düzen ve Depolama Fikirleri",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "",
+   "govde_gelen": 1,
+   "toplam_gelen": 6,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/en-cok-satan-el-isi-2026-w46/"
+   ]
+  },
+  {
    "yol": "/makale/kadinlar-icin-evde-yapilacak-hobiler/",
    "tur": "makale",
    "baslik": "Kadınlar İçin Evde Yapılacak 20 Hobi (Başlangıç Malzemeleriyle)",
@@ -686,20 +724,6 @@
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/evde-filtre-kahve-baslangic-seti-ogutucu-v60-ve-tarti/"
-   ]
-  },
-  {
-   "yol": "/makale/kaligrafiye-baslarken-kalem-acisi-ve-cizgi-alistirmalari/",
-   "tur": "makale",
-   "baslik": "Kaligrafiye Başlarken Kalem Açısı ve Çizgi Alıştırmaları",
-   "kategori": "sanat",
-   "alt_kategori": "kaligrafi-cizim",
-   "govde_gelen": 1,
-   "toplam_gelen": 179,
-   "tik": 1,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/emekliler-icin-hobiler/"
    ]
   },
   {
@@ -756,20 +780,6 @@
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
-   ]
-  },
-  {
-   "yol": "/makale/mikroskopta-preparat-hazirlarken-hava-kabarcigindan-kacinma/",
-   "tur": "makale",
-   "baslik": "Mikroskopta Preparat Hazırlarken Hava Kabarcığından Kaçınma",
-   "kategori": "bilim-astronomi",
-   "alt_kategori": "mikroskop",
-   "govde_gelen": 1,
-   "toplam_gelen": 179,
-   "tik": 1,
-   "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/drone-nasil-kullanilir/"
    ]
   },
   {
@@ -1861,14 +1871,13 @@
    "baslik": "Hobi Odası Nasıl Kurulur? Gerekli Eşyalar, Düzen ve Depolama Fikirleri",
    "kategori": "el-sanatlari",
    "alt_kategori": "",
-   "govde_gelen": 2,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "govde_gelen": 1,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
-    "/makale/en-cok-satan-el-isi-2026-w46/",
-    "/makale/en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma/"
+    "/makale/en-cok-satan-el-isi-2026-w46/"
    ],
    "makale_sayisi": null
   },
@@ -1943,14 +1952,12 @@
    "baslik": "Kaligrafiye Başlarken Kalem Açısı ve Çizgi Alıştırmaları",
    "kategori": "sanat",
    "alt_kategori": "kaligrafi-cizim",
-   "govde_gelen": 1,
-   "icerik_gelen": 9,
+   "govde_gelen": 0,
+   "icerik_gelen": 8,
    "toplam_gelen": 179,
    "tik": 1,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/emekliler-icin-hobiler/"
-   ],
+   "govde_kaynaklar": [],
    "makale_sayisi": null
   },
   {
@@ -2154,14 +2161,12 @@
    "baslik": "Mikroskopta Preparat Hazırlarken Hava Kabarcığından Kaçınma",
    "kategori": "bilim-astronomi",
    "alt_kategori": "mikroskop",
-   "govde_gelen": 1,
-   "icerik_gelen": 7,
+   "govde_gelen": 0,
+   "icerik_gelen": 6,
    "toplam_gelen": 179,
    "tik": 1,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/drone-nasil-kullanilir/"
-   ],
+   "govde_kaynaklar": [],
    "makale_sayisi": null
   },
   {
