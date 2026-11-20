@@ -4,7 +4,7 @@ slug: "trekking-bot-secimi-gore-tex-baslangic-botlari"
 category: "outdoor"
 subcategory: "dagcilik-trekking"
 date: "2026-10-28"
-updated: "2026-10-29"
+updated: "2026-11-20"
 meta_title: "Trekking Bot Seçimi: Gore-Tex Başlangıç | Hobi Bul"
 meta_description: "Gore-Tex trekking botu nasıl seçilir? Salomon X Ultra 4’te tutuş, dar kalıp ve kime uymadığı var. Baton, çanta ve kafa lambası ayrı."
 excerpt: "İlk Gore-Tex trekking botu Salomon X Ultra 4. Su geçirmez ve hafif. Kalıbı dar olabilir. Mağazada öğleden sonra giyip dene."
@@ -19,7 +19,6 @@ starter_label: "Salomon X Ultra 4 başlangıç botuna bak"
 starter_text: "Başlangıç Gore-Tex botu Salomon X Ultra 4. Tutuş ve su geçirmezlik notu var, kalıp dar olabilir. Güncel fiyatı Amazon'da kontrol et."
 draft: "false"
 ---
-
 Eğer ilk kez ciddi bir trekking botu alacaksan, Salomon X Ultra 4 Gore-Tex su geçirmezliği ve hafifliğiyle mantıklı bir başlangıç noktası ama her ayağa ve her mevsime uymayacağını bilerek yola çıkmalısın. Islak patikalarda ve çamurlu yollarda bu botun Gore-Tex membranı seni kurtarır; fakat çok sıcak ve tozlu bir yaz gününde aynı membran teri içeride hapsedip ayağını bunaltabilir. Yani tek bir botun yılın her günü seni mükemmel idare etmesini bekleme, mevsime göre karar ver.
 
 Bu botun yanına dizlerini korumak için baton, eşyaların için günlük bir çanta ve hava karardığında yolunu bulman için kafa lambası da gerekecek. Tüm bu ekipmanları [dağcılık ve trekking](/kategori/outdoor/dagcilik-trekking/) sayfasında bulabilirsin. Eğer planın günübirlik bir yürüyüşten fazlasıysa ve geceyi doğada geçireceksen, [kamp çadırı seçimi](/makale/en-iyi-kamp-cadiri-secimi-2026-2-ve-4-kisilik-karsilastirma/) ile [kampçılık başlangıç rehberi](/makale/kampcilik-baslangic-rehberi/) yazılarına da mutlaka göz atmalısın; çünkü botun ne kadar iyi olursa olsun konaklama hazırlığı bambaşka bir konu.
@@ -28,7 +27,7 @@ Bu botun yanına dizlerini korumak için baton, eşyaların için günlük bir �
 
 Bot denemeye öğleden sonra gitmelisin çünkü sabahları ince olan ayak, gün boyu yürüdükçe ve kan pompalandıkça şişer. Mağazada deneme şansın yoksa, eve gelen botu kalın yürüyüş çoraplarınla en az bir saat boyunca evin içinde giyip dolaş. Eğer yürürken topuğun yerinden kalkıyorsa o numara ya da kalıp sana uymamış demektir; bunu patikaya çıkmadan fark etmen önemli, yoksa yolun yarısında ayağın su toplar.
 
-Salomon X Ultra 4 için ürün notlarında kalıbın dar olabileceği belirtilmiş. Eğer geniş bir tarak yapın varsa bu uyarıyı ciddiye almalısın. Dar gelen bir botu çorapla genişletemezsin, bir numara büyük almak ise bu sefer topuğunun boşta kalmasına neden olur. Bağcıkları sıkarken ayak tarak kısmını sıkı tutup parmak uçlarına hareket alanı bırakmaya çalış. Yokuş aşağı inerken parmakların botun önüne çarpıyorsa, o tırnaklar bir süre sonra morarmaya başlar. Botun içinde ayağının öne kayıp kaymadığını mutlaka kontrol et.
+Salomon X Ultra 4 için ürün notlarında kalıbın dar olabileceği belirtilmiş. Eğer geniş bir tarak yapın varsa bu uyarıyı ciddiye almalısın. Dar gelen bir botu çorapla genişletemezsin, bir numara büyük almak ise bu sefer topuğunun boşta kalmasına neden olur. Bağcıkları sıkarken ayak tarak kısmını sıkı tutup parmak uçlarına hareket alanı bırakmaya çalış. Yokuş aşağı inerken parmakların botun önüne çarpıyorsa, o tırnaklar bir süre sonra morarmaya başlar. Botun içinde ayağının öne kayıp kaymadığını mutlaka kontrol et. Aynı yüzme işinin devamı [Nefes Kontrolü](/makale/yuzmede-nefes-kontrolu-baslangic-icin-ritim/) rehberinde.
 
 ## Salomon X Ultra 4 Gore-Tex: Hafif ama dar kalıp
 
@@ -131,4 +130,3 @@ Maalesef hayır. Bu hacimdeki çantalar sadece günlük su, yemek ve yedek kıya
 | Tam Set | Bot, Baton, + | Doğa yürüyüşlerine sıfırdan ve tam donanımlı başlamak isteyenler. |
 
 Eğer bütçeni tek bir yere ayıracaksan, önceliği Salomon X Ultra 4 botuna ver. Ayağın rahat ettikten sonra diğer eksiklerini zamanla tamamlayabilirsin. Yürüyüşten döndüğünde botlarını oda sıcaklığında kurutmayı ve bir sonraki tur için batonlarının boyunu kontrol etmeyi unutma.
-

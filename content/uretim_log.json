@@ -55,7 +55,10 @@
   "talep:emekliler-icin-hobiler",
   "talep:hobi-odasi-nasil-kurulur",
   "ticari:koleksiyon:lego-model:baslangic",
-  "bilgi:bilim-astronomi:mikroskop:mikroskopta-preparat-hazirlarken-hava-kabarcigindan-kacinma"
+  "bilgi:bilim-astronomi:mikroskop:mikroskopta-preparat-hazirlarken-hava-kabarcigindan-kacinma",
+  "talep:amigurumi-baslangic-seti",
+  "bilgi:sanat:kaligrafi-cizim:kaligrafiye-baslarken-kalem-acisi-ve-cizgi-alistirmalari",
+  "bilgi:spor-fitness:yuzme:yuzmede-nefes-kontrolu-baslangic-icin-ritim"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -110,7 +113,10 @@
   "2XPS_WJ9dDw",
   "_-X4UKYqfH8",
   "wjeUKCoFQ9A",
-  "_c70Nhh6p44"
+  "_c70Nhh6p44",
+  "OgOFDnCNGls",
+  "y02jEX_B0O0",
+  "ZbbhkQ0M2AM"
  ],
  "atlanan": [
   {
@@ -1262,6 +1268,421 @@
    "anahtar": "bilgi:seyahat-gezi:backpacking:sirt-cantasiyla-seyahatte-bagaji-hafifletmenin-yollari",
    "neden": "kısa (673 kelime, güvenlik tabanı 1000)",
    "tarih": "2026-11-19"
+  },
+  {
+   "anahtar": "bilgi:bahce-bitki:ev-bitkileri:ev-bitkilerinde-saksi-degisimi-ne-zaman-yapilmali",
+   "neden": "kısa (683 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:evcil-hayvan:kus-bakimi:muhabbet-kusu-kafesi-nasil-konumlandirilmali",
+   "neden": "kısa (667 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:outdoor:balikcilik:ilk-olta-takimi-secimi-baslangic-icin-temel-rehber",
+   "neden": "kısa (697 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:sanat:heykel:kil-heykel-yapiminda-iskelet-kurmanin-puf-noktalari",
+   "neden": "kısa (665 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:bahce-bitki:ev-bitkileri:ev-bitkilerinde-saksi-degisimi-ne-zaman-yapilmali",
+   "neden": "kısa (910 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:evcil-hayvan:kus-bakimi:muhabbet-kusu-kafesi-nasil-konumlandirilmali",
+   "neden": "kısa (827 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:outdoor:balikcilik:ilk-olta-takimi-secimi-baslangic-icin-temel-rehber",
+   "neden": "kısa (667 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:sanat:heykel:kil-heykel-yapiminda-iskelet-kurmanin-puf-noktalari",
+   "neden": "kısa (681 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:seyahat-gezi:backpacking:sirt-cantasiyla-seyahatte-bagaji-hafifletmenin-yollari",
+   "neden": "kısa (657 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:dovus-sporlari:dovus-sporlarina-baslarken-brans-secimi-nasil-yapilir",
+   "neden": "kısa (739 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:teknoloji:robotik:robotik-kodlamaya-baslarken-ilk-proje-fikirleri",
+   "neden": "kısa (567 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yazilim-kodlama:oyun-gelistirme:oyun-fikrini-prototipe-cevirmenin-en-hizli-yolu",
+   "neden": "kısa (414 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:bahce-bitki:teraryum:kapali-teraryumda-nem-dengesi-nasil-korunur",
+   "neden": "kısa (665 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:bahce-bitki:ev-bitkileri:ev-bitkilerinde-saksi-degisimi-ne-zaman-yapilmali",
+   "neden": "kısa (701 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:seyahat-gezi:backpacking:sirt-cantasiyla-seyahatte-bagaji-hafifletmenin-yollari",
+   "neden": "kısa (596 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:dovus-sporlari:dovus-sporlarina-baslarken-brans-secimi-nasil-yapilir",
+   "neden": "kısa (810 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:teknoloji:robotik:robotik-kodlamaya-baslarken-ilk-proje-fikirleri",
+   "neden": "kısa (661 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yazilim-kodlama:oyun-gelistirme:oyun-fikrini-prototipe-cevirmenin-en-hizli-yolu",
+   "neden": "kısa (841 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:bahce-bitki:teraryum:kapali-teraryumda-nem-dengesi-nasil-korunur",
+   "neden": "kısa (702 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:outdoor:bisiklet:bisiklet-zinciri-ne-siklikla-yaglanir-basit-bakim-rutini",
+   "neden": "kısa (908 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:sanat:kaligrafi-cizim:kaligrafiye-baslarken-kalem-acisi-ve-cizgi-alistirmalari",
+   "neden": "kısa (826 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:seyahat-gezi:karavan:karavanla-ilk-uzun-yolculuk-oncesi-hazirlik-listesi",
+   "neden": "kısa (596 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:raket-sporlari:raket-sporlarinda-tutus-sekli-oyunu-nasil-degistirir",
+   "neden": "kısa (735 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:teknoloji:robotik:arduino-mu-raspberry-pi-mi-hobi-projeleri-icin-secim-rehberi",
+   "neden": "kısa (770 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yazilim-kodlama:siber-guvenlik:ev-agini-guvenli-hale-getirmenin-temel-adimlari",
+   "neden": "kısa (693 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:outdoor:kaya-tirmanis:kaya-tirmanisina-baslamadan-once-bilmen-gereken-guvenlik-kurallari",
+   "neden": "kısa (678 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:sanat:seramik-comlek:seramikte-camur-kuruma-catlaklarini-onlemenin-yollari",
+   "neden": "kısa (884 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:seyahat-gezi:seyahat-fotograf:seyahatte-fotograf-icin-altin-saat-nasil-degerlendirilir",
+   "neden": "kısa (677 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:vucut-gelistirme:agirlik-antrenmaninda-isinma-rutini-neden-onemli",
+   "neden": "kısa (667 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yazilim-kodlama:veri-bilimi:veri-bilimine-baslarken-hangi-adimlar-sirayla-ogrenilmeli",
+   "neden": "kısa (517 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:seyahat-gezi:vlog:seyahat-vlogu-cekerken-ses-ve-ruzgar-sorunu-nasil-cozulur",
+   "neden": "kısa (668 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "talep:robotik-kodlama-robotu",
+   "neden": "kısa (491 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:dovus-sporlari:dovus-sporlarina-baslarken-brans-secimi-nasil-yapilir",
+   "neden": "kısa (683 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:teknoloji:robotik:robotik-kodlamaya-baslarken-ilk-proje-fikirleri",
+   "neden": "kısa (530 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yazilim-kodlama:oyun-gelistirme:oyun-fikrini-prototipe-cevirmenin-en-hizli-yolu",
+   "neden": "kısa (818 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:bahce-bitki:teraryum:kapali-teraryumda-nem-dengesi-nasil-korunur",
+   "neden": "kısa (463 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:outdoor:bisiklet:bisiklet-zinciri-ne-siklikla-yaglanir-basit-bakim-rutini",
+   "neden": "kısa (642 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:seyahat-gezi:karavan:karavanla-ilk-uzun-yolculuk-oncesi-hazirlik-listesi",
+   "neden": "kısa (626 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:raket-sporlari:raket-sporlarinda-tutus-sekli-oyunu-nasil-degistirir",
+   "neden": "kısa (813 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:teknoloji:robotik:arduino-mu-raspberry-pi-mi-hobi-projeleri-icin-secim-rehberi",
+   "neden": "kısa (768 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yazilim-kodlama:siber-guvenlik:ev-agini-guvenli-hale-getirmenin-temel-adimlari",
+   "neden": "kısa (537 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:outdoor:kaya-tirmanis:kaya-tirmanisina-baslamadan-once-bilmen-gereken-guvenlik-kurallari",
+   "neden": "kısa (585 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:seyahat-gezi:seyahat-fotograf:seyahatte-fotograf-icin-altin-saat-nasil-degerlendirilir",
+   "neden": "kısa (674 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:vucut-gelistirme:agirlik-antrenmaninda-isinma-rutini-neden-onemli",
+   "neden": "kısa (562 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yazilim-kodlama:veri-bilimi:veri-bilimine-baslarken-hangi-adimlar-sirayla-ogrenilmeli",
+   "neden": "kısa (719 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:seyahat-gezi:vlog:seyahat-vlogu-cekerken-ses-ve-ruzgar-sorunu-nasil-cozulur",
+   "neden": "kısa (481 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:yuzme:yuzmede-nefes-kontrolu-baslangic-icin-ritim",
+   "neden": "kısa (716 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yazilim-kodlama:web-gelistirme:ilk-web-sitesini-yayina-almadan-once-kontrol-edilecekler",
+   "neden": "kısa (538 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:outdoor:dagcilik-trekking:trekkingte-su-tuketimi-ne-kadar-su-tasimali",
+   "neden": "kısa (659 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "talep:robotik-kodlama-robotu",
+   "neden": "kısa (653 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:outdoor:bisiklet:bisiklet-zinciri-ne-siklikla-yaglanir-basit-bakim-rutini",
+   "neden": "kısa (751 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:seyahat-gezi:karavan:karavanla-ilk-uzun-yolculuk-oncesi-hazirlik-listesi",
+   "neden": "kısa (588 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:raket-sporlari:raket-sporlarinda-tutus-sekli-oyunu-nasil-degistirir",
+   "neden": "kısa (799 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:teknoloji:robotik:arduino-mu-raspberry-pi-mi-hobi-projeleri-icin-secim-rehberi",
+   "neden": "kısa (696 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yazilim-kodlama:siber-guvenlik:ev-agini-guvenli-hale-getirmenin-temel-adimlari",
+   "neden": "kısa (628 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:outdoor:kaya-tirmanis:kaya-tirmanisina-baslamadan-once-bilmen-gereken-guvenlik-kurallari",
+   "neden": "kısa (482 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:seyahat-gezi:seyahat-fotograf:seyahatte-fotograf-icin-altin-saat-nasil-degerlendirilir",
+   "neden": "kısa (618 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:vucut-gelistirme:agirlik-antrenmaninda-isinma-rutini-neden-onemli",
+   "neden": "kısa (665 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yazilim-kodlama:veri-bilimi:veri-bilimine-baslarken-hangi-adimlar-sirayla-ogrenilmeli",
+   "neden": "kısa (563 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:seyahat-gezi:vlog:seyahat-vlogu-cekerken-ses-ve-ruzgar-sorunu-nasil-cozulur",
+   "neden": "kısa (807 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:yuzme:yuzmede-nefes-kontrolu-baslangic-icin-ritim",
+   "neden": "kısa (736 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yazilim-kodlama:web-gelistirme:ilk-web-sitesini-yayina-almadan-once-kontrol-edilecekler",
+   "neden": "kısa (488 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:outdoor:dagcilik-trekking:trekkingte-su-tuketimi-ne-kadar-su-tasimali",
+   "neden": "kısa (675 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:evde-fitness:evde-spora-yer-acmak-kucuk-dairede-antrenman-duzeni",
+   "neden": "kısa (718 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:teknoloji:3d-yazici:3d-yazicida-ilk-katman-sorunlari-ve-basit-cozumleri",
+   "neden": "kısa (714 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yemek-mutfak:ekmek-pasta:evde-ekmek-yapiminda-hamurun-su-orani-nasil-ayarlanir",
+   "neden": "kısa (772 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:evcil-hayvan:kedi-bakimi:kedilerde-su-tuketimini-artirmanin-yollari",
+   "neden": "kısa (735 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yemek-mutfak:yemek-pisirme:duduklu-tencerede-baklagil-pisirirken-nelere-dikkat-etmeli",
+   "neden": "kısa (611 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yazilim-kodlama:web-gelistirme:ilk-web-sitesini-yayina-almadan-once-kontrol-edilecekler",
+   "neden": "kısa (548 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:outdoor:dagcilik-trekking:trekkingte-su-tuketimi-ne-kadar-su-tasimali",
+   "neden": "kısa (678 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:teknoloji:3d-yazici:3d-yazicida-ilk-katman-sorunlari-ve-basit-cozumleri",
+   "neden": "kısa (743 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yemek-mutfak:ekmek-pasta:evde-ekmek-yapiminda-hamurun-su-orani-nasil-ayarlanir",
+   "neden": "kısa (841 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:evcil-hayvan:kedi-bakimi:kedilerde-su-tuketimini-artirmanin-yollari",
+   "neden": "kısa (628 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yemek-mutfak:yemek-pisirme:duduklu-tencerede-baklagil-pisirirken-nelere-dikkat-etmeli",
+   "neden": "kısa (601 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:teknoloji:oyun-pc-modlama:oyun-bilgisayarinda-hava-akisi-nasil-duzenlenir",
+   "neden": "kısa (763 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yemek-mutfak:mangal-bbq:mangalda-etin-kurumasini-onleyen-basit-yontemler",
+   "neden": "kısa (732 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yemek-mutfak:yemek-pisirme:mutfakta-bicak-bileme-evde-guvenli-keskinlestirme",
+   "neden": "kısa (521 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:teknoloji:3d-yazici:3d-yazicida-ilk-katman-sorunlari-ve-basit-cozumleri",
+   "neden": "kısa (970 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yemek-mutfak:ekmek-pasta:evde-ekmek-yapiminda-hamurun-su-orani-nasil-ayarlanir",
+   "neden": "kısa (626 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:evcil-hayvan:kedi-bakimi:kedilerde-su-tuketimini-artirmanin-yollari",
+   "neden": "kısa (761 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yemek-mutfak:yemek-pisirme:duduklu-tencerede-baklagil-pisirirken-nelere-dikkat-etmeli",
+   "neden": "kısa (754 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:teknoloji:oyun-pc-modlama:oyun-bilgisayarinda-hava-akisi-nasil-duzenlenir",
+   "neden": "kısa (592 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yemek-mutfak:mangal-bbq:mangalda-etin-kurumasini-onleyen-basit-yontemler",
+   "neden": "kısa (618 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
   }
  ],
  "makaleler": [
@@ -1529,6 +1950,21 @@
    "anahtar": "bilgi:bilim-astronomi:mikroskop:mikroskopta-preparat-hazirlarken-hava-kabarcigindan-kacinma",
    "tarih": "2026-11-19",
    "slug": "mikroskopta-preparat-hazirlarken-hava-kabarcigindan-kacinma"
+  },
+  {
+   "anahtar": "talep:amigurumi-baslangic-seti",
+   "tarih": "2026-11-20",
+   "slug": "amigurumi-baslangic-seti"
+  },
+  {
+   "anahtar": "bilgi:sanat:kaligrafi-cizim:kaligrafiye-baslarken-kalem-acisi-ve-cizgi-alistirmalari",
+   "tarih": "2026-11-20",
+   "slug": "kaligrafiye-baslarken-kalem-acisi-ve-cizgi-alistirmalari"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:yuzme:yuzmede-nefes-kontrolu-baslangic-icin-ritim",
+   "tarih": "2026-11-20",
+   "slug": "yuzmede-nefes-kontrolu-baslangic-icin-ritim"
   }
  ],
  "talep": [
@@ -1594,6 +2030,13 @@
    "durum": "yazildi",
    "tarih": "2026-11-14",
    "slug": "hobi-odasi-nasil-kurulur"
+  },
+  {
+   "sorgu": "amigurumi başlangıç seti",
+   "anahtar": "talep:amigurumi-baslangic-seti",
+   "durum": "yazildi",
+   "tarih": "2026-11-20",
+   "slug": "amigurumi-baslangic-seti"
   }
  ]
 }
