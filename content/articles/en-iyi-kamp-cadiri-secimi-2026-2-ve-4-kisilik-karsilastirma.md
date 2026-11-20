@@ -19,7 +19,7 @@ starter_label: "4 kişilik başlangıç çadırına bak"
 starter_text: "Araçla hafta sonu kampı için başlangıç parçası Coleman Sundome 4. İki kişi sığar, çanta için de yer kalır. Güncel fiyatı Amazon'da kontrol et."
 draft: "false"
 ---
-Eğer çadırda sadece uyuyacaksan 2 kişilik bir model işini görür ama çantaları da içeri çekeyim, gece içeride rahatça hareket edeyim dersen işler biraz değişiyor. Çadır üreticilerinin "4 kişilik" dediği alan, genellikle dört kişinin yan yana dizilmesi demek. Konforlu bir kamp için bu sayıyı iki yetişkin ve eşyaları olarak okuman daha mantıklı olur. "2 kişilik" etiketli modeller ise genelde sadece iki uyku tulumunun sığacağı kadar bir zemin sunar. Bu seçimin devamı [Depolama Fikirleri](/makale/hobi-odasi-nasil-kurulur/) rehberinde duruyor.
+Eğer çadırda sadece uyuyacaksan 2 kişilik bir model işini görür ama çantaları da içeri çekeyim, gece içeride rahatça hareket edeyim dersen işler biraz değişiyor. Çadır üreticilerinin "4 kişilik" dediği alan, genellikle dört kişinin yan yana dizilmesi demek. Konforlu bir kamp için bu sayıyı iki yetişkin ve eşyaları olarak okuman daha mantıklı olur. "2 kişilik" etiketli modeller ise genelde sadece iki uyku tulumunun sığacağı kadar bir zemin sunar.
 
 ## İki kişi için hangi kapasiteyi seçmelisin?
 
