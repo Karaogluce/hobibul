@@ -37,7 +37,7 @@ Motorları çalıştırmadan önce yapacağın birkaç dakikalık kontrol, ilk u
 
 ## Türkiye'de Yasal Sınırlar ve Uçuş Alanları
 
-Cihazı rastgele bir parkta veya sokak arasında havalandırmak yasal yaptırımlara yol açabilir. Sivil Havacılık Genel Müdürlüğü (SHGM), ağırlığı 500 gram ve üzeri olan insansız hava araçlarının sisteme kaydedilmesini ve pilotun ehliyet almasını zorunlu tutar. 500 gram altındaki hobi cihazları tescil zorunluluğundan muaf tutulsa bile uçuşa yasak bölgelerde serbestçe uçurulamaz. Aynı mikroskop işinin devamı [Mikroskopta Preparat Hazırlarken Hava](/makale/mikroskopta-preparat-hazirlarken-hava-kabarcigindan-kacinma/) rehberinde.
+Cihazı rastgele bir parkta veya sokak arasında havalandırmak yasal yaptırımlara yol açabilir. Sivil Havacılık Genel Müdürlüğü (SHGM), ağırlığı 500 gram ve üzeri olan insansız hava araçlarının sisteme kaydedilmesini ve pilotun ehliyet almasını zorunlu tutar. 500 gram altındaki hobi cihazları tescil zorunluluğundan muaf tutulsa bile uçuşa yasak bölgelerde serbestçe uçurulamaz.
 
 Askeri bölgeler, havalimanı çevreleri, kamu binaları ve kalabalık etkinlik alanları kesinlikle kırmızı bölgedir. Bir uçuş planlamadan önce resmi uçuş haritası üzerinden bölgenin durumunu incelemen gerekir. İzin alınmadan yapılan uçuşlar idari para cezalarıyla sonuçlanabildiği için yeşil alan olarak belirlenmiş serbest sahaların dışına çıkmamak güvenliğin ve cüzdanın açısından en doğrusudur.
 

@@ -596,7 +596,13 @@ def _yerlestir(body, sentence, kok_hedef, serbest_paragraf, sar_anchor="", yol="
 
 
 def _kaynak_adaylari(hedef, makaleler, gelen, yeni_sayisi, denenen, dolu_esigi=None):
-    """İlgili ve hâlâ yeri olan kaynaklar. Önce aynı alt kategori, güçlü olan önde."""
+    """İlgili ve hâlâ yeri olan kaynaklar. Önce aynı alt kategori, güçlü olan önde.
+
+    Makale hedeflerinde yalnızca aynı kategori kabul edilir: aynı alt kategori
+    (tier 0) veya aynı kategori içinde en az iki ortak kök (tier 1). Farklı
+    kategoride tek bir ortak kökün ("hava" gibi) link gerekçesi olması, drone
+    yazısına mikroskop cümlesi eklemek gibi alakasız bağlantılar üretiyordu.
+    """
     hedef_kok = _hedef_kok(hedef)
     hedef_yol = hedef["yol"]
     aday = []
@@ -619,7 +625,6 @@ def _kaynak_adaylari(hedef, makaleler, gelen, yeni_sayisi, denenen, dolu_esigi=N
         govde_kok = kokler(m["body"])
         cift = ortusen_kokler(hedef_kok, govde_kok)
         ortak = len(cift)
-        en_uzun = max((max(len(x), len(y)) for x, y in cift), default=0)
         if hedef.get("tur") == "kategori":
             if hedef.get("alt_kategori"):
                 if not ayni_alt:
@@ -631,8 +636,6 @@ def _kaynak_adaylari(hedef, makaleler, gelen, yeni_sayisi, denenen, dolu_esigi=N
             tier = 0
         elif ayni_kat and ortak >= 2:
             tier = 1
-        elif (not ayni_kat) and ortak >= 2 and en_uzun >= 6:
-            tier = 2
         else:
             continue
         guc = len(gelen.get(m["yol"], ()))
