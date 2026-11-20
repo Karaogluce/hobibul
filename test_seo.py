@@ -4,6 +4,31 @@ import unittest
 import seo
 
 
+class FitTitleTest(unittest.TestCase):
+    def test_uzun_baslik_baglacla_bitmez(self):
+        out = seo.fit_title(
+            "Teknoloji Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır | Hobi Bul")
+        self.assertLessEqual(len(out), seo.TITLE_MAX)
+        self.assertFalse(out.rstrip(".").endswith(" ve"), out)
+        self.assertFalse(out.endswith("Nasıl"), out)
+
+    def test_yarim_ifade_ve_marka_eklenmez(self):
+        out = seo.fit_title(
+            "Mikroskopta Preparat Hazırlarken Hava Kabarcığından Kaçınma")
+        self.assertLessEqual(len(out), seo.TITLE_MAX)
+        self.assertFalse(out.endswith("Hava"), out)
+
+    def test_sigan_baslik_aynen_kalir(self):
+        metin = "Kısa ve Tam Başlık | Hobi Bul"
+        self.assertEqual(seo.fit_title(metin), metin)
+
+    def test_noktalama_sinirinda_keser(self):
+        out = seo.fit_title(
+            "En İyi Kamp Çadırı Seçimi 2026: 2 ve 4 Kişilik Karşılaştırma | Hobi Bul")
+        self.assertLessEqual(len(out), seo.TITLE_MAX)
+        self.assertTrue(out.startswith("En İyi Kamp Çadırı Seçimi 2026"), out)
+
+
 class FitDescriptionTest(unittest.TestCase):
     def test_sondaki_marka_eki_ayiklanir(self):
         ham = ("En iyi bonsai ekipmanları ile bonsai ağacı bakımı nasıl yapılır? "

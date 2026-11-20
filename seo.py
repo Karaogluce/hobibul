@@ -24,8 +24,47 @@ def _squash(text):
     return re.sub(r"\s+", " ", (text or "")).strip()
 
 
+# Marka eki ancak konudan bu kadar karakter kalırsa eklenir; daha kısa gövdeye
+# " | Hobi Bul" eklemek başlığı cümle ortasında bırakır.
+TITLE_MARKA_MIN = 40
+TITLE_KOK_MIN = 16
+
+# Kelime sınırında kesince sonda kalan yarım ifadeler (fold edilmiş).
+_KESIM_DUSEN = {
+    "ve", "ile", "icin", "ilk", "nasil", "yapilan", "alirken", "hata",
+    "en", "bir",
+}
+
+
+def _fold(word):
+    word = str(word or "").replace("İ", "i").replace("I", "ı").lower()
+    return word.translate(str.maketrans("çğıöşüâîû", "cgiosuaiu"))
+
+
+def _kesim_temiz(chunk):
+    """Sondaki bağlaçları, sayıları ve yarım ifadeleri atar."""
+    chunk = chunk.strip(" -:|,")
+    # Kapanmamış parantez, tarih gibi eklerin ortasında kesildiğini gösterir.
+    if chunk.count("(") > chunk.count(")"):
+        chunk = chunk[:chunk.rfind("(")].rstrip(" -:|,")
+    words = chunk.split()
+    while words:
+        son = _fold(words[-1]).strip(".,;:!?")
+        if son in _KESIM_DUSEN or son.isdigit():
+            words.pop()
+            continue
+        break
+    return " ".join(words)
+
+
 def fit_title(text, limit=TITLE_MAX):
-    """Uzun başlığı kelime sınırında kısaltır. Sığanı olduğu gibi bırakır."""
+    """60 karakteri aşan başlığı anlamlı bir sınırda kısaltır.
+
+    Sığanı olduğu gibi bırakır. Kırpma gerekirse önce ":", "?" veya " - "
+    sınırında keser; yoksa kelime sınırında kesip sondaki bağlaç, sayı ve
+    yarım ifadeleri atar. Marka eki ancak konudan en az TITLE_MARKA_MIN
+    karakter kalırsa eklenir; aksi halde markasız tam başlık yeğlenir.
+    """
     text = _squash(text)
     if not text:
         text = "Hobi Bul"
@@ -33,16 +72,31 @@ def fit_title(text, limit=TITLE_MAX):
         return text
     core = text[:-len(BRAND)].rstrip() if text.endswith(BRAND) else text
     room = limit - len(BRAND)
-    if room >= 16 and len(core) > room:
-        chunk = core[:room].rstrip(" -:|,")
-        if " " in chunk:
-            cut = chunk.rsplit(" ", 1)[0].rstrip(" -:|,")
-            if len(cut) >= 16:
-                chunk = cut
-        text = chunk + BRAND
-    if len(text) > limit:
-        text = text[:limit].rstrip(" -:|,")
-    return text
+    # 1) Noktalama sınırı: başlığı tam bir ifadede bitirir.
+    if room >= TITLE_KOK_MIN:
+        kesim = -1
+        for ayrac in (":", "?", " - "):
+            i = core.rfind(ayrac, 0, room + 1)
+            if i >= TITLE_KOK_MIN and i > kesim:
+                kesim = i
+        if kesim >= TITLE_KOK_MIN:
+            return (core[:kesim].rstrip(" -:|,") + BRAND)[:limit]
+    # 2) Kelime sınırı + marka eki.
+    if room >= TITLE_KOK_MIN and len(core) > room:
+        chunk = core[:room]
+        if core[room:room + 1] not in ("", " "):
+            parca = chunk.rsplit(" ", 1)
+            chunk = parca[0] if len(parca) > 1 else ""
+        chunk = _kesim_temiz(chunk)
+        if len(chunk) >= TITLE_MARKA_MIN:
+            return (chunk + BRAND)[:limit]
+    # 3) Marka eki sığmıyorsa düşür ve 60'a sığdır.
+    chunk = core[:limit]
+    if core[limit:limit + 1] not in ("", " "):
+        parca = chunk.rsplit(" ", 1)
+        chunk = parca[0] if len(parca) > 1 else chunk
+    chunk = _kesim_temiz(chunk)
+    return (chunk or core[:limit]).rstrip(" -:|,")[:limit]
 
 
 _DANGLING = {
