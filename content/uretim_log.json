@@ -57,7 +57,8 @@
   "ticari:koleksiyon:lego-model:baslangic",
   "bilgi:bilim-astronomi:mikroskop:mikroskopta-preparat-hazirlarken-hava-kabarcigindan-kacinma",
   "talep:amigurumi-baslangic-seti",
-  "bilgi:sanat:kaligrafi-cizim:kaligrafiye-baslarken-kalem-acisi-ve-cizgi-alistirmalari"
+  "bilgi:sanat:kaligrafi-cizim:kaligrafiye-baslarken-kalem-acisi-ve-cizgi-alistirmalari",
+  "bilgi:spor-fitness:yuzme:yuzmede-nefes-kontrolu-baslangic-icin-ritim"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -114,7 +115,8 @@
   "wjeUKCoFQ9A",
   "_c70Nhh6p44",
   "OgOFDnCNGls",
-  "y02jEX_B0O0"
+  "y02jEX_B0O0",
+  "ZbbhkQ0M2AM"
  ],
  "atlanan": [
   {
@@ -1606,6 +1608,51 @@
    "anahtar": "bilgi:yemek-mutfak:yemek-pisirme:duduklu-tencerede-baklagil-pisirirken-nelere-dikkat-etmeli",
    "neden": "kısa (611 kelime, güvenlik tabanı 1000)",
    "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yazilim-kodlama:web-gelistirme:ilk-web-sitesini-yayina-almadan-once-kontrol-edilecekler",
+   "neden": "kısa (548 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:outdoor:dagcilik-trekking:trekkingte-su-tuketimi-ne-kadar-su-tasimali",
+   "neden": "kısa (678 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:teknoloji:3d-yazici:3d-yazicida-ilk-katman-sorunlari-ve-basit-cozumleri",
+   "neden": "kısa (743 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yemek-mutfak:ekmek-pasta:evde-ekmek-yapiminda-hamurun-su-orani-nasil-ayarlanir",
+   "neden": "kısa (841 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:evcil-hayvan:kedi-bakimi:kedilerde-su-tuketimini-artirmanin-yollari",
+   "neden": "kısa (628 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yemek-mutfak:yemek-pisirme:duduklu-tencerede-baklagil-pisirirken-nelere-dikkat-etmeli",
+   "neden": "kısa (601 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:teknoloji:oyun-pc-modlama:oyun-bilgisayarinda-hava-akisi-nasil-duzenlenir",
+   "neden": "kısa (763 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yemek-mutfak:mangal-bbq:mangalda-etin-kurumasini-onleyen-basit-yontemler",
+   "neden": "kısa (732 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
+  },
+  {
+   "anahtar": "bilgi:yemek-mutfak:yemek-pisirme:mutfakta-bicak-bileme-evde-guvenli-keskinlestirme",
+   "neden": "kısa (521 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-20"
   }
  ],
  "makaleler": [
@@ -1883,6 +1930,11 @@
    "anahtar": "bilgi:sanat:kaligrafi-cizim:kaligrafiye-baslarken-kalem-acisi-ve-cizgi-alistirmalari",
    "tarih": "2026-11-20",
    "slug": "kaligrafiye-baslarken-kalem-acisi-ve-cizgi-alistirmalari"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:yuzme:yuzmede-nefes-kontrolu-baslangic-icin-ritim",
+   "tarih": "2026-11-20",
+   "slug": "yuzmede-nefes-kontrolu-baslangic-icin-ritim"
   }
  ],
  "talep": [

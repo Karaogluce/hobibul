@@ -4,7 +4,7 @@ slug: "raspberry-pi-5-baslangic-kiti"
 category: "teknoloji"
 subcategory: "raspberry-pi-elektronik"
 date: "2026-10-28"
-updated: "2026-11-11"
+updated: "2026-11-20"
 meta_title: "Raspberry Pi 5 Kiti: 8 GB ve 27W | Hobi Bul"
 meta_description: "Raspberry Pi 5 8GB başlangıç kiti: resmi 27W adaptör, soğutucu, GeeekPi set ve Freenove. Arduino ile farkı da yazının içinde."
 excerpt: "Pi 5 kart tek başına açılmaz. Soğutucu ve 27W adaptör şart. Hepsini ayrı toplamaktan yorulursan GeeekPi seti aynı sepette toplar."
@@ -25,7 +25,7 @@ Raspberry Pi 5 8GB aldığında eline sadece çıplak bir kart geçiyor; ne bir 
 
 ## Raspberry Pi 5 8GB Sadece Kart Olarak Alınır mı?
 
-Pi 5 8GB oldukça güçlü bir işlemciyle geliyor ve geniş bir topluluk desteğine sahip. 8 GB RAM kapasitesi, tarayıcıda çok sekme açtığında veya arkada küçük bir sunucu çalıştırdığında sana rahat bir nefes aldırır. Eğer sadece basit bir LED yakıp söndüreceksen bu kart sana fazla gelir; o iş için Arduino çok daha mantıklı bir yerde duruyor.
+Pi 5 8GB oldukça güçlü bir işlemciyle geliyor ve geniş bir topluluk desteğine sahip. 8 GB RAM kapasitesi, tarayıcıda çok sekme açtığında veya arkada küçük bir sunucu çalıştırdığında sana rahat bir nefes aldırır. Eğer sadece basit bir LED yakıp söndüreceksen bu kart sana fazla gelir; o iş için Arduino çok daha mantıklı bir yerde duruyor. Aynı yüzme işinin devamı [Yüzmede Nefes Kontrolü](/makale/yuzmede-nefes-kontrolu-baslangic-icin-ritim/) rehberinde.
 
 Bu kartın en büyük eksisi, kutusundan soğutucu veya adaptör çıkmaması. "Evdeki telefon şarjıyla idare ederim" diye düşünüyorsan yanılırsın; Pi 5, 27W gücünde kararlı bir kaynak istiyor. Zayıf bir adaptör kullandığında, karta bir disk veya USB taktığın an sistemin yeniden başladığını görürsün. Ayrıca soğutucu takmazsan, işlemci yük altında hemen ısınır ve performansı düşürür.
 
