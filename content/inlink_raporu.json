@@ -3,9 +3,9 @@
  "ozet": {
   "makale": 85,
   "kategori": 82,
-  "yetim_makale": 42,
+  "yetim_makale": 43,
   "yetim_kategori": 19,
-  "yetim": 61,
+  "yetim": 62,
   "makalesiz_kategori": 33,
   "sitemap_linksiz": [],
   "uc_tik_disi": [],
@@ -275,6 +275,18 @@
    "govde_gelen": 0,
    "toplam_gelen": 7,
    "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/yuzmede-nefes-kontrolu-baslangic-icin-ritim/",
+   "tur": "makale",
+   "baslik": "Yüzmede Nefes Kontrolü: Başlangıç İçin Ritim",
+   "kategori": "spor-fitness",
+   "alt_kategori": "yuzme",
+   "govde_gelen": 0,
+   "toplam_gelen": 179,
+   "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -2439,15 +2451,12 @@
    "baslik": "Yüzmede Nefes Kontrolü: Başlangıç İçin Ritim",
    "kategori": "spor-fitness",
    "alt_kategori": "yuzme",
-   "govde_gelen": 2,
-   "icerik_gelen": 9,
+   "govde_gelen": 0,
+   "icerik_gelen": 7,
    "toplam_gelen": 179,
    "tik": 1,
    "gsc_oncelik": false,
-   "govde_kaynaklar": [
-    "/makale/raspberry-pi-5-baslangic-kiti/",
-    "/makale/trekking-bot-secimi-gore-tex-baslangic-botlari/"
-   ],
+   "govde_kaynaklar": [],
    "makale_sayisi": null
   },
   {
