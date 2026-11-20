@@ -3,7 +3,7 @@ title: "Örgü & Tığ İşi Başlangıç Seti: İlk Alınacaklar (2026)"
 slug: "orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026"
 category: "el-sanatlari"
 date: "2026-10-29"
-updated: "2026-11-09"
+updated: "2026-11-20"
 meta_title: "Örgü ve Tığ: İlk Alınacaklar 2026 | Hobi Bul"
 meta_description: "Örgü ve tığ işine yeni başlayanlar için doğru şiş, tığ ve ip seçim rehberi. Gereksiz harcama yapmadan temel setinizi kurun ve örmeye hemen başlayın."
 excerpt: "Örgü ve tığ işine yeni başlayanlar için doğru şiş, tığ ve ip seçim rehberi. Gereksiz harcama yapmadan temel setinizi kurun ve örmeye hemen başlayın."
@@ -18,7 +18,7 @@ draft: "false"
 ---
 Örgü veya tığ işine başlarken onlarca parça içeren karmaşık kutular yerine elini yormayacak bir tığ, yumuşak bir iplik ve birkaç ilmek belirleyici almak seni gereksiz masraftan kurtarır. Eğer doğrudan tığ işiyle başlamak istiyorsan ilk alışverişinde ergonomik gövdesiyle öne çıkan modelini ve orta kalınlıkta bir çileyi sepete eklemen işini rahatça görür. 
 
-Hobi raflarında gördüğün setlerin büyük kısmı, aslında hiç kullanmayacağın numaralarda gereçler barındırır. Yeni bir el uğraşına heves ettiğinde motivasyonunu kaçıran en büyük etken, kalitesiz bir alet yüzünden elinin ağrıması ya da ipin sürekli katlarına ayrılmasıdır. Bu yüzden bütçeni tek seferde tüketmek yerine, doğrudan öreceğin ilk parçaya göre temel gereçleri doğru seçmen gerekir.
+Hobi raflarında gördüğün setlerin büyük kısmı, aslında hiç kullanmayacağın numaralarda gereçler barındırır. Yeni bir el uğraşına heves ettiğinde motivasyonunu kaçıran en büyük etken, kalitesiz bir alet yüzünden elinin ağrıması ya da ipin sürekli katlarına ayrılmasıdır. Bu yüzden bütçeni tek seferde tüketmek yerine, doğrudan öreceğin ilk parçaya göre temel gereçleri doğru seçmen gerekir. Aynı örgü işinin devamı [Amigurumi Başlangıç Seti](/makale/amigurumi-baslangic-seti/) rehberinde.
 
 ## Başlarken Nelere Dikkat Etmeli?
 
@@ -143,4 +143,3 @@ Girintisi çıkıntısı az, düz geometrik formlar seçilmelidir. Örgü bandan
 Sıra başını, dönüşleri veya artırma yerlerini gözle takip etmek yeni başlayan biri için güçtür. Clover Kilitli İlmek Belirleyici gibi renk kodlu ve kilitli parçalar, örgü sırasında nerede işlem yapacağını işaretleyerek sökme zahmetinden kurtarır.
 
 Elini yormayacak ergonomik bir tığ veya hafif bir şiş takımı edinip Lion Brand Vanna's Choice gibi yumuşak dokulu açık renk bir iple küçük bir bandana örerek ilk denemeni yapabilirsin.
-

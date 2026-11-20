@@ -4,7 +4,7 @@ slug: "evde-yapilacak-hobiler"
 category: "el-sanatlari"
 subcategory: "orgu-tig"
 date: "2026-11-04"
-updated: "2026-11-04"
+updated: "2026-11-20"
 hide_plan: "true"
 meta_title: "Evde Yapılacak Hobiler: 30 Fikir | Hobi Bul"
 meta_description: "Evde yapılacak otuz hobi: el işi, mutfak, hareket, oyun ve küçük alet. İlk malzeme ve kime uymadığı. Bir haftada bir kapı yeter."
@@ -12,7 +12,6 @@ excerpt: "Evde yapılacak otuz hobi: el işi, mutfak, hareket, oyun ve küçük 
 focus_keyword: "evde yapılacak hobiler"
 draft: "false"
 ---
-
 Evde yapılacak hobi sorusu tek bir setle kapanmaz. Kimi akşam el işi ister, kimi mutfak, kimi kısa bir oyun, kimi de dışarı çıkmadan biten bir bakım. Aşağıda otuz kapı var. Her grupta ilk malzeme ve kime uymadığı duruyor. Hangisinin size uyduğunu daraltmak isterseniz [hangi hobi](/hangi-hobi/) beş soruda kalır.
 
 > Önce yer, gürültü ve ikinci kişi var mı ona bakın. Yer darsa akvaryum ve 3D yazıcı ertelenir. İkinci kişi gelmeyecekse çoğu kutu oyunu listenin başına yazılmaz. El işinin kendisi ayrı sayfadadır. Bir haftada bir kapı deneyin.
@@ -21,7 +20,7 @@ El işi sekiz başlık olarak [evde yapılacak el işi hobiler](/makale/evde-el-
 
 ## Elde biten işler
 
-Örgü ve tığ, bir yumak ile bir tığla başlar. Ayrıntı [örgü başlangıç setinde](/makale/orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026/). Kalabalık alet isteyen kişiye ilk hafta ağır gelir. Amigurumi aynı ailedendir. Küçük parça, sık ilmek. Sabır yoksa yarıda kalır.
+Örgü ve tığ, bir yumak ile bir tığla başlar. Ayrıntı [örgü başlangıç setinde](/makale/orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026/). Kalabalık alet isteyen kişiye ilk hafta ağır gelir. Amigurumi aynı ailedendir. Küçük parça, sık ilmek. Sabır yoksa yarıda kalır. Aynı örgü işinin devamı [Temel Teknikler](/makale/amigurumi-baslangic-seti/) rehberinde.
 
 Punch nakışı iğne, kasnak ve ip ister. Dikiş makinesi şart değildir. Şimdilik [dikiş ve nakış](/kategori/sanat/dikis-nakis/) kategorisine bakabilirsiniz. Diamond painting tuval, taş ve tepsiyle başlar. Nasıl yapıldığı [ayrı rehberde](/makale/diamond-painting-nedir-nasil-yapilir/).
 

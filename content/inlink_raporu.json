@@ -1,7 +1,7 @@
 {
  "tanim": "govde_gelen, başka bir makalenin gövdesinden gelen benzersiz iç linktir. Üst menü, altbilgi ve ekmek kırıntısı bu sayıda yoktur. yetim: yayındaki makale ya da içinde makalesi olan kategori sayfası, govde_gelen 0 veya 1 ise. Makalesi olmayan kategori sayfası menüden ulaşılır; alakasız gövde linki eklenmez ve makalesiz listesindedir. toplam_gelen, üretilmiş HTML içindeki diğer sayfalardan gelen benzersiz linktir. tik, ana sayfadan tıklama derinliğidir. gsc_oncelik, analytics_gsc.json içinde ortalama pozisyonu 8-20 olan sorguya denk sayfadır; dosya yoksa veya ok değilse boş kalır.",
  "ozet": {
-  "makale": 82,
+  "makale": 83,
   "kategori": 82,
   "yetim_makale": 40,
   "yetim_kategori": 17,
@@ -57,7 +57,7 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -117,7 +117,7 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "resim-boyama",
    "govde_gelen": 0,
-   "toplam_gelen": 7,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -129,7 +129,7 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "resim-boyama",
    "govde_gelen": 0,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -153,7 +153,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 0,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -165,7 +165,7 @@
    "kategori": "muzik",
    "alt_kategori": "gitar",
    "govde_gelen": 0,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -627,7 +627,7 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "orgu-tig",
    "govde_gelen": 1,
-   "toplam_gelen": 6,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -683,7 +683,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "toplam_gelen": 176,
+   "toplam_gelen": 10,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -725,7 +725,7 @@
    "kategori": "bilim-astronomi",
    "alt_kategori": "mikroskop",
    "govde_gelen": 1,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -934,7 +934,7 @@
    "yol": "/kategori/seyahat-gezi/",
    "baslik": "Seyahat & Gezi",
    "govde_gelen": 0,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1
   },
   {
@@ -969,7 +969,7 @@
    "yol": "/kategori/yazilim-kodlama/",
    "baslik": "Yazılım & Kodlama",
    "govde_gelen": 0,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1
   },
   {
@@ -1143,6 +1143,23 @@
    "makale_sayisi": null
   },
   {
+   "yol": "/makale/amigurumi-baslangic-seti/",
+   "tur": "makale",
+   "baslik": "Amigurumi Başlangıç Seti: İlk Alınacaklar ve Temel Teknikler",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "orgu-tig",
+   "govde_gelen": 2,
+   "icerik_gelen": 27,
+   "toplam_gelen": 177,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-yapilacak-hobiler/",
+    "/makale/orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026/"
+   ],
+   "makale_sayisi": null
+  },
+  {
    "yol": "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
    "tur": "makale",
    "baslik": "Bonsai Başlangıç Seti: Makas, Tel, Toprak ve Gübre",
@@ -1212,8 +1229,8 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
-   "icerik_gelen": 10,
-   "toplam_gelen": 176,
+   "icerik_gelen": 5,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1226,9 +1243,9 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "deri-isleri",
    "govde_gelen": 3,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
-   "tik": 1,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-cok-satan-el-isi-2026-w46/",
@@ -1437,8 +1454,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "resim-boyama",
    "govde_gelen": 0,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1451,8 +1468,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "resim-boyama",
    "govde_gelen": 0,
-   "icerik_gelen": 15,
-   "toplam_gelen": 176,
+   "icerik_gelen": 10,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1480,7 +1497,7 @@
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 0,
    "icerik_gelen": 10,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1494,7 +1511,7 @@
    "alt_kategori": "gitar",
    "govde_gelen": 0,
    "icerik_gelen": 9,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1721,8 +1738,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "orgu-tig",
    "govde_gelen": 2,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1819,8 +1836,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "",
    "govde_gelen": 2,
-   "icerik_gelen": 10,
-   "toplam_gelen": 10,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1836,8 +1853,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "orgu-tig",
    "govde_gelen": 1,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2018,7 +2035,7 @@
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
    "icerik_gelen": 10,
-   "toplam_gelen": 176,
+   "toplam_gelen": 10,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2096,8 +2113,8 @@
    "kategori": "bilim-astronomi",
    "alt_kategori": "mikroskop",
    "govde_gelen": 1,
-   "icerik_gelen": 17,
-   "toplam_gelen": 176,
+   "icerik_gelen": 11,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2112,8 +2129,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "orgu-tig",
    "govde_gelen": 2,
-   "icerik_gelen": 5,
-   "toplam_gelen": 5,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2324,8 +2341,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "diamond-painting",
    "govde_gelen": 3,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2377,7 +2394,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2468,8 +2485,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "",
    "govde_gelen": 3,
-   "icerik_gelen": 12,
-   "toplam_gelen": 176,
+   "icerik_gelen": 13,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2477,7 +2494,7 @@
     "/makale/hobi-odasi-nasil-kurulur/",
     "/makale/orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026/"
    ],
-   "makale_sayisi": 10
+   "makale_sayisi": 11
   },
   {
    "yol": "/kategori/el-sanatlari/orgu-tig/",
@@ -2485,17 +2502,18 @@
    "baslik": "Örgü & Tığ İşi",
    "kategori": "el-sanatlari",
    "alt_kategori": "orgu-tig",
-   "govde_gelen": 3,
-   "icerik_gelen": 11,
-   "toplam_gelen": 11,
+   "govde_gelen": 4,
+   "icerik_gelen": 12,
+   "toplam_gelen": 12,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
+    "/makale/amigurumi-baslangic-seti/",
     "/makale/evde-el-sanatlari-hobileri/",
     "/makale/kadinlar-icin-evde-yapilacak-hobiler/",
     "/makale/orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026/"
    ],
-   "makale_sayisi": 3
+   "makale_sayisi": 4
   },
   {
    "yol": "/kategori/el-sanatlari/taki-yapimi/",
@@ -2606,7 +2624,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 14,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2699,7 +2717,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 15,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2797,7 +2815,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 15,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2907,7 +2925,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3028,7 +3046,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 4,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3122,7 +3140,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 9,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3204,7 +3222,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 8,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3285,7 +3303,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 10,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3367,7 +3385,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3446,7 +3464,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3516,7 +3534,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3586,7 +3604,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 4,
-   "toplam_gelen": 176,
+   "toplam_gelen": 177,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
