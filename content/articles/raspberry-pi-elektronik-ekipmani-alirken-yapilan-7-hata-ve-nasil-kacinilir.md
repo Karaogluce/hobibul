@@ -4,7 +4,7 @@ slug: "raspberry-pi-elektronik-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinili
 category: "teknoloji"
 date: "2026-11-11"
 updated: "2026-11-11"
-meta_title: "Raspberry Pi & Elektronik Ekipmanı Alırken | Hobi Bul"
+meta_title: "Raspberry Pi Ekipmanı Alırken 7 Hata | Hobi Bul"
 meta_description: "Raspberry pi ve elektronik ekipman alirken yapilan hatalardan kacinma rehberi. Dogru bilesen secimi ile projelerinizi guvenceye alin."
 excerpt: "Raspberry pi ve elektronik ekipman alirken yapilan hatalardan kacinma rehberi. Dogru bilesen secimi ile projelerinizi guvenceye alin."
 focus_keyword: "raspberry pi elektronik hatalari"

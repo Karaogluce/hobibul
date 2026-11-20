@@ -25,7 +25,7 @@ Raspberry Pi 5 8GB aldığında eline sadece çıplak bir kart geçiyor; ne bir 
 
 ## Raspberry Pi 5 8GB Sadece Kart Olarak Alınır mı?
 
-Pi 5 8GB oldukça güçlü bir işlemciyle geliyor ve geniş bir topluluk desteğine sahip. 8 GB RAM kapasitesi, tarayıcıda çok sekme açtığında veya arkada küçük bir sunucu çalıştırdığında sana rahat bir nefes aldırır. Eğer sadece basit bir LED yakıp söndüreceksen bu kart sana fazla gelir; o iş için Arduino çok daha mantıklı bir yerde duruyor. Aynı yüzme işinin devamı [Yüzmede Nefes Kontrolü](/makale/yuzmede-nefes-kontrolu-baslangic-icin-ritim/) rehberinde.
+Pi 5 8GB oldukça güçlü bir işlemciyle geliyor ve geniş bir topluluk desteğine sahip. 8 GB RAM kapasitesi, tarayıcıda çok sekme açtığında veya arkada küçük bir sunucu çalıştırdığında sana rahat bir nefes aldırır. Eğer sadece basit bir LED yakıp söndüreceksen bu kart sana fazla gelir; o iş için Arduino çok daha mantıklı bir yerde duruyor.
 
 Bu kartın en büyük eksisi, kutusundan soğutucu veya adaptör çıkmaması. "Evdeki telefon şarjıyla idare ederim" diye düşünüyorsan yanılırsın; Pi 5, 27W gücünde kararlı bir kaynak istiyor. Zayıf bir adaptör kullandığında, karta bir disk veya USB taktığın an sistemin yeniden başladığını görürsün. Ayrıca soğutucu takmazsan, işlemci yük altında hemen ısınır ve performansı düşürür.
 

@@ -5,7 +5,7 @@ category: "outdoor"
 subcategory: "dagcilik-trekking"
 date: "2026-10-28"
 updated: "2026-11-20"
-meta_title: "Trekking Bot Seçimi: Gore-Tex Başlangıç | Hobi Bul"
+meta_title: "Trekking Botu Seçimi: Gore-Tex Başlangıç Botları | Hobi Bul"
 meta_description: "Gore-Tex trekking botu nasıl seçilir? Salomon X Ultra 4’te tutuş, dar kalıp ve kime uymadığı var. Baton, çanta ve kafa lambası ayrı."
 excerpt: "İlk Gore-Tex trekking botu Salomon X Ultra 4. Su geçirmez ve hafif. Kalıbı dar olabilir. Mağazada öğleden sonra giyip dene."
 focus_keyword: "Gore-Tex trekking botu"
@@ -27,7 +27,7 @@ Bu botun yanına dizlerini korumak için baton, eşyaların için günlük bir �
 
 Bot denemeye öğleden sonra gitmelisin çünkü sabahları ince olan ayak, gün boyu yürüdükçe ve kan pompalandıkça şişer. Mağazada deneme şansın yoksa, eve gelen botu kalın yürüyüş çoraplarınla en az bir saat boyunca evin içinde giyip dolaş. Eğer yürürken topuğun yerinden kalkıyorsa o numara ya da kalıp sana uymamış demektir; bunu patikaya çıkmadan fark etmen önemli, yoksa yolun yarısında ayağın su toplar.
 
-Salomon X Ultra 4 için ürün notlarında kalıbın dar olabileceği belirtilmiş. Eğer geniş bir tarak yapın varsa bu uyarıyı ciddiye almalısın. Dar gelen bir botu çorapla genişletemezsin, bir numara büyük almak ise bu sefer topuğunun boşta kalmasına neden olur. Bağcıkları sıkarken ayak tarak kısmını sıkı tutup parmak uçlarına hareket alanı bırakmaya çalış. Yokuş aşağı inerken parmakların botun önüne çarpıyorsa, o tırnaklar bir süre sonra morarmaya başlar. Botun içinde ayağının öne kayıp kaymadığını mutlaka kontrol et. Aynı yüzme işinin devamı [Nefes Kontrolü](/makale/yuzmede-nefes-kontrolu-baslangic-icin-ritim/) rehberinde.
+Salomon X Ultra 4 için ürün notlarında kalıbın dar olabileceği belirtilmiş. Eğer geniş bir tarak yapın varsa bu uyarıyı ciddiye almalısın. Dar gelen bir botu çorapla genişletemezsin, bir numara büyük almak ise bu sefer topuğunun boşta kalmasına neden olur. Bağcıkları sıkarken ayak tarak kısmını sıkı tutup parmak uçlarına hareket alanı bırakmaya çalış. Yokuş aşağı inerken parmakların botun önüne çarpıyorsa, o tırnaklar bir süre sonra morarmaya başlar. Botun içinde ayağının öne kayıp kaymadığını mutlaka kontrol et.
 
 ## Salomon X Ultra 4 Gore-Tex: Hafif ama dar kalıp
 

@@ -721,6 +721,8 @@ def _brief_prompt(t):
         "YAZAR BRİFİ (bu konu için bağlayıcıdır; tip şablonuyla çelişirse brif kazanır):",
         f"- H1 olarak şu başlık kullanılacak, gövdede H1 yazma: {t.get('title') or b.get('h1') or ''}",
         f"- Slug sabit: {t.get('slug') or b.get('slug') or ''}. Başlıktan başka slug üretme. URL'ye yıl ekleme.",
+        "- Meta title en fazla 48 karakter, tam ve anlamlı bir ifade olsun; "
+        "\" | Hobi Bul\" ekini sen yazma.",
         f"- Meta title: {t.get('meta_title') or b.get('meta_title') or ''}",
         f"- Meta description: {t.get('meta_description') or b.get('meta_description') or ''}",
         "- Hedef terimler: " + "; ".join(str(x) for x in terimler),

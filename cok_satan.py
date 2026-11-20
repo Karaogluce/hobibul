@@ -16,6 +16,7 @@ from datetime import date, datetime
 
 import amazon_tr
 import otomatik
+from seo import fit_title
 
 if hasattr(sys.stdout, "reconfigure"):
     sys.stdout.reconfigure(encoding="utf-8")
@@ -928,6 +929,7 @@ def yazi_yaz(liste, hafta, bugun, yenile=False):
     yol = os.path.join(ARTICLES, slug + ".md")
     if os.path.exists(yol) and not yenile:
         return slug, False
+    meta_baslik = fit_title(baslik + " | Hobi Bul")
     fm = [
         "---",
         f'title: "{baslik}"',
@@ -939,7 +941,7 @@ def yazi_yaz(liste, hafta, bugun, yenile=False):
     fm += [
         f'date: "{bugun}"',
         f'updated: "{bugun}"',
-        f'meta_title: "{baslik} | Hobi Bul"',
+        f'meta_title: "{meta_baslik}"',
         f'meta_description: "{aciklama}"',
         f'excerpt: "{aciklama}"',
         f'focus_keyword: "{odak}"',
