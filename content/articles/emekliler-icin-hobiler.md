@@ -96,7 +96,7 @@ Teknolojiyi yakından takip etmek ve dijital araçlarla yeni şeyler üretmek, e
 Küçük elektronik devrelerle ilgilenmek, programlama mantığını kavramak veya kişisel bir blog açarak düşünceleri internet üzerinden paylaşmak da zihni son derece aktif tutan modern uğraşlardandır. Bu tür teknolojik hobiler, torunlarla ortak bir dil bulmayı kolaylaştırır ve çağın gelişmelerinden kopmamayı sağlar.
 
 ### Fotoğrafçılık
-Çevredeki güzellikleri karelemek, ışığı ve kompozisyonu öğrenmek hem sanatsal bir bakış açısı kazandırır hem de yürüyüşleri anlamlı kılar. Aynı kaligrafi işinin devamı [Kaligrafiye Başlarken Kalem Açısı](/makale/kaligrafiye-baslarken-kalem-acisi-ve-cizgi-alistirmalari/) rehberinde.
+Çevredeki güzellikleri karelemek, ışığı ve kompozisyonu öğrenmek hem sanatsal bir bakış açısı kazandırır hem de yürüyüşleri anlamlı kılar.
 
 ### Dijital projeler
 Elektronik devre kartları ve küçük kodlama projeleriyle uğraşmak, analitik düşünme becerisini canlı tutar ve yeni bir şeyler üretme heyecanı verir.
