@@ -60,7 +60,8 @@
   "bilgi:sanat:kaligrafi-cizim:kaligrafiye-baslarken-kalem-acisi-ve-cizgi-alistirmalari",
   "bilgi:spor-fitness:yuzme:yuzmede-nefes-kontrolu-baslangic-icin-ritim",
   "bilgi:bahce-bitki:bahcecilik:sonbaharda-bahce-bakimi-kisa-hazirlik-adimlari",
-  "bilgi:yazi-edebiyat:okuma:okuma-hizini-artirirken-anlamayi-kaybetmemek"
+  "bilgi:yazi-edebiyat:okuma:okuma-hizini-artirirken-anlamayi-kaybetmemek",
+  "bilgi:muzik:gitar:gitarda-akor-gecislerini-hizlandiran-pratik-rutini"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -120,7 +121,8 @@
   "y02jEX_B0O0",
   "ZbbhkQ0M2AM",
   "SJK01GnfZG4",
-  "w_qTfiPbjbg"
+  "w_qTfiPbjbg",
+  "Q7zscqQpS28"
  ],
  "atlanan": [
   {
@@ -2002,6 +2004,66 @@
    "anahtar": "talep:evde-spor-icin-gerekli-malzemeler",
    "neden": "kısa (616 kelime, güvenlik tabanı 1000)",
    "tarih": "2026-11-21"
+  },
+  {
+   "anahtar": "bilgi:koleksiyon:vintage-antika:antika-porselen-nasil-temizlenir-zarar-vermeden-bakim",
+   "neden": "kısa (712 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-21"
+  },
+  {
+   "anahtar": "bilgi:koleksiyon:puzzle:puzzle-cerceveleme-yapistirmadan-kalici-hale-getirme",
+   "neden": "kısa (670 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-21"
+  },
+  {
+   "anahtar": "bilgi:el-sanatlari:ahsap-isleri:ahsap-yuzey-zimparalama-puruzsuz-yuzey-icin-dogru-sira",
+   "neden": "kısa (475 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-21"
+  },
+  {
+   "anahtar": "bilgi:el-sanatlari:mum-sabun:evde-kokulu-mum-yapimi-temel-malzemeler-ve-dikkat-edilecekler",
+   "neden": "kısa (578 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-21"
+  },
+  {
+   "anahtar": "bilgi:el-sanatlari:taki-yapimi:evde-taki-yapimi-icin-temel-malzemeler-ve-ilk-proje-fikri",
+   "neden": "kısa (598 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-21"
+  },
+  {
+   "anahtar": "bilgi:el-sanatlari:deri-isleri:deri-dikiminde-hangi-dikis-teknigi-nerede-kullanilir",
+   "neden": "kısa (645 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-21"
+  },
+  {
+   "anahtar": "bilgi:el-sanatlari:orgu-tig:tig-isinde-ilmek-nasil-atilir-adim-adim-ilk-sira",
+   "neden": "kısa (687 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-21"
+  },
+  {
+   "anahtar": "bilgi:el-sanatlari:diamond-painting:diamond-painting-yaparken-tuvali-duz-tutmanin-yollari",
+   "neden": "kısa (540 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-21"
+  },
+  {
+   "anahtar": "bilgi:muzik:dj-produksiyon:evde-dj-seti-kurarken-hoparlor-ve-kulaklik-dengesi",
+   "neden": "kısa (708 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-21"
+  },
+  {
+   "anahtar": "bilgi:yemek-mutfak:kahve:evde-espresso-icin-ogutum-ayari-nasil-tuturulur",
+   "neden": "kısa (807 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-21"
+  },
+  {
+   "anahtar": "bilgi:evcil-hayvan:akvaryum:akvaryumda-su-degisimi-sikligi-ve-dogru-yontem",
+   "neden": "kısa (669 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-21"
+  },
+  {
+   "anahtar": "talep:evde-spor-icin-gerekli-malzemeler",
+   "neden": "kısa (639 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-21"
   }
  ],
  "makaleler": [
@@ -2294,6 +2356,11 @@
    "anahtar": "bilgi:yazi-edebiyat:okuma:okuma-hizini-artirirken-anlamayi-kaybetmemek",
    "tarih": "2026-11-21",
    "slug": "okuma-hizini-artirirken-anlamayi-kaybetmemek"
+  },
+  {
+   "anahtar": "bilgi:muzik:gitar:gitarda-akor-gecislerini-hizlandiran-pratik-rutini",
+   "tarih": "2026-11-21",
+   "slug": "gitarda-akor-gecislerini-hizlandiran-pratik-rutini"
   }
  ],
  "talep": [

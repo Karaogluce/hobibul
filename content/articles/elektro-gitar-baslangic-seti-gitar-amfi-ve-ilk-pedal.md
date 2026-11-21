@@ -4,7 +4,7 @@ slug: "elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal"
 category: "muzik"
 subcategory: "gitar"
 date: "2026-10-28"
-updated: "2026-11-09"
+updated: "2026-11-21"
 meta_title: "Elektro Gitar Başlangıç Seti: Gitar, Amfi, Pedal | Hobi Bul"
 meta_description: "Elektro gitara Fender Player Stratocaster, Boss Katana 50 ve DS-1 ile başla. Tel, tuner ve kime uymadığı da bu notlarda."
 excerpt: "Elektro gitarda önce gitar ve amfi. Katana'nın kendi efektleri varken ilk pedal şart değil. DS-1, tek bir distortion isteyince girer."
@@ -117,6 +117,8 @@ Aynı işe bakan bir diğeri [Ibanez GRGR131EX-BKF GIO Stealth Serisi Elektrikli
 <!-- /urun-havuzu -->
 
 
+Aynı gitar işinin devamı [Gitarda Akor Geçişlerini](/makale/gitarda-akor-gecislerini-hizlandiran-pratik-rutini/) rehberinde.
+
 ## Sık Sorulan Sorular
 
 **Neden hemen pedal almamalıyım?**
@@ -137,4 +139,3 @@ Eğer teller kararmışsa, parmaklarında siyah lekeler bırakıyorsa veya gitar
 | **Eksiksiz Set** | Üstteki sete ek olarak | Bütçesi geniş olan ve distortion sesini hemen isteyenlere. |
 
 Kısacası, önceliğin her zaman iyi bir gitar ve o gitarın sesini yansıtacak kaliteli bir amfi olmalı. Fender Player Strat ve Boss Katana 50 ikilisi seni profesyonel seviyeye kadar taşıyacak bir kombinasyon. Diğer her şey (pedallar, aksesuarlar) zamanla eklenebilir.
-
