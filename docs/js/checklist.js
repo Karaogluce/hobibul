@@ -54,7 +54,7 @@
   var panel = document.createElement("div");
   panel.className = "checklist";
   panel.innerHTML =
-    '<h3>📋 Alışveriş listesi</h3>' +
+    '<h3>Alışveriş listesi</h3>' +
     '<p class="cl-hint">Her ürünü işaretle, durumunu seç. Seçimler yalnızca bu tarayıcıda saklanır.</p>' +
     '<div class="cl-rows"></div>' +
     '<div class="cl-actions">' +

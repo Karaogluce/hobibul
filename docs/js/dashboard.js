@@ -55,14 +55,14 @@
   function renderGA4() {
     if (!ga4 || !(ga4.visitors_daily || []).length) {
       ga4Banner.className = "dash-banner demo";
-      ga4Banner.innerHTML = "⚠️ <strong>GA4 verisi henüz yok:</strong> Google Analytics kurulumu ve GitHub Actions'ta " +
+      ga4Banner.innerHTML = "<strong>GA4 verisi henüz yok:</strong> Google Analytics kurulumu ve GitHub Actions'ta " +
         "<code>GA4_PROPERTY_ID</code> / <code>GA4_SERVICE_ACCOUNT_JSON</code> ayarlandıktan sonra (günde bir kez) burada görünecek.";
       chartEl.outerHTML = '<p class="chart-empty">Henüz veri yok.</p>';
       chanWrap.innerHTML = '<p class="chart-empty">Henüz veri yok.</p>';
       return { totalVisitors: 0, topChannel: null };
     }
     ga4Banner.className = "dash-banner live";
-    ga4Banner.innerHTML = "🟢 GA4 verisi — son güncelleme: " + esc(ga4.generated_at || "?") +
+    ga4Banner.innerHTML = "GA4 verisi — son güncelleme: " + esc(ga4.generated_at || "?") +
       " (son " + (ga4.period_days || 30) + " gün)";
 
     var days = ga4.visitors_daily || [];
@@ -320,18 +320,18 @@
 
   function loadData() {
     if (!enabled) {
-      setBanner("demo", "⚠️ <strong>Demo mod:</strong> Analitik henüz bağlanmadı, değerler 0 gösteriliyor. Gerçek veriler için Supabase bağlantısını kurun — adımlar <code>README.md</code> dosyasında.");
+      setBanner("demo", "<strong>Demo mod:</strong> Analitik henüz bağlanmadı, değerler 0 gösteriliyor. Gerçek veriler için Supabase bağlantısını kurun — adımlar <code>README.md</code> dosyasında.");
       renderAll([]);
       return;
     }
-    setBanner("live", "🟢 Canlı veriler — Supabase bağlantısı aktif.");
+    setBanner("live", "Canlı veriler — Supabase bağlantısı aktif.");
     fetch(supabaseUrl + "/rest/v1/analytics_events?select=event_type,page,product_id&limit=1000", {
       headers: { "apikey": supabaseKey, "Authorization": "Bearer " + supabaseKey }
     })
       .then(function (r) { if (!r.ok) throw new Error("HTTP " + r.status); return r.json(); })
       .then(function (events) { renderAll(events || []); })
       .catch(function (err) {
-        setBanner("error", "❌ Veri çekilemedi: " + esc(err.message) + ". Supabase'te <code>analytics_events</code> tablosunun kurulu olduğundan emin olun.");
+        setBanner("error", "Veri çekilemedi: " + esc(err.message) + ". Supabase'te <code>analytics_events</code> tablosunun kurulu olduğundan emin olun.");
         renderAll([]);
       });
   }

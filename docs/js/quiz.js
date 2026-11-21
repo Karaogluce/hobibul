@@ -79,7 +79,7 @@
         '<h2 class="quiz-q">Sana uygun olabilecek hobiler</h2>' +
         '<div class="quiz-results">' +
         ranked.map(function (id) {
-          return '<a class="quiz-result" href="/kategori/' + id + '/">' + (CATS[id] || id) + ' →</a>';
+          return '<a class="quiz-result" href="/kategori/' + id + '/">' + (CATS[id] || id) + '</a>';
         }).join("") +
         '</div>' +
         '<button type="button" class="quiz-restart">Tekrar başla</button>';
