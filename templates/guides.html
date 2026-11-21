@@ -1,5 +1,5 @@
 {% extends "base.html" %}
-{% from "_macros.html" import acc, shop_cta_block %}
+{% from "_macros.html" import shop_cta_block %}
 {% block title %}Tüm Rehberler | {{ site.site_name }}{% endblock %}
 {% block description %}Outdoor’dan mutfağa, müzikten teknolojiye yayımlanan ekipman rehberlerinin listesi. Yeni başlayan için karşılaştırma ve alım notları burada.{% endblock %}
 {% block content %}
@@ -9,13 +9,13 @@
 {% for c in all_categories %}
 {% set items = articles|selectattr('category', 'equalto', c.id)|sort(attribute='date', reverse=True)|list %}
 {% if items %}
-<section class="sec" {{ acc(c.id) }}>
+<section class="sec">
   <div class="sec-head"><h2 class="dot-title"><i></i>{{ c.name }}</h2><a href="/kategori/{{ c.slug }}/">Kategoriye git</a></div>
   {{- shop_cta_block(shop_ctas_for(c.id)) }}
   <div class="art-grid">
     {% for a in items %}
     <a class="art" href="/makale/{{ a.slug }}/">
-      <div class="art-media">{% if a.image %}<img src="{{ a.image }}" alt="{{ a.image_alt }}" loading="lazy" decoding="async" width="640" height="400">{% endif %}</div>
+      {% if a.has_image %}<div class="art-media"><img src="{{ a.image }}" alt="{{ a.image_alt }}" loading="lazy" decoding="async" width="640" height="427"></div>{% endif %}
       <h3>{{ a.title }}</h3>
       <p>{{ a.excerpt }}</p>
     </a>

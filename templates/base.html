@@ -1,10 +1,10 @@
-{% from "_macros.html" import acc %}<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="tr">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-  <meta name="theme-color" content="#0b0d1e">
+  <meta name="theme-color" content="#F7F2E8">
   <meta name="mitgo-verification" content="a8bf91a3-0aec-47c7-af70-90a7e24065e1" />
   {%- if site.google_site_verification %}
   <meta name="google-site-verification" content="{{ site.google_site_verification }}">
@@ -80,7 +80,8 @@
   {% block twitter_image_alt %}<meta name="twitter:image:alt" content="{{ site.site_name }}">{% endblock %}
   <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
-  <link rel="preload" href="/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/newsreader-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/fonts/newsreader-latin-ext.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/css/style.css">
   {% block head %}{% endblock %}
   {% block jsonld %}{% endblock %}
@@ -88,10 +89,10 @@
 <body class="{% block bodyclass %}{% endblock %}">
   <a class="skip" href="#icerik">İçeriğe geç</a>
   <header class="site-header">
-    <div class="pill">
-      <a href="/" class="site-brand" aria-label="{{ site.site_name }} ana sayfa"><img src="/img/logo.svg" alt="{{ site.site_name }}" class="brand-logo" width="120" height="32" decoding="async"></a>
+    <div class="bar wrap">
+      <a href="/" class="site-brand" aria-label="{{ site.site_name }} ana sayfa"><img src="/img/logo.svg" alt="" class="brand-logo" width="28" height="28" decoding="async"><span class="brand-word">{{ site.site_name }}</span></a>
       <form class="nav-search" action="/" method="get" role="search">
-        <input type="search" name="q" id="site-search" placeholder="Hobi veya ürün ara…" aria-label="Hobi veya ürün ara" aria-expanded="false" aria-autocomplete="list" aria-controls="search-panel" autocomplete="off">
+        <input type="search" name="q" id="site-search" placeholder="Hobi veya ürün" aria-label="Hobi veya ürün ara" aria-expanded="false" aria-autocomplete="list" aria-controls="search-panel" autocomplete="off">
         <button type="submit">Ara</button>
         <div class="search-panel" id="search-panel" role="listbox" hidden></div>
       </form>
@@ -100,13 +101,13 @@
         <details class="dd">
           <summary>Kategoriler</summary>
           <div class="panel">
-            {% for c in all_categories %}<a href="/kategori/{{ c.slug }}/" {{ acc(c.id) }}><i></i>{{ c.name }}</a>{% endfor %}
+            {% for c in all_categories %}<a href="/kategori/{{ c.slug }}/"><i></i>{{ c.name }}</a>{% endfor %}
           </div>
         </details>
         <details class="dd">
           <summary>Rehberler</summary>
           <div class="panel list">
-            {% for a in (articles|sort(attribute='date', reverse=True))[:6] %}<a href="/makale/{{ a.slug }}/" {{ acc(a.category) }}><i></i>{{ a.title }}</a>{% endfor %}
+            {% for a in (articles|sort(attribute='date', reverse=True))[:6] %}<a href="/makale/{{ a.slug }}/"><i></i>{{ a.title }}</a>{% endfor %}
             <a class="all" href="/rehberler/">Tüm rehberler</a>
           </div>
         </details>
@@ -129,7 +130,7 @@
         <div>
           <h3>Kategoriler</h3>
           <ul class="footer-cats">
-            {% for c in all_categories %}<li {{ acc(c.id) }}><a href="/kategori/{{ c.slug }}/">{{ c.name }}</a></li>{% endfor %}
+            {% for c in all_categories %}<li><a href="/kategori/{{ c.slug }}/">{{ c.name }}</a></li>{% endfor %}
           </ul>
         </div>
         <div>

@@ -1,11 +1,10 @@
 {% extends "base.html" %}
-{% from "_macros.html" import acc, shop_cta_block %}
+{% from "_macros.html" import shop_cta_block %}
 {% block title %}{{ page.meta_title }}{% endblock %}
 {% block description %}{{ page.meta_description }}{% endblock %}
 {% block jsonld %}<script type="application/ld+json">{{ jsonld|safe }}</script>{% endblock %}
 {% block hero %}
-<header class="cat-head" {{ acc(cat.id) }}>
-  {% if hero_img %}<img class="cat-bg" src="{{ hero_img }}" alt="{{ page.heading }} için kapak görseli" width="1200" height="400" decoding="async">{% endif %}
+<header class="cat-head">
   <div class="wrap">
     <nav class="breadcrumb" aria-label="breadcrumb">
       <a href="/">Ana Sayfa</a> <span>›</span>
@@ -18,7 +17,7 @@
 </header>
 {% endblock %}
 {% block content %}
-<div {{ acc(cat.id) }}>
+{% if hero_img %}<img class="cat-hero" src="{{ hero_img }}" alt="{{ page.heading }} için kapak görseli" width="1200" height="514" decoding="async">{% endif %}
 {{- shop_cta_block(shop_ctas_for(cat.id, sub.id if sub else '')) }}
 {% if not sub %}
 <section class="subcats">
@@ -36,8 +35,9 @@
   {% if cat_articles %}
   <div class="art-grid">
     {% for a in cat_articles %}
-    <a class="art" href="/makale/{{ a.slug }}/" {{ acc(a.category) }}>
-      <div class="art-media">{% if a.image %}<img src="{{ a.image }}" alt="{{ a.image_alt }}" loading="lazy" decoding="async" width="640" height="400">{% endif %}<span class="tag">{{ a.category_name }}</span></div>
+    <a class="art" href="/makale/{{ a.slug }}/">
+      {% if a.has_image %}<div class="art-media"><img src="{{ a.image }}" alt="{{ a.image_alt }}" loading="lazy" decoding="async" width="640" height="427"></div>{% endif %}
+      <span class="tag">{{ a.category_name }}</span>
       <h3>{{ a.title }}</h3>
       {% if a.excerpt %}<p>{{ a.excerpt }}</p>{% endif %}
     </a>
@@ -58,5 +58,4 @@
   </div>
 </section>
 {% endif %}
-</div>
 {% endblock %}

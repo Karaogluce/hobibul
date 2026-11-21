@@ -507,6 +507,7 @@ def load_articles():
                 "author_name": author_name,
                 "author_url": f"/yazar/{author_slug}/",
                 "image": image,
+                "has_image": image != DEFAULT_OG,
                 "image_alt": image_alt,
                 "og_image": public_image(image),
                 "image_credit": meta.get("image_credit", ""),
@@ -794,11 +795,12 @@ OG_FONT_CIFTLERI = (
 def write_og_image(path):
     """1200x630 paylaşım görseli. İşaret static/img/logo-mark.png'den gelir.
 
+    Düz kâğıt zemin, tek renk işaret ve ince vurgu çizgisi kullanır.
     Pillow ya da yazı tipi yoksa mevcut dosya korunur; CI'da Pillow kurulu değil.
     """
     mark_path = os.path.join(STATIC, "img", "logo-mark.png")
     try:
-        from PIL import Image, ImageDraw, ImageFont, ImageFilter
+        from PIL import Image, ImageDraw, ImageFont
     except ImportError:
         if os.path.exists(path):
             return
@@ -813,19 +815,15 @@ def write_og_image(path):
             return
         raise RuntimeError("OG görseli için logo-mark.png veya yazı tipi yok")
     w, h = 1200, 630
-    img = Image.new("RGB", (w, h), "#0b0d1e").convert("RGBA")
-    glow = Image.new("RGBA", (w, h), (0, 0, 0, 0))
-    gd = ImageDraw.Draw(glow)
-    gd.ellipse((-160, 40, 520, 720), fill=(251, 129, 10, 120))
-    gd.ellipse((700, -180, 1400, 480), fill=(17, 99, 247, 120))
-    img = Image.alpha_composite(img, glow.filter(ImageFilter.GaussianBlur(150)))
-    mark = Image.open(mark_path).convert("RGBA").resize((330, 330), Image.LANCZOS)
-    img.paste(mark, (104, 150), mark)
+    img = Image.new("RGB", (w, h), "#F7F2E8")
+    mark = Image.open(mark_path).convert("RGBA").resize((260, 260), Image.LANCZOS)
+    img.paste(mark, (104, 185), mark)
     draw = ImageDraw.Draw(img)
-    draw.text((480, 232), "Hobi Bul", font=ImageFont.truetype(font_bold, 104), fill="white", anchor="lm")
-    draw.text((484, 330), "Hobini bul, ekipmanını seç.",
-              font=ImageFont.truetype(font_reg, 38), fill="#e3e9f2", anchor="lm")
-    draw.text((484, 398), "hobibul.com.tr", font=ImageFont.truetype(font_reg, 30), fill="#93a4bd", anchor="lm")
+    draw.text((420, 232), "Hobi Bul", font=ImageFont.truetype(font_bold, 96), fill="#1D1A15", anchor="lm")
+    draw.rectangle((424, 286, 500, 290), fill="#1F4D7A")
+    draw.text((420, 350), "Yeni başladığın hobide doğru ilk seti seç.",
+              font=ImageFont.truetype(font_reg, 30), fill="#4F483D", anchor="lm")
+    draw.text((420, 404), "hobibul.com.tr", font=ImageFont.truetype(font_reg, 24), fill="#6F6658", anchor="lm")
     os.makedirs(os.path.dirname(path), exist_ok=True)
     img.convert("RGB").save(path, "PNG", optimize=True)
 
@@ -856,8 +854,24 @@ def main():
     first_article = {}
     for a in articles:
         first_article.setdefault(a["category"], a)
+    ordered_articles = sorted(articles, key=lambda a: a.get("date") or "", reverse=True)
+    hero_pool = [a for a in ordered_articles if a.get("has_image")]
+    if not hero_pool:
+        hero_pool = ordered_articles
+    hero_article = hero_pool[0] if hero_pool else None
+    hero_list = []
+    seen_hero_cats = {hero_article["category"]} if hero_article else set()
+    for a in hero_pool[1:]:
+        if a["category"] in seen_hero_cats:
+            continue
+        seen_hero_cats.add(a["category"])
+        hero_list.append(a)
+        if len(hero_list) == 3:
+            break
     render("home.html", os.path.join(SITE, "index.html"), {
         "first_article": first_article,
+        "hero_article": hero_article,
+        "hero_list": hero_list,
         "latest_articles": latest_articles(),
         "featured_articles": featured_articles(),
         "canonical_path": "/",

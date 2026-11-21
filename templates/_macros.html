@@ -16,11 +16,6 @@
 </aside>
 {%- endmacro %}
 
-{% macro acc(id) -%}
-{%- set m = cat_meta.get(id, cat_meta['outdoor']) -%}
-style="--accent:{{ m.c1 }};--accent-dark:{{ m.c2 }}"
-{%- endmacro %}
-
 {% macro shop_cta_block(block) -%}
 {%- if block and block.links %}
 <aside class="shop-ctas">
