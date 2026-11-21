@@ -14,7 +14,7 @@ import unittest
 import build
 
 HOST = "https://hobibul.com.tr"
-SAYFA_DISI = re.compile(r"\.(?:css|js|svg|png|jpe?g|webp|ico|txt|xml|json|pdf)$")
+SAYFA_DISI = re.compile(r"\.(?:css|js|svg|png|jpe?g|webp|ico|txt|xml|json|pdf|woff2?)$")
 
 
 class CiktiUrlTest(unittest.TestCase):
