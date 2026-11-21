@@ -35,8 +35,27 @@
   }catch(e){}
   </script>
   
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-236Z73L27S"></script>
-  <script>gtag("js",new Date());gtag("config","G-236Z73L27S");</script>
+  <script>
+  gtag("js",new Date());gtag("config","G-236Z73L27S");
+  (function(){
+    var loaded=false;
+    function load(){
+      if(loaded)return;loaded=true;
+      var s=document.createElement("script");s.async=true;
+      s.src="https://www.googletagmanager.com/gtag/js?id=G-236Z73L27S";
+      document.head.appendChild(s);
+    }
+    function later(){
+      if("requestIdleCallback" in window){requestIdleCallback(load,{timeout:3000});}
+      else{setTimeout(load,1500);}
+    }
+    if(document.readyState==="complete"){later();}
+    else{window.addEventListener("load",later);}
+    ["scroll","pointerdown","keydown","touchstart"].forEach(function(e){
+      window.addEventListener(e,load,{once:true,passive:true});
+    });
+  })();
+  </script>
   
   <title>Teknoloji Rehberi | Hobi Bul</title>
   <meta name="description" content="Teknoloji meraklıları için maker ve yapay zeka projelerine uygun ekipmanları seçtik. Öne çıkanlar: Raspberry Pi 5, Creality Ender 3 V3, DJI Mini 4K.">
@@ -59,9 +78,7 @@
   <meta name="twitter:image:alt" content="Hobi Bul">
   <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&display=swap">
+  <link rel="preload" href="/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/css/style.css">
   
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "ItemList", "name": "Teknoloji rehberleri", "url": "https://hobibul.com.tr/kategori/teknoloji/", "numberOfItems": 13, "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Raspberry Pi & Elektronik Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır", "url": "https://hobibul.com.tr/makale/raspberry-pi-elektronik-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/"}, {"@type": "ListItem", "position": 2, "name": "Teknoloji Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır", "url": "https://hobibul.com.tr/makale/teknoloji-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/"}, {"@type": "ListItem", "position": 3, "name": "Teknoloji Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber", "url": "https://hobibul.com.tr/makale/teknoloji-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/"}, {"@type": "ListItem", "position": 4, "name": "En İyi Raspberry Pi & Elektronik Ekipmanları (2026): Alım Rehberi", "url": "https://hobibul.com.tr/makale/en-iyi-raspberry-pi-elektronik-ekipmanlari-2026-alim-rehberi/"}, {"@type": "ListItem", "position": 5, "name": "Drone Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber", "url": "https://hobibul.com.tr/makale/drone-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/"}, {"@type": "ListItem", "position": 6, "name": "Raspberry Pi ile Linux ve Elektronik: Imager, Terminal ve GPIO", "url": "https://hobibul.com.tr/makale/raspberry-pi-ile-linux-ve-elektronik-uygulamalari/"}, {"@type": "ListItem", "position": 7, "name": "Drone Nasıl Kullanılır? Mod 2 Kumanda ve İlk Havalanma", "url": "https://hobibul.com.tr/makale/drone-nasil-kullanilir/"}, {"@type": "ListItem", "position": 8, "name": "2026 Teknoloji Alımı: Raspberry Pi 5, Ender 3, Mini 4K ve Arduino", "url": "https://hobibul.com.tr/makale/en-iyi-teknoloji-ekipmanlari-2026-alim-rehberi/"}, {"@type": "ListItem", "position": 9, "name": "Teknolojiye Başlangıç Sırası: Arduino, Raspberry Pi, 3D Yazıcı ve Drone", "url": "https://hobibul.com.tr/makale/teknoloji-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/"}, {"@type": "ListItem", "position": 10, "name": "3D Yazıcı Alırken Nelere Bakmalı: Ender 3 V3 vs Bambu Lab A1 Mini", "url": "https://hobibul.com.tr/makale/3d-yazici-alirken-nelere-bakmali-ender-3-v3-vs-bambu-lab-a1-mini/"}, {"@type": "ListItem", "position": 11, "name": "Drone Seçimi: Yeni Başlayanlar İçin Oyuncak Sınıfı ve DJI Ayrımı", "url": "https://hobibul.com.tr/makale/drone-secimi-yeni-baslayanlar-icin/"}, {"@type": "ListItem", "position": 12, "name": "Oyuncu Mouse ve Klavye Seti: Redragon Kumara ve Logitech G213", "url": "https://hobibul.com.tr/makale/oyuncu-mouse-ve-klavye-seti-redragon-ve-logitech/"}, {"@type": "ListItem", "position": 13, "name": "Raspberry Pi 5 Başlangıç Kiti: 8 GB Kart, 27W Adaptör ve GeeekPi", "url": "https://hobibul.com.tr/makale/raspberry-pi-5-baslangic-kiti/"}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://hobibul.com.tr/"}, {"@type": "ListItem", "position": 2, "name": "Teknoloji", "item": "https://hobibul.com.tr/kategori/teknoloji/"}]}]}</script>

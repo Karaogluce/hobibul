@@ -35,8 +35,27 @@
   }catch(e){}
   </script>
   
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-236Z73L27S"></script>
-  <script>gtag("js",new Date());gtag("config","G-236Z73L27S");</script>
+  <script>
+  gtag("js",new Date());gtag("config","G-236Z73L27S");
+  (function(){
+    var loaded=false;
+    function load(){
+      if(loaded)return;loaded=true;
+      var s=document.createElement("script");s.async=true;
+      s.src="https://www.googletagmanager.com/gtag/js?id=G-236Z73L27S";
+      document.head.appendChild(s);
+    }
+    function later(){
+      if("requestIdleCallback" in window){requestIdleCallback(load,{timeout:3000});}
+      else{setTimeout(load,1500);}
+    }
+    if(document.readyState==="complete"){later();}
+    else{window.addEventListener("load",later);}
+    ["scroll","pointerdown","keydown","touchstart"].forEach(function(e){
+      window.addEventListener(e,load,{once:true,passive:true});
+    });
+  })();
+  </script>
   
   <title>El Sanatları &amp; DIY Rehberi | Hobi Bul</title>
   <meta name="description" content="Evde yaratıcılığınızı ortaya çıkaracak el sanatları malzemelerini karşılaştırdık. Öne çıkanlar: Clover Tığ Seti, Darice Takı Seti, Dremel 3000.">
@@ -59,9 +78,7 @@
   <meta name="twitter:image:alt" content="Hobi Bul">
   <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&display=swap">
+  <link rel="preload" href="/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/css/style.css">
   
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "ItemList", "name": "El Sanatları & DIY rehberleri", "url": "https://hobibul.com.tr/kategori/el-sanatlari/", "numberOfItems": 11, "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Amigurumi Başlangıç Seti: İlk Alınacaklar ve Temel Teknikler", "url": "https://hobibul.com.tr/makale/amigurumi-baslangic-seti/"}, {"@type": "ListItem", "position": 2, "name": "Bu Haftanın En Çok Satan 3 Sanat ve El İşi Ürünü (16 Kasım 2026)", "url": "https://hobibul.com.tr/makale/en-cok-satan-el-isi-2026-w47/"}, {"@type": "ListItem", "position": 3, "name": "Hobi Odası Nasıl Kurulur? Gerekli Eşyalar, Düzen ve Depolama Fikirleri", "url": "https://hobibul.com.tr/makale/hobi-odasi-nasil-kurulur/"}, {"@type": "ListItem", "position": 4, "name": "Bu Haftanın En Çok Satan 3 Sanat ve El İşi Ürünü (9 Kasım 2026)", "url": "https://hobibul.com.tr/makale/en-cok-satan-el-isi-2026-w46/"}, {"@type": "ListItem", "position": 5, "name": "Yetişkin Hobi Setleri: Hangisi Alınır? (Boyama, Maket, Diamond Painting)", "url": "https://hobibul.com.tr/makale/yetiskin-hobi-setleri/"}, {"@type": "ListItem", "position": 6, "name": "Kadınlar İçin Evde Yapılacak 20 Hobi (Başlangıç Malzemeleriyle)", "url": "https://hobibul.com.tr/makale/kadinlar-icin-evde-yapilacak-hobiler/"}, {"@type": "ListItem", "position": 7, "name": "Diamond Painting Nedir, Nasıl Yapılır?", "url": "https://hobibul.com.tr/makale/diamond-painting-nedir-nasil-yapilir/"}, {"@type": "ListItem", "position": 8, "name": "Evde Yapılacak Hobiler: 30 Fikir ve İlk Malzeme", "url": "https://hobibul.com.tr/makale/evde-yapilacak-hobiler/"}, {"@type": "ListItem", "position": 9, "name": "Deri İşçiliği Başlangıç Seti: İlk Alınacaklar (2026)", "url": "https://hobibul.com.tr/makale/deri-isciligi-baslangic-seti-ilk-alinacaklar-2026/"}, {"@type": "ListItem", "position": 10, "name": "Örgü & Tığ İşi Başlangıç Seti: İlk Alınacaklar (2026)", "url": "https://hobibul.com.tr/makale/orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026/"}, {"@type": "ListItem", "position": 11, "name": "Evde Başlayabileceğin 8 Yaratıcı El Sanatı Hobisi ve Gerekli Malzemeler", "url": "https://hobibul.com.tr/makale/evde-el-sanatlari-hobileri/"}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://hobibul.com.tr/"}, {"@type": "ListItem", "position": 2, "name": "El Sanatları & DIY", "item": "https://hobibul.com.tr/kategori/el-sanatlari/"}]}]}</script>

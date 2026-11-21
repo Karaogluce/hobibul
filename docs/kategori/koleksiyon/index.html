@@ -35,8 +35,27 @@
   }catch(e){}
   </script>
   
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-236Z73L27S"></script>
-  <script>gtag("js",new Date());gtag("config","G-236Z73L27S");</script>
+  <script>
+  gtag("js",new Date());gtag("config","G-236Z73L27S");
+  (function(){
+    var loaded=false;
+    function load(){
+      if(loaded)return;loaded=true;
+      var s=document.createElement("script");s.async=true;
+      s.src="https://www.googletagmanager.com/gtag/js?id=G-236Z73L27S";
+      document.head.appendChild(s);
+    }
+    function later(){
+      if("requestIdleCallback" in window){requestIdleCallback(load,{timeout:3000});}
+      else{setTimeout(load,1500);}
+    }
+    if(document.readyState==="complete"){later();}
+    else{window.addEventListener("load",later);}
+    ["scroll","pointerdown","keydown","touchstart"].forEach(function(e){
+      window.addEventListener(e,load,{once:true,passive:true});
+    });
+  })();
+  </script>
   
   <title>Koleksiyon Rehberi | Hobi Bul</title>
   <meta name="description" content="Koleksiyon yapmaya başlayanlar ve koleksiyonunu büyütenler için araçları seçtik. Öne çıkanlar: LEGO Creator, Ultra Pro Albüm, Numis Para Albümü.">
@@ -59,9 +78,7 @@
   <meta name="twitter:image:alt" content="Hobi Bul">
   <link rel="icon" href="/favicon.ico" sizes="48x48">
   <link rel="icon" type="image/svg+xml" href="/img/favicon.svg">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600..800&display=swap">
+  <link rel="preload" href="/fonts/bricolage-grotesque-latin.woff2" as="font" type="font/woff2" crossorigin>
   <link rel="stylesheet" href="/css/style.css">
   
   <script type="application/ld+json">{"@context": "https://schema.org", "@graph": [{"@type": "ItemList", "name": "Koleksiyon rehberleri", "url": "https://hobibul.com.tr/kategori/koleksiyon/", "numberOfItems": 13, "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Bu Haftanın En Çok Satan 3 Kutu Oyunu Ürünü (16 Kasım 2026)", "url": "https://hobibul.com.tr/makale/en-cok-satan-kutu-oyun-2026-w47/"}, {"@type": "ListItem", "position": 2, "name": "LEGO & Model Başlangıç Seti: İlk Alınacaklar (2026)", "url": "https://hobibul.com.tr/makale/lego-model-baslangic-seti-ilk-alinacaklar-2026/"}, {"@type": "ListItem", "position": 3, "name": "Bu Haftanın En Çok Satan 3 Kutu Oyunu (9 Kasım 2026)", "url": "https://hobibul.com.tr/makale/en-cok-satan-kutu-oyun-2026-w46/"}, {"@type": "ListItem", "position": 4, "name": "LEGO & Model Ekipmanı Alırken Yapılan 7 Hata ve Nasıl Kaçınılır", "url": "https://hobibul.com.tr/makale/lego-model-ekipmani-alirken-yapilan-7-hata-ve-nasil-kacinilir/"}, {"@type": "ListItem", "position": 5, "name": "LEGO & Model Hakkında Sık Sorulan Sorular: Cevaplarıyla Kısa Rehber", "url": "https://hobibul.com.tr/makale/lego-model-hakkinda-sik-sorulan-sorular-cevaplariyla-kisa-rehber/"}, {"@type": "ListItem", "position": 6, "name": "LEGO & Model İçin Yeni Başlayanlar Rehberi: İlk Alınacak Ekipmanlar", "url": "https://hobibul.com.tr/makale/lego-model-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/"}, {"@type": "ListItem", "position": 7, "name": "Yılbaşı Hediyesi Kutu Oyunları: Kime Hangi Oyun? (2026)", "url": "https://hobibul.com.tr/makale/yilbasi-hediyesi-kutu-oyunlari/"}, {"@type": "ListItem", "position": 8, "name": "2 Kişilik Kutu Oyunları: Türkiye'de Satılan Kutular", "url": "https://hobibul.com.tr/makale/2-kisilik-kutu-oyunlari/"}, {"@type": "ListItem", "position": 9, "name": "Aile Kutu Oyunları: Türkiye'de Çocuklu Masaya Uyanlar", "url": "https://hobibul.com.tr/makale/aile-kutu-oyunlari/"}, {"@type": "ListItem", "position": 10, "name": "En İyi Kutu Oyunları 2026: Türkiye'de Satılanlar", "url": "https://hobibul.com.tr/makale/en-iyi-kutu-oyunlari-2026/"}, {"@type": "ListItem", "position": 11, "name": "Puzzle Aksesuarları: Masa, Yapıştırıcı, Halı ve Çerçeve", "url": "https://hobibul.com.tr/makale/puzzle-aksesuarlari-masa-yapistirici-cerceve/"}, {"@type": "ListItem", "position": 12, "name": "LEGO Mini Bonsai, Sukulent ve Supra: Üç Masa Üstü Set", "url": "https://hobibul.com.tr/makale/lego-model-ai/"}, {"@type": "ListItem", "position": 13, "name": "En İyi LEGO Setleri: Yetişkin İçin Bonsai, Sukulent ve Speed Champions", "url": "https://hobibul.com.tr/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"}]}, {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Ana Sayfa", "item": "https://hobibul.com.tr/"}, {"@type": "ListItem", "position": 2, "name": "Koleksiyon", "item": "https://hobibul.com.tr/kategori/koleksiyon/"}]}]}</script>
