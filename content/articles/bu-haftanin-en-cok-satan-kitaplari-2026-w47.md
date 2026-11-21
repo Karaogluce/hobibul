@@ -4,7 +4,7 @@ slug: "bu-haftanin-en-cok-satan-kitaplari-2026-w47"
 category: "yazi-edebiyat"
 subcategory: "okuma"
 date: "2026-11-16"
-updated: "2026-11-16"
+updated: "2026-11-21"
 meta_title: "Bu Haftanın En Çok Satan 3 Kitabı (16 Kasım 2026) | Hobi Bul"
 meta_description: "16 Kasım 2026 Amazon.com.tr kitap çok satanlar: Portakal ve Ekmek Bıçağı, Murdle 1, Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti."
 excerpt: "16 Kasım 2026 Amazon.com.tr kitap çok satanlar: Portakal ve Ekmek Bıçağı, Murdle 1, Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti."
@@ -90,6 +90,8 @@ Mektupla ilerleyen, acele etmeyen romanları sevenlere. Sybil’in yıllarca sak
 | Portakal ve Ekmek Bıçağı | Cheong Ye | İthaki | 136 sayfa |
 | Murdle 1 | G.T Karber | Olimpos Yayınları | 384 sayfa |
 | Muhabbet : 3 Dalda Goodreads Okur Ödülleri Finalisti | Virginia Evans | April Yayıncılık | 343 sayfa |
+
+Aynı okuma işinin devamı [Anlamayı Kaybetmemek](/makale/okuma-hizini-artirirken-anlamayi-kaybetmemek/) rehberinde.
 
 ## Sıkça Sorulan Sorular
 

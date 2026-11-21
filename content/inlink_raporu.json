@@ -1,7 +1,7 @@
 {
  "tanim": "govde_gelen, başka bir makalenin gövdesinden gelen benzersiz iç linktir. Üst menü, altbilgi ve ekmek kırıntısı bu sayıda yoktur. yetim: yayındaki makale ya da içinde makalesi olan kategori sayfası, govde_gelen 0 veya 1 ise. Makalesi olmayan kategori sayfası menüden ulaşılır; alakasız gövde linki eklenmez ve makalesiz listesindedir. toplam_gelen, üretilmiş HTML içindeki diğer sayfalardan gelen benzersiz linktir. tik, ana sayfadan tıklama derinliğidir. gsc_oncelik, analytics_gsc.json içinde ortalama pozisyonu 8-20 olan sorguya denk sayfadır; dosya yoksa veya ok değilse boş kalır.",
  "ozet": {
-  "makale": 85,
+  "makale": 87,
   "kategori": 82,
   "yetim_makale": 43,
   "yetim_kategori": 19,
@@ -45,7 +45,7 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 0,
-   "toplam_gelen": 8,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -57,7 +57,7 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
-   "toplam_gelen": 5,
+   "toplam_gelen": 6,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -69,7 +69,7 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
-   "toplam_gelen": 179,
+   "toplam_gelen": 6,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -106,7 +106,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "toplam_gelen": 4,
-   "tik": 1,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -117,7 +117,7 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bahcecilik",
    "govde_gelen": 0,
-   "toplam_gelen": 6,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -141,7 +141,7 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "resim-boyama",
    "govde_gelen": 0,
-   "toplam_gelen": 179,
+   "toplam_gelen": 10,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -201,7 +201,7 @@
    "kategori": "sanat",
    "alt_kategori": "kaligrafi-cizim",
    "govde_gelen": 0,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -237,7 +237,7 @@
    "kategori": "bilim-astronomi",
    "alt_kategori": "mikroskop",
    "govde_gelen": 0,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -285,7 +285,7 @@
    "kategori": "spor-fitness",
    "alt_kategori": "yuzme",
    "govde_gelen": 0,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -297,7 +297,7 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bahcecilik",
    "govde_gelen": 1,
-   "toplam_gelen": 5,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -689,8 +689,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "",
    "govde_gelen": 1,
-   "toplam_gelen": 7,
-   "tik": 1,
+   "toplam_gelen": 6,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-cok-satan-el-isi-2026-w46/"
@@ -759,8 +759,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "toplam_gelen": 10,
-   "tik": 1,
+   "toplam_gelen": 9,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
@@ -982,7 +982,7 @@
    "yol": "/kategori/seyahat-gezi/",
    "baslik": "Seyahat & Gezi",
    "govde_gelen": 0,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1
   },
   {
@@ -1017,7 +1017,7 @@
    "yol": "/kategori/yazilim-kodlama/",
    "baslik": "Yazılım & Kodlama",
    "govde_gelen": 0,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1
   },
   {
@@ -1197,8 +1197,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "orgu-tig",
    "govde_gelen": 2,
-   "icerik_gelen": 25,
-   "toplam_gelen": 179,
+   "icerik_gelen": 14,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1232,8 +1232,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bonsai",
    "govde_gelen": 0,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1263,8 +1263,8 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
-   "icerik_gelen": 5,
-   "toplam_gelen": 5,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1277,8 +1277,8 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
-   "icerik_gelen": 5,
-   "toplam_gelen": 179,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1476,7 +1476,7 @@
    "govde_gelen": 0,
    "icerik_gelen": 4,
    "toplam_gelen": 4,
-   "tik": 1,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
    "makale_sayisi": null
@@ -1488,8 +1488,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bahcecilik",
    "govde_gelen": 0,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1517,7 +1517,7 @@
    "alt_kategori": "resim-boyama",
    "govde_gelen": 0,
    "icerik_gelen": 10,
-   "toplam_gelen": 179,
+   "toplam_gelen": 10,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1884,9 +1884,9 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "",
    "govde_gelen": 1,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
-   "tik": 1,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-cok-satan-el-isi-2026-w46/"
@@ -1965,8 +1965,8 @@
    "kategori": "sanat",
    "alt_kategori": "kaligrafi-cizim",
    "govde_gelen": 0,
-   "icerik_gelen": 8,
-   "toplam_gelen": 179,
+   "icerik_gelen": 6,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -2095,9 +2095,9 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "icerik_gelen": 10,
-   "toplam_gelen": 10,
-   "tik": 1,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/"
@@ -2175,10 +2175,27 @@
    "alt_kategori": "mikroskop",
    "govde_gelen": 0,
    "icerik_gelen": 6,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/okuma-hizini-artirirken-anlamayi-kaybetmemek/",
+   "tur": "makale",
+   "baslik": "Okuma Hızını Artırırken Anlamayı Kaybetmemek",
+   "kategori": "yazi-edebiyat",
+   "alt_kategori": "okuma",
+   "govde_gelen": 2,
+   "icerik_gelen": 15,
+   "toplam_gelen": 181,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
+    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w47/"
+   ],
    "makale_sayisi": null
   },
   {
@@ -2311,6 +2328,24 @@
     "/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/",
     "/makale/en-cok-satan-muzik-2026-w47/",
     "/makale/evde-yapilacak-hobiler/"
+   ],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/sonbaharda-bahce-bakimi-kisa-hazirlik-adimlari/",
+   "tur": "makale",
+   "baslik": "Sonbaharda Bahçe Bakımı: Kışa Hazırlık Adımları",
+   "kategori": "bahce-bitki",
+   "alt_kategori": "bahcecilik",
+   "govde_gelen": 3,
+   "icerik_gelen": 10,
+   "toplam_gelen": 181,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/bonsai-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/",
+    "/makale/emekliler-icin-hobiler/",
+    "/makale/en-cok-satan-bahce-alet-2026-w46/"
    ],
    "makale_sayisi": null
   },
@@ -2453,7 +2488,7 @@
    "alt_kategori": "yuzme",
    "govde_gelen": 0,
    "icerik_gelen": 7,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -2467,7 +2502,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2559,7 +2594,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 13,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2697,7 +2732,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 14,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2790,7 +2825,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 15,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2888,7 +2923,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 15,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2998,7 +3033,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 6,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3119,7 +3154,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3213,7 +3248,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 9,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3294,8 +3329,8 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "",
    "govde_gelen": 3,
-   "icerik_gelen": 8,
-   "toplam_gelen": 179,
+   "icerik_gelen": 9,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3303,7 +3338,7 @@
     "/makale/bonsai-nasil-toprak-sever/",
     "/makale/emekliler-icin-hobiler/"
    ],
-   "makale_sayisi": 6
+   "makale_sayisi": 7
   },
   {
    "yol": "/kategori/bahce-bitki/bahcecilik/",
@@ -3312,14 +3347,14 @@
    "kategori": "bahce-bitki",
    "alt_kategori": "bahcecilik",
    "govde_gelen": 1,
-   "icerik_gelen": 5,
-   "toplam_gelen": 5,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-cok-satan-bahce-alet-2026-w46/"
    ],
-   "makale_sayisi": 1
+   "makale_sayisi": 2
   },
   {
    "yol": "/kategori/bahce-bitki/ev-bitkileri/",
@@ -3376,7 +3411,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 10,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3458,7 +3493,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3537,7 +3572,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3607,7 +3642,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 179,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3676,15 +3711,15 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "",
    "govde_gelen": 2,
-   "icerik_gelen": 4,
-   "toplam_gelen": 179,
+   "icerik_gelen": 5,
+   "toplam_gelen": 181,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
     "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w47/"
    ],
-   "makale_sayisi": 2
+   "makale_sayisi": 3
   },
   {
    "yol": "/kategori/yazi-edebiyat/yazarlik/",
@@ -3734,16 +3769,17 @@
    "baslik": "Okuma & Kitap Kulübü",
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
-   "govde_gelen": 2,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
+   "govde_gelen": 3,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w46/",
-    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w47/"
+    "/makale/bu-haftanin-en-cok-satan-kitaplari-2026-w47/",
+    "/makale/okuma-hizini-artirirken-anlamayi-kaybetmemek/"
    ],
-   "makale_sayisi": 2
+   "makale_sayisi": 3
   }
  ]
 }
