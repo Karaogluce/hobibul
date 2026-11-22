@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-21",
+ "generated_at": "2026-11-22",
  "period_days": 30,
  "visitors_daily": [
   {
@@ -89,6 +89,14 @@
   {
    "date": "2026-11-20",
    "users": 1
+  },
+  {
+   "date": "2026-11-21",
+   "users": 1
+  },
+  {
+   "date": "2026-11-22",
+   "users": 1
   }
  ],
  "channels": [
@@ -98,7 +106,7 @@
   },
   {
    "name": "Organic Search",
-   "sessions": 43
+   "sessions": 45
   },
   {
    "name": "AI Assistant",
