@@ -1,11 +1,11 @@
 {
  "tanim": "govde_gelen, başka bir makalenin gövdesinden gelen benzersiz iç linktir. Üst menü, altbilgi ve ekmek kırıntısı bu sayıda yoktur. yetim: yayındaki makale ya da içinde makalesi olan kategori sayfası, govde_gelen 0 veya 1 ise. Makalesi olmayan kategori sayfası menüden ulaşılır; alakasız gövde linki eklenmez ve makalesiz listesindedir. toplam_gelen, üretilmiş HTML içindeki diğer sayfalardan gelen benzersiz linktir. tik, ana sayfadan tıklama derinliğidir. gsc_oncelik, analytics_gsc.json içinde ortalama pozisyonu 8-20 olan sorguya denk sayfadır; dosya yoksa veya ok değilse boş kalır.",
  "ozet": {
-  "makale": 88,
+  "makale": 91,
   "kategori": 82,
-  "yetim_makale": 43,
+  "yetim_makale": 46,
   "yetim_kategori": 19,
-  "yetim": 62,
+  "yetim": 65,
   "makalesiz_kategori": 33,
   "sitemap_linksiz": [],
   "uc_tik_disi": [],
@@ -69,8 +69,8 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
-   "toplam_gelen": 6,
-   "tik": 1,
+   "toplam_gelen": 5,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -141,8 +141,20 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "resim-boyama",
    "govde_gelen": 0,
-   "toplam_gelen": 9,
+   "toplam_gelen": 8,
    "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/en-cok-satan-el-isi-2026-w48/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Sanat ve El İşi Ürünü (23 Kasım 2026)",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "resim-boyama",
+   "govde_gelen": 0,
+   "toplam_gelen": 185,
+   "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -153,7 +165,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 0,
-   "toplam_gelen": 9,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -165,7 +177,19 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 0,
-   "toplam_gelen": 10,
+   "toplam_gelen": 9,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/en-cok-satan-lego-2026-w48/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 LEGO ve model Ürünü (23 Kasım 2026)",
+   "kategori": "koleksiyon",
+   "alt_kategori": "lego-model",
+   "govde_gelen": 0,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -177,8 +201,20 @@
    "kategori": "muzik",
    "alt_kategori": "gitar",
    "govde_gelen": 0,
-   "toplam_gelen": 9,
+   "toplam_gelen": 10,
    "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": []
+  },
+  {
+   "yol": "/makale/en-cok-satan-muzik-2026-w48/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Müzik aleti Ürünü (23 Kasım 2026)",
+   "kategori": "muzik",
+   "alt_kategori": "gitar",
+   "govde_gelen": 0,
+   "toplam_gelen": 185,
+   "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -201,7 +237,7 @@
    "kategori": "sanat",
    "alt_kategori": "kaligrafi-cizim",
    "govde_gelen": 0,
-   "toplam_gelen": 182,
+   "toplam_gelen": 6,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -225,7 +261,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 0,
-   "toplam_gelen": 6,
+   "toplam_gelen": 3,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -285,7 +321,7 @@
    "kategori": "spor-fitness",
    "alt_kategori": "yuzme",
    "govde_gelen": 0,
-   "toplam_gelen": 182,
+   "toplam_gelen": 7,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -661,7 +697,7 @@
    "kategori": "muzik",
    "alt_kategori": "gitar",
    "govde_gelen": 1,
-   "toplam_gelen": 7,
+   "toplam_gelen": 4,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -675,7 +711,7 @@
    "kategori": "muzik",
    "alt_kategori": "gitar",
    "govde_gelen": 1,
-   "toplam_gelen": 9,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -689,7 +725,7 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "",
    "govde_gelen": 1,
-   "toplam_gelen": 6,
+   "toplam_gelen": 3,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -759,7 +795,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "toplam_gelen": 9,
+   "toplam_gelen": 10,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -773,7 +809,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "toplam_gelen": 8,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -787,7 +823,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "toplam_gelen": 8,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -982,7 +1018,7 @@
    "yol": "/kategori/seyahat-gezi/",
    "baslik": "Seyahat & Gezi",
    "govde_gelen": 0,
-   "toplam_gelen": 182,
+   "toplam_gelen": 185,
    "tik": 1
   },
   {
@@ -1017,7 +1053,7 @@
    "yol": "/kategori/yazilim-kodlama/",
    "baslik": "Yazılım & Kodlama",
    "govde_gelen": 0,
-   "toplam_gelen": 182,
+   "toplam_gelen": 185,
    "tik": 1
   },
   {
@@ -1077,14 +1113,15 @@
    "baslik": "2 Kişilik Kutu Oyunları: Türkiye'de Satılan Kutular",
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
-   "govde_gelen": 4,
-   "icerik_gelen": 10,
-   "toplam_gelen": 10,
+   "govde_gelen": 5,
+   "icerik_gelen": 11,
+   "toplam_gelen": 11,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/aile-kutu-oyunlari/",
     "/makale/en-cok-satan-kutu-oyun-2026-w46/",
+    "/makale/en-cok-satan-lego-2026-w48/",
     "/makale/en-iyi-kutu-oyunlari-2026/",
     "/makale/evde-yapilacak-hobiler/"
    ],
@@ -1196,12 +1233,13 @@
    "baslik": "Amigurumi Başlangıç Seti: İlk Alınacaklar ve Temel Teknikler",
    "kategori": "el-sanatlari",
    "alt_kategori": "orgu-tig",
-   "govde_gelen": 2,
-   "icerik_gelen": 14,
-   "toplam_gelen": 182,
+   "govde_gelen": 3,
+   "icerik_gelen": 15,
+   "toplam_gelen": 15,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
+    "/makale/en-cok-satan-el-isi-2026-w48/",
     "/makale/evde-yapilacak-hobiler/",
     "/makale/orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026/"
    ],
@@ -1277,9 +1315,9 @@
    "kategori": "yazi-edebiyat",
    "alt_kategori": "okuma",
    "govde_gelen": 0,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
-   "tik": 1,
+   "icerik_gelen": 5,
+   "toplam_gelen": 5,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
    "makale_sayisi": null
@@ -1290,14 +1328,15 @@
    "baslik": "Deri İşçiliği Başlangıç Seti: İlk Alınacaklar (2026)",
    "kategori": "el-sanatlari",
    "alt_kategori": "deri-isleri",
-   "govde_gelen": 3,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
+   "govde_gelen": 4,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-cok-satan-el-isi-2026-w46/",
     "/makale/en-cok-satan-el-isi-2026-w47/",
+    "/makale/en-cok-satan-el-isi-2026-w48/",
     "/makale/evde-yapilacak-hobiler/"
    ],
    "makale_sayisi": null
@@ -1308,14 +1347,15 @@
    "baslik": "Diamond Painting Nedir, Nasıl Yapılır?",
    "kategori": "el-sanatlari",
    "alt_kategori": "diamond-painting",
-   "govde_gelen": 4,
-   "icerik_gelen": 10,
-   "toplam_gelen": 10,
+   "govde_gelen": 5,
+   "icerik_gelen": 11,
+   "toplam_gelen": 11,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/en-cok-satan-el-isi-2026-w46/",
     "/makale/en-cok-satan-el-isi-2026-w47/",
+    "/makale/en-cok-satan-el-isi-2026-w48/",
     "/makale/evde-yapilacak-hobiler/",
     "/makale/puzzle-aksesuarlari-masa-yapistirici-cerceve/"
    ],
@@ -1455,14 +1495,15 @@
    "baslik": "Elektro Gitar Başlangıç Seti: Gitar, Amfi ve İlk Pedal",
    "kategori": "muzik",
    "alt_kategori": "gitar",
-   "govde_gelen": 3,
-   "icerik_gelen": 11,
-   "toplam_gelen": 11,
+   "govde_gelen": 4,
+   "icerik_gelen": 12,
+   "toplam_gelen": 12,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/dj-kontrol-cihazi-secimi-yeni-baslayanlar/",
     "/makale/en-cok-satan-muzik-2026-w47/",
+    "/makale/en-cok-satan-muzik-2026-w48/",
     "/makale/sifirdan-gitar-ogrenmek/"
    ],
    "makale_sayisi": null
@@ -1516,9 +1557,23 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "resim-boyama",
    "govde_gelen": 0,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/en-cok-satan-el-isi-2026-w48/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Sanat ve El İşi Ürünü (23 Kasım 2026)",
+   "kategori": "el-sanatlari",
+   "alt_kategori": "resim-boyama",
+   "govde_gelen": 0,
+   "icerik_gelen": 23,
+   "toplam_gelen": 185,
+   "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
    "makale_sayisi": null
@@ -1530,8 +1585,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 0,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1544,8 +1599,22 @@
    "kategori": "koleksiyon",
    "alt_kategori": "masaustu-oyun",
    "govde_gelen": 0,
-   "icerik_gelen": 10,
-   "toplam_gelen": 10,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
+   "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/en-cok-satan-lego-2026-w48/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 LEGO ve model Ürünü (23 Kasım 2026)",
+   "kategori": "koleksiyon",
+   "alt_kategori": "lego-model",
+   "govde_gelen": 0,
+   "icerik_gelen": 11,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1558,9 +1627,23 @@
    "kategori": "muzik",
    "alt_kategori": "gitar",
    "govde_gelen": 0,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 10,
+   "toplam_gelen": 10,
    "tik": 2,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [],
+   "makale_sayisi": null
+  },
+  {
+   "yol": "/makale/en-cok-satan-muzik-2026-w48/",
+   "tur": "makale",
+   "baslik": "Bu Haftanın En Çok Satan 3 Müzik aleti Ürünü (23 Kasım 2026)",
+   "kategori": "muzik",
+   "alt_kategori": "gitar",
+   "govde_gelen": 0,
+   "icerik_gelen": 11,
+   "toplam_gelen": 185,
+   "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
    "makale_sayisi": null
@@ -1658,13 +1741,14 @@
    "baslik": "En İyi LEGO Setleri: Yetişkin İçin Bonsai, Sukulent ve Speed Champions",
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
-   "govde_gelen": 3,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "govde_gelen": 4,
+   "icerik_gelen": 8,
+   "toplam_gelen": 8,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/bonsai-baslangic-seti-makas-tel-ve-toprak/",
+    "/makale/en-cok-satan-lego-2026-w48/",
     "/makale/evde-yapilacak-hobiler/",
     "/makale/lego-model-ai/"
    ],
@@ -1820,8 +1904,8 @@
    "kategori": "muzik",
    "alt_kategori": "gitar",
    "govde_gelen": 1,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "icerik_gelen": 4,
+   "toplam_gelen": 4,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1836,8 +1920,8 @@
    "kategori": "muzik",
    "alt_kategori": "gitar",
    "govde_gelen": 1,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1851,14 +1935,15 @@
    "baslik": "Gitar Nasıl Çalınır? Tutuş, Temel Akor ve İlk Ritim",
    "kategori": "muzik",
    "alt_kategori": "gitar",
-   "govde_gelen": 3,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "govde_gelen": 4,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/",
     "/makale/en-cok-satan-muzik-2026-w47/",
+    "/makale/en-cok-satan-muzik-2026-w48/",
     "/makale/sifirdan-gitar-ogrenmek/"
    ],
    "makale_sayisi": null
@@ -1870,8 +1955,8 @@
    "kategori": "muzik",
    "alt_kategori": "gitar",
    "govde_gelen": 2,
-   "icerik_gelen": 22,
-   "toplam_gelen": 182,
+   "icerik_gelen": 11,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1901,8 +1986,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "",
    "govde_gelen": 1,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
+   "icerik_gelen": 3,
+   "toplam_gelen": 3,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1983,7 +2068,7 @@
    "alt_kategori": "kaligrafi-cizim",
    "govde_gelen": 0,
    "icerik_gelen": 6,
-   "toplam_gelen": 182,
+   "toplam_gelen": 6,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -2094,12 +2179,13 @@
    "baslik": "LEGO Mini Bonsai, Sukulent ve Supra: Üç Masa Üstü Set",
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
-   "govde_gelen": 2,
-   "icerik_gelen": 5,
-   "toplam_gelen": 5,
+   "govde_gelen": 3,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
+    "/makale/en-cok-satan-lego-2026-w48/",
     "/makale/en-iyi-lego-setleri-yetiskin-bonsai-ve-speed-champions/",
     "/makale/lego-model-icin-yeni-baslayanlar-rehberi-ilk-alinacak-ekipmanlar/"
    ],
@@ -2112,8 +2198,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "icerik_gelen": 9,
-   "toplam_gelen": 9,
+   "icerik_gelen": 10,
+   "toplam_gelen": 10,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2128,8 +2214,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2144,8 +2230,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 1,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2160,8 +2246,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 0,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
+   "icerik_gelen": 3,
+   "toplam_gelen": 3,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -2206,7 +2292,7 @@
    "alt_kategori": "okuma",
    "govde_gelen": 2,
    "icerik_gelen": 6,
-   "toplam_gelen": 182,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2336,14 +2422,15 @@
    "baslik": "Sıfırdan Gitar Öğrenmek: Doğru Ekipmanla Başla (2026)",
    "kategori": "muzik",
    "alt_kategori": "gitar",
-   "govde_gelen": 3,
-   "icerik_gelen": 6,
-   "toplam_gelen": 6,
+   "govde_gelen": 4,
+   "icerik_gelen": 7,
+   "toplam_gelen": 7,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/",
     "/makale/en-cok-satan-muzik-2026-w47/",
+    "/makale/en-cok-satan-muzik-2026-w48/",
     "/makale/evde-yapilacak-hobiler/"
    ],
    "makale_sayisi": null
@@ -2356,7 +2443,7 @@
    "alt_kategori": "bahcecilik",
    "govde_gelen": 3,
    "icerik_gelen": 7,
-   "toplam_gelen": 182,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2505,7 +2592,7 @@
    "alt_kategori": "yuzme",
    "govde_gelen": 0,
    "icerik_gelen": 7,
-   "toplam_gelen": 182,
+   "toplam_gelen": 7,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -2519,7 +2606,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 182,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2610,8 +2697,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "",
    "govde_gelen": 3,
-   "icerik_gelen": 13,
-   "toplam_gelen": 182,
+   "icerik_gelen": 14,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2619,7 +2706,7 @@
     "/makale/hobi-odasi-nasil-kurulur/",
     "/makale/orgu-tig-isi-baslangic-seti-ilk-alinacaklar-2026/"
    ],
-   "makale_sayisi": 11
+   "makale_sayisi": 12
   },
   {
    "yol": "/kategori/el-sanatlari/orgu-tig/",
@@ -2678,8 +2765,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "resim-boyama",
    "govde_gelen": 5,
-   "icerik_gelen": 14,
-   "toplam_gelen": 14,
+   "icerik_gelen": 15,
+   "toplam_gelen": 15,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2689,7 +2776,7 @@
     "/makale/hobi-odasi-nasil-kurulur/",
     "/makale/yetiskin-hobi-setleri/"
    ],
-   "makale_sayisi": 2
+   "makale_sayisi": 3
   },
   {
    "yol": "/kategori/el-sanatlari/mum-sabun/",
@@ -2748,15 +2835,15 @@
    "kategori": "muzik",
    "alt_kategori": "",
    "govde_gelen": 2,
-   "icerik_gelen": 15,
-   "toplam_gelen": 182,
+   "icerik_gelen": 16,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/gitar-nasil-calinir/",
     "/makale/sifirdan-gitar-ogrenmek/"
    ],
-   "makale_sayisi": 13
+   "makale_sayisi": 14
   },
   {
    "yol": "/kategori/muzik/gitar/",
@@ -2765,15 +2852,15 @@
    "kategori": "muzik",
    "alt_kategori": "gitar",
    "govde_gelen": 2,
-   "icerik_gelen": 12,
-   "toplam_gelen": 12,
+   "icerik_gelen": 13,
+   "toplam_gelen": 13,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/elektro-gitar-baslangic-seti-gitar-amfi-ve-ilk-pedal/",
     "/makale/sifirdan-gitar-ogrenmek/"
    ],
-   "makale_sayisi": 7
+   "makale_sayisi": 8
   },
   {
    "yol": "/kategori/muzik/klavye-piyano/",
@@ -2842,7 +2929,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 15,
-   "toplam_gelen": 182,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2939,15 +3026,15 @@
    "kategori": "koleksiyon",
    "alt_kategori": "",
    "govde_gelen": 2,
-   "icerik_gelen": 15,
-   "toplam_gelen": 182,
+   "icerik_gelen": 16,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/aile-kutu-oyunlari/",
     "/makale/en-iyi-kutu-oyunlari-2026/"
    ],
-   "makale_sayisi": 13
+   "makale_sayisi": 14
   },
   {
    "yol": "/kategori/koleksiyon/pul-para/",
@@ -2970,8 +3057,8 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 3,
-   "icerik_gelen": 12,
-   "toplam_gelen": 12,
+   "icerik_gelen": 13,
+   "toplam_gelen": 13,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2979,7 +3066,7 @@
     "/makale/lego-model-ai/",
     "/makale/lego-model-baslangic-seti-ilk-alinacaklar-2026/"
    ],
-   "makale_sayisi": 6
+   "makale_sayisi": 7
   },
   {
    "yol": "/kategori/koleksiyon/kart-oyunlari/",
@@ -3050,7 +3137,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 6,
-   "toplam_gelen": 182,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3171,7 +3258,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 182,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3265,7 +3352,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 9,
-   "toplam_gelen": 182,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3347,7 +3434,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 9,
-   "toplam_gelen": 182,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3428,7 +3515,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 10,
-   "toplam_gelen": 182,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3510,7 +3597,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 182,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3589,7 +3676,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 182,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3659,7 +3746,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 182,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3729,7 +3816,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 182,
+   "toplam_gelen": 185,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
