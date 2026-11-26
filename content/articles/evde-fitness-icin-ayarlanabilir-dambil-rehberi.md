@@ -4,7 +4,7 @@ slug: "evde-fitness-icin-ayarlanabilir-dambil-rehberi"
 category: "spor-fitness"
 subcategory: "evde-fitness"
 date: "2026-10-28"
-updated: "2026-11-09"
+updated: "2026-11-27"
 meta_title: "Ayarlanabilir Dambıl Rehberi: Evde Fitness | Hobi Bul"
 meta_description: "Evde fitness için ayarlanabilir dambıl: Bowflex 552, PowerBlock ve Yes4All. Bant ve mat ile üç paket; yerin darsa ağır sabit dambıl alma."
 excerpt: "Evde dambıl alacaksan yer kaplayan sabit set yerine ayarlanabilir bir çift düşün. Bowflex 552, 2,5 ile 25 kg arasında kilitlenir."
@@ -19,7 +19,7 @@ starter_label: "Bowflex 552 başlangıç dambılına bak"
 starter_text: "Yer darsa başlangıç parçası Bowflex 552. Aralık ürün notunda 2,5–25 kg. Güncel fiyatı Amazon'da kontrol et."
 draft: "false"
 ---
-Evde ağırlık çalışmaya karar verdiğinde her kilo için ayrı bir dambıl alıp odayı spor salonuna çevirmene gerek yok. Bir çift ayarlanabilir dambıl ile koca bir raf dolusu ağırlığı tek bir köşeye sığdırabilirsin. Bowflex 552 gibi bir sistemle 2,5 kilodan 25 kiloya kadar olan tüm ağırlıkları tek bir mekanizmada toplayıp yerden tasarruf edebilirsin. Sabit dambıllar başta kolay gelse de, güçlendikçe eve yeni ağırlıklar eklemek zorunda kalırsın; bu da hem bütçeni hem de odandaki alanı yorar. Bu notların bir arada durduğu yer [Spor & Fitness](/kategori/spor-fitness/).
+Evde ağırlık çalışmaya karar verdiğinde her kilo için ayrı bir dambıl alıp odayı spor salonuna çevirmene gerek yok. Bir çift ayarlanabilir dambıl ile koca bir raf dolusu ağırlığı tek bir köşeye sığdırabilirsin. Bowflex 552 gibi bir sistemle 2,5 kilodan 25 kiloya kadar olan tüm ağırlıkları tek bir mekanizmada toplayıp yerden tasarruf edebilirsin. Sabit dambıllar başta kolay gelse de, güçlendikçe eve yeni ağırlıklar eklemek zorunda kalırsın; bu da hem bütçeni hem de odandaki alanı yorar. Bu notların bir arada durduğu yer [Spor & Fitness](/kategori/spor-fitness/). Aynı yoga işinin devamı [Yoga Akışını Evde](/makale/yoga-akisini-evde-kurmak-icin-alan-ve-ekipman-duzeni/) rehberinde.
 
 ## Hangi Mekanizma Senin İçin Daha Kullanışlı?
 
@@ -147,4 +147,3 @@ TheraBand bantlar lateks içerdiği için kesinlikle kullanma. Isınma hareketle
 
 **Mat almasam olmaz mı?**
 Halıda çalışıyorsan belki idare edebilirsin ama parke gibi sert zeminlerde dizlerini ve dambılın mekanizmasını korumak için mat alman iyi olur.
-

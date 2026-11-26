@@ -61,7 +61,8 @@
   "bilgi:spor-fitness:yuzme:yuzmede-nefes-kontrolu-baslangic-icin-ritim",
   "bilgi:bahce-bitki:bahcecilik:sonbaharda-bahce-bakimi-kisa-hazirlik-adimlari",
   "bilgi:yazi-edebiyat:okuma:okuma-hizini-artirirken-anlamayi-kaybetmemek",
-  "bilgi:muzik:gitar:gitarda-akor-gecislerini-hizlandiran-pratik-rutini"
+  "bilgi:muzik:gitar:gitarda-akor-gecislerini-hizlandiran-pratik-rutini",
+  "bilgi:spor-fitness:yoga-pilates:yoga-akisini-evde-kurmak-icin-alan-ve-ekipman-duzeni"
  ],
  "photos": [
   "Q_7lgvvDLbQ",
@@ -122,7 +123,8 @@
   "ZbbhkQ0M2AM",
   "SJK01GnfZG4",
   "w_qTfiPbjbg",
-  "Q7zscqQpS28"
+  "Q7zscqQpS28",
+  "5Io0sH2XEdk"
  ],
  "atlanan": [
   {
@@ -2149,6 +2151,31 @@
    "anahtar": "bilgi:bilim-astronomi:meteoroloji:hava-durumu-tahminini-kendi-olcumlerinle-takip-etmek",
    "neden": "kısa (697 kelime, güvenlik tabanı 1000)",
    "tarih": "2026-11-26"
+  },
+  {
+   "anahtar": "bilgi:sanat:seramik-comlek:seramikte-camur-kuruma-catlaklarini-onlemenin-yollari",
+   "neden": "kısa (618 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-27"
+  },
+  {
+   "anahtar": "bilgi:sanat:dikis-nakis:dikis-makinesinde-dikis-atlamasinin-yaygin-nedenleri",
+   "neden": "kısa (511 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-27"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:evde-fitness:evde-spora-yer-acmak-kucuk-dairede-antrenman-duzeni",
+   "neden": "kısa (716 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-27"
+  },
+  {
+   "anahtar": "bilgi:sanat:fotografcilik:telefonla-urun-fotografi-cekerken-isik-nasil-ayarlanir",
+   "neden": "kısa (595 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-27"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:kosu:kosuya-baslarken-nefes-ve-tempo-ayarlama",
+   "neden": "kısa (576 kelime, güvenlik tabanı 1000)",
+   "tarih": "2026-11-27"
   }
  ],
  "makaleler": [
@@ -2446,6 +2473,11 @@
    "anahtar": "bilgi:muzik:gitar:gitarda-akor-gecislerini-hizlandiran-pratik-rutini",
    "tarih": "2026-11-21",
    "slug": "gitarda-akor-gecislerini-hizlandiran-pratik-rutini"
+  },
+  {
+   "anahtar": "bilgi:spor-fitness:yoga-pilates:yoga-akisini-evde-kurmak-icin-alan-ve-ekipman-duzeni",
+   "tarih": "2026-11-27",
+   "slug": "yoga-akisini-evde-kurmak-icin-alan-ve-ekipman-duzeni"
   }
  ],
  "talep": [

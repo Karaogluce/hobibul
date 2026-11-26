@@ -1,7 +1,7 @@
 {
  "tanim": "govde_gelen, başka bir makalenin gövdesinden gelen benzersiz iç linktir. Üst menü, altbilgi ve ekmek kırıntısı bu sayıda yoktur. yetim: yayındaki makale ya da içinde makalesi olan kategori sayfası, govde_gelen 0 veya 1 ise. Makalesi olmayan kategori sayfası menüden ulaşılır; alakasız gövde linki eklenmez ve makalesiz listesindedir. toplam_gelen, üretilmiş HTML içindeki diğer sayfalardan gelen benzersiz linktir. tik, ana sayfadan tıklama derinliğidir. gsc_oncelik, analytics_gsc.json içinde ortalama pozisyonu 8-20 olan sorguya denk sayfadır; dosya yoksa veya ok değilse boş kalır.",
  "ozet": {
-  "makale": 91,
+  "makale": 92,
   "kategori": 82,
   "yetim_makale": 46,
   "yetim_kategori": 19,
@@ -153,7 +153,7 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "resim-boyama",
    "govde_gelen": 0,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -189,7 +189,7 @@
    "kategori": "koleksiyon",
    "alt_kategori": "lego-model",
    "govde_gelen": 0,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -213,7 +213,7 @@
    "kategori": "muzik",
    "alt_kategori": "gitar",
    "govde_gelen": 0,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
@@ -322,7 +322,7 @@
    "alt_kategori": "yuzme",
    "govde_gelen": 0,
    "toplam_gelen": 7,
-   "tik": 1,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": []
   },
@@ -501,7 +501,7 @@
    "kategori": "spor-fitness",
    "alt_kategori": "yoga-pilates",
    "govde_gelen": 1,
-   "toplam_gelen": 8,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1018,7 +1018,7 @@
    "yol": "/kategori/seyahat-gezi/",
    "baslik": "Seyahat & Gezi",
    "govde_gelen": 0,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1
   },
   {
@@ -1053,7 +1053,7 @@
    "yol": "/kategori/yazilim-kodlama/",
    "baslik": "Yazılım & Kodlama",
    "govde_gelen": 0,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1
   },
   {
@@ -1571,8 +1571,8 @@
    "kategori": "el-sanatlari",
    "alt_kategori": "resim-boyama",
    "govde_gelen": 0,
-   "icerik_gelen": 23,
-   "toplam_gelen": 185,
+   "icerik_gelen": 11,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1614,7 +1614,7 @@
    "alt_kategori": "lego-model",
    "govde_gelen": 0,
    "icerik_gelen": 11,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1642,7 +1642,7 @@
    "alt_kategori": "gitar",
    "govde_gelen": 0,
    "icerik_gelen": 11,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -1834,8 +1834,8 @@
    "kategori": "spor-fitness",
    "alt_kategori": "evde-fitness",
    "govde_gelen": 3,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -1956,7 +1956,7 @@
    "alt_kategori": "gitar",
    "govde_gelen": 2,
    "icerik_gelen": 11,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2163,8 +2163,8 @@
    "kategori": "spor-fitness",
    "alt_kategori": "kosu",
    "govde_gelen": 2,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2292,7 +2292,7 @@
    "alt_kategori": "okuma",
    "govde_gelen": 2,
    "icerik_gelen": 6,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2443,7 +2443,7 @@
    "alt_kategori": "bahcecilik",
    "govde_gelen": 3,
    "icerik_gelen": 7,
-   "toplam_gelen": 185,
+   "toplam_gelen": 7,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2568,14 +2568,31 @@
    "makale_sayisi": null
   },
   {
+   "yol": "/makale/yoga-akisini-evde-kurmak-icin-alan-ve-ekipman-duzeni/",
+   "tur": "makale",
+   "baslik": "Yoga Akışını Evde Kurmak İçin Alan ve Ekipman Düzeni",
+   "kategori": "spor-fitness",
+   "alt_kategori": "yoga-pilates",
+   "govde_gelen": 2,
+   "icerik_gelen": 20,
+   "toplam_gelen": 186,
+   "tik": 1,
+   "gsc_oncelik": false,
+   "govde_kaynaklar": [
+    "/makale/evde-fitness-icin-ayarlanabilir-dambil-rehberi/",
+    "/makale/yoga-mati-secimi-yeni-baslayanlar-icin/"
+   ],
+   "makale_sayisi": null
+  },
+  {
    "yol": "/makale/yoga-mati-secimi-yeni-baslayanlar-icin/",
    "tur": "makale",
    "baslik": "Yoga Matı Seçimi: Yeni Başlayanlar İçin Kalınlık, Kaymaz Taban ve Kayış",
    "kategori": "spor-fitness",
    "alt_kategori": "yoga-pilates",
    "govde_gelen": 2,
-   "icerik_gelen": 7,
-   "toplam_gelen": 7,
+   "icerik_gelen": 6,
+   "toplam_gelen": 6,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2593,7 +2610,7 @@
    "govde_gelen": 0,
    "icerik_gelen": 7,
    "toplam_gelen": 7,
-   "tik": 1,
+   "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
    "makale_sayisi": null
@@ -2606,7 +2623,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2698,7 +2715,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 14,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2836,7 +2853,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 16,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -2929,7 +2946,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 15,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3027,7 +3044,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 16,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3136,15 +3153,15 @@
    "kategori": "spor-fitness",
    "alt_kategori": "",
    "govde_gelen": 2,
-   "icerik_gelen": 6,
-   "toplam_gelen": 185,
+   "icerik_gelen": 7,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/evde-fitness-icin-ayarlanabilir-dambil-rehberi/",
     "/makale/kosu-ayakkabisi-secimi-yeni-baslayanlar-icin/"
    ],
-   "makale_sayisi": 4
+   "makale_sayisi": 5
   },
   {
    "yol": "/kategori/spor-fitness/kosu/",
@@ -3169,14 +3186,14 @@
    "kategori": "spor-fitness",
    "alt_kategori": "yoga-pilates",
    "govde_gelen": 1,
-   "icerik_gelen": 8,
-   "toplam_gelen": 8,
+   "icerik_gelen": 9,
+   "toplam_gelen": 9,
    "tik": 2,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
     "/makale/yoga-mati-secimi-yeni-baslayanlar-icin/"
    ],
-   "makale_sayisi": 1
+   "makale_sayisi": 2
   },
   {
    "yol": "/kategori/spor-fitness/evde-fitness/",
@@ -3258,7 +3275,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3352,7 +3369,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 9,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3434,7 +3451,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 9,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3515,7 +3532,7 @@
    "alt_kategori": "",
    "govde_gelen": 3,
    "icerik_gelen": 10,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3597,7 +3614,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
@@ -3676,7 +3693,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3746,7 +3763,7 @@
    "alt_kategori": "",
    "govde_gelen": 0,
    "icerik_gelen": 1,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [],
@@ -3816,7 +3833,7 @@
    "alt_kategori": "",
    "govde_gelen": 2,
    "icerik_gelen": 5,
-   "toplam_gelen": 185,
+   "toplam_gelen": 186,
    "tik": 1,
    "gsc_oncelik": false,
    "govde_kaynaklar": [
