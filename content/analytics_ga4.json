@@ -1,5 +1,5 @@
 {
- "generated_at": "2026-11-25",
+ "generated_at": "2026-11-26",
  "period_days": 30,
  "visitors_daily": [
   {
@@ -118,7 +118,7 @@
   },
   {
    "name": "Unassigned",
-   "sessions": 3
+   "sessions": 2
   }
  ],
  "top_pages": [
